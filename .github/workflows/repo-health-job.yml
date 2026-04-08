@@ -1,0 +1,55 @@
+name: Repo Health Workflow Call
+
+on:
+  schedule:
+    # Run at 04:00 UTC (09:00 AM PKT) everyday.
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+    inputs:
+      repo_health_branch:
+        description: "Target branch of edx repo health to use for running checks"
+        type: string
+        default: "master"
+      report_date:
+        description: "The date for which repo health data is required. (format: YYYY-MM-DD)"
+        type: string
+        default: ""
+      org_names:
+        description: "Space separated list of org names"
+        type: string
+        default: "openedx"
+
+jobs:
+  set-default-inputs:
+    runs-on: ubuntu-latest
+    outputs:
+      repo_health_branch: ${{ steps.set_repo_health_value.outputs.REPO_HEALTH_BRANCH }}
+      orgs: ${{ steps.set_orgs_value.outputs.ORGS }}
+    steps:
+      - name: Set repo health value
+        id: set_repo_health_value
+        run: |
+          repo_health_input="${{ github.event.inputs.repo_health_branch }}"
+          echo "REPO_HEALTH_BRANCH=${repo_health_input:-"master"}" >> "$GITHUB_OUTPUT"
+      - name: Set orgs value
+        id: set_orgs_value
+        run: |
+          orgs_input="${{ github.event.inputs.org_names }}"
+          echo "ORGS=${orgs_input:-"openedx"}" >> "$GITHUB_OUTPUT"
+
+  call-repo-health-job-workflow:
+    needs: [set-default-inputs]
+    with:
+      REPORT_DATE: ${{ github.event.inputs.report_date }}
+      EDX_REPO_HEALTH_BRANCH: ${{ needs.set-default-inputs.outputs.repo_health_branch }}
+      ORG_NAMES: ${{ needs.set-default-inputs.outputs.orgs }}
+      TARGET_REPO_TO_STORE_REPORTS: "openedx/wg-maintenance"
+    secrets:
+      REPO_HEALTH_BOT_TOKEN: ${{ secrets.REPO_HEALTH_BOT_TOKEN }}
+      REPO_HEALTH_BOT_EMAIL: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
+      # Required by the reusable workflow signature. No spreadsheet URL is passed so
+      # the Google Sheets sync step is skipped. Set this secret to any non-empty value
+      # (e.g. "{}") until Google Sheets integration is configured or upstream is updated to make this optional.
+      REPO_HEALTH_GOOGLE_CREDS_FILE: ${{ secrets.REPO_HEALTH_GOOGLE_CREDS_FILE }}
+      READTHEDOCS_API_KEY: ${{ secrets.READTHEDOCS_API_KEY }}
+    uses: openedx/.github/.github/workflows/repo-health-job.yml@master

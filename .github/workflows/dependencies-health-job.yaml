@@ -1,0 +1,56 @@
+name: Dependencies Health Workflow Call
+
+on:
+  schedule:
+    # Run at 04:00 UTC (09:00 AM PKT) everyday.
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+    inputs:
+      repo_health_branch:
+        description: "Target branch of edx repo health to use for running checks"
+        type: string
+        default: "master"
+      report_date:
+        description: "The date for which dependency health data is required. (format: YYYY-MM-DD)"
+        type: string
+        default: ""
+      dashboard_name:
+        description: "Name of dashboard want to update"
+        type: string
+        default: "py_dependency_health"
+
+jobs:
+  set-default-inputs:
+    runs-on: ubuntu-latest
+    outputs:
+      repo_health_branch: ${{ steps.set_repo_health_value.outputs.REPO_HEALTH_BRANCH }}
+      dashboard_name: ${{ steps.set_dashboard_name_value.outputs.DASHBOARD_NAME }}
+    steps:
+      - name: Set repo health value
+        id: set_repo_health_value
+        run: |
+          repo_health_input="${{ github.event.inputs.repo_health_branch }}"
+          echo "REPO_HEALTH_BRANCH=${repo_health_input:-"master"}" >> "$GITHUB_OUTPUT"
+      - name: Set dashboard name value
+        id: set_dashboard_name_value
+        run: |
+          dashboard_name_input="${{ github.event.inputs.dashboard_name }}"
+          echo "DASHBOARD_NAME=${dashboard_name_input:-"py_dependency_health"}" >> "$GITHUB_OUTPUT"
+
+  call-repo-health-job-workflow:
+    needs: [set-default-inputs]
+    with:
+      REPORT_DATE: ${{ github.event.inputs.report_date }}
+      EDX_REPO_HEALTH_BRANCH: ${{ needs.set-default-inputs.outputs.repo_health_branch }}
+      DASHBOARD_NAME: ${{ needs.set-default-inputs.outputs.dashboard_name }}
+      TARGET_REPO_TO_STORE_REPORTS: "openedx/wg-maintenance"
+      ENABLE_EMAIL_ALERTS: true
+    secrets:
+      READTHEDOCS_API_KEY: ${{ secrets.READTHEDOCS_API_KEY }}
+      REPO_HEALTH_GOOGLE_CREDS_FILE: ${{ secrets.REPO_HEALTH_GOOGLE_CREDS_FILE }}
+      REPO_HEALTH_BOT_TOKEN: ${{ secrets.REPO_HEALTH_BOT_TOKEN }}
+      REPO_HEALTH_BOT_EMAIL: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
+      # SMTP_USERNAME: ${{ secrets.edx_smtp_username }}
+      # SMTP_PASSWORD: ${{ secrets.edx_smtp_password }}
+      # EMAIL_ADDRESS_FOR_ALERTS: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
+    uses: openedx/.github/.github/workflows/repo-health-job.yml@master
