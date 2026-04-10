@@ -39,13 +39,15 @@ jobs:
 
   call-repo-health-job-workflow:
     needs: [set-default-inputs]
+    permissions:
+      contents: write
     with:
       REPORT_DATE: ${{ github.event.inputs.report_date }}
       EDX_REPO_HEALTH_BRANCH: ${{ needs.set-default-inputs.outputs.repo_health_branch }}
       ORG_NAMES: ${{ needs.set-default-inputs.outputs.orgs }}
       TARGET_REPO_TO_STORE_REPORTS: "openedx/wg-maintenance"
     secrets:
-      REPO_HEALTH_BOT_TOKEN: ${{ secrets.REPO_HEALTH_BOT_TOKEN }}
+      REPO_HEALTH_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO_HEALTH_BOT_EMAIL: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
       # Required by the reusable workflow signature. No spreadsheet URL is passed so
       # the Google Sheets sync step is skipped. Set this secret to any non-empty value

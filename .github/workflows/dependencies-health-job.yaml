@@ -39,6 +39,8 @@ jobs:
 
   call-repo-health-job-workflow:
     needs: [set-default-inputs]
+    permissions:
+      contents: write
     with:
       REPORT_DATE: ${{ github.event.inputs.report_date }}
       EDX_REPO_HEALTH_BRANCH: ${{ needs.set-default-inputs.outputs.repo_health_branch }}
@@ -48,9 +50,6 @@ jobs:
     secrets:
       READTHEDOCS_API_KEY: ${{ secrets.READTHEDOCS_API_KEY }}
       REPO_HEALTH_GOOGLE_CREDS_FILE: ${{ secrets.REPO_HEALTH_GOOGLE_CREDS_FILE }}
-      REPO_HEALTH_BOT_TOKEN: ${{ secrets.REPO_HEALTH_BOT_TOKEN }}
+      REPO_HEALTH_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO_HEALTH_BOT_EMAIL: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
-      # SMTP_USERNAME: ${{ secrets.edx_smtp_username }}
-      # SMTP_PASSWORD: ${{ secrets.edx_smtp_password }}
-      # EMAIL_ADDRESS_FOR_ALERTS: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
     uses: openedx/.github/.github/workflows/repo-health-job.yml@master
