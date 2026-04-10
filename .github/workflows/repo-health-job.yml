@@ -46,6 +46,7 @@ jobs:
       EDX_REPO_HEALTH_BRANCH: ${{ needs.set-default-inputs.outputs.repo_health_branch }}
       ORG_NAMES: ${{ needs.set-default-inputs.outputs.orgs }}
       TARGET_REPO_TO_STORE_REPORTS: "openedx/wg-maintenance"
+      TARGET_REPO_BRANCH: "main"
     secrets:
       REPO_HEALTH_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO_HEALTH_BOT_EMAIL: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
