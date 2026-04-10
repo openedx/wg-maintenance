@@ -53,6 +53,6 @@ jobs:
       # Required by the reusable workflow signature. No spreadsheet URL is passed so
       # the Google Sheets sync step is skipped. Set this secret to any non-empty value
       # (e.g. "{}") until Google Sheets integration is configured or upstream is updated to make this optional.
-      REPO_HEALTH_GOOGLE_CREDS_FILE: ${{ secrets.REPO_HEALTH_GOOGLE_CREDS_FILE }}
-      READTHEDOCS_API_KEY: ${{ secrets.READTHEDOCS_API_KEY }}
+      # REPO_HEALTH_GOOGLE_CREDS_FILE: ${{ secrets.REPO_HEALTH_GOOGLE_CREDS_FILE }}
+      # READTHEDOCS_API_KEY: ${{ secrets.READTHEDOCS_API_KEY }}
     uses: openedx/.github/.github/workflows/repo-health-job.yml@master
