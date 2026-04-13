@@ -18,6 +18,10 @@ on:
         description: "Space separated list of org names"
         type: string
         default: "openedx"
+      max_repos:
+        description: "Max number of repos to process (leave blank for all)"
+        type: string
+        default: ""
 
 jobs:
   set-default-inputs:
@@ -47,12 +51,13 @@ jobs:
       ORG_NAMES: ${{ needs.set-default-inputs.outputs.orgs }}
       TARGET_REPO_TO_STORE_REPORTS: "openedx/wg-maintenance"
       TARGET_REPO_BRANCH: "main"
+      MAX_REPOS: ${{ github.event.inputs.max_repos }}
     secrets:
       REPO_HEALTH_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO_HEALTH_BOT_EMAIL: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
       # Required by the reusable workflow signature. No spreadsheet URL is passed so
       # the Google Sheets sync step is skipped. Set this secret to any non-empty value
       # (e.g. "{}") until Google Sheets integration is configured or upstream is updated to make this optional.
-      REPO_HEALTH_GOOGLE_CREDS_FILE: ${{ secrets.REPO_HEALTH_GOOGLE_CREDS_FILE }}
-      READTHEDOCS_API_KEY: ${{ secrets.READTHEDOCS_API_KEY }}
+      # REPO_HEALTH_GOOGLE_CREDS_FILE: ${{ secrets.REPO_HEALTH_GOOGLE_CREDS_FILE }}
+      # READTHEDOCS_API_KEY: ${{ secrets.READTHEDOCS_API_KEY }}
     uses: openedx/.github/.github/workflows/repo-health-job.yml@master
