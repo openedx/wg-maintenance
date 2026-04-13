@@ -18,6 +18,10 @@ on:
         description: "Space separated list of org names"
         type: string
         default: "openedx"
+      max_repos:
+        description: "Max number of repos to process (leave blank for all)"
+        type: string
+        default: ""
 
 jobs:
   set-default-inputs:
@@ -47,6 +51,7 @@ jobs:
       ORG_NAMES: ${{ needs.set-default-inputs.outputs.orgs }}
       TARGET_REPO_TO_STORE_REPORTS: "openedx/wg-maintenance"
       TARGET_REPO_BRANCH: "main"
+      MAX_REPOS: ${{ github.event.inputs.max_repos }}
     secrets:
       REPO_HEALTH_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO_HEALTH_BOT_EMAIL: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
