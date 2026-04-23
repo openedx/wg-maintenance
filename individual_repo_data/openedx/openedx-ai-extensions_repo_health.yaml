@@ -1,0 +1,174 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 0
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: false
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: false
+    package.json: false
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 2
+    build_details: '{"total_duration": "2293 minutes 2 seconds", "checks": [{"name":
+        "Frontend Tests (ubuntu-latest, 20)", "duration": "2 minutes 10 seconds"},
+        {"name": "Backend Tests (ubuntu-latest, 3.12, django42)", "duration": "2 minutes
+        7 seconds"}, {"name": "Backend Tests (ubuntu-latest, 3.12, quality)", "duration":
+        "1 minutes 27 seconds"}, {"name": "Plugin / Docs Tests (ubuntu-latest, 3.12)",
+        "duration": "0 minutes 59 seconds"}, {"name": "Backend Tests (ubuntu-latest,
+        3.12, pii_check)", "duration": "0 minutes 50 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 51 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2025-07-29 15:04:02
+    default_branch: main
+    description: An edx-platform plugin that will house tools and helpers for working
+        with AI.
+    disk_usage_kb: 2972
+    fork_count: 6
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-14 09:41:59
+    license: GNU AGPLv3
+    pulls_count: 2
+github_actions: true
+language_bytes:
+    css: 839
+    dockerfile: 0
+    html: 6200
+    javascript: 389
+    makefile: 5981
+    python: 720588
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://docs.openedx.org/en/latest/developers/references/plugin_reference.html:
+        404'
+    getting-help: false
+    good_links:
+    - https://img.shields.io/badge/Status-Experimental-orange
+    - https://img.shields.io/badge/License-AGPL%20v3-blue
+    - https://img.shields.io/badge/Documentation-green
+    - https://docs.openedx.org/projects/openedx-ai-extensions/en/latest/index.html
+    - https://github.com/openedx/openedx-ai-extensions.git
+    - https://docs.openedx.org/en/latest/developers/quickstarts/so_you_want_to_contribute.html
+    - https://discuss.openedx.org
+    - https://www.canva.com/design/DAGqjcS2mT4/nTHQIDIeZ89wqsBvh9GWKA/view
+    - https://docs.litellm.ai/
+    - https://drive.google.com/file/d/1sUj2xoldYFAvPoDuxqwG0XbIundGD0u2/view
+    - https://github.com/openedx/openedx-ai-extensions/issues
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

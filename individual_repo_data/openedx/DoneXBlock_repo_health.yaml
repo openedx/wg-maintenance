@@ -1,0 +1,214 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 120
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 16
+        list: '["markupsafe==3.0.3", "sqlparse==0.5.5", "simplejson==4.0.1", "appdirs==1.4.4",
+            "pytz==2026.1.post1", "pyyaml==6.0.3", "xblock==6.0.0", "fs==2.4.16",
+            "lxml==6.1.0", "webob==1.8.9", "mako==1.3.11", "asgiref==3.11.1", "python-dateutil==2.9.0.post0",
+            "six==1.17.0", "django==5.2.13", "web-fragments==4.0.0"]'
+    pypi_all:
+        count: 120
+        list: '["simplejson==4.0.1", "appdirs==1.4.4", "pylint-celery==0.3", "path==16.16.0",
+            "soupsieve==2.8.3", "edx-lint==6.0.0", "dill==0.4.1", "lxml==6.1.0", "mccabe==0.7.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "tzdata==2026.1", "lxml-html-clean==0.4.4",
+            "six==1.17.0", "idna==3.11", "keyring==25.7.0", "text-unidecode==1.3",
+            "platformdirs==4.9.6", "urllib3==2.6.3", "beautifulsoup4==4.14.3", "pylint-django==2.7.0",
+            "pluggy==1.6.0", "pygments==2.20.0", "sphinxcontrib-qthelp==2.0.0", "shellingham==1.5.4",
+            "edx-i18n-tools==2.0.0", "arrow==1.4.0", "jaraco-context==6.1.2", "build==1.4.3",
+            "polib==1.2.0", "typer==0.24.1", "sphinxcontrib-jsmath==1.0.1", "python-dateutil==2.9.0.post0",
+            "django==5.2.13", "webob==1.8.9", "stevedore==5.7.0", "click==8.3.2",
+            "jaraco-classes==3.4.0", "nh3==0.3.4", "pypng==0.20220715.0", "python-slugify==8.0.4",
+            "markdown-it-py==4.0.0", "certifi==2026.2.25", "web-fragments==4.0.0",
+            "pip==26.0.1", "snowballstemmer==3.0.1", "accessible-pygments==0.0.5",
+            "annotated-doc==0.0.4", "lxml[html-clean]==6.1.0", "mako==1.3.11", "python-discovery==1.2.2",
+            "pyproject-api==1.10.0", "binaryornot==0.6.0", "imagesize==2.0.0", "pip-tools==7.5.3",
+            "docutils==0.22.4", "id==1.6.1", "twine==6.2.0", "cryptography==46.0.7",
+            "tomlkit==0.14.0", "setuptools==82.0.1", "pyyaml==6.0.3", "fs==2.4.16",
+            "readme-renderer==44.0", "asgiref==3.11.1", "secretstorage==3.5.0", "boto3==1.42.91",
+            "colorama==0.4.6", "sqlparse==0.5.5", "iniconfig==2.3.0", "rich==15.0.0",
+            "sphinxcontrib-applehelp==2.0.0", "jinja2==3.1.6", "sphinx==9.1.0", "distlib==0.4.0",
+            "sphinxcontrib-devhelp==2.0.0", "sphinx-book-theme==1.2.0", "requests-toolbelt==1.0.0",
+            "botocore==1.42.91", "s3transfer==0.16.0", "ddt==1.7.2", "packaging==26.1",
+            "filelock==3.29.0", "pytest==9.0.3", "pylint-plugin-utils==0.9.0", "pycodestyle==2.14.0",
+            "mdurl==0.1.2", "pylint==4.0.5", "code-annotations==3.0.0", "tomli-w==1.2.0",
+            "cachetools==7.0.5", "charset-normalizer==3.4.7", "click-log==0.4.0",
+            "coveralls==4.1.0", "pydata-sphinx-theme==0.16.1", "jaraco-functools==4.4.0",
+            "more-itertools==11.0.2", "tox==4.53.0", "fs-s3fs==1.1.1", "rfc3986==2.0.0",
+            "xblock-sdk==0.14.0", "pycparser==3.0", "astroid==4.0.4", "requests==2.33.1",
+            "isort==8.0.1", "alabaster==1.0.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "jeepney==0.9.0", "babel==2.18.0", "wheel==0.46.3", "cffi==2.0.0", "pyproject-hooks==1.2.0",
+            "markupsafe==3.0.3", "xblock==6.0.0", "pytz==2026.1.post1", "roman-numerals==4.1.0",
+            "typing-extensions==4.15.0", "cookiecutter==2.7.1", "coverage[toml]==7.13.5",
+            "virtualenv==21.2.4", "jmespath==1.1.0"]'
+django_packages:
+    django_42:
+        count: 6
+        list: '["xblock", "xblock-sdk", "pylint-django", "code-annotations", "web-fragments",
+            "edx-i18n-tools"]'
+    total:
+        count: 6
+        list: '["xblock", "xblock-sdk", "pylint-django", "code-annotations", "web-fragments",
+            "edx-i18n-tools"]'
+    upgraded:
+        count: 5
+        list: '["xblock", "xblock-sdk", "code-annotations", "web-fragments", "edx-i18n-tools"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: false
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: false
+    allows_squash_merge: true
+    branch_count: 36
+    build_details: '{"total_duration": "4658 minutes 12 seconds", "checks": [{"name":
+        "Analyze (javascript)", "duration": "1 minutes 17 seconds"}, {"name": "Analyze
+        (javascript)", "duration": "1 minutes 16 seconds"}, {"name": "Analyze (python)",
+        "duration": "1 minutes 2 seconds"}, {"name": "Analyze (python)", "duration":
+        "1 minutes 1 seconds"}, {"name": "Tests (3.12, django52)", "duration": "0
+        minutes 46 seconds"}, {"name": "Tests (3.12, quality)", "duration": "0 minutes
+        45 seconds"}, {"name": "Tests (3.12, django42)", "duration": "0 minutes 45
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 30 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 30 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 29 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 29 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2017-07-07 16:01:04
+    default_branch: master
+    description: 'An XBlock for students to mark they''ve finished something. '
+    disk_usage_kb: 643
+    fork_count: 24
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-20 06:25:14
+    license: GNU AGPLv3
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 2185
+    dockerfile: 290
+    html: 1526
+    javascript: 1496
+    makefile: 3794
+    python: 11612
+    shell: 367
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://www.gnu.org/licenses/agpl-3.0: 403'
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock:
+        404'
+    getting-help: true
+    good_links:
+    - https://img.shields.io/badge/License-AGPL_v3-blue.svg
+    - https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
+    - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
+    - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
+    - https://img.shields.io/badge/status-maintained-31c653
+    - https://openedx.org/r/xblock
+    - https://docs.tutor.edly.io/configuration.html
+    - https://discuss.openedx.org
+    - https://github.com/openedx/DoneXBlock/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: done-xblock
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/DoneXBlock
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages:
+    - gettext
+    yml_files: '[]'

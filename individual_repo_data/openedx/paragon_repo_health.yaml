@@ -1,0 +1,245 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 93
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 44
+        list: '{"@popperjs/core": "^2.11.4", "@tokens-studio/sd-transforms": "^1.2.4",
+            "axios": "^1.0.0", "bootstrap": "^4.6.2", "chalk": "^4.1.2", "child_process":
+            "^1.0.2", "chroma-js": "^3.0.0", "classnames": "^2.3.1", "cli-progress":
+            "^3.12.0", "commander": "^9.4.1", "email-prop-type": "^3.0.0", "file-selector":
+            "^0.10.0", "glob": "^13.0.0", "inquirer": "^8.2.5", "js-toml": "^1.0.0",
+            "lodash.uniqby": "^4.7.0", "log-update": "^4.0.0", "lz-string": "^1.5.0",
+            "mailto-link": "^2.0.0", "minimist": "^1.2.8", "ora": "^5.4.1", "postcss":
+            "^8.4.21", "postcss-combine-duplicated-selectors": "^10.0.3", "postcss-custom-media":
+            "^9.1.2", "postcss-import": "^15.1.0", "postcss-map": "^0.11.0", "postcss-minify":
+            "^1.1.0", "prop-types": "^15.8.1", "react-bootstrap": "^1.6.5", "react-colorful":
+            "^5.6.1", "react-dropzone": "^14.2.1", "react-focus-on": "^3.5.4", "react-imask":
+            "^7.1.3", "react-loading-skeleton": "^3.1.0", "react-popper": "^2.2.5",
+            "react-proptype-conditional-require": "^1.0.4", "react-responsive": "^10.0.0",
+            "react-table": "^7.7.0", "react-transition-group": "^4.4.2", "sass": "^1.58.3",
+            "style-dictionary": "^4.4.0", "tabbable": "^5.3.3", "uncontrollable":
+            "^7.2.1", "uuid": "^9.0.0"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 49
+        list: '{"@babel/cli": "^7.16.8", "@babel/core": "^7.17.8", "@babel/eslint-parser":
+            "^7.18.2", "@babel/plugin-proposal-class-properties": "^7.16.7", "@babel/plugin-proposal-object-rest-spread":
+            "^7.16.7", "@babel/preset-env": "^7.16.8", "@babel/preset-react": "^7.16.7",
+            "@babel/preset-typescript": "^7.16.7", "@edx/browserslist-config": "^1.5.0",
+            "@edx/eslint-config": "^4.4.0", "@edx/stylelint-config-edx": "^2.3.0",
+            "@edx/typescript-config": "^1.1.0", "@formatjs/cli": "^5.0.2", "@semantic-release/changelog":
+            "^6.0.1", "@semantic-release/git": "^10.0.1", "@testing-library/jest-dom":
+            "^6.6", "@testing-library/react": "^16.1", "@testing-library/user-event":
+            "^14.5", "@types/jest": "^29.5.10", "@types/react": "^18", "@types/react-dom":
+            "^18", "@types/react-responsive": "^9.0.0", "@types/react-table": "^7.7.19",
+            "@types/react-test-renderer": "^18.0.0", "@types/uuid": "^9.0.0", "@typescript-eslint/eslint-plugin":
+            "^5.22.0", "@typescript-eslint/parser": "^5.22.0", "axios-mock-adapter":
+            "^2.0.0", "babel-jest": "^29.7.0", "babel-loader": "^8.2.4", "commander":
+            "^9.3.0", "eslint": "8.57.1", "eslint-config-airbnb": "19.0.4", "eslint-config-airbnb-typescript":
+            "^17.0.0", "eslint-plugin-import": "2.32.0", "eslint-plugin-jsonc": "^2.18.1",
+            "eslint-plugin-jsx-a11y": "6.10.2", "identity-obj-proxy": "^3.0.0", "jest":
+            "^29.7.0", "jest-cli": "^29.7.0", "jest-environment-jsdom": "^29.7.0",
+            "markdown-loader-jest": "^0.1.1", "react": "^18", "react-test-renderer":
+            "^18", "regenerator-runtime": "^0.14.0", "semantic-release": "^25.0.0",
+            "stylelint": "^15.11.0", "ts-jest": "^29.1.2", "typescript": "^4.7.4"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 177
+    build_details: '{"total_duration": "18 minutes 59 seconds", "checks": [{"name":
+        "Release", "duration": "18 minutes 53 seconds"}, {"name": "tests", "duration":
+        "12 minutes 28 seconds"}, {"name": "Pages changed - paragon-openedx-v23",
+        "duration": "2 minutes 2 seconds"}, {"name": "Header rules - paragon-openedx-v23",
+        "duration": "2 minutes 2 seconds"}, {"name": "Redirect rules - paragon-openedx-v23",
+        "duration": "2 minutes 2 seconds"}, {"name": "Pages changed - paragon-openedx",
+        "duration": "1 minutes 22 seconds"}, {"name": "Header rules - paragon-openedx",
+        "duration": "1 minutes 22 seconds"}, {"name": "Redirect rules - paragon-openedx",
+        "duration": "1 minutes 22 seconds"}, {"name": "commitlint / commitlint", "duration":
+        "0 minutes 19 seconds"}, {"name": "Syncing branches", "duration": "0 minutes
+        10 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        5 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        5 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2017-04-27 18:57:22
+    default_branch: release-23.x
+    description: "\U0001F48E An accessible, theme-ready design system built for learning\
+        \ applications and Open edX."
+    disk_usage_kb: 350136
+    fork_count: 97
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-23 15:13:05
+    license: Apache License 2.0
+    pulls_count: 60
+github_actions: true
+language_bytes:
+    css: 271597
+    dockerfile: 0
+    html: 237
+    javascript: 4362994
+    makefile: 2202
+    python: 0
+    shell: 2709
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://www.npmjs.com/package/@openedx/paragon: 403'
+    - 'https://cdn.jsdelivr.net/npm/@my-brand/core.min.css: 404'
+    - 'https://cdn.jsdelivr.net/npm/@my-brand/light.min.css: 404'
+    - 'https://github.com/openedx/eslint-config-edx/tree/master/packages/eslint-config-edx:
+        404'
+    - 'https://www.npmjs.com/package/eslint-config-airbnb: 403'
+    - 'https://facebook.github.io/jest/: 404'
+    - 'https://facebook.github.io/jest/docs/en/api.html: 404'
+    - 'https://facebook.github.io/jest/docs/en/getting-started.html: 404'
+    - 'http://facebook.github.io/jest/docs/en/snapshot-testing.html: 404'
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/paragon/actions/workflows/release.yml/badge.svg
+    - https://github.com/openedx/paragon/actions/workflows/release.yml
+    - https://img.shields.io/npm/v/@openedx/paragon.svg
+    - https://img.shields.io/badge/status-Maintained-brightgreen
+    - https://img.shields.io/github/license/openedx/paragon.svg
+    - https://codecov.io/gh/edx/paragon/branch/master/graph/badge.svg?token=x1tZmNduy9
+    - https://codecov.io/gh/edx/paragon
+    - https://img.shields.io/npm/dw/@openedx/paragon
+    - https://www.w3.org/WAI/standards-guidelines/aria/
+    - https://openedx.org/
+    - https://paragon-openedx.netlify.app/
+    - https://openedx.org/slack
+    - https://openedx.slack.com/archives/C02NR285KV4
+    - https://github.com/openedx/paragon/issues/new?template=blank-issue.md
+    - https://calendar.google.com/calendar/embed?src=c_v86shrnegshsqgp4fj2k94u7bc%40group.calendar.google.com&ctz=America%2FNew_York
+    - https://github.com/openedx/brand-openedx
+    - https://formatjs.io/docs/react-intl/
+    - https://github.com/openedx/paragon/tree/release-22.x
+    - https://paragon-openedx-v22.netlify.app/
+    - https://github.com/openedx/paragon/tree/release-23.x
+    - https://paragon-openedx-v23.netlify.app/
+    - https://github.com/openedx/paragon/tree/next
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    - https://github.com/openedx/paragon/issues
+    - https://github.com/orgs/openedx/projects/43/views/15
+    - https://github.com/openedx/frontend-build
+    - http://eslint.org/docs/user-guide/integrations
+    - http://eslint.org/docs/rules/comma-dangle
+    - https://github.com/evcohen/eslint-plugin-jsx-a11y
+    - https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-interactions.md
+    - https://github.com/airbnb/enzyme
+    - http://airbnb.io/enzyme/
+    - http://airbnb.io/enzyme/docs/api/index.html
+    - https://github.com/openedx/paragon/blob/master/src/Dropdown/deprecated/Dropdown.test.jsx
+    - https://github.com/openedx/paragon/blob/master/src/CheckBox/CheckBox.test.jsx
+    - https://github.com/semantic-release/semantic-release
+    - https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular
+    - https://github.com/conventional-changelog/commitlint/blob/master/%40commitlint/config-angular-type-enum/index.js
+    - https://github.com/openedx/frontend-app-payment/pull/48
+    - https://backstage.openedx.org/catalog/default/component/paragon
+    - https://github.com/amzn/style-dictionary
+    - https://github.com/openedx/frontend-platform/pull/440
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-04-22'
+    oldest_open_pr_date: '2025-10-10'
+    total_open_prs: 12
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

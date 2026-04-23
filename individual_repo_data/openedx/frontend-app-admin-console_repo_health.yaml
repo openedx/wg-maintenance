@@ -1,0 +1,181 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 22
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 12
+        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^2.0.0", "@edx/frontend-component-header":
+            "^8.0.0", "@edx/frontend-platform": "^8.7.0", "@edx/openedx-atlas": "^0.7.0",
+            "@openedx/frontend-plugin-framework": "^1.7.0", "@openedx/paragon": "^23.15.1",
+            "@tanstack/react-query": "5.96.2", "lodash.debounce": "^4.0.8", "react":
+            "^18.3.1", "react-dom": "^18.3.1", "react-error-boundary": "^4.1.2", "react-router-dom":
+            "^6.30.3"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 10
+        list: '{"@edx/browserslist-config": "^1.1.1", "@edx/typescript-config": "1.1.0",
+            "@openedx/frontend-build": "^14.6.6", "@testing-library/dom": "^10.4.1",
+            "@testing-library/jest-dom": "^6.6.4", "@testing-library/react": "^16.3.0",
+            "@testing-library/user-event": "^14.6.1", "@types/react": "^18", "@types/react-dom":
+            "^18", "ts-jest": "^29.4.5"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 4
+    build_details: '{"total_duration": "62 minutes 2 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 51 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 3 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2025-09-23 11:32:49
+    default_branch: master
+    description: Administrator console for the Open edX application
+    disk_usage_kb: 891
+    fork_count: 6
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-23 15:37:54
+    license: GNU AGPLv3
+    pulls_count: 5
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 457
+    javascript: 930
+    makefile: 1565
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://github.com/openedx/frontend-app-admin-console/blob/main/LICENSE: 404'
+    getting-help: true
+    good_links:
+    - https://img.shields.io/github/license/openedx/frontend-app-admin-console.svg
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    - https://github.com/openedx/frontend-app-admin-console/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/frontend-app-admin-console/actions/workflows/ci.yml
+    - https://codecov.io/github/openedx/frontend-app-admin-console/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/frontend-app-admin-console?branch=main
+    - https://github.com/overhangio/tutor-mfe?tab=readme-ov-file
+    - https://github.com/openedx/openedx-authz
+    - https://github.com/openedx/frontend-plugin-framework
+    - https://openedx.atlassian.net/wiki/x/M4B4MgE
+    - https://openedx.atlassian.net/wiki/x/AgAwMQE
+    - https://discuss.openedx.org
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-04-06'
+    oldest_open_pr_date: '2026-03-30'
+    total_open_prs: 2
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

@@ -1,0 +1,214 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 129
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 21
+        list: '["celery==5.6.3", "jsonfield==3.2.0", "packaging==26.0", "tzlocal==5.3.1",
+            "sqlparse==0.5.5", "click==8.3.2", "tzdata==2026.1", "click-repl==0.3.0",
+            "kombu==5.6.2", "asgiref==3.11.1", "vine==5.1.0", "amqp==5.3.1", "billiard==4.2.4",
+            "prompt-toolkit==3.0.52", "six==1.17.0", "click-didyoumean==0.3.1", "click-plugins==1.1.1.2",
+            "python-dateutil==2.9.0.post0", "django==5.2.13", "wcwidth==0.6.0", "django-model-utils==5.0.0"]'
+    pypi_all:
+        count: 129
+        list: '["distlib==0.4.0", "celery==5.6.3", "edx-i18n-tools==2.0.0", "pyyaml==6.0.3",
+            "iniconfig==2.3.0", "lxml[html-clean]==6.0.2", "python-discovery==1.2.1",
+            "sphinxcontrib-napoleon==0.7", "soupsieve==2.8.3", "requests-toolbelt==1.0.0",
+            "beautifulsoup4==4.14.3", "filelock==3.25.2", "dill==0.4.1", "jaraco-context==6.1.2",
+            "click-log==0.4.0", "chardet==7.4.0.post2", "cachetools==7.0.5", "ddt==1.7.2",
+            "id==1.6.1", "markdown-it-py==4.0.0", "vine==5.1.0", "amqp==5.3.1", "setuptools==82.0.1",
+            "prompt-toolkit==3.0.52", "prompt-toolkit==3.0.51", "docutils==0.22.4",
+            "readme-renderer==44.0", "docutils==0.21.2", "jinja2==3.1.6", "rich==14.3.3",
+            "jaraco-classes==3.4.0", "pip==26.0.1", "isort==8.0.1", "jsonfield==3.2.0",
+            "markupsafe==3.0.3", "packaging==26.0", "pygments==2.20.0", "pytest-django==4.12.0",
+            "pylint-django==2.7.0", "tzlocal==5.3.1", "cffi==2.0.0", "sqlparse==0.5.5",
+            "idna==3.11", "amqp==5.1.1", "pylint==4.0.5", "kombu==5.6.2", "doc8==2.0.0",
+            "tox==4.52.0", "twine==6.2.0", "tomli-w==1.2.0", "requests==2.33.1", "sphinx==9.1.0",
+            "charset-normalizer==3.4.7", "mdurl==0.1.2", "six==1.17.0", "pip-tools==7.5.3",
+            "python-slugify==8.0.4", "sphinxcontrib-htmlhelp==2.1.0", "keyring==25.7.0",
+            "mccabe==0.7.0", "code-annotations==3.0.0", "pylint-celery==0.3", "secretstorage==3.5.0",
+            "more-itertools==11.0.1", "pycodestyle==2.14.0", "platformdirs==4.9.4",
+            "jaraco-functools==4.4.0", "text-unidecode==1.3", "snowballstemmer==3.0.1",
+            "edx-lint==6.0.0", "sphinx-book-theme==1.2.0", "pycparser==3.0", "certifi==2026.2.25",
+            "click-repl==0.3.0", "sphinxcontrib-devhelp==2.0.0", "build==1.4.2", "python-memcached==1.62",
+            "path==16.16.0", "rfc3986==2.0.0", "asgiref==3.11.1", "tomlkit==0.14.0",
+            "stevedore==5.7.0", "billiard==4.1.0", "wheel==0.46.3", "accessible-pygments==0.0.5",
+            "restructuredtext-lint==2.0.2", "typing-extensions==4.15.0", "click-didyoumean==0.3.1",
+            "pluggy==1.6.0", "click-plugins==1.1.1.2", "pytest==9.0.2", "django==5.2.13",
+            "django-model-utils==5.0.0", "sphinxcontrib-serializinghtml==2.0.0", "pockets==0.9.1",
+            "pyproject-hooks==1.2.0", "pytest-cov==7.1.0", "colorama==0.4.6", "celery==5.3.1",
+            "pylint-plugin-utils==0.9.0", "pydocstyle==3.0.0", "kombu==5.5.3", "click==8.3.2",
+            "tzdata==2026.1", "pyproject-api==1.10.0", "roman-numerals==4.1.0", "babel==2.18.0",
+            "sphinxcontrib-jsmath==1.0.1", "lxml-html-clean==0.4.4", "sphinxcontrib-applehelp==2.0.0",
+            "jeepney==0.9.0", "nh3==0.3.4", "cryptography==46.0.6", "virtualenv==21.2.0",
+            "imagesize==2.0.0", "coverage[toml]==7.13.5", "alabaster==1.0.0", "sphinxcontrib-qthelp==2.0.0",
+            "billiard==4.2.4", "click==8.1.8", "polib==1.2.0", "diff-cover==10.2.0",
+            "pydata-sphinx-theme==0.16.1", "mock==5.2.0", "python-dateutil==2.9.0.post0",
+            "astroid==4.0.4", "urllib3==2.6.3", "freezegun==1.5.5", "wcwidth==0.6.0"]'
+django_packages:
+    django_42:
+        count: 4
+        list: '["code-annotations", "pylint-django", "edx-i18n-tools", "pytest-django"]'
+    total:
+        count: 6
+        list: '["pytest-django", "pylint-django", "code-annotations", "edx-i18n-tools",
+            "django-model-utils", "jsonfield"]'
+    upgraded:
+        count: 2
+        list: '["code-annotations", "edx-i18n-tools"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 63
+    build_details: '{"total_duration": "9303 minutes 50 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 49 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 15 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 53 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 45 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 40 seconds"}, {"name": "tests (ubuntu-latest, 3.12, docs)", "duration":
+        "0 minutes 38 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django42)",
+        "duration": "0 minutes 33 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 30 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)", "duration":
+        "0 minutes 25 seconds"}, {"name": "push", "duration": "0 minutes 24 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2017-02-01 23:33:38
+    default_branch: master
+    description: Tools to support working with celery.
+    disk_usage_kb: 474
+    fork_count: 11
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-23 04:04:46
+    license: Apache License 2.0
+    pulls_count: 12
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 3693
+    python: 33759
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 4
+readme:
+    bad_links:
+    - 'http://edx-celeryutils.readthedocs.io/en/latest/?badge=latest: 404'
+    - 'http://edx-celeryutils.readthedocs.io/en/latest/: 404'
+    getting-help: true
+    good_links:
+    - https://img.shields.io/pypi/v/edx-celeryutils.svg
+    - https://pypi.python.org/pypi/edx-celeryutils/
+    - https://github.com/openedx/edx-celeryutils/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/edx-celeryutils/actions?query=workflow%3A%22Python+CI%22
+    - http://codecov.io/github/edx/edx-celeryutils/coverage.svg?branch=master
+    - http://codecov.io/github/edx/edx-celeryutils?branch=master
+    - https://img.shields.io/pypi/pyversions/edx-celeryutils.svg
+    - https://img.shields.io/github/license/edx/edx-celeryutils.svg
+    - https://github.com/openedx/edx-celeryutils/blob/master/LICENSE.txt
+    - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://open.edx.org/getting-help
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx-celeryutils
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/edx-celeryutils
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

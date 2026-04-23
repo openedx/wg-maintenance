@@ -1,0 +1,187 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 59
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 53
+        list: '["docutils==0.22.4", "colorama==0.4.6", "pygments==2.20.0", "six==1.17.0",
+            "anyio==4.13.0", "sphinxcontrib-qthelp==2.0.0", "click==8.3.2", "sphinx-design==0.7.0",
+            "charset-normalizer==3.4.7", "h11==0.16.0", "roman-numerals==4.1.0", "linuxdoc==20240924",
+            "sphinxcontrib-youtube==1.5.0", "urllib3==2.6.3", "sphinx-notfound-page==1.1.0",
+            "sphinxcontrib-images==1.0.1", "sphinxcontrib-jsmath==1.0.1", "idna==3.11",
+            "sphinx-tags==0.4", "myst-parser==5.0.0", "markdown-it-py==4.0.0", "packaging==26.1",
+            "fspath==20230629", "beautifulsoup4==4.14.3", "starlette==1.0.0", "sphinx-book-theme==1.2.0",
+            "snowballstemmer==3.0.1", "sphinxext-rediraffe==0.3.0", "soupsieve==2.8.3",
+            "jinja2==3.1.6", "sphinxcontrib-serializinghtml==2.0.0", "websockets==16.0",
+            "requests==2.33.1", "mdit-py-plugins==0.5.0", "sphinx==9.1.0", "imagesize==2.0.0",
+            "pydata-sphinx-theme==0.16.1", "sphinxcontrib-devhelp==2.0.0", "accessible-pygments==0.0.5",
+            "typing-extensions==4.15.0", "certifi==2026.2.25", "sphinxcontrib-applehelp==2.0.0",
+            "uvicorn==0.44.0", "alabaster==1.0.0", "sphinx-autobuild==2025.8.25",
+            "sphinxcontrib-htmlhelp==2.1.0", "watchfiles==1.1.1", "mdurl==0.1.2",
+            "babel==2.18.0", "sphinx-copybutton==0.5.2", "pyyaml==6.0.3", "sphinxemoji==0.3.2",
+            "markupsafe==3.0.3"]'
+    pypi_all:
+        count: 59
+        list: '["docutils==0.22.4", "pyproject-hooks==1.2.0", "colorama==0.4.6", "pygments==2.20.0",
+            "six==1.17.0", "anyio==4.13.0", "sphinxcontrib-qthelp==2.0.0", "click==8.3.2",
+            "sphinx-design==0.7.0", "charset-normalizer==3.4.7", "h11==0.16.0", "roman-numerals==4.1.0",
+            "linuxdoc==20240924", "sphinxcontrib-youtube==1.5.0", "urllib3==2.6.3",
+            "sphinx-notfound-page==1.1.0", "sphinxcontrib-images==1.0.1", "sphinxcontrib-jsmath==1.0.1",
+            "idna==3.11", "sphinx-tags==0.4", "myst-parser==5.0.0", "markdown-it-py==4.0.0",
+            "packaging==26.1", "fspath==20230629", "beautifulsoup4==4.14.3", "starlette==1.0.0",
+            "sphinx-book-theme==1.2.0", "snowballstemmer==3.0.1", "pip==26.0.1", "sphinxext-rediraffe==0.3.0",
+            "soupsieve==2.8.3", "jinja2==3.1.6", "sphinxcontrib-serializinghtml==2.0.0",
+            "websockets==16.0", "requests==2.33.1", "build==1.4.3", "pip-tools==7.5.3",
+            "mdit-py-plugins==0.5.0", "wheel==0.46.3", "sphinx==9.1.0", "imagesize==2.0.0",
+            "pydata-sphinx-theme==0.16.1", "sphinxcontrib-devhelp==2.0.0", "accessible-pygments==0.0.5",
+            "typing-extensions==4.15.0", "certifi==2026.2.25", "sphinxcontrib-applehelp==2.0.0",
+            "uvicorn==0.44.0", "alabaster==1.0.0", "sphinx-autobuild==2025.8.25",
+            "sphinxcontrib-htmlhelp==2.1.0", "watchfiles==1.1.1", "setuptools==82.0.1",
+            "mdurl==0.1.2", "babel==2.18.0", "sphinx-copybutton==0.5.2", "pyyaml==6.0.3",
+            "sphinxemoji==0.3.2", "markupsafe==3.0.3"]'
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: false
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: false
+    pylintrc: false
+    requirements: true
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 12
+    build_details: '{"total_duration": "", "checks": []}'
+    code_of_conduct: Other
+    created_at: 2022-03-14 18:35:37
+    default_branch: main
+    description: Open edX Official Documentation
+    disk_usage_kb: 185486
+    fork_count: 82
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-22 16:06:04
+    license: Other
+    pulls_count: 3
+github_actions: false
+language_bytes:
+    css: 2585
+    dockerfile: 0
+    html: 1648
+    javascript: 27894
+    makefile: 1736
+    python: 17035
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://en.wikipedia.org/wiki/ReStructuredText: 403'
+    getting-help: false
+    good_links:
+    - https://docs.openedx.org/en/latest/documentors/how-tos/report_problem_with_docs.html
+    - https://docs.openedx.org/en/latest/documentors/quickstarts/first_documentation_pr.html
+    - https://docs.openedx.org/en/latest/documentors/quickstarts/update_doc_via_github.html
+    - https://docs.openedx.org/en/latest/documentors/quickstarts/quick_start_add_doc.html
+    - https://docs.openedx.org/en/latest/documentors/index.html
+    - https://docs.openedx.org/
+    - https://github.com/openedx/docs.openedx.org
+    - https://www.sphinx-doc.org/
+    - https://docs.github.com/en/get-started/using-github/github-flow
+    - https://docs.openedx.org/en/latest/documentors/how-tos/develop_docs_locally.html
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

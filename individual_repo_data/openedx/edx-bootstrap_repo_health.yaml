@@ -1,0 +1,168 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 19
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 1
+        list: '{"bootstrap": "4.6.2"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 18
+        list: '{"@edx/browserslist-config": "^1.1.1", "@edx/stylelint-config-edx":
+            "2.3.0", "@fortawesome/fontawesome-svg-core": "1.2.36", "@fortawesome/free-solid-svg-icons":
+            "5.15.4", "@fortawesome/react-fontawesome": "0.2.6", "chroma-js": "3.2.0",
+            "classnames": "2.5.1", "gh-pages": "6.3.0", "husky": "9.1.7", "jquery":
+            "3.7.1", "lodash": "4.18.1", "node-sass": "9.0.0", "popper.js": "1.16.1",
+            "prop-types": "15.8.1", "react": "17.0.2", "react-dom": "17.0.2", "react-router-dom":
+            "6.30.3", "react-router-hash-link": "2.4.3"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: false
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 27
+    build_details: '{"total_duration": "3100 minutes 2 seconds", "checks": [{"name":
+        "Release", "duration": "2 minutes 3 seconds"}, {"name": "tests", "duration":
+        "1 minutes 50 seconds"}, {"name": "Dependabot", "duration": "0 minutes 50
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 49 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 47 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 45 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 44 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2017-06-23 20:12:07
+    default_branch: master
+    description: Bootstrap theme for Open edX
+    disk_usage_kb: 9244
+    fork_count: 22
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 14:55:48
+    license: Apache License 2.0
+    pulls_count: 11
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 5465
+    javascript: 144263
+    makefile: 0
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: '@edx/edx-bootstrap'
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://badge.fury.io/js/%40edx%2Fedx-bootstrap: 403'
+    getting-help: false
+    good_links:
+    - https://badge.fury.io/js/%40edx%2Fedx-bootstrap.svg
+    - http://getbootstrap.com
+    - https://github.com/openedx/edx-bootstrap.git
+    - https://github.com/nvm-sh/nvm
+    - https://openedx.slack.com/messages/C0EUBSV7D
+    - https://openedx.slack.com/messages/C02BMP2RD5Y
+    - https://github.com/openedx/edx-bootstrap/blob/master/LICENSE
+    - https://open.edx.org/wp-content/uploads/2019/01/individual-contributor-agreement.pdf
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-04-06'
+    oldest_open_pr_date: '2021-08-23'
+    total_open_prs: 8
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

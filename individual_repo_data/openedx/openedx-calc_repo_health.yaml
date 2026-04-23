@@ -1,0 +1,205 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 64
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 6
+        list: '["mpmath==1.3.0", "lxml==6.0.2", "sympy==1.14.0", "pyparsing==3.3.2",
+            "markupsafe==3.0.3", "numpy==2.4.2"]'
+    pypi_all:
+        count: 64
+        list: '["pylint-django==2.7.0", "pyyaml==6.0.3", "pyproject-hooks==1.2.0",
+            "filelock==3.25.0", "idna==3.11", "astroid==4.0.4", "iniconfig==2.3.0",
+            "shellingham==1.5.4", "coverage==7.13.4", "pyparsing==3.3.2", "pip-tools==7.5.3",
+            "isort==8.0.1", "pylint==4.0.5", "tomlkit==0.14.0", "mccabe==0.7.0", "pycodestyle==2.14.0",
+            "python-slugify==8.0.4", "text-unidecode==1.3", "jinja2==3.1.6", "markdown-it-py==4.0.0",
+            "rich==14.3.3", "colorama==0.4.6", "cachetools==7.0.3", "charset-normalizer==3.4.5",
+            "click==8.3.1", "pyproject-api==1.10.0", "mdurl==0.1.2", "lxml==6.0.2",
+            "coverage[toml]==7.13.4", "pylint-plugin-utils==0.9.0", "tox==4.49.0",
+            "virtualenv==21.1.0", "setuptools==82.0.0", "coveralls==4.1.0", "wheel==0.46.3",
+            "pip==26.0.1", "platformdirs==4.9.4", "certifi==2026.2.25", "typer==0.24.1",
+            "six==1.17.0", "pip==24.2", "distlib==0.4.0", "requests==2.32.5", "urllib3==2.6.3",
+            "packaging==26.0", "click-log==0.4.0", "markupsafe==3.0.3", "pytest==9.0.2",
+            "dill==0.4.1", "python-discovery==1.1.1", "wheel==0.45.1", "build==1.4.0",
+            "code-annotations==2.3.2", "pylint-celery==0.3", "tomli-w==1.2.0", "pluggy==1.6.0",
+            "stevedore==5.7.0", "mpmath==1.3.0", "edx-lint==5.6.0", "sympy==1.14.0",
+            "setuptools==78.1.0", "numpy==2.4.2", "annotated-doc==0.0.4", "pygments==2.19.2"]'
+django_packages:
+    django_42:
+        count: 2
+        list: '["code-annotations", "pylint-django"]'
+    total:
+        count: 2
+        list: '["code-annotations", "pylint-django"]'
+    upgraded:
+        count: 1
+        list: '["code-annotations"]'
+docs:
+    build_badge: true
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 13
+    build_details: '{"total_duration": "93 minutes 5 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 56 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, py)", "duration": "0 minutes 51 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 38 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 36 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 35 seconds"}, {"name": "Dependabot", "duration": "0 minutes 34 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 28 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 27 seconds"}, {"name": "push", "duration": "0 minutes 22 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2019-04-19 21:38:24
+    default_branch: master
+    description: ''
+    disk_usage_kb: 233
+    fork_count: 4
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-20 03:42:57
+    license: GNU AGPLv3
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 372
+    html: 0
+    javascript: 0
+    makefile: 1345
+    python: 108019
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 2
+readme:
+    bad_links:
+    - 'https://docs.openedx.org/projects/: 404'
+    - 'https://docs.openedx.org/projects/openedx-calc: 404'
+    - 'https://github.com/openedx/openedx-calc/blob/main/LICENSE.txt: 404'
+    getting-help: true
+    good_links:
+    - https://docs.openedx.org/en/latest/developers/how-tos/get-ready-for-python-dev.html
+    - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
+    - https://discuss.openedx.org
+    - https://github.com/openedx/openedx-calc/issues
+    - https://openedx.org/getting-help
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://github.com/openedx/edx-platform
+    - https://github.com/openedx/openedx-calc/blob/master/LICENSE
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    - https://backstage.openedx.org/catalog/default/component/openedx-calc
+    - https://img.shields.io/pypi/v/openedx-calc.svg
+    - https://pypi.python.org/pypi/openedx-calc/
+    - https://github.com/openedx/openedx-calc/workflows/Python%20CI/badge.svg?branch=main
+    - https://github.com/openedx/openedx-calc/actions
+    - https://codecov.io/github/openedx/openedx-calc/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/openedx-calc?branch=main
+    - https://readthedocs.org/projects/openedx-calc/badge/?version=latest
+    - https://img.shields.io/pypi/pyversions/openedx-calc.svg
+    - https://img.shields.io/github/license/openedx/openedx-calc.svg
+    - https://img.shields.io/badge/Status-Experimental-yellow
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    - https://img.shields.io/badge/Status-Deprecated-orange
+    - https://img.shields.io/badge/Status-Unsupported-red
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: openedx-calc
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/openedx-calc
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages:
+    - liblapack-dev
+    - python3-dev
+    - gfortran
+    - libblas-dev
+    yml_files: '[]'

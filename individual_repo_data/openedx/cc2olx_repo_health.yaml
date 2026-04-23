@@ -1,0 +1,189 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 67
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 11
+        list: '["charset-normalizer==3.4.7", "attrs==26.1.0", "idna==3.11", "django==5.2.13",
+            "requests==2.33.1", "youtube-dl==2021.12.17", "certifi==2026.2.25", "sqlparse==0.5.5",
+            "urllib3==2.6.3", "lxml==6.0.2", "asgiref==3.11.1"]'
+    pypi_all:
+        count: 67
+        list: '["pyflakes==3.4.0", "requests-toolbelt==1.0.0", "keyring==25.7.0",
+            "pytokens==0.4.1", "mdurl==0.1.2", "django==5.2.13", "python-discovery==1.2.1",
+            "readme-renderer==44.0", "secretstorage==3.5.0", "pip-tools==7.5.3", "virtualenv==21.2.0",
+            "cffi==2.0.0", "build==1.4.2", "jaraco-classes==3.4.0", "more-itertools==11.0.1",
+            "xmlformatter==0.2.8", "tox==4.52.0", "lxml==6.0.2", "asgiref==3.11.1",
+            "charset-normalizer==3.4.7", "pip==26.0.1", "cachetools==7.0.5", "idna==3.11",
+            "black==26.3.1", "platformdirs==4.9.4", "pygments==2.20.0", "flake8==7.3.0",
+            "requests==2.33.1", "pytest==9.0.2", "pytest-cov==7.1.0", "youtube-dl==2021.12.17",
+            "setuptools==82.0.1", "jaraco-context==6.1.2", "pyproject-hooks==1.2.0",
+            "sqlparse==0.5.5", "colorama==0.4.6", "docutils==0.22.4", "markdown-it-py==4.0.0",
+            "nh3==0.3.4", "pycparser==3.0", "id==1.6.1", "attrs==26.1.0", "cryptography==46.0.6",
+            "coverage[toml]==7.13.5", "pyproject-api==1.10.0", "rich==14.3.3", "jeepney==0.9.0",
+            "twine==6.2.0", "pathspec==1.0.4", "certifi==2026.2.25", "pluggy==1.6.0",
+            "filelock==3.25.2", "jaraco-functools==4.4.0", "click==8.3.2", "pytest-django==4.12.0",
+            "mccabe==0.7.0", "mypy-extensions==1.1.0", "iniconfig==2.3.0", "pytest-mock==3.15.1",
+            "pycodestyle==2.14.0", "rfc3986==2.0.0", "wheel==0.46.3", "tomli-w==1.2.0",
+            "packaging==26.0", "bump2version==1.0.1", "urllib3==2.6.3", "distlib==0.4.0"]'
+django_packages:
+    django_42:
+        count: 1
+        list: '["pytest-django"]'
+    total:
+        count: 1
+        list: '["pytest-django"]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: true
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: false
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 54
+    build_details: '{"total_duration": "10065 minutes 12 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 12 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django52)",
+        "duration": "0 minutes 45 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 38 seconds"}, {"name": "Dependabot", "duration": "0 minutes 38 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 36 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 35 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
+        formatting)", "duration": "0 minutes 33 seconds"}, {"name": "Tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 33 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 31 seconds"}, {"name": "push", "duration": "0 minutes
+        11 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 54 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2020-06-29 20:14:54
+    default_branch: master
+    description: A library to convert Common Cartridge Courses to OLX.
+    disk_usage_kb: 43117
+    fork_count: 16
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 15:44:57
+    license: GNU AGPLv3
+    pulls_count: 3
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 111
+    html: 7120
+    javascript: 0
+    makefile: 3811
+    python: 268868
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 2
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/cc2olx/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/cc2olx/actions?query=workflow%3A%22Python+CI%22
+    - https://www.imsglobal.org/activity/common-cartridge
+    - https://github.com/raccoongang/xblock-pdf
+    - https://github.com/openedx/xblock-google-drive
+    - https://s3.amazonaws.com/public-imscc/c075c6df1f674a7b9d9192307e812f74.imscc
+    - https://lor.instructure.com/resources/c075c6df1f674a7b9d9192307e812f74
+    - https://s3.amazonaws.com/public-imscc/faa3332ffd834070ad81d97bdb236649.imscc
+    - https://lor.instructure.com/resources/faa3332ffd834070ad81d97bdb236649
+    - https://s3.amazonaws.com/public-imscc/d933c048da6d4fd5a9cb552148d628cb.imscc
+    - https://lor.instructure.com/resources/d933c048da6d4fd5a9cb552148d628cb
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: cc2olx
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/cc2olx
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: []
+    yml_files: '[]'

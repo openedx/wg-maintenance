@@ -1,0 +1,212 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 97
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 61
+        list: '["pydantic==2.12.5", "jinja2==3.1.6", "requests==2.33.1", "billiard==4.2.4",
+            "click-didyoumean==0.3.1", "tzlocal==5.3.1", "charset-normalizer==3.4.7",
+            "pycparser==3.0", "elasticsearch==7.13.4", "python-dateutil==2.9.0.post0",
+            "asgiref==3.11.1", "event-tracking==4.0.0", "idna==3.11", "openedx-events==11.1.0",
+            "psutil==7.2.2", "certifi==2026.2.25", "sqlparse==0.5.5", "typing-inspection==0.4.2",
+            "kombu==5.6.2", "pydantic-core==2.41.5", "meilisearch==0.40.0", "annotated-types==0.7.0",
+            "httpx==0.28.1", "cffi==2.0.0", "stevedore==5.7.0", "django-crum==0.7.9",
+            "amqp==5.3.1", "edx-opaque-keys[django]==4.0.0", "typesense==2.0.0", "attrs==26.1.0",
+            "edx-ccx-keys==2.0.2", "pyyaml==6.0.3", "dnspython==2.8.0", "edx-django-utils==8.0.1",
+            "click-plugins==1.1.1.2", "edx-toggles==6.0.0", "markupsafe==3.0.3", "python-slugify==8.0.4",
+            "httpcore==1.0.9", "django-waffle==5.0.0", "six==1.17.0", "vine==5.1.0",
+            "pynacl==1.6.2", "django==5.2.13", "h11==0.16.0", "prompt-toolkit==3.0.52",
+            "pymongo==4.16.0", "pytz==2026.1.post1", "typing-extensions==4.15.0",
+            "tzdata==2026.1", "urllib3==1.26.20", "click==8.3.2", "camel-converter[pydantic]==5.1.0",
+            "text-unidecode==1.3", "click-repl==0.3.0", "anyio==4.13.0", "wcwidth==0.6.0",
+            "fastavro==1.12.1", "celery==5.6.3", "packaging==26.0", "code-annotations==3.0.0"]'
+    pypi_all:
+        count: 97
+        list: '["charset-normalizer==3.4.7", "python-dateutil==2.9.0.post0", "asgiref==3.11.1",
+            "pytest==9.0.3", "ddt==1.3.1", "annotated-types==0.7.0", "edx-toggles==6.0.0",
+            "vine==5.1.0", "pytest-cov==7.1.0", "httpcore==1.0.9", "django-waffle==5.0.0",
+            "django==5.2.13", "pytz==2026.1.post1", "pluggy==1.6.0", "urllib3==1.26.20",
+            "colorama==0.4.6", "anyio==4.13.0", "fastavro==1.12.1", "pylint-django==2.7.0",
+            "pycparser==3.0", "code-annotations==3.0.0", "wheel==0.46.3", "pydantic==2.12.5",
+            "jinja2==3.1.6", "kombu==5.6.2", "pylint-plugin-utils==0.9.0", "tomlkit==0.14.0",
+            "mock==5.2.0", "typesense==2.0.0", "edx-ccx-keys==2.0.2", "pyyaml==6.0.3",
+            "dnspython==2.8.0", "edx-django-utils==8.0.1", "coverage[toml]==7.13.5",
+            "h11==0.16.0", "dill==0.4.1", "tzdata==2026.1", "text-unidecode==1.3",
+            "packaging==26.0", "setuptools==82.0.1", "pylint-celery==0.3", "billiard==4.2.4",
+            "edx-lint==6.0.0", "pip-tools==7.5.3", "idna==3.11", "pygments==2.20.0",
+            "psutil==7.2.2", "certifi==2026.2.25", "pyproject-hooks==1.2.0", "typing-inspection==0.4.2",
+            "pydantic-core==2.41.5", "cffi==2.0.0", "stevedore==5.7.0", "django-crum==0.7.9",
+            "amqp==5.3.1", "mccabe==0.7.0", "six==1.17.0", "markupsafe==3.0.3", "pynacl==1.6.2",
+            "virtualenv==21.2.0", "pymongo==4.16.0", "tomli-w==1.2.0", "camel-converter[pydantic]==5.1.0",
+            "wcwidth==0.6.0", "celery==5.6.3", "platformdirs==4.9.4", "requests==2.33.1",
+            "isort==8.0.1", "click-didyoumean==0.3.1", "tzlocal==5.3.1", "pyproject-api==1.10.0",
+            "elasticsearch==7.13.4", "click-log==0.4.0", "pylint==4.0.5", "distlib==0.4.0",
+            "event-tracking==4.0.0", "sqlparse==0.5.5", "openedx-events==11.1.0",
+            "filelock==3.25.2", "iniconfig==2.3.0", "meilisearch==0.40.0", "httpx==0.28.1",
+            "edx-opaque-keys[django]==4.0.0", "tox==4.52.0", "attrs==26.1.0", "click-plugins==1.1.1.2",
+            "python-slugify==8.0.4", "pip==26.0.1", "python-discovery==1.2.2", "build==1.4.2",
+            "prompt-toolkit==3.0.52", "pycodestyle==2.14.0", "typing-extensions==4.15.0",
+            "click==8.3.2", "click-repl==0.3.0", "cachetools==7.0.5", "astroid==4.0.4"]'
+django_packages:
+    django_42:
+        count: 6
+        list: '["pylint-django", "django-waffle", "event-tracking", "code-annotations",
+            "edx-django-utils", "edx-toggles"]'
+    total:
+        count: 7
+        list: '["pylint-django", "django-waffle", "event-tracking", "code-annotations",
+            "edx-django-utils", "edx-toggles", "django-crum"]'
+    upgraded:
+        count: 5
+        list: '["django-waffle", "event-tracking", "code-annotations", "edx-django-utils",
+            "edx-toggles"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: false
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 47
+    build_details: '{"total_duration": "13130 minutes 43 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes 58 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 50
+        seconds"}, {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "1
+        minutes 25 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 13 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 44 seconds"}, {"name": "push", "duration": "0 minutes
+        26 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2015-01-14 19:35:31
+    default_branch: master
+    description: ''
+    disk_usage_kb: 468
+    fork_count: 55
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-20 00:45:45
+    license: GNU AGPLv3
+    pulls_count: 5
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 3723
+    python: 313108
+    shell: 1642
+makefile:
+    pip-installed: false
+    quality: true
+    quality-js: false
+    quality-python: true
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 2
+readme:
+    bad_links:
+    - 'https://github.com/openedx/edx-platform/issues/36868: 404'
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/edx-search/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/edx-search/actions?query=workflow%3A%22Python+CI%22
+    - https://coveralls.io/repos/edx/edx-search/badge.svg?branch=master&service=github
+    - https://coveralls.io/github/edx/edx-search?branch=master
+    - https://github.com/typesense/typesense-python
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx-search
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/edx-search
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

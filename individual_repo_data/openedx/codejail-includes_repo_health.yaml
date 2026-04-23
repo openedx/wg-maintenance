@@ -1,0 +1,191 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 93
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 0
+        list: '[]'
+    pypi_all:
+        count: 93
+        list: '["distlib==0.4.0", "pylint-django==2.7.0", "babel==2.18.0", "stevedore==5.7.0",
+            "sphinx-book-theme==1.1.4", "click==8.3.1", "nh3==0.3.3", "pycparser==3.0",
+            "tomli-w==1.2.0", "sphinxcontrib-qthelp==2.0.0", "snowballstemmer==3.0.1",
+            "pylint-celery==0.3", "iniconfig==2.3.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "certifi==2026.2.25", "soupsieve==2.8.3", "charset-normalizer==3.4.5",
+            "sphinxcontrib-applehelp==2.0.0", "urllib3==2.6.3", "pyproject-api==1.10.0",
+            "pip==26.0.1", "docutils==0.22.4", "wheel==0.46.3", "diff-cover==10.2.0",
+            "requests-toolbelt==1.0.0", "tox==4.48.1", "tomlkit==0.14.0", "doc8==2.0.0",
+            "six==1.17.0", "pygments==2.19.2", "sphinxcontrib-htmlhelp==2.1.0", "cryptography==46.0.5",
+            "keyring==25.7.0", "pydocstyle==6.3.0", "mdurl==0.1.2", "jeepney==0.9.0",
+            "secretstorage==3.5.0", "accessible-pygments==0.0.5", "pytest-cov==7.0.0",
+            "roman-numerals==4.1.0", "rich==14.3.3", "platformdirs==4.9.4", "beautifulsoup4==4.14.3",
+            "setuptools==82.0.0", "restructuredtext-lint==2.0.2", "twine==6.2.0",
+            "jinja2==3.1.6", "sphinxcontrib-jsmath==1.0.1", "cachetools==7.0.3", "colorama==0.4.6",
+            "jaraco-classes==3.4.0", "filelock==3.25.0", "mccabe==0.7.0", "pytest==9.0.2",
+            "pycodestyle==2.14.0", "sphinxcontrib-devhelp==2.0.0", "coverage[toml]==7.13.4",
+            "id==1.6.1", "virtualenv==21.1.0", "python-discovery==1.1.0", "pyyaml==6.0.3",
+            "pylint==4.0.5", "requests==2.32.5", "cffi==2.0.0", "click-log==0.4.0",
+            "dill==0.4.1", "typing-extensions==4.15.0", "python-slugify==8.0.4", "chardet==7.0.1",
+            "isort==8.0.1", "pylint-plugin-utils==0.9.0", "markdown-it-py==4.0.0",
+            "alabaster==1.0.0", "docutils==0.21.2", "edx-lint==5.6.0", "rfc3986==2.0.0",
+            "markupsafe==3.0.3", "jaraco-functools==4.4.0", "code-annotations==2.3.2",
+            "packaging==26.0", "pluggy==1.6.0", "jaraco-context==6.1.0", "readme-renderer==44.0",
+            "pip-tools==7.5.3", "more-itertools==10.8.0", "pydata-sphinx-theme==0.15.4",
+            "astroid==4.0.4", "sphinx==9.1.0", "pyproject-hooks==1.2.0", "build==1.4.0",
+            "idna==3.11", "text-unidecode==1.3", "imagesize==2.0.0"]'
+django_packages:
+    django_42:
+        count: 2
+        list: '["pylint-django", "code-annotations"]'
+    total:
+        count: 2
+        list: '["pylint-django", "code-annotations"]'
+    upgraded:
+        count: 1
+        list: '["code-annotations"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 7
+    build_details: '{"total_duration": "0 minutes 29 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 29 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, default)", "duration": "0 minutes 23
+        seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2022-05-16 18:54:49
+    default_branch: main
+    description: A package that is included during sandboxed codejail operations.
+    disk_usage_kb: 90
+    fork_count: 6
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-03-09 14:58:40
+    license: GNU AGPLv3
+    pulls_count: 5
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 2602
+    python: 55185
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://openedx-slack-invite.herokuapp.com/: 404'
+    - 'https://github.com/openedx/sandboxcodejail-includes/workflows/Python%20CI/badge.svg?branch=main:
+        404'
+    getting-help: true
+    good_links:
+    - https://openedx.atlassian.net/browse/BOM-2579
+    - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://discuss.openedx.org
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    - https://img.shields.io/pypi/v/codejail-includes.svg
+    - https://pypi.python.org/pypi/codejail-includes/
+    - https://github.com/openedx/codejail-includes/actions
+    - https://img.shields.io/github/license/openedx/sandbox-packages.svg
+    - https://github.com/openedx/codejail-includes/blob/main/LICENSE
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: codejail-includes
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/codejail-includes
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

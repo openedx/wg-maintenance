@@ -1,0 +1,176 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 74
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 2
+        list: '["pyyaml==6.0.2", "schema==0.7.7"]'
+    pypi_all:
+        count: 74
+        list: '["alabaster==1.0.0", "soupsieve==2.7", "idna==3.10", "wheel==0.45.1",
+            "charset-normalizer==3.4.1", "roman-numerals-py==3.1.0", "urllib3==2.2.3",
+            "diff-cover==9.2.4", "filelock==3.18.0", "docutils==0.21.2", "pbr==6.1.1",
+            "pytest-cov==6.1.1", "pip-tools==7.4.1", "python-slugify==8.0.4", "pylint-celery==0.3",
+            "jinja2==3.1.6", "sphinxcontrib-devhelp==2.0.0", "pylint==3.3.6", "astroid==3.3.9",
+            "pip==24.2", "doc8==1.1.2", "snowballstemmer==2.2.0", "beautifulsoup4==4.13.4",
+            "requests==2.32.3", "nh3==0.2.21", "stevedore==5.4.1", "typing-extensions==4.13.2",
+            "schema==0.7.7", "platformdirs==4.3.7", "imagesize==1.4.1", "readme-renderer==44.0",
+            "setuptools==80.1.0", "packaging==25.0", "pyyaml==6.0.2", "click==8.1.8",
+            "dill==0.4.0", "mccabe==0.7.0", "certifi==2025.4.26", "click-log==0.4.0",
+            "code-annotations==2.3.0", "edx-lint==5.6.0", "iniconfig==2.1.0", "pygments==2.19.1",
+            "restructuredtext-lint==1.4.0", "pluggy==1.5.0", "pylint-django==2.6.1",
+            "sphinxcontrib-qthelp==2.0.0", "babel==2.17.0", "sphinx-book-theme==1.1.4",
+            "virtualenv==20.30.0", "six==1.17.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "cachetools==5.5.2", "pydata-sphinx-theme==0.15.4", "pyproject-hooks==1.2.0",
+            "pytest==8.3.5", "colorama==0.4.6", "pylint-plugin-utils==0.8.2", "isort==6.0.1",
+            "pyproject-api==1.9.0", "tomlkit==0.13.2", "accessible-pygments==0.0.5",
+            "distlib==0.3.9", "sphinxcontrib-jsmath==1.0.1", "sphinxcontrib-serializinghtml==2.0.0",
+            "tox==4.25.0", "markupsafe==3.0.2", "text-unidecode==1.3", "pycodestyle==2.13.0",
+            "build==1.2.2.post1", "coverage[toml]==7.8.0", "chardet==5.2.0", "sphinxcontrib-applehelp==2.0.0",
+            "sphinx==8.2.3"]'
+django_packages:
+    django_42:
+        count: 2
+        list: '["pylint-django", "code-annotations"]'
+    total:
+        count: 2
+        list: '["pylint-django", "code-annotations"]'
+    upgraded:
+        count: 1
+        list: '["code-annotations"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: true
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 5
+    build_details: '{"total_duration": "", "checks": []}'
+    code_of_conduct: Other
+    created_at: 2020-08-07 11:03:24
+    default_branch: main
+    description: Schema validators for the data in the (private) openedx/openedx-webhooks-data
+        repo
+    disk_usage_kb: 113
+    fork_count: 5
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2025-07-30 09:30:08
+    license: Apache License 2.0
+    pulls_count: 1
+github_actions: false
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 2391
+    python: 11098
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 5
+readme:
+    bad_links: []
+    getting-help: true
+    good_links:
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://discuss.openedx.org
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: repo-tools-data-schema
+    python_versions:
+    - '3'
+    - '3.11'
+    - '3.12'
+    repo_url: https://github.com/openedx/repo-tools-data-schema
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

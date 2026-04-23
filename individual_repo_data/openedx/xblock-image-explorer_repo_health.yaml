@@ -1,0 +1,197 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 80
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 24
+        list: '["fs-s3fs==1.1.1", "urllib3==2.6.3", "boto3==1.42.83", "webob==1.8.9",
+            "appdirs==1.4.4", "markupsafe==3.0.3", "pyyaml==6.0.3", "python-dateutil==2.9.0.post0",
+            "s3transfer==0.16.0", "asgiref==3.11.1", "botocore==1.42.83", "django==5.2.12",
+            "sqlparse==0.5.5", "web-fragments==4.0.0", "fs==2.4.16", "openedx-django-pyfs==4.0.0",
+            "mako==1.3.10", "lazy==1.6", "lxml==6.0.2", "six==1.17.0", "jmespath==1.1.0",
+            "xblock[django]==6.0.0", "simplejson==3.20.2", "pytz==2026.1.post1"]'
+    pypi_all:
+        count: 80
+        list: '["packaging==26.0", "boto3==1.42.83", "appdirs==1.4.4", "markupsafe==3.0.3",
+            "mdurl==0.1.2", "mccabe==0.7.0", "colorama==0.4.6", "django==5.2.12",
+            "build==1.4.2", "binaryornot==0.6.0", "pylint-django==2.7.0", "requests==2.33.1",
+            "six==1.17.0", "pytest==9.0.2", "pytest-cov==7.1.0", "fs-s3fs==1.1.1",
+            "idna==3.11", "urllib3==2.6.3", "webob==1.8.9", "platformdirs==4.9.4",
+            "pytest-django==4.12.0", "pylint-plugin-utils==0.9.0", "click==8.3.2",
+            "pip-tools==7.5.3", "pip==26.0.1", "cachetools==7.0.5", "click-log==0.4.0",
+            "openedx-django-pyfs==4.0.0", "coverage[toml]==7.13.5", "cookiecutter==2.7.1",
+            "isort==8.0.1", "stevedore==5.7.0", "wheel==0.46.3", "jmespath==1.1.0",
+            "distlib==0.4.0", "python-discovery==1.2.1", "code-annotations==3.0.0",
+            "pytz==2026.1.post1", "pylint==4.0.5", "pyproject-hooks==1.2.0", "virtualenv==21.2.0",
+            "rich==14.3.3", "pyyaml==6.0.3", "python-slugify==8.0.4", "python-dateutil==2.9.0.post0",
+            "astroid==4.0.4", "pluggy==1.6.0", "edx-lint==6.0.0", "tomli-w==1.2.0",
+            "pycodestyle==2.14.0", "filelock==3.25.2", "web-fragments==4.0.0", "fs==2.4.16",
+            "text-unidecode==1.3", "mako==1.3.10", "pygments==2.20.0", "xblock-sdk==0.14.0",
+            "mock==5.2.0", "arrow==1.4.0", "xblock[django]==6.0.0", "tox==4.52.0",
+            "pylint-celery==0.3", "simplejson==3.20.2", "jinja2==3.1.6", "tzdata==2026.1",
+            "charset-normalizer==3.4.7", "s3transfer==0.16.0", "asgiref==3.11.1",
+            "tomlkit==0.14.0", "markdown-it-py==4.0.0", "botocore==1.42.83", "sqlparse==0.5.5",
+            "iniconfig==2.3.0", "setuptools==82.0.1", "certifi==2026.2.25", "lazy==1.6",
+            "lxml==6.0.2", "pypng==0.20220715.0", "pyproject-api==1.10.0", "dill==0.4.1"]'
+django_packages:
+    django_42:
+        count: 5
+        list: '["pylint-django", "xblock-sdk", "code-annotations", "pytest-django",
+            "web-fragments"]'
+    total:
+        count: 5
+        list: '["pylint-django", "xblock-sdk", "code-annotations", "pytest-django",
+            "web-fragments"]'
+    upgraded:
+        count: 3
+        list: '["xblock-sdk", "code-annotations", "web-fragments"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: false
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 12
+    build_details: '{"total_duration": "9336 minutes 20 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 29 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 4 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 45 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
+        package)", "duration": "0 minutes 37 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 37 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 37 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 35 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 34 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django42)",
+        "duration": "0 minutes 33 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2014-03-09 14:40:29
+    default_branch: master
+    description: ''
+    disk_usage_kb: 1505
+    fork_count: 42
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-20 00:50:29
+    license: GNU AGPLv3
+    pulls_count: 2
+github_actions: true
+language_bytes:
+    css: 3925
+    dockerfile: 0
+    html: 6149
+    javascript: 7384
+    makefile: 3323
+    python: 33384
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'http://link/to/image.jpg: HTTPConnectionPool(host=''link'', port=80): Max retries
+        exceeded with url: /to/image.jpg (Caused by NameResolutionError("HTTPConnection(host=''link'',
+        port=80): Failed to resolve ''link'' ([Errno -3] Temporary failure in name
+        resolution)"))'
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/xblock-image-explorer/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/xblock-image-explorer/actions/workflows/ci.yml
+    - https://raw.githubusercontent.com/openedx/xblock-image-explorer/3b67392a73edcd606f4e3fb30cfa8b3cc20720d3/doc/img/student-view.png
+    - https://raw.githubusercontent.com/openedx/xblock-image-explorer/3b67392a73edcd606f4e3fb30cfa8b3cc20720d3/doc/img/edit-view.png
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: xblock-image-explorer
+    python_versions:
+    - '3.12'
+    repo_url: https://github.com/openedx/xblock-image-explorer
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

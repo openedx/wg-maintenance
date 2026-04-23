@@ -1,0 +1,192 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 73
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 53
+        list: '{"@babel/plugin-transform-runtime": "7.25.9", "@dnd-kit/core": "^6.3.1",
+            "@dnd-kit/sortable": "^10.0.0", "@dnd-kit/utilities": "^3.2.2", "@edx/brand":
+            "npm:@openedx/brand-openedx@^1.2.2", "@edx/frontend-enterprise-catalog-search":
+            "11.0.1", "@edx/frontend-enterprise-hotjar": "7.2.0", "@edx/frontend-enterprise-logistration":
+            "9.2.1", "@edx/frontend-enterprise-utils": "10.0.0", "@edx/frontend-platform":
+            "8.5.5", "@edx/openedx-atlas": "^0.6.0", "@openedx/paragon": "22.20.3",
+            "@tanstack/react-query": "4.36.1", "@tanstack/react-query-devtools": "4.36.1",
+            "algoliasearch": "4.24.0", "canvas-confetti": "^1.9.3", "classnames":
+            "2.5.1", "color": "3.2.1", "color-contrast-checker": "^2.1.0", "core-js":
+            "3.40.0", "dash-embedded-component": "file:packages/dash-embedded-component-2.0.2.tgz",
+            "dayjs": "^1.11.9", "file-saver": "1.3.8", "font-awesome": "4.7.0", "history":
+            "4.10.1", "html-react-parser": "3.0.16", "jest-environment-jsdom": "29.7.0",
+            "lodash-es": "^4.17.21", "plotly.js": "^2.33.0", "prop-types": "15.8.1",
+            "react": "18.3.1", "react-dom": "18.3.1", "react-helmet": "6.1.0", "react-instantsearch-dom":
+            "6.40.4", "react-markdown": "6.0.3", "react-plotly.js": "^2.6.0", "react-redux":
+            "7.2.9", "react-router": "6.29.0", "react-router-dom": "6.29.0", "react-select":
+            "^5.10.2", "redux": "4.2.1", "redux-devtools-extension": "2.13.9", "redux-form":
+            "8.3.10", "redux-logger": "3.0.6", "redux-mock-store": "1.5.5", "redux-thunk":
+            "2.4.2", "regenerator-runtime": "0.14.1", "sanitize-html": "2.14.0", "timeago.js":
+            "4.0.2", "universal-cookie": "4.0.4", "use-context-selector": "^1.4.1",
+            "uuid": "9.0.1", "validator": "13.15.22"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 20
+        list: '{"@edx/browserslist-config": "1.5.0", "@edx/typescript-config": "1.1.0",
+            "@openedx/frontend-build": "14.5.0", "@testing-library/dom": "10.4.0",
+            "@testing-library/jest-dom": "5.17.0", "@testing-library/react": "^16.3.0",
+            "@testing-library/user-event": "14.6.1", "@types/color": "^4.2.0", "@types/react-instantsearch-dom":
+            "^6.12.8", "axios-mock-adapter": "1.22.0", "css-loader": "5.2.7", "husky":
+            "0.14.3", "identity-obj-proxy": "3.0.0", "jest-canvas-mock": "^2.4.0",
+            "jest-localstorage-mock": "^2.4.22", "patch-package": "8.0.0", "postcss":
+            "8.4.24", "react-test-renderer": "^18.3.1", "resize-observer-polyfill":
+            "1.5.1", "ts-jest": "^29.0.0"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 195
+    build_details: '{"total_duration": "1 minutes 24 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 4 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 1 seconds"}, {"name": "Dependabot", "duration": "1 minutes 0 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 59 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 58 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 50 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2018-05-10 13:44:58
+    default_branch: master
+    description: edx-portal is a frontend that provides branded learning experiences.
+    disk_usage_kb: 26247
+    fork_count: 41
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-23 03:00:49
+    license: GNU AGPLv3
+    pulls_count: 53
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 636
+    html: 890
+    javascript: 4234258
+    makefile: 1759
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/frontend-app-admin-portal/actions/workflows/ci.yml/badge.svg
+    - https://codecov.io/gh/edx/frontend-app-admin-portal/branch/master/graph/badge.svg
+    - https://github.com/openedx/devstack
+    - https://github.com/openedx/edx-analytics-data-api
+    - https://discuss.openedx.org
+    - https://github.com/openedx/frontend-app-admin-portal/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
+    - https://openedx.org/community/connect
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-02-07'
+    oldest_open_pr_date: '2024-05-22'
+    total_open_prs: 6
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: []
+    yml_files: '[]'

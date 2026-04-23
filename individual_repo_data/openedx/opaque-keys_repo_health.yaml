@@ -1,0 +1,184 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 84
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 4
+        list: '["typing-extensions==4.15.0", "pymongo==4.16.0", "dnspython==2.8.0",
+            "stevedore==5.7.0"]'
+    pypi_all:
+        count: 84
+        list: '["edx-lint==6.0.0", "charset-normalizer==3.4.7", "build==1.4.3", "requests==2.33.1",
+            "code-annotations==3.0.0", "platformdirs==4.9.6", "markupsafe==3.0.3",
+            "sphinxcontrib-htmlhelp==2.1.0", "tox==4.53.0", "sphinxcontrib-jsmath==1.0.1",
+            "urllib3==2.6.3", "python-slugify==8.0.4", "mypy-extensions==1.1.0", "pymongo==4.16.0",
+            "hypothesis==6.152.1", "pytest==9.0.3", "astroid==4.0.4", "pytest-cov==7.1.0",
+            "pytest-django==4.12.0", "ddt==1.7.2", "beautifulsoup4==4.14.3", "sphinxcontrib-applehelp==2.0.0",
+            "sphinx-book-theme==1.2.0", "pylint-plugin-utils==0.9.0", "coverage[toml]==7.13.5",
+            "cachetools==7.0.5", "pytest-xdist==3.8.0", "mccabe==0.7.0", "pylint==4.0.5",
+            "readme-renderer==44.0", "execnet==2.1.2", "roman-numerals==4.1.0", "jinja2==3.1.6",
+            "docutils==0.22.4", "pip-tools==7.5.3", "click-log==0.4.0", "pyproject-hooks==1.2.0",
+            "snowballstemmer==3.0.1", "pip==26.0.1", "sphinxcontrib-qthelp==2.0.0",
+            "pluggy==1.6.0", "colorama==0.4.6", "six==1.17.0", "virtualenv==21.2.4",
+            "pycodestyle==2.14.0", "sphinxcontrib-devhelp==2.0.0", "distlib==0.4.0",
+            "isort==8.0.1", "mock==5.2.0", "accessible-pygments==0.0.5", "tomli-w==1.2.0",
+            "pyproject-api==1.10.0", "sortedcontainers==2.4.0", "imagesize==2.0.0",
+            "nh3==0.3.4", "setuptools==82.0.1", "packaging==26.1", "tomlkit==0.14.0",
+            "soupsieve==2.8.3", "pathspec==1.0.4", "iniconfig==2.3.0", "idna==3.11",
+            "filelock==3.29.0", "typing-extensions==4.15.0", "sphinx==9.1.0", "pygments==2.20.0",
+            "python-discovery==1.2.2", "coverage==7.13.5", "pylint-django==2.7.0",
+            "wheel==0.46.3", "certifi==2026.2.25", "click==8.3.2", "text-unidecode==1.3",
+            "librt==0.9.0", "dnspython==2.8.0", "pylint-celery==0.3", "dill==0.4.1",
+            "babel==2.18.0", "pyyaml==6.0.3", "pydata-sphinx-theme==0.16.1", "sphinxcontrib-serializinghtml==2.0.0",
+            "mypy==1.20.1", "alabaster==1.0.0", "stevedore==5.7.0"]'
+django_packages:
+    django_42:
+        count: 3
+        list: '["pytest-django", "code-annotations", "pylint-django"]'
+    total:
+        count: 3
+        list: '["pytest-django", "code-annotations", "pylint-django"]'
+    upgraded:
+        count: 1
+        list: '["code-annotations"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: false
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 11
+    build_details: '{"total_duration": "829 minutes 32 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, django42)", "duration": "3 minutes 8 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, without-django)", "duration": "2 minutes
+        32 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 53 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, docs)", "duration":
+        "0 minutes 48 seconds"}, {"name": "Dependabot", "duration": "0 minutes 30
+        seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2014-05-23 17:24:54
+    default_branch: master
+    description: ''
+    disk_usage_kb: 951
+    fork_count: 20
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-20 06:24:19
+    license: GNU AGPLv3
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 1757
+    python: 258429
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - http://code.edx.org/
+    - https://github.com/openedx/opaque-keys/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/opaque-keys/actions?query=workflow%3A%22Python+CI%22
+    - https://coveralls.io/repos/edx/opaque-keys/badge.svg?branch=master
+    - https://coveralls.io/r/edx/opaque-keys
+    - https://github.com/openedx/edx-platform/wiki/Opaque-Keys
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx-opaque-keys
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/opaque-keys
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

@@ -1,0 +1,220 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 122
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 11
+        list: '["asgiref==3.10.0", "django-crum==0.7.9", "stevedore==5.5.0", "click==8.3.0",
+            "django-waffle==5.0.0", "pycparser==2.23", "cffi==2.0.0", "sqlparse==0.5.3",
+            "pynacl==1.6.0", "psutil==7.1.0", "django==4.2.25"]'
+    pypi_all:
+        count: 122
+        list: '["sphinxcontrib-qthelp==2.0.0", "lxml-html-clean==0.4.3", "path==16.16.0",
+            "restructuredtext-lint==1.4.0", "rfc3986==2.0.0", "mdurl==0.1.2", "wheel==0.45.1",
+            "cachetools==6.2.0", "babel==2.17.0", "idna==3.10", "pyyaml==6.0.3", "pytest==8.4.2",
+            "jinja2-pluralize==0.3.0", "distlib==0.4.0", "cryptography==46.0.2", "sqlparse==0.5.3",
+            "backports-tarfile==1.2.0", "pydata-sphinx-theme==0.15.4", "id==1.5.0",
+            "setuptools==80.9.0", "iniconfig==2.1.0", "dill==0.4.0", "build==1.3.0",
+            "ddt==1.7.2", "polib==1.2.0", "psutil==7.1.0", "asgiref==3.10.0", "chardet==5.2.0",
+            "ddtrace==3.15.0", "pip-tools==7.5.1", "isort==6.1.0", "opentelemetry-api==1.37.0",
+            "coverage[toml]==7.10.7", "pydocstyle==6.3.0", "protobuf==6.32.1", "pylint-django==2.6.1",
+            "rich==14.1.0", "bytecode==0.17.0", "click-log==0.4.0", "wrapt==1.17.3",
+            "pygments==2.19.2", "edx-i18n-tools==1.9.0", "django-crum==0.7.9", "pyproject-hooks==1.2.0",
+            "stevedore==5.5.0", "edx-lint==5.6.0", "typing-extensions==4.15.0", "requests-toolbelt==1.0.0",
+            "factory-boy==3.3.3", "sphinxcontrib-jsmath==1.0.1", "virtualenv==20.34.0",
+            "newrelic==11.0.0", "keyring==25.6.0", "pylint-celery==0.3", "zipp==3.23.0",
+            "roman-numerals-py==3.1.0", "pyproject-api==1.9.1", "nh3==0.3.0", "tomlkit==0.13.3",
+            "django==4.2.25", "sphinx-book-theme==1.1.4", "requests==2.32.5", "jaraco-functools==4.3.0",
+            "secretstorage==3.4.0", "click==8.3.0", "doc8==0.11.2", "sphinxcontrib-serializinghtml==2.0.0",
+            "cffi==2.0.0", "tzdata==2025.2", "sphinxcontrib-devhelp==2.0.0", "beautifulsoup4==4.14.2",
+            "pytest-django==4.11.1", "jaraco-context==6.0.1", "pylint-plugin-utils==0.9.0",
+            "mccabe==0.7.0", "python-dateutil==2.9.0.post0", "packaging==25.0", "text-unidecode==1.3",
+            "sphinx==8.2.3", "envier==0.6.1", "code-annotations==2.3.0", "more-itertools==10.8.0",
+            "django-waffle==5.0.0", "pylint==3.3.9", "readme-renderer==44.0", "soupsieve==2.8",
+            "sphinxcontrib-htmlhelp==2.1.0", "inflect==7.5.0", "docutils==0.21.2",
+            "snowballstemmer==3.0.1", "astroid==3.3.11", "jeepney==0.9.0", "jaraco-classes==3.4.0",
+            "pytest-cov==7.0.0", "importlib-metadata==8.7.0", "diff-cover==6.2.1",
+            "platformdirs==4.4.0", "jinja2==3.1.6", "faker==37.8.0", "urllib3==2.5.0",
+            "pip==25.2", "alabaster==1.0.0", "imagesize==1.4.1", "charset-normalizer==3.4.3",
+            "markupsafe==3.0.3", "lxml[html-clean]==6.0.2", "sphinxcontrib-applehelp==2.0.0",
+            "pycodestyle==2.14.0", "colorama==0.4.6", "accessible-pygments==0.0.5",
+            "six==1.17.0", "filelock==3.19.1", "pycparser==2.23", "typeguard==4.4.4",
+            "tox==4.30.3", "markdown-it-py==4.0.0", "twine==6.2.0", "python-slugify==8.0.4",
+            "pluggy==1.6.0", "mock==5.2.0", "certifi==2025.10.5", "pynacl==1.6.0"]'
+django_packages:
+    django_42:
+        count: 6
+        list: '["django-waffle", "code-annotations", "pylint-django", "pytest-django",
+            "factory-boy", "edx-i18n-tools"]'
+    total:
+        count: 8
+        list: '["newrelic", "django-crum", "django-waffle", "code-annotations", "pylint-django",
+            "pytest-django", "factory-boy", "edx-i18n-tools"]'
+    upgraded:
+        count: 3
+        list: '["django-waffle", "code-annotations", "edx-i18n-tools"]'
+docs:
+    build_badge: true
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: true
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 15
+    build_details: '{"total_duration": "17113 minutes 52 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 54 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 51
+        seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)", "duration": "0
+        minutes 44 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django42)", "duration":
+        "0 minutes 42 seconds"}, {"name": "Dependabot", "duration": "0 minutes 37
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 36 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 36 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 36 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 36 seconds"}, {"name": "Dependabot", "duration": "0 minutes 35 seconds"},
+        {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
+        "duration": "0 minutes 27 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 24 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2018-07-20 15:12:04
+    default_branch: master
+    description: edX utilities for Django Application development.
+    disk_usage_kb: 808
+    fork_count: 26
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-07 16:38:54
+    license: Apache License 2.0
+    pulls_count: 8
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 3359
+    python: 309143
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 3
+readme:
+    bad_links: []
+    getting-help: true
+    good_links:
+    - https://edx-django-utils.readthedocs.org
+    - https://docs.openedx.org/en/latest/developers/how-tos/get-ready-for-python-dev.html
+    - https://discuss.openedx.org
+    - https://github.com/openedx/django-config-models/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://github.com/openedx/edx-django-utils/blob/master/.github/PULL_REQUEST_TEMPLATE.md
+    - https://github.com/openedx/edx-django-utils/blob/master/.github/ISSUE_TEMPLATE.md
+    - https://openedx.org/code-of-conduct/
+    - https://backstage.openedx.org/catalog/default/component/edx-django-utils
+    - https://img.shields.io/pypi/v/edx-django-utils.svg
+    - https://pypi.python.org/pypi/edx-django-utils/
+    - https://github.com/openedx/edx-django-utils/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/edx-django-utils/actions?query=workflow%3A%22Python+CI%22
+    - http://codecov.io/github/edx/edx-django-utils/coverage.svg?branch=master
+    - http://codecov.io/github/edx/edx-django-utils?branch=master
+    - https://readthedocs.org/projects/edx-django-utils/badge/?version=latest
+    - http://edx-django-utils.readthedocs.io/en/latest/
+    - https://img.shields.io/pypi/pyversions/edx-django-utils.svg
+    - https://img.shields.io/github/license/edx/edx-django-utils.svg
+    - https://github.com/openedx/edx-django-utils/blob/master/LICENSE.txt
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx-django-utils
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/edx-django-utils
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

@@ -1,0 +1,235 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 147
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 64
+        list: '["isodate==0.7.2", "fastavro==1.12.1", "jsonfield==3.2.0", "django==5.2.13",
+            "djangorestframework==3.17.1", "django-waffle==5.0.0", "openedx-events==11.1.1",
+            "click-plugins==1.1.1.2", "psutil==7.2.2", "text-unidecode==1.3", "tzlocal==5.3.1",
+            "cffi==2.0.0", "aniso8601==10.0.1", "edx-celeryutils==2.0.0", "attrs==26.1.0",
+            "edx-toggles==6.0.0", "requests==2.33.1", "django-crum==0.7.9", "idna==3.12",
+            "kombu==5.6.2", "jinja2==3.1.6", "cryptography==46.0.7", "python-dateutil==2.9.0.post0",
+            "urllib3==2.6.3", "click-repl==0.3.0", "packaging==26.1", "django-model-utils==5.0.0",
+            "edx-opaque-keys[django]==4.0.0", "prompt-toolkit==3.0.52", "redis==7.4.0",
+            "celery==5.6.3", "python-slugify==8.0.4", "code-annotations==3.0.0", "amqp==5.3.1",
+            "tincan==1.0.0", "click==8.3.2", "edx-django-utils==8.0.1", "click-didyoumean==0.3.1",
+            "certifi==2026.2.25", "django-config-models==3.0.0", "django-fernet-fields-v2==0.9",
+            "django-redis==6.0.0", "stevedore==5.7.0", "dnspython==2.8.0", "pyyaml==6.0.3",
+            "tzdata==2026.1", "vine==5.1.0", "event-tracking==4.0.0", "wcwidth==0.6.0",
+            "asgiref==3.11.1", "markupsafe==3.0.3", "charset-normalizer==3.4.7", "openedx-filters==3.1.0",
+            "typing-extensions==4.15.0", "pynacl==1.6.2", "sqlparse==0.5.5", "apache-libcloud==3.9.1",
+            "pytz==2026.1.post1", "six==1.17.0", "pymongo==4.17.0", "fasteners==0.20",
+            "pycparser==3.0", "billiard==4.2.4", "edx-ccx-keys==2.0.2"]'
+    pypi_all:
+        count: 147
+        list: '["sphinxcontrib-serializinghtml==2.0.0", "colorama==0.4.6", "readme-renderer==44.0",
+            "imagesize==2.0.0", "requests-toolbelt==1.0.0", "pyproject-api==1.10.0",
+            "mock==5.2.0", "faker==40.15.0", "pygments==2.20.0", "markdown-it-py==4.0.0",
+            "setuptools==82.0.1", "iniconfig==2.3.0", "soupsieve==2.8.3", "sphinx==9.1.0",
+            "lxml[html-clean]==6.1.0", "edx-opaque-keys[django]==4.0.0", "chardet==7.4.3",
+            "pluggy==1.6.0", "code-annotations==3.0.0", "tincan==1.0.0", "python-discovery==1.2.2",
+            "id==1.6.1", "django-config-models==3.0.0", "tzdata==2026.1", "virtualenv==21.2.4",
+            "tomli-w==1.2.0", "wcwidth==0.6.0", "markupsafe==3.0.3", "polib==1.2.0",
+            "secretstorage==3.5.0", "babel==2.18.0", "pylint-django==2.7.0", "rfc3986==2.0.0",
+            "platformdirs==4.9.6", "pytest-django==4.12.0", "sphinxcontrib-applehelp==2.0.0",
+            "jaraco-functools==4.4.0", "pytest-cov==7.1.0", "fastavro==1.12.1", "pylint-celery==0.3",
+            "jsonfield==3.2.0", "filelock==3.29.0", "django==5.2.13", "djangorestframework==3.17.1",
+            "django-waffle==5.0.0", "psutil==7.2.2", "jeepney==0.9.0", "pip-tools==7.5.3",
+            "edx-celeryutils==2.0.0", "more-itertools==11.0.2", "django-crum==0.7.9",
+            "idna==3.12", "pylint==4.0.5", "jinja2==3.1.6", "sphinxcontrib-jsmath==1.0.1",
+            "prompt-toolkit==3.0.52", "celery==5.6.3", "click==8.3.2", "django-fernet-fields-v2==0.9",
+            "certifi==2026.2.25", "django-redis==6.0.0", "sphinxcontrib-qthelp==2.0.0",
+            "dnspython==2.8.0", "nh3==0.3.4", "roman-numerals==4.1.0", "path==16.16.0",
+            "asgiref==3.11.1", "charset-normalizer==3.4.7", "apache-libcloud==3.9.1",
+            "edx-i18n-tools==2.0.0", "factory-boy==3.3.3", "fasteners==0.20", "billiard==4.2.4",
+            "pyproject-hooks==1.2.0", "diff-cover==10.2.0", "pylint-plugin-utils==0.9.0",
+            "sphinxcontrib-devhelp==2.0.0", "twine==6.2.0", "openedx-events==11.1.1",
+            "pycodestyle==2.14.0", "cffi==2.0.0", "aniso8601==10.0.1", "attrs==26.1.0",
+            "dill==0.4.1", "rich==15.0.0", "click-log==0.4.0", "restructuredtext-lint==2.0.2",
+            "coverage[toml]==7.13.5", "sphinx-book-theme==1.2.0", "tomlkit==0.14.0",
+            "urllib3==2.6.3", "python-dateutil==2.9.0.post0", "django-model-utils==5.0.0",
+            "python-slugify==8.0.4", "lxml-html-clean==0.4.4", "edx-lint==6.0.0",
+            "jaraco-context==6.1.2", "build==1.4.3", "isort==8.0.1", "distlib==0.4.0",
+            "stevedore==5.7.0", "astroid==4.0.4", "pydata-sphinx-theme==0.16.1", "sqlparse==0.5.5",
+            "pip==26.0.1", "sphinxcontrib-htmlhelp==2.1.0", "pymongo==4.17.0", "snowballstemmer==3.0.1",
+            "docutils==0.21.2", "isodate==0.7.2", "ddt==1.7.2", "tzlocal==5.3.1",
+            "doc8==2.0.0", "click-plugins==1.1.1.2", "text-unidecode==1.3", "cachetools==7.0.6",
+            "edx-toggles==6.0.0", "requests==2.33.1", "mccabe==0.7.0", "accessible-pygments==0.0.5",
+            "tox==4.53.0", "kombu==5.6.2", "alabaster==1.0.0", "cryptography==46.0.7",
+            "click-repl==0.3.0", "packaging==26.1", "wheel==0.46.3", "redis==7.4.0",
+            "jaraco-classes==3.4.0", "amqp==5.3.1", "pydocstyle==6.3.0", "edx-django-utils==8.0.1",
+            "click-didyoumean==0.3.1", "pytest==9.0.3", "vine==5.1.0", "pyyaml==6.0.3",
+            "event-tracking==4.0.0", "mdurl==0.1.2", "beautifulsoup4==4.14.3", "openedx-filters==3.1.0",
+            "typing-extensions==4.15.0", "pytz==2026.1.post1", "six==1.17.0", "pycparser==3.0",
+            "pynacl==1.6.2", "edx-ccx-keys==2.0.2", "keyring==25.7.0"]'
+django_packages:
+    django_42:
+        count: 12
+        list: '["django-config-models", "event-tracking", "pylint-django", "djangorestframework",
+            "pytest-django", "edx-i18n-tools", "django-waffle", "code-annotations",
+            "edx-toggles", "factory-boy", "edx-celeryutils", "edx-django-utils"]'
+    total:
+        count: 15
+        list: '["django-config-models", "event-tracking", "pylint-django", "djangorestframework",
+            "pytest-django", "edx-i18n-tools", "django-model-utils", "django-waffle",
+            "code-annotations", "edx-toggles", "django-crum", "factory-boy", "jsonfield",
+            "edx-celeryutils", "edx-django-utils"]'
+    upgraded:
+        count: 8
+        list: '["django-config-models", "event-tracking", "edx-i18n-tools", "django-waffle",
+            "code-annotations", "edx-toggles", "edx-celeryutils", "edx-django-utils"]'
+docs:
+    build_badge: true
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: true
+    .gitignore: true
+    .pii_annotations.yml: true
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 18
+    build_details: '{"total_duration": "1 minutes 10 seconds", "checks": [{"name":
+        "tests (ubuntu-24.04, 3.12, django42)", "duration": "1 minutes 10 seconds"},
+        {"name": "tests (3.12, docs, ubuntu-24.04)", "duration": "1 minutes 3 seconds"},
+        {"name": "tests (3.12, quality, ubuntu-24.04)", "duration": "0 minutes 56
+        seconds"}, {"name": "tests (ubuntu-24.04, 3.12, django52)", "duration": "0
+        minutes 48 seconds"}, {"name": "tests (3.12, pii_check, ubuntu-24.04)", "duration":
+        "0 minutes 41 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2020-09-22 20:33:20
+    default_branch: master
+    description: Consume edx tracking events and transform/transmit them to other
+        LRSs.
+    disk_usage_kb: 1212
+    fork_count: 22
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-22 15:09:18
+    license: GNU AGPLv3
+    pulls_count: 0
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 232
+    javascript: 812
+    makefile: 4813
+    python: 345353
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links: []
+    getting-help: true
+    good_links:
+    - https://github.com/openedx/event-tracking
+    - https://open-edx-proposals.readthedocs.io/en/latest/oep-0026-arch-realtime-events.html
+    - https://event-routing-backends.readthedocs.io/en/latest/
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://discuss.openedx.org
+    - https://openedx.org/getting-help
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://img.shields.io/pypi/v/event-routing-backends.svg
+    - https://pypi.python.org/pypi/event-routing-backends/
+    - https://github.com/openedx/event-routing-backends/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/event-routing-backends/actions?query=workflow%3A%22Python+CI%22
+    - https://codecov.io/github/edx/event-routing-backends/coverage.svg?branch=master
+    - https://codecov.io/github/edx/event-routing-backends?branch=master
+    - https://readthedocs.org/projects/event-routing-backends/badge/?version=latest
+    - https://img.shields.io/pypi/pyversions/event-routing-backends.svg
+    - https://img.shields.io/github/license/edx/event-routing-backends.svg
+    - https://github.com/openedx/event-routing-backends/blob/master/LICENSE.txt
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx-event-routing-backends
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/event-routing-backends
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

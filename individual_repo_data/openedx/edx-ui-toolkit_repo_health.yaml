@@ -1,0 +1,182 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 50
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 13
+        list: '{"backbone": "1.6.1", "backbone.paginator": "2.0.8", "gulp-shell":
+            "0.8.0", "jquery": "~3.7.0", "mini-css-extract-plugin": "^2.7.2", "moment":
+            "2.30.1", "moment-timezone": "0.6.1", "requirejs": "2.1.22", "requirejs-text":
+            "2.0.16", "sass": "^1.58.3", "sinon": "1.17.7", "underscore": "~1.8.3",
+            "urijs": "1.19.11"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 37
+        list: '{"@edx/eslint-config": "^4.0.0", "bi-app-sass": "1.1.0", "bourbon":
+            "4.3.4", "browser-sync": "3.0.4", "css-loader": "^6.0.0", "del": "2.2.2",
+            "eslint": "^8.35.0", "eslint-config-edx": "4.0.4", "gulp": "^4.0.2", "gulp-gh-pages":
+            "0.5.4", "gulp-rename": "2.1.0", "gulp-util": "3.0.8", "gulp4-run-sequence":
+            "^1.0.1", "jasmine": "5.13.0", "jasmine-core": "5.13.0", "jsdoc3-parser":
+            "3.0.0", "jsdox": "0.4.10", "karma": "6.4.4", "karma-chrome-launcher":
+            "^3.1.1", "karma-coverage": "2.2.1", "karma-firefox-launcher": "2.1.3",
+            "karma-jasmine": "5.1.0", "karma-jasmine-html-reporter": "2.2.0", "karma-jasmine-jquery-2":
+            "^0.1.1", "karma-phantomjs-launcher": "1.0.4", "karma-requirejs": "1.1.0",
+            "karma-sinon": "1.0.5", "karma-spec-reporter": "0.0.36", "puppeteer":
+            "^14.1.2", "require-dir": "latest", "requirejs-plugins": "1.0.2", "sass-loader":
+            "^13.2.0", "susy": "2.2.14", "style-loader": "3.3.4", "through2": "2.0.5",
+            "webpack": "^5.75.0", "webpack-stream": "7.0.0"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: false
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: true
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: false
+    allows_squash_merge: true
+    branch_count: 29
+    build_details: '{"total_duration": "2 minutes 4 seconds", "checks": [{"name":
+        "build", "duration": "2 minutes 4 seconds"}, {"name": "Release", "duration":
+        "0 minutes 32 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2015-08-13 07:28:13
+    default_branch: master
+    description: A JavaScript toolkit for building edX user interfaces.
+    disk_usage_kb: 3879
+    fork_count: 13
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-08 19:33:18
+    license: Apache License 2.0
+    pulls_count: 14
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 180573
+    makefile: 0
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://badge.fury.io/js/edx-ui-toolkit: 403'
+    - 'http://ux.edx.org/: HTTPConnectionPool(host=''ux.edx.org'', port=80): Max retries
+        exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''ux.edx.org'',
+        port=80): Failed to resolve ''ux.edx.org'' ([Errno -2] Name or service not
+        known)"))'
+    - 'https://github.com/openedx/edx-ui-toolkit/blob/master/CONTRIBUTING.md: 404'
+    getting-help: false
+    good_links:
+    - https://badge.fury.io/gh/edx%2Fedx-ui-toolkit.svg
+    - https://badge.fury.io/gh/edx%2Fedx-ui-toolkit
+    - https://badge.fury.io/js/edx-ui-toolkit.svg
+    - https://badge.fury.io/bo/edx-ui-toolkit.svg
+    - https://badge.fury.io/bo/edx-ui-toolkit
+    - https://img.shields.io/coveralls/edx/edx-ui-toolkit.svg
+    - https://coveralls.io/r/edx/edx-ui-toolkit?branch=master
+    - https://github.com/openedx/edx-ui-toolkit/blob/master/LICENSE
+    - https://github.com/tj/n
+    - http://ui-toolkit.edx.org/
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-04-06'
+    oldest_open_pr_date: '2023-09-04'
+    total_open_prs: 9
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

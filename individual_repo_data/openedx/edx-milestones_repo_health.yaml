@@ -1,0 +1,187 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 55
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 11
+        list: '["typing-extensions==4.15.0", "django-model-utils==5.0.0", "six==1.17.0",
+            "asgiref==3.11.1", "setuptools==82.0.0", "dnspython==2.8.0", "sqlparse==0.5.5",
+            "django==5.2.12", "edx-opaque-keys==3.1.0", "stevedore==5.7.0", "pymongo==4.16.0"]'
+    pypi_all:
+        count: 55
+        list: '["isort==8.0.1", "python-slugify==8.0.4", "pyproject-hooks==1.2.0",
+            "filelock==3.25.0", "distlib==0.4.0", "snowballstemmer==3.0.1", "pygments==2.19.2",
+            "pydocstyle==6.3.0", "click-log==0.4.0", "asgiref==3.11.1", "dnspython==2.8.0",
+            "tomlkit==0.14.0", "markupsafe==3.0.3", "dill==0.4.1", "pytest-django==4.12.0",
+            "pylint-django==2.7.0", "virtualenv==21.1.0", "cachetools==7.0.3", "coverage[toml]==7.13.4",
+            "colorama==0.4.6", "click==8.3.1", "jinja2==3.1.6", "wheel==0.46.3", "six==1.17.0",
+            "setuptools==82.0.0", "python-discovery==1.1.0", "sqlparse==0.5.5", "django==5.2.12",
+            "edx-lint==5.6.0", "build==1.4.0", "pymongo==4.16.0", "pluggy==1.6.0",
+            "astroid==4.0.4", "typing-extensions==4.15.0", "mccabe==0.7.0", "django-model-utils==5.0.0",
+            "pylint==4.0.5", "tox==4.49.0", "text-unidecode==1.3", "platformdirs==4.9.4",
+            "pyyaml==6.0.3", "iniconfig==2.3.0", "pylint-plugin-utils==0.9.0", "pytest==9.0.2",
+            "edx-opaque-keys==3.1.0", "stevedore==5.7.0", "pycodestyle==2.14.0", "pylint-celery==0.3",
+            "tomli-w==1.2.0", "packaging==26.0", "code-annotations==2.3.2", "pip-tools==7.5.3",
+            "pytest-cov==7.0.0", "pyproject-api==1.10.0", "pip==26.0.1"]'
+django_packages:
+    django_42:
+        count: 4
+        list: '["code-annotations", "pytest-django", "pylint-django", "edx-opaque-keys"]'
+    total:
+        count: 5
+        list: '["edx-opaque-keys", "pytest-django", "pylint-django", "code-annotations",
+            "django-model-utils"]'
+    upgraded:
+        count: 2
+        list: '["code-annotations", "edx-opaque-keys"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 2
+    build_details: '{"total_duration": "19231 minutes 25 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 56 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 46
+        seconds"}, {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0
+        minutes 35 seconds"}, {"name": "Dependabot", "duration": "0 minutes 35 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 30 seconds"}, {"name": "push",
+        "duration": "0 minutes 20 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2014-11-24 16:56:50
+    default_branch: master
+    description: ''
+    disk_usage_kb: 335
+    fork_count: 13
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-13 23:54:39
+    license: GNU AGPLv3
+    pulls_count: 2
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 2187
+    python: 121038
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://openedx.org/slack: 403'
+    - 'https://openedx.org/getting-help: 403'
+    getting-help: true
+    good_links:
+    - https://github.com/openedx/edx-milestones/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/edx-milestones/actions?query=workflow%3A%22Python+CI%22
+    - https://img.shields.io/coveralls/edx/edx-milestones.svg
+    - https://coveralls.io/r/edx/edx-milestones?branch=master
+    - https://github.com/openedx/edx-platform/blob/master/requirements/edx/base.in
+    - https://github.com/openedx/edx-platform/
+    - https://docs.openedx.org/en/latest/site_ops/install_configure_run_guide/configuration/enable_prerequisites.html
+    - https://docs.openedx.org/en/latest/educators/references/controlling_content_visibility.html
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://discuss.openedx.org
+    - http://openedx.slack.com/
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx-milestones
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/edx-milestones
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'
