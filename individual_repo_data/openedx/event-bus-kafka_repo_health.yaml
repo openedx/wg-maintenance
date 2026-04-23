@@ -1,0 +1,225 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 126
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 28
+        list: '["jinja2==3.1.6", "six==1.17.0", "dnspython==2.8.0", "pymongo==4.15.3",
+            "sqlparse==0.5.3", "attrs==25.4.0", "markupsafe==3.0.3", "fastavro==1.12.1",
+            "django==4.2.25", "edx-opaque-keys[django]==3.0.0", "edx-toggles==5.4.1",
+            "stevedore==5.5.0", "openedx-events==10.5.0", "typing-extensions==4.15.0",
+            "pyyaml==6.0.3", "python-slugify==8.0.4", "pynacl==1.6.0", "pycparser==2.23",
+            "code-annotations==2.3.0", "click==8.3.0", "cffi==2.0.0", "asgiref==3.10.0",
+            "django-crum==0.7.9", "edx-ccx-keys==2.0.2", "text-unidecode==1.3", "psutil==7.1.1",
+            "django-waffle==5.0.0", "edx-django-utils==8.0.1"]'
+    pypi_all:
+        count: 126
+        list: '["alabaster==1.0.0", "six==1.17.0", "pylint-django==2.6.1", "dnspython==2.8.0",
+            "pymongo==4.15.3", "astroid==3.3.11", "fastavro==1.12.1", "django==4.2.25",
+            "mccabe==0.7.0", "pluggy==1.6.0", "edx-toggles==5.4.1", "stevedore==5.5.0",
+            "doc8==2.0.0", "rich==14.2.0", "pynacl==1.6.0", "id==1.5.0", "snowballstemmer==3.0.1",
+            "pydocstyle==6.3.0", "accessible-pygments==0.0.5", "secretstorage==3.4.0",
+            "packaging==25.0", "twine==6.2.0", "authlib==1.6.5", "nh3==0.3.1", "cachetools==6.2.1",
+            "pylint-celery==0.3", "text-unidecode==1.3", "confluent-kafka[avro,schema-registry]==2.12.0",
+            "pyproject-api==1.10.0", "pylint-plugin-utils==0.9.0", "psutil==7.1.1",
+            "beautifulsoup4==4.14.2", "chardet==5.2.0", "pylint==3.3.9", "rfc3986==2.0.0",
+            "jeepney==0.9.0", "filelock==3.20.0", "jinja2==3.1.6", "distlib==0.4.0",
+            "pycodestyle==2.14.0", "zipp==3.23.0", "anyio==4.11.0", "soupsieve==2.8",
+            "tox==4.31.0", "sphinxcontrib-jsmath==1.0.1", "openedx-events==10.5.0",
+            "typing-extensions==4.15.0", "pyproject-hooks==1.2.0", "importlib-metadata==8.7.0",
+            "edx-lint==5.6.0", "pycparser==2.23", "backports-tarfile==1.2.0", "babel==2.17.0",
+            "colorama==0.4.6", "sphinxcontrib-devhelp==2.0.0", "coverage[toml]==7.11.0",
+            "pydata-sphinx-theme==0.15.4", "sphinxcontrib-applehelp==2.0.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "edx-ccx-keys==2.0.2", "sphinxcontrib-qthelp==2.0.0", "jaraco-classes==3.4.0",
+            "httpx==0.28.1", "edx-django-utils==8.0.1", "pytest-cov==7.0.0", "requests-toolbelt==1.0.0",
+            "lxml[html-clean]==6.0.2", "charset-normalizer==3.4.4", "build==1.3.0",
+            "platformdirs==4.5.0", "urllib3==2.5.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "h11==0.16.0", "sqlparse==0.5.3", "attrs==25.4.0", "markupsafe==3.0.3",
+            "virtualenv==20.35.3", "ddt==1.7.2", "imagesize==1.4.1", "httpcore==1.0.9",
+            "pyyaml==6.0.3", "python-slugify==8.0.4", "lxml-html-clean==0.4.3", "restructuredtext-lint==1.4.0",
+            "diff-cover==9.7.1", "click==8.3.0", "pytest-django==4.11.1", "cffi==2.0.0",
+            "readme-renderer==44.0", "dill==0.4.0", "jaraco-context==6.0.1", "pip-tools==7.5.1",
+            "markdown-it-py==4.0.0", "setuptools==80.9.0", "pygments==2.19.2", "tomli==2.3.0",
+            "cryptography==46.0.3", "mdurl==0.1.2", "jaraco-functools==4.3.0", "wheel==0.45.1",
+            "edx-opaque-keys[django]==3.0.0", "path==16.16.0", "sniffio==1.3.1", "isort==6.1.0",
+            "roman-numerals-py==3.1.0", "sphinx-book-theme==1.1.4", "requests==2.32.5",
+            "more-itertools==10.8.0", "docutils==0.22.2", "code-annotations==2.3.0",
+            "pip==25.2", "tomlkit==0.13.3", "asgiref==3.10.0", "click-log==0.4.0",
+            "django-crum==0.7.9", "certifi==2025.10.5", "iniconfig==2.3.0", "avro==1.12.1",
+            "docutils==0.21.2", "django-waffle==5.0.0", "edx-i18n-tools==1.9.0", "idna==3.11",
+            "sphinx==8.2.3", "keyring==25.6.0", "pytest==8.4.2", "polib==1.2.0"]'
+django_packages:
+    django_42:
+        count: 7
+        list: '["django-waffle", "code-annotations", "edx-i18n-tools", "pytest-django",
+            "edx-django-utils", "pylint-django", "edx-toggles"]'
+    total:
+        count: 9
+        list: '["django-waffle", "django-crum", "code-annotations", "edx-i18n-tools",
+            "pytest-django", "edx-django-utils", "pylint-django", "authlib", "edx-toggles"]'
+    upgraded:
+        count: 5
+        list: '["django-waffle", "code-annotations", "edx-i18n-tools", "edx-django-utils",
+            "edx-toggles"]'
+docs:
+    build_badge: true
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: true
+    .gitignore: true
+    .pii_annotations.yml: true
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 12
+    build_details: '{"total_duration": "39208 minutes 42 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 46 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 46
+        seconds"}, {"name": "tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes
+        44 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)", "duration":
+        "0 minutes 42 seconds"}, {"name": "tests (ubuntu-latest, 3.12, pii_check)",
+        "duration": "0 minutes 32 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 32 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 28 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 28 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 27 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 27 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 25 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 24 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 21 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2022-06-11 18:50:06
+    default_branch: main
+    description: Kafka implementation for Open edX event bus
+    disk_usage_kb: 539
+    fork_count: 6
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 17:29:49
+    license: GNU AGPLv3
+    pulls_count: 7
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 662
+    javascript: 0
+    makefile: 4152
+    python: 138701
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 1
+readme:
+    bad_links:
+    - 'https://openedx-slack-invite.herokuapp.com/: 404'
+    - 'https://edx-event-bus-kafka.readthedocs.io/en/latest/: 404'
+    getting-help: true
+    good_links:
+    - https://github.com/openedx/event-bus-kafka/blob/main/docs/decisions/0005-optional-import-of-confluent-kafka.rst
+    - https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0052-arch-event-bus-architecture.html
+    - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://discuss.openedx.org
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    - https://img.shields.io/pypi/v/edx-event-bus-kafka.svg
+    - https://pypi.python.org/pypi/edx-event-bus-kafka/
+    - https://github.com/openedx/event-bus-kafka/workflows/Python%20CI/badge.svg?branch=main
+    - https://github.com/openedx/event-bus-kafka/actions
+    - https://codecov.io/github/openedx/event-bus-kafka/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/event-bus-kafka?branch=main
+    - https://readthedocs.org/projects/edx-event-bus-kafka/badge/?version=latest
+    - https://img.shields.io/pypi/pyversions/edx-event-bus-kafka.svg
+    - https://img.shields.io/github/license/openedx/event-bus-kafka.svg
+    - https://github.com/openedx/event-bus-kafka/blob/main/LICENSE.txt
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx_event_bus_kafka
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/event-bus-kafka
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

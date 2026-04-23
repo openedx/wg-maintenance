@@ -1,0 +1,197 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 105
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 0
+        list: '[]'
+    pypi_all:
+        count: 105
+        list: '["mccabe==0.7.0", "pylint-plugin-utils==0.9.0", "pytest-django==4.12.0",
+            "rfc3986==2.0.0", "readme-renderer==44.0", "secretstorage==3.5.0", "mdurl==0.1.2",
+            "alabaster==1.0.0", "pycparser==3.0", "idna==3.11", "keyring==25.7.0",
+            "pytest-cov==7.1.0", "path==16.16.0", "python-discovery==1.2.2", "cffi==2.0.0",
+            "sphinxcontrib-serializinghtml==2.0.0", "lxml[html-clean]==6.0.4", "packaging==26.1",
+            "restructuredtext-lint==2.0.2", "pyyaml==6.0.3", "lxml-html-clean==0.4.4",
+            "sphinxcontrib-devhelp==2.0.0", "six==1.17.0", "sphinxcontrib-napoleon==0.7",
+            "pylint-django==2.7.0", "certifi==2026.2.25", "python-slugify==8.0.4",
+            "colorama==0.4.6", "twine==6.2.0", "click-log==0.4.0", "virtualenv==21.2.4",
+            "markdown-it-py==4.0.0", "charset-normalizer==3.4.7", "pyproject-api==1.10.0",
+            "chardet==7.4.3", "sphinxcontrib-htmlhelp==2.1.0", "snowballstemmer==3.0.1",
+            "build==1.4.3", "pygments==2.20.0", "pydocstyle==6.3.0", "doc8==2.0.0",
+            "accessible-pygments==0.0.5", "wheel==0.46.3", "iniconfig==2.3.0", "sphinx-book-theme==1.2.0",
+            "typing-extensions==4.15.0", "roman-numerals==4.1.0", "nh3==0.3.4", "cryptography==46.0.7",
+            "edx-i18n-tools==2.0.0", "setuptools==82.0.1", "diff-cover==10.2.0", "urllib3==2.6.3",
+            "pytest==9.0.3", "beautifulsoup4==4.14.3", "requests==2.33.1", "imagesize==2.0.0",
+            "jeepney==0.9.0", "asgiref==3.11.1", "coverage[toml]==7.13.5", "filelock==3.28.0",
+            "sqlparse==0.5.5", "tomlkit==0.14.0", "ddt==1.3.1", "click==8.3.2", "pylint==4.0.5",
+            "distlib==0.4.0", "docutils==0.22.4", "text-unidecode==1.3", "babel==2.18.0",
+            "edx-lint==6.0.0", "pip==26.0.1", "pyproject-hooks==1.2.0", "dill==0.4.1",
+            "tox==4.53.0", "stevedore==5.7.0", "polib==1.2.0", "pycodestyle==2.14.0",
+            "markupsafe==3.0.3", "pydata-sphinx-theme==0.16.1", "more-itertools==11.0.2",
+            "rich==15.0.0", "pylint-celery==0.3", "cachetools==7.0.5", "docutils==0.21.2",
+            "id==1.6.1", "pluggy==1.6.0", "sphinxcontrib-jsmath==1.0.1", "soupsieve==2.8.3",
+            "jaraco-classes==3.4.0", "sphinxcontrib-qthelp==2.0.0", "jaraco-functools==4.4.0",
+            "tomli-w==1.2.0", "jinja2==3.1.6", "sphinxcontrib-applehelp==2.0.0", "code-annotations==3.0.0",
+            "django==5.2.13", "jaraco-context==6.1.2", "isort==8.0.1", "sphinx==9.1.0",
+            "requests-toolbelt==1.0.0", "astroid==4.0.4", "pip-tools==7.5.3", "platformdirs==4.9.6",
+            "pockets==0.9.1"]'
+django_packages:
+    django_42:
+        count: 4
+        list: '["pytest-django", "pylint-django", "edx-i18n-tools", "code-annotations"]'
+    total:
+        count: 4
+        list: '["pytest-django", "pylint-django", "edx-i18n-tools", "code-annotations"]'
+    upgraded:
+        count: 2
+        list: '["edx-i18n-tools", "code-annotations"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 42
+    build_details: '{"total_duration": "6204 minutes 45 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 17 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 37 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, docs)", "duration": "0 minutes 32 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, django42)", "duration": "0 minutes 30 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 24 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2016-12-08 15:24:36
+    default_branch: master
+    description: Provides the ability to render fragments of web pages
+    disk_usage_kb: 318
+    fork_count: 8
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 23:04:49
+    license: Apache License 2.0
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 120
+    javascript: 0
+    makefile: 3016
+    python: 27818
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 2
+readme:
+    bad_links:
+    - 'http://web-fragments.readthedocs.io/en/latest/?badge=latest: 404'
+    - 'http://web-fragments.readthedocs.io/en/latest/: 404'
+    - 'https://web-fragments.readthedocs.org: 404'
+    getting-help: true
+    good_links:
+    - https://img.shields.io/pypi/v/web-fragments.svg
+    - https://pypi.python.org/pypi/web-fragments/
+    - https://github.com/openedx/web-fragments/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/web-fragments/actions?query=workflow%3A%22Python+CI%22
+    - http://codecov.io/github/edx/web-fragments/coverage.svg?branch=master
+    - http://codecov.io/github/edx/web-fragments?branch=master
+    - https://img.shields.io/pypi/pyversions/web-fragments.svg
+    - https://img.shields.io/github/license/edx/web-fragments.svg
+    - https://github.com/openedx/web-fragments/blob/master/LICENSE.txt
+    - https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0012-arch-fragment-views.html
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://open.edx.org/getting-help
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: true
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: web-fragments
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/web-fragments
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

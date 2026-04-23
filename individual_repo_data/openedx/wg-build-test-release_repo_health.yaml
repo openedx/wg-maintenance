@@ -1,0 +1,160 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 0
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: false
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: false
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: false
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 7
+    build_details: '{"total_duration": "25470 minutes 12 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 29 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 29 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 27 seconds"}, {"name": "move_and_notify", "duration": "0 minutes 7
+        seconds"}, {"name": "move_and_notify", "duration": "0 minutes 5 seconds"},
+        {"name": "add_label", "duration": "0 minutes 4 seconds"}, {"name": "add_label",
+        "duration": "0 minutes 2 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "0
+        minutes 0 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2021-02-01 17:07:12
+    default_branch: main
+    description: Open edX Build / Test / Release Working Group
+    disk_usage_kb: 4306
+    fork_count: 13
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2025-12-10 18:07:51
+    license: null
+    pulls_count: 0
+github_actions: false
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 5560
+    makefile: 0
+    python: 11553
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/build-test-release-wg/projects
+    - https://discuss.openedx.org/c/working-groups/build-test-release/30
+    - https://calendar.google.com/calendar/u/0?cid=Y192ODZzaHJuZWdzaHNxZ3A0Zmoyazk0dTdiY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+    - https://openedx.atlassian.net/wiki/spaces/COMM/pages/3185508485/BTR+Meeting+Minutes
+    - https://openedx.atlassian.net/wiki/spaces/COMM/pages/1022099494/Build+-+Test+-+Release+Working+Group
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

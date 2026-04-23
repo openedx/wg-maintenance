@@ -1,0 +1,184 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 13
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 2
+        list: '{"@edx/openedx-atlas": "^0.7.0", "lodash": "^4.17.23"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 11
+        list: '{"@edx/browserslist-config": "^1.5.0", "@testing-library/jest-dom":
+            "^6.8.0", "@testing-library/react": "^16.3.0", "@testing-library/user-event":
+            "^14.6.1", "@types/jest": "^30.0.0", "@types/react": "^18", "@types/react-dom":
+            "^18", "jest": "^29", "nodemon": "^3.1.14", "tsc-alias": "^1.8.16", "turbo":
+            "^2.9.2"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 2
+    build_details: '{"total_duration": "178 minutes 24 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 13 seconds"}, {"name": "Release", "duration":
+        "1 minutes 5 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 55 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2025-08-21 12:52:46
+    default_branch: main
+    description: Instructor Dashboard pages in MFE-land
+    disk_usage_kb: 1106
+    fork_count: 9
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-23 14:56:47
+    license: GNU AGPLv3
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 256
+    javascript: 1408
+    makefile: 1920
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
+        port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
+        port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-instructor-dashboard:
+        404'
+    getting-help: true
+    good_links:
+    - https://github.com/overhangio/tutor
+    - https://github.com/overhangio/tutor-mfe
+    - https://github.com/openedx/frontend-app-instructor-dashboard.git
+    - https://github.com/nvm-sh/nvm
+    - https://github.com/openedx/frontend-app-instructor-dashboard/blob/master/docs/decisions/0002-feature-based-application-organization.rst
+    - https://github.com/openedx/frontend-base/blob/master/docs/how_tos/i18n.rst
+    - https://discuss.openedx.org
+    - https://github.com/openedx/frontend-app-instructor-dashboard/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    - https://img.shields.io/github/license/openedx/frontend-app-instructor-dashboard.svg
+    - https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/LICENSE
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    - https://github.com/openedx/frontend-app-instructor-dashboard/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/frontend-app-instructor-dashboard/actions/workflows/ci.yml
+    - https://codecov.io/github/openedx/frontend-app-instructor-dashboard/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/frontend-app-instructor-dashboard?branch=main
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: 0
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

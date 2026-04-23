@@ -1,0 +1,223 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 115
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 30
+        list: '["typing-extensions==4.15.0", "click==8.3.2", "django==5.2.13", "edx-django-utils==8.0.1",
+            "python-slugify==8.0.4", "walrus==0.9.8", "pymongo==4.16.0", "sqlparse==0.5.5",
+            "jinja2==3.1.6", "cffi==2.0.0", "pycparser==3.0", "pynacl==1.6.2", "redis==7.4.0",
+            "code-annotations==3.0.0", "openedx-events==11.1.1", "six==1.17.0", "edx-opaque-keys[django]==4.0.0",
+            "asgiref==3.11.1", "dnspython==2.8.0", "psutil==7.2.2", "stevedore==5.7.0",
+            "django-crum==0.7.9", "edx-toggles==6.0.0", "django-waffle==5.0.0", "fastavro==1.12.1",
+            "text-unidecode==1.3", "attrs==26.1.0", "pyyaml==6.0.3", "edx-ccx-keys==2.0.2",
+            "markupsafe==3.0.3"]'
+    pypi_all:
+        count: 115
+        list: '["jaraco-classes==3.4.0", "sphinxcontrib-devhelp==2.0.0", "walrus==0.9.8",
+            "tomlkit==0.14.0", "sqlparse==0.5.5", "certifi==2026.2.25", "twine==6.2.0",
+            "alabaster==1.0.0", "pylint==4.0.5", "tox==4.53.0", "chardet==7.4.3",
+            "secretstorage==3.5.0", "soupsieve==2.8.3", "redis==7.4.0", "pluggy==1.6.0",
+            "pyproject-api==1.10.0", "six==1.17.0", "id==1.6.1", "keyring==25.7.0",
+            "sphinx==9.1.0", "edx-toggles==6.0.0", "cryptography==46.0.7", "django-waffle==5.0.0",
+            "pip-tools==7.5.3", "babel==2.18.0", "attrs==26.1.0", "coverage[toml]==7.13.5",
+            "build==1.4.3", "pycodestyle==2.14.0", "pydocstyle==6.3.0", "requests==2.33.1",
+            "mccabe==0.7.0", "sphinxcontrib-jsmath==1.0.1", "python-slugify==8.0.4",
+            "astroid==4.0.4", "sphinx-book-theme==1.2.0", "pynacl==1.6.2", "python-discovery==1.2.2",
+            "accessible-pygments==0.0.5", "openedx-events==11.1.1", "jeepney==0.9.0",
+            "cachetools==7.0.5", "click-log==0.4.0", "wheel==0.46.3", "beautifulsoup4==4.14.3",
+            "dnspython==2.8.0", "psutil==7.2.2", "pylint-plugin-utils==0.9.0", "fastavro==1.12.1",
+            "pytest==9.0.3", "snowballstemmer==3.0.1", "sphinxcontrib-serializinghtml==2.0.0",
+            "platformdirs==4.9.6", "diff-cover==10.2.0", "edx-ccx-keys==2.0.2", "readme-renderer==44.0",
+            "typing-extensions==4.15.0", "click==8.3.2", "edx-django-utils==8.0.1",
+            "pymongo==4.16.0", "urllib3==2.6.3", "ddt==1.7.2", "jinja2==3.1.6", "setuptools==82.0.1",
+            "edx-i18n-tools==2.0.0", "cffi==2.0.0", "pygments==2.20.0", "tomli-w==1.2.0",
+            "jaraco-context==6.1.2", "lxml-html-clean==0.4.4", "sphinxcontrib-qthelp==2.0.0",
+            "colorama==0.4.6", "rfc3986==2.0.0", "distlib==0.4.0", "filelock==3.29.0",
+            "requests-toolbelt==1.0.0", "pytest-cov==7.1.0", "isort==8.0.1", "markdown-it-py==4.0.0",
+            "pylint-celery==0.3", "stevedore==5.7.0", "django-crum==0.7.9", "text-unidecode==1.3",
+            "roman-numerals==4.1.0", "idna==3.11", "sphinxcontrib-applehelp==2.0.0",
+            "charset-normalizer==3.4.7", "path==16.16.0", "pylint-django==2.7.0",
+            "pydata-sphinx-theme==0.16.1", "docutils==0.22.4", "django==5.2.13", "pip==26.0.1",
+            "pycparser==3.0", "virtualenv==21.2.4", "imagesize==2.0.0", "nh3==0.3.4",
+            "code-annotations==3.0.0", "mdurl==0.1.2", "edx-opaque-keys[django]==4.0.0",
+            "polib==1.2.0", "pyproject-hooks==1.2.0", "asgiref==3.11.1", "packaging==26.1",
+            "rich==15.0.0", "lxml[html-clean]==6.1.0", "pytest-django==4.12.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "iniconfig==2.3.0", "pyyaml==6.0.3", "jaraco-functools==4.4.0", "dill==0.4.1",
+            "edx-lint==6.0.0", "more-itertools==11.0.2", "markupsafe==3.0.3"]'
+django_packages:
+    django_42:
+        count: 7
+        list: '["code-annotations", "edx-toggles", "pylint-django", "edx-django-utils",
+            "pytest-django", "django-waffle", "edx-i18n-tools"]'
+    total:
+        count: 8
+        list: '["code-annotations", "edx-toggles", "pylint-django", "django-crum",
+            "edx-django-utils", "pytest-django", "django-waffle", "edx-i18n-tools"]'
+    upgraded:
+        count: 5
+        list: '["code-annotations", "edx-toggles", "edx-django-utils", "django-waffle",
+            "edx-i18n-tools"]'
+docs:
+    build_badge: true
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: true
+    .gitignore: true
+    .pii_annotations.yml: true
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 10
+    build_details: '{"total_duration": "106 minutes 21 seconds", "checks": [{"name":
+        "tests (3.12, quality)", "duration": "0 minutes 42 seconds"}, {"name": "tests
+        (3.12, docs)", "duration": "0 minutes 35 seconds"}, {"name": "tests (3.12,
+        django42)", "duration": "0 minutes 32 seconds"}, {"name": "tests (3.12, django52)",
+        "duration": "0 minutes 30 seconds"}, {"name": "tests (3.12, pii_check)", "duration":
+        "0 minutes 29 seconds"}, {"name": "Dependabot", "duration": "0 minutes 26
+        seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2023-02-22 16:22:16
+    default_branch: main
+    description: Redis Streams implementation for the Open edX event bus.
+    disk_usage_kb: 525
+    fork_count: 10
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 18:02:15
+    license: GNU AGPLv3
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 6984
+    python: 91972
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://docs.openedx.org/projects/event-bus-redis: 404'
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/event-bus-redis:
+        404'
+    - 'https://event-bus-redis.readthedocs.io/en/latest/: 404'
+    getting-help: true
+    good_links:
+    - https://redis.readthedocs.io/en/stable/examples/ssl_connection_examples.html
+    - https://github.com/openedx/openedx-events/blob/06635f3642cee4020d6787df68bba694bd1233fe/openedx_events/event_bus/__init__.py
+    - https://redis.io/commands/xread/
+    - https://openedx.atlassian.net/wiki/spaces/AC/pages/3508699151/How+to+start+using+the+Event+Bus
+    - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
+    - https://discuss.openedx.org
+    - https://github.com/openedx/event-bus-redis/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    - https://img.shields.io/pypi/v/edx-event-bus-redis.svg
+    - https://pypi.python.org/pypi/edx-event-bus-redis/
+    - https://github.com/openedx/event-bus-redis/workflows/Python%20CI/badge.svg?branch=main
+    - https://github.com/openedx/event-bus-redis/actions
+    - https://codecov.io/github/openedx/event-bus-redis/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/event-bus-redis?branch=main
+    - https://readthedocs.org/projects/edx-event-bus-redis/badge/?version=latest
+    - https://img.shields.io/pypi/pyversions/edx-event-bus-redis.svg
+    - https://pypi.python.org/pypi/event-bus-redis/
+    - https://img.shields.io/github/license/openedx/event-bus-redis.svg
+    - https://github.com/openedx/event-bus-redis/blob/main/LICENSE.txt
+    - https://img.shields.io/badge/Status-Experimental-yellow
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx_event_bus_redis
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/event-bus-redis
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

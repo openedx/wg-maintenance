@@ -1,0 +1,191 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 48
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 38
+        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^2.0.0", "@edx/frontend-lib-special-exams":
+            "^3.4.0", "@edx/frontend-platform": "^8.7.0", "@edx/openedx-atlas": "^0.7.0",
+            "@edx/tinymce-language-selector": "1.1.0", "@fortawesome/fontawesome-svg-core":
+            "1.2.36", "@fortawesome/free-brands-svg-icons": "5.15.4", "@fortawesome/free-regular-svg-icons":
+            "5.15.4", "@fortawesome/free-solid-svg-icons": "5.15.4", "@fortawesome/react-fontawesome":
+            "0.2.6", "@openedx/paragon": "^23.4.2", "@reduxjs/toolkit": "^1.9.7",
+            "@tanstack/react-query": "^4.29.25", "@tanstack/react-query-devtools":
+            "^4.35.3", "@tinymce/tinymce-react": "3.14.0", "@zip.js/zip.js": "^2.7.62",
+            "axios": "^1.5.1", "classnames": "^2.3.2", "core-js": "3.49.0", "file-saver":
+            "^2.0.5", "filesize": "^8.0.6", "jest-when": "^3.6.0", "moment": "^2.29.4",
+            "pdfjs-dist": "^3.11.174", "prop-types": "15.8.1", "query-string": "^8.1.0",
+            "react": "^18.3.1", "react-dom": "^18.3.1", "react-pdf": "^7.4.0", "react-redux":
+            "7.2.9", "react-router": "6.30.3", "react-router-dom": "6.30.3", "redux":
+            "4.2.1", "redux-devtools-extension": "^2.13.9", "redux-logger": "^3.0.6",
+            "regenerator-runtime": "0.14.1", "tinymce": "5.10.9", "uuid": "^9.0.1"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 10
+        list: '{"@edx/browserslist-config": "^1.1.1", "@openedx/frontend-build": "^14.6.6",
+            "@testing-library/dom": "^10.4.0", "@testing-library/jest-dom": "^6.6.3",
+            "@testing-library/react": "^16.2.0", "@testing-library/user-event": "^14.5.1",
+            "glob": "7.2.3", "husky": "7.0.4", "jest": "^30.0.0", "ts-jest": "^29.4.0"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: true
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 23
+    build_details: '{"total_duration": "3 minutes 11 seconds", "checks": [{"name":
+        "test", "duration": "3 minutes 11 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 4 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2023-07-12 21:42:38
+    default_branch: master
+    description: Open Response Assessment MFE
+    disk_usage_kb: 3810
+    fork_count: 23
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 10:16:43
+    license: GNU GPLv3
+    pulls_count: 11
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 1027
+    javascript: 596023
+    makefile: 1591
+    python: 983
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
+        port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
+        port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-ora:
+        404'
+    - 'https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml/badge.svg:
+        404'
+    getting-help: true
+    good_links:
+    - https://github.com/overhangio/tutor
+    - https://github.com/overhangio/tutor-mfe?tab=readme-ov-file
+    - https://github.com/openedx/frontend-app-ora.git
+    - https://github.com/nvm-sh/nvm
+    - https://github.com/overhangio/tutor-mfe/blob/release/tutormfe/plugin.py
+    - https://docs.openedx.org/en/latest/site_ops/how-tos/add-waffle-flag-for-user.html
+    - https://discuss.openedx.org
+    - https://github.com/edx/frontend-app-ora/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    - https://img.shields.io/github/license/openedx/frontend-app-ora.svg
+    - https://github.com/edx/frontend-app-ora/blob/master/LICENSE
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    - https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml
+    - https://codecov.io/github/openedx/frontend-app-ora/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-app-ora?branch=master
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-04-06'
+    oldest_open_pr_date: '2024-02-05'
+    total_open_prs: 7
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

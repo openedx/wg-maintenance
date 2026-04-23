@@ -1,0 +1,219 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 129
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 31
+        list: '["webob==1.8.9", "lazy==1.6", "mako==1.3.10", "jmespath==1.1.0", "pyyaml==6.0.3",
+            "appdirs==1.4.4", "lxml==6.0.4", "openedx-filters==3.1.0", "simplejson==3.20.2",
+            "sqlparse==0.5.5", "botocore==1.42.88", "django-crum==0.7.9", "markupsafe==3.0.3",
+            "stevedore==5.7.0", "s3transfer==0.16.0", "dnspython==2.8.0", "pytz==2026.1.post1",
+            "fs-s3fs==1.1.1", "six==1.17.0", "typing-extensions==4.15.0", "openedx-django-pyfs==4.0.0",
+            "web-fragments==4.0.0", "fs==2.4.16", "python-dateutil==2.9.0.post0",
+            "edx-opaque-keys[django]==4.0.0", "xblock[django]==6.0.0", "boto3==1.42.88",
+            "django==5.2.13", "asgiref==3.11.1", "urllib3==2.6.3", "pymongo==4.16.0"]'
+    pypi_all:
+        count: 129
+        list: '["webob==1.8.9", "tox==4.52.1", "lazy==1.6", "id==1.6.1", "idna==3.11",
+            "mako==1.3.10", "virtualenv==21.2.1", "pytest-django==4.12.0", "pypng==0.20220715.0",
+            "openedx-filters==3.1.0", "text-unidecode==1.3", "platformdirs==4.9.6",
+            "rfc3986==2.0.0", "sqlparse==0.5.5", "pyproject-api==1.10.0", "markupsafe==3.0.3",
+            "annotated-doc==0.0.4", "build==1.4.3", "twine==6.2.0", "mock==5.2.0",
+            "colorama==0.4.6", "requests-toolbelt==1.0.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "typing-extensions==4.15.0", "sphinx-book-theme==1.2.0", "pylint==4.0.5",
+            "alabaster==1.0.0", "edx-opaque-keys[django]==4.0.0", "python-slugify==8.0.4",
+            "setuptools==82.0.1", "edx-i18n-tools==2.0.0", "markdown-it-py==4.0.0",
+            "binaryornot==0.6.0", "charset-normalizer==3.4.7", "tomli-w==1.2.0", "distlib==0.4.0",
+            "wheel==0.46.3", "pylint-celery==0.3", "isort==8.0.1", "appdirs==1.4.4",
+            "filelock==3.25.2", "astroid==4.0.4", "rich==15.0.0", "xblock-sdk==0.14.0",
+            "babel==2.18.0", "more-itertools==11.0.2", "cryptography==46.0.7", "certifi==2026.2.25",
+            "requests==2.33.1", "docutils==0.22.4", "keyring==25.7.0", "pycodestyle==2.14.0",
+            "jeepney==0.9.0", "xblock[django]==6.0.0", "boto3==1.42.88", "pluggy==1.6.0",
+            "django==5.2.13", "urllib3==2.6.3", "python-discovery==1.2.2", "imagesize==2.0.0",
+            "pytest==9.0.3", "pip-tools==7.5.3", "cffi==2.0.0", "secretstorage==3.5.0",
+            "lxml[html-clean]==6.0.4", "accessible-pygments==0.0.5", "arrow==1.4.0",
+            "shellingham==1.5.4", "jmespath==1.1.0", "pyyaml==6.0.3", "coverage[toml]==7.13.5",
+            "pyproject-hooks==1.2.0", "tomlkit==0.14.0", "beautifulsoup4==4.14.3",
+            "simplejson==3.20.2", "cookiecutter==2.7.1", "click==8.3.2", "roman-numerals==4.1.0",
+            "botocore==1.42.88", "click-log==0.4.0", "sphinxcontrib-jsmath==1.0.1",
+            "django-crum==0.7.9", "nh3==0.3.4", "stevedore==5.7.0", "pycparser==3.0",
+            "tzdata==2026.1", "jaraco-context==6.1.2", "fs-s3fs==1.1.1", "packaging==26.0",
+            "cachetools==7.0.5", "six==1.17.0", "ddt==1.7.2", "fs==2.4.16", "python-dateutil==2.9.0.post0",
+            "path==16.16.0", "dill==0.4.1", "asgiref==3.11.1", "code-annotations==3.0.0",
+            "mccabe==0.7.0", "pymongo==4.16.0", "snowballstemmer==3.0.1", "jaraco-classes==3.4.0",
+            "coveralls==4.1.0", "pygments==2.20.0", "sphinxcontrib-applehelp==2.0.0",
+            "pylint-plugin-utils==0.9.0", "sphinxcontrib-htmlhelp==2.1.0", "sphinx==9.1.0",
+            "lxml==6.0.4", "pylint-django==2.7.0", "lxml-html-clean==0.4.4", "sphinxcontrib-qthelp==2.0.0",
+            "soupsieve==2.8.3", "iniconfig==2.3.0", "mdurl==0.1.2", "s3transfer==0.16.0",
+            "dnspython==2.8.0", "pytz==2026.1.post1", "edx-lint==6.0.0", "openedx-django-pyfs==4.0.0",
+            "web-fragments==4.0.0", "readme-renderer==44.0", "pip==26.0.1", "jinja2==3.1.6",
+            "polib==1.2.0", "typer==0.24.1", "pydata-sphinx-theme==0.16.1", "sphinxcontrib-devhelp==2.0.0",
+            "jaraco-functools==4.4.0"]'
+django_packages:
+    django_42:
+        count: 6
+        list: '["pylint-django", "code-annotations", "web-fragments", "xblock-sdk",
+            "pytest-django", "edx-i18n-tools"]'
+    total:
+        count: 7
+        list: '["pylint-django", "code-annotations", "web-fragments", "xblock-sdk",
+            "pytest-django", "django-crum", "edx-i18n-tools"]'
+    upgraded:
+        count: 4
+        list: '["xblock-sdk", "web-fragments", "code-annotations", "edx-i18n-tools"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: false
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 4
+    build_details: '{"total_duration": "5 minutes 23 seconds", "checks": [{"name":
+        "Tests (3.12, django52)", "duration": "1 minutes 18 seconds"}, {"name": "Analyze
+        (javascript)", "duration": "1 minutes 17 seconds"}, {"name": "Tests (3.12,
+        django42)", "duration": "1 minutes 0 seconds"}, {"name": "Analyze (python)",
+        "duration": "0 minutes 59 seconds"}, {"name": "Tests (3.12, quality)", "duration":
+        "0 minutes 55 seconds"}, {"name": "Dependabot", "duration": "0 minutes 31
+        seconds"}, {"name": "push", "duration": "0 minutes 20 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 53 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2022-11-22 21:30:41
+    default_branch: master
+    description: An XBlock to allow students to provide feedback on course materials
+    disk_usage_kb: 699
+    fork_count: 15
+    has_issues: true
+    has_wiki: false
+    is_archived: true
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-14 15:08:30
+    license: GNU AGPLv3
+    pulls_count: 0
+github_actions: true
+language_bytes:
+    css: 2578
+    dockerfile: 0
+    html: 11634
+    javascript: 3703
+    makefile: 3711
+    python: 43450
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://www.gnu.org/licenses/agpl-3.0: 403'
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/FeedbackXBlock:
+        404'
+    getting-help: true
+    good_links:
+    - https://img.shields.io/badge/status-deprecated-red
+    - https://github.com/openedx/xblocks-extra
+    - https://img.shields.io/badge/License-AGPL_v3-blue.svg
+    - https://github.com/openedx/FeedbackXBlock/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/FeedbackXBlock/actions/workflows/ci.yml
+    - https://github.com/openedx/FeedbackXBlock/actions/workflows/pypi-release.yml/badge.svg
+    - https://github.com/openedx/FeedbackXBlock/actions/workflows/pypi-release.yml
+    - https://img.shields.io/badge/status-maintained-31c653
+    - https://openedx.org/r/xblock
+    - https://docs.tutor.edly.io/tutorials/plugin.html
+    - https://docs.tutor.edly.io/configuration.html
+    - https://discuss.openedx.org
+    - https://github.com/openedx/FeedbackXBlock/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: feedback-xblock
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

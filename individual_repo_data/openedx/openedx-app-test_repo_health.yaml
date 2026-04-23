@@ -1,0 +1,281 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 1
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 1
+        list: '{"appium": "^2.0.0"}'
+    js.all:
+        count: 399
+        list: '{"@appium/base-driver": "9.4.3", "@appium/base-plugin": "2.2.24", "@appium/docutils":
+            "0.4.13", "@appium/schema": "0.4.2", "@appium/support": "4.1.10", "@appium/tsconfig":
+            "0.3.2", "@appium/typedoc-plugin-appium": "0.6.6", "@appium/types": "0.14.3",
+            "@babel/code-frame": "7.23.5", "@babel/helper-validator-identifier": "7.22.20",
+            "@babel/highlight": "7.23.4", "@colors/colors": "1.6.0", "@dabh/diagnostics":
+            "2.0.3", "@isaacs/cliui": "8.0.2", "@pkgjs/parseargs": "0.11.0", "@sidvind/better-ajv-errors":
+            "2.1.0", "@sliphua/lilconfig-ts-loader": "3.2.2", "@tsconfig/node14":
+            "14.1.0", "@types/archiver": "6.0.2", "@types/argparse": "2.0.14", "@types/async-lock":
+            "1.4.2", "@types/base64-stream": "1.0.5", "@types/bluebird": "3.5.42",
+            "@types/body-parser": "1.19.5", "@types/connect": "3.4.38", "@types/express":
+            "4.17.21", "@types/express-serve-static-core": "4.17.41", "@types/fancy-log":
+            "2.0.2", "@types/find-root": "1.1.4", "@types/http-errors": "2.0.4", "@types/jsftp":
+            "2.1.5", "@types/json-schema": "7.0.15", "@types/klaw": "3.0.6", "@types/lockfile":
+            "1.0.4", "@types/lodash": "4.14.202", "@types/method-override": "0.0.35",
+            "@types/mime": "1.3.5", "@types/mv": "2.1.4", "@types/ncp": "2.0.8", "@types/node":
+            "20.10.5", "@types/normalize-package-data": "2.4.4", "@types/npmlog":
+            "4.1.6", "@types/pluralize": "0.0.33", "@types/qs": "6.9.10", "@types/range-parser":
+            "1.2.7", "@types/readdir-glob": "1.1.5", "@types/semver": "7.5.6", "@types/send":
+            "0.17.4", "@types/serve-favicon": "2.5.7", "@types/serve-static": "1.15.5",
+            "@types/shell-quote": "1.7.5", "@types/supports-color": "8.1.3", "@types/teen_process":
+            "2.0.4", "@types/triple-beam": "1.3.5", "@types/uuid": "9.0.7", "@types/which":
+            "3.0.1", "@types/wrap-ansi": "3.0.0", "@types/ws": "8.5.10", "@xmldom/xmldom":
+            "0.8.10", "abort-controller": "3.0.0", "accepts": "1.3.8", "ajv": "8.12.0",
+            "ajv-formats": "2.1.1", "ansi-regex": "6.0.1", "ansi-sequence-parser":
+            "1.1.1", "ansi-styles": "6.2.1", "appium": "2.2.3", "aproba": "2.0.0",
+            "archiver": "6.0.1", "archiver-utils": "4.0.1", "are-we-there-yet": "4.0.1",
+            "arg": "4.1.3", "argparse": "2.0.1", "array-flatten": "1.1.1", "async":
+            "3.2.5", "async-lock": "1.4.0", "asyncbox": "3.0.0", "asynckit": "0.4.0",
+            "axios": "1.6.2", "b4a": "1.6.4", "balanced-match": "1.0.2", "base64-js":
+            "1.5.1", "base64-stream": "1.0.0", "basic-auth": "2.0.1", "big-integer":
+            "1.6.52", "bl": "4.1.0", "bluebird": "3.7.2", "body-parser": "1.20.2",
+            "bplist-creator": "0.1.1", "bplist-parser": "0.3.2", "brace-expansion":
+            "2.0.1", "buffer": "6.0.3", "buffer-crc32": "0.2.13", "buffer-from": "1.1.2",
+            "bytes": "3.1.2", "call-bind": "1.0.5", "chalk": "4.1.2", "chownr": "1.1.4",
+            "cli-cursor": "3.1.0", "cli-spinners": "2.9.2", "cliui": "8.0.1", "clone":
+            "1.0.4", "color": "4.2.3", "color-convert": "2.0.1", "color-name": "1.1.4",
+            "color-string": "1.9.1", "color-support": "1.1.3", "colorspace": "1.1.4",
+            "combined-stream": "1.0.8", "commander": "6.2.1", "compress-commons":
+            "5.0.1", "concat-map": "0.0.1", "consola": "2.15.3", "console-control-strings":
+            "1.1.0", "content-disposition": "0.5.4", "content-type": "1.0.5", "cookie":
+            "0.5.0", "cookie-signature": "1.0.6", "core-util-is": "1.0.3", "crc-32":
+            "1.2.2", "crc32-stream": "5.0.0", "create-require": "1.1.1", "cross-env":
+            "7.0.3", "cross-spawn": "7.0.3", "debug": "3.2.7", "decompress-response":
+            "6.0.0", "deep-extend": "0.6.0", "defaults": "1.0.4", "define-data-property":
+            "1.1.1", "delayed-stream": "1.0.0", "delegates": "1.0.0", "depd": "2.0.0",
+            "destroy": "1.2.0", "detect-libc": "2.0.2", "detect-node": "2.1.0", "diff":
+            "5.1.0", "duplexer": "0.1.2", "eastasianwidth": "0.2.0", "ee-first": "1.1.1",
+            "emoji-regex": "9.2.2", "enabled": "2.0.0", "encodeurl": "1.0.2", "end-of-stream":
+            "1.4.4", "error-ex": "1.3.2", "es6-error": "4.1.1", "escalade": "3.1.1",
+            "escape-html": "1.0.3", "escape-string-regexp": "1.0.5", "etag": "1.8.1",
+            "event-target-shim": "5.0.1", "events": "3.3.0", "expand-template": "2.0.3",
+            "express": "4.18.2", "fast-deep-equal": "3.1.3", "fast-fifo": "1.3.2",
+            "fd-slicer": "1.1.0", "fecha": "4.2.3", "figures": "3.2.0", "finalhandler":
+            "1.2.0", "find-up": "5.0.0", "fn.name": "1.1.0", "follow-redirects": "1.15.3",
+            "foreground-child": "3.1.1", "form-data": "4.0.0", "forwarded": "0.2.0",
+            "freckle": "0.0.2", "fresh": "0.5.2", "fs-constants": "1.0.0", "fs.realpath":
+            "1.0.0", "ftp-response-parser": "1.0.1", "function-bind": "1.1.2", "gauge":
+            "5.0.1", "get-caller-file": "2.0.5", "get-intrinsic": "1.2.2", "get-stream":
+            "6.0.1", "github-from-package": "0.0.0", "glob": "10.3.10", "gopd": "1.0.1",
+            "graceful-fs": "4.2.11", "handle-thing": "2.0.1", "handlebars": "4.7.8",
+            "has-flag": "4.0.0", "has-property-descriptors": "1.0.1", "has-proto":
+            "1.0.1", "has-symbols": "1.0.3", "has-unicode": "2.0.1", "hasown": "2.0.0",
+            "hosted-git-info": "2.8.9", "hpack.js": "2.1.6", "http-deceiver": "1.2.7",
+            "http-errors": "2.0.0", "http-status-codes": "2.3.0", "iconv-lite": "0.4.24",
+            "ieee754": "1.2.1", "inflight": "1.0.6", "inherits": "2.0.4", "ini": "1.3.8",
+            "ipaddr.js": "1.9.1", "is-arrayish": "0.2.1", "is-core-module": "2.13.1",
+            "is-fullwidth-code-point": "3.0.0", "is-interactive": "1.0.0", "is-stream":
+            "2.0.1", "is-unicode-supported": "0.1.0", "isarray": "1.0.0", "isexe":
+            "2.0.0", "jackspeak": "2.3.6", "js-tokens": "4.0.0", "jsftp": "2.1.3",
+            "json-parse-even-better-errors": "2.3.1", "json-schema": "0.4.0", "json-schema-traverse":
+            "1.0.0", "json5": "2.2.3", "jsonc-parser": "3.2.0", "klaw": "4.1.0", "kuler":
+            "2.0.0", "lazystream": "1.0.1", "lilconfig": "2.1.0", "lines-and-columns":
+            "1.2.4", "locate-path": "6.0.0", "lockfile": "1.0.4", "lodash": "4.17.21",
+            "lodash.get": "4.4.2", "log-symbols": "4.1.0", "logform": "2.6.0", "lru-cache":
+            "10.0.1", "lunr": "2.3.9", "make-error": "1.3.6", "marked": "4.3.0", "media-typer":
+            "0.3.0", "merge-descriptors": "1.0.1", "method-override": "3.0.0", "methods":
+            "1.1.2", "mime": "1.6.0", "mime-db": "1.52.0", "mime-types": "2.1.35",
+            "mimic-fn": "2.1.0", "mimic-response": "3.1.0", "minimalistic-assert":
+            "1.0.1", "minimatch": "5.1.6", "minimist": "1.2.8", "minipass": "7.0.4",
+            "mkdirp": "0.5.6", "mkdirp-classic": "0.5.3", "moment": "2.29.4", "morgan":
+            "1.10.0", "ms": "2.1.3", "mv": "2.1.1", "napi-build-utils": "1.0.2", "ncp":
+            "2.0.0", "negotiator": "0.6.3", "neo-async": "2.6.2", "node-abi": "3.52.0",
+            "node-addon-api": "6.1.0", "normalize-package-data": "2.5.0", "normalize-path":
+            "3.0.0", "npmlog": "7.0.1", "object-inspect": "1.13.1", "obuf": "1.1.2",
+            "on-finished": "2.4.1", "on-headers": "1.0.2", "once": "1.4.0", "one-time":
+            "1.0.0", "onetime": "5.1.2", "opencv-bindings": "4.5.5", "optimist": "0.6.1",
+            "ora": "5.4.1", "p-limit": "3.1.0", "p-locate": "5.0.0", "package-changed":
+            "3.0.0", "parse-json": "5.2.0", "parse-listing": "1.1.3", "parseurl":
+            "1.3.3", "path-exists": "4.0.0", "path-is-absolute": "1.0.1", "path-key":
+            "3.1.1", "path-parse": "1.0.7", "path-scurry": "1.10.1", "path-to-regexp":
+            "6.2.1", "pend": "1.2.0", "pip": "0.0.1", "pkg-dir": "5.0.0", "plist":
+            "3.1.0", "pluralize": "8.0.0", "prebuild-install": "7.1.1", "process":
+            "0.11.10", "process-nextick-args": "2.0.1", "proxy-addr": "2.0.7", "proxy-from-env":
+            "1.1.0", "pump": "3.0.0", "punycode": "2.3.1", "qs": "6.11.0", "queue-tick":
+            "1.0.1", "range-parser": "1.2.1", "raw-body": "2.5.2", "rc": "1.2.8",
+            "read-pkg": "5.2.0", "readable-stream": "3.6.2", "readdir-glob": "1.1.3",
+            "require-directory": "2.1.1", "require-from-string": "2.0.2", "resolve":
+            "1.22.8", "resolve-from": "5.0.0", "restore-cursor": "3.1.0", "rimraf":
+            "2.4.5", "safe-buffer": "5.1.2", "safe-stable-stringify": "2.4.3", "safer-buffer":
+            "2.1.2", "sanitize-filename": "1.6.3", "select-hose": "2.0.0", "semver":
+            "7.5.4", "send": "0.18.0", "serve-favicon": "2.5.0", "serve-static": "1.15.0",
+            "set-blocking": "2.0.0", "set-function-length": "1.1.1", "setprototypeof":
+            "1.2.0", "sharp": "0.32.6", "shebang-command": "2.0.0", "shebang-regex":
+            "3.0.0", "shell-quote": "1.8.1", "shiki": "0.14.7", "side-channel": "1.0.4",
+            "signal-exit": "4.1.0", "simple-concat": "1.0.1", "simple-get": "4.0.1",
+            "simple-swizzle": "0.2.2", "source-map": "0.6.1", "source-map-support":
+            "0.5.21", "spdx-correct": "3.2.0", "spdx-exceptions": "2.3.0", "spdx-expression-parse":
+            "3.0.1", "spdx-license-ids": "3.0.16", "spdy": "4.0.2", "spdy-transport":
+            "3.0.0", "stack-trace": "0.0.10", "statuses": "2.0.1", "stream-buffers":
+            "2.2.0", "stream-combiner": "0.2.2", "streamx": "2.15.6", "string-width":
+            "5.1.2", "string-width-cjs": "npm:string-width@4.2.3", "string_decoder":
+            "1.1.1", "strip-ansi": "7.1.0", "strip-ansi-cjs": "npm:strip-ansi@6.0.1",
+            "strip-json-comments": "2.0.1", "supports-color": "8.1.1", "supports-preserve-symlinks-flag":
+            "1.0.0", "tar-fs": "3.0.4", "tar-stream": "3.1.6", "teen_process": "2.0.101",
+            "text-hex": "1.0.0", "through": "2.3.8", "toidentifier": "1.0.1", "triple-beam":
+            "1.4.1", "truncate-utf8-bytes": "1.0.2", "ts-node": "9.1.1", "tslib":
+            "2.6.2", "tunnel-agent": "0.6.0", "type-fest": "3.13.1", "type-is": "1.6.18",
+            "typedoc": "0.23.28", "typedoc-plugin-markdown": "3.14.0", "typedoc-plugin-resolve-crossmodule-references":
+            "0.3.3", "typescript": "5.0.4", "uglify-js": "3.17.4", "undici-types":
+            "5.26.5", "unorm": "1.6.0", "unpipe": "1.0.0", "uri-js": "4.4.1", "utf8-byte-length":
+            "1.0.4", "util-deprecate": "1.0.2", "utils-merge": "1.0.1", "uuid": "9.0.1",
+            "validate-npm-package-license": "3.0.4", "validate.js": "0.13.1", "vary":
+            "1.1.2", "vscode-oniguruma": "1.7.0", "vscode-textmate": "8.0.0", "wbuf":
+            "1.7.3", "wcwidth": "1.0.1", "which": "4.0.0", "wide-align": "1.1.5",
+            "winston": "3.11.0", "winston-transport": "4.6.0", "wordwrap": "1.0.0",
+            "wrap-ansi": "7.0.0", "wrap-ansi-cjs": "npm:wrap-ansi@7.0.0", "wrappy":
+            "1.0.2", "xmlbuilder": "15.1.1", "y18n": "5.0.8", "yallist": "4.0.0",
+            "yaml": "2.3.4", "yargs": "17.7.2", "yargs-parser": "21.1.1", "yauzl":
+            "2.10.0", "yn": "3.1.1", "yocto-queue": "0.1.0", "zip-stream": "5.0.1"}'
+    js.dev:
+        count: 0
+        list: '{}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: false
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: false
+    package.json: true
+    pylintrc: true
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 2
+    build_details: '{"total_duration": "", "checks": []}'
+    code_of_conduct: Other
+    created_at: 2023-12-11 14:10:40
+    default_branch: main
+    description: Test scripts for the Open edX mobile applications
+    disk_usage_kb: 818
+    fork_count: 4
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2025-08-29 14:34:13
+    license: Apache License 2.0
+    pulls_count: 0
+github_actions: false
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 0
+    python: 627277
+    shell: 1015
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - https://nodejs.org/en/
+    - https://appium.io/docs/en/latest/quickstart/
+    - https://www.oracle.com/europe/java/technologies/downloads/
+    - https://developer.android.com/tools
+    - https://github.com/openedx/openedx-app-test
+    - https://www.python.org/downloads/
+    - https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3
+    - https://www.browserstack.com/list-of-browsers-and-platforms/automate
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

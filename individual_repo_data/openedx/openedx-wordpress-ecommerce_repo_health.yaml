@@ -1,0 +1,171 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 46
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 0
+        list: '[]'
+    pypi_all:
+        count: 46
+        list: '["roman-numerals==4.1.0", "sphinxcontrib-jsmath==1.0.1", "docutils==0.22.4",
+            "alabaster==1.0.0", "sphinxcontrib-devhelp==2.0.0", "setuptools==82.0.1",
+            "sphinx==9.1.0", "pip==26.0.1", "sphinx-copybutton==0.5.2", "colorama==0.4.6",
+            "sphinx-book-theme==1.2.0", "sphinxcontrib-htmlhelp==2.1.0", "accessible-pygments==0.0.5",
+            "pydata-sphinx-theme==0.16.1", "sphinxcontrib-serializinghtml==2.0.0",
+            "packaging==26.0", "charset-normalizer==3.4.7", "pip-tools==7.5.3", "certifi==2026.2.25",
+            "snowballstemmer==3.0.1", "markupsafe==3.0.3", "idna==3.11", "anyio==4.13.0",
+            "urllib3==2.6.3", "sphinxcontrib-applehelp==2.0.0", "babel==2.18.0", "beautifulsoup4==4.14.3",
+            "build==1.4.2", "wheel==0.46.3", "sphinxcontrib-qthelp==2.0.0", "jinja2==3.1.6",
+            "websockets==16.0", "pyyaml==6.0.3", "typing-extensions==4.15.0", "starlette==1.0.0",
+            "sphinx-autobuild==2025.8.25", "watchfiles==1.1.1", "pyproject-hooks==1.2.0",
+            "imagesize==2.0.0", "pygments==2.20.0", "click==8.3.2", "requests==2.33.1",
+            "soupsieve==2.8.3", "uvicorn==0.44.0", "sphinxcontrib-mermaid==2.0.1",
+            "h11==0.16.0"]'
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: false
+    pylintrc: false
+    requirements: true
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: false
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 12
+    build_details: '{"total_duration": "14486 minutes 45 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 30 seconds"}, {"name": "build-test", "duration": "0
+        minutes 13 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2023-06-05 21:25:23
+    default_branch: main
+    description: You can sell your Open edX courses with WooCommerce using this free
+        and open-source WordPress plugin.
+    disk_usage_kb: 2181
+    fork_count: 12
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-10 21:46:26
+    license: GNU GPLv2
+    pulls_count: 1
+github_actions: false
+language_bytes:
+    css: 2477
+    dockerfile: 0
+    html: 0
+    javascript: 3746
+    makefile: 1993
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://wordpress.org/plugins/woocommerce: 429'
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/edx-platform
+    - https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/decisions/0002-api-connection.html
+    - https://openedx.org/terms-of-use/
+    - https://github.com/openedx/openedx-wordpress-ecommerce/releases
+    - https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/plugin_quickstart.html
+    - https://github.com/openedx/openedx-wordpress-ecommerce/issues
+    - https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/index.html
+    - https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+Start+Contributing+Code
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

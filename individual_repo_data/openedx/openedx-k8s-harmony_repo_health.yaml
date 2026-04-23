@@ -1,0 +1,195 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 0
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: false
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: false
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 20
+    build_details: '{"total_duration": "23271 minutes 4 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 17 seconds"}, {"name": "routeissue / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 55 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "-1 minutes 51 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2022-11-25 18:03:47
+    default_branch: main
+    description: A Prototype Helm Chart for deploying multiple Open edX instances
+        (via Tutor) onto a cluster.
+    disk_usage_kb: 1772
+    fork_count: 18
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-22 21:02:16
+    license: GNU AGPLv3
+    pulls_count: 17
+github_actions: false
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 1262
+    python: 12473
+    shell: 1535
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://github.com/aws/karpenter/blob/main/website/content/en/docs/upgrade-guide.md:
+        404'
+    - 'https://XYZ.eks.amazonaws.com: HTTPSConnectionPool(host=''xyz.eks.amazonaws.com'',
+        port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''xyz.eks.amazonaws.com'',
+        port=443): Failed to resolve ''xyz.eks.amazonaws.com'' ([Errno -2] Name or
+        service not known)"))'
+    - 'https://karpenter.sh/docs/concepts/provisioners/: 404'
+    - 'https://karpenter.sh/docs/concepts/node-templates/: 404'
+    - 'https://ms-yourinstanceid.meilisearch.io: HTTPSConnectionPool(host=''ms-yourinstanceid.meilisearch.io'',
+        port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''ms-yourinstanceid.meilisearch.io'',
+        port=443): Failed to resolve ''ms-yourinstanceid.meilisearch.io'' ([Errno
+        -2] Name or service not known)"))'
+    - 'http://10.1.2.3: HTTPConnectionPool(host=''10.1.2.3'', port=80): Max retries
+        exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''10.1.2.3'',
+        port=80): Failed to establish a new connection: [Errno 113] No route to host"))'
+    - 'https://meilisearch: HTTPSConnectionPool(host=''meilisearch'', port=443): Max
+        retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''meilisearch'',
+        port=443): Failed to resolve ''meilisearch'' ([Errno -3] Temporary failure
+        in name resolution)"))'
+    getting-help: false
+    good_links:
+    - https://www.openedx.org
+    - https://docs.tutor.overhang.io/
+    - https://kubernetes.github.io/ingress-nginx/
+    - https://cert-manager.io/
+    - https://grove.opencraft.com/
+    - https://github.com/eduNEXT/tutor-contrib-pod-autoscaling
+    - https://cert-manager.io/docs/installation/upgrading/
+    - https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
+    - https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler
+    - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
+    - https://karpenter.sh/
+    - https://karpenter.sh/docs/getting-started/getting-started-with-karpenter/
+    - https://helm.sh/
+    - https://openedx.github.io/openedx-k8s-harmony
+    - https://github.com/cert-manager/cert-manager/releases/download/v1.10.1/cert-manager.crds.yaml
+    - https://minikube.sigs.k8s.io/docs/start/
+    - https://github.com/openedx/openedx-k8s-harmony.git
+    - https://www.meilisearch.com/cloud
+    - https://www.meilisearch.com/docs/learn/self_hosted/getting_started_with_self_hosted_meilisearch
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-04-04'
+    oldest_open_pr_date: '2024-11-07'
+    total_open_prs: 10
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

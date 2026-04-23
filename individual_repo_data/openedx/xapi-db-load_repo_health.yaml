@@ -1,0 +1,204 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 110
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 27
+        list: '["jmespath==1.1.0", "wrapt==2.1.2", "zstandard==0.25.0", "clickhouse-connect==0.15.1",
+            "lz4==4.4.5", "pytz==2026.1.post1", "smart-open[s3]==7.6.0", "requests==2.33.1",
+            "python-dateutil==2.9.0.post0", "certifi==2026.2.25", "chdb-core==26.1.0",
+            "s3transfer==0.16.0", "pandas==3.0.2", "pyarrow==23.0.1", "click==8.3.2",
+            "chdb==4.1.6", "uvloop==0.22.1", "six==1.17.0", "urllib3==2.6.3", "boto3==1.42.91",
+            "idna==3.11", "pyyaml==6.0.3", "urwid==4.0.0", "botocore==1.42.91", "numpy==2.4.4",
+            "charset-normalizer==3.4.7", "wcwidth==0.6.0"]'
+    pypi_all:
+        count: 110
+        list: '["jeepney==0.9.0", "platformdirs==4.9.6", "jinja2==3.1.6", "jaraco-classes==3.4.0",
+            "clickhouse-connect==0.15.1", "requests-toolbelt==1.0.0", "pydata-sphinx-theme==0.16.1",
+            "alabaster==1.0.0", "stevedore==5.7.0", "dill==0.4.1", "pandas==3.0.2",
+            "click==8.3.2", "edx-lint==6.0.0", "setuptools==82.0.1", "packaging==26.1",
+            "mccabe==0.7.0", "rich==15.0.0", "pyproject-api==1.10.0", "distlib==0.4.0",
+            "boto3==1.42.91", "pylint-celery==0.3", "sphinx-book-theme==1.2.0", "build==1.4.3",
+            "python-slugify==8.0.4", "charset-normalizer==3.4.7", "mdurl==0.1.2",
+            "jmespath==1.1.0", "wrapt==2.1.2", "lz4==4.4.5", "pytz==2026.1.post1",
+            "pyproject-hooks==1.2.0", "smart-open[s3]==7.6.0", "python-dateutil==2.9.0.post0",
+            "coverage[toml]==7.13.5", "requests==2.33.1", "pylint-plugin-utils==0.9.0",
+            "secretstorage==3.5.0", "soupsieve==2.8.3", "chdb-core==26.1.0", "s3transfer==0.16.0",
+            "markupsafe==3.0.3", "virtualenv==21.2.4", "pyarrow==23.0.1", "tomlkit==0.14.0",
+            "code-annotations==3.0.0", "chdb==4.1.6", "pycparser==3.0", "pylint==4.0.5",
+            "astroid==4.0.4", "python-discovery==1.2.2", "typing-extensions==4.15.0",
+            "iniconfig==2.3.0", "diff-cover==10.2.0", "pytest==9.0.3", "filelock==3.29.0",
+            "nh3==0.3.4", "urwid==4.0.0", "docutils==0.22.4", "tomli-w==1.2.0", "twine==6.2.0",
+            "zstandard==0.25.0", "roman-numerals==4.1.0", "wheel==0.46.3", "colorama==0.4.6",
+            "beautifulsoup4==4.14.3", "certifi==2026.2.25", "markdown-it-py==4.0.0",
+            "sphinx==9.1.0", "isort==8.0.1", "text-unidecode==1.3", "jaraco-functools==4.4.0",
+            "uvloop==0.22.1", "accessible-pygments==0.0.5", "six==1.17.0", "sphinxcontrib-jsmath==1.0.1",
+            "cachetools==7.0.5", "cffi==2.0.0", "id==1.6.1", "idna==3.11", "pylint-django==2.7.0",
+            "chardet==7.4.3", "pip-tools==7.5.3", "pyyaml==6.0.3", "click-log==0.4.0",
+            "rfc3986==2.0.0", "babel==2.18.0", "wcwidth==0.6.0", "cryptography==46.0.7",
+            "sphinxcontrib-serializinghtml==2.0.0", "pytest-cov==7.1.0", "pip==26.0.1",
+            "jaraco-context==6.1.2", "pluggy==1.6.0", "imagesize==2.0.0", "readme-renderer==44.0",
+            "pydocstyle==6.3.0", "tox==4.53.0", "pycodestyle==2.14.0", "keyring==25.7.0",
+            "more-itertools==11.0.2", "sphinxcontrib-devhelp==2.0.0", "pytest-asyncio==1.3.0",
+            "urllib3==2.6.3", "pygments==2.20.0", "sphinxcontrib-qthelp==2.0.0", "snowballstemmer==3.0.1",
+            "sphinxcontrib-applehelp==2.0.0", "botocore==1.42.91", "numpy==2.4.4",
+            "sphinxcontrib-htmlhelp==2.1.0"]'
+django_packages:
+    django_42:
+        count: 2
+        list: '["code-annotations", "pylint-django"]'
+    total:
+        count: 2
+        list: '["code-annotations", "pylint-django"]'
+    upgraded:
+        count: 1
+        list: '["code-annotations"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: true
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 7
+    build_details: '{"total_duration": "772 minutes 17 seconds", "checks": [{"name":
+        "tests (3.12)", "duration": "1 minutes 10 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 30 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2022-11-21 15:37:46
+    default_branch: main
+    description: ''
+    disk_usage_kb: 5859
+    fork_count: 5
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-20 06:25:35
+    license: GNU AGPLv3
+    pulls_count: 0
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 3008
+    python: 188454
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'http://ralph.tutor-nightly-local.orb.local/xAPI/statements: HTTPConnectionPool(host=''ralph.tutor-nightly-local.orb.local'',
+        port=80): Max retries exceeded with url: /xAPI/statements (Caused by NameResolutionError("HTTPConnection(host=''ralph.tutor-nightly-local.orb.local'',
+        port=80): Failed to resolve ''ralph.tutor-nightly-local.orb.local'' ([Errno
+        -3] Temporary failure in name resolution)"))'
+    - 'https://openedx-aspects-loadtest.s3.amazonaws.com/logs/large_test/: 403'
+    - 'https://docs.openedx.org/projects/xapi-db-load: 404'
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/xapi-db-load:
+        404'
+    getting-help: true
+    good_links:
+    - https://github.com/openedx/xapi-db-load/issues
+    - https://pypi.org/project/smart-open/
+    - https://discuss.openedx.org
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: true
+setup_py:
+    project_urls: "{\n        \"Code\": \"https://github.com/openedx/xapi-db-load\"\
+        ,\n        \"Issue tracker\": \"https://github.com/openedx/xapi-db-load/issues\"\
+        ,\n    }"
+    py38_classifiers: false
+    pypi_name: xapi-db-load
+    python_versions:
+    - '3.12'
+    repo_url: https://github.com/openedx/xapi-db-load
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

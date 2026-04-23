@@ -1,0 +1,160 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 4
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 0
+        list: '{}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 4
+        list: '{"@commitlint/config-conventional": "17.8.1", "conventional-changelog-conventionalcommits":
+            "^5.0.0", "husky": "6.0.0", "lerna": "6.6.2"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: true
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: false
+    allows_rebase_merge: false
+    allows_squash_merge: true
+    branch_count: 61
+    build_details: '{"total_duration": "1 minutes 24 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 16 seconds"}, {"name": "Dependabot",
+        "duration": "1 minutes 13 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 57 seconds"}, {"name": "Dependabot", "duration": "0 minutes 55 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 52 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 51 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 46 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 3 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2019-09-17 19:51:18
+    default_branch: master
+    description: Frontend utilities for enterprise features.
+    disk_usage_kb: 10225
+    fork_count: 12
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-15 11:12:20
+    license: GNU AGPLv3
+    pulls_count: 6
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 174788
+    makefile: 2529
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: '@edx/frontend-enterprise'
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/frontend-build
+    - https://github.com/conventional-changelog/commitlint
+    - https://github.com/openedx/frontend-enterprise/actions/workflows/publish-from-package.yml
+    - https://github.com/openedx/frontend-enterprise/actions/workflows/release.yml/badge.svg
+    - https://github.com/openedx/frontend-enterprise/actions
+    - https://codecov.io/gh/edx/frontend-enterprise/branch/master/graph/badge.svg?token=lBHoe5P4Q3
+    - https://codecov.io/gh/edx/frontend-enterprise
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2025-12-15'
+    oldest_open_pr_date: null
+    total_open_prs: 0
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

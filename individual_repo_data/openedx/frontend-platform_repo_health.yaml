@@ -1,0 +1,189 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 39
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 19
+        list: '{"@cospired/i18n-iso-languages": "4.2.0", "@formatjs/intl-pluralrules":
+            "4.3.3", "@formatjs/intl-relativetimeformat": "10.0.1", "axios": "1.15.0",
+            "axios-cache-interceptor": "1.11.4", "form-urlencoded": "4.1.4", "glob":
+            "7.2.3", "history": "4.10.1", "i18n-iso-countries": "4.3.1", "jwt-decode":
+            "3.1.2", "localforage": "1.10.0", "localforage-memoryStorageDriver": "0.9.2",
+            "lodash.camelcase": "4.3.0", "lodash.memoize": "4.1.2", "lodash.merge":
+            "4.6.2", "lodash.snakecase": "4.1.1", "pubsub-js": "1.9.5", "react-intl":
+            "6.8.9", "universal-cookie": "4.0.4"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 20
+        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.2", "@edx/browserslist-config":
+            "1.5.0", "@openedx/frontend-build": "^14.3.0", "@openedx/paragon": "^23.3.0",
+            "@testing-library/dom": "10.4.0", "@testing-library/jest-dom": "6.6.3",
+            "@testing-library/react": "16.2.0", "@testing-library/user-event": "14.6.1",
+            "@types/node": "^25.6.0", "axios-mock-adapter": "^1.22.0", "jest-environment-jsdom":
+            "29.7.0", "jest-localstorage-mock": "^2.4.26", "jsdoc": "^4.0.0", "nodemon":
+            "3.1.11", "prop-types": "15.8.1", "react": "18.3.1", "react-dom": "18.3.1",
+            "react-redux": "^8.1.1", "react-router-dom": "^6.6.1", "redux": "4.2.1"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: true
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 52
+    build_details: '{"total_duration": "0 minutes 0 seconds", "checks": [{"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 52 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2019-11-06 21:04:09
+    default_branch: master
+    description: A framework for Open edX micro-frontend applications.
+    disk_usage_kb: 37798
+    fork_count: 86
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 19:53:52
+    license: GNU AGPLv3
+    pulls_count: 25
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 237
+    javascript: 340243
+    makefile: 1837
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: '@edx/frontend-platform'
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://www.npmjs.com/package/@edx/frontend-platform: 403'
+    - 'http://local.openedx.io: HTTPConnectionPool(host=''local.openedx.io'', port=80):
+        Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''local.openedx.io'',
+        port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://en.wikipedia.org/wiki/Convention_over_configuration: 403'
+    - 'https://edx.github.io/frontend-platform/module-Initialization.html: 404'
+    - 'https://edx.github.io/frontend-platform/module-Config.html: 404'
+    - 'https://custom.example.com/educators/index.html: HTTPSConnectionPool(host=''custom.example.com'',
+        port=443): Max retries exceeded with url: /educators/index.html (Caused by
+        NameResolutionError("HTTPSConnection(host=''custom.example.com'', port=443):
+        Failed to resolve ''custom.example.com'' ([Errno -5] No address associated
+        with hostname)"))'
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/frontend-platform/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/frontend-platform/actions/workflows/ci.yml
+    - https://img.shields.io/codecov/c/github/edx/frontend-platform
+    - https://codecov.io/gh/edx/frontend-platform
+    - https://img.shields.io/npm/v/@edx/frontend-platform.svg
+    - https://img.shields.io/npm/dt/@edx/frontend-platform.svg
+    - https://img.shields.io/npm/l/@edx/frontend-platform.svg
+    - https://github.com/openedx/frontend-platform/blob/master/LICENSE
+    - https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+    - https://github.com/semantic-release/semantic-release
+    - https://openedx.github.io/frontend-platform/
+    - https://docs.openedx.org/en/latest/educators/index.html
+    - https://creativecommons.org/licenses
+    - https://www.tldrlegal.com/license/creative-commons-attribution-cc
+    - https://github.com/openedx/frontend-build
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-04-10'
+    oldest_open_pr_date: '2023-05-29'
+    total_open_prs: 14
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

@@ -1,0 +1,214 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 74
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 37
+        list: '["certifi==2026.2.25", "idna==3.11", "click==8.2.1", "importlib-metadata==9.0.0",
+            "bcrypt==5.0.0", "requests==2.33.1", "pathspec==1.0.4", "tutor-mfe==21.0.0",
+            "appdirs==1.4.4", "python-dateutil==2.9.0.post0", "websocket-client==1.9.0",
+            "kubernetes==35.0.0", "six==1.17.0", "black==26.3.1", "pytokens==0.4.1",
+            "oauthlib==3.3.1", "zipp==3.23.0", "packaging==26.0", "charset-normalizer==3.4.7",
+            "librt==0.8.1", "requests-oauthlib==2.0.0", "shandy-sqlfmt[jinjafmt]==0.26.0",
+            "ruamel-yaml==0.19.1", "typing-extensions==4.15.0", "urllib3==2.6.3",
+            "openedx-atlas==0.7.0", "mypy==1.20.0", "markupsafe==3.0.3", "pyyaml==6.0.3",
+            "jinja2==3.1.6", "platformdirs==4.9.4", "importlib-resources==6.5.2",
+            "tqdm==4.67.3", "tutor==21.0.2", "mypy-extensions==1.1.0", "durationpy==0.10",
+            "pycryptodome==3.23.0"]'
+    pypi_all:
+        count: 74
+        list: '["certifi==2026.2.25", "idna==3.11", "requests-toolbelt==1.0.0", "click==8.2.1",
+            "build==1.4.2", "astroid==4.0.4", "importlib-metadata==9.0.0", "mdurl==0.1.2",
+            "bcrypt==5.0.0", "requests==2.33.1", "pathspec==1.0.4", "docutils==0.22.4",
+            "pyinstaller-hooks-contrib==2026.4", "wheel==0.46.3", "more-itertools==11.0.1",
+            "tutor-mfe==21.0.0", "appdirs==1.4.4", "python-dateutil==2.9.0.post0",
+            "secretstorage==3.5.0", "websocket-client==1.9.0", "pycparser==3.0", "pip==26.0.1",
+            "keyring==25.7.0", "kubernetes==35.0.0", "tomlkit==0.14.0", "six==1.17.0",
+            "black==26.3.1", "pyinstaller==6.19.0", "pytokens==0.4.1", "nh3==0.3.4",
+            "id==1.6.1", "jaraco-context==6.1.2", "oauthlib==3.3.1", "zipp==3.23.0",
+            "packaging==26.0", "pyproject-hooks==1.2.0", "charset-normalizer==3.4.7",
+            "librt==0.8.1", "requests-oauthlib==2.0.0", "jaraco-classes==3.4.0", "jaraco-functools==4.4.0",
+            "pylint==4.0.5", "readme-renderer==44.0", "dill==0.4.1", "ruamel-yaml==0.19.1",
+            "shandy-sqlfmt[jinjafmt]==0.26.0", "cryptography==46.0.7", "typing-extensions==4.15.0",
+            "urllib3==2.6.3", "pip-tools==7.5.3", "openedx-atlas==0.7.0", "isort==8.0.1",
+            "mypy==1.20.0", "setuptools==82.0.1", "twine==6.2.0", "markupsafe==3.0.3",
+            "pyyaml==6.0.3", "click==8.3.2", "altgraph==0.17.5", "jinja2==3.1.6",
+            "platformdirs==4.9.4", "importlib-resources==6.5.2", "cffi==2.0.0", "rfc3986==2.0.0",
+            "tqdm==4.67.3", "jeepney==0.9.0", "pygments==2.20.0", "markdown-it-py==4.0.0",
+            "mypy-extensions==1.1.0", "rich==14.3.3", "mccabe==0.7.0", "tutor==21.0.2",
+            "durationpy==0.10", "pycryptodome==3.23.0"]'
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: false
+    pylintrc: false
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 299
+    build_details: '{"total_duration": "2958 minutes 38 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 13 seconds"}, {"name": "tests", "duration": "0 minutes 35 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 7 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2023-02-07 05:22:39
+    default_branch: main
+    description: The Open Analytics Reference System - Tutor plugin
+    disk_usage_kb: 3946
+    fork_count: 27
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-23 17:38:53
+    license: Apache License 2.0
+    pulls_count: 11
+github_actions: false
+language_bytes:
+    css: 0
+    dockerfile: 2228
+    html: 0
+    javascript: 0
+    makefile: 3702
+    python: 234471
+    shell: 17459
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 2
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - https://docs.tutor.overhang.io
+    - https://clickhouse.com
+    - https://superset.apache.org
+    - https://openfun.github.io/ralph/
+    - https://vector.dev
+    - https://event-routing-backends.readthedocs.io/en/latest/
+    - https://www.getdbt.com
+    - https://github.com/openedx/aspects-dbt
+    - https://docs.openedx.org/projects/openedx-aspects/en/latest/technical_documentation/concepts/aspects_overview.html
+    - https://docs.openedx.org/projects/openedx-aspects/en/latest/technical_documentation/how-tos/02_upgrade.html
+    - https://docs.tutor.overhang.io/install.html
+    - https://docs.tutor.edly.io/gettingstarted/whatsnext.html
+    - https://github.com/eduNEXT/tutor-contrib-pod-autoscaling
+    - https://pypi.org
+    - https://openedx.atlassian.net/wiki/spaces/COMM/pages/3861512203/Aspects+Beta
+    - https://superset.apache.org/docs
+    - https://www.getdbt.com/docs/
+    - https://vector.dev/docs/
+    - https://github.com/openedx/frontend-plugin-aspects
+    - https://docs.openedx.org/projects/openedx-aspects/en/latest/technical_documentation/how-tos/aspects_production_configuration.html
+    - https://docs.openedx.org/projects/openedx-aspects/en/latest/reference/in_context_dashboards.html
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    project_urls: "{\n        \"Code\": \"https://github.com/openedx/tutor-contrib-aspects\"\
+        ,\n        \"Issue tracker\": \"https://github.com/openedx/tutor-contrib-aspects/issues\"\
+        ,\n    }"
+    py38_classifiers: false
+    pypi_name: tutor-contrib-aspects
+    python_versions:
+    - '3.11'
+    - '3.12'
+    repo_url: https://github.com/openedx/tutor-contrib-aspects
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

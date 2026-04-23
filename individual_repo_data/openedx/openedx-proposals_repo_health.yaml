@@ -1,0 +1,182 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 45
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 30
+        list: '["idna==3.11", "alabaster==1.0.0", "sphinx-book-theme==1.2.0", "babel==2.18.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "certifi==2026.2.25", "imagesize==2.0.0",
+            "accessible-pygments==0.0.5", "beautifulsoup4==4.14.3", "docutils==0.22.4",
+            "charset-normalizer==3.4.7", "sphinxcontrib-devhelp==2.0.0", "urllib3==2.6.3",
+            "roman-numerals==4.1.0", "jinja2==3.1.6", "sphinx-copybutton==0.5.2",
+            "requests==2.33.1", "sphinxcontrib-qthelp==2.0.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "soupsieve==2.8.3", "markupsafe==3.0.3", "packaging==26.1", "sphinxcontrib-jsmath==1.0.1",
+            "pygments==2.20.0", "typing-extensions==4.15.0", "sphinxcontrib-applehelp==2.0.0",
+            "snowballstemmer==3.0.1", "sphinxext-rediraffe==0.3.0", "sphinx==9.1.0",
+            "pydata-sphinx-theme==0.16.1"]'
+    pypi_all:
+        count: 45
+        list: '["idna==3.11", "alabaster==1.0.0", "sphinx-book-theme==1.2.0", "babel==2.18.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "certifi==2026.2.25", "imagesize==2.0.0",
+            "accessible-pygments==0.0.5", "sphinx-autobuild==2025.8.25", "h11==0.16.0",
+            "beautifulsoup4==4.14.3", "uvicorn==0.44.0", "docutils==0.22.4", "charset-normalizer==3.4.7",
+            "sphinxcontrib-devhelp==2.0.0", "urllib3==2.6.3", "starlette==1.0.0",
+            "wheel==0.46.3", "jinja2==3.1.6", "roman-numerals==4.1.0", "colorama==0.4.6",
+            "sphinx-copybutton==0.5.2", "requests==2.33.1", "watchfiles==1.1.1", "sphinxcontrib-qthelp==2.0.0",
+            "sphinxcontrib-serializinghtml==2.0.0", "soupsieve==2.8.3", "click==8.3.2",
+            "build==1.4.3", "pyproject-hooks==1.2.0", "setuptools==82.0.1", "markupsafe==3.0.3",
+            "packaging==26.1", "anyio==4.13.0", "sphinxcontrib-jsmath==1.0.1", "websockets==16.0",
+            "pygments==2.20.0", "typing-extensions==4.15.0", "pip==26.0.1", "sphinxcontrib-applehelp==2.0.0",
+            "pip-tools==7.5.3", "snowballstemmer==3.0.1", "sphinxext-rediraffe==0.3.0",
+            "sphinx==9.1.0", "pydata-sphinx-theme==0.16.1"]'
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: true
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: false
+    requirements: true
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 30
+    build_details: '{"total_duration": "0 minutes 14 seconds", "checks": [{"name":
+        "check_for_moved_files (ubuntu-latest, 3.12)", "duration": "0 minutes 14 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2016-03-31 15:36:33
+    default_branch: master
+    description: 'Proposals for Open edX architecture, best practices and processes '
+    disk_usage_kb: 10379
+    fork_count: 43
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 13:04:02
+    license: Other
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 0
+    javascript: 0
+    makefile: 9128
+    python: 12442
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 2
+readme:
+    bad_links:
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
+    - 'https://github.com/openedx/openedx-proposals/blob/main/LICENSE.txt: 404'
+    getting-help: false
+    good_links:
+    - https://docs.openedx.org/projects/openedx-proposals/
+    - https://openedx.slack.com/archives/C1L370YTZ
+    - https://discuss.openedx.org/c/announcements/17
+    - https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+    - https://docs.openedx.org/en/latest/developers/quickstarts/first_openedx_pr.html
+    - http://graphviz.org/
+    - https://discuss.openedx.org/
+    - https://backstage.openedx.org/catalog/default/component/openedx-proposals
+    - https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg
+    - https://readthedocs.org/projects/openedx-proposals/badge/?version=latest
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    - https://img.shields.io/github/contributors/openedx/openedx-proposals.svg
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

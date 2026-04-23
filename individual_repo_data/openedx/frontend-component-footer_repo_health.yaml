@@ -1,0 +1,183 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 26
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 8
+        list: '{"@fortawesome/fontawesome-svg-core": "6.7.2", "@fortawesome/free-brands-svg-icons":
+            "6.7.2", "@fortawesome/free-regular-svg-icons": "6.7.2", "@fortawesome/free-solid-svg-icons":
+            "6.7.2", "@fortawesome/react-fontawesome": "0.2.6", "@openedx/frontend-plugin-framework":
+            "^1.7.0", "classnames": "^2.5.1", "lodash": "^4.17.21"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 18
+        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.2", "@edx/browserslist-config":
+            "^1.1.1", "@edx/frontend-platform": "^8.2.1", "@openedx/frontend-build":
+            "^14.3.1", "@openedx/paragon": "^23.3.0", "@testing-library/jest-dom":
+            "^5.16.4", "@testing-library/react": "^16.2.0", "@testing-library/dom":
+            "^10.4.0", "@testing-library/user-event": "^14.6.1", "prop-types": "15.8.1",
+            "react": "^18.3.1", "react-dom": "^18.3.1", "react-redux": "8.1.3", "react-router-dom":
+            "6.30.2", "react-test-renderer": "18.3.1", "redux": "4.2.1", "semantic-release":
+            "21.1.2", "ts-jest": "^29.1.2"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 22
+    build_details: '{"total_duration": "2 minutes 8 seconds", "checks": [{"name":
+        "tests", "duration": "2 minutes 8 seconds"}, {"name": "Release", "duration":
+        "1 minutes 47 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 6 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2019-01-02 20:14:34
+    default_branch: master
+    description: Site footer component for edX frontend apps.
+    disk_usage_kb: 16295
+    fork_count: 154
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 22:03:17
+    license: GNU AGPLv3
+    pulls_count: 15
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 252
+    javascript: 40107
+    makefile: 1299
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: '@edx/frontend-component-footer'
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
+    - 'https://travis-ci.com/edx/frontend-component-footer: 404'
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/devstack
+    - https://github.com/overhangio/tutor
+    - https://github.com/overhangio/tutor-mfe
+    - https://github.com/openedx/frontend-template-application/blob/3355bb3a96232390e9056f35b06ffa8f105ed7ca/src/index.jsx
+    - https://github.com/openedx/frontend-component-footer.git
+    - https://github.com/nvm-sh/nvm
+    - https://github.com/openedx/frontend-plugin-framework
+    - https://github.com/openedx/frontend-template-application/blob/3cd5485bf387b8c479baf6b02bf59e3061dc3465/src/index.scss
+    - https://openedx.org/r/how-to-contribute
+    - https://discuss.openedx.org
+    - https://github.com/openedx/frontend-component-footer/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
+    - https://openedx.org/community/connect
+    - https://openedx.org/code-of-conduct/
+    - https://api.travis-ci.com/edx/frontend-component-footer.svg?branch=master
+    - https://img.shields.io/codecov/c/github/edx/frontend-component-footer
+    - https://img.shields.io/npm/v/@edx/frontend-component-footer.svg
+    - https://img.shields.io/npm/dt/@edx/frontend-component-footer.svg
+    - https://img.shields.io/npm/l/@edx/frontend-component-footer.svg
+    - https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+    - https://github.com/semantic-release/semantic-release
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-04-06'
+    oldest_open_pr_date: '2022-11-21'
+    total_open_prs: 9
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

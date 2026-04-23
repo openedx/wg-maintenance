@@ -1,0 +1,183 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 21
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 5
+        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.2", "classnames": "^2.3.2",
+            "core-js": "3.37.1", "react-redux": "8.1.1", "redux": "4.2.1"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 16
+        list: '{"@edx/browserslist-config": "^1.1.1", "@edx/frontend-platform": "^8.3.0",
+            "@openedx/frontend-build": "^14.3.1", "@openedx/paragon": "^23.3.0", "@testing-library/dom":
+            "^10.4.0", "@testing-library/jest-dom": "^6.1.4", "@testing-library/react":
+            "^16.2.0", "@testing-library/user-event": "^14.6.1", "glob": "7.2.3",
+            "husky": "7.0.4", "jest": "29.7.0", "prop-types": "^15.8.1", "react":
+            "^18.3.1", "react-dom": "^18.3.1", "react-error-boundary": "^4.0.13",
+            "semantic-release": "^22.0.12"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: true
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 20
+    build_details: '{"total_duration": "1 minutes 59 seconds", "checks": [{"name":
+        "Release", "duration": "1 minutes 58 seconds"}, {"name": "test", "duration":
+        "1 minutes 16 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 53 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2023-11-02 19:50:48
+    default_branch: master
+    description: An experimental framework for micro-frontend plugins.
+    disk_usage_kb: 1423
+    fork_count: 26
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-22 17:55:48
+    license: GNU AGPLv3
+    pulls_count: 12
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 1175
+    javascript: 99350
+    makefile: 2240
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 404'
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-framework:
+        404'
+    getting-help: true
+    good_links:
+    - https://img.shields.io/github/license/openedx/frontend-plugin-framework.svg
+    - https://github.com/openedx/frontend-plugin-framework/blob/master/LICENSE
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    - https://github.com/openedx/frontend-plugin-framework/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/frontend-plugin-framework/actions/workflows/ci.yml
+    - https://codecov.io/github/openedx/frontend-plugin-framework/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-plugin-framework?branch=master
+    - https://github.com/openedx/frontend-platform/blob/master/docs/decisions/0007-javascript-file-configuration.rst
+    - https://github.com/openedx/frontend-platform/blob/master/src/react/ErrorBoundary.jsx
+    - https://discuss.openedx.org
+    - https://github.com/openedx/frontend-plugin-framework/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2025-11-24'
+    oldest_open_pr_date: '2024-05-20'
+    total_open_prs: 10
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

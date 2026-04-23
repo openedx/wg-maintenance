@@ -1,0 +1,175 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 39
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 9
+        list: '["regex==2026.2.28", "tqdm==4.67.3", "pyparsing==3.3.2", "scipy==1.17.1",
+            "nltk==3.9.3", "click==8.3.1", "numpy==2.4.2", "markupsafe==3.0.3", "joblib==1.5.3"]'
+    pypi_all:
+        count: 39
+        list: '["wheel==0.46.3", "distlib==0.4.0", "colorama==0.4.6", "pylint==4.0.5",
+            "pyparsing==3.3.2", "pip==26.0.1", "numpy==2.4.2", "markupsafe==3.0.3",
+            "virtualenv==21.1.0", "build==1.4.0", "iniconfig==2.3.0", "tqdm==4.67.3",
+            "filelock==3.25.0", "platformdirs==4.9.4", "pygments==2.19.2", "astroid==4.0.4",
+            "setuptools==82.0.0", "coverage[toml]==7.13.4", "python-discovery==1.1.1",
+            "tomli-w==1.2.0", "pytest==9.0.2", "packaging==26.0", "pluggy==1.6.0",
+            "cachetools==7.0.3", "mccabe==0.7.0", "pytest-cov==7.0.0", "tox==4.49.0",
+            "isort==8.0.1", "pyproject-api==1.10.0", "regex==2026.2.28", "pycodestyle==2.14.0",
+            "tomlkit==0.14.0", "scipy==1.17.1", "nltk==3.9.3", "click==8.3.1", "dill==0.4.1",
+            "pyproject-hooks==1.2.0", "pip-tools==7.5.3", "joblib==1.5.3"]'
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: true
+    package.json: false
+    pylintrc: false
+    requirements: true
+    setup.cfg: false
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 26
+    build_details: '{"total_duration": "56867 minutes 43 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 57 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 54
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 38 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 36 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 35 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 35 seconds"}, {"name": "Dependabot", "duration": "0 minutes 34 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 31 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
+        "-1 minutes 54 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2019-05-07 16:58:24
+    default_branch: master
+    description: ''
+    disk_usage_kb: 119
+    fork_count: 4
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-03-09 13:40:18
+    license: GNU AGPLv3
+    pulls_count: 2
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 384
+    html: 0
+    javascript: 0
+    makefile: 1281
+    python: 61200
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 2
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - https://github.com/openedx/edx-platform
+    - https://github.com/openedx/openedx-chem/blob/master/LICENSE
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: chem
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/openedx-chem
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages:
+    - liblapack-dev
+    - python3-dev
+    - libblas-dev
+    - gfortran
+    yml_files: '[]'

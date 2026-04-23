@@ -1,0 +1,154 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 11
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 0
+        list: '{}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 11
+        list: '{"@backstage/cli": "^0.36.0", "@backstage/cli-defaults": "^0.1.0",
+            "@backstage/e2e-test-utils": "^0.1.2", "@jest/environment-jsdom-abstract":
+            "^30.0.0", "@playwright/test": "^1.32.3", "@types/jest": "^30.0.0", "jest":
+            "^30.2.0", "jsdom": "^27.1.0", "node-gyp": "^10.0.0", "prettier": "^2.3.2",
+            "typescript": "~5.8.0"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: false
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 3
+    build_details: '{"total_duration": "30285 minutes 42 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 28 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 27 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 27 seconds"}, {"name": "Dependabot", "duration": "0 minutes 23 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2022-05-27 13:28:48
+    default_branch: main
+    description: The openedx instance of Backstage for helping maintainers
+    disk_usage_kb: 1918
+    fork_count: 6
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-03-25 15:11:48
+    license: Apache License 2.0
+    pulls_count: 2
+github_actions: false
+language_bytes:
+    css: 0
+    dockerfile: 3257
+    html: 1850
+    javascript: 1005
+    makefile: 0
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links: []
+    getting-help: false
+    good_links:
+    - https://backstage.io
+    - https://github.com/nvm-sh/nvm
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: 0
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

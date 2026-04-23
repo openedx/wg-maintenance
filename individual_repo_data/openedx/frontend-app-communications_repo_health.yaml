@@ -1,0 +1,184 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 39
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 29
+        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^2.0.0", "@edx/frontend-component-footer":
+            "^14.6.0", "@edx/frontend-component-header": "^6.6.1", "@edx/frontend-platform":
+            "^8.7.0", "@edx/openedx-atlas": "^0.6.0", "@edx/tinymce-language-selector":
+            "1.1.0", "@fortawesome/fontawesome-svg-core": "1.2.36", "@fortawesome/free-brands-svg-icons":
+            "5.15.4", "@fortawesome/free-regular-svg-icons": "5.15.4", "@fortawesome/free-solid-svg-icons":
+            "5.15.4", "@fortawesome/react-fontawesome": "0.2.0", "@openedx/frontend-plugin-framework":
+            "^1.6.0", "@openedx/paragon": "^23.3.0", "@tinymce/tinymce-react": "3.14.0",
+            "axios": "0.27.2", "classnames": "2.3.2", "core-js": "3.26.1", "jquery":
+            "3.6.1", "popper.js": "1.16.1", "prop-types": "15.8.1", "react": "^18.3.1",
+            "react-dom": "^18.3.1", "react-helmet": "^6.1.0", "react-redux": "7.2.9",
+            "react-router": "6.15.0", "react-router-dom": "6.15.0", "redux": "4.2.0",
+            "regenerator-runtime": "0.13.11", "tinymce": "5.10.7"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 10
+        list: '{"@edx/browserslist-config": "^1.2.0", "@edx/typescript-config": "^1.1.0",
+            "@openedx/frontend-build": "^14.6.6", "@testing-library/jest-dom": "^6.6.3",
+            "@testing-library/react": "^16.2.0", "axios-mock-adapter": "1.21.2", "glob":
+            "7.2.3", "jest": "29.7.0", "prettier": "2.8.1", "rosie": "2.1.0"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: false
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 20
+    build_details: '{"total_duration": "2 minutes 38 seconds", "checks": [{"name":
+        "tests", "duration": "2 minutes 37 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 4 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2021-12-03 16:33:28
+    default_branch: master
+    description: Frontend to manage instructor-learner communications
+    disk_usage_kb: 5532
+    fork_count: 60
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-21 10:10:43
+    license: GNU AGPLv3
+    pulls_count: 3
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 386
+    javascript: 152177
+    makefile: 1716
+    python: 0
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: '@edx/frontend-app-communications'
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-communications:
+        404'
+    getting-help: false
+    good_links:
+    - https://github.com/overhangio/tutor
+    - https://github.com/overhangio/tutor-mfe?tab=readme-ov-file
+    - https://github.com/edx/frontend-app-communications.git
+    - https://github.com/nvm-sh/nvm
+    - https://github.com/openedx/frontend-plugin-framework
+    - https://github.com/openedx/frontend-platform/blob/master/docs/how_tos/i18n.rst
+    - https://discuss.openedx.org
+    - https://github.com/openedx/frontend-app-communications/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
+    - https://openedx.org/community/connect
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    - https://img.shields.io/github/license/openedx/frontend-app-communications.svg
+    - https://github.com/openedx/frontend-app-communications/blob/master/LICENSE
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    - https://github.com/openedx/frontend-app-communications/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/frontend-app-communications/actions/workflows/ci.yml
+    - https://codecov.io/github/openedx/frontend-app-communications/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-app-communications?branch=master
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2022-12-12'
+    oldest_open_pr_date: null
+    total_open_prs: 0
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

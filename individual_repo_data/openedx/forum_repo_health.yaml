@@ -1,0 +1,261 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 163
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 67
+        list: '["edx-toggles==5.4.1", "code-annotations==2.3.2", "python-slugify==8.0.4",
+            "vine==5.1.0", "typing-extensions==4.15.0", "openedx-atlas==0.7.0", "openedx-events==10.5.0",
+            "pycparser==3.0", "edx-opaque-keys[django]==3.1.0", "django-crum==0.7.9",
+            "celery==5.6.2", "asgiref==3.11.1", "billiard==4.2.4", "amqp==5.3.1",
+            "idna==3.11", "mysqlclient==2.2.8", "soupsieve==2.8.3", "click-repl==0.3.0",
+            "markupsafe==3.0.3", "psutil==7.2.2", "h11==0.16.0", "jinja2==3.1.6",
+            "edx-search==4.4.0", "pyyaml==6.0.3", "django-waffle==5.0.0", "httpx==0.28.1",
+            "packaging==26.0", "tzdata==2025.3", "click-plugins==1.1.1.2", "typesense==2.0.0",
+            "wcwidth==0.6.0", "dnspython==2.8.0", "pydantic-core==2.41.5", "django==5.2.12",
+            "stevedore==5.7.0", "elasticsearch==7.13.4", "pytz==2026.1.post1", "anyio==4.12.1",
+            "pymongo==4.16.0", "certifi==2026.2.25", "urllib3==1.26.20", "kombu==5.6.2",
+            "six==1.17.0", "tzlocal==5.3.1", "camel-converter[pydantic]==5.1.0", "sqlparse==0.5.5",
+            "prompt-toolkit==3.0.52", "typing-inspection==0.4.2", "fastavro==1.12.1",
+            "pynacl==1.6.2", "charset-normalizer==3.4.5", "djangorestframework==3.16.1",
+            "annotated-types==0.7.0", "pydantic==2.12.5", "event-tracking==3.3.0",
+            "attrs==25.4.0", "edx-django-utils==8.0.1", "click==8.3.1", "text-unidecode==1.3",
+            "cffi==2.0.0", "httpcore==1.0.9", "edx-ccx-keys==2.0.2", "python-dateutil==2.9.0.post0",
+            "beautifulsoup4==4.14.3", "requests==2.32.5", "click-didyoumean==0.3.1",
+            "meilisearch==0.40.0"]'
+    pypi_all:
+        count: 163
+        list: '["coverage[toml]==7.13.4", "build==1.4.0", "mypy-extensions==1.1.0",
+            "secretstorage==3.5.0", "restructuredtext-lint==2.0.2", "django-crum==0.7.9",
+            "sphinx-book-theme==1.1.4", "pylint-plugin-utils==0.9.0", "mccabe==0.7.0",
+            "click-repl==0.3.0", "sphinxcontrib-htmlhelp==2.1.0", "psutil==7.2.2",
+            "pluggy==1.6.0", "tomlkit==0.14.0", "jinja2==3.1.6", "pyyaml==6.0.3",
+            "packaging==26.0", "click-plugins==1.1.1.2", "distlib==0.4.0", "babel==2.18.0",
+            "keyring==25.7.0", "stevedore==5.7.0", "lxml-html-clean==0.4.4", "anyio==4.12.1",
+            "urllib3==1.26.20", "sphinxcontrib-qthelp==2.0.0", "typing-inspection==0.4.2",
+            "cachetools==7.0.3", "fastavro==1.12.1", "filelock==3.25.0", "pynacl==1.6.2",
+            "faker==40.8.0", "doc8==0.11.2", "pylint-celery==0.3", "pydantic==2.12.5",
+            "djangorestframework-stubs==3.16.8", "pyproject-hooks==1.2.0", "nh3==0.3.3",
+            "python-dateutil==2.9.0.post0", "mypy==1.19.1", "pylint-django==2.7.0",
+            "pytest-cov==7.0.0", "tox==4.49.0", "vine==5.1.0", "typing-extensions==4.15.0",
+            "pycodestyle==2.14.0", "openedx-atlas==0.7.0", "idna==3.11", "pytokens==0.4.1",
+            "billiard==4.2.4", "more-itertools==10.8.0", "jaraco-context==6.1.0",
+            "markupsafe==3.0.3", "types-beautifulsoup4==4.12.0.20250516", "types-webencodings==0.5.0.20251108",
+            "edx-i18n-tools==1.9.0", "edx-search==4.4.0", "requests-toolbelt==1.0.0",
+            "astroid==4.0.4", "rich==14.3.3", "typesense==2.0.0", "tomli-w==1.2.0",
+            "django-stubs==5.2.9", "snowballstemmer==3.0.1", "pylint==4.0.5", "pymongo==4.16.0",
+            "black==26.3.0", "sphinxcontrib-serializinghtml==2.0.0", "lxml[html-clean]==6.0.2",
+            "camel-converter[pydantic]==5.1.0", "pytest-django==4.12.0", "event-tracking==3.3.0",
+            "edx-django-utils==8.0.1", "click==8.3.1", "cffi==2.0.0", "docutils==0.22.4",
+            "edx-ccx-keys==2.0.2", "colorama==0.4.6", "beautifulsoup4==4.14.3", "rfc3986==2.0.0",
+            "sphinxcontrib-applehelp==2.0.0", "jeepney==0.9.0", "mongomock==4.3.0",
+            "meilisearch==0.40.0", "chardet==7.0.1", "sentinels==1.1.1", "diff-cover==10.2.0",
+            "code-annotations==2.3.2", "python-slugify==8.0.4", "types-pyyaml==6.0.12.20250915",
+            "pycparser==3.0", "types-urllib3==1.26.25.14", "edx-opaque-keys[django]==3.1.0",
+            "mysqlclient==2.2.8", "asgiref==3.11.1", "amqp==5.3.1", "pyproject-api==1.10.0",
+            "sphinxcontrib-jsmath==1.0.1", "markdown-it-py==4.0.0", "django-waffle==5.0.0",
+            "httpx==0.28.1", "tzdata==2025.3", "django-stubs-ext==5.2.9", "pydantic-core==2.41.5",
+            "pydocstyle==6.3.0", "elasticsearch==7.13.4", "pytz==2026.1.post1", "pip==26.0.1",
+            "platformdirs==4.9.4", "certifi==2026.2.25", "sphinx==9.1.0", "kombu==5.6.2",
+            "six==1.17.0", "accessible-pygments==0.0.5", "prompt-toolkit==3.0.52",
+            "sphinxcontrib-devhelp==2.0.0", "pydata-sphinx-theme==0.15.4", "charset-normalizer==3.4.5",
+            "annotated-types==0.7.0", "types-html5lib==1.1.11.20251117", "requests==2.32.5",
+            "iniconfig==2.3.0", "polib==1.2.0", "roman-numerals==4.1.0", "click-log==0.4.0",
+            "edx-toggles==5.4.1", "setuptools==82.0.0", "virtualenv==21.1.0", "openedx-events==10.5.0",
+            "pathspec==1.0.4", "pygments==2.19.2", "celery==5.6.2", "wheel==0.46.3",
+            "soupsieve==2.8.3", "isort==8.0.1", "imagesize==2.0.0", "h11==0.16.0",
+            "dill==0.4.1", "jaraco-functools==4.4.0", "wcwidth==0.6.0", "cryptography==46.0.5",
+            "dnspython==2.8.0", "django==5.2.12", "pytest==9.0.2", "readme-renderer==44.0",
+            "jaraco-classes==3.4.0", "librt==0.8.1", "tzlocal==5.3.1", "id==1.5.0",
+            "mdurl==0.1.2", "python-discovery==1.1.0", "sqlparse==0.5.5", "path==16.16.0",
+            "alabaster==1.0.0", "djangorestframework==3.16.1", "attrs==25.4.0", "edx-lint==5.6.0",
+            "text-unidecode==1.3", "httpcore==1.0.9", "types-requests==2.31.0.6",
+            "twine==6.2.0", "pip-tools==7.5.3", "click-didyoumean==0.3.1"]'
+django_packages:
+    django_42:
+        count: 10
+        list: '["edx-django-utils", "edx-search", "pylint-django", "event-tracking",
+            "pytest-django", "django-waffle", "code-annotations", "djangorestframework",
+            "edx-toggles", "edx-i18n-tools"]'
+    total:
+        count: 11
+        list: '["edx-django-utils", "edx-search", "pylint-django", "event-tracking",
+            "pytest-django", "django-waffle", "code-annotations", "djangorestframework",
+            "django-crum", "edx-toggles", "edx-i18n-tools"]'
+    upgraded:
+        count: 7
+        list: '["edx-django-utils", "edx-search", "event-tracking", "django-waffle",
+            "code-annotations", "edx-toggles", "edx-i18n-tools"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: true
+    .gitignore: true
+    .pii_annotations.yml: true
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: false
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 14
+    build_details: '{"total_duration": "12248 minutes 22 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.12, e2e)", "duration": "3 minutes 57 seconds"}, {"name":
+        "tests (ubuntu-latest, 3.12, quality)", "duration": "1 minutes 58 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes 29
+        seconds"}, {"name": "tests (ubuntu-latest, 3.12, django42)", "duration": "1
+        minutes 27 seconds"}, {"name": "tests (ubuntu-latest, 3.12, py)", "duration":
+        "1 minutes 24 seconds"}, {"name": "tests (ubuntu-latest, 3.12, package)",
+        "duration": "1 minutes 0 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 31 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "routeissue
+        / add_and_notify", "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 51 seconds"}, {"name": "routeissue
+        / add_label", "duration": "-1 minutes 50 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2024-07-25 08:43:29
+    default_branch: master
+    description: Python rewrite of the legacy Open edX Ruby forum
+    disk_usage_kb: 817
+    fork_count: 20
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-23 06:56:09
+    license: GNU AGPLv3
+    pulls_count: 5
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 873
+    javascript: 0
+    makefile: 5775
+    python: 832357
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 1
+readme:
+    bad_links:
+    - 'https://docs.openedx.org/projects/forum/how-tos/how-to-deploy-this-component.html:
+        404'
+    - 'https://docs.openedx.org/projects/forum: 404'
+    getting-help: true
+    good_links:
+    - https://openedx.org
+    - https://github.com/openedx/frontend-app-discussions
+    - https://github.com/openedx/cs_comments_service
+    - https://discuss.openedx.org/t/axim-funded-contribution-proposal-forum-rewrite-from-ruby-mongodb-to-python-mysql/12788
+    - https://github.com/overhangio/tutor-forum
+    - https://docs.tutor.edly.io/
+    - https://docs.tutor.edly.io/tutorials/main.html
+    - https://pymongo.readthedocs.io/en/4.4.0/api/pymongo/mongo_client.html
+    - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
+    - https://discuss.openedx.org
+    - https://github.com/openedx/forum/issues
+    - https://openedx.org/getting-help
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    - https://backstage.openedx.org/catalog/default/component/forum
+    - https://github.com/openedx/forum/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/forum/actions/workflows/ci.yml
+    - https://img.shields.io/github/license/openedx/forum.svg
+    - https://github.com/openedx/forum/blob/master/LICENSE.txt
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: openedx-forum
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/forum
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

@@ -1,0 +1,263 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 146
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 107
+        list: '["firebase-admin==6.8.0", "astroid==3.3.9", "proto-plus==1.26.1", "pyjwt[crypto]==2.10.1",
+            "cachetools==5.5.2", "pyyaml==6.0.2", "httplib2==0.22.0", "keyring==25.6.0",
+            "pylint==3.3.6", "pygments==2.19.1", "google-resumable-media==2.7.2",
+            "python-slugify==8.0.4", "path==16.16.0", "psutil==7.0.0", "pyparsing==3.2.3",
+            "pycodestyle==2.13.0", "django-crum==0.7.9", "rich==14.0.0", "colorama==0.4.6",
+            "attrs==25.3.0", "charset-normalizer==3.4.1", "markdown-it-py==3.0.0",
+            "virtualenv==20.30.0", "jinja2==3.1.6", "rsa==4.9.1", "six==1.17.0", "google-auth-httplib2==0.2.0",
+            "diff-cover==9.2.4", "lxml-html-clean==0.4.2", "cryptography==44.0.2",
+            "rfc3986==2.0.0", "jaraco-functools==4.1.0", "lxml[html-clean,html_clean]==5.4.0",
+            "google-cloud-core==2.4.3", "twine==6.1.0", "pynacl==1.5.0", "google-api-python-client==2.168.0",
+            "googleapis-common-protos==1.70.0", "pylint-django==2.6.1", "wheel==0.45.1",
+            "polib==1.2.0", "grpcio==1.72.0", "snowballstemmer==2.2.0", "idna==3.10",
+            "simplejson==3.20.1", "chardet==5.2.0", "mdurl==0.1.2", "docutils==0.21.2",
+            "google-auth==2.39.0", "django==4.2.20", "pyproject-hooks==1.2.0", "sqlparse==0.5.3",
+            "click==8.1.8", "pyasn1==0.6.1", "pbr==6.1.1", "filelock==3.18.0", "pylint-plugin-utils==0.8.2",
+            "google-crc32c==1.7.1", "edx-lint==5.6.0", "pyasn1-modules==0.4.2", "protobuf==6.30.2",
+            "mccabe==0.7.0", "grpcio-status==1.72.0", "tox==4.25.0", "markupsafe==3.0.2",
+            "edx-i18n-tools==1.8.0", "django-waffle==4.2.0", "readme-renderer==44.0",
+            "sailthru-client==2.2.3", "cachecontrol==0.14.2", "cffi==1.17.1", "google-cloud-firestore==2.20.2",
+            "distlib==0.3.9", "edx-django-utils==7.4.0", "pip-tools==7.4.1", "newrelic==10.10.0",
+            "google-api-core[grpc]==2.24.2", "urllib3==2.2.3", "jaraco-context==6.0.1",
+            "click-log==0.4.0", "asgiref==3.8.1", "pydocstyle==6.3.0", "isort==6.0.1",
+            "django-push-notifications==3.2.1", "packaging==25.0", "text-unidecode==1.3",
+            "pyproject-api==1.9.0", "requests==2.32.3", "code-annotations==2.3.0",
+            "uritemplate==4.1.1", "nh3==0.2.21", "id==1.5.0", "build==1.2.2.post1",
+            "jaraco-classes==3.4.0", "more-itertools==10.7.0", "python-dateutil==2.9.0.post0",
+            "pluggy==1.5.0", "dill==0.4.0", "google-cloud-storage==3.1.0", "pycparser==2.22",
+            "stevedore==5.4.1", "platformdirs==4.3.7", "pylint-celery==0.3", "tomlkit==0.13.2",
+            "requests-toolbelt==1.0.0", "msgpack==1.1.0", "certifi==2025.1.31"]'
+    pypi_all:
+        count: 146
+        list: '["firebase-admin==6.8.0", "astroid==3.3.9", "proto-plus==1.26.1", "pytest-django==4.11.1",
+            "pyjwt[crypto]==2.10.1", "cachetools==5.5.2", "sphinxcontrib-jsmath==1.0.1",
+            "pyyaml==6.0.2", "httplib2==0.22.0", "keyring==25.6.0", "pylint==3.3.6",
+            "pygments==2.19.1", "mock==5.2.0", "google-resumable-media==2.7.2", "python-slugify==8.0.4",
+            "path==16.16.0", "psutil==7.0.0", "pyparsing==3.2.3", "pycodestyle==2.13.0",
+            "django-crum==0.7.9", "rich==14.0.0", "colorama==0.4.6", "attrs==25.3.0",
+            "charset-normalizer==3.4.1", "markdown-it-py==3.0.0", "virtualenv==20.30.0",
+            "jinja2==3.1.6", "babel==2.17.0", "rsa==4.9.1", "six==1.17.0", "google-auth-httplib2==0.2.0",
+            "diff-cover==9.2.4", "lxml-html-clean==0.4.2", "cryptography==44.0.2",
+            "sphinx==8.2.3", "rfc3986==2.0.0", "urwid-readline==0.15.1", "jaraco-functools==4.1.0",
+            "lxml[html-clean,html_clean]==5.4.0", "pytest-randomly==3.16.0", "google-cloud-core==2.4.3",
+            "twine==6.1.0", "beautifulsoup4==4.13.4", "jedi==0.19.2", "pynacl==1.5.0",
+            "google-api-python-client==2.168.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "googleapis-common-protos==1.70.0", "pylint-django==2.6.1", "urwid==2.6.16",
+            "wheel==0.45.1", "polib==1.2.0", "pytest==8.3.5", "grpcio==1.72.0", "typing-extensions==4.13.2",
+            "parso==0.8.4", "snowballstemmer==2.2.0", "idna==3.10", "hypothesis-pytest==0.19.0",
+            "simplejson==3.20.1", "chardet==5.2.0", "sphinxcontrib-qthelp==2.0.0",
+            "pydata-sphinx-theme==0.15.4", "mdurl==0.1.2", "docutils==0.21.2", "google-auth==2.39.0",
+            "sqlparse==0.5.3", "pyproject-hooks==1.2.0", "pytz==2025.2", "django==4.2.20",
+            "click==8.1.8", "pyasn1==0.6.1", "accessible-pygments==0.0.5", "pbr==6.1.1",
+            "filelock==3.18.0", "pylint-plugin-utils==0.8.2", "google-crc32c==1.7.1",
+            "edx-lint==5.6.0", "pyasn1-modules==0.4.2", "roman-numerals-py==3.1.0",
+            "protobuf==6.30.2", "coverage[toml]==7.8.0", "mccabe==0.7.0", "grpcio-status==1.72.0",
+            "hypothesis[pytz]==6.104.2", "tox==4.25.0", "pytest-cov==6.1.1", "markupsafe==3.0.2",
+            "edx-i18n-tools==1.8.0", "iniconfig==2.1.0", "django-waffle==4.2.0", "readme-renderer==44.0",
+            "sailthru-client==2.2.3", "cachecontrol==0.14.2", "cffi==1.17.1", "google-cloud-firestore==2.20.2",
+            "sortedcontainers==2.4.0", "setuptools==79.0.1", "distlib==0.3.9", "edx-django-utils==7.4.0",
+            "sphinxcontrib-devhelp==2.0.0", "restructuredtext-lint==1.4.0", "pip-tools==7.4.1",
+            "newrelic==10.10.0", "sphinxcontrib-applehelp==2.0.0", "google-api-core[grpc]==2.24.2",
+            "urllib3==2.2.3", "sphinx-book-theme==1.1.4", "jaraco-context==6.0.1",
+            "click-log==0.4.0", "asgiref==3.8.1", "pydocstyle==6.3.0", "imagesize==1.4.1",
+            "isort==6.0.1", "django-push-notifications==3.2.1", "packaging==25.0",
+            "ddt==1.7.2", "text-unidecode==1.3", "pyproject-api==1.9.0", "alabaster==1.0.0",
+            "requests==2.32.3", "uritemplate==4.1.1", "wcwidth==0.2.13", "code-annotations==2.3.0",
+            "nh3==0.2.21", "id==1.5.0", "doc8==1.1.2", "pudb==2024.1.3", "build==1.2.2.post1",
+            "jaraco-classes==3.4.0", "python-dateutil==2.9.0.post0", "more-itertools==10.7.0",
+            "pluggy==1.5.0", "dill==0.4.0", "google-cloud-storage==3.1.0", "pycparser==2.22",
+            "stevedore==5.4.1", "platformdirs==4.3.7", "pylint-celery==0.3", "pip==24.2",
+            "tomlkit==0.13.2", "sphinxcontrib-htmlhelp==2.1.0", "soupsieve==2.7",
+            "requests-toolbelt==1.0.0", "msgpack==1.1.0", "certifi==2025.1.31"]'
+django_packages:
+    django_42:
+        count: 6
+        list: '["edx-i18n-tools", "pytest-django", "code-annotations", "django-waffle",
+            "edx-django-utils", "pylint-django"]'
+    total:
+        count: 8
+        list: '["edx-i18n-tools", "pytest-django", "django-crum", "code-annotations",
+            "django-waffle", "newrelic", "edx-django-utils", "pylint-django"]'
+    upgraded:
+        count: 4
+        list: '["edx-i18n-tools", "edx-django-utils", "code-annotations", "django-waffle"]'
+docs:
+    build_badge: true
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: true
+github:
+    allows_merge_commit: false
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 8
+    build_details: '{"total_duration": "17905 minutes 49 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 56 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 51
+        seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration": "0
+        minutes 50 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, docs)", "duration":
+        "0 minutes 48 seconds"}, {"name": "Dependabot", "duration": "0 minutes 41
+        seconds"}, {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
+        "duration": "0 minutes 34 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 30 seconds"}, {"name": "Dependabot", "duration": "0 minutes 29 seconds"},
+        {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
+        "duration": "0 minutes 28 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 22 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 53 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2017-08-08 18:12:33
+    default_branch: master
+    description: edX's Automated Communication Engine
+    disk_usage_kb: 595
+    fork_count: 24
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-03-18 08:24:50
+    license: GNU AGPLv3
+    pulls_count: 5
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 194
+    html: 665
+    javascript: 0
+    makefile: 4491
+    python: 132551
+    shell: 0
+makefile:
+    pip-installed: true
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/edx-ace:
+        404'
+    - 'https://travis-ci.com/edx/edx-ace: 404'
+    - 'https://www.gnu.org/licenses/agpl-3.0: 403'
+    getting-help: true
+    good_links:
+    - https://edx-ace.readthedocs.io/en/latest/
+    - https://github.com/openedx/edx-ace/blob/master/docs/getting_started.rst
+    - https://discuss.openedx.org
+    - https://github.com/openedx/edx-ace/issues
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://github.com/openedx/edx-ace/blob/master/.github/PULL_REQUEST_TEMPLATE.md
+    - https://github.com/openedx/edx-ace/blob/master/.github/ISSUE_TEMPLATE.md
+    - https://openedx.org/code-of-conduct/
+    - https://img.shields.io/pypi/v/edx-ace.svg
+    - https://pypi.python.org/pypi/edx-ace/
+    - https://travis-ci.com/edx/edx-ace.svg?branch=master
+    - http://codecov.io/github/edx/edx-ace/coverage.svg?branch=master
+    - http://codecov.io/github/edx/edx-ace?branch=master
+    - https://readthedocs.org/projects/edx-ace/badge/?version=latest
+    - http://edx-ace.readthedocs.io/en/latest/
+    - https://img.shields.io/pypi/pyversions/edx-ace.svg
+    - https://img.shields.io/github/license/edx/edx-ace.svg
+    - https://github.com/openedx/edx-ace/blob/master/LICENSE.txt
+    - https://img.shields.io/badge/License-AGPL_v3-blue.svg
+    - https://github.com/openedx/edx-ace/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/edx-ace/actions/workflows/ci.yml
+    - https://github.com/openedx/edx-ace/actions/workflows/pypi-publish.yml/badge.svg
+    - https://github.com/openedx/edx-ace/actions/workflows/pypi-release.yml
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx-ace
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/edx-ace
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: []
+    yml_files: '[]'

@@ -1,0 +1,204 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: false
+    has_ecosystem:
+        github-actions: false
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 73
+    github:
+        count: 0
+        list: ''
+    js:
+        count: 70
+        list: '{"@babel/cli": "^7.24.8", "@babel/core": "^7.24.9", "@babel/eslint-parser":
+            "^7.28.6", "@babel/plugin-proposal-class-properties": "^7.18.6", "@babel/plugin-proposal-object-rest-spread":
+            "^7.20.7", "@babel/plugin-syntax-dynamic-import": "^7.8.3", "@babel/preset-env":
+            "^7.24.8", "@babel/preset-react": "^7.26.3", "@edx/eslint-config": "^4.3.0",
+            "@edx/new-relic-source-map-webpack-plugin": "^2.1.0", "@edx/typescript-config":
+            "^1.1.0", "@formatjs/cli": "^6.0.3", "@fullhuman/postcss-purgecss": "^5.0.0",
+            "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15", "@svgr/webpack": "^8.1.0",
+            "@types/jest": "^29.5.12", "@typescript-eslint/eslint-plugin": "^5.58.0",
+            "@typescript-eslint/parser": "^5.58.0", "autoprefixer": "^10.4.27", "babel-jest":
+            "^29.7.0", "babel-loader": "^9.2.1", "babel-plugin-formatjs": "^10.4.0",
+            "babel-plugin-transform-imports": "^2.0.0", "babel-polyfill": "^6.26.0",
+            "chalk": "^4.1.2", "clean-webpack-plugin": "^4.0.0", "css-loader": "^5.2.7",
+            "cssnano": "^6.0.3", "dotenv": "^8.6.0", "dotenv-webpack": "^8.0.1", "eslint":
+            "^8.57.1", "eslint-config-airbnb": "^19.0.4", "eslint-config-airbnb-typescript":
+            "^17.0.0", "eslint-import-resolver-typescript": "^4.2.1", "eslint-plugin-formatjs":
+            "^4.12.2", "eslint-plugin-import": "^2.32.0", "eslint-plugin-jsx-a11y":
+            "^6.10.2", "eslint-plugin-react": "^7.37.5", "eslint-plugin-react-hooks":
+            "^4.6.2", "express": "^4.18.2", "file-loader": "^6.2.0", "html-webpack-plugin":
+            "^5.6.3", "identity-obj-proxy": "^3.0.0", "image-minimizer-webpack-plugin":
+            "^4.1.4", "jest": "^29.7.0", "jest-environment-jsdom": "^29.7.0", "mini-css-extract-plugin":
+            "^1.6.2", "parse5": "^7.1.2", "postcss": "^8.4.49", "postcss-custom-media":
+            "^10.0.8", "postcss-loader": "^7.3.4", "postcss-rtlcss": "^5.7.1", "react-dev-utils":
+            "^12.0.1", "react-refresh": "^0.16.0", "resolve-url-loader": "^5.0.0",
+            "sass": "^1.85.1", "sass-loader": "^13.3.3", "sharp": "^0.34.3", "source-map-loader":
+            "^4.0.2", "style-loader": "^3.3.4", "ts-jest": "^29.1.4", "tsconfig-paths-webpack-plugin":
+            "^4.2.0", "typescript": "^4.9.5", "url-loader": "^4.1.1", "webpack": "^5.97.1",
+            "webpack-bundle-analyzer": "^4.10.1", "webpack-cli": "^5.1.4", "webpack-dev-server":
+            "^4.15.1", "webpack-merge": "^5.10.0", "webpack-remove-empty-scripts":
+            "^1.0.4"}'
+    js.all:
+        count: 0
+        list: '{}'
+    js.dev:
+        count: 3
+        list: '{"@babel/preset-typescript": "^7.18.6", "@types/react": "^18.3.18",
+            "@types/react-dom": "^18.3.5"}'
+    pypi:
+        count: 0
+        list: ''
+    pypi_all:
+        count: 0
+        list: ''
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: false
+    README: true
+    commitlint.yml: true
+    dependabot.yml: false
+    openedx.yaml: true
+    package.json: true
+    pylintrc: false
+    requirements: false
+    setup.cfg: false
+    setup.py: false
+    tox.ini: false
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 33
+    build_details: '{"total_duration": "4 minutes 29 seconds", "checks": [{"name":
+        "Release", "duration": "2 minutes 22 seconds"}, {"name": "tests", "duration":
+        "1 minutes 59 seconds"}, {"name": "Syncing branches", "duration": "0 minutes
+        16 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        4 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2019-09-23 13:41:45
+    default_branch: master
+    description: Common build scripts and tooling for Open edX micro-frontends.
+    disk_usage_kb: 17135
+    fork_count: 38
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-14 12:44:29
+    license: GNU AGPLv3
+    pulls_count: 12
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 0
+    html: 224
+    javascript: 84076
+    makefile: 0
+    python: 0
+    shell: 267
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: false
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 0
+readme:
+    bad_links:
+    - 'https://travis-ci.com/edx/frontend-build: 404'
+    getting-help: false
+    good_links:
+    - https://api.travis-ci.com/edx/frontend-build.svg?branch=master
+    - https://img.shields.io/npm/v/@openedx/frontend-build.svg
+    - https://img.shields.io/codecov/c/github/edx/frontend-build
+    - https://codecov.io/gh/edx/frontend-build
+    - https://img.shields.io/npm/l/@openedx/frontend-build.svg
+    - https://github.com/edx-unsupported/frontend-base/blob/master/LICENSE
+    - https://github.com/openedx/frontend-build.git
+    - https://github.com/nvm-sh/nvm
+    - https://github.com/openedx/devstack/tree/master/docs/decisions/0005-frontend-package-mounts.rst
+    - https://webpack.js.org/configuration/resolve/
+    - https://openedx.org/r/how-to-contribute
+    - https://discuss.openedx.org
+    - https://openedx.org/slack
+    - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
+    - https://github.com/openedx/frontend-build/issues
+    - https://openedx.org/community/connect
+    - https://developer.chrome.com/docs/lighthouse/overview/
+    - https://github.com/openedx/wg-frontend/issues/138
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: true
+    last_pr: '2026-03-27'
+    oldest_open_pr_date: '2025-06-05'
+    total_open_prs: 2
+requires:
+    boto: false
+    django: false
+    nose: false
+    pytest: false
+setup_py:
+    py38_classifiers: false
+    python_versions: []
+tox_ini:
+    has_section:
+        testenv: false
+        testenv:quality: false
+        tox: false
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'

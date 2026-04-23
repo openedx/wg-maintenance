@@ -1,0 +1,176 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 34
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 16
+        list: '["isort==8.0.1", "dill==0.4.1", "packaging==26.1", "pluggy==1.6.0",
+            "tomlkit==0.14.0", "sqlparse==0.5.5", "mccabe==0.7.0", "pycodestyle==2.14.0",
+            "pylint==4.0.5", "pygments==2.20.0", "django==5.2.13", "astroid==4.0.4",
+            "asgiref==3.11.1", "platformdirs==4.9.6", "iniconfig==2.3.0", "pytest==9.0.3"]'
+    pypi_all:
+        count: 34
+        list: '["isort==8.0.1", "dill==0.4.1", "mccabe==0.7.0", "pygments==2.20.0",
+            "astroid==4.0.4", "pluggy==1.6.0", "iniconfig==2.3.0", "tox==4.53.0",
+            "packaging==26.1", "colorama==0.4.6", "tomli-w==1.2.0", "numpy==2.4.4",
+            "tomlkit==0.14.0", "pyproject-hooks==1.2.0", "distlib==0.4.0", "click==8.3.2",
+            "pip-tools==7.5.3", "wheel==0.46.3", "django==5.2.13", "asgiref==3.11.1",
+            "build==1.4.3", "platformdirs==4.9.6", "cachetools==7.0.5", "six==1.17.0",
+            "pyproject-api==1.10.0", "pip==26.0.1", "python-discovery==1.2.2", "setuptools==82.0.1",
+            "pylint==4.0.5", "sqlparse==0.5.5", "virtualenv==21.2.4", "pycodestyle==2.14.0",
+            "filelock==3.29.0", "pytest==9.0.3"]'
+django_packages:
+    django_42:
+        count: 0
+        list: '[]'
+    total:
+        count: 0
+        list: '[]'
+    upgraded:
+        count: 0
+        list: '[]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: true
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: true
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: true
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 11
+    build_details: '{"total_duration": "2 minutes 14 seconds", "checks": [{"name":
+        "tests (3.12, 22.04, django42)", "duration": "2 minutes 14 seconds"}, {"name":
+        "tests (3.12, 22.04, django52)", "duration": "2 minutes 11 seconds"}, {"name":
+        "tests (3.12, 24.04, django52)", "duration": "2 minutes 2 seconds"}, {"name":
+        "tests (3.12, 24.04, django42)", "duration": "1 minutes 52 seconds"}, {"name":
+        "tests (quality, 24.04, 3.12)", "duration": "1 minutes 42 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2013-04-26 20:48:06
+    default_branch: master
+    description: Secure code execution
+    disk_usage_kb: 441
+    fork_count: 81
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: false
+    is_locked: false
+    is_private: false
+    last_push: 2026-04-20 14:51:42
+    license: Apache License 2.0
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 0
+    dockerfile: 3814
+    html: 0
+    javascript: 0
+    makefile: 2084
+    python: 77642
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: true
+    quality-js: false
+    quality-python: false
+    test: true
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 2
+readme:
+    bad_links: []
+    getting-help: false
+    good_links: []
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: edx-codejail
+    python_versions:
+    - '3'
+    - '3.12'
+    repo_url: https://github.com/openedx/codejail
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: true
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages:
+    - python${python_version}-venv
+    - curl
+    - git
+    - python${python_version}
+    - make
+    - vim
+    - python${python_version}-dev
+    - sudo
+    - build-essential
+    - software-properties-common
+    - python3-distutils
+    yml_files: '[]'
