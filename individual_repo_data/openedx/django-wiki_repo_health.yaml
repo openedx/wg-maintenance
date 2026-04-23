@@ -1,0 +1,200 @@
+TIMESTAMP: 2026-04-23
+dependabot:
+    exists: true
+    has_ecosystem:
+        github-actions: true
+        npm: false
+        pip: false
+dependabot_alerts: {}
+dependencies:
+    count: 62
+    github:
+        count: 0
+        list: '[]'
+    js:
+        count: 0
+        list: ''
+    js.all:
+        count: 0
+        list: ''
+    js.dev:
+        count: 0
+        list: ''
+    pypi:
+        count: 12
+        list: '["webencodings==0.5.1", "bleach[css]==6.2.0", "django-js-asset==3.1.2",
+            "django==4.2.21", "django-mptt==0.17.0", "tinycss2==1.4.0", "sqlparse==0.5.3",
+            "sorl-thumbnail==12.11.0", "django-classy-tags==4.1.0", "markdown==3.8",
+            "django-sekizai==4.1.0", "asgiref==3.8.1"]'
+    pypi_all:
+        count: 62
+        list: '["sphinxcontrib-devhelp==2.0.0", "pip==24.2", "webencodings==0.5.1",
+            "bleach[css]==6.2.0", "django-js-asset==3.1.2", "colorama==0.4.6", "coverage[toml]==7.8.0",
+            "snowballstemmer==3.0.1", "sphinxcontrib-applehelp==2.0.0", "setuptools==80.4.0",
+            "babel==2.17.0", "sqlparse==0.5.3", "click==8.2.0", "pydata-sphinx-theme==0.15.4",
+            "django-classy-tags==4.1.0", "sphinxcontrib-jsmath==1.0.1", "cachetools==5.5.2",
+            "sorl-thumbnail==12.11.0", "distlib==0.3.9", "asgiref==3.8.1", "platformdirs==4.3.8",
+            "pyproject-hooks==1.2.0", "alabaster==1.0.0", "roman-numerals-py==3.1.0",
+            "pluggy==1.5.0", "sphinxcontrib-qthelp==2.0.0", "urllib3==2.2.3", "wheel==0.45.1",
+            "django-mptt==0.17.0", "idna==3.10", "pygments==2.19.1", "sphinx-book-theme==1.1.4",
+            "imagesize==1.4.1", "tox==4.25.0", "packaging==25.0", "pytest-django==4.11.1",
+            "chardet==5.2.0", "requests==2.32.3", "beautifulsoup4==4.13.4", "pip-tools==7.4.1",
+            "soupsieve==2.7", "build==1.2.2.post1", "docutils==0.21.2", "filelock==3.18.0",
+            "typing-extensions==4.13.2", "markdown==3.8", "django-sekizai==4.1.0",
+            "sphinxcontrib-serializinghtml==2.0.0", "markupsafe==3.0.2", "virtualenv==20.31.2",
+            "jinja2==3.1.6", "django==4.2.21", "pyproject-api==1.9.1", "pytest-cov==6.1.1",
+            "tinycss2==1.4.0", "certifi==2025.4.26", "sphinx==8.2.3", "sphinxcontrib-htmlhelp==2.1.0",
+            "charset-normalizer==3.4.2", "accessible-pygments==0.0.5", "iniconfig==2.1.0",
+            "pytest==8.3.5"]'
+django_packages:
+    django_42:
+        count: 4
+        list: '["django-classy-tags", "pytest-django", "django-sekizai", "django-js-asset"]'
+    total:
+        count: 6
+        list: '["pytest-django", "django-classy-tags", "django-sekizai", "django-js-asset",
+            "django-mptt", "sorl-thumbnail"]'
+    upgraded:
+        count: 2
+        list: '["django-sekizai", "django-js-asset"]'
+docs:
+    build_badge: false
+    python_version: null
+exists:
+    .coveragerc: false
+    .editorconfig: false
+    .gitignore: true
+    .pii_annotations.yml: false
+    .travis.yml: false
+    CHANGELOG.rst: false
+    Makefile: true
+    README: true
+    commitlint.yml: true
+    dependabot.yml: true
+    openedx.yaml: true
+    package.json: false
+    pylintrc: true
+    requirements: true
+    setup.cfg: false
+    setup.py: true
+    tox.ini: true
+    transifex_config: false
+github:
+    allows_merge_commit: true
+    allows_rebase_merge: true
+    allows_squash_merge: true
+    branch_count: 4
+    build_details: '{"total_duration": "14254 minutes 59 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 7 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 53 seconds"}, {"name": "push",
+        "duration": "0 minutes 25 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}]}'
+    code_of_conduct: Other
+    created_at: 2012-08-25 16:00:34
+    default_branch: edx_release
+    description: 'A wiki system with complex functionality for simple integration
+        and a superb interface. Store your knowledge with style: Use django models.'
+    disk_usage_kb: 4375
+    fork_count: 27
+    has_issues: true
+    has_wiki: false
+    is_archived: false
+    is_disabled: false
+    is_fork: true
+    is_locked: false
+    is_private: false
+    last_push: 2025-10-21 02:33:15
+    license: null
+    pulls_count: 1
+github_actions: true
+language_bytes:
+    css: 15119
+    dockerfile: 0
+    html: 77767
+    javascript: 56696
+    makefile: 933
+    python: 272038
+    shell: 0
+makefile:
+    pip-installed: false
+    quality: false
+    quality-js: false
+    quality-python: false
+    test: false
+    test-js: false
+    test-python: false
+    upgrade: true
+npm_package: ''
+org_name: openedx
+pinned_python_dependencies: 1
+readme:
+    bad_links:
+    - 'https://github.com/benjaoming/django-wiki/blob/master/TODO.md: 404'
+    - 'http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/: 403'
+    - 'https://upload.wikimedia.org/wikipedia/commons/8/88/MediaWiki_database_schema_1-19_%28r102798%29.png:
+        403'
+    - 'http://www.edxonline.org/: HTTPConnectionPool(host=''www.edxonline.org'', port=80):
+        Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''www.edxonline.org'',
+        port=80): Failed to resolve ''www.edxonline.org'' ([Errno -2] Name or service
+        not known)"))'
+    getting-help: false
+    good_links:
+    - http://wiki.overtag.dk
+    - http://code.google.com/p/django-simple-wiki/
+    - http://www.djangoproject.com
+    - http://south.aeracode.org/
+    - https://github.com/waylan/Python-Markdown
+    - https://github.com/django-mptt/django-mptt
+    - https://github.com/ojii/django-sekizai/
+    - https://github.com/sorl/sorl-thumbnail
+    - https://github.com/divio/django-cms
+    irc-missing: true
+    mailing-list-missing: true
+    security: false
+readthedocs_config:
+    exists: false
+    file_name: ''
+    version: ''
+renovate:
+    configured: false
+    last_pr: null
+    oldest_open_pr_date: null
+    total_open_prs: null
+requires:
+    boto: false
+    django: true
+    nose: false
+    pytest: true
+setup_py:
+    py38_classifiers: false
+    pypi_name: openedx-django-wiki
+    python_versions:
+    - '3.12'
+    repo_url: https://github.com/openedx/django-wiki
+tox_ini:
+    has_section:
+        testenv: true
+        testenv:quality: false
+        tox: true
+    uses_whitelist_externals: false
+travis_ci:
+    active: false
+    active_on_com: false
+    active_on_org: false
+travis_yml:
+    parsable: false
+    py38_tests: false
+    python_versions: []
+ubuntu_packages:
+    apt_get_packages: []
+    docker_packages: null
+    yml_files: '[]'
