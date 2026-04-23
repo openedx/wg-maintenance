@@ -45,6 +45,7 @@ jobs:
     needs: [set-default-inputs]
     permissions:
       contents: write
+      pull-requests: write
     with:
       REPORT_DATE: ${{ github.event.inputs.report_date }}
       EDX_REPO_HEALTH_BRANCH: ${{ needs.set-default-inputs.outputs.repo_health_branch }}
