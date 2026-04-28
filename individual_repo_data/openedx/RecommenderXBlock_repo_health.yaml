@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,30 +22,30 @@ dependencies:
         list: ''
     pypi:
         count: 17
-        list: '["lxml[html-clean]==6.0.2", "lxml-html-clean==0.4.4", "six==1.17.0",
-            "django==5.2.12", "simplejson==3.20.2", "appdirs==1.4.4", "edx-i18n-tools==1.9.0",
-            "path==16.16.0", "polib==1.2.0", "web-fragments==3.1.0", "webob==1.8.9",
-            "sqlparse==0.5.5", "webencodings==0.5.1", "asgiref==3.11.1", "pyyaml==6.0.3",
-            "bleach==6.3.0", "fs==2.4.16"]'
+        list: '["webencodings==0.5.1", "fs==2.4.16", "asgiref==3.11.1", "edx-i18n-tools==1.9.0",
+            "pyyaml==6.0.3", "lxml-html-clean==0.4.4", "lxml[html-clean]==6.0.2",
+            "webob==1.8.9", "bleach==6.3.0", "path==16.16.0", "polib==1.2.0", "six==1.17.0",
+            "django==5.2.12", "web-fragments==3.1.0", "sqlparse==0.5.5", "simplejson==3.20.2",
+            "appdirs==1.4.4"]'
     pypi_all:
         count: 26
-        list: '["pycodestyle==2.14.0", "web-fragments==3.1.0", "click==8.3.1", "pip==26.0.1",
-            "lxml[html-clean]==6.0.2", "django==5.2.12", "appdirs==1.4.4", "webob==1.8.9",
-            "pyproject-hooks==1.2.0", "pip-tools==7.5.3", "pyyaml==6.0.3", "fs==2.4.16",
-            "six==1.17.0", "simplejson==3.20.2", "edx-i18n-tools==1.9.0", "path==16.16.0",
-            "packaging==26.0", "sqlparse==0.5.5", "asgiref==3.11.1", "lxml-html-clean==0.4.4",
-            "wheel==0.46.3", "setuptools==82.0.0", "polib==1.2.0", "build==1.4.0",
-            "webencodings==0.5.1", "bleach==6.3.0"]'
+        list: '["lxml[html-clean]==6.0.2", "webob==1.8.9", "bleach==6.3.0", "path==16.16.0",
+            "polib==1.2.0", "click==8.3.1", "pycodestyle==2.14.0", "webencodings==0.5.1",
+            "fs==2.4.16", "asgiref==3.11.1", "pyproject-hooks==1.2.0", "pyyaml==6.0.3",
+            "packaging==26.0", "build==1.4.0", "sqlparse==0.5.5", "web-fragments==3.1.0",
+            "pip==26.0.1", "edx-i18n-tools==1.9.0", "lxml-html-clean==0.4.4", "wheel==0.46.3",
+            "setuptools==82.0.0", "six==1.17.0", "pip-tools==7.5.3", "django==5.2.12",
+            "simplejson==3.20.2", "appdirs==1.4.4"]'
 django_packages:
     django_42:
         count: 2
-        list: '["web-fragments", "edx-i18n-tools"]'
+        list: '["edx-i18n-tools", "web-fragments"]'
     total:
         count: 2
-        list: '["web-fragments", "edx-i18n-tools"]'
+        list: '["edx-i18n-tools", "web-fragments"]'
     upgraded:
         count: 2
-        list: '["web-fragments", "edx-i18n-tools"]'
+        list: '["edx-i18n-tools", "web-fragments"]'
 docs:
     build_badge: false
     python_version: null

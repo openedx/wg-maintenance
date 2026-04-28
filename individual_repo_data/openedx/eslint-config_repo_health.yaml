@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -131,9 +131,9 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2025-12-08'
-    oldest_open_pr_date: '2024-04-29'
-    total_open_prs: 10
+    last_pr: '2025-10-06'
+    oldest_open_pr_date: '2024-12-23'
+    total_open_prs: 5
 requires:
     boto: false
     django: false

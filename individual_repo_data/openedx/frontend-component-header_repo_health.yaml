@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -120,6 +120,7 @@ readme:
     - 'https://github.com/openedx/frontend-template-application/blob/master/src/index.jsx:
         404'
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://api.travis-ci.com/edx/frontend-component-header.svg?branch=master:
         404'
     - 'https://travis-ci.com/edx/frontend-component-header: 404'
@@ -138,7 +139,6 @@ readme:
     - https://github.com/openedx/frontend-component-header/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/codecov/c/github/edx/frontend-component-header
@@ -157,8 +157,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-04-06'
-    oldest_open_pr_date: '2022-07-11'
-    total_open_prs: 9
+    oldest_open_pr_date: '2024-01-01'
+    total_open_prs: 5
 requires:
     boto: false
     django: false

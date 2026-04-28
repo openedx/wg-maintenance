@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,7 +7,7 @@ dependabot:
         pip: true
 dependabot_alerts: {}
 dependencies:
-    count: 261
+    count: 251
     github:
         count: 0
         list: '[]'
@@ -25,162 +25,157 @@ dependencies:
             "jshint": "^2.9.5", "sass-loader": "^7.2.0", "sass": "^1.22.10", "style-loader":
             "^0.18.2", "webpack": "^3.12.0"}'
     pypi:
-        count: 211
-        list: '["nh3==0.3.4", "beautifulsoup4==4.14.3", "mock==5.2.0", "click==8.3.2",
-            "inflection==0.5.1", "sphinx-book-theme==1.2.0", "sphinxcontrib-applehelp==2.0.0",
-            "django-cache-memoize==0.2.1", "django-simple-history==3.11.0", "sphinxcontrib-htmlhelp==2.1.0",
-            "edx-api-doc-tools==3.0.0", "django-model-utils==5.0.0", "lxml[html-clean]==5.3.2",
-            "stevedore==5.7.0", "colorama==0.4.6", "imagesize==2.0.0", "sphinx==8.2.3",
-            "python-discovery==1.2.2", "pytest-django==4.12.0", "sortedcontainers==2.4.0",
-            "pyopenssl==25.3.0", "edx-ace==1.15.0", "pycparser==3.0", "tqdm==4.67.3",
-            "simplejson==3.20.2", "edx-lint==6.0.0", "requests-toolbelt==1.0.0", "botocore==1.42.84",
-            "pydata-sphinx-theme==0.16.1", "django-waffle==5.0.0", "roman-numerals==4.1.0",
-            "factory-boy==3.3.3", "cachecontrol==0.14.4", "edx-rbac==3.0.0", "pyproject-api==1.10.0",
-            "virtualenv==21.2.4", "faker==40.15.0", "polib==1.2.0", "hpack==4.1.0",
-            "python-dateutil==2.9.0.post0", "dnspython==2.8.0", "edx-opaque-keys[django]==4.0.0",
-            "boto3==1.42.84", "jsonfield==3.2.0", "psutil==7.2.2", "testfixtures==11.0.0",
-            "amqp==5.3.1", "code-annotations==3.0.0", "sailthru-client==2.2.3", "google-crc32c==1.8.0",
-            "asn1crypto==1.5.1", "jsondiff==2.2.1", "click-log==0.4.0", "pkginfo==1.12.1.2",
-            "msgpack==1.1.2", "drf-jwt==1.19.2", "pip-tools==7.5.3", "wheel==0.46.3",
-            "anyio==4.13.0", "markupsafe==3.0.3", "pgpy==0.6.0", "social-auth-core==4.8.5",
-            "celery==5.6.3", "chardet==7.4.3", "django-ipware==7.0.1", "google-auth==2.49.1",
-            "pillow==12.2.0", "roman-numerals-py==4.1.0", "python-slugify==8.0.4",
-            "pynacl==1.6.2", "firebase-admin==7.3.0", "click-plugins==1.1.1.2", "click-repl==0.3.0",
-            "diff-cover==10.2.0", "django-oauth-toolkit==1.7.1", "six==1.17.0", "pyasn1-modules==0.4.2",
-            "docutils==0.21.2", "django-object-actions==5.0.0", "billiard==4.2.4",
-            "freezegun==1.5.5", "pyjwt[crypto]==2.12.1", "sphinxcontrib-jsmath==1.0.1",
-            "pluggy==1.6.0", "openedx-events==11.1.1", "mccabe==0.7.0", "pymongo==4.4.0",
-            "restructuredtext-lint==2.0.2", "cffi==2.0.0", "certifi==2026.2.25", "pyyaml==6.0.3",
-            "uritemplate==4.2.0", "bcrypt==5.0.0", "edx-ccx-keys==2.0.2", "edx-rest-api-client==6.2.0",
-            "pydocstyle==6.3.0", "django-countries==8.2.0", "accessible-pygments==0.0.5",
-            "asgiref==3.11.1", "pyproject-hooks==1.2.0", "social-auth-app-django==5.4.1",
-            "defusedxml==0.7.1", "django-fernet-fields-v2==0.9", "django-multi-email-field==0.8.0",
-            "alabaster==1.0.0", "babel==2.18.0", "edx-toggles==5.4.1", "google-cloud-storage==3.10.1",
-            "protobuf==6.33.6", "pylint-plugin-utils==0.9.0", "soupsieve==2.8.3",
-            "attrs==26.1.0", "requests-oauthlib==2.0.0", "webencodings==0.5.1", "django-crum==0.7.9",
-            "django-config-models==3.0.0", "pygments==2.20.0", "pyasn1==0.6.3", "semantic-version==2.10.0",
-            "google-api-core[grpc]==2.30.2", "hyperframe==6.1.0", "slumber==0.7.1",
-            "djangorestframework-xml==2.0.0", "tincan==1.0.0", "python-ipware==3.0.0",
-            "typing-extensions==4.15.0", "rules==3.5", "sphinxcontrib-qthelp==2.0.0",
-            "filelock==3.25.2", "djangorestframework==3.17.1", "snowballstemmer==3.0.1",
-            "kombu==5.6.2", "sphinxcontrib-devhelp==2.0.0", "google-resumable-media==2.8.2",
-            "openedx-atlas==0.7.0", "googleapis-common-protos==1.74.0", "lxml-html-clean==0.4.4",
-            "pylint-django==2.7.0", "isort==6.1.0", "proto-plus==1.27.2", "snowflake-connector-python==4.3.0",
-            "tzdata==2026.1", "dill==0.4.1", "pylint==3.3.9", "doc8==2.0.0", "readme-renderer==44.0",
-            "edx-django-utils==8.0.1", "python3-openid==3.2.0 ; python_version >=
-            \"3\"", "text-unidecode==1.3", "cachetools==7.0.5", "ddt==1.3.1", "coverage[toml]==7.13.5",
-            "jmespath==1.1.0", "sqlparse==0.5.5", "oauthlib==3.3.1", "wcwidth==0.6.0",
-            "fastavro==1.12.1", "s3transfer==0.16.0", "django-mock-queries==2.3.0",
-            "pytest==9.0.3", "pytz==2026.1.post1", "tox==4.53.0", "grpcio==1.80.0",
-            "responses==0.26.0", "bleach==6.3.0", "build==1.4.3", "paramiko==4.0.0",
-            "unicodecsv==0.14.1", "httpcore==1.0.9", "platformdirs==4.9.4", "pycodestyle==2.14.0",
-            "tzlocal==5.3.1", "twine==1.11.0", "tomlkit==0.14.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "vine==5.1.0", "edx-braze-client==1.1.3", "cryptography==45.0.7", "jinja2==3.1.6",
-            "aniso8601==10.0.1", "urllib3==2.6.3", "idna==3.11", "invoke==3.0.2",
-            "path-py==12.5.0", "django-push-notifications==3.3.0", "iniconfig==2.3.0",
-            "django-filter==25.2", "jwcrypto==1.5.7", "google-cloud-firestore==2.26.0",
-            "h2==4.3.0", "distlib==0.4.0", "prompt-toolkit==3.0.52", "tomli-w==1.2.0",
-            "h11==0.16.0", "edx-i18n-tools==2.0.0", "httpx[http2]==0.28.1", "drf-yasg==1.21.15",
-            "pylint-celery==0.3", "edx-drf-extensions==10.6.0", "path==16.11.0", "django==5.2.12",
-            "click-didyoumean==0.3.1", "packaging==26.0", "pytest-cov==7.1.0", "charset-normalizer==3.4.7",
-            "model-bakery==1.23.4", "requests==2.33.1", "grpcio-status==1.80.0", "astroid==3.3.11",
-            "openedx-filters==3.1.0", "google-cloud-core==2.5.1"]'
+        count: 203
+        list: '["click-log==0.4.0", "django-object-actions==5.0.0", "click-repl==0.3.0",
+            "google-crc32c==1.8.0", "urllib3==2.6.3", "django-config-models==3.0.0",
+            "six==1.17.0", "django-filter==25.2", "django-oauth-toolkit==1.7.1", "webencodings==0.5.1",
+            "jinja2==3.1.6", "text-unidecode==1.3", "pytest==9.0.3", "click==8.3.3",
+            "amqp==5.3.1", "openedx-events==11.2.0", "django-crum==0.7.9", "pycodestyle==2.14.0",
+            "pluggy==1.6.0", "unicodecsv==0.14.1", "tomlkit==0.14.0", "readme-renderer==44.0",
+            "tox==4.53.0", "cachecontrol==0.14.4", "tincan==1.0.0", "lxml-html-clean==0.4.4",
+            "pytest-cov==7.1.0", "google-cloud-core==2.5.1", "chardet==7.4.3", "pgpy==0.6.0",
+            "tzdata==2026.1", "billiard==4.2.4", "django==5.2.13", "fastavro==1.12.1",
+            "grpcio-status==1.80.0", "paramiko==4.0.0", "tqdm==4.67.3", "wheel==0.47.0",
+            "drf-yasg==1.21.15", "googleapis-common-protos==1.74.0", "hyperframe==6.1.0",
+            "soupsieve==2.8.3", "django-fernet-fields-v2==0.9", "edx-opaque-keys[django]==4.0.0",
+            "pymongo==4.4.0", "mccabe==0.7.0", "jsondiff==2.2.1", "snowballstemmer==3.0.1",
+            "isort==6.1.0", "rules==3.5", "wcwidth==0.6.0", "click-didyoumean==0.3.1",
+            "astroid==3.3.11", "django-mock-queries==2.3.0", "edx-django-utils==8.0.1",
+            "bcrypt==5.0.0", "drf-jwt==1.19.2", "roman-numerals==4.1.0", "jwcrypto==1.5.7",
+            "responses==0.26.0", "cffi==2.0.0", "attrs==26.1.0", "packaging==26.1",
+            "google-cloud-storage==3.10.1", "model-bakery==1.23.4", "python-dateutil==2.9.0.post0",
+            "python-ipware==3.0.0", "requests-oauthlib==2.0.0", "httpx[http2]==0.28.1",
+            "jsonfield==3.2.0", "alabaster==1.0.0", "pylint-django==2.7.0", "edx-api-doc-tools==3.0.0",
+            "sqlparse==0.5.5", "charset-normalizer==3.4.7", "anyio==4.13.0", "pygments==2.20.0",
+            "edx-lint==6.0.0", "path-py==12.5.0", "edx-i18n-tools==2.0.0", "edx-ace==1.15.0",
+            "diff-cover==10.2.0", "code-annotations==3.0.0", "lxml[html-clean]==5.3.2",
+            "edx-braze-client==1.1.3", "psutil==7.2.2", "kombu==5.6.2", "typing-extensions==4.15.0",
+            "openedx-atlas==0.7.0", "python-discovery==1.2.2", "pkginfo==1.12.1.2",
+            "django-model-utils==5.0.0", "edx-drf-extensions==10.6.0", "edx-toggles==6.0.0",
+            "h2==4.3.0", "nh3==0.3.4", "pyasn1==0.6.3", "simplejson==4.1.0", "testfixtures==11.0.0",
+            "polib==1.2.0", "djangorestframework==3.17.1", "faker==40.15.0", "sphinx==8.2.3",
+            "bleach==6.3.0", "openedx-filters==3.1.0", "pyproject-api==1.10.0", "sphinx-book-theme==1.2.0",
+            "pycparser==3.0", "django-multi-email-field==0.8.0", "stevedore==5.7.0",
+            "asgiref==3.11.1", "colorama==0.4.6", "google-api-core[grpc]==2.30.3",
+            "inflection==0.5.1", "proto-plus==1.27.2", "pytest-django==4.12.0", "pyyaml==6.0.3",
+            "tomli-w==1.2.0", "certifi==2026.4.22", "django-waffle==5.0.0", "pydata-sphinx-theme==0.16.1",
+            "sphinxcontrib-devhelp==2.0.0", "beautifulsoup4==4.14.3", "edx-rest-api-client==7.0.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "edx-rbac==3.0.0", "pyjwt[crypto]==2.12.1",
+            "pylint==3.3.9", "cachetools==7.0.6", "babel==2.18.0", "defusedxml==0.7.1",
+            "pydocstyle==6.3.0", "accessible-pygments==0.0.5", "sailthru-client==2.2.3",
+            "sphinxcontrib-qthelp==2.0.0", "python-slugify==8.0.4", "pyasn1-modules==0.4.2",
+            "pylint-celery==0.3", "idna==3.13", "sphinxcontrib-jsmath==1.0.1", "slumber==0.7.1",
+            "uritemplate==4.2.0", "django-cache-memoize==0.2.1", "cryptography==45.0.7",
+            "requests-toolbelt==1.0.0", "coverage[toml]==7.13.5", "requests==2.33.1",
+            "freezegun==1.5.5", "pylint-plugin-utils==0.9.0", "django-ipware==7.0.1",
+            "grpcio==1.80.0", "hpack==4.1.0", "social-auth-app-django==5.4.1", "httpcore==1.0.9",
+            "google-resumable-media==2.8.2", "protobuf==6.33.6", "edx-ccx-keys==2.0.2",
+            "path==16.11.0", "django-simple-history==3.11.0", "tzlocal==5.3.1", "django-countries==8.2.0",
+            "dnspython==2.8.0", "djangorestframework-xml==2.0.0", "pillow==12.2.0",
+            "ddt==1.3.1", "restructuredtext-lint==2.0.2", "platformdirs==4.9.6", "django-push-notifications==3.3.0",
+            "google-auth==2.49.2", "filelock==3.29.0", "dill==0.4.1", "google-cloud-firestore==2.27.0",
+            "iniconfig==2.3.0", "semantic-version==2.10.0", "virtualenv==21.2.4",
+            "vine==5.1.0", "imagesize==2.0.0", "pytz==2026.1.post1", "distlib==0.4.0",
+            "docutils==0.21.2", "doc8==2.0.0", "invoke==3.0.3", "mock==5.2.0", "sphinxcontrib-applehelp==2.0.0",
+            "markupsafe==3.0.3", "social-auth-core==4.8.7", "aniso8601==10.0.1", "pip-tools==7.5.3",
+            "oauthlib==3.3.1", "prompt-toolkit==3.0.52", "roman-numerals-py==4.1.0",
+            "celery==5.6.3", "twine==1.11.0", "pyproject-hooks==1.2.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "python3-openid==3.2.0 ; python_version >= \"3\"", "msgpack==1.1.2", "pynacl==1.6.2",
+            "firebase-admin==7.4.0", "build==1.4.4", "factory-boy==3.3.3", "click-plugins==1.1.1.2",
+            "h11==0.16.0"]'
     pypi_all:
-        count: 249
-        list: '["nh3==0.3.4", "mock==5.2.0", "beautifulsoup4==4.14.3", "lxml==5.3.2",
-            "click==8.3.2", "inflection==0.5.1", "sphinx-book-theme==1.2.0", "sphinxcontrib-applehelp==2.0.0",
-            "django-cache-memoize==0.2.1", "django-simple-history==3.11.0", "sphinxcontrib-htmlhelp==2.1.0",
-            "edx-api-doc-tools==3.0.0", "django-model-utils==5.0.0", "stevedore==5.7.0",
-            "lxml[html-clean]==5.3.2", "colorama==0.4.6", "imagesize==2.0.0", "sphinx==8.2.3",
-            "python-discovery==1.2.2", "portend==3.2.1", "pytest-django==4.12.0",
-            "sortedcontainers==2.4.0", "zc-lockfile==4.0", "urllib3[socks]==2.6.3",
-            "pyopenssl==25.3.0", "edx-ace==1.15.0", "pycparser==3.0", "glob2==0.7",
-            "tqdm==4.67.3", "simplejson==3.20.2", "edx-lint==6.0.0", "requests-toolbelt==1.0.0",
-            "botocore==1.42.84", "pydata-sphinx-theme==0.16.1", "django-waffle==5.0.0",
-            "roman-numerals==4.1.0", "cachecontrol==0.14.4", "edx-rbac==3.0.0", "factory-boy==3.3.3",
-            "pyproject-api==1.10.0", "virtualenv==21.2.4", "wsproto==1.3.2", "faker==40.15.0",
-            "polib==1.2.0", "hpack==4.1.0", "python-dateutil==2.9.0.post0", "sniffio==1.3.1",
-            "dnspython==2.8.0", "edx-opaque-keys[django]==4.0.0", "boto3==1.42.84",
-            "markdown-it-py==4.0.0", "jsonfield==3.2.0", "jasmine-core==3.99.0", "psutil==7.2.2",
-            "testfixtures==11.0.0", "amqp==5.3.1", "code-annotations==3.0.0", "sailthru-client==2.2.3",
-            "google-crc32c==1.8.0", "asn1crypto==1.5.1", "jsondiff==2.2.1", "pip==26.0.1",
-            "click-log==0.4.0", "pkginfo==1.12.1.2", "wheel==0.46.3", "drf-jwt==1.19.2",
-            "pip-tools==7.5.3", "msgpack==1.1.2", "jinja2==2.11.3", "anyio==4.13.0",
-            "markupsafe==3.0.3", "pgpy==0.6.0", "social-auth-core==4.8.5", "celery==5.6.3",
-            "chardet==7.4.3", "django-ipware==7.0.1", "google-auth==2.49.1", "pillow==12.2.0",
-            "roman-numerals-py==4.1.0", "python-slugify==8.0.4", "pynacl==1.6.2",
-            "firebase-admin==7.3.0", "click-plugins==1.1.1.2", "click-repl==0.3.0",
-            "diff-cover==10.2.0", "django-oauth-toolkit==1.7.1", "six==1.17.0", "pyasn1-modules==0.4.2",
-            "docutils==0.21.2", "jaraco-context==6.1.2", "django-object-actions==5.0.0",
-            "billiard==4.2.4", "freezegun==1.5.5", "pyjwt[crypto]==2.12.1", "sphinxcontrib-jsmath==1.0.1",
-            "pluggy==1.6.0", "openedx-events==11.1.1", "shellingham==1.5.4", "pymongo==4.4.0",
-            "mccabe==0.7.0", "restructuredtext-lint==2.0.2", "cffi==2.0.0", "certifi==2026.2.25",
-            "pyyaml==6.0.3", "uritemplate==4.2.0", "bcrypt==5.0.0", "edx-ccx-keys==2.0.2",
-            "edx-rest-api-client==6.2.0", "platformdirs==4.9.6", "pydocstyle==6.3.0",
-            "django-countries==8.2.0", "accessible-pygments==0.0.5", "jaraco-classes==3.4.0",
-            "ordereddict==1.1", "asgiref==3.11.1", "pyproject-hooks==1.2.0", "social-auth-app-django==5.4.1",
-            "defusedxml==0.7.1", "django-fernet-fields-v2==0.9", "django-multi-email-field==0.8.0",
-            "google-cloud-storage==3.10.1", "edx-toggles==5.4.1", "alabaster==1.0.0",
-            "babel==2.18.0", "protobuf==6.33.6", "pylint-plugin-utils==0.9.0", "trio==0.33.0",
-            "soupsieve==2.8.3", "typer==0.24.1", "attrs==26.1.0", "requests-oauthlib==2.0.0",
-            "webencodings==0.5.1", "django-crum==0.7.9", "django-config-models==3.0.0",
-            "pygments==2.20.0", "pyasn1==0.6.3", "semantic-version==2.10.0", "google-api-core[grpc]==2.30.2",
-            "hyperframe==6.1.0", "slumber==0.7.1", "djangorestframework-xml==2.0.0",
-            "tincan==1.0.0", "python-ipware==3.0.0", "typing-extensions==4.15.0",
-            "cheroot==11.1.2", "rules==3.5", "sphinxcontrib-qthelp==2.0.0", "filelock==3.25.2",
-            "djangorestframework==3.17.1", "snowballstemmer==3.0.1", "websocket-client==1.9.0",
-            "kombu==5.6.2", "annotated-doc==0.0.4", "sphinxcontrib-devhelp==2.0.0",
-            "google-resumable-media==2.8.2", "openedx-atlas==0.7.0", "selenium==4.43.0",
-            "googleapis-common-protos==1.74.0", "lxml-html-clean==0.4.4", "pylint-django==2.7.0",
-            "isort==6.1.0", "proto-plus==1.27.2", "snowflake-connector-python==4.3.0",
-            "tzdata==2026.1", "dill==0.4.1", "pylint==3.3.9", "doc8==2.0.0", "readme-renderer==44.0",
-            "jaraco-text==4.2.0", "edx-django-utils==8.0.1", "python3-openid==3.2.0
-            ; python_version >= \"3\"", "text-unidecode==1.3", "outcome==1.3.0.post0",
-            "cachetools==7.0.5", "ddt==1.3.1", "coverage[toml]==7.13.5", "jmespath==1.1.0",
-            "sqlparse==0.5.5", "oauthlib==3.3.1", "wcwidth==0.6.0", "fastavro==1.12.1",
-            "s3transfer==0.16.0", "mdurl==0.1.2", "django-mock-queries==2.3.0", "pytest==9.0.3",
-            "pytz==2026.1.post1", "tox==4.53.0", "grpcio==1.80.0", "responses==0.26.0",
-            "build==1.4.3", "bleach==6.3.0", "packaging==26.1", "paramiko==4.0.0",
-            "unicodecsv==0.14.1", "tempora==5.8.1", "trio-websocket==0.12.2", "jaraco-functools==4.4.0",
-            "httpcore==1.0.9", "platformdirs==4.9.4", "pycodestyle==2.14.0", "tzlocal==5.3.1",
-            "twine==1.11.0", "tomlkit==0.14.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "cherrypy==18.10.0", "vine==5.1.0", "jaraco-collections==5.2.1", "edx-braze-client==1.1.3",
-            "cryptography==45.0.7", "pysocks==1.7.1", "jinja2==3.1.6", "aniso8601==10.0.1",
-            "urllib3==2.6.3", "idna==3.11", "invoke==3.0.2", "path-py==12.5.0", "django-push-notifications==3.3.0",
-            "iniconfig==2.3.0", "django-filter==25.2", "jwcrypto==1.5.7", "google-cloud-firestore==2.26.0",
-            "h2==4.3.0", "distlib==0.4.0", "prompt-toolkit==3.0.52", "jasmine==3.99.0",
-            "typer-slim==0.24.0", "tomli-w==1.2.0", "h11==0.16.0", "edx-i18n-tools==2.0.0",
-            "filelock==3.29.0", "httpx[http2]==0.28.1", "rich==15.0.0", "drf-yasg==1.21.15",
-            "pylint-celery==0.3", "edx-drf-extensions==10.6.0", "path==16.11.0", "django==5.2.12",
-            "click-didyoumean==0.3.1", "packaging==26.0", "pytest-cov==7.1.0", "charset-normalizer==3.4.7",
-            "more-itertools==11.0.2", "model-bakery==1.23.4", "requests==2.33.1",
-            "grpcio-status==1.80.0", "astroid==3.3.11", "openedx-filters==3.1.0",
-            "setuptools==82.0.1", "google-cloud-core==2.5.1"]'
+        count: 239
+        list: '["django-object-actions==5.0.0", "click-log==0.4.0", "click-repl==0.3.0",
+            "google-crc32c==1.8.0", "urllib3==2.6.3", "twine==1.11.0", "django-config-models==3.0.0",
+            "six==1.17.0", "typer==0.24.2", "django-filter==25.2", "django-oauth-toolkit==1.7.1",
+            "setuptools==82.0.1", "webencodings==0.5.1", "jinja2==3.1.6", "text-unidecode==1.3",
+            "pytest==9.0.3", "click==8.3.3", "amqp==5.3.1", "openedx-events==11.2.0",
+            "django-crum==0.7.9", "jinja2==2.11.3", "pycodestyle==2.14.0", "pluggy==1.6.0",
+            "unicodecsv==0.14.1", "tomlkit==0.14.0", "readme-renderer==44.0", "tox==4.53.0",
+            "jaraco-collections==5.2.1", "cachecontrol==0.14.4", "tincan==1.0.0",
+            "lxml-html-clean==0.4.4", "pytest-cov==7.1.0", "google-cloud-core==2.5.1",
+            "tzdata==2026.1", "pgpy==0.6.0", "chardet==7.4.3", "billiard==4.2.4",
+            "ordereddict==1.1", "django==5.2.13", "fastavro==1.12.1", "grpcio-status==1.80.0",
+            "paramiko==4.0.0", "wheel==0.47.0", "tqdm==4.67.3", "drf-yasg==1.21.15",
+            "googleapis-common-protos==1.74.0", "hyperframe==6.1.0", "soupsieve==2.8.3",
+            "django-fernet-fields-v2==0.9", "edx-opaque-keys[django]==4.0.0", "pymongo==4.4.0",
+            "mccabe==0.7.0", "jsondiff==2.2.1", "snowballstemmer==3.0.1", "isort==6.1.0",
+            "rules==3.5", "wcwidth==0.6.0", "mdurl==0.1.2", "click-didyoumean==0.3.1",
+            "cherrypy==18.10.0", "astroid==3.3.11", "edx-django-utils==8.0.1", "django-mock-queries==2.3.0",
+            "bcrypt==5.0.0", "drf-jwt==1.19.2", "roman-numerals==4.1.0", "jwcrypto==1.5.7",
+            "responses==0.26.0", "attrs==26.1.0", "cffi==2.0.0", "packaging==26.1",
+            "sortedcontainers==2.4.0", "google-cloud-storage==3.10.1", "python-dateutil==2.9.0.post0",
+            "python-ipware==3.0.0", "requests-oauthlib==2.0.0", "model-bakery==1.23.4",
+            "wsproto==1.3.2", "httpx[http2]==0.28.1", "jsonfield==3.2.0", "alabaster==1.0.0",
+            "pylint-django==2.7.0", "edx-api-doc-tools==3.0.0", "sqlparse==0.5.5",
+            "charset-normalizer==3.4.7", "anyio==4.13.0", "pygments==2.20.0", "markdown-it-py==4.0.0",
+            "edx-lint==6.0.0", "path-py==12.5.0", "lxml==5.3.2", "edx-i18n-tools==2.0.0",
+            "edx-ace==1.15.0", "diff-cover==10.2.0", "code-annotations==3.0.0", "lxml[html-clean]==5.3.2",
+            "edx-braze-client==1.1.3", "psutil==7.2.2", "kombu==5.6.2", "tempora==5.8.1",
+            "typing-extensions==4.15.0", "openedx-atlas==0.7.0", "python-discovery==1.2.2",
+            "pkginfo==1.12.1.2", "trio==0.33.0", "zc-lockfile==4.0", "django-model-utils==5.0.0",
+            "edx-drf-extensions==10.6.0", "edx-toggles==6.0.0", "h2==4.3.0", "sniffio==1.3.1",
+            "nh3==0.3.4", "pyasn1==0.6.3", "simplejson==4.1.0", "testfixtures==11.0.0",
+            "polib==1.2.0", "djangorestframework==3.17.1", "faker==40.15.0", "sphinx==8.2.3",
+            "bleach==6.3.0", "typer-slim==0.24.0", "jaraco-context==6.1.2", "openedx-filters==3.1.0",
+            "pyproject-api==1.10.0", "sphinx-book-theme==1.2.0", "pycparser==3.0",
+            "django-multi-email-field==0.8.0", "stevedore==5.7.0", "jasmine-core==3.99.0",
+            "asgiref==3.11.1", "google-api-core[grpc]==2.30.3", "pytest-django==4.12.0",
+            "inflection==0.5.1", "proto-plus==1.27.2", "colorama==0.4.6", "pyyaml==6.0.3",
+            "jasmine==3.99.0", "tomli-w==1.2.0", "trio-websocket==0.12.2", "pip==26.0.1",
+            "certifi==2026.4.22", "cheroot==11.1.2", "django-waffle==5.0.0", "pydata-sphinx-theme==0.16.1",
+            "sphinxcontrib-devhelp==2.0.0", "beautifulsoup4==4.14.3", "edx-rest-api-client==7.0.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "edx-rbac==3.0.0", "pyjwt[crypto]==2.12.1",
+            "websocket-client==1.9.0", "pylint==3.3.9", "cachetools==7.0.6", "babel==2.18.0",
+            "defusedxml==0.7.1", "pydocstyle==6.3.0", "pysocks==1.7.1", "portend==3.2.1",
+            "accessible-pygments==0.0.5", "sailthru-client==2.2.3", "annotated-doc==0.0.4",
+            "sphinxcontrib-qthelp==2.0.0", "python-slugify==8.0.4", "pyasn1-modules==0.4.2",
+            "pylint-celery==0.3", "idna==3.13", "sphinxcontrib-jsmath==1.0.1", "slumber==0.7.1",
+            "uritemplate==4.2.0", "shellingham==1.5.4", "rich==15.0.0", "django-cache-memoize==0.2.1",
+            "cryptography==45.0.7", "requests-toolbelt==1.0.0", "coverage[toml]==7.13.5",
+            "requests==2.33.1", "freezegun==1.5.5", "pylint-plugin-utils==0.9.0",
+            "outcome==1.3.0.post0", "django-ipware==7.0.1", "grpcio==1.80.0", "hpack==4.1.0",
+            "glob2==0.7", "jaraco-functools==4.4.0", "more-itertools==11.0.2", "urllib3[socks]==2.6.3",
+            "social-auth-app-django==5.4.1", "httpcore==1.0.9", "google-resumable-media==2.8.2",
+            "protobuf==6.33.6", "edx-ccx-keys==2.0.2", "path==16.11.0", "django-simple-history==3.11.0",
+            "tzlocal==5.3.1", "jaraco-classes==3.4.0", "django-countries==8.2.0",
+            "dnspython==2.8.0", "djangorestframework-xml==2.0.0", "pillow==12.2.0",
+            "ddt==1.3.1", "restructuredtext-lint==2.0.2", "platformdirs==4.9.6", "django-push-notifications==3.3.0",
+            "google-auth==2.49.2", "filelock==3.29.0", "dill==0.4.1", "google-cloud-firestore==2.27.0",
+            "iniconfig==2.3.0", "semantic-version==2.10.0", "virtualenv==21.2.4",
+            "vine==5.1.0", "imagesize==2.0.0", "pytz==2026.1.post1", "distlib==0.4.0",
+            "docutils==0.21.2", "doc8==2.0.0", "invoke==3.0.3", "mock==5.2.0", "sphinxcontrib-applehelp==2.0.0",
+            "markupsafe==3.0.3", "social-auth-core==4.8.7", "aniso8601==10.0.1", "pip-tools==7.5.3",
+            "oauthlib==3.3.1", "prompt-toolkit==3.0.52", "roman-numerals-py==4.1.0",
+            "celery==5.6.3", "jaraco-text==4.2.0", "pyproject-hooks==1.2.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "python3-openid==3.2.0 ; python_version >= \"3\"", "msgpack==1.1.2", "selenium==4.43.0",
+            "pynacl==1.6.2", "firebase-admin==7.4.0", "build==1.4.4", "factory-boy==3.3.3",
+            "click-plugins==1.1.1.2", "h11==0.16.0"]'
 django_packages:
     django_42:
         count: 22
-        list: '["edx-rbac", "django-cache-memoize", "djangorestframework", "edx-api-doc-tools",
-            "django-config-models", "django-waffle", "edx-django-utils", "edx-ace",
-            "edx-rest-api-client", "social-auth-app-django", "pylint-django", "django-oauth-toolkit",
-            "edx-toggles", "django-countries", "django-multi-email-field", "edx-drf-extensions",
-            "code-annotations", "pytest-django", "django-object-actions", "django-filter",
-            "factory-boy", "edx-i18n-tools"]'
+        list: '["django-oauth-toolkit", "pytest-django", "django-object-actions",
+            "code-annotations", "edx-rbac", "social-auth-app-django", "djangorestframework",
+            "edx-ace", "edx-drf-extensions", "django-waffle", "django-cache-memoize",
+            "pylint-django", "factory-boy", "django-multi-email-field", "edx-rest-api-client",
+            "django-filter", "django-countries", "edx-django-utils", "django-config-models",
+            "edx-i18n-tools", "edx-toggles", "edx-api-doc-tools"]'
     total:
         count: 32
-        list: '["django-model-utils", "edx-rbac", "django-cache-memoize", "djangorestframework",
-            "edx-api-doc-tools", "django-config-models", "django-waffle", "django-crum",
-            "edx-django-utils", "edx-ace", "django-simple-history", "edx-rest-api-client",
-            "drf-yasg", "rules", "social-auth-app-django", "jasmine-core", "django-ipware",
-            "pylint-django", "django-oauth-toolkit", "edx-toggles", "django-countries",
-            "django-multi-email-field", "edx-drf-extensions", "drf-jwt", "code-annotations",
-            "jsonfield", "pytest-django", "djangorestframework-xml", "django-object-actions",
-            "django-filter", "factory-boy", "edx-i18n-tools"]'
+        list: '["django-oauth-toolkit", "pytest-django", "rules", "django-object-actions",
+            "django-model-utils", "code-annotations", "edx-rbac", "social-auth-app-django",
+            "djangorestframework", "djangorestframework-xml", "drf-yasg", "edx-ace",
+            "jsonfield", "edx-drf-extensions", "django-waffle", "django-cache-memoize",
+            "pylint-django", "factory-boy", "django-multi-email-field", "django-ipware",
+            "drf-jwt", "django-simple-history", "edx-rest-api-client", "django-filter",
+            "django-crum", "django-countries", "edx-django-utils", "django-config-models",
+            "edx-i18n-tools", "jasmine-core", "edx-toggles", "edx-api-doc-tools"]'
     upgraded:
         count: 16
-        list: '["edx-rest-api-client", "edx-rbac", "edx-toggles", "code-annotations",
-            "django-countries", "django-cache-memoize", "edx-api-doc-tools", "django-config-models",
-            "edx-drf-extensions", "django-waffle", "social-auth-app-django", "django-multi-email-field",
-            "django-filter", "edx-django-utils", "edx-i18n-tools", "edx-ace"]'
+        list: '["edx-i18n-tools", "edx-rbac", "django-config-models", "social-auth-app-django",
+            "edx-ace", "edx-rest-api-client", "edx-drf-extensions", "django-waffle",
+            "django-filter", "django-cache-memoize", "edx-toggles", "edx-api-doc-tools",
+            "django-countries", "edx-django-utils", "django-multi-email-field", "code-annotations"]'
 docs:
     build_badge: true
     python_version: null
@@ -208,24 +203,20 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 342
-    build_details: '{"total_duration": "15 minutes 21 seconds", "checks": [{"name":
-        "run_tests (3.12, django52)", "duration": "15 minutes 21 seconds"}, {"name":
-        "run_tests (3.12, quality)", "duration": "3 minutes 53 seconds"}, {"name":
-        "check migrations (ubuntu-latest, 3.12)", "duration": "2 minutes 32 seconds"},
-        {"name": "Dependabot", "duration": "2 minutes 24 seconds"}, {"name": "run_tests
-        (3.12, docs)", "duration": "2 minutes 19 seconds"}, {"name": "Dependabot",
-        "duration": "2 minutes 18 seconds"}, {"name": "run_tests (3.12, pii_check)",
-        "duration": "1 minutes 0 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 48 seconds"}, {"name": "Dependabot", "duration": "0 minutes 41 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 39 seconds"}, {"name": "version-check
-        / version-check", "duration": "0 minutes 5 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}]}'
+    build_details: '{"total_duration": "14 minutes 35 seconds", "checks": [{"name":
+        "run_tests (3.12, django52)", "duration": "13 minutes 13 seconds"}, {"name":
+        "run_tests (3.12, quality)", "duration": "4 minutes 19 seconds"}, {"name":
+        "check migrations (ubuntu-latest, 3.12)", "duration": "2 minutes 16 seconds"},
+        {"name": "run_tests (3.12, docs)", "duration": "1 minutes 52 seconds"}, {"name":
+        "build-and-publish", "duration": "1 minutes 47 seconds"}, {"name": "run_tests
+        (3.12, pii_check)", "duration": "1 minutes 6 seconds"}, {"name": "version-check
+        / version-check", "duration": "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
     created_at: 2016-10-12 13:48:42
     default_branch: master
     description: ''
-    disk_usage_kb: 15530
-    fork_count: 66
+    disk_usage_kb: 15762
+    fork_count: 67
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -233,9 +224,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-23 00:45:29
+    last_push: 2026-04-27 20:14:12
     license: GNU AGPLv3
-    pulls_count: 82
+    pulls_count: 81
 github_actions: true
 language_bytes:
     css: 0
@@ -243,7 +234,7 @@ language_bytes:
     html: 95485
     javascript: 36447
     makefile: 10024
-    python: 5705344
+    python: 5696232
     shell: 604
 makefile:
     pip-installed: true
@@ -315,17 +306,17 @@ travis_yml:
 ubuntu_packages:
     apt_get_packages: []
     docker_packages:
-    - install
-    - python3.12-venv
-    - default-libmysqlclient-dev
-    - build-essential
-    - python3.12-dev
-    - curl
-    - gcc
-    - locales
-    - git
-    - libssl-dev
     - language-pack-en
+    - git
+    - build-essential
     - pkg-config
+    - install
+    - curl
     - python3.12
+    - python3.12-venv
+    - libssl-dev
+    - locales
+    - python3.12-dev
+    - default-libmysqlclient-dev
+    - gcc
     yml_files: '[]'

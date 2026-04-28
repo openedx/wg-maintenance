@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,14 +63,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 17
-    build_details: '{"total_duration": "38202 minutes 57 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "48287 minutes 36 seconds", "checks": [{"name":
         "Deploy dbt docs to github pages", "duration": "4 minutes 54 seconds"}, {"name":
         "Check coverage & run tests", "duration": "2 minutes 35 seconds"}, {"name":
         "Dependabot", "duration": "0 minutes 34 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 31 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 30 seconds"}, {"name": "Dependabot", "duration": "0 minutes 22 seconds"},
-        {"name": "routeissue / add_and_notify", "duration": "0 minutes 0 seconds"},
-        {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"}]}'
+        "duration": "0 minutes 34 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 31 seconds"}, {"name": "Dependabot", "duration": "0 minutes 30 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 22 seconds"}, {"name": "routeissue
+        / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
+        / add_label", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-05-24 17:11:54
     default_branch: main
@@ -162,19 +163,19 @@ travis_yml:
 ubuntu_packages:
     apt_get_packages: []
     docker_packages:
-    - unixodbc-dev
+    - git
     - ssh-client
-    - /var/tmp/*
-    - software-properties-common
-    - dist-
-    - libpq-dev
-    - python-dev
-    - libsasl2-dev
     - make
-    - ca-certificates
+    - /var/tmp/*
+    - libpq-dev
     - /tmp/*
+    - dist-
+    - software-properties-common
+    - clean
+    - unixodbc-dev
+    - python-dev
     - gcc
     - build-essential
-    - git
-    - clean
+    - ca-certificates
+    - libsasl2-dev
     yml_files: '[]'
