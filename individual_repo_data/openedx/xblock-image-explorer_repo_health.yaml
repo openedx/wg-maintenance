@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,47 +22,47 @@ dependencies:
         list: ''
     pypi:
         count: 24
-        list: '["fs-s3fs==1.1.1", "urllib3==2.6.3", "boto3==1.42.83", "webob==1.8.9",
-            "appdirs==1.4.4", "markupsafe==3.0.3", "pyyaml==6.0.3", "python-dateutil==2.9.0.post0",
-            "s3transfer==0.16.0", "asgiref==3.11.1", "botocore==1.42.83", "django==5.2.12",
-            "sqlparse==0.5.5", "web-fragments==4.0.0", "fs==2.4.16", "openedx-django-pyfs==4.0.0",
-            "mako==1.3.10", "lazy==1.6", "lxml==6.0.2", "six==1.17.0", "jmespath==1.1.0",
-            "xblock[django]==6.0.0", "simplejson==3.20.2", "pytz==2026.1.post1"]'
+        list: '["six==1.17.0", "sqlparse==0.5.5", "urllib3==2.6.3", "s3transfer==0.16.1",
+            "fs==2.4.16", "botocore==1.42.96", "xblock[django]==6.1.0", "web-fragments==4.0.0",
+            "mako==1.3.11", "boto3==1.42.96", "simplejson==4.1.1", "markupsafe==3.0.3",
+            "pytz==2026.1.post1", "lazy==1.6", "openedx-django-pyfs==4.0.0", "appdirs==1.4.4",
+            "jmespath==1.1.0", "lxml==6.1.0", "fs-s3fs==1.1.1", "pyyaml==6.0.3", "django==5.2.13",
+            "asgiref==3.11.1", "python-dateutil==2.9.0.post0", "webob==1.8.9"]'
     pypi_all:
         count: 80
-        list: '["packaging==26.0", "boto3==1.42.83", "appdirs==1.4.4", "markupsafe==3.0.3",
-            "mdurl==0.1.2", "mccabe==0.7.0", "colorama==0.4.6", "django==5.2.12",
-            "build==1.4.2", "binaryornot==0.6.0", "pylint-django==2.7.0", "requests==2.33.1",
-            "six==1.17.0", "pytest==9.0.2", "pytest-cov==7.1.0", "fs-s3fs==1.1.1",
-            "idna==3.11", "urllib3==2.6.3", "webob==1.8.9", "platformdirs==4.9.4",
-            "pytest-django==4.12.0", "pylint-plugin-utils==0.9.0", "click==8.3.2",
-            "pip-tools==7.5.3", "pip==26.0.1", "cachetools==7.0.5", "click-log==0.4.0",
-            "openedx-django-pyfs==4.0.0", "coverage[toml]==7.13.5", "cookiecutter==2.7.1",
-            "isort==8.0.1", "stevedore==5.7.0", "wheel==0.46.3", "jmespath==1.1.0",
-            "distlib==0.4.0", "python-discovery==1.2.1", "code-annotations==3.0.0",
-            "pytz==2026.1.post1", "pylint==4.0.5", "pyproject-hooks==1.2.0", "virtualenv==21.2.0",
-            "rich==14.3.3", "pyyaml==6.0.3", "python-slugify==8.0.4", "python-dateutil==2.9.0.post0",
-            "astroid==4.0.4", "pluggy==1.6.0", "edx-lint==6.0.0", "tomli-w==1.2.0",
-            "pycodestyle==2.14.0", "filelock==3.25.2", "web-fragments==4.0.0", "fs==2.4.16",
-            "text-unidecode==1.3", "mako==1.3.10", "pygments==2.20.0", "xblock-sdk==0.14.0",
-            "mock==5.2.0", "arrow==1.4.0", "xblock[django]==6.0.0", "tox==4.52.0",
-            "pylint-celery==0.3", "simplejson==3.20.2", "jinja2==3.1.6", "tzdata==2026.1",
-            "charset-normalizer==3.4.7", "s3transfer==0.16.0", "asgiref==3.11.1",
-            "tomlkit==0.14.0", "markdown-it-py==4.0.0", "botocore==1.42.83", "sqlparse==0.5.5",
-            "iniconfig==2.3.0", "setuptools==82.0.1", "certifi==2026.2.25", "lazy==1.6",
-            "lxml==6.0.2", "pypng==0.20220715.0", "pyproject-api==1.10.0", "dill==0.4.1"]'
+        list: '["click==8.3.3", "six==1.17.0", "jinja2==3.1.6", "code-annotations==3.0.0",
+            "idna==3.13", "pycodestyle==2.14.0", "coverage[toml]==7.13.5", "mdurl==0.1.2",
+            "tzdata==2026.2", "botocore==1.42.96", "xblock[django]==6.1.0", "isort==8.0.1",
+            "pylint-celery==0.3", "tomli-w==1.2.0", "boto3==1.42.96", "markupsafe==3.0.3",
+            "pip-tools==7.5.3", "filelock==3.29.0", "pyproject-api==1.10.0", "iniconfig==2.3.0",
+            "jmespath==1.1.0", "mock==5.2.0", "pyyaml==6.0.3", "requests==2.33.1",
+            "pluggy==1.6.0", "urllib3==2.6.3", "python-discovery==1.2.2", "mccabe==0.7.0",
+            "cachetools==7.0.6", "pytest==9.0.3", "fs==2.4.16", "colorama==0.4.6",
+            "mako==1.3.11", "pyproject-hooks==1.2.0", "pip==26.1", "dill==0.4.1",
+            "lxml==6.1.0", "fs-s3fs==1.1.1", "wheel==0.47.0", "build==1.4.4", "pypng==0.20220715.0",
+            "tox==4.53.0", "webob==1.8.9", "text-unidecode==1.3", "sqlparse==0.5.5",
+            "edx-lint==6.0.0", "stevedore==5.7.0", "pygments==2.20.0", "web-fragments==4.0.0",
+            "arrow==1.4.0", "click-log==0.4.0", "pytz==2026.1.post1", "lazy==1.6",
+            "pylint-plugin-utils==0.9.0", "astroid==4.0.4", "pylint-django==2.7.0",
+            "appdirs==1.4.4", "pytest-django==4.12.0", "python-dateutil==2.9.0.post0",
+            "pytest-cov==7.1.0", "pylint==4.0.5", "s3transfer==0.16.1", "tomlkit==0.14.0",
+            "cookiecutter==2.7.1", "charset-normalizer==3.4.7", "virtualenv==21.2.4",
+            "markdown-it-py==4.0.0", "setuptools==82.0.1", "simplejson==4.1.1", "packaging==26.2",
+            "python-slugify==8.0.4", "openedx-django-pyfs==4.0.0", "xblock-sdk==0.14.0",
+            "certifi==2026.4.22", "platformdirs==4.9.6", "binaryornot==0.6.0", "django==5.2.13",
+            "asgiref==3.11.1", "distlib==0.4.0", "rich==15.0.0"]'
 django_packages:
     django_42:
         count: 5
-        list: '["pylint-django", "xblock-sdk", "code-annotations", "pytest-django",
-            "web-fragments"]'
+        list: '["pytest-django", "code-annotations", "web-fragments", "xblock-sdk",
+            "pylint-django"]'
     total:
         count: 5
-        list: '["pylint-django", "xblock-sdk", "code-annotations", "pytest-django",
-            "web-fragments"]'
+        list: '["pytest-django", "code-annotations", "web-fragments", "xblock-sdk",
+            "pylint-django"]'
     upgraded:
         count: 3
-        list: '["xblock-sdk", "code-annotations", "web-fragments"]'
+        list: '["web-fragments", "code-annotations", "xblock-sdk"]'
 docs:
     build_badge: false
     python_version: null
@@ -89,27 +89,19 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
-    build_details: '{"total_duration": "9336 minutes 20 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 29 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "1 minutes 4 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 45 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
-        package)", "duration": "0 minutes 37 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, django52)", "duration": "0 minutes 37 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 37 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 35 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 34 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django42)",
-        "duration": "0 minutes 33 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "371 minutes 21 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 40 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 36
+        seconds"}, {"name": "tests (ubuntu-latest, 3.12, package)", "duration": "0
+        minutes 33 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)", "duration":
+        "0 minutes 33 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
+        32 seconds"}, {"name": "Dependabot", "duration": "0 minutes 30 seconds"}]}'
     code_of_conduct: Other
     created_at: 2014-03-09 14:40:29
     default_branch: master
     description: ''
-    disk_usage_kb: 1505
+    disk_usage_kb: 1509
     fork_count: 42
     has_issues: true
     has_wiki: false
@@ -118,9 +110,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-20 00:50:29
+    last_push: 2026-04-27 00:58:40
     license: GNU AGPLv3
-    pulls_count: 2
+    pulls_count: 1
 github_actions: true
 language_bytes:
     css: 3925

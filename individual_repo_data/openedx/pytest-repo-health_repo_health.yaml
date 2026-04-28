@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,44 +22,45 @@ dependencies:
         list: ''
     pypi:
         count: 19
-        list: '["pluggy==1.5.0", "packaging==25.0", "gitpython==3.1.44", "gitdb==4.0.12",
-            "multidict==6.4.3", "pytest==8.3.5", "aiosignal==1.3.2", "aiohttp==3.11.18",
-            "aiohappyeyeballs==2.6.1", "smmap==5.0.2", "propcache==0.3.1", "pyyaml==6.0.2",
-            "iniconfig==2.1.0", "attrs==25.3.0", "frozenlist==1.6.0", "idna==3.10",
-            "yarl==1.20.0", "pytest-asyncio==0.26.0", "pytest-aiohttp==1.1.0"]'
+        list: '["aiohttp==3.11.18", "frozenlist==1.6.0", "idna==3.10", "pytest-aiohttp==1.1.0",
+            "multidict==6.4.3", "pluggy==1.5.0", "pytest==8.3.5", "propcache==0.3.1",
+            "pytest-asyncio==0.26.0", "pyyaml==6.0.2", "gitpython==3.1.44", "smmap==5.0.2",
+            "gitdb==4.0.12", "iniconfig==2.1.0", "attrs==25.3.0", "packaging==25.0",
+            "aiosignal==1.3.2", "yarl==1.20.0", "aiohappyeyeballs==2.6.1"]'
     pypi_all:
         count: 87
-        list: '["nh3==0.2.21", "wheel==0.45.1", "astroid==3.3.9", "sphinxcontrib-htmlhelp==2.1.0",
-            "setuptools==80.0.1", "build==1.2.2.post1", "doc8==1.1.2", "certifi==2025.4.26",
-            "imagesize==1.4.1", "sphinx==8.2.3", "pyyaml==6.0.2", "sphinx-book-theme==1.1.4",
-            "iniconfig==2.1.0", "pylint-plugin-utils==0.8.2", "yarl==1.20.0", "six==1.17.0",
-            "text-unidecode==1.3", "packaging==25.0", "pycodestyle==2.13.0", "markupsafe==3.0.2",
-            "platformdirs==4.3.7", "pytest==8.3.5", "pbr==6.1.1", "typing-extensions==4.13.2",
-            "accessible-pygments==0.0.5", "aiohttp==3.11.18", "roman-numerals-py==3.1.0",
-            "propcache==0.3.1", "pylint-celery==0.3", "sphinxcontrib-jsmath==1.0.1",
-            "python-slugify==8.0.4", "alabaster==1.0.0", "attrs==25.3.0", "pygments==2.19.1",
-            "idna==3.10", "snowballstemmer==2.2.0", "readme-renderer==44.0", "pytest-asyncio==0.26.0",
-            "tox==4.25.0", "pytest-aiohttp==1.1.0", "pluggy==1.5.0", "gitpython==3.1.44",
-            "pydata-sphinx-theme==0.15.4", "click-log==0.4.0", "colorama==0.4.6",
-            "sphinxcontrib-serializinghtml==2.0.0", "pyproject-api==1.9.0", "pydocstyle==6.3.0",
-            "requests==2.32.3", "coverage[toml]==7.8.0", "soupsieve==2.7", "stevedore==5.4.1",
-            "aiohappyeyeballs==2.6.1", "sphinxcontrib-qthelp==2.0.0", "sphinxcontrib-applehelp==2.0.0",
-            "docutils==0.21.2", "tomlkit==0.13.2", "chardet==5.2.0", "filelock==3.18.0",
-            "pylint-django==2.6.1", "mccabe==0.7.0", "sphinxcontrib-devhelp==2.0.0",
-            "virtualenv==20.30.0", "edx-lint==5.6.0", "gitdb==4.0.12", "jinja2==3.1.6",
-            "multidict==6.4.3", "diff-cover==9.2.4", "restructuredtext-lint==1.4.0",
-            "aiosignal==1.3.2", "dill==0.4.0", "babel==2.17.0", "pytest-cov==6.1.1",
-            "charset-normalizer==3.4.1", "code-annotations==2.3.0", "isort==6.0.1",
-            "beautifulsoup4==4.13.4", "smmap==5.0.2", "distlib==0.3.9", "click==8.1.8",
-            "pylint==3.3.6", "pip-tools==7.4.1", "pyproject-hooks==1.2.0", "pip==24.2",
-            "cachetools==5.5.2", "frozenlist==1.6.0", "urllib3==2.2.3"]'
+        list: '["pydocstyle==6.3.0", "docutils==0.21.2", "chardet==5.2.0", "six==1.17.0",
+            "snowballstemmer==2.2.0", "typing-extensions==4.13.2", "pylint==3.3.6",
+            "pbr==6.1.1", "propcache==0.3.1", "pytest-asyncio==0.26.0", "sphinxcontrib-applehelp==2.0.0",
+            "distlib==0.3.9", "sphinx-book-theme==1.1.4", "colorama==0.4.6", "babel==2.17.0",
+            "gitdb==4.0.12", "iniconfig==2.1.0", "wheel==0.45.1", "attrs==25.3.0",
+            "soupsieve==2.7", "jinja2==3.1.6", "certifi==2025.4.26", "platformdirs==4.3.7",
+            "sphinxcontrib-devhelp==2.0.0", "markupsafe==3.0.2", "aiosignal==1.3.2",
+            "aiohappyeyeballs==2.6.1", "sphinxcontrib-jsmath==1.0.1", "nh3==0.2.21",
+            "beautifulsoup4==4.13.4", "pluggy==1.5.0", "dill==0.4.0", "isort==6.0.1",
+            "requests==2.32.3", "mccabe==0.7.0", "text-unidecode==1.3", "pyyaml==6.0.2",
+            "pip-tools==7.4.1", "pyproject-hooks==1.2.0", "pylint-django==2.6.1",
+            "tomlkit==0.13.2", "smmap==5.0.2", "urllib3==2.2.3", "pygments==2.19.1",
+            "pycodestyle==2.13.0", "imagesize==1.4.1", "pydata-sphinx-theme==0.15.4",
+            "aiohttp==3.11.18", "edx-lint==5.6.0", "frozenlist==1.6.0", "idna==3.10",
+            "readme-renderer==44.0", "accessible-pygments==0.0.5", "multidict==6.4.3",
+            "filelock==3.18.0", "astroid==3.3.9", "pytest-cov==6.1.1", "click-log==0.4.0",
+            "charset-normalizer==3.4.1", "pyproject-api==1.9.0", "build==1.2.2.post1",
+            "tox==4.25.0", "sphinxcontrib-htmlhelp==2.1.0", "packaging==25.0", "alabaster==1.0.0",
+            "sphinx==8.2.3", "restructuredtext-lint==1.4.0", "coverage[toml]==7.8.0",
+            "sphinxcontrib-qthelp==2.0.0", "roman-numerals-py==3.1.0", "yarl==1.20.0",
+            "setuptools==80.0.1", "pytest-aiohttp==1.1.0", "pip==24.2", "pytest==8.3.5",
+            "virtualenv==20.30.0", "code-annotations==2.3.0", "stevedore==5.4.1",
+            "gitpython==3.1.44", "sphinxcontrib-serializinghtml==2.0.0", "cachetools==5.5.2",
+            "click==8.1.8", "pylint-celery==0.3", "diff-cover==9.2.4", "python-slugify==8.0.4",
+            "pylint-plugin-utils==0.8.2", "doc8==1.1.2"]'
 django_packages:
     django_42:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     total:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'

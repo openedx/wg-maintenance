@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -83,7 +83,7 @@ github:
     created_at: 2023-03-13 09:15:29
     default_branch: main
     description: The mobile app for iOS for the Open EdX Platform.
-    disk_usage_kb: 12813
+    disk_usage_kb: 13015
     fork_count: 28
     has_issues: true
     has_wiki: false
@@ -92,9 +92,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-03-17 10:55:53
+    last_push: 2026-04-27 14:40:22
     license: Apache License 2.0
-    pulls_count: 2
+    pulls_count: 6
 github_actions: false
 language_bytes:
     css: 0

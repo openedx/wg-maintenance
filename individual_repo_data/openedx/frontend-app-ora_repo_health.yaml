@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -80,9 +80,10 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 23
-    build_details: '{"total_duration": "3 minutes 11 seconds", "checks": [{"name":
-        "test", "duration": "3 minutes 11 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 4 seconds"}]}'
+    build_details: '{"total_duration": "8080 minutes 24 seconds", "checks": [{"name":
+        "test", "duration": "3 minutes 11 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 20 seconds"}, {"name": "version-check
+        / version-check", "duration": "0 minutes 4 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-07-12 21:42:38
     default_branch: master
@@ -162,7 +163,7 @@ renovate:
     configured: true
     last_pr: '2026-04-06'
     oldest_open_pr_date: '2024-02-05'
-    total_open_prs: 7
+    total_open_prs: 5
 requires:
     boto: false
     django: false

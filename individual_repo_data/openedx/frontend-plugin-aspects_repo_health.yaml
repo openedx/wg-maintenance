@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -70,25 +70,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 4
-    build_details: '{"total_duration": "5366 minutes 34 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "0 minutes 0 seconds", "checks": [{"name":
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration": "-1
-        minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-03-21 15:08:32
     default_branch: main
     description: Frontend plugins for Aspects
-    disk_usage_kb: 2472
+    disk_usage_kb: 2727
     fork_count: 5
     has_issues: true
     has_wiki: false
@@ -97,7 +87,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-20 00:52:16
+    last_push: 2026-04-27 00:59:13
     license: GNU AGPLv3
     pulls_count: 2
 github_actions: true

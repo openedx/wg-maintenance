@@ -1,8 +1,8 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
-    exists: false
+    exists: true
     has_ecosystem:
-        github-actions: false
+        github-actions: true
         npm: false
         pip: false
 dependabot_alerts: {}
@@ -45,11 +45,11 @@ exists:
     .gitignore: true
     .pii_annotations.yml: false
     .travis.yml: false
-    CHANGELOG.rst: false
+    CHANGELOG.rst: true
     Makefile: true
     README: true
     commitlint.yml: true
-    dependabot.yml: false
+    dependabot.yml: true
     openedx.yaml: false
     package.json: false
     pylintrc: false
@@ -62,33 +62,22 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 4
-    build_details: '{"total_duration": "1025 minutes 54 seconds", "checks": [{"name":
+    branch_count: 3
+    build_details: '{"total_duration": "2 minutes 41 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 16 seconds"}, {"name": "Test (Python 3.12,
-        Django 4.2)", "duration": "0 minutes 49 seconds"}, {"name": "run_ci / Test
-        (Python 3.12, Django 4.2)", "duration": "0 minutes 31 seconds"}, {"name":
-        "run_ci / Test (Python 3.12, Django 5.2)", "duration": "0 minutes 30 seconds"},
-        {"name": "Test (Python 3.12, Django 5.2)", "duration": "0 minutes 28 seconds"},
-        {"name": "Lint", "duration": "0 minutes 17 seconds"}, {"name": "run_ci / Lint",
-        "duration": "0 minutes 17 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 17 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+        Django 4.2)", "duration": "0 minutes 23 seconds"}, {"name": "Test (Python
+        3.12, Django 5.2)", "duration": "0 minutes 20 seconds"}, {"name": "run_ci
+        / Test (Python 3.12, Django 4.2)", "duration": "0 minutes 18 seconds"}, {"name":
+        "run_ci / Test (Python 3.12, Django 5.2)", "duration": "0 minutes 17 seconds"},
+        {"name": "run_ci / Lint", "duration": "0 minutes 13 seconds"}, {"name": "Lint",
+        "duration": "0 minutes 11 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-04-17 17:54:17
     default_branch: main
     description: ''
-    disk_usage_kb: 946
-    fork_count: 0
+    disk_usage_kb: 942
+    fork_count: 1
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -96,8 +85,8 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-23 16:03:10
-    license: null
+    last_push: 2026-04-27 07:25:16
+    license: GNU AGPLv3
     pulls_count: 1
 github_actions: true
 language_bytes:
@@ -105,7 +94,7 @@ language_bytes:
     dockerfile: 0
     html: 22844
     javascript: 19303
-    makefile: 708
+    makefile: 4472
     python: 145041
     shell: 0
 makefile:
@@ -116,7 +105,7 @@ makefile:
     test: true
     test-js: false
     test-python: false
-    upgrade: false
+    upgrade: true
 npm_package: ''
 org_name: openedx
 pinned_python_dependencies: 0
@@ -124,7 +113,15 @@ readme:
     bad_links: []
     getting-help: false
     good_links:
+    - https://github.com/openedx-unsupported/AudioXBlock
+    - https://github.com/openedx/FeedbackXBlock
+    - https://github.com/openedx-unsupported/xblock-image-modal
+    - https://github.com/openedx-unsupported/xblock-qualtrics-survey
+    - https://github.com/openedx/xblock-sql-grader
+    - https://github.com/openedx-unsupported/xblock-submit-and-compare
     - https://github.com/openedx/xblocks-extra.git
+    - https://docs.openedx.org/en/latest/developers/concepts/oep58.html
+    - https://github.com/openedx/openedx-translations
     - https://openedx.org/contributor-guidelines
     irc-missing: true
     mailing-list-missing: true

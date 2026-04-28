@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-23
+TIMESTAMP: 2026-04-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,61 +22,60 @@ dependencies:
         list: ''
     pypi:
         count: 52
-        list: '["amqp==5.3.1", "click-plugins==1.1.1.2", "gunicorn==25.3.0", "click==8.3.2",
-            "requests-toolbelt==1.0.0", "redis==6.4.0", "celery[redis]==5.6.3", "charset-normalizer==3.4.7",
-            "idna==3.11", "packaging==26.1", "defusedxml==0.7.1", "requests==2.33.1",
-            "flask-sslify==0.1.5", "markupsafe==3.0.3", "arrow==1.4.0", "boltons==25.0.0",
-            "click-repl==0.3.0", "flask==3.1.3", "requests-oauthlib==2.0.0", "uritemplate==4.2.0",
-            "kombu[redis]==5.6.2", "urllib3==2.6.3", "six==1.17.0", "cachetools==7.0.5",
-            "certifi==2026.2.25", "oauthlib[signedtoken]==3.3.1", "cffi==2.0.0", "pyyaml==6.0.3",
-            "click-didyoumean==0.3.1", "itsdangerous==2.2.0", "pyjwt[crypto]==2.12.1",
-            "pycparser==3.0", "python-dateutil==2.9.0.post0", "werkzeug==3.1.8", "wcwidth==0.6.0",
-            "jira==3.10.5", "face==26.0.0", "prompt-toolkit==3.0.52", "vine==5.1.0",
-            "billiard==4.2.4", "tzdata==2026.1", "glom==25.12.0", "github3-py==4.0.1",
-            "tzlocal==5.3.1", "jinja2==3.1.6", "blinker==1.9.0", "typing-extensions==4.15.0",
-            "cryptography==46.0.7", "attrs==26.1.0", "logging-tree==1.10", "sentry-sdk[flask]==2.58.0",
-            "urlobject==3.0.0"]'
+        list: '["tzlocal==5.3.1", "pyjwt[crypto]==2.12.1", "cffi==2.0.0", "flask-sslify==0.1.5",
+            "idna==3.13", "tzdata==2026.2", "packaging==26.2", "urlobject==3.0.0",
+            "charset-normalizer==3.4.7", "click-didyoumean==0.3.1", "arrow==1.4.0",
+            "itsdangerous==2.2.0", "uritemplate==4.2.0", "cachetools==7.0.6", "urllib3==2.6.3",
+            "amqp==5.3.1", "billiard==4.2.4", "attrs==26.1.0", "cryptography==47.0.0",
+            "jira==3.10.5", "gunicorn==25.3.0", "click==8.3.3", "python-dateutil==2.9.0.post0",
+            "jinja2==3.1.6", "typing-extensions==4.15.0", "prompt-toolkit==3.0.52",
+            "defusedxml==0.7.1", "vine==5.1.0", "pycparser==3.0", "certifi==2026.4.22",
+            "requests==2.33.1", "click-plugins==1.1.1.2", "glom==25.12.0", "redis==6.4.0",
+            "celery[redis]==5.6.3", "oauthlib[signedtoken]==3.3.1", "logging-tree==1.10",
+            "six==1.17.0", "click-repl==0.3.0", "face==26.0.0", "blinker==1.9.0",
+            "sentry-sdk[flask]==2.58.0", "kombu[redis]==5.6.2", "boltons==25.0.0",
+            "requests-oauthlib==2.0.0", "flask==3.1.3", "wcwidth==0.6.0", "github3-py==4.0.1",
+            "requests-toolbelt==1.0.0", "pyyaml==6.0.3", "werkzeug==3.1.8", "markupsafe==3.0.3"]'
     pypi_all:
         count: 117
-        list: '["mypy==1.20.1", "sphinxcontrib-qthelp==2.0.0", "gunicorn==25.3.0",
-            "text-unidecode==1.3", "pathspec==1.0.4", "charset-normalizer==3.4.7",
-            "idna==3.11", "sphinxcontrib-jsmath==1.0.1", "pytest==9.0.3", "scriv==1.8.0",
-            "pluggy==1.6.0", "arrow==1.4.0", "schema==0.7.8", "python-slugify==8.0.4",
-            "isort==8.0.1", "pyyaml==6.0.3", "pylint-django==2.7.0", "pyjwt[crypto]==2.12.1",
-            "pycparser==3.0", "python-dateutil==2.9.0.post0", "sphinx==9.1.0", "jira==3.10.5",
-            "sphinxcontrib-applehelp==2.0.0", "astroid==4.0.4", "markdown-it-py==4.0.0",
-            "face==26.0.0", "tomlkit==0.14.0", "vine==5.1.0", "tzdata==2026.1", "pygments==2.20.0",
-            "sphinxcontrib-serializinghtml==2.0.0", "blinker==1.9.0", "snowballstemmer==3.0.1",
-            "wheel==0.46.3", "cryptography==46.0.7", "logging-tree==1.10", "sentry-sdk[flask]==2.58.0",
-            "pip==26.0.1", "code-annotations==3.0.0", "mdurl==0.1.2", "pytest==8.2.0",
-            "defusedxml==0.7.1", "imagesize==2.0.0", "iniconfig==2.3.0", "boltons==25.0.0",
-            "requests-oauthlib==2.0.0", "alabaster==1.0.0", "dill==0.4.1", "nh3==0.3.4",
-            "build==1.4.3", "readme-renderer==44.0", "oauthlib[signedtoken]==3.3.1",
-            "mccabe==0.7.0", "werkzeug==3.1.8", "stevedore==5.7.0", "pylint-celery==0.3",
-            "sphinx-rtd-theme==3.1.0", "billiard==4.2.4", "glom==25.12.0", "sphinxcontrib-htmlhelp==2.1.0",
-            "sphinxcontrib-httpdomain==2.0.0", "pylint-plugin-utils==0.9.0", "urlobject==3.0.0",
-            "sphinxcontrib-jquery==4.1", "setuptools==82.0.1", "amqp==5.3.1", "requests-toolbelt==1.0.0",
-            "redis==6.4.0", "celery[redis]==5.6.3", "packaging==26.1", "types-requests==2.33.0.20260408",
-            "types-pyyaml==6.0.12.20260408", "flask-sslify==0.1.5", "sphinxcontrib-devhelp==2.0.0",
-            "kombu[redis]==5.6.2", "edx-lint==6.0.0", "roman-numerals==4.1.0", "certifi==2026.2.25",
-            "pytest-repeat==0.9.4", "cffi==2.0.0", "pyproject-hooks==1.2.0", "pytz==2026.1.post1",
-            "coverage[toml]==7.13.5", "wcwidth==0.6.0", "pytest-mock==3.15.1", "typing-extensions==4.15.0",
-            "pytest-cov==7.1.0", "platformdirs==4.9.6", "click-plugins==1.1.1.2",
-            "click==8.3.2", "pylint==4.0.5", "docutils==0.22.4", "requests==2.33.1",
-            "markupsafe==3.0.3", "click-repl==0.3.0", "flask==3.1.3", "requests-mock==1.12.1",
-            "uritemplate==4.2.0", "urllib3==2.6.3", "pylint-pytest==1.1.8", "six==1.17.0",
-            "pip-tools==7.5.3", "cachetools==7.0.5", "click-didyoumean==0.3.1", "itsdangerous==2.2.0",
-            "python-dotenv==1.2.2", "librt==0.9.0", "prompt-toolkit==3.0.52", "babel==2.18.0",
-            "github3-py==4.0.1", "click-log==0.4.0", "tzlocal==5.3.1", "freezegun==1.5.5",
-            "jinja2==3.1.6", "attrs==26.1.0", "types-cachetools==6.2.0.20260408",
-            "mypy-extensions==1.1.0"]'
+        list: '["stevedore==5.7.0", "pyjwt[crypto]==2.12.1", "flask-sslify==0.1.5",
+            "pytest-repeat==0.9.4", "sphinx==9.1.0", "uritemplate==4.2.0", "tomlkit==0.14.0",
+            "cachetools==7.0.6", "jira==3.10.5", "gunicorn==25.3.0", "sphinxcontrib-qthelp==2.0.0",
+            "vine==5.1.0", "glom==25.12.0", "sphinx-rtd-theme==3.1.0", "nh3==0.3.5",
+            "pathspec==1.1.0", "pylint-celery==0.3", "blinker==1.9.0", "coverage[toml]==7.13.5",
+            "sphinxcontrib-applehelp==2.0.0", "sphinxcontrib-jsmath==1.0.1", "github3-py==4.0.1",
+            "pytest==8.2.0", "markdown-it-py==4.0.0", "mypy==1.20.2", "librt==0.9.0",
+            "edx-lint==6.0.0", "types-requests==2.33.0.20260408", "idna==3.13", "roman-numerals==4.1.0",
+            "text-unidecode==1.3", "sphinxcontrib-htmlhelp==2.1.0", "amqp==5.3.1",
+            "types-pyyaml==6.0.12.20260408", "mccabe==0.7.0", "click==8.3.3", "requests-mock==1.12.1",
+            "jinja2==3.1.6", "dill==0.4.1", "certifi==2026.4.22", "requests==2.33.1",
+            "python-slugify==8.0.4", "click-plugins==1.1.1.2", "redis==6.4.0", "oauthlib[signedtoken]==3.3.1",
+            "astroid==4.0.4", "pylint-django==2.7.0", "docutils==0.22.4", "setuptools==82.0.1",
+            "kombu[redis]==5.6.2", "boltons==25.0.0", "mypy-extensions==1.1.0", "requests-toolbelt==1.0.0",
+            "pytest-cov==7.1.0", "alabaster==1.0.0", "python-dotenv==1.2.2", "werkzeug==3.1.8",
+            "markupsafe==3.0.3", "tzlocal==5.3.1", "code-annotations==3.0.0", "freezegun==1.5.5",
+            "cffi==2.0.0", "urlobject==3.0.0", "tzdata==2026.2", "pluggy==1.6.0",
+            "pylint==4.0.5", "pytest==9.0.3", "arrow==1.4.0", "itsdangerous==2.2.0",
+            "billiard==4.2.4", "cryptography==47.0.0", "wheel==0.47.0", "python-dateutil==2.9.0.post0",
+            "schema==0.7.8", "typing-extensions==4.15.0", "prompt-toolkit==3.0.52",
+            "defusedxml==0.7.1", "celery[redis]==5.6.3", "logging-tree==1.10", "six==1.17.0",
+            "click-repl==0.3.0", "pylint-plugin-utils==0.9.0", "sentry-sdk[flask]==2.58.0",
+            "iniconfig==2.3.0", "snowballstemmer==3.0.1", "requests-oauthlib==2.0.0",
+            "pip==26.1", "flask==3.1.3", "pytz==2026.1.post1", "platformdirs==4.9.6",
+            "imagesize==2.0.0", "build==1.4.4", "pygments==2.20.0", "pytest-mock==3.15.1",
+            "pylint-pytest==1.1.8", "pyproject-hooks==1.2.0", "babel==2.18.0", "sphinxcontrib-httpdomain==2.0.0",
+            "packaging==26.2", "charset-normalizer==3.4.7", "sphinxcontrib-devhelp==2.0.0",
+            "click-didyoumean==0.3.1", "urllib3==2.6.3", "types-cachetools==6.2.0.20260408",
+            "attrs==26.1.0", "pycparser==3.0", "click-log==0.4.0", "face==26.0.0",
+            "mdurl==0.1.2", "wcwidth==0.6.0", "readme-renderer==44.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "pip-tools==7.5.3", "scriv==1.8.0", "pyyaml==6.0.3", "isort==8.0.1", "sphinxcontrib-jquery==4.1"]'
 django_packages:
     django_42:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     total:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -107,15 +106,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "22 minutes 59 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12)", "duration": "0 minutes 39 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 33 seconds"}, {"name": "Dependabot",
+    build_details: '{"total_duration": "25 minutes 40 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12)", "duration": "0 minutes 40 seconds"}, {"name":
+        "update-pip-graph", "duration": "0 minutes 36 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 31 seconds"}]}'
     code_of_conduct: Other
     created_at: 2014-07-09 17:08:56
     default_branch: master
     description: Webhooks for the Open edX GitHub and JIRA
-    disk_usage_kb: 1597
+    disk_usage_kb: 1604
     fork_count: 20
     has_issues: true
     has_wiki: false
@@ -124,7 +123,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-20 13:43:40
+    last_push: 2026-04-27 14:21:42
     license: Apache License 2.0
     pulls_count: 1
 github_actions: true
@@ -217,11 +216,11 @@ ubuntu_packages:
     docker_packages:
     - gnupg
     - python3-pip
-    - git-core
-    - curl
-    - ca-certificates
     - language-pack-en
-    - python3.12
     - libssl-dev
+    - git-core
     - python3.12-dev
+    - ca-certificates
+    - python3.12
+    - curl
     yml_files: '[]'
