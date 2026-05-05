@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,7 +62,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 13
+    branch_count: 14
     build_details: '{"total_duration": "47489 minutes 30 seconds", "checks": [{"name":
         "Runs unit tests", "duration": "7 minutes 33 seconds"}, {"name": "Validate
         strings.xml", "duration": "0 minutes 13 seconds"}, {"name": "self_assign_by_comment
@@ -81,8 +81,8 @@ github:
     created_at: 2023-03-13 09:14:43
     default_branch: main
     description: The mobile app for Android for the Open EdX Platform.
-    disk_usage_kb: 7639
-    fork_count: 54
+    disk_usage_kb: 7654
+    fork_count: 55
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -90,9 +90,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-02 08:06:42
+    last_push: 2026-04-30 15:38:48
     license: Apache License 2.0
-    pulls_count: 6
+    pulls_count: 4
 github_actions: false
 language_bytes:
     css: 0

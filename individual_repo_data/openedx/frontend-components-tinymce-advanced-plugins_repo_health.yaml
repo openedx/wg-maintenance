@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -7,7 +7,7 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 2
+    count: 7
     github:
         count: 0
         list: ''
@@ -18,8 +18,10 @@ dependencies:
         count: 0
         list: '{}'
     js.dev:
-        count: 1
-        list: '{"@openedx/frontend-build": "14.6.3"}'
+        count: 6
+        list: '{"@openedx/frontend-build": "14.6.3", "@babel/preset-env": "^7.22.0",
+            "babel-jest": "^29.5.0", "identity-obj-proxy": "^3.0.0", "jest": "^29.5.0",
+            "jest-environment-jsdom": "^29.5.0"}'
     pypi:
         count: 0
         list: ''
@@ -63,13 +65,16 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "1 minutes 1 seconds", "checks": [{"name":
-        "Release", "duration": "1 minutes 1 seconds"}]}'
+    build_details: '{"total_duration": "1 minutes 8 seconds", "checks": [{"name":
+        "Release", "duration": "1 minutes 8 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-08-08 21:27:45
     default_branch: main
     description: ''
-    disk_usage_kb: 405
+    disk_usage_kb: 432
     fork_count: 6
     has_issues: true
     has_wiki: false
@@ -78,16 +83,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-03-30 04:46:00
+    last_push: 2026-04-28 10:41:03
     license: GNU AGPLv3
-    pulls_count: 1
+    pulls_count: 0
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
-    javascript: 2336
-    makefile: 2003
+    javascript: 9990
+    makefile: 3027
     python: 0
     shell: 266
 makefile:
@@ -95,7 +100,7 @@ makefile:
     quality: false
     quality-js: false
     quality-python: false
-    test: false
+    test: true
     test-js: false
     test-python: false
     upgrade: false

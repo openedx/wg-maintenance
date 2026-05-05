@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -68,7 +68,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
+    branch_count: 26
     build_details: '{"total_duration": "3100 minutes 2 seconds", "checks": [{"name":
         "Release", "duration": "2 minutes 3 seconds"}, {"name": "tests", "duration":
         "1 minutes 50 seconds"}, {"name": "Dependabot", "duration": "0 minutes 50
@@ -81,7 +81,7 @@ github:
     created_at: 2017-06-23 20:12:07
     default_branch: master
     description: Bootstrap theme for Open edX
-    disk_usage_kb: 9244
+    disk_usage_kb: 9243
     fork_count: 22
     has_issues: true
     has_wiki: false
@@ -90,9 +90,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-21 14:55:48
+    last_push: 2026-04-28 15:14:39
     license: Apache License 2.0
-    pulls_count: 11
+    pulls_count: 10
 github_actions: true
 language_bytes:
     css: 0
@@ -138,8 +138,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-04-06'
-    oldest_open_pr_date: '2025-05-26'
-    total_open_prs: 5
+    oldest_open_pr_date: '2021-08-23'
+    total_open_prs: 7
 requires:
     boto: false
     django: false

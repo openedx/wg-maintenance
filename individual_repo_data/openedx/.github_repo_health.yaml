@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,27 +62,21 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
-    build_details: '{"total_duration": "8640 minutes 49 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 37 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 28 seconds"}, {"name": "Get list of PRs", "duration":
-        "0 minutes 10 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes
-        8 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes 8 seconds"},
-        {"name": "Get list of PRs", "duration": "0 minutes 8 seconds"}, {"name": "Get
-        list of PRs", "duration": "0 minutes 7 seconds"}, {"name": "Get list of PRs",
-        "duration": "0 minutes 6 seconds"}, {"name": "Get list of PRs", "duration":
-        "0 minutes 6 seconds"}, {"name": "merge_pr", "duration": "0 minutes 0 seconds"},
+    branch_count: 10
+    build_details: '{"total_duration": "3460 minutes 1 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 46 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 27 seconds"}, {"name": "Get list of PRs", "duration":
+        "0 minutes 9 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes
+        8 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes 7 seconds"},
         {"name": "merge_pr", "duration": "0 minutes 0 seconds"}, {"name": "merge_pr",
-        "duration": "0 minutes 0 seconds"}, {"name": "merge_pr", "duration": "0 minutes
-        0 seconds"}, {"name": "merge_pr", "duration": "-1 minutes 59 seconds"}, {"name":
-        "merge_pr", "duration": "-1 minutes 59 seconds"}, {"name": "merge_pr", "duration":
-        "-1 minutes 59 seconds"}]}'
+        "duration": "0 minutes 0 seconds"}, {"name": "merge_pr", "duration": "-1 minutes
+        59 seconds"}]}'
     code_of_conduct: Other
     created_at: 2022-01-05 17:05:00
     default_branch: master
     description: Centralized openedx repository workflows, community health files,
         etc.
-    disk_usage_kb: 353
+    disk_usage_kb: 368
     fork_count: 32
     has_issues: true
     has_wiki: false
@@ -91,9 +85,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 17:58:00
+    last_push: 2026-05-04 20:02:46
     license: Apache License 2.0
-    pulls_count: 1
+    pulls_count: 2
 github_actions: false
 language_bytes:
     css: 0

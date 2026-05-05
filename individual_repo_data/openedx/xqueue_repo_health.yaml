@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -22,51 +22,51 @@ dependencies:
         list: ''
     pypi:
         count: 57
-        list: '["filelock==3.25.2", "python-discovery==1.2.1", "python-memcached==1.62",
-            "pywatchman==3.0.0 ; \"linux\" in sys_platform", "build==1.4.2", "edx-django-utils==8.0.1",
-            "virtualenv==21.2.0", "asgiref==3.11.1", "cffi==2.0.0", "platformdirs==4.9.4",
-            "certifi==2026.2.25", "gunicorn==25.3.0", "idna==3.11", "django-storages==1.14.6",
-            "django-crum==0.7.9", "botocore==1.42.84", "backoff==2.2.1", "packaging==26.0",
-            "pip-tools==7.5.3", "django==5.2.13", "s3transfer==0.16.0", "python-dateutil==2.9.0.post0",
-            "pyproject-hooks==1.2.0", "pluggy==1.6.0", "django-waffle==5.0.0", "mysqlclient==2.2.8",
-            "pygments==2.20.0", "edx-django-release-util==1.5.0", "iniconfig==2.3.0",
-            "psutil==7.2.2", "charset-normalizer==3.4.7", "sqlparse==0.5.5", "pycodestyle==2.14.0",
-            "stevedore==5.7.0", "pyproject-api==1.10.0", "tomli-w==1.2.0", "pycparser==3.0",
-            "pytest-cov==7.1.0", "cachetools==7.0.5", "isort==8.0.1", "tox==4.52.0",
-            "pynacl==1.6.2", "pyyaml==6.0.3", "urllib3==2.6.3", "pytest-django==4.12.0",
-            "requests==2.33.1", "distlib==0.4.0", "path==17.1.1", "six==1.17.0", "colorama==0.4.6",
-            "wheel==0.46.3", "newrelic==12.1.0", "pytest==9.0.2", "boto3==1.42.84",
-            "coverage[toml]==7.13.5", "click==8.3.2", "jmespath==1.1.0"]'
+        list: '["python-discovery==1.2.1", "newrelic==12.1.0", "sqlparse==0.5.5",
+            "filelock==3.25.2", "pycodestyle==2.14.0", "certifi==2026.2.25", "python-memcached==1.62",
+            "tomli-w==1.2.0", "pluggy==1.6.0", "django-storages==1.14.6", "mysqlclient==2.2.8",
+            "gunicorn==25.3.0", "pytest-django==4.12.0", "pynacl==1.6.2", "backoff==2.2.1",
+            "build==1.4.2", "idna==3.11", "pip-tools==7.5.3", "django==5.2.13", "cachetools==7.0.5",
+            "pycparser==3.0", "urllib3==2.6.3", "pyyaml==6.0.3", "pytest-cov==7.1.0",
+            "boto3==1.42.84", "asgiref==3.11.1", "colorama==0.4.6", "pywatchman==3.0.0
+            ; \"linux\" in sys_platform", "django-waffle==5.0.0", "python-dateutil==2.9.0.post0",
+            "pyproject-hooks==1.2.0", "distlib==0.4.0", "isort==8.0.1", "cffi==2.0.0",
+            "packaging==26.0", "edx-django-utils==8.0.1", "charset-normalizer==3.4.7",
+            "s3transfer==0.16.0", "pygments==2.20.0", "tox==4.52.0", "edx-django-release-util==1.5.0",
+            "six==1.17.0", "botocore==1.42.84", "virtualenv==21.2.0", "click==8.3.2",
+            "django-crum==0.7.9", "path==17.1.1", "jmespath==1.1.0", "iniconfig==2.3.0",
+            "psutil==7.2.2", "requests==2.33.1", "pytest==9.0.2", "wheel==0.46.3",
+            "coverage[toml]==7.13.5", "platformdirs==4.9.4", "stevedore==5.7.0", "pyproject-api==1.10.0"]'
     pypi_all:
         count: 59
-        list: '["filelock==3.25.2", "python-memcached==1.62", "python-discovery==1.2.1",
-            "pywatchman==3.0.0 ; \"linux\" in sys_platform", "build==1.4.2", "edx-django-utils==8.0.1",
-            "virtualenv==21.2.0", "asgiref==3.11.1", "cffi==2.0.0", "platformdirs==4.9.4",
-            "certifi==2026.2.25", "gunicorn==25.3.0", "idna==3.11", "django-storages==1.14.6",
-            "django-crum==0.7.9", "backoff==2.2.1", "pip-tools==7.5.3", "packaging==26.0",
-            "botocore==1.42.84", "s3transfer==0.16.0", "django==5.2.13", "python-dateutil==2.9.0.post0",
-            "pyproject-hooks==1.2.0", "pluggy==1.6.0", "django-waffle==5.0.0", "mysqlclient==2.2.8",
-            "pygments==2.20.0", "edx-django-release-util==1.5.0", "iniconfig==2.3.0",
-            "psutil==7.2.2", "charset-normalizer==3.4.7", "sqlparse==0.5.5", "tomli-w==1.2.0",
-            "stevedore==5.7.0", "pyproject-api==1.10.0", "pycodestyle==2.14.0", "pycparser==3.0",
-            "pytest-cov==7.1.0", "cachetools==7.0.5", "isort==8.0.1", "tox==4.52.0",
-            "pynacl==1.6.2", "pyyaml==6.0.3", "urllib3==2.6.3", "setuptools==82.0.1",
-            "pytest-django==4.12.0", "requests==2.33.1", "pip==26.0.1", "distlib==0.4.0",
-            "path==17.1.1", "six==1.17.0", "colorama==0.4.6", "wheel==0.46.3", "newrelic==12.1.0",
-            "pytest==9.0.2", "boto3==1.42.84", "coverage[toml]==7.13.5", "click==8.3.2",
-            "jmespath==1.1.0"]'
+        list: '["sqlparse==0.5.5", "newrelic==12.1.0", "python-discovery==1.2.1",
+            "filelock==3.25.2", "pycodestyle==2.14.0", "certifi==2026.2.25", "python-memcached==1.62",
+            "tomli-w==1.2.0", "pluggy==1.6.0", "django-storages==1.14.6", "mysqlclient==2.2.8",
+            "gunicorn==25.3.0", "pytest-django==4.12.0", "setuptools==82.0.1", "pynacl==1.6.2",
+            "backoff==2.2.1", "build==1.4.2", "idna==3.11", "pip-tools==7.5.3", "urllib3==2.6.3",
+            "pycparser==3.0", "cachetools==7.0.5", "django==5.2.13", "pyyaml==6.0.3",
+            "pytest-cov==7.1.0", "boto3==1.42.84", "asgiref==3.11.1", "colorama==0.4.6",
+            "pywatchman==3.0.0 ; \"linux\" in sys_platform", "django-waffle==5.0.0",
+            "python-dateutil==2.9.0.post0", "pyproject-hooks==1.2.0", "distlib==0.4.0",
+            "isort==8.0.1", "cffi==2.0.0", "packaging==26.0", "edx-django-utils==8.0.1",
+            "charset-normalizer==3.4.7", "s3transfer==0.16.0", "pygments==2.20.0",
+            "tox==4.52.0", "edx-django-release-util==1.5.0", "six==1.17.0", "botocore==1.42.84",
+            "virtualenv==21.2.0", "click==8.3.2", "pip==26.0.1", "django-crum==0.7.9",
+            "path==17.1.1", "jmespath==1.1.0", "iniconfig==2.3.0", "psutil==7.2.2",
+            "requests==2.33.1", "wheel==0.46.3", "pytest==9.0.2", "coverage[toml]==7.13.5",
+            "platformdirs==4.9.4", "stevedore==5.7.0", "pyproject-api==1.10.0"]'
 django_packages:
     django_42:
         count: 5
-        list: '["django-waffle", "django-storages", "edx-django-release-util", "edx-django-utils",
-            "pytest-django"]'
+        list: '["django-waffle", "django-storages", "pytest-django", "edx-django-release-util",
+            "edx-django-utils"]'
     total:
         count: 7
-        list: '["django-waffle", "django-storages", "edx-django-release-util", "edx-django-utils",
-            "django-crum", "newrelic", "pytest-django"]'
+        list: '["django-crum", "django-waffle", "django-storages", "pytest-django",
+            "edx-django-release-util", "edx-django-utils", "newrelic"]'
     upgraded:
         count: 3
-        list: '["django-waffle", "edx-django-release-util", "edx-django-utils"]'
+        list: '["edx-django-utils", "django-waffle", "edx-django-release-util"]'
 docs:
     build_badge: false
     python_version: null
@@ -93,14 +93,15 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 75
-    build_details: '{"total_duration": "11477 minutes 54 seconds", "checks": [{"name":
+    branch_count: 76
+    build_details: '{"total_duration": "31650 minutes 23 seconds", "checks": [{"name":
         "check migration for MySql8 (ubuntu-latest, 3.12)", "duration": "3 minutes
         49 seconds"}, {"name": "build (3.12, django52, mysql80)", "duration": "1 minutes
         10 seconds"}, {"name": "build (3.12, quality, mysql80)", "duration": "1 minutes
         4 seconds"}, {"name": "build (3.12, django42, mysql80)", "duration": "0 minutes
         58 seconds"}, {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements
-        (3.8)", "duration": "0 minutes 13 seconds"}]}'
+        (3.8)", "duration": "0 minutes 17 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements (3.8)", "duration": "0 minutes 13 seconds"}]}'
     code_of_conduct: Other
     created_at: 2012-08-09 14:43:31
     default_branch: master
@@ -115,7 +116,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-07 16:26:31
+    last_push: 2026-04-30 15:11:56
     license: GNU AGPLv3
     pulls_count: 2
 github_actions: true

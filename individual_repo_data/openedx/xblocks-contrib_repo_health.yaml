@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,83 +22,83 @@ dependencies:
         list: '{}'
     pypi:
         count: 78
-        list: '["openedx-calc==5.0.0", "chem==2.0.0", "scipy==1.17.1", "xblock==6.1.0",
-            "code-annotations==3.0.0", "beautifulsoup4==4.14.3", "edxval==4.0.0",
-            "python-slugify==8.0.4", "shapely==2.1.2", "requests==2.33.1", "jsonfield==3.2.0",
-            "pynacl==1.6.2", "urllib3==2.6.3", "pyyaml==6.0.3", "nh3==0.3.5", "pymongo==4.17.0",
-            "appdirs==1.4.4", "charset-normalizer==3.4.7", "regex==2026.4.4", "drf-jwt==1.19.2",
-            "python-dateutil==2.9.0.post0", "html5lib==1.1", "tqdm==4.67.3", "oauthlib==3.3.1",
-            "pillow==12.2.0", "fs==2.4.16", "soupsieve==2.8.3", "typing-extensions==4.15.0",
-            "text-unidecode==1.3", "semantic-version==2.10.0", "dnspython==2.8.0",
-            "edx-django-utils==8.0.1", "web-fragments==4.0.0", "random2==1.0.2", "webob==1.8.9",
-            "numpy==2.4.4", "jinja2==3.1.6", "click==8.3.3", "django==5.2.13", "sympy==1.14.0",
-            "lxml==6.1.0", "nltk==3.9.4", "joblib==1.5.3", "edx-drf-extensions==10.6.0",
-            "mako==1.3.11", "defusedxml==0.7.1", "pyparsing==3.3.2", "psutil==7.2.2",
-            "wrapt==2.1.2", "cachetools==7.0.6", "asgiref==3.11.1", "simplejson==4.1.1",
-            "pysrt==1.1.2", "djangorestframework==3.17.1", "mpmath==1.3.0", "idna==3.13",
-            "pyjwt[crypto]==2.12.1", "pycparser==3.0", "path==17.1.1", "edx-toggles==6.0.0",
-            "django-waffle==5.0.0", "markupsafe==3.0.3", "pytz==2026.1.post1", "sqlparse==0.5.5",
-            "cffi==2.0.0", "edx-django-release-util==1.5.0", "django-crum==0.7.9",
-            "stevedore==5.7.0", "edx-submissions==4.0.0", "webencodings==0.5.1", "edx-opaque-keys==4.0.0",
-            "cryptography==47.0.0", "certifi==2026.4.22", "chardet==7.4.3", "django-model-utils==5.0.0",
-            "six==1.17.0", "django-storages==1.14.6", "edx-codejail==4.1.0"]'
+        list: '["six==1.17.0", "semantic-version==2.10.0", "path==17.1.1", "idna==3.13",
+            "wrapt==2.1.2", "pynacl==1.6.2", "beautifulsoup4==4.14.3", "html5lib==1.1",
+            "django-storages==1.14.6", "soupsieve==2.8.3", "pysrt==1.1.2", "chem==2.0.0",
+            "django-waffle==5.0.0", "cffi==2.0.0", "typing-extensions==4.15.0", "xblock==6.1.0",
+            "random2==1.0.2", "pymongo==4.17.0", "cryptography==47.0.0", "django-crum==0.7.9",
+            "psutil==7.2.2", "cachetools==7.1.1", "appdirs==1.4.4", "nltk==3.9.4",
+            "edx-submissions==4.0.0", "jinja2==3.1.6", "simplejson==4.1.1", "edxval==4.0.0",
+            "asgiref==3.11.1", "markupsafe==3.0.3", "lxml==6.1.0", "chardet==7.4.3",
+            "tqdm==4.67.3", "edx-toggles==6.0.0", "pyjwt[crypto]==2.12.1", "joblib==1.5.3",
+            "pytz==2026.1.post1", "edx-opaque-keys==4.0.0", "python-dateutil==2.9.0.post0",
+            "edx-django-utils==8.0.1", "dnspython==2.8.0", "python-slugify==8.0.4",
+            "web-fragments==4.0.0", "edx-django-release-util==1.5.0", "stevedore==5.7.0",
+            "numpy==2.4.4", "webencodings==0.5.1", "scipy==1.17.1", "mako==1.3.12",
+            "text-unidecode==1.3", "certifi==2026.4.22", "requests==2.33.1", "sqlparse==0.5.5",
+            "sympy==1.14.0", "charset-normalizer==3.4.7", "drf-jwt==1.19.2", "click==8.3.3",
+            "jsonfield==3.2.0", "openedx-calc==5.0.0", "code-annotations==3.0.0",
+            "djangorestframework==3.17.1", "regex==2026.4.4", "pillow==12.2.0", "django-model-utils==5.0.0",
+            "mpmath==1.3.0", "defusedxml==0.7.1", "webob==1.8.9", "pycparser==3.0",
+            "edx-codejail==4.1.0", "django==5.2.13", "shapely==2.1.2", "urllib3==2.6.3",
+            "oauthlib==3.3.1", "edx-drf-extensions==10.6.0", "fs==2.4.16", "nh3==0.3.5",
+            "pyyaml==6.0.3", "pyparsing==3.3.2"]'
     pypi_all:
         count: 133
-        list: '["sphinxcontrib-htmlhelp==2.1.0", "openedx-calc==5.0.0", "chem==2.0.0",
-            "scipy==1.17.1", "xblock==6.1.0", "pytest==9.0.3", "code-annotations==3.0.0",
-            "beautifulsoup4==4.14.3", "pygments==2.20.0", "edxval==4.0.0", "wheel==0.47.0",
-            "python-slugify==8.0.4", "shapely==2.1.2", "requests==2.33.1", "jsonfield==3.2.0",
-            "pip==26.1", "pynacl==1.6.2", "sphinx==9.1.0", "pytest-django==4.12.0",
-            "urllib3==2.6.3", "pyyaml==6.0.3", "nh3==0.3.5", "pymongo==4.17.0", "appdirs==1.4.4",
-            "charset-normalizer==3.4.7", "regex==2026.4.4", "drf-jwt==1.19.2", "python-dateutil==2.9.0.post0",
-            "doc8==2.0.0", "html5lib==1.1", "tqdm==4.67.3", "oauthlib==3.3.1", "pycodestyle==2.14.0",
-            "pyproject-hooks==1.2.0", "sphinxcontrib-serializinghtml==2.0.0", "pillow==12.2.0",
-            "roman-numerals==4.1.0", "fs==2.4.16", "sphinxcontrib-jsmath==1.0.1",
-            "soupsieve==2.8.3", "typing-extensions==4.15.0", "filelock==3.29.0", "text-unidecode==1.3",
-            "pylint==4.0.5", "semantic-version==2.10.0", "dnspython==2.8.0", "edx-django-utils==8.0.1",
-            "web-fragments==4.0.0", "random2==1.0.2", "pylint-plugin-utils==0.9.0",
-            "webob==1.8.9", "numpy==2.4.4", "jinja2==3.1.6", "sphinx-book-theme==1.2.0",
-            "click==8.3.3", "django==5.2.13", "sympy==1.14.0", "pydocstyle==6.3.0",
-            "dill==0.4.1", "tomlkit==0.14.0", "lxml==6.1.0", "pip-tools==7.5.3", "pyproject-api==1.10.0",
-            "nltk==3.9.4", "coverage[toml]==7.13.5", "joblib==1.5.3", "python-discovery==1.2.2",
-            "edx-drf-extensions==10.6.0", "accessible-pygments==0.0.5", "mako==1.3.11",
-            "pydata-sphinx-theme==0.16.1", "platformdirs==4.9.6", "defusedxml==0.7.1",
-            "tox==4.53.0", "pyparsing==3.3.2", "imagesize==2.0.0", "psutil==7.2.2",
-            "mccabe==0.7.0", "pluggy==1.6.0", "setuptools==80.9.0", "wrapt==2.1.2",
-            "cachetools==7.0.6", "asgiref==3.11.1", "simplejson==4.1.1", "isort==8.0.1",
-            "pysrt==1.1.2", "pytest-cov==7.1.0", "sphinxcontrib-applehelp==2.0.0",
-            "tomli-w==1.2.0", "sphinxcontrib-qthelp==2.0.0", "djangorestframework==3.17.1",
-            "iniconfig==2.3.0", "edx-lint==6.0.0", "mpmath==1.3.0", "pyjwt[crypto]==2.12.1",
-            "idna==3.13", "pylint-celery==0.3", "pycparser==3.0", "edx-toggles==6.0.0",
-            "path==17.1.1", "ddt==1.7.2", "sphinxcontrib-devhelp==2.0.0", "django-waffle==5.0.0",
-            "markupsafe==3.0.3", "docutils==0.21.2", "pytz==2026.1.post1", "distlib==0.4.0",
-            "build==1.4.4", "restructuredtext-lint==2.0.2", "sqlparse==0.5.5", "cffi==2.0.0",
-            "colorama==0.4.6", "edx-django-release-util==1.5.0", "astroid==4.0.4",
-            "django-crum==0.7.9", "alabaster==1.0.0", "virtualenv==21.2.4", "babel==2.18.0",
-            "stevedore==5.7.0", "click-log==0.4.0", "edx-submissions==4.0.0", "webencodings==0.5.1",
-            "edx-opaque-keys==4.0.0", "snowballstemmer==3.0.1", "cryptography==47.0.0",
-            "packaging==26.2", "pylint-django==2.7.0", "certifi==2026.4.22", "chardet==7.4.3",
-            "django-model-utils==5.0.0", "six==1.17.0", "django-storages==1.14.6",
-            "edx-codejail==4.1.0"]'
+        list: '["pip-tools==7.5.3", "alabaster==1.0.0", "six==1.17.0", "semantic-version==2.10.0",
+            "ddt==1.7.2", "path==17.1.1", "idna==3.13", "pytest==9.0.3", "wrapt==2.1.2",
+            "pynacl==1.6.2", "beautifulsoup4==4.14.3", "html5lib==1.1", "django-storages==1.14.6",
+            "soupsieve==2.8.3", "pysrt==1.1.2", "chem==2.0.0", "pycodestyle==2.14.0",
+            "django-waffle==5.0.0", "virtualenv==21.3.0", "cffi==2.0.0", "typing-extensions==4.15.0",
+            "xblock==6.1.0", "isort==8.0.1", "sphinxcontrib-serializinghtml==2.0.0",
+            "random2==1.0.2", "click-log==0.4.0", "pymongo==4.17.0", "cryptography==47.0.0",
+            "django-crum==0.7.9", "psutil==7.2.2", "cachetools==7.1.1", "appdirs==1.4.4",
+            "pytest-cov==7.1.0", "nltk==3.9.4", "roman-numerals==4.1.0", "edx-submissions==4.0.0",
+            "jinja2==3.1.6", "tomli-w==1.2.0", "simplejson==4.1.1", "tomlkit==0.14.0",
+            "accessible-pygments==0.0.5", "imagesize==2.0.0", "python-discovery==1.2.2",
+            "edxval==4.0.0", "asgiref==3.11.1", "pylint-celery==0.3", "markupsafe==3.0.3",
+            "lxml==6.1.0", "chardet==7.4.3", "pyproject-api==1.10.0", "tqdm==4.67.3",
+            "edx-toggles==6.0.0", "pyjwt[crypto]==2.12.1", "pylint==4.0.5", "tox==4.53.1",
+            "sphinxcontrib-devhelp==2.0.0", "joblib==1.5.3", "pytz==2026.1.post1",
+            "edx-opaque-keys==4.0.0", "python-dateutil==2.9.0.post0", "edx-django-utils==8.0.1",
+            "dnspython==2.8.0", "sphinxcontrib-qthelp==2.0.0", "pytest-django==4.12.0",
+            "edx-lint==6.1.0", "dill==0.4.1", "build==1.5.0", "docutils==0.21.2",
+            "python-slugify==8.0.4", "web-fragments==4.0.0", "pygments==2.20.0", "platformdirs==4.9.6",
+            "sphinxcontrib-htmlhelp==2.1.0", "astroid==4.0.4", "edx-django-release-util==1.5.0",
+            "filelock==3.29.0", "mccabe==0.7.0", "stevedore==5.7.0", "wheel==0.47.0",
+            "sphinx-book-theme==1.2.0", "coverage[toml]==7.13.5", "distlib==0.4.0",
+            "doc8==2.0.0", "numpy==2.4.4", "sphinxcontrib-applehelp==2.0.0", "webencodings==0.5.1",
+            "restructuredtext-lint==2.0.2", "scipy==1.17.1", "mako==1.3.12", "pluggy==1.6.0",
+            "text-unidecode==1.3", "certifi==2026.4.22", "pyproject-hooks==1.2.0",
+            "babel==2.18.0", "requests==2.33.1", "sqlparse==0.5.5", "iniconfig==2.3.0",
+            "pydata-sphinx-theme==0.16.1", "pylint-plugin-utils==0.9.0", "sympy==1.14.0",
+            "charset-normalizer==3.4.7", "drf-jwt==1.19.2", "click==8.3.3", "jsonfield==3.2.0",
+            "setuptools==80.9.0", "pydocstyle==6.3.0", "openedx-calc==5.0.0", "sphinx==9.1.0",
+            "code-annotations==3.0.0", "djangorestframework==3.17.1", "sphinxcontrib-jsmath==1.0.1",
+            "regex==2026.4.4", "pillow==12.2.0", "colorama==0.4.6", "pylint-django==2.7.0",
+            "django-model-utils==5.0.0", "mpmath==1.3.0", "defusedxml==0.7.1", "webob==1.8.9",
+            "packaging==26.2", "edx-codejail==4.1.0", "oauthlib==3.3.1", "pycparser==3.0",
+            "shapely==2.1.2", "urllib3==2.6.3", "django==5.2.13", "pip==26.1", "edx-drf-extensions==10.6.0",
+            "fs==2.4.16", "nh3==0.3.5", "pyyaml==6.0.3", "pyparsing==3.3.2", "snowballstemmer==3.0.1"]'
 django_packages:
     django_42:
         count: 15
-        list: '["pylint-django", "edx-django-release-util", "edxval", "django-waffle",
-            "edx-opaque-keys", "edx-drf-extensions", "web-fragments", "code-annotations",
-            "edx-submissions", "edx-toggles", "djangorestframework", "pytest-django",
-            "edx-django-utils", "xblock", "django-storages"]'
+        list: '["edx-django-utils", "web-fragments", "pylint-django", "django-storages",
+            "edxval", "pytest-django", "edx-submissions", "code-annotations", "xblock",
+            "django-waffle", "edx-drf-extensions", "edx-django-release-util", "edx-toggles",
+            "djangorestframework", "edx-opaque-keys"]'
     total:
         count: 19
-        list: '["edxval", "djangorestframework", "web-fragments", "pylint-django",
-            "django-waffle", "edx-toggles", "edx-drf-extensions", "code-annotations",
-            "drf-jwt", "pytest-django", "edx-django-utils", "django-crum", "django-model-utils",
-            "edx-django-release-util", "edx-submissions", "edx-opaque-keys", "xblock",
-            "jsonfield", "django-storages"]'
+        list: '["web-fragments", "edxval", "pytest-django", "edx-submissions", "code-annotations",
+            "drf-jwt", "django-waffle", "edx-django-utils", "edx-toggles", "edx-django-release-util",
+            "djangorestframework", "django-model-utils", "django-storages", "xblock",
+            "jsonfield", "edx-drf-extensions", "pylint-django", "edx-opaque-keys",
+            "django-crum"]'
     upgraded:
         count: 11
-        list: '["edx-django-release-util", "edxval", "django-waffle", "edx-opaque-keys",
-            "edx-drf-extensions", "web-fragments", "code-annotations", "edx-submissions",
-            "edx-toggles", "edx-django-utils", "xblock"]'
+        list: '["edx-django-utils", "web-fragments", "edxval", "edx-submissions",
+            "code-annotations", "xblock", "django-waffle", "edx-drf-extensions", "edx-django-release-util",
+            "edx-toggles", "edx-opaque-keys"]'
 docs:
     build_badge: false
     python_version: null
@@ -125,29 +125,30 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 6
-    build_details: '{"total_duration": "368 minutes 30 seconds", "checks": [{"name":
-        "Analyze (javascript-typescript)", "duration": "2 minutes 3 seconds"}, {"name":
-        "Run JavaScript Tests (24)", "duration": "1 minutes 37 seconds"}, {"name":
-        "Run Python Tests and Coverage (3.12, docs)", "duration": "1 minutes 28 seconds"},
-        {"name": "Run Python Tests and Coverage (3.12, django42)", "duration": "1
-        minutes 28 seconds"}, {"name": "Run Python Tests and Coverage (3.12, django52)",
-        "duration": "1 minutes 27 seconds"}, {"name": "Run Python Tests and Coverage
-        (3.12, quality)", "duration": "1 minutes 23 seconds"}, {"name": "Analyze (python)",
-        "duration": "1 minutes 14 seconds"}, {"name": "update-pip-graph", "duration":
-        "0 minutes 40 seconds"}, {"name": "Analyze (actions)", "duration": "0 minutes
-        38 seconds"}, {"name": "routeissue / add_label", "duration": "0 minutes 0
-        seconds"}, {"name": "routeissue / add_and_notify", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+    branch_count: 7
+    build_details: '{"total_duration": "756 minutes 7 seconds", "checks": [{"name":
+        "Analyze (javascript-typescript)", "duration": "1 minutes 42 seconds"}, {"name":
+        "Run JavaScript Tests (24)", "duration": "1 minutes 40 seconds"}, {"name":
+        "Run Python Tests and Coverage (3.12, quality)", "duration": "1 minutes 27
+        seconds"}, {"name": "Run Python Tests and Coverage (3.12, django42)", "duration":
+        "1 minutes 21 seconds"}, {"name": "Run Python Tests and Coverage (3.12, django52)",
+        "duration": "1 minutes 20 seconds"}, {"name": "Run Python Tests and Coverage
+        (3.12, docs)", "duration": "1 minutes 16 seconds"}, {"name": "Analyze (python)",
+        "duration": "1 minutes 7 seconds"}, {"name": "Analyze (actions)", "duration":
+        "0 minutes 39 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
+        37 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
         "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}]}'
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2024-06-26 15:14:53
     default_branch: main
     description: ''
-    disk_usage_kb: 22197
-    fork_count: 6
+    disk_usage_kb: 22074
+    fork_count: 7
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -155,7 +156,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 10:05:02
+    last_push: 2026-05-04 20:04:05
     license: GNU AGPLv3
     pulls_count: 2
 github_actions: false
@@ -165,7 +166,7 @@ language_bytes:
     html: 1373326
     javascript: 1707755
     makefile: 5025
-    python: 1694974
+    python: 1699706
     shell: 0
 makefile:
     pip-installed: false
@@ -181,7 +182,10 @@ org_name: openedx
 pinned_python_dependencies: 1
 readme:
     bad_links:
-    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: 403'
+    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: HTTPSConnectionPool(host=''www.gnu.org'',
+        port=443): Max retries exceeded with url: /software/gettext/manual/html_node/PO-Files.html
+        (Caused by NewConnectionError("HTTPSConnection(host=''www.gnu.org'', port=443):
+        Failed to establish a new connection: [Errno 101] Network is unreachable"))'
     getting-help: false
     good_links:
     - https://github.com/openedx/xblocks-extra

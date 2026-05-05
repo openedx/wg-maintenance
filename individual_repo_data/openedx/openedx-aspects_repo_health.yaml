@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,16 +62,16 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 14
-    build_details: '{"total_duration": "277 minutes 48 seconds", "checks": [{"name":
+    branch_count: 15
+    build_details: '{"total_duration": "1202 minutes 25 seconds", "checks": [{"name":
         "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 47 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
-        44 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42 seconds"}]}'
+        "1 minutes 14 seconds"}, {"name": "Dependabot", "duration": "0 minutes 22
+        seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-01-05 19:08:37
     default_branch: main
     description: Aspects - Analytics for Open edX
-    disk_usage_kb: 6170
+    disk_usage_kb: 6177
     fork_count: 10
     has_issues: true
     has_wiki: false
@@ -80,7 +80,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 14:24:43
+    last_push: 2026-04-30 18:32:25
     license: Apache License 2.0
     pulls_count: 1
 github_actions: false

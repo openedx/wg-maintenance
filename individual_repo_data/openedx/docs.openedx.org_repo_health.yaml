@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,43 +22,40 @@ dependencies:
         list: ''
     pypi:
         count: 53
-        list: '["sphinxcontrib-jsmath==1.0.1", "sphinx-design==0.7.0", "urllib3==2.6.3",
-            "sphinxcontrib-devhelp==2.0.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "fspath==20230629", "sphinx-tags==0.4",
-            "colorama==0.4.6", "typing-extensions==4.15.0", "linuxdoc==20240924",
-            "sphinxcontrib-youtube==1.5.0", "accessible-pygments==0.0.5", "markupsafe==3.0.3",
-            "charset-normalizer==3.4.7", "pyyaml==6.0.3", "mdit-py-plugins==0.5.0",
-            "sphinxext-rediraffe==0.3.0", "h11==0.16.0", "imagesize==2.0.0", "pygments==2.20.0",
-            "mdurl==0.1.2", "sphinxcontrib-applehelp==2.0.0", "sphinxcontrib-images==1.0.1",
-            "sphinxcontrib-qthelp==2.0.0", "certifi==2026.4.22", "babel==2.18.0",
-            "jinja2==3.1.6", "docutils==0.22.4", "starlette==1.0.0", "six==1.17.0",
-            "sphinx==9.1.0", "soupsieve==2.8.3", "sphinx-notfound-page==1.1.0", "markdown-it-py==4.0.0",
-            "click==8.3.3", "sphinx-autobuild==2025.8.25", "myst-parser==5.0.0", "watchfiles==1.1.1",
-            "requests==2.33.1", "websockets==16.0", "idna==3.13", "snowballstemmer==3.0.1",
-            "alabaster==1.0.0", "sphinx-book-theme==1.2.0", "roman-numerals==4.1.0",
-            "beautifulsoup4==4.14.3", "uvicorn==0.46.0", "sphinx-copybutton==0.5.2",
-            "sphinxemoji==0.3.2", "anyio==4.13.0", "pydata-sphinx-theme==0.16.1",
-            "packaging==26.2"]'
+        list: '["jinja2==3.1.6", "requests==2.33.1", "pydata-sphinx-theme==0.16.1",
+            "accessible-pygments==0.0.5", "idna==3.13", "markupsafe==3.0.3", "markdown-it-py==4.0.0",
+            "sphinx-copybutton==0.5.2", "pygments==2.20.0", "typing-extensions==4.15.0",
+            "sphinx-tags==0.4", "sphinx-design==0.7.0", "h11==0.16.0", "linuxdoc==20240924",
+            "sphinxcontrib-images==1.0.1", "babel==2.18.0", "docutils==0.22.4", "sphinxcontrib-applehelp==2.0.0",
+            "sphinxcontrib-devhelp==2.0.0", "snowballstemmer==3.0.1", "alabaster==1.0.0",
+            "sphinx==9.1.0", "sphinx-autobuild==2025.8.25", "sphinxcontrib-qthelp==2.0.0",
+            "sphinx-book-theme==1.2.0", "starlette==1.0.0", "click==8.3.3", "watchfiles==1.1.1",
+            "beautifulsoup4==4.14.3", "certifi==2026.4.22", "mdit-py-plugins==0.5.0",
+            "sphinxext-rediraffe==0.3.0", "mdurl==0.1.2", "myst-parser==5.0.0", "sphinx-notfound-page==1.1.0",
+            "sphinxcontrib-serializinghtml==2.0.0", "imagesize==2.0.0", "uvicorn==0.46.0",
+            "websockets==16.0", "anyio==4.13.0", "pyyaml==6.0.3", "six==1.17.0", "colorama==0.4.6",
+            "sphinxcontrib-jsmath==1.0.1", "fspath==20230629", "soupsieve==2.8.3",
+            "sphinxemoji==0.3.2", "urllib3==2.6.3", "packaging==26.2", "charset-normalizer==3.4.7",
+            "roman-numerals==4.1.0", "sphinxcontrib-htmlhelp==2.1.0", "sphinxcontrib-youtube==1.5.0"]'
     pypi_all:
         count: 59
-        list: '["sphinxcontrib-jsmath==1.0.1", "sphinx-design==0.7.0", "urllib3==2.6.3",
-            "sphinxcontrib-devhelp==2.0.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "fspath==20230629", "sphinx-tags==0.4",
-            "colorama==0.4.6", "typing-extensions==4.15.0", "linuxdoc==20240924",
-            "wheel==0.47.0", "accessible-pygments==0.0.5", "sphinxcontrib-youtube==1.5.0",
-            "pip==26.0.1", "setuptools==82.0.1", "markupsafe==3.0.3", "charset-normalizer==3.4.7",
-            "pyyaml==6.0.3", "mdit-py-plugins==0.5.0", "sphinxext-rediraffe==0.3.0",
-            "h11==0.16.0", "imagesize==2.0.0", "pygments==2.20.0", "mdurl==0.1.2",
-            "sphinxcontrib-applehelp==2.0.0", "sphinxcontrib-images==1.0.1", "sphinxcontrib-qthelp==2.0.0",
-            "certifi==2026.4.22", "babel==2.18.0", "jinja2==3.1.6", "docutils==0.22.4",
-            "starlette==1.0.0", "six==1.17.0", "sphinx==9.1.0", "soupsieve==2.8.3",
-            "sphinx-notfound-page==1.1.0", "markdown-it-py==4.0.0", "click==8.3.3",
-            "sphinx-autobuild==2025.8.25", "myst-parser==5.0.0", "watchfiles==1.1.1",
-            "requests==2.33.1", "websockets==16.0", "idna==3.13", "snowballstemmer==3.0.1",
-            "pyproject-hooks==1.2.0", "build==1.4.4", "alabaster==1.0.0", "sphinx-book-theme==1.2.0",
-            "roman-numerals==4.1.0", "beautifulsoup4==4.14.3", "uvicorn==0.46.0",
-            "sphinx-copybutton==0.5.2", "pip-tools==7.5.3", "sphinxemoji==0.3.2",
-            "anyio==4.13.0", "pydata-sphinx-theme==0.16.1", "packaging==26.2"]'
+        list: '["jinja2==3.1.6", "requests==2.33.1", "pydata-sphinx-theme==0.16.1",
+            "accessible-pygments==0.0.5", "idna==3.13", "markupsafe==3.0.3", "markdown-it-py==4.0.0",
+            "sphinx-copybutton==0.5.2", "pygments==2.20.0", "typing-extensions==4.15.0",
+            "sphinx-tags==0.4", "sphinx-design==0.7.0", "h11==0.16.0", "linuxdoc==20240924",
+            "sphinxcontrib-images==1.0.1", "babel==2.18.0", "docutils==0.22.4", "sphinxcontrib-applehelp==2.0.0",
+            "sphinxcontrib-devhelp==2.0.0", "snowballstemmer==3.0.1", "alabaster==1.0.0",
+            "sphinx==9.1.0", "sphinx-autobuild==2025.8.25", "sphinxcontrib-qthelp==2.0.0",
+            "sphinx-book-theme==1.2.0", "pyproject-hooks==1.2.0", "starlette==1.0.0",
+            "click==8.3.3", "build==1.5.0", "watchfiles==1.1.1", "beautifulsoup4==4.14.3",
+            "certifi==2026.4.22", "mdit-py-plugins==0.5.0", "sphinxext-rediraffe==0.3.0",
+            "pip==26.1", "wheel==0.47.0", "mdurl==0.1.2", "myst-parser==5.0.0", "sphinx-notfound-page==1.1.0",
+            "pip-tools==7.5.3", "sphinxcontrib-serializinghtml==2.0.0", "imagesize==2.0.0",
+            "uvicorn==0.46.0", "websockets==16.0", "anyio==4.13.0", "pyyaml==6.0.3",
+            "six==1.17.0", "colorama==0.4.6", "sphinxcontrib-jsmath==1.0.1", "fspath==20230629",
+            "soupsieve==2.8.3", "sphinxemoji==0.3.2", "urllib3==2.6.3", "packaging==26.2",
+            "charset-normalizer==3.4.7", "roman-numerals==4.1.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "sphinxcontrib-youtube==1.5.0", "setuptools==82.0.1"]'
 django_packages:
     django_42:
         count: 0
@@ -95,14 +92,14 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
+    branch_count: 13
     build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
     created_at: 2022-03-14 18:35:37
     default_branch: main
     description: Open edX Official Documentation
-    disk_usage_kb: 185495
-    fork_count: 82
+    disk_usage_kb: 185538
+    fork_count: 83
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -110,17 +107,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 19:38:07
+    last_push: 2026-05-04 17:52:06
     license: Other
-    pulls_count: 3
+    pulls_count: 7
 github_actions: false
 language_bytes:
     css: 2585
     dockerfile: 0
     html: 1648
     javascript: 27894
-    makefile: 1736
-    python: 17035
+    makefile: 1875
+    python: 18673
     shell: 0
 makefile:
     pip-installed: true
@@ -144,6 +141,7 @@ readme:
     - https://docs.openedx.org/en/latest/documentors/quickstarts/update_doc_via_github.html
     - https://docs.openedx.org/en/latest/documentors/quickstarts/quick_start_add_doc.html
     - https://docs.openedx.org/en/latest/documentors/index.html
+    - https://github.com/openedx/.github/blob/master/AI_POLICY.md
     - https://docs.openedx.org/
     - https://github.com/openedx/docs.openedx.org
     - https://www.sphinx-doc.org/

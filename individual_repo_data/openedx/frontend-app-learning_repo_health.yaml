@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -13,7 +13,7 @@ dependencies:
         list: ''
     js:
         count: 38
-        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^2.0.0", "@edx/browserslist-config":
+        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.3", "@edx/browserslist-config":
             "1.5.1", "@edx/frontend-component-footer": "^14.6.0", "@edx/frontend-component-header":
             "^8.2.1", "@edx/frontend-lib-special-exams": "^4.0.0", "@edx/frontend-platform":
             "^8.7.0", "@edx/openedx-atlas": "^0.7.0", "@fortawesome/free-brands-svg-icons":
@@ -80,18 +80,22 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 90
-    build_details: '{"total_duration": "-1 minutes 59 seconds", "checks": [{"name":
-        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 53 seconds"}]}'
+    branch_count: 91
+    build_details: '{"total_duration": "2730 minutes 25 seconds", "checks": [{"name":
+        "tests", "duration": "4 minutes 40 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 3 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 8 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 3 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2019-04-30 20:28:43
     default_branch: master
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 20855
-    fork_count: 321
+    disk_usage_kb: 20861
+    fork_count: 322
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -99,9 +103,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 21:13:25
+    last_push: 2026-05-04 10:49:47
     license: GNU AGPLv3
-    pulls_count: 42
+    pulls_count: 44
 github_actions: false
 language_bytes:
     css: 128
@@ -154,6 +158,7 @@ readme:
     - https://openedx.org/community/connect
     - https://discuss.openedx.org
     - https://openedx.org/r/how-to-contribute
+    - https://github.com/openedx/.github/blob/master/AI_POLICY.md
     - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
@@ -165,8 +170,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-04-06'
-    oldest_open_pr_date: '2022-04-21'
-    total_open_prs: 5
+    oldest_open_pr_date: '2022-03-29'
+    total_open_prs: 9
 requires:
     boto: false
     django: false

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -7,14 +7,14 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 14
+    count: 15
     github:
         count: 0
         list: ''
     js:
-        count: 3
+        count: 4
         list: '{"@edx/openedx-atlas": "^0.7.0", "codemirror": "^6.0.2", "lodash":
-            "^4.17.23"}'
+            "^4.17.23", "react-helmet": "^6.1.0"}'
     js.all:
         count: 0
         list: '{}'
@@ -68,22 +68,17 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "375 minutes 40 seconds", "checks": [{"name":
-        "test", "duration": "2 minutes 26 seconds"}, {"name": "Release", "duration":
-        "0 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+    build_details: '{"total_duration": "2 minutes 34 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 28 seconds"}, {"name": "Release", "duration":
+        "1 minutes 17 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}]}'
+        "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-08-21 12:52:46
     default_branch: main
     description: Instructor Dashboard pages in MFE-land
-    disk_usage_kb: 1116
+    disk_usage_kb: 1566
     fork_count: 10
     has_issues: true
     has_wiki: false
@@ -92,9 +87,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 22:44:12
+    last_push: 2026-05-04 21:33:09
     license: GNU AGPLv3
-    pulls_count: 1
+    pulls_count: 0
 github_actions: true
 language_bytes:
     css: 0
@@ -121,7 +116,6 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-instructor-dashboard:
         404'
     getting-help: true
@@ -136,6 +130,7 @@ readme:
     - https://github.com/openedx/frontend-app-instructor-dashboard/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
