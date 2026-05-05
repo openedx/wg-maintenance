@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,19 +62,15 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 4
-    build_details: '{"total_duration": "18504 minutes 24 seconds", "checks": [{"name":
-        "Release", "duration": "3 minutes 17 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 25 seconds"}, {"name": "Dependabot", "duration": "0 minutes 25
-        seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration": "0
-        minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}]}'
+    branch_count: 5
+    build_details: '{"total_duration": "6106 minutes 42 seconds", "checks": [{"name":
+        "Release", "duration": "3 minutes 58 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 24 seconds"}]}'
     code_of_conduct: Other
     created_at: 2020-09-08 20:23:21
     default_branch: master
     description: ''
-    disk_usage_kb: 165
+    disk_usage_kb: 172
     fork_count: 206
     has_issues: true
     has_wiki: false
@@ -83,7 +79,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-14 20:05:09
+    last_push: 2026-04-30 11:49:04
     license: GNU AGPLv3
     pulls_count: 0
 github_actions: false
@@ -113,8 +109,7 @@ readme:
     good_links:
     - https://github.com/edx/brand
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/architectural-decisions/oep-0048-brand-customization.html
-    - https://github.com/openedx/paragon
-    - https://github.com/openedx/paragon/blob/master/scss/core/_variables.scss
+    - https://styledictionary.com/
     irc-missing: true
     mailing-list-missing: true
     security: false

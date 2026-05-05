@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,22 +63,23 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "10183 minutes 4 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "4912 minutes 21 seconds", "checks": [{"name":
+        "routeissue / add_and_notify", "duration": "0 minutes 5 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "routeissue / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name":
         "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
-        / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
         / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2021-11-22 21:15:52

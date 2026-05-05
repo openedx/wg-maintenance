@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,16 +62,26 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 3
-    build_details: '{"total_duration": "2 minutes 41 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 16 seconds"}, {"name": "Test (Python 3.12,
-        Django 4.2)", "duration": "0 minutes 23 seconds"}, {"name": "Test (Python
-        3.12, Django 5.2)", "duration": "0 minutes 20 seconds"}, {"name": "run_ci
-        / Test (Python 3.12, Django 4.2)", "duration": "0 minutes 18 seconds"}, {"name":
-        "run_ci / Test (Python 3.12, Django 5.2)", "duration": "0 minutes 17 seconds"},
-        {"name": "run_ci / Lint", "duration": "0 minutes 13 seconds"}, {"name": "Lint",
-        "duration": "0 minutes 11 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 0 seconds"}]}'
+    branch_count: 4
+    build_details: '{"total_duration": "10693 minutes 45 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 16 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 52 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 41 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 34 seconds"}, {"name": "Test (Python 3.12, Django 4.2)",
+        "duration": "0 minutes 23 seconds"}, {"name": "Test (Python 3.12, Django 5.2)",
+        "duration": "0 minutes 20 seconds"}, {"name": "run_ci / Test (Python 3.12,
+        Django 4.2)", "duration": "0 minutes 18 seconds"}, {"name": "run_ci / Test
+        (Python 3.12, Django 5.2)", "duration": "0 minutes 17 seconds"}, {"name":
+        "run_ci / Lint", "duration": "0 minutes 13 seconds"}, {"name": "Lint", "duration":
+        "0 minutes 11 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}, {"name": "routeissue / add_and_notify", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 59 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 51 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-04-17 17:54:17
     default_branch: main
@@ -85,9 +95,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 07:25:16
+    last_push: 2026-05-04 16:57:15
     license: GNU AGPLv3
-    pulls_count: 1
+    pulls_count: 2
 github_actions: true
 language_bytes:
     css: 6275

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,20 +22,21 @@ dependencies:
         list: ''
     pypi:
         count: 16
-        list: '["django==5.2.13", "dill==0.4.1", "packaging==26.1", "mccabe==0.7.0",
-            "platformdirs==4.9.6", "tomlkit==0.14.0", "asgiref==3.11.1", "iniconfig==2.3.0",
-            "pluggy==1.6.0", "pygments==2.20.0", "astroid==4.0.4", "pycodestyle==2.14.0",
-            "sqlparse==0.5.5", "isort==8.0.1", "pytest==9.0.3", "pylint==4.0.5"]'
+        list: '["mccabe==0.7.0", "pycodestyle==2.14.0", "astroid==4.0.4", "tomlkit==0.14.0",
+            "django==5.2.13", "isort==8.0.1", "pluggy==1.6.0", "pytest==9.0.3", "iniconfig==2.3.0",
+            "platformdirs==4.9.6", "packaging==26.1", "sqlparse==0.5.5", "pygments==2.20.0",
+            "dill==0.4.1", "pylint==4.0.5", "asgiref==3.11.1"]'
     pypi_all:
         count: 34
-        list: '["colorama==0.4.6", "platformdirs==4.9.6", "iniconfig==2.3.0", "pluggy==1.6.0",
-            "pygments==2.20.0", "pip==26.0.1", "filelock==3.29.0", "python-discovery==1.2.2",
-            "virtualenv==21.2.4", "pyproject-hooks==1.2.0", "packaging==26.1", "tomlkit==0.14.0",
-            "astroid==4.0.4", "click==8.3.2", "numpy==2.4.4", "django==5.2.13", "mccabe==0.7.0",
-            "six==1.17.0", "pip-tools==7.5.3", "tomli-w==1.2.0", "isort==8.0.1", "distlib==0.4.0",
-            "pylint==4.0.5", "wheel==0.46.3", "dill==0.4.1", "pyproject-api==1.10.0",
-            "asgiref==3.11.1", "cachetools==7.0.5", "setuptools==82.0.1", "pycodestyle==2.14.0",
-            "build==1.4.3", "sqlparse==0.5.5", "pytest==9.0.3", "tox==4.53.0"]'
+        list: '["setuptools==82.0.1", "build==1.4.3", "pytest==9.0.3", "isort==8.0.1",
+            "numpy==2.4.4", "pyproject-hooks==1.2.0", "packaging==26.1", "sqlparse==0.5.5",
+            "dill==0.4.1", "wheel==0.46.3", "tox==4.53.0", "virtualenv==21.2.4", "tomli-w==1.2.0",
+            "django==5.2.13", "pip==26.0.1", "pip-tools==7.5.3", "pylint==4.0.5",
+            "click==8.3.2", "colorama==0.4.6", "asgiref==3.11.1", "astroid==4.0.4",
+            "python-discovery==1.2.2", "tomlkit==0.14.0", "pluggy==1.6.0", "iniconfig==2.3.0",
+            "six==1.17.0", "pygments==2.20.0", "mccabe==0.7.0", "pycodestyle==2.14.0",
+            "pyproject-api==1.10.0", "cachetools==7.0.5", "filelock==3.29.0", "distlib==0.4.0",
+            "platformdirs==4.9.6"]'
 django_packages:
     django_42:
         count: 0
@@ -73,18 +74,23 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 12
-    build_details: '{"total_duration": "9712 minutes 23 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "19282 minutes 16 seconds", "checks": [{"name":
         "tests (3.12, 22.04, django42)", "duration": "2 minutes 14 seconds"}, {"name":
         "tests (3.12, 22.04, django52)", "duration": "2 minutes 11 seconds"}, {"name":
         "tests (3.12, 24.04, django52)", "duration": "2 minutes 2 seconds"}, {"name":
         "tests (3.12, 24.04, django42)", "duration": "1 minutes 52 seconds"}, {"name":
         "tests (quality, 24.04, 3.12)", "duration": "1 minutes 42 seconds"}, {"name":
         "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 50 seconds"}, {"name": "Dependabot", "duration": "0 minutes 27
-        seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration": "0
-        minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}]}'
+        "1 minutes 8 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 50 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 27 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2013-04-26 20:48:06
     default_branch: master
@@ -98,7 +104,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 00:09:38
+    last_push: 2026-05-04 00:13:50
     license: Apache License 2.0
     pulls_count: 2
 github_actions: true
@@ -167,15 +173,15 @@ travis_yml:
 ubuntu_packages:
     apt_get_packages: []
     docker_packages:
-    - software-properties-common
-    - curl
-    - sudo
-    - git
-    - python${python_version}
-    - make
-    - vim
-    - python3-distutils
     - python${python_version}-venv
-    - build-essential
     - python${python_version}-dev
+    - git
+    - vim
+    - make
+    - software-properties-common
+    - python${python_version}
+    - build-essential
+    - python3-distutils
+    - sudo
+    - curl
     yml_files: '[]'

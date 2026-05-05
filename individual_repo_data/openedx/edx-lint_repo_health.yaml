@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,27 +22,26 @@ dependencies:
         list: ''
     pypi:
         count: 20
-        list: '["pylint-plugin-utils==0.9.0", "markupsafe==3.0.3", "platformdirs==4.9.6",
-            "isort==8.0.1", "click-log==0.4.0", "mccabe==0.7.0", "tomlkit==0.14.0",
-            "astroid==4.0.4", "stevedore==5.7.0", "text-unidecode==1.3", "pylint-celery==0.3",
-            "python-slugify==8.0.4", "six==1.17.0", "pylint-django==2.7.0", "jinja2==3.1.6",
-            "code-annotations==3.0.0", "pyyaml==6.0.3", "dill==0.4.1", "pylint==4.0.5",
-            "click==8.3.3"]'
+        list: '["click-log==0.4.0", "click==8.3.3", "tomlkit==0.14.0", "pylint-django==2.7.0",
+            "isort==8.0.1", "dill==0.4.1", "pyyaml==6.0.3", "text-unidecode==1.3",
+            "markupsafe==3.0.3", "jinja2==3.1.6", "python-slugify==8.0.4", "astroid==4.0.4",
+            "pylint-celery==0.3", "platformdirs==4.9.6", "six==1.17.0", "code-annotations==3.0.0",
+            "mccabe==0.7.0", "pylint==4.0.5", "pylint-plugin-utils==0.9.0", "stevedore==5.7.0"]'
     pypi_all:
         count: 49
-        list: '["python-discovery==1.2.2", "tox==3.28.0", "pytest==9.0.3", "cachetools==7.0.6",
-            "pylint-plugin-utils==0.9.0", "py==1.11.0", "pip-tools==7.5.3", "markupsafe==3.0.3",
-            "platformdirs==4.9.6", "setuptools==82.0.1", "build==1.4.4", "filelock==3.29.0",
-            "setuptools==79.0.0", "pip==26.0.1", "sqlparse==0.5.5", "coverage==7.13.5",
-            "pygments==2.20.0", "isort==8.0.1", "click-log==0.4.0", "pyproject-api==1.10.0",
-            "mccabe==0.7.0", "tomlkit==0.14.0", "pyproject-hooks==1.2.0", "pip==24.2",
-            "tox-battery==0.6.2", "astroid==4.0.4", "virtualenv==21.2.4", "stevedore==5.7.0",
-            "colorama==0.4.6", "text-unidecode==1.3", "wheel==0.45.1", "pylint-celery==0.3",
-            "iniconfig==2.3.0", "pluggy==1.6.0", "distlib==0.4.0", "wheel==0.47.0",
-            "packaging==26.1", "tomli-w==1.2.0", "python-slugify==8.0.4", "six==1.17.0",
-            "tox==4.53.0", "pylint-django==2.7.0", "asgiref==3.11.1", "jinja2==3.1.6",
-            "code-annotations==3.0.0", "pyyaml==6.0.3", "dill==0.4.1", "pylint==4.0.5",
-            "click==8.3.3"]'
+        list: '["py==1.11.0", "tox-battery==0.6.2", "tox==4.53.0", "pluggy==1.6.0",
+            "python-discovery==1.2.2", "tomli-w==1.2.0", "click-log==0.4.0", "click==8.3.3",
+            "tomlkit==0.14.0", "filelock==3.29.0", "pyproject-hooks==1.2.0", "wheel==0.45.1",
+            "pylint-django==2.7.0", "build==1.4.4", "wheel==0.47.0", "distlib==0.4.0",
+            "isort==8.0.1", "dill==0.4.1", "pyyaml==6.0.3", "text-unidecode==1.3",
+            "asgiref==3.11.1", "virtualenv==21.2.4", "pytest==9.0.3", "packaging==26.1",
+            "markupsafe==3.0.3", "pygments==2.20.0", "jinja2==3.1.6", "setuptools==82.0.1",
+            "python-slugify==8.0.4", "cachetools==7.0.6", "astroid==4.0.4", "iniconfig==2.3.0",
+            "pylint-celery==0.3", "pip==24.2", "setuptools==79.0.0", "sqlparse==0.5.5",
+            "platformdirs==4.9.6", "colorama==0.4.6", "coverage==7.13.5", "six==1.17.0",
+            "pip==26.0.1", "code-annotations==3.0.0", "mccabe==0.7.0", "pylint==4.0.5",
+            "pylint-plugin-utils==0.9.0", "stevedore==5.7.0", "pyproject-api==1.10.0",
+            "tox==3.28.0", "pip-tools==7.5.3"]'
 django_packages:
     django_42:
         count: 2
@@ -80,17 +79,27 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 29
-    build_details: '{"total_duration": "1 minutes 1 seconds", "checks": [{"name":
-        "tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 45 seconds"},
-        {"name": "update-pip-graph", "duration": "0 minutes 41 seconds"}, {"name":
-        "tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 40 seconds"},
-        {"name": "tests (ubuntu-latest, 3.12, pylint)", "duration": "0 minutes 38
-        seconds"}, {"name": "push", "duration": "0 minutes 17 seconds"}]}'
+    build_details: '{"total_duration": "9496 minutes 51 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 3 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)",
+        "duration": "0 minutes 45 seconds"}, {"name": "update-pip-graph", "duration":
+        "0 minutes 41 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django42)",
+        "duration": "0 minutes 40 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
+        pylint)", "duration": "0 minutes 38 seconds"}, {"name": "push", "duration":
+        "0 minutes 17 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     created_at: 2015-01-29 05:14:33
     default_branch: master
     description: Custom tooling for pylint and other repo management tools
-    disk_usage_kb: 2351
+    disk_usage_kb: 2350
     fork_count: 29
     has_issues: true
     has_wiki: false
@@ -99,7 +108,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 14:04:44
+    last_push: 2026-05-04 04:20:50
     license: Apache License 2.0
     pulls_count: 13
 github_actions: true
@@ -124,11 +133,11 @@ npm_package: ''
 org_name: openedx
 pinned_python_dependencies: 1
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://open.edx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
-    - https://open.edx.org/getting-help
     - https://github.com/openedx/edx-lint/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/edx-lint/actions?query=workflow%3A%22Python+CI%22
     irc-missing: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -103,8 +103,8 @@ github:
     created_at: 2018-05-10 13:44:58
     default_branch: master
     description: edx-portal is a frontend that provides branded learning experiences.
-    disk_usage_kb: 26513
-    fork_count: 41
+    disk_usage_kb: 26775
+    fork_count: 43
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -112,7 +112,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 00:58:16
+    last_push: 2026-04-29 10:08:56
     license: GNU AGPLv3
     pulls_count: 54
 github_actions: true
@@ -162,8 +162,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-02-07'
-    oldest_open_pr_date: '2025-02-04'
-    total_open_prs: 5
+    oldest_open_pr_date: '2024-05-22'
+    total_open_prs: 6
 requires:
     boto: false
     django: false

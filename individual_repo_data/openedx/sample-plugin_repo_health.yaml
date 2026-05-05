@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -62,24 +62,27 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 1
-    build_details: '{"total_duration": "15 minutes 18 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 31 seconds"}, {"name": "publish_to_npm",
-        "duration": "1 minutes 8 seconds"}, {"name": "update-uv-graph", "duration":
-        "0 minutes 59 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
-        3.12, django52)", "duration": "0 minutes 28 seconds"}, {"name": "run_backend_tests
-        / tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 27 seconds"},
-        {"name": "run_backend_tests / tests (ubuntu-latest, 3.12, django60)", "duration":
+    branch_count: 2
+    build_details: '{"total_duration": "5 minutes 1 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 5 seconds"}, {"name": "run_backend_tests
+        / tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 27 seconds"},
+        {"name": "run_backend_tests / tests (ubuntu-latest, 3.12, docs)", "duration":
         "0 minutes 26 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 24 seconds"}, {"name": "run_backend_tests
-        / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes 17 seconds"},
-        {"name": "publish_tutor_plugin_to_pypi", "duration": "0 minutes 16 seconds"},
-        {"name": "publish_to_pypi", "duration": "0 minutes 14 seconds"}]}'
+        3.12, quality)", "duration": "0 minutes 25 seconds"}, {"name": "run_backend_tests
+        / tests (ubuntu-latest, 3.12, django60)", "duration": "0 minutes 25 seconds"},
+        {"name": "run_backend_tests / tests (ubuntu-latest, 3.12, pii_check)", "duration":
+        "0 minutes 12 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "publish_tutor_plugin_to_pypi",
+        "duration": "-1 minutes 59 seconds"}, {"name": "publish_to_pypi", "duration":
+        "-1 minutes 59 seconds"}, {"name": "publish_to_npm", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
+        53 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-03-21 17:45:40
     default_branch: main
     description: ''
-    disk_usage_kb: 614
+    disk_usage_kb: 653
     fork_count: 1
     has_issues: true
     has_wiki: false
@@ -88,9 +91,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 15:11:31
+    last_push: 2026-05-04 20:35:59
     license: null
-    pulls_count: 0
+    pulls_count: 1
 github_actions: false
 language_bytes:
     css: 0
@@ -98,7 +101,7 @@ language_bytes:
     html: 873
     javascript: 9672
     makefile: 12032
-    python: 79949
+    python: 80293
     shell: 0
 makefile:
     pip-installed: false

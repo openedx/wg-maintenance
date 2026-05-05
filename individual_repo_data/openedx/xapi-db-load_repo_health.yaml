@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,52 +22,51 @@ dependencies:
         list: ''
     pypi:
         count: 27
-        list: '["s3transfer==0.16.1", "pyyaml==6.0.3", "zstandard==0.25.0", "pyarrow==24.0.0",
-            "pandas==3.0.2", "botocore==1.42.96", "wcwidth==0.6.0", "urwid==4.0.0",
-            "click==8.3.3", "six==1.17.0", "lz4==4.4.5", "requests==2.33.1", "smart-open[s3]==7.6.0",
-            "pytz==2026.1.post1", "idna==3.13", "numpy==2.4.4", "python-dateutil==2.9.0.post0",
-            "urllib3==2.6.3", "boto3==1.42.96", "charset-normalizer==3.4.7", "uvloop==0.22.1",
-            "chdb-core==26.1.0", "certifi==2026.4.22", "chdb==4.1.6", "jmespath==1.1.0",
-            "clickhouse-connect==0.15.1", "wrapt==2.1.2"]'
+        list: '["charset-normalizer==3.4.7", "urllib3==2.6.3", "jmespath==1.1.0",
+            "smart-open[s3]==7.6.0", "wcwidth==0.7.0", "botocore==1.43.2", "pyyaml==6.0.3",
+            "chdb-core==26.1.0", "s3transfer==0.17.0", "click==8.3.3", "numpy==2.4.4",
+            "pandas==3.0.2", "chdb==4.1.6", "lz4==4.4.5", "requests==2.33.1", "python-dateutil==2.9.0.post0",
+            "six==1.17.0", "idna==3.13", "clickhouse-connect==0.15.1", "urwid==4.0.0",
+            "certifi==2026.4.22", "boto3==1.43.2", "zstandard==0.25.0", "wrapt==2.1.2",
+            "uvloop==0.22.1", "pyarrow==24.0.0", "pytz==2026.1.post1"]'
     pypi_all:
         count: 110
-        list: '["virtualenv==21.2.4", "stevedore==5.7.0", "packaging==26.2", "code-annotations==3.0.0",
-            "click-log==0.4.0", "jaraco-classes==3.4.0", "rfc3986==2.0.0", "isort==8.0.1",
-            "pylint-django==2.7.0", "sphinxcontrib-jsmath==1.0.1", "keyring==25.7.0",
-            "filelock==3.29.0", "requests-toolbelt==1.0.0", "botocore==1.42.96", "mdurl==0.1.2",
-            "build==1.4.4", "python-slugify==8.0.4", "accessible-pygments==0.0.5",
-            "urwid==4.0.0", "cachetools==7.0.6", "tox==4.53.0", "snowballstemmer==3.0.1",
-            "six==1.17.0", "pycodestyle==2.14.0", "chardet==7.4.3", "python-dateutil==2.9.0.post0",
-            "urllib3==2.6.3", "cryptography==47.0.0", "sphinx-book-theme==1.2.0",
-            "pytest==9.0.3", "wrapt==2.1.2", "docutils==0.22.4", "pyyaml==6.0.3",
-            "pluggy==1.6.0", "sphinxcontrib-serializinghtml==2.0.0", "python-discovery==1.2.2",
-            "sphinxcontrib-qthelp==2.0.0", "edx-lint==6.0.0", "pylint-celery==0.3",
-            "colorama==0.4.6", "alabaster==1.0.0", "distlib==0.4.0", "pylint-plugin-utils==0.9.0",
-            "pyproject-api==1.10.0", "markupsafe==3.0.3", "pip-tools==7.5.3", "setuptools==82.0.1",
-            "platformdirs==4.9.6", "pygments==2.20.0", "roman-numerals==4.1.0", "sphinxcontrib-applehelp==2.0.0",
-            "readme-renderer==44.0", "sphinx==9.1.0", "pip==26.1", "zstandard==0.25.0",
-            "babel==2.18.0", "jinja2==3.1.6", "pyproject-hooks==1.2.0", "wcwidth==0.6.0",
-            "coverage[toml]==7.13.5", "click==8.3.3", "nh3==0.3.5", "requests==2.33.1",
-            "idna==3.13", "text-unidecode==1.3", "boto3==1.42.96", "iniconfig==2.3.0",
-            "chdb-core==26.1.0", "chdb==4.1.6", "tomlkit==0.14.0", "mccabe==0.7.0",
-            "jaraco-context==6.1.2", "rich==15.0.0", "tomli-w==1.2.0", "twine==6.2.0",
-            "wheel==0.47.0", "beautifulsoup4==4.14.3", "s3transfer==0.16.1", "pydata-sphinx-theme==0.16.1",
-            "sphinxcontrib-devhelp==2.0.0", "pydocstyle==6.3.0", "diff-cover==10.2.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "pyarrow==24.0.0", "cffi==2.0.0", "pandas==3.0.2",
-            "pytest-cov==7.1.0", "soupsieve==2.8.3", "typing-extensions==4.15.0",
-            "markdown-it-py==4.0.0", "imagesize==2.0.0", "pycparser==3.0", "more-itertools==11.0.2",
-            "jaraco-functools==4.4.0", "pytest-asyncio==1.3.0", "dill==0.4.1", "lz4==4.4.5",
-            "smart-open[s3]==7.6.0", "pytz==2026.1.post1", "jeepney==0.9.0", "numpy==2.4.4",
-            "charset-normalizer==3.4.7", "uvloop==0.22.1", "id==1.6.1", "secretstorage==3.5.0",
-            "certifi==2026.4.22", "jmespath==1.1.0", "clickhouse-connect==0.15.1",
-            "astroid==4.0.4", "pylint==4.0.5"]'
+        list: '["imagesize==2.0.0", "wheel==0.47.0", "tomli-w==1.2.0", "snowballstemmer==3.0.1",
+            "edx-lint==6.1.0", "botocore==1.43.2", "requests-toolbelt==1.0.0", "isort==8.0.1",
+            "pylint-plugin-utils==0.9.0", "setuptools==82.0.1", "pytest==9.0.3", "accessible-pygments==0.0.5",
+            "pydata-sphinx-theme==0.16.1", "pip==26.1", "requests==2.33.1", "iniconfig==2.3.0",
+            "sphinxcontrib-jsmath==1.0.1", "rich==15.0.0", "dill==0.4.1", "coverage[toml]==7.13.5",
+            "cryptography==47.0.0", "chardet==7.4.3", "click-log==0.4.0", "cffi==2.0.0",
+            "text-unidecode==1.3", "soupsieve==2.8.3", "more-itertools==11.0.2", "nh3==0.3.5",
+            "charset-normalizer==3.4.7", "pycodestyle==2.14.0", "alabaster==1.0.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "jaraco-context==6.1.2", "wcwidth==0.7.0",
+            "id==1.6.1", "pyyaml==6.0.3", "pylint==4.0.5", "build==1.5.0", "s3transfer==0.17.0",
+            "click==8.3.3", "pip-tools==7.5.3", "code-annotations==3.0.0", "chdb==4.1.6",
+            "typing-extensions==4.15.0", "jaraco-functools==4.4.0", "beautifulsoup4==4.14.3",
+            "packaging==26.2", "sphinx-book-theme==1.2.0", "markupsafe==3.0.3", "clickhouse-connect==0.15.1",
+            "pycparser==3.0", "certifi==2026.4.22", "platformdirs==4.9.6", "wrapt==2.1.2",
+            "stevedore==5.7.0", "mccabe==0.7.0", "pylint-celery==0.3", "jmespath==1.1.0",
+            "colorama==0.4.6", "tox==4.53.1", "sphinxcontrib-serializinghtml==2.0.0",
+            "sphinxcontrib-applehelp==2.0.0", "babel==2.18.0", "jeepney==0.9.0", "mdurl==0.1.2",
+            "keyring==25.7.0", "roman-numerals==4.1.0", "chdb-core==26.1.0", "pandas==3.0.2",
+            "sphinx==9.1.0", "pyarrow==24.0.0", "tomlkit==0.14.0", "rfc3986==2.0.0",
+            "astroid==4.0.4", "sphinxcontrib-qthelp==2.0.0", "six==1.17.0", "filelock==3.29.0",
+            "idna==3.13", "urwid==4.0.0", "diff-cover==10.2.0", "jaraco-classes==3.4.0",
+            "pylint-django==2.7.0", "pygments==2.20.0", "secretstorage==3.5.0", "uvloop==0.22.1",
+            "cachetools==7.1.1", "urllib3==2.6.3", "pytest-asyncio==1.3.0", "smart-open[s3]==7.6.0",
+            "virtualenv==21.3.0", "pytest-cov==7.1.0", "pyproject-hooks==1.2.0", "readme-renderer==44.0",
+            "pydocstyle==6.3.0", "numpy==2.4.4", "pluggy==1.6.0", "docutils==0.22.4",
+            "sphinxcontrib-devhelp==2.0.0", "jinja2==3.1.6", "lz4==4.4.5", "distlib==0.4.0",
+            "python-dateutil==2.9.0.post0", "twine==6.2.0", "pyproject-api==1.10.0",
+            "markdown-it-py==4.0.0", "boto3==1.43.2", "python-discovery==1.2.2", "python-slugify==8.0.4",
+            "zstandard==0.25.0", "pytz==2026.1.post1"]'
 django_packages:
     django_42:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     total:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -98,15 +97,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 7
-    build_details: '{"total_duration": "871 minutes 52 seconds", "checks": [{"name":
-        "tests (3.12)", "duration": "1 minutes 10 seconds"}, {"name": "update-pip-graph",
+    build_details: '{"total_duration": "872 minutes 34 seconds", "checks": [{"name":
+        "tests (3.12)", "duration": "1 minutes 12 seconds"}, {"name": "update-pip-graph",
         "duration": "0 minutes 34 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 33 seconds"}]}'
+        minutes 26 seconds"}]}'
     code_of_conduct: Other
     created_at: 2022-11-21 15:37:46
     default_branch: main
     description: ''
-    disk_usage_kb: 5868
+    disk_usage_kb: 5880
     fork_count: 5
     has_issues: true
     has_wiki: false
@@ -115,7 +114,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-27 06:20:47
+    last_push: 2026-05-04 06:52:53
     license: GNU AGPLv3
     pulls_count: 0
 github_actions: true

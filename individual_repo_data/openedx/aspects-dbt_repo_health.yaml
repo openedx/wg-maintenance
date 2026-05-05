@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,22 +62,17 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 17
-    build_details: '{"total_duration": "48287 minutes 36 seconds", "checks": [{"name":
-        "Deploy dbt docs to github pages", "duration": "4 minutes 54 seconds"}, {"name":
-        "Check coverage & run tests", "duration": "2 minutes 35 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 34 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 34 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 31 seconds"}, {"name": "Dependabot", "duration": "0 minutes 30 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 22 seconds"}, {"name": "routeissue
-        / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
-        / add_label", "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 18
+    build_details: '{"total_duration": "6505 minutes 11 seconds", "checks": [{"name":
+        "Deploy dbt docs to github pages", "duration": "4 minutes 40 seconds"}, {"name":
+        "Check coverage & run tests", "duration": "2 minutes 44 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 27 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-05-24 17:11:54
     default_branch: main
     description: The dbt project for Open edX Aspects!
-    disk_usage_kb: 9547
-    fork_count: 8
+    disk_usage_kb: 9593
+    fork_count: 9
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -85,7 +80,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-03-24 17:05:50
+    last_push: 2026-04-30 15:38:50
     license: Apache License 2.0
     pulls_count: 1
 github_actions: false
@@ -163,19 +158,19 @@ travis_yml:
 ubuntu_packages:
     apt_get_packages: []
     docker_packages:
-    - git
-    - ssh-client
-    - make
-    - /var/tmp/*
-    - libpq-dev
-    - /tmp/*
-    - dist-
-    - software-properties-common
-    - clean
-    - unixodbc-dev
     - python-dev
-    - gcc
+    - make
+    - clean
+    - ssh-client
+    - git
     - build-essential
-    - ca-certificates
+    - /var/tmp/*
+    - dist-
+    - libpq-dev
+    - unixodbc-dev
+    - /tmp/*
     - libsasl2-dev
+    - ca-certificates
+    - software-properties-common
+    - gcc
     yml_files: '[]'

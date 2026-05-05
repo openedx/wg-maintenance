@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -129,7 +129,7 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2025-09-12'
+    last_pr: '2025-12-15'
     oldest_open_pr_date: null
     total_open_prs: 0
 requires:

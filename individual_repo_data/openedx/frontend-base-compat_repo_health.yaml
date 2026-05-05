@@ -1,25 +1,28 @@
 TIMESTAMP: 2026-05-05
 dependabot:
-    exists: true
+    exists: false
     has_ecosystem:
-        github-actions: true
+        github-actions: false
         npm: false
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 0
+    count: 11
     github:
         count: 0
         list: ''
     js:
         count: 0
-        list: ''
+        list: '{}'
     js.all:
         count: 0
-        list: ''
+        list: '{}'
     js.dev:
-        count: 0
-        list: ''
+        count: 11
+        list: '{"@openedx/frontend-base": "^1.0.0-alpha || 0.0.0-dev", "@testing-library/jest-dom":
+            "^6.9.1", "@testing-library/react": "^16.3.0", "@types/jest": "^29.5.14",
+            "@types/react": "^18", "@types/react-dom": "^18", "jest": "^29", "nodemon":
+            "^3.1.14", "react": "^18", "react-dom": "^18", "tsc-alias": "^1.8.16"}'
     pypi:
         count: 0
         list: ''
@@ -49,9 +52,9 @@ exists:
     Makefile: true
     README: true
     commitlint.yml: true
-    dependabot.yml: true
+    dependabot.yml: false
     openedx.yaml: false
-    package.json: false
+    package.json: true
     pylintrc: false
     requirements: false
     setup.cfg: false
@@ -62,44 +65,35 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
-    build_details: '{"total_duration": "8431 minutes 1 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 27 seconds"}, {"name": "source_and_tars_match",
-        "duration": "0 minutes 6 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 2
+    build_details: '{"total_duration": "268 minutes 15 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 6 seconds"}, {"name": "Release", "duration":
+        "0 minutes 41 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}]}'
     code_of_conduct: Other
-    created_at: 2013-09-30 15:54:46
-    default_branch: master
-    description: A demonstration course that can be imported into an Open edX instance
-    disk_usage_kb: 185402
-    fork_count: 72
+    created_at: 2026-05-02 22:17:10
+    default_branch: main
+    description: Compatibility shim that lets legacy frontend-plugin-framework env.config.jsx
+        files run on top of @openedx/frontend-base.
+    disk_usage_kb: 250
+    fork_count: 1
     has_issues: true
-    has_wiki: false
+    has_wiki: true
     is_archived: false
     is_disabled: false
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-30 15:38:24
+    last_push: 2026-05-04 16:00:20
     license: GNU AGPLv3
     pulls_count: 0
 github_actions: true
 language_bytes:
-    css: 226293
+    css: 0
     dockerfile: 0
-    html: 3278834
-    javascript: 246757
-    makefile: 1717
+    html: 0
+    javascript: 893
+    makefile: 157
     python: 0
     shell: 0
 makefile:
@@ -118,9 +112,7 @@ readme:
     bad_links: []
     getting-help: false
     good_links:
-    - https://apps.training.openedx.io/catalog/courses/course-v1
-    - https://training.openedx.io
-    - http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+    - https://github.com/openedx/frontend-base
     irc-missing: true
     mailing-list-missing: true
     security: false
@@ -129,10 +121,10 @@ readthedocs_config:
     file_name: ''
     version: ''
 renovate:
-    configured: false
+    configured: true
     last_pr: null
     oldest_open_pr_date: null
-    total_open_prs: null
+    total_open_prs: 0
 requires:
     boto: false
     django: false
