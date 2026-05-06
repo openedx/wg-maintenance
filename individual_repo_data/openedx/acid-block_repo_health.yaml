@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-04-28
+TIMESTAMP: 2026-05-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,31 +22,30 @@ dependencies:
         list: ''
     pypi:
         count: 14
-        list: '["lxml==6.0.2", "pytz==2025.2", "lazy==1.6", "mako==1.3.10", "fs==2.4.16",
-            "six==1.17.0", "web-fragments==3.1.0", "markupsafe==3.0.3", "webob==1.8.9",
-            "python-dateutil==2.9.0.post0", "pyyaml==6.0.3", "xblock==5.3.0", "appdirs==1.4.4",
-            "simplejson==3.20.2"]'
+        list: '["lxml==6.0.2", "pyyaml==6.0.3", "appdirs==1.4.4", "fs==2.4.16", "xblock==5.3.0",
+            "python-dateutil==2.9.0.post0", "simplejson==3.20.2", "pytz==2025.2",
+            "mako==1.3.10", "lazy==1.6", "markupsafe==3.0.3", "web-fragments==3.1.0",
+            "webob==1.8.9", "six==1.17.0"]'
     pypi_all:
         count: 45
-        list: '["lxml==6.0.2", "mccabe==0.7.0", "setuptools==80.9.0", "python-slugify==8.0.4",
-            "edx-lint==5.6.0", "code-annotations==2.3.0", "xblock==5.3.0", "pluggy==1.6.0",
-            "appdirs==1.4.4", "simplejson==3.20.2", "pip==25.3", "pyproject-hooks==1.2.0",
-            "mako==1.3.10", "jinja2==3.1.6", "pylint-plugin-utils==0.9.0", "astroid==4.0.3",
-            "pytest==9.0.2", "isort==7.0.0", "platformdirs==4.5.1", "text-unidecode==1.3",
-            "pylint==4.0.4", "fs==2.4.16", "web-fragments==3.1.0", "webob==1.8.9",
-            "markupsafe==3.0.3", "dill==0.4.0", "python-dateutil==2.9.0.post0", "stevedore==5.6.0",
-            "pytest-cov==7.0.0", "packaging==25.0", "coverage[toml]==7.13.1", "pytz==2025.2",
-            "lazy==1.6", "pip-tools==7.5.2", "iniconfig==2.3.0", "tomlkit==0.14.0",
-            "six==1.17.0", "click==8.3.1", "pylint-django==2.7.0", "pyyaml==6.0.3",
-            "click-log==0.4.0", "build==1.4.0", "pylint-celery==0.3", "wheel==0.45.1",
-            "pygments==2.19.2"]'
+        list: '["pyyaml==6.0.3", "appdirs==1.4.4", "pytest-cov==7.0.0", "packaging==25.0",
+            "python-dateutil==2.9.0.post0", "pip==25.3", "web-fragments==3.1.0", "python-slugify==8.0.4",
+            "click-log==0.4.0", "stevedore==5.6.0", "setuptools==80.9.0", "build==1.4.0",
+            "wheel==0.45.1", "platformdirs==4.5.1", "tomlkit==0.14.0", "pip-tools==7.5.2",
+            "pluggy==1.6.0", "pylint-django==2.7.0", "pytz==2025.2", "markupsafe==3.0.3",
+            "webob==1.8.9", "pylint==4.0.4", "text-unidecode==1.3", "pylint-plugin-utils==0.9.0",
+            "lxml==6.0.2", "pylint-celery==0.3", "iniconfig==2.3.0", "edx-lint==5.6.0",
+            "mccabe==0.7.0", "isort==7.0.0", "pyproject-hooks==1.2.0", "code-annotations==2.3.0",
+            "simplejson==3.20.2", "coverage[toml]==7.13.1", "jinja2==3.1.6", "pygments==2.19.2",
+            "dill==0.4.0", "fs==2.4.16", "xblock==5.3.0", "click==8.3.1", "pytest==9.0.2",
+            "astroid==4.0.3", "lazy==1.6", "mako==1.3.10", "six==1.17.0"]'
 django_packages:
     django_42:
         count: 4
-        list: '["pylint-django", "code-annotations", "web-fragments", "xblock"]'
+        list: '["code-annotations", "web-fragments", "xblock", "pylint-django"]'
     total:
         count: 4
-        list: '["pylint-django", "code-annotations", "web-fragments", "xblock"]'
+        list: '["code-annotations", "web-fragments", "xblock", "pylint-django"]'
     upgraded:
         count: 3
         list: '["code-annotations", "web-fragments", "xblock"]'
@@ -103,7 +102,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-28 03:43:42
+    last_push: 2026-05-05 03:41:38
     license: GNU AGPLv3
     pulls_count: 7
 github_actions: false

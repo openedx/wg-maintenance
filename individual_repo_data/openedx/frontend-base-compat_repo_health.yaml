@@ -7,19 +7,22 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 0
+    count: 11
     github:
         count: 0
         list: ''
     js:
         count: 0
-        list: ''
+        list: '{}'
     js.all:
         count: 0
-        list: ''
+        list: '{}'
     js.dev:
-        count: 0
-        list: ''
+        count: 11
+        list: '{"@openedx/frontend-base": "^1.0.0-alpha || 0.0.0-dev", "@testing-library/jest-dom":
+            "^6.9.1", "@testing-library/react": "^16.3.0", "@types/jest": "^29.5.14",
+            "@types/react": "^18", "@types/react-dom": "^18", "jest": "^29", "nodemon":
+            "^3.1.14", "react": "^18", "react-dom": "^18", "tsc-alias": "^1.8.16"}'
     pypi:
         count: 0
         list: ''
@@ -46,12 +49,12 @@ exists:
     .pii_annotations.yml: false
     .travis.yml: false
     CHANGELOG.rst: false
-    Makefile: false
+    Makefile: true
     README: true
     commitlint.yml: true
     dependabot.yml: false
     openedx.yaml: false
-    package.json: false
+    package.json: true
     pylintrc: false
     requirements: false
     setup.cfg: false
@@ -63,50 +66,34 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "5763 minutes 53 seconds", "checks": [{"name":
-        "call-repo-health-job-workflow / repo_health_check (3.12)", "duration": "60
-        minutes 13 seconds"}, {"name": "call-repo-health-job-workflow / repo_health_check
-        (3.12)", "duration": "43 minutes 48 seconds"}, {"name": "call-repo-health-job-workflow
-        / repo_health_check (3.12)", "duration": "42 minutes 42 seconds"}, {"name":
-        "call-repo-health-job-workflow / repo_health_check (3.12)", "duration": "42
-        minutes 6 seconds"}, {"name": "call-repo-health-job-workflow / repo_health_check
-        (3.12)", "duration": "0 minutes 44 seconds"}, {"name": "call-repo-health-job-workflow
-        / repo_health_check (3.12)", "duration": "0 minutes 41 seconds"}, {"name":
-        "call-repo-health-job-workflow / repo_health_check (3.12)", "duration": "0
-        minutes 39 seconds"}, {"name": "call-repo-health-job-workflow / repo_health_check
-        (3.12)", "duration": "0 minutes 38 seconds"}, {"name": "call-repo-health-job-workflow
-        / repo_health_check (3.12)", "duration": "0 minutes 36 seconds"}, {"name":
-        "set-default-inputs", "duration": "0 minutes 4 seconds"}, {"name": "set-default-inputs",
-        "duration": "0 minutes 4 seconds"}, {"name": "set-default-inputs", "duration":
-        "0 minutes 4 seconds"}, {"name": "set-default-inputs", "duration": "0 minutes
-        3 seconds"}, {"name": "set-default-inputs", "duration": "0 minutes 3 seconds"},
-        {"name": "set-default-inputs", "duration": "0 minutes 2 seconds"}, {"name":
-        "set-default-inputs", "duration": "0 minutes 2 seconds"}, {"name": "set-default-inputs",
-        "duration": "0 minutes 2 seconds"}, {"name": "set-default-inputs", "duration":
-        "0 minutes 2 seconds"}]}'
+    build_details: '{"total_duration": "1 minutes 5 seconds", "checks": [{"name":
+        "Release", "duration": "1 minutes 1 seconds"}, {"name": "test", "duration":
+        "0 minutes 59 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
-    created_at: 2026-04-03 14:53:13
+    created_at: 2026-05-02 22:17:10
     default_branch: main
-    description: A repository for use by the Maintenance working group.
-    disk_usage_kb: 1620
-    fork_count: 0
+    description: Compatibility shim that lets legacy frontend-plugin-framework env.config.jsx
+        files run on top of @openedx/frontend-base.
+    disk_usage_kb: 262
+    fork_count: 1
     has_issues: true
-    has_wiki: false
+    has_wiki: true
     is_archived: false
     is_disabled: false
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-05 06:10:26
-    license: null
-    pulls_count: 1
-github_actions: false
+    last_push: 2026-05-05 11:12:22
+    license: GNU AGPLv3
+    pulls_count: 0
+github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
-    javascript: 0
-    makefile: 0
+    javascript: 893
+    makefile: 157
     python: 0
     shell: 0
 makefile:
@@ -124,7 +111,8 @@ pinned_python_dependencies: 0
 readme:
     bad_links: []
     getting-help: false
-    good_links: []
+    good_links:
+    - https://github.com/openedx/frontend-base
     irc-missing: true
     mailing-list-missing: true
     security: false
@@ -133,10 +121,10 @@ readthedocs_config:
     file_name: ''
     version: ''
 renovate:
-    configured: false
+    configured: true
     last_pr: null
     oldest_open_pr_date: null
-    total_open_prs: null
+    total_open_prs: 0
 requires:
     boto: false
     django: false
