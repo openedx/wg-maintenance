@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-06
+TIMESTAMP: 2026-05-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -126,6 +126,7 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-ora:
         404'
     - 'https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml/badge.svg:
@@ -142,7 +143,6 @@ readme:
     - https://github.com/edx/frontend-app-ora/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/

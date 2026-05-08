@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-06
+TIMESTAMP: 2026-05-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -119,7 +119,7 @@ github:
     default_branch: master
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 51515
+    disk_usage_kb: 51501
     fork_count: 195
     has_issues: true
     has_wiki: false
@@ -128,9 +128,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-04 17:15:18
+    last_push: 2026-05-06 17:04:08
     license: GNU AGPLv3
-    pulls_count: 26
+    pulls_count: 25
 github_actions: false
 language_bytes:
     css: 0

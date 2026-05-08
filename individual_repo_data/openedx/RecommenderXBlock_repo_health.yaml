@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-06
+TIMESTAMP: 2026-05-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,20 +22,20 @@ dependencies:
         list: ''
     pypi:
         count: 17
-        list: '["simplejson==3.20.2", "web-fragments==3.1.0", "polib==1.2.0", "webob==1.8.9",
-            "pyyaml==6.0.3", "bleach==6.3.0", "path==16.16.0", "webencodings==0.5.1",
-            "lxml-html-clean==0.4.4", "django==5.2.12", "lxml[html-clean]==6.0.2",
-            "asgiref==3.11.1", "appdirs==1.4.4", "fs==2.4.16", "edx-i18n-tools==1.9.0",
-            "six==1.17.0", "sqlparse==0.5.5"]'
+        list: '["webencodings==0.5.1", "lxml-html-clean==0.4.4", "lxml[html-clean]==6.0.2",
+            "simplejson==3.20.2", "six==1.17.0", "bleach==6.3.0", "sqlparse==0.5.5",
+            "web-fragments==3.1.0", "django==5.2.12", "pyyaml==6.0.3", "webob==1.8.9",
+            "appdirs==1.4.4", "asgiref==3.11.1", "fs==2.4.16", "polib==1.2.0", "edx-i18n-tools==1.9.0",
+            "path==16.16.0"]'
     pypi_all:
         count: 26
-        list: '["bleach==6.3.0", "django==5.2.12", "asgiref==3.11.1", "edx-i18n-tools==1.9.0",
-            "simplejson==3.20.2", "webob==1.8.9", "click==8.3.1", "setuptools==82.0.0",
-            "pip-tools==7.5.3", "webencodings==0.5.1", "lxml-html-clean==0.4.4", "pyproject-hooks==1.2.0",
-            "lxml[html-clean]==6.0.2", "path==16.16.0", "fs==2.4.16", "pip==26.0.1",
-            "wheel==0.46.3", "build==1.4.0", "pyyaml==6.0.3", "six==1.17.0", "appdirs==1.4.4",
-            "web-fragments==3.1.0", "polib==1.2.0", "pycodestyle==2.14.0", "sqlparse==0.5.5",
-            "packaging==26.0"]'
+        list: '["django==5.2.12", "appdirs==1.4.4", "polib==1.2.0", "edx-i18n-tools==1.9.0",
+            "lxml[html-clean]==6.0.2", "six==1.17.0", "pycodestyle==2.14.0", "pyproject-hooks==1.2.0",
+            "asgiref==3.11.1", "pip-tools==7.5.3", "packaging==26.0", "wheel==0.46.3",
+            "build==1.4.0", "bleach==6.3.0", "webob==1.8.9", "pip==26.0.1", "webencodings==0.5.1",
+            "lxml-html-clean==0.4.4", "simplejson==3.20.2", "click==8.3.1", "web-fragments==3.1.0",
+            "sqlparse==0.5.5", "setuptools==82.0.0", "pyyaml==6.0.3", "fs==2.4.16",
+            "path==16.16.0"]'
 django_packages:
     django_42:
         count: 2

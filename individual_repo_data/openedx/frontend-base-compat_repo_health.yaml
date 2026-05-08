@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-06
+TIMESTAMP: 2026-05-08
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,16 +66,16 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "1 minutes 5 seconds", "checks": [{"name":
-        "Release", "duration": "1 minutes 1 seconds"}, {"name": "test", "duration":
-        "0 minutes 59 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 3 seconds"}]}'
+    build_details: '{"total_duration": "1 minutes 8 seconds", "checks": [{"name":
+        "Release", "duration": "1 minutes 0 seconds"}, {"name": "test", "duration":
+        "0 minutes 55 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}]}'
     code_of_conduct: Other
     created_at: 2026-05-02 22:17:10
     default_branch: main
     description: Compatibility shim that lets legacy frontend-plugin-framework env.config.jsx
         files run on top of @openedx/frontend-base.
-    disk_usage_kb: 262
+    disk_usage_kb: 265
     fork_count: 1
     has_issues: true
     has_wiki: true
@@ -84,7 +84,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-05 11:12:22
+    last_push: 2026-05-07 14:00:14
     license: GNU AGPLv3
     pulls_count: 0
 github_actions: true
@@ -113,6 +113,7 @@ readme:
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-base
+    - https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/mfe_config_api/views.py
     irc-missing: true
     mailing-list-missing: true
     security: false
