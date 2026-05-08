@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-06
+TIMESTAMP: 2026-05-08
 dependabot:
     exists: false
     has_ecosystem:
@@ -143,7 +143,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://travis-ci.com/edx/frontend-build: 404'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     getting-help: false
     good_links:
     - https://api.travis-ci.com/edx/frontend-build.svg?branch=master
@@ -160,6 +159,7 @@ readme:
     - https://discuss.openedx.org
     - https://openedx.org/slack
     - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://github.com/openedx/frontend-build/issues
     - https://openedx.org/community/connect
     - https://developer.chrome.com/docs/lighthouse/overview/

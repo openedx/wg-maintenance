@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-06
+TIMESTAMP: 2026-05-08
 dependabot:
     exists: false
     has_ecosystem:
@@ -128,7 +128,6 @@ org_name: openedx
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-ora-grading:
         404'
     getting-help: false
@@ -144,6 +143,7 @@ readme:
     - https://github.com/openedx/frontend-app-ora-grading/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
