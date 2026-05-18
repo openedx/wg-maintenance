@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-08
+TIMESTAMP: 2026-05-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,20 +22,20 @@ dependencies:
         list: ''
     pypi:
         count: 17
-        list: '["webencodings==0.5.1", "lxml-html-clean==0.4.4", "lxml[html-clean]==6.0.2",
-            "simplejson==3.20.2", "six==1.17.0", "bleach==6.3.0", "sqlparse==0.5.5",
-            "web-fragments==3.1.0", "django==5.2.12", "pyyaml==6.0.3", "webob==1.8.9",
-            "appdirs==1.4.4", "asgiref==3.11.1", "fs==2.4.16", "polib==1.2.0", "edx-i18n-tools==1.9.0",
-            "path==16.16.0"]'
+        list: '["django==5.2.12", "webencodings==0.5.1", "path==16.16.0", "bleach==6.3.0",
+            "polib==1.2.0", "sqlparse==0.5.5", "lxml[html-clean]==6.0.2", "fs==2.4.16",
+            "pyyaml==6.0.3", "web-fragments==3.1.0", "lxml-html-clean==0.4.4", "six==1.17.0",
+            "webob==1.8.9", "edx-i18n-tools==1.9.0", "appdirs==1.4.4", "simplejson==3.20.2",
+            "asgiref==3.11.1"]'
     pypi_all:
         count: 26
-        list: '["django==5.2.12", "appdirs==1.4.4", "polib==1.2.0", "edx-i18n-tools==1.9.0",
-            "lxml[html-clean]==6.0.2", "six==1.17.0", "pycodestyle==2.14.0", "pyproject-hooks==1.2.0",
-            "asgiref==3.11.1", "pip-tools==7.5.3", "packaging==26.0", "wheel==0.46.3",
-            "build==1.4.0", "bleach==6.3.0", "webob==1.8.9", "pip==26.0.1", "webencodings==0.5.1",
-            "lxml-html-clean==0.4.4", "simplejson==3.20.2", "click==8.3.1", "web-fragments==3.1.0",
-            "sqlparse==0.5.5", "setuptools==82.0.0", "pyyaml==6.0.3", "fs==2.4.16",
-            "path==16.16.0"]'
+        list: '["webencodings==0.5.1", "build==1.4.0", "sqlparse==0.5.5", "web-fragments==3.1.0",
+            "webob==1.8.9", "edx-i18n-tools==1.9.0", "simplejson==3.20.2", "django==5.2.12",
+            "fs==2.4.16", "pip-tools==7.5.3", "lxml-html-clean==0.4.4", "six==1.17.0",
+            "wheel==0.46.3", "asgiref==3.11.1", "click==8.3.1", "pyproject-hooks==1.2.0",
+            "bleach==6.3.0", "polib==1.2.0", "lxml[html-clean]==6.0.2", "pyyaml==6.0.3",
+            "pycodestyle==2.14.0", "appdirs==1.4.4", "path==16.16.0", "setuptools==82.0.0",
+            "packaging==26.0", "pip==26.0.1"]'
 django_packages:
     django_42:
         count: 2
@@ -72,7 +72,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: false
-    branch_count: 27
+    branch_count: 28
     build_details: '{"total_duration": "8074 minutes 34 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 15 seconds"}, {"name": "Dependabot",
         "duration": "1 minutes 7 seconds"}, {"name": "push", "duration": "0 minutes
@@ -90,7 +90,7 @@ github:
     default_branch: master
     description: 'edX: An XBlock to recommend resources to other students, written
         by Daniel Li, under my supervision'
-    disk_usage_kb: 1419
+    disk_usage_kb: 1421
     fork_count: 14
     has_issues: true
     has_wiki: false
@@ -99,9 +99,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-21 23:06:23
+    last_push: 2026-05-15 04:43:56
     license: GNU AGPLv3
-    pulls_count: 2
+    pulls_count: 3
 github_actions: true
 language_bytes:
     css: 17972

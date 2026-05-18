@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-08
+TIMESTAMP: 2026-05-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -100,7 +100,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-05 18:47:23
+    last_push: 2026-05-18 00:23:28
     license: GNU AGPLv3
     pulls_count: 23
 github_actions: true
@@ -126,6 +126,7 @@ org_name: openedx
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application:
         404'
     - 'https://github.com/openedx/frontend-template-application/blob/main/LICENSE:
@@ -144,7 +145,6 @@ readme:
     - https://github.com/openedx/frontend-template-application/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
