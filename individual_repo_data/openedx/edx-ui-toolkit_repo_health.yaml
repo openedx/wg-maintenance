@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-08
+TIMESTAMP: 2026-05-18
 dependabot:
     exists: false
     has_ecosystem:
@@ -98,7 +98,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-29 12:01:46
+    last_push: 2026-05-12 16:08:22
     license: Apache License 2.0
     pulls_count: 14
 github_actions: true
@@ -125,6 +125,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://badge.fury.io/js/edx-ui-toolkit: 403'
+    - 'https://coveralls.io/r/edx/edx-ui-toolkit?branch=master: 503'
     - 'http://ux.edx.org/: HTTPConnectionPool(host=''ux.edx.org'', port=80): Max retries
         exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''ux.edx.org'',
         port=80): Failed to resolve ''ux.edx.org'' ([Errno -2] Name or service not
@@ -138,7 +139,6 @@ readme:
     - https://badge.fury.io/bo/edx-ui-toolkit.svg
     - https://badge.fury.io/bo/edx-ui-toolkit
     - https://img.shields.io/coveralls/edx/edx-ui-toolkit.svg
-    - https://coveralls.io/r/edx/edx-ui-toolkit?branch=master
     - https://github.com/openedx/edx-ui-toolkit/blob/master/LICENSE
     - https://github.com/tj/n
     - http://ui-toolkit.edx.org/

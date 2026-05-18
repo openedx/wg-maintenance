@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-08
+TIMESTAMP: 2026-05-18
 dependabot:
     exists: false
     has_ecosystem:
@@ -117,6 +117,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     getting-help: false
     good_links:
     - https://github.com/edx/frontend-lib-special-exams.git
@@ -128,7 +129,6 @@ readme:
     - https://github.com/openedx/frontend-lib-special-exams/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/code-of-conduct/
     irc-missing: true

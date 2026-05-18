@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-08
+TIMESTAMP: 2026-05-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -96,28 +96,24 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 179
-    build_details: '{"total_duration": "17 minutes 28 seconds", "checks": [{"name":
-        "Release", "duration": "17 minutes 28 seconds"}, {"name": "Pages changed -
-        paragon-openedx-v23", "duration": "2 minutes 38 seconds"}, {"name": "Header
-        rules - paragon-openedx-v23", "duration": "2 minutes 38 seconds"}, {"name":
-        "Redirect rules - paragon-openedx-v23", "duration": "2 minutes 38 seconds"},
-        {"name": "Pages changed - paragon-openedx", "duration": "1 minutes 31 seconds"},
-        {"name": "Header rules - paragon-openedx", "duration": "1 minutes 31 seconds"},
-        {"name": "Redirect rules - paragon-openedx", "duration": "1 minutes 31 seconds"},
-        {"name": "Syncing branches", "duration": "0 minutes 10 seconds"}, {"name":
-        "version-check / version-check", "duration": "0 minutes 7 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        59 seconds"}]}'
+    branch_count: 177
+    build_details: '{"total_duration": "3 minutes 21 seconds", "checks": [{"name":
+        "Pages changed - paragon-openedx-v23", "duration": "3 minutes 20 seconds"},
+        {"name": "Header rules - paragon-openedx-v23", "duration": "3 minutes 20 seconds"},
+        {"name": "Redirect rules - paragon-openedx-v23", "duration": "3 minutes 20
+        seconds"}, {"name": "Pages changed - paragon-openedx", "duration": "2 minutes
+        29 seconds"}, {"name": "Header rules - paragon-openedx", "duration": "2 minutes
+        29 seconds"}, {"name": "Redirect rules - paragon-openedx", "duration": "2
+        minutes 29 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2017-04-27 18:57:22
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 349503
+    disk_usage_kb: 350673
     fork_count: 98
     has_issues: true
     has_wiki: false
@@ -126,9 +122,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-07 18:05:17
+    last_push: 2026-05-18 00:41:53
     license: Apache License 2.0
-    pulls_count: 62
+    pulls_count: 57
 github_actions: true
 language_bytes:
     css: 271597
@@ -218,7 +214,7 @@ renovate:
     configured: true
     last_pr: '2026-04-22'
     oldest_open_pr_date: '2025-10-10'
-    total_open_prs: 11
+    total_open_prs: 10
 requires:
     boto: false
     django: false

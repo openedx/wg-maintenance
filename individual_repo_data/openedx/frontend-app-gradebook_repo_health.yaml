@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-08
+TIMESTAMP: 2026-05-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -80,16 +80,16 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 58
-    build_details: '{"total_duration": "5980 minutes 1 seconds", "checks": [{"name":
-        "test", "duration": "2 minutes 42 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "0 minutes 58 seconds"}, {"name": "version-check
-        / version-check", "duration": "0 minutes 3 seconds"}]}'
+    build_details: '{"total_duration": "0 minutes 0 seconds", "checks": [{"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2018-10-17 15:49:15
     default_branch: master
     description: Instructor grade book tool
-    disk_usage_kb: 11122
-    fork_count: 115
+    disk_usage_kb: 11356
+    fork_count: 116
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -97,7 +97,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-30 15:38:28
+    last_push: 2026-05-18 01:00:04
     license: GNU AGPLv3
     pulls_count: 16
 github_actions: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-08
+TIMESTAMP: 2026-05-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -80,16 +80,16 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 24
-    build_details: '{"total_duration": "5985 minutes 15 seconds", "checks": [{"name":
-        "test", "duration": "3 minutes 52 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "1 minutes 27 seconds"}, {"name": "version-check
+    build_details: '{"total_duration": "3489 minutes 57 seconds", "checks": [{"name":
+        "test", "duration": "3 minutes 40 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 26 seconds"}, {"name": "version-check
         / version-check", "duration": "0 minutes 4 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-07-12 21:42:38
     default_branch: master
     description: Open Response Assessment MFE
-    disk_usage_kb: 4066
-    fork_count: 22
+    disk_usage_kb: 4068
+    fork_count: 23
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -97,7 +97,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-04-30 15:38:52
+    last_push: 2026-05-15 14:54:35
     license: GNU GPLv3
     pulls_count: 11
 github_actions: true
@@ -126,7 +126,6 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-ora:
         404'
     - 'https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml/badge.svg:
@@ -143,6 +142,7 @@ readme:
     - https://github.com/edx/frontend-app-ora/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
