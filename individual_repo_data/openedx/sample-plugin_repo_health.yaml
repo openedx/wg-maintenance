@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -62,37 +62,27 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 3
-    build_details: '{"total_duration": "81 minutes 28 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 25 seconds"}, {"name": "publish_to_npm",
-        "duration": "0 minutes 53 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
+    branch_count: 2
+    build_details: '{"total_duration": "770 minutes 52 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 24 seconds"}, {"name": "publish_to_npm",
+        "duration": "1 minutes 3 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
         3.12, django52)", "duration": "0 minutes 33 seconds"}, {"name": "run_backend_tests
         / tests (ubuntu-latest, 3.12, django60)", "duration": "0 minutes 32 seconds"},
-        {"name": "run_backend_tests / tests (ubuntu-latest, 3.12, docs)", "duration":
-        "0 minutes 27 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 23 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 16 seconds"}, {"name": "publish_tutor_plugin_to_pypi",
-        "duration": "0 minutes 15 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
-        3.12, pii_check)", "duration": "0 minutes 11 seconds"}, {"name": "routeissue
-        / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        {"name": "run_backend_tests / tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 25 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
+        3.12, docs)", "duration": "0 minutes 24 seconds"}, {"name": "publish_to_pypi",
+        "duration": "0 minutes 13 seconds"}, {"name": "publish_tutor_plugin_to_pypi",
+        "duration": "0 minutes 13 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
+        3.12, pii_check)", "duration": "0 minutes 12 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
-        / add_and_notify", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 55 seconds"}, {"name": "routeissue
-        / add_label", "duration": "-1 minutes 50 seconds"}]}'
+        / add_label", "duration": "-1 minutes 55 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-03-21 17:45:40
     default_branch: main
     description: ''
-    disk_usage_kb: 975
-    fork_count: 2
+    disk_usage_kb: 972
+    fork_count: 4
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -100,7 +90,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-17 23:55:54
+    last_push: 2026-05-18 16:17:35
     license: null
     pulls_count: 3
 github_actions: false
@@ -123,32 +113,25 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://docs.openedx.org/projects/openedx-filters/en/latest/how-tos/using-filters.html:
-        404'
-    - 'https://github.com/openedx/cookiecutter-django-app: 404'
+    bad_links: []
     getting-help: false
     good_links:
-    - https://docs.openedx.org/en/latest/developers/concepts/hooks_extension_framework.html
     - https://docs.openedx.org/projects/edx-django-utils/en/latest/plugins/how_tos/how_to_create_a_plugin_app.html
     - https://docs.openedx.org/projects/openedx-events/en/latest/
+    - https://docs.openedx.org/projects/openedx-filters/en/latest/
     - https://docs.openedx.org/en/latest/site_ops/how-tos/use-frontend-plugin-slots.html
-    - https://github.com/openedx/brand-openedx
+    - https://github.com/openedx/paragon
     - https://docs.tutor.edly.io/
-    - https://docs.openedx.org/en/latest/developers/how-tos/get-ready-for-python-dev.html
-    - https://docs.openedx.org/en/latest/developers/concepts/platform_overview.html
-    - https://docs.openedx.org/projects/openedx-proposals/en/latest/architectural-decisions/oep-0050-hooks-extension-framework.html
+    - https://docs.tutor.edly.io/install.html
+    - https://github.com/overhangio/tutor-mfe
+    - https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-paragon
+    - https://cdn.jsdelivr.net/gh/openedx/sample-plugin@main/brand-sample/dist/light.min.css
     - https://openedx.org/slack
     - https://discuss.openedx.org
-    - https://docs.openedx.org/en/latest/developers/
-    - https://docs.openedx.org/projects/openedx-proposals/en/latest/best-practices/oep-0049-django-app-patterns.html
-    - https://docs.openedx.org/projects/openedx-events/en/latest/reference/events.html
-    - https://docs.openedx.org/projects/openedx-filters/en/latest/reference/filters.html
-    - https://docs.openedx.org/en/latest/site_ops/references/frontend-plugin-slots.html
-    - https://github.com/openedx
-    - https://docs.openedx.org/projects/openedx-proposals/en/latest/
+    - https://github.com/openedx/sample-plugin/issues
     irc-missing: true
     mailing-list-missing: true
     security: false

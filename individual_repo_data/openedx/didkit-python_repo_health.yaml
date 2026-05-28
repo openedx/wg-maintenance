@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -62,21 +62,24 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 1
-    build_details: '{"total_duration": "5 minutes 12 seconds", "checks": [{"name":
+    branch_count: 2
+    build_details: '{"total_duration": "89921 minutes 11 seconds", "checks": [{"name":
         "windows", "duration": "3 minutes 37 seconds"}, {"name": "CI (3.11)", "duration":
         "3 minutes 24 seconds"}, {"name": "CI (3.10)", "duration": "3 minutes 22 seconds"},
         {"name": "linux-aarch64", "duration": "3 minutes 20 seconds"}, {"name": "CI
         (3.12)", "duration": "3 minutes 15 seconds"}, {"name": "linux-x86_64", "duration":
         "3 minutes 10 seconds"}, {"name": "macos (aarch64)", "duration": "2 minutes
         6 seconds"}, {"name": "macos (x64)", "duration": "1 minutes 39 seconds"},
-        {"name": "Release", "duration": "0 minutes 0 seconds"}]}'
+        {"name": "Release", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2026-03-12 15:11:16
     default_branch: main
     description: Python bindings for DIDKit.
-    disk_usage_kb: 181
-    fork_count: 0
+    disk_usage_kb: 183
+    fork_count: 1
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -84,9 +87,9 @@ github:
     is_fork: true
     is_locked: false
     is_private: false
-    last_push: 2026-03-24 22:51:28
+    last_push: 2026-05-18 07:50:55
     license: null
-    pulls_count: 0
+    pulls_count: 1
 github_actions: true
 language_bytes:
     css: 0
@@ -107,6 +110,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links: []

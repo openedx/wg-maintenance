@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -22,21 +22,21 @@ dependencies:
         list: ''
     pypi:
         count: 9
-        list: '["numpy==2.4.2", "nltk==3.9.3", "pyparsing==3.3.2", "regex==2026.2.28",
-            "joblib==1.5.3", "click==8.3.1", "scipy==1.17.1", "markupsafe==3.0.3",
-            "tqdm==4.67.3"]'
+        list: '["joblib==1.5.3", "nltk==3.9.3", "pyparsing==3.3.2", "numpy==2.4.2",
+            "click==8.3.1", "markupsafe==3.0.3", "regex==2026.2.28", "tqdm==4.67.3",
+            "scipy==1.17.1"]'
     pypi_all:
         count: 39
-        list: '["iniconfig==2.3.0", "pyproject-hooks==1.2.0", "coverage[toml]==7.13.4",
-            "mccabe==0.7.0", "pip-tools==7.5.3", "isort==8.0.1", "pytest==9.0.2",
-            "pyproject-api==1.10.0", "pluggy==1.6.0", "wheel==0.46.3", "virtualenv==21.1.0",
-            "packaging==26.0", "scipy==1.17.1", "markupsafe==3.0.3", "colorama==0.4.6",
-            "tox==4.49.0", "distlib==0.4.0", "pytest-cov==7.0.0", "pyparsing==3.3.2",
-            "regex==2026.2.28", "click==8.3.1", "platformdirs==4.9.4", "tomli-w==1.2.0",
-            "pylint==4.0.5", "pygments==2.19.2", "tqdm==4.67.3", "setuptools==82.0.0",
-            "numpy==2.4.2", "astroid==4.0.4", "nltk==3.9.3", "build==1.4.0", "pip==26.0.1",
-            "joblib==1.5.3", "python-discovery==1.1.1", "dill==0.4.1", "filelock==3.25.0",
-            "cachetools==7.0.3", "tomlkit==0.14.0", "pycodestyle==2.14.0"]'
+        list: '["astroid==4.0.4", "distlib==0.4.0", "build==1.4.0", "dill==0.4.1",
+            "scipy==1.17.1", "mccabe==0.7.0", "setuptools==82.0.0", "pycodestyle==2.14.0",
+            "pip==26.0.1", "pylint==4.0.5", "pygments==2.19.2", "pyproject-api==1.10.0",
+            "nltk==3.9.3", "platformdirs==4.9.4", "numpy==2.4.2", "click==8.3.1",
+            "pytest==9.0.2", "pytest-cov==7.0.0", "tqdm==4.67.3", "packaging==26.0",
+            "filelock==3.25.0", "tomlkit==0.14.0", "tomli-w==1.2.0", "iniconfig==2.3.0",
+            "joblib==1.5.3", "pyparsing==3.3.2", "wheel==0.46.3", "regex==2026.2.28",
+            "virtualenv==21.1.0", "coverage[toml]==7.13.4", "tox==4.49.0", "pyproject-hooks==1.2.0",
+            "isort==8.0.1", "python-discovery==1.1.1", "pip-tools==7.5.3", "markupsafe==3.0.3",
+            "cachetools==7.0.3", "pluggy==1.6.0", "colorama==0.4.6"]'
 django_packages:
     django_42:
         count: 0
@@ -73,7 +73,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 26
+    branch_count: 27
     build_details: '{"total_duration": "56867 minutes 43 seconds", "checks": [{"name":
         "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 57 seconds"},
         {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 54
@@ -89,8 +89,8 @@ github:
     created_at: 2019-05-07 16:58:24
     default_branch: master
     description: ''
-    disk_usage_kb: 119
-    fork_count: 4
+    disk_usage_kb: 121
+    fork_count: 5
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -98,9 +98,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-03-09 13:40:18
+    last_push: 2026-05-18 07:50:45
     license: GNU AGPLv3
-    pulls_count: 2
+    pulls_count: 3
 github_actions: true
 language_bytes:
     css: 0
@@ -121,6 +121,7 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 2
 readme:
     bad_links: []
@@ -171,6 +172,6 @@ ubuntu_packages:
     docker_packages:
     - libblas-dev
     - liblapack-dev
-    - gfortran
     - python3-dev
+    - gfortran
     yml_files: '[]'

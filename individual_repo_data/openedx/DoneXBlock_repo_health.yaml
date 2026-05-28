@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,56 +22,56 @@ dependencies:
         list: ''
     pypi:
         count: 16
-        list: '["mako==1.3.12", "markupsafe==3.0.3", "pyyaml==6.0.3", "six==1.17.0",
-            "web-fragments==4.0.0", "appdirs==1.4.4", "xblock==6.1.0", "python-dateutil==2.9.0.post0",
-            "sqlparse==0.5.5", "pytz==2026.2", "asgiref==3.11.1", "fs==2.4.16", "simplejson==4.1.1",
-            "lxml==6.1.0", "webob==1.8.9", "django==5.2.14"]'
+        list: '["xblock==6.1.0", "web-fragments==4.0.0", "lxml==6.1.1", "sqlparse==0.5.5",
+            "appdirs==1.4.4", "pyyaml==6.0.3", "six==1.17.0", "pytz==2026.2", "python-dateutil==2.9.0.post0",
+            "asgiref==3.11.1", "fs==2.4.16", "markupsafe==3.0.3", "django==5.2.14",
+            "simplejson==4.1.1", "mako==1.3.12", "webob==1.8.9"]'
     pypi_all:
         count: 120
-        list: '["python-discovery==1.3.0", "babel==2.18.0", "pylint-django==2.7.0",
-            "pytest==9.0.3", "path==16.16.0", "roman-numerals==4.1.0", "botocore==1.43.6",
-            "sphinxcontrib-devhelp==2.0.0", "nh3==0.3.5", "cffi==2.0.0", "s3transfer==0.17.0",
-            "urllib3==2.7.0", "sphinx-book-theme==1.2.0", "mccabe==0.7.0", "dill==0.4.1",
-            "binaryornot==0.6.0", "colorama==0.4.6", "jaraco-functools==4.4.0", "mdurl==0.1.2",
-            "typing-extensions==4.15.0", "pylint==4.0.5", "pyproject-hooks==1.2.0",
-            "rfc3986==2.0.0", "sphinxcontrib-applehelp==2.0.0", "pycodestyle==2.14.0",
-            "fs==2.4.16", "typer==0.25.1", "shellingham==1.5.4", "tzdata==2026.2",
-            "sphinxcontrib-jsmath==1.0.1", "code-annotations==3.0.0", "id==1.6.1",
-            "click-log==0.4.0", "keyring==25.7.0", "asgiref==3.11.1", "jaraco-classes==3.4.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "tomlkit==0.15.0", "accessible-pygments==0.0.5",
-            "edx-i18n-tools==2.0.0", "xblock-sdk==0.14.0", "packaging==26.2", "ddt==1.7.2",
-            "sphinxcontrib-serializinghtml==2.0.0", "astroid==4.0.4", "pip-tools==7.5.3",
-            "django==5.2.14", "pytz==2026.2", "filelock==3.29.0", "sphinxcontrib-qthelp==2.0.0",
-            "appdirs==1.4.4", "pycparser==3.0", "alabaster==1.0.0", "python-dateutil==2.9.0.post0",
-            "pluggy==1.6.0", "pydata-sphinx-theme==0.16.1", "lxml==6.1.0", "jmespath==1.1.0",
-            "six==1.17.0", "wheel==0.47.0", "pygments==2.20.0", "beautifulsoup4==4.14.3",
-            "boto3==1.43.6", "pylint-plugin-utils==0.9.0", "idna==3.14", "tox==4.53.1",
-            "xblock==6.1.0", "fs-s3fs==1.1.1", "annotated-doc==0.0.4", "requests-toolbelt==1.0.0",
-            "markdown-it-py==4.2.0", "sqlparse==0.5.5", "soupsieve==2.8.3", "isort==8.0.1",
-            "pylint-celery==0.3", "charset-normalizer==3.4.7", "coverage[toml]==7.14.0",
-            "web-fragments==4.0.0", "jaraco-context==6.1.2", "distlib==0.4.0", "lxml-html-clean==0.4.4",
-            "python-slugify==8.0.4", "pypng==0.20220715.0", "imagesize==2.0.0", "snowballstemmer==3.0.1",
-            "twine==6.2.0", "click==8.3.3", "edx-lint==6.1.0", "lxml[html-clean]==6.1.0",
-            "sphinx==9.1.0", "polib==1.2.0", "stevedore==5.7.0", "iniconfig==2.3.0",
-            "text-unidecode==1.3", "virtualenv==21.3.1", "cryptography==48.0.0", "cookiecutter==2.7.1",
-            "pip==26.1.1", "arrow==1.4.0", "cachetools==7.1.1", "more-itertools==11.0.2",
-            "secretstorage==3.5.0", "setuptools==82.0.1", "webob==1.8.9", "platformdirs==4.9.6",
-            "requests==2.33.1", "mako==1.3.12", "markupsafe==3.0.3", "tomli-w==1.2.0",
-            "build==1.5.0", "jinja2==3.1.6", "simplejson==4.1.1", "coveralls==4.1.0",
-            "jeepney==0.9.0", "pyyaml==6.0.3", "rich==15.0.0", "pyproject-api==1.10.0",
-            "certifi==2026.4.22", "readme-renderer==44.0", "docutils==0.22.4"]'
+        list: '["keyring==25.7.0", "accessible-pygments==0.0.5", "pip-tools==7.5.3",
+            "xblock-sdk==0.14.0", "simplejson==4.1.1", "mccabe==0.7.0", "tomlkit==0.15.0",
+            "pycparser==3.0", "platformdirs==4.9.6", "pylint-plugin-utils==0.9.0",
+            "virtualenv==21.3.3", "six==1.17.0", "babel==2.18.0", "mako==1.3.12",
+            "readme-renderer==44.0", "requests==2.34.2", "id==1.6.1", "appdirs==1.4.4",
+            "iniconfig==2.3.0", "s3transfer==0.17.0", "ddt==1.7.2", "pluggy==1.6.0",
+            "pytest==9.0.3", "typer==0.25.1", "typing-extensions==4.15.0", "arrow==1.4.0",
+            "filelock==3.29.0", "idna==3.16", "asgiref==3.11.1", "jmespath==1.1.0",
+            "xblock==6.1.0", "polib==1.2.0", "beautifulsoup4==4.14.3", "cryptography==48.0.0",
+            "pycodestyle==2.14.0", "botocore==1.43.14", "lxml==6.1.1", "lxml[html-clean]==6.1.1",
+            "pip==26.1.1", "sphinxcontrib-devhelp==2.0.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "mdurl==0.1.2", "sphinxcontrib-serializinghtml==2.0.0", "requests-toolbelt==1.0.0",
+            "docutils==0.22.4", "soupsieve==2.8.4", "sphinxcontrib-applehelp==2.0.0",
+            "cookiecutter==2.7.1", "edx-lint==6.1.0", "web-fragments==4.0.0", "packaging==26.2",
+            "rfc3986==2.0.0", "text-unidecode==1.3", "stevedore==5.8.0", "tzdata==2026.2",
+            "pytz==2026.2", "sphinx==9.1.0", "markdown-it-py==4.2.0", "rich==15.0.0",
+            "setuptools==82.0.1", "jaraco-context==6.1.2", "django==5.2.14", "python-dateutil==2.9.0.post0",
+            "nh3==0.3.5", "shellingham==1.5.4", "pylint-django==2.7.0", "roman-numerals==4.1.0",
+            "pyyaml==6.0.3", "dill==0.4.1", "binaryornot==0.6.0", "isort==8.0.1",
+            "jinja2==3.1.6", "urllib3==2.7.0", "jeepney==0.9.0", "tomli-w==1.2.0",
+            "markupsafe==3.0.3", "charset-normalizer==3.4.7", "sphinxcontrib-qthelp==2.0.0",
+            "pygments==2.20.0", "imagesize==2.0.0", "code-annotations==3.0.0", "sphinxcontrib-jsmath==1.0.1",
+            "twine==6.2.0", "snowballstemmer==3.1.0", "jaraco-classes==3.4.0", "python-discovery==1.3.1",
+            "alabaster==1.0.0", "click==8.4.1", "fs-s3fs==1.1.1", "edx-i18n-tools==2.0.0",
+            "pyproject-api==1.10.0", "coverage[toml]==7.14.0", "cffi==2.0.0", "wheel==0.47.0",
+            "lxml-html-clean==0.4.5", "annotated-doc==0.0.4", "sphinx-book-theme==1.2.0",
+            "cachetools==7.1.4", "click-log==0.4.0", "certifi==2026.5.20", "python-slugify==8.0.4",
+            "sqlparse==0.5.5", "distlib==0.4.0", "path==16.16.0", "coveralls==4.1.0",
+            "fs==2.4.16", "astroid==4.0.4", "pypng==0.20220715.0", "pylint==4.0.5",
+            "build==1.5.0", "tox==4.54.0", "more-itertools==11.1.0", "webob==1.8.9",
+            "boto3==1.43.14", "colorama==0.4.6", "pyproject-hooks==1.2.0", "jaraco-functools==4.5.0",
+            "pydata-sphinx-theme==0.16.1", "secretstorage==3.5.0", "pylint-celery==0.3"]'
 django_packages:
     django_42:
         count: 6
-        list: '["code-annotations", "xblock-sdk", "xblock", "pylint-django", "web-fragments",
-            "edx-i18n-tools"]'
+        list: '["web-fragments", "xblock", "xblock-sdk", "pylint-django", "edx-i18n-tools",
+            "code-annotations"]'
     total:
         count: 6
-        list: '["code-annotations", "xblock-sdk", "xblock", "pylint-django", "web-fragments",
-            "edx-i18n-tools"]'
+        list: '["web-fragments", "xblock", "xblock-sdk", "pylint-django", "edx-i18n-tools",
+            "code-annotations"]'
     upgraded:
         count: 5
-        list: '["code-annotations", "xblock-sdk", "xblock", "web-fragments", "edx-i18n-tools"]'
+        list: '["web-fragments", "xblock", "xblock-sdk", "edx-i18n-tools", "code-annotations"]'
 docs:
     build_badge: false
     python_version: null
@@ -98,26 +98,24 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 38
-    build_details: '{"total_duration": "4723 minutes 40 seconds", "checks": [{"name":
-        "Analyze (javascript)", "duration": "1 minutes 17 seconds"}, {"name": "Analyze
-        (javascript)", "duration": "1 minutes 14 seconds"}, {"name": "Analyze (python)",
-        "duration": "1 minutes 4 seconds"}, {"name": "Analyze (python)", "duration":
-        "0 minutes 58 seconds"}, {"name": "Dependabot", "duration": "0 minutes 55
-        seconds"}, {"name": "Tests (3.12, django42)", "duration": "0 minutes 50 seconds"},
-        {"name": "Tests (3.12, quality)", "duration": "0 minutes 47 seconds"}, {"name":
-        "Tests (3.12, django52)", "duration": "0 minutes 43 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 35 seconds"}, {"name": "update-pip-graph", "duration":
-        "0 minutes 34 seconds"}, {"name": "Dependabot", "duration": "0 minutes 31
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 30 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 40
+    build_details: '{"total_duration": "3265 minutes 27 seconds", "checks": [{"name":
+        "Analyze (javascript)", "duration": "1 minutes 15 seconds"}, {"name": "Analyze
+        (javascript)", "duration": "1 minutes 13 seconds"}, {"name": "Analyze (python)",
+        "duration": "0 minutes 59 seconds"}, {"name": "Analyze (python)", "duration":
+        "0 minutes 58 seconds"}, {"name": "Tests (3.12, django42)", "duration": "0
+        minutes 50 seconds"}, {"name": "Tests (3.12, django52)", "duration": "0 minutes
+        42 seconds"}, {"name": "Tests (3.12, quality)", "duration": "0 minutes 41
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 37 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 34 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 32 seconds"}, {"name": "update-pip-graph", "duration":
+        "0 minutes 31 seconds"}]}'
     code_of_conduct: Other
     created_at: 2017-07-07 16:01:04
     default_branch: master
     description: 'An XBlock for students to mark they''ve finished something. '
-    disk_usage_kb: 683
-    fork_count: 24
+    disk_usage_kb: 629
+    fork_count: 25
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -125,9 +123,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 00:46:53
+    last_push: 2026-05-25 07:53:00
     license: GNU AGPLv3
-    pulls_count: 3
+    pulls_count: 4
 github_actions: true
 language_bytes:
     css: 2185
@@ -148,12 +146,16 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://www.gnu.org/licenses/agpl-3.0: HTTPSConnectionPool(host=''www.gnu.org'',
-        port=443): Max retries exceeded with url: /licenses/agpl-3.0 (Caused by NewConnectionError("HTTPSConnection(host=''www.gnu.org'',
-        port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'
+    - 'https://www.gnu.org/licenses/agpl-3.0: 403'
+    - 'https://openedx.org/r/xblock: 403'
+    - 'https://openedx.org/slack: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock:
         404'
     getting-help: true
@@ -164,15 +166,10 @@ readme:
     - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
     - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
     - https://img.shields.io/badge/status-maintained-31c653
-    - https://openedx.org/r/xblock
     - https://docs.tutor.edly.io/configuration.html
     - https://discuss.openedx.org
     - https://github.com/openedx/DoneXBlock/issues
-    - https://openedx.org/slack
     - https://openedx.slack.com/
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: false

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,20 +22,20 @@ dependencies:
         list: ''
     pypi:
         count: 17
-        list: '["django==5.2.12", "webencodings==0.5.1", "path==16.16.0", "bleach==6.3.0",
-            "polib==1.2.0", "sqlparse==0.5.5", "lxml[html-clean]==6.0.2", "fs==2.4.16",
-            "pyyaml==6.0.3", "web-fragments==3.1.0", "lxml-html-clean==0.4.4", "six==1.17.0",
-            "webob==1.8.9", "edx-i18n-tools==1.9.0", "appdirs==1.4.4", "simplejson==3.20.2",
-            "asgiref==3.11.1"]'
+        list: '["pyyaml==6.0.3", "lxml[html-clean]==6.0.2", "webencodings==0.5.1",
+            "lxml-html-clean==0.4.4", "polib==1.2.0", "web-fragments==3.1.0", "appdirs==1.4.4",
+            "bleach==6.3.0", "path==16.16.0", "six==1.17.0", "edx-i18n-tools==1.9.0",
+            "asgiref==3.11.1", "fs==2.4.16", "sqlparse==0.5.5", "webob==1.8.9", "simplejson==3.20.2",
+            "django==5.2.12"]'
     pypi_all:
         count: 26
-        list: '["webencodings==0.5.1", "build==1.4.0", "sqlparse==0.5.5", "web-fragments==3.1.0",
-            "webob==1.8.9", "edx-i18n-tools==1.9.0", "simplejson==3.20.2", "django==5.2.12",
-            "fs==2.4.16", "pip-tools==7.5.3", "lxml-html-clean==0.4.4", "six==1.17.0",
-            "wheel==0.46.3", "asgiref==3.11.1", "click==8.3.1", "pyproject-hooks==1.2.0",
-            "bleach==6.3.0", "polib==1.2.0", "lxml[html-clean]==6.0.2", "pyyaml==6.0.3",
-            "pycodestyle==2.14.0", "appdirs==1.4.4", "path==16.16.0", "setuptools==82.0.0",
-            "packaging==26.0", "pip==26.0.1"]'
+        list: '["wheel==0.46.3", "six==1.17.0", "build==1.4.0", "fs==2.4.16", "pip==26.0.1",
+            "simplejson==3.20.2", "pip-tools==7.5.3", "pyyaml==6.0.3", "lxml[html-clean]==6.0.2",
+            "pycodestyle==2.14.0", "web-fragments==3.1.0", "pyproject-hooks==1.2.0",
+            "appdirs==1.4.4", "path==16.16.0", "webob==1.8.9", "packaging==26.0",
+            "lxml-html-clean==0.4.4", "polib==1.2.0", "edx-i18n-tools==1.9.0", "asgiref==3.11.1",
+            "webencodings==0.5.1", "click==8.3.1", "sqlparse==0.5.5", "bleach==6.3.0",
+            "setuptools==82.0.0", "django==5.2.12"]'
 django_packages:
     django_42:
         count: 2
@@ -91,7 +91,7 @@ github:
     description: 'edX: An XBlock to recommend resources to other students, written
         by Daniel Li, under my supervision'
     disk_usage_kb: 1421
-    fork_count: 14
+    fork_count: 15
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -101,7 +101,7 @@ github:
     is_private: false
     last_push: 2026-05-15 04:43:56
     license: GNU AGPLv3
-    pulls_count: 3
+    pulls_count: 4
 github_actions: true
 language_bytes:
     css: 17972
@@ -122,6 +122,7 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 3
 readme:
     bad_links: []

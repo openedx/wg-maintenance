@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -82,7 +82,7 @@ github:
     description: Tracking the maintenance, enhancement, and advancement of the Open
         edX project.
     disk_usage_kb: 34
-    fork_count: 4
+    fork_count: 5
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -113,6 +113,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links: []

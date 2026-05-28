@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,14 +63,17 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 19
-    build_details: '{"total_duration": "0 minutes 22 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 22 seconds"}]}'
+    build_details: '{"total_duration": "8535 minutes 40 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 7 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     created_at: 2022-11-25 18:03:47
     default_branch: main
     description: A Prototype Helm Chart for deploying multiple Open edX instances
         (via Tutor) onto a cluster.
-    disk_usage_kb: 1776
+    disk_usage_kb: 1790
     fork_count: 19
     has_issues: true
     has_wiki: false
@@ -79,7 +82,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-14 17:44:11
+    last_push: 2026-05-26 10:09:18
     license: GNU AGPLv3
     pulls_count: 16
 github_actions: false
@@ -102,6 +105,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:

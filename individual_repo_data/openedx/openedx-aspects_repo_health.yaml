@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,21 +62,15 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 16
-    build_details: '{"total_duration": "9275 minutes 32 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 57 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
-        45 seconds"}, {"name": "Dependabot", "duration": "0 minutes 31 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}]}'
+    branch_count: 15
+    build_details: '{"total_duration": "0 minutes 40 seconds", "checks": [{"name":
+        "update-uv-graph", "duration": "0 minutes 40 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-01-05 19:08:37
     default_branch: main
     description: Aspects - Analytics for Open edX
-    disk_usage_kb: 6212
-    fork_count: 10
+    disk_usage_kb: 6232
+    fork_count: 11
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -84,9 +78,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 00:27:25
+    last_push: 2026-05-26 13:33:28
     license: Apache License 2.0
-    pulls_count: 2
+    pulls_count: 1
 github_actions: false
 language_bytes:
     css: 0
@@ -107,6 +101,7 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links: []

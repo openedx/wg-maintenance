@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -91,18 +91,21 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 196
-    build_details: '{"total_duration": "1 minutes 56 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 50 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 43 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}]}'
+    build_details: '{"total_duration": "2745 minutes 57 seconds", "checks": [{"name":
+        "tests", "duration": "5 minutes 3 seconds"}, {"name": "build", "duration":
+        "2 minutes 57 seconds"}, {"name": "lint", "duration": "1 minutes 55 seconds"},
+        {"name": "extract_translations", "duration": "1 minutes 14 seconds"}, {"name":
+        "Dependabot", "duration": "1 minutes 5 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 4 seconds"}, {"name": "Dependabot", "duration": "1 minutes 1 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 54 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 41 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     created_at: 2018-05-10 13:44:58
     default_branch: master
     description: edx-portal is a frontend that provides branded learning experiences.
-    disk_usage_kb: 25148
-    fork_count: 43
+    disk_usage_kb: 25155
+    fork_count: 44
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -110,7 +113,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 01:05:46
+    last_push: 2026-05-25 22:36:25
     license: GNU AGPLv3
     pulls_count: 54
 github_actions: true
@@ -133,6 +136,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links: []

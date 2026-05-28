@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,17 +66,17 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "1 minutes 1 seconds", "checks": [{"name":
-        "test", "duration": "0 minutes 55 seconds"}, {"name": "Release", "duration":
-        "0 minutes 42 seconds"}, {"name": "version-check / version-check", "duration":
+    build_details: '{"total_duration": "0 minutes 59 seconds", "checks": [{"name":
+        "test", "duration": "0 minutes 59 seconds"}, {"name": "Release", "duration":
+        "0 minutes 40 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
     created_at: 2026-05-02 22:17:10
     default_branch: main
     description: Compatibility shim that lets legacy frontend-plugin-framework env.config.jsx
         files run on top of @openedx/frontend-base.
-    disk_usage_kb: 274
-    fork_count: 1
+    disk_usage_kb: 275
+    fork_count: 2
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -84,7 +84,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-13 12:10:56
+    last_push: 2026-05-20 13:22:04
     license: GNU AGPLv3
     pulls_count: 0
 github_actions: true
@@ -107,6 +107,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links: []

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,28 +22,28 @@ dependencies:
         list: ''
     pypi:
         count: 11
-        list: '["attrs==26.1.0", "certifi==2026.2.25", "sqlparse==0.5.5", "django==5.2.13",
-            "asgiref==3.11.1", "urllib3==2.6.3", "youtube-dl==2021.12.17", "requests==2.33.1",
-            "charset-normalizer==3.4.7", "lxml==6.0.2", "idna==3.11"]'
+        list: '["charset-normalizer==3.4.7", "django==5.2.13", "certifi==2026.2.25",
+            "lxml==6.0.2", "idna==3.11", "attrs==26.1.0", "urllib3==2.6.3", "sqlparse==0.5.5",
+            "requests==2.33.1", "asgiref==3.11.1", "youtube-dl==2021.12.17"]'
     pypi_all:
         count: 67
-        list: '["pathspec==1.0.4", "wheel==0.46.3", "id==1.6.1", "platformdirs==4.9.4",
-            "rfc3986==2.0.0", "jeepney==0.9.0", "django==5.2.13", "flake8==7.3.0",
-            "nh3==0.3.4", "cffi==2.0.0", "black==26.3.1", "coverage[toml]==7.13.5",
-            "tomli-w==1.2.0", "pip==26.0.1", "charset-normalizer==3.4.7", "jaraco-classes==3.4.0",
-            "pytokens==0.4.1", "readme-renderer==44.0", "twine==6.2.0", "pluggy==1.6.0",
-            "colorama==0.4.6", "pip-tools==7.5.3", "tox==4.52.0", "virtualenv==21.2.0",
-            "pytest==9.0.2", "urllib3==2.6.3", "pycodestyle==2.14.0", "pyproject-hooks==1.2.0",
-            "docutils==0.22.4", "click==8.3.2", "more-itertools==11.0.1", "secretstorage==3.5.0",
-            "cryptography==46.0.6", "mdurl==0.1.2", "rich==14.3.3", "sqlparse==0.5.5",
-            "pytest-django==4.12.0", "asgiref==3.11.1", "jaraco-context==6.1.2", "requests-toolbelt==1.0.0",
-            "packaging==26.0", "pycparser==3.0", "pyflakes==3.4.0", "pygments==2.20.0",
-            "requests==2.33.1", "setuptools==82.0.1", "lxml==6.0.2", "xmlformatter==0.2.8",
-            "distlib==0.4.0", "mypy-extensions==1.1.0", "mccabe==0.7.0", "pyproject-api==1.10.0",
-            "bump2version==1.0.1", "build==1.4.2", "attrs==26.1.0", "certifi==2026.2.25",
-            "filelock==3.25.2", "keyring==25.7.0", "jaraco-functools==4.4.0", "pytest-cov==7.1.0",
-            "iniconfig==2.3.0", "youtube-dl==2021.12.17", "python-discovery==1.2.1",
-            "cachetools==7.0.5", "markdown-it-py==4.0.0", "pytest-mock==3.15.1", "idna==3.11"]'
+        list: '["bump2version==1.0.1", "jaraco-classes==3.4.0", "platformdirs==4.9.4",
+            "pygments==2.20.0", "pyproject-api==1.10.0", "requests-toolbelt==1.0.0",
+            "lxml==6.0.2", "idna==3.11", "rfc3986==2.0.0", "virtualenv==21.2.0", "sqlparse==0.5.5",
+            "setuptools==82.0.1", "requests==2.33.1", "pathspec==1.0.4", "build==1.4.2",
+            "pytest==9.0.2", "iniconfig==2.3.0", "charset-normalizer==3.4.7", "jeepney==0.9.0",
+            "distlib==0.4.0", "pyproject-hooks==1.2.0", "rich==14.3.3", "attrs==26.1.0",
+            "readme-renderer==44.0", "mypy-extensions==1.1.0", "cryptography==46.0.6",
+            "wheel==0.46.3", "jaraco-context==6.1.2", "twine==6.2.0", "mdurl==0.1.2",
+            "docutils==0.22.4", "flake8==7.3.0", "colorama==0.4.6", "python-discovery==1.2.1",
+            "secretstorage==3.5.0", "keyring==25.7.0", "certifi==2026.2.25", "pytokens==0.4.1",
+            "mccabe==0.7.0", "pytest-mock==3.15.1", "id==1.6.1", "pycodestyle==2.14.0",
+            "pyflakes==3.4.0", "xmlformatter==0.2.8", "tomli-w==1.2.0", "jaraco-functools==4.4.0",
+            "more-itertools==11.0.1", "django==5.2.13", "pluggy==1.6.0", "pytest-cov==7.1.0",
+            "urllib3==2.6.3", "cffi==2.0.0", "cachetools==7.0.5", "markdown-it-py==4.0.0",
+            "pytest-django==4.12.0", "pip-tools==7.5.3", "click==8.3.2", "pycparser==3.0",
+            "pip==26.0.1", "black==26.3.1", "coverage[toml]==7.13.5", "asgiref==3.11.1",
+            "filelock==3.25.2", "tox==4.52.0", "nh3==0.3.4", "packaging==26.0", "youtube-dl==2021.12.17"]'
 django_packages:
     django_42:
         count: 1
@@ -98,7 +98,7 @@ github:
     default_branch: master
     description: A library to convert Common Cartridge Courses to OLX.
     disk_usage_kb: 43119
-    fork_count: 16
+    fork_count: 17
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -106,9 +106,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-15 04:53:43
+    last_push: 2026-05-26 16:31:16
     license: GNU AGPLv3
-    pulls_count: 4
+    pulls_count: 5
 github_actions: true
 language_bytes:
     css: 0
@@ -129,6 +129,7 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 2
 readme:
     bad_links: []

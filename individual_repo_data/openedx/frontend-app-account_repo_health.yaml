@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -86,7 +86,8 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 79
-    build_details: '{"total_duration": "0 minutes 0 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "10080 minutes 12 seconds", "checks": [{"name":
+        "update-browserslist / update-dep", "duration": "1 minutes 1 seconds"}, {"name":
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}]}'
@@ -95,7 +96,7 @@ github:
     default_branch: master
     description: Open edX micro-frontend application for managing user account information.
     disk_usage_kb: 20886
-    fork_count: 181
+    fork_count: 182
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -103,7 +104,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 01:12:00
+    last_push: 2026-05-18 20:05:19
     license: GNU AGPLv3
     pulls_count: 22
 github_actions: true
@@ -126,6 +127,7 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-app-account'
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -134,6 +136,7 @@ readme:
         port=443): Failed to resolve ''support.example.com'' ([Errno -5] No address
         associated with hostname)"))'
     - 'https://openedx.github.io/frontend-platform/module-Config.html: 404'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-app-profile
@@ -149,7 +152,6 @@ readme:
     - https://github.com/openedx/frontend-app-account/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/code-of-conduct/
     - https://github.com/openedx/edx-developer-docs/actions/workflows/ci.yml/badge.svg

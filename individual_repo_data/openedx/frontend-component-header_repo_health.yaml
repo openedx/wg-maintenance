@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -83,7 +83,7 @@ github:
     default_branch: master
     description: ''
     disk_usage_kb: 13243
-    fork_count: 183
+    fork_count: 186
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -114,6 +114,7 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-component-header'
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:

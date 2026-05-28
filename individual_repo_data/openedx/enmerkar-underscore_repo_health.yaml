@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,24 +22,24 @@ dependencies:
         list: ''
     pypi:
         count: 5
-        list: '["django==4.2.25", "sqlparse==0.5.3", "babel==2.17.0", "asgiref==3.10.0",
-            "enmerkar==0.7.1"]'
+        list: '["babel==2.17.0", "django==4.2.25", "enmerkar==0.7.1", "asgiref==3.10.0",
+            "sqlparse==0.5.3"]'
     pypi_all:
         count: 50
-        list: '["pytest-flakes==4.0.5", "django==4.2.25", "sqlparse==0.5.3", "click==8.3.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "pep8==1.7.1", "sphinx==8.2.3", "pip-tools==7.5.1",
-            "sphinxcontrib-devhelp==2.0.0", "pip==25.2", "jinja2==3.1.6", "babel==2.17.0",
-            "execnet==2.1.1", "sphinxcontrib-applehelp==2.0.0", "imagesize==1.4.1",
-            "python-coveralls==2.9.3", "pyyaml==6.0.3", "sphinxcontrib-serializinghtml==2.0.0",
-            "pytest==8.4.2", "packaging==25.0", "coverage[toml]==7.11.0", "markupsafe==3.0.3",
-            "pyproject-hooks==1.2.0", "certifi==2025.10.5", "pyflakes==3.4.0", "requests==2.32.5",
-            "alabaster==1.0.0", "idna==3.11", "asgiref==3.10.0", "snowballstemmer==3.0.1",
-            "urllib3==2.5.0", "roman-numerals-py==3.1.0", "sphinxcontrib-qthelp==2.0.0",
-            "setuptools==80.9.0", "six==1.17.0", "wheel==0.45.1", "mccabe==0.7.0",
-            "pytest-cache==1.0", "pluggy==1.6.0", "pycodestyle==2.14.0", "build==1.3.0",
-            "docutils==0.21.2", "iniconfig==2.3.0", "pytest-cov==7.0.0", "pytest-pep8==1.0.6",
-            "sphinxcontrib-jsmath==1.0.1", "enmerkar==0.7.1", "flake8==7.3.0", "pygments==2.19.2",
-            "charset-normalizer==3.4.4"]'
+        list: '["pytest-pep8==1.0.6", "pytest==8.4.2", "click==8.3.0", "roman-numerals-py==3.1.0",
+            "certifi==2025.10.5", "build==1.3.0", "sphinxcontrib-applehelp==2.0.0",
+            "sphinxcontrib-qthelp==2.0.0", "sphinx==8.2.3", "sphinxcontrib-devhelp==2.0.0",
+            "packaging==25.0", "pytest-cov==7.0.0", "alabaster==1.0.0", "django==4.2.25",
+            "sphinxcontrib-serializinghtml==2.0.0", "markupsafe==3.0.3", "urllib3==2.5.0",
+            "pip-tools==7.5.1", "python-coveralls==2.9.3", "iniconfig==2.3.0", "pyflakes==3.4.0",
+            "pluggy==1.6.0", "flake8==7.3.0", "docutils==0.21.2", "requests==2.32.5",
+            "sphinxcontrib-jsmath==1.0.1", "babel==2.17.0", "asgiref==3.10.0", "execnet==2.1.1",
+            "imagesize==1.4.1", "sqlparse==0.5.3", "coverage[toml]==7.11.0", "pytest-flakes==4.0.5",
+            "pyproject-hooks==1.2.0", "enmerkar==0.7.1", "idna==3.11", "jinja2==3.1.6",
+            "six==1.17.0", "pip==25.2", "pyyaml==6.0.3", "charset-normalizer==3.4.4",
+            "mccabe==0.7.0", "setuptools==80.9.0", "pycodestyle==2.14.0", "pygments==2.19.2",
+            "pytest-cache==1.0", "wheel==0.45.1", "snowballstemmer==3.0.1", "sphinxcontrib-htmlhelp==2.1.0",
+            "pep8==1.7.1"]'
 django_packages:
     django_42:
         count: 0
@@ -76,7 +76,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 7
+    branch_count: 8
     build_details: '{"total_duration": "76028 minutes 5 seconds", "checks": [{"name":
         "tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 37 seconds"},
         {"name": "tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 37
@@ -96,8 +96,8 @@ github:
     created_at: 2020-02-13 15:38:04
     default_branch: master
     description: Django Babel Underscore Extractor
-    disk_usage_kb: 197
-    fork_count: 6
+    disk_usage_kb: 199
+    fork_count: 7
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -105,9 +105,9 @@ github:
     is_fork: true
     is_locked: false
     is_private: false
-    last_push: 2025-12-15 07:26:27
+    last_push: 2026-05-18 07:50:46
     license: Modified BSD License
-    pulls_count: 1
+    pulls_count: 2
 github_actions: true
 language_bytes:
     css: 0
@@ -128,13 +128,14 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 1
 readme:
     bad_links:
     - 'https://pypip.in/d/django-babel-underscore/badge.png: HTTPSConnectionPool(host=''pypip.in'',
         port=443): Max retries exceeded with url: /d/django-babel-underscore/badge.png
         (Caused by ConnectTimeoutError(<HTTPSConnection(host=''pypip.in'', port=443)
-        at 0x7f81c85f2840>, ''Connection to pypip.in timed out. (connect timeout=None)''))'
+        at 0x7f1810297bf0>, ''Connection to pypip.in timed out. (connect timeout=None)''))'
     - 'http://django-babel-underscore.readthedocs.org: 404'
     getting-help: false
     good_links:
