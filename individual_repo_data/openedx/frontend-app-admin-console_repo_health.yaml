@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -72,17 +72,21 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 6
-    build_details: '{"total_duration": "2 minutes 55 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 44 seconds"}, {"name": "self_assign_by_comment
+    build_details: '{"total_duration": "7165 minutes 10 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 8 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 4 seconds"}, {"name": "Dependabot", "duration": "0 minutes 53 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 44 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
         / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}]}'
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "routeissue /
+        add_label", "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-09-23 11:32:49
     default_branch: master
     description: Administrator console for the Open edX application
     disk_usage_kb: 1412
-    fork_count: 7
+    fork_count: 8
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -113,6 +117,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:

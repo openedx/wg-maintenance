@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -77,16 +77,17 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 51
-    build_details: '{"total_duration": "0 minutes 0 seconds", "checks": [{"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}]}'
+    build_details: '{"total_duration": "6451 minutes 54 seconds", "checks": [{"name":
+        "tests", "duration": "1 minutes 53 seconds"}, {"name": "Release", "duration":
+        "1 minutes 25 seconds"}, {"name": "update-browserslist / update-dep", "duration":
+        "0 minutes 56 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
     created_at: 2019-11-06 21:04:09
     default_branch: master
     description: A framework for Open edX micro-frontend applications.
-    disk_usage_kb: 38015
-    fork_count: 88
+    disk_usage_kb: 37463
+    fork_count: 89
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -94,7 +95,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 00:44:41
+    last_push: 2026-05-27 22:38:12
     license: GNU AGPLv3
     pulls_count: 23
 github_actions: true
@@ -117,6 +118,7 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-platform'
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:

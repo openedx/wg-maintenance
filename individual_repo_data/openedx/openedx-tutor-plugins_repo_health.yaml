@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -100,10 +100,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.slack.com/archives/CGE253B7V: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/openedx-tutor-plugins:
         404'
     getting-help: true
@@ -117,6 +117,7 @@ readme:
     - https://github.com/openedx/openedx-tutor-plugins/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/CGE253B7V
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/

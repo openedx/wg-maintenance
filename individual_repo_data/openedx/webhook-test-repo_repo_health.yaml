@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -85,7 +85,7 @@ github:
     default_branch: master
     description: A dummy repo for testing openedx-webhooks
     disk_usage_kb: 9
-    fork_count: 4
+    fork_count: 5
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -116,6 +116,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links: []

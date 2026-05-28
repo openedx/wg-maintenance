@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -97,7 +97,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-15 14:58:04
+    last_push: 2026-05-27 21:32:31
     license: GNU AGPLv3
     pulls_count: 20
 github_actions: true
@@ -120,6 +120,7 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-app-authn'
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:

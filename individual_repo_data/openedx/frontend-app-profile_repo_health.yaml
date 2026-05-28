@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -81,7 +81,8 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 45
-    build_details: '{"total_duration": "-1 minutes 59 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "10079 minutes 2 seconds", "checks": [{"name":
+        "update-browserslist / update-dep", "duration": "1 minutes 36 seconds"}, {"name":
         "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
         {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
@@ -91,7 +92,7 @@ github:
     default_branch: master
     description: Open edX micro-frontend application for managing user profile information.
     disk_usage_kb: 23471
-    fork_count: 151
+    fork_count: 153
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -99,7 +100,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 00:38:49
+    last_push: 2026-05-24 13:12:15
     license: GNU AGPLv3
     pulls_count: 16
 github_actions: true
@@ -122,6 +123,7 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-app-profile'
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:

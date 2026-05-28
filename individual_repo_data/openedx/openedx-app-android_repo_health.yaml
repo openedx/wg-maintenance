@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -82,7 +82,7 @@ github:
     default_branch: main
     description: The mobile app for Android for the Open EdX Platform.
     disk_usage_kb: 7654
-    fork_count: 55
+    fork_count: 57
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -92,7 +92,7 @@ github:
     is_private: false
     last_push: 2026-04-30 15:38:48
     license: Apache License 2.0
-    pulls_count: 4
+    pulls_count: 7
 github_actions: false
 language_bytes:
     css: 0
@@ -113,6 +113,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:

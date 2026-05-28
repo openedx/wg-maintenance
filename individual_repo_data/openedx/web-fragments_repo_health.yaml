@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -25,41 +25,41 @@ dependencies:
         list: '[]'
     pypi_all:
         count: 105
-        list: '["code-annotations==3.0.0", "tomlkit==0.15.0", "lxml-html-clean==0.4.4",
-            "asgiref==3.11.1", "pydocstyle==6.3.0", "pockets==0.9.1", "jinja2==3.1.6",
-            "roman-numerals==4.1.0", "jaraco-functools==4.4.0", "mccabe==0.7.0", "pycodestyle==2.14.0",
-            "markupsafe==3.0.3", "cryptography==48.0.0", "pluggy==1.6.0", "typing-extensions==4.15.0",
-            "six==1.17.0", "text-unidecode==1.3", "beautifulsoup4==4.14.3", "diff-cover==10.2.0",
-            "pyproject-hooks==1.2.0", "charset-normalizer==3.4.7", "accessible-pygments==0.0.5",
-            "edx-i18n-tools==2.0.0", "requests==2.34.2", "twine==6.2.0", "polib==1.2.0",
-            "id==1.6.1", "build==1.5.0", "sphinxcontrib-napoleon==0.7", "sphinx==9.1.0",
-            "jeepney==0.9.0", "pylint-plugin-utils==0.9.0", "sphinxcontrib-jsmath==1.0.1",
-            "imagesize==2.0.0", "alabaster==1.0.0", "isort==8.0.1", "colorama==0.4.6",
-            "sphinxcontrib-devhelp==2.0.0", "markdown-it-py==4.2.0", "restructuredtext-lint==2.0.2",
-            "astroid==4.0.4", "pygments==2.20.0", "urllib3==2.7.0", "pip==26.1.1",
-            "sqlparse==0.5.5", "dill==0.4.1", "jaraco-context==6.1.2", "click==8.3.3",
-            "cffi==2.0.0", "docutils==0.22.4", "ddt==1.3.1", "python-slugify==8.0.4",
-            "wheel==0.47.0", "requests-toolbelt==1.0.0", "pyyaml==6.0.3", "pytest-cov==7.1.0",
-            "nh3==0.3.5", "cachetools==7.1.1", "pip-tools==7.5.3", "sphinxcontrib-htmlhelp==2.1.0",
-            "idna==3.15", "mdurl==0.1.2", "secretstorage==3.5.0", "jaraco-classes==3.4.0",
-            "pycparser==3.0", "certifi==2026.4.22", "sphinx-book-theme==1.2.0", "lxml[html-clean]==6.1.0",
-            "iniconfig==2.3.0", "path==16.16.0", "docutils==0.21.2", "sphinxcontrib-applehelp==2.0.0",
-            "tomli-w==1.2.0", "edx-lint==6.1.0", "tox==4.54.0", "platformdirs==4.9.6",
-            "keyring==25.7.0", "distlib==0.4.0", "filelock==3.29.0", "chardet==7.4.3",
-            "rich==15.0.0", "django==5.2.14", "pylint-django==2.7.0", "babel==2.18.0",
-            "pydata-sphinx-theme==0.16.1", "pyproject-api==1.10.0", "pytest==9.0.3",
-            "sphinxcontrib-qthelp==2.0.0", "pylint==4.0.5", "soupsieve==2.8.3", "stevedore==5.7.0",
-            "rfc3986==2.0.0", "setuptools==82.0.1", "packaging==26.2", "sphinxcontrib-serializinghtml==2.0.0",
-            "python-discovery==1.3.1", "pytest-django==4.12.0", "virtualenv==21.3.3",
-            "coverage[toml]==7.14.0", "readme-renderer==44.0", "pylint-celery==0.3",
-            "snowballstemmer==3.0.1", "doc8==2.0.0", "more-itertools==11.0.2", "click-log==0.4.0"]'
+        list: '["mccabe==0.7.0", "pyproject-hooks==1.2.0", "rich==15.0.0", "iniconfig==2.3.0",
+            "django==5.2.14", "idna==3.16", "sqlparse==0.5.5", "path==16.16.0", "pyproject-api==1.10.0",
+            "twine==6.2.0", "pylint-django==2.7.0", "sphinx==9.1.0", "cffi==2.0.0",
+            "requests-toolbelt==1.0.0", "pyyaml==6.0.3", "distlib==0.4.0", "chardet==7.4.3",
+            "nh3==0.3.5", "imagesize==2.0.0", "requests==2.34.2", "dill==0.4.1", "jinja2==3.1.6",
+            "doc8==2.0.0", "colorama==0.4.6", "jaraco-functools==4.5.0", "isort==8.0.1",
+            "stevedore==5.8.0", "markupsafe==3.0.3", "pip==26.1.1", "tomli-w==1.2.0",
+            "pockets==0.9.1", "more-itertools==11.0.2", "build==1.5.0", "polib==1.2.0",
+            "pytest==9.0.3", "keyring==25.7.0", "mdurl==0.1.2", "python-discovery==1.3.1",
+            "pydata-sphinx-theme==0.16.1", "cryptography==48.0.0", "restructuredtext-lint==2.0.2",
+            "beautifulsoup4==4.14.3", "tomlkit==0.15.0", "astroid==4.0.4", "pycodestyle==2.14.0",
+            "id==1.6.1", "click-log==0.4.0", "jeepney==0.9.0", "pycparser==3.0", "click==8.4.1",
+            "sphinxcontrib-applehelp==2.0.0", "asgiref==3.11.1", "ddt==1.3.1", "charset-normalizer==3.4.7",
+            "edx-i18n-tools==2.0.0", "sphinxcontrib-serializinghtml==2.0.0", "markdown-it-py==4.2.0",
+            "lxml-html-clean==0.4.5", "sphinx-book-theme==1.2.0", "cachetools==7.1.4",
+            "accessible-pygments==0.0.5", "edx-lint==6.1.0", "sphinxcontrib-jsmath==1.0.1",
+            "sphinxcontrib-qthelp==2.0.0", "certifi==2026.5.20", "code-annotations==3.0.0",
+            "six==1.17.0", "pytest-cov==7.1.0", "secretstorage==3.5.0", "sphinxcontrib-napoleon==0.7",
+            "tox==4.54.0", "python-slugify==8.0.4", "snowballstemmer==3.0.1", "urllib3==2.7.0",
+            "typing-extensions==4.15.0", "coverage[toml]==7.14.0", "pylint-celery==0.3",
+            "jaraco-context==6.1.2", "babel==2.18.0", "pygments==2.20.0", "lxml[html-clean]==6.1.1",
+            "alabaster==1.0.0", "packaging==26.2", "pydocstyle==6.3.0", "sphinxcontrib-devhelp==2.0.0",
+            "jaraco-classes==3.4.0", "pylint-plugin-utils==0.9.0", "docutils==0.21.2",
+            "readme-renderer==44.0", "text-unidecode==1.3", "filelock==3.29.0", "pylint==4.0.5",
+            "roman-numerals==4.1.0", "platformdirs==4.9.6", "diff-cover==10.2.0",
+            "virtualenv==21.3.3", "rfc3986==2.0.0", "wheel==0.47.0", "pip-tools==7.5.3",
+            "pytest-django==4.12.0", "setuptools==82.0.1", "docutils==0.22.4", "sphinxcontrib-htmlhelp==2.1.0",
+            "soupsieve==2.8.3", "pluggy==1.6.0"]'
 django_packages:
     django_42:
         count: 4
-        list: '["pytest-django", "code-annotations", "pylint-django", "edx-i18n-tools"]'
+        list: '["code-annotations", "pylint-django", "pytest-django", "edx-i18n-tools"]'
     total:
         count: 4
-        list: '["pytest-django", "code-annotations", "pylint-django", "edx-i18n-tools"]'
+        list: '["code-annotations", "pylint-django", "pytest-django", "edx-i18n-tools"]'
     upgraded:
         count: 2
         list: '["code-annotations", "edx-i18n-tools"]'
@@ -89,19 +89,20 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 41
-    build_details: '{"total_duration": "0 minutes 56 seconds", "checks": [{"name":
-        "update-pip-graph", "duration": "0 minutes 51 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 40 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, docs)", "duration": "0 minutes 28 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, django42)", "duration": "0 minutes 27 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, django52)", "duration": "0 minutes 25 seconds"}]}'
+    branch_count: 42
+    build_details: '{"total_duration": "0 minutes 35 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 33 seconds"},
+        {"name": "update-pip-graph", "duration": "0 minutes 32 seconds"}, {"name":
+        "tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 28 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 26
+        seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)", "duration": "0
+        minutes 21 seconds"}]}'
     code_of_conduct: Other
     created_at: 2016-12-08 15:24:36
     default_branch: master
     description: Provides the ability to render fragments of web pages
-    disk_usage_kb: 339
-    fork_count: 8
+    disk_usage_kb: 351
+    fork_count: 9
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -109,9 +110,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-15 15:15:55
+    last_push: 2026-05-22 13:52:46
     license: Apache License 2.0
-    pulls_count: 0
+    pulls_count: 1
 github_actions: true
 language_bytes:
     css: 0
@@ -132,12 +133,14 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 2
 readme:
     bad_links:
     - 'http://web-fragments.readthedocs.io/en/latest/?badge=latest: 404'
     - 'http://web-fragments.readthedocs.io/en/latest/: 404'
     - 'https://web-fragments.readthedocs.org: 404'
+    - 'https://open.edx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/web-fragments.svg
@@ -151,7 +154,6 @@ readme:
     - https://github.com/openedx/web-fragments/blob/master/LICENSE.txt
     - https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0012-arch-fragment-views.html
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
-    - https://open.edx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: false

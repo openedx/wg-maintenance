@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,55 +22,53 @@ dependencies:
         list: ''
     pypi:
         count: 10
-        list: '["jsonfield==3.2.0", "djangorestframework==3.17.1", "pytz==2026.1.post1",
-            "pyyaml==6.0.3", "sqlparse==0.5.5", "edx-django-release-util==1.5.0",
-            "asgiref==3.11.1", "six==1.17.0", "django==5.2.13", "django-model-utils==5.0.0"]'
+        list: '["jsonfield==3.2.0", "asgiref==3.11.1", "djangorestframework==3.17.1",
+            "django==5.2.14", "edx-django-release-util==1.5.0", "six==1.17.0", "pyyaml==6.0.3",
+            "django-model-utils==5.0.0", "pytz==2026.2", "sqlparse==0.5.5"]'
     pypi_all:
         count: 106
-        list: '["pytest-cov==7.1.0", "dill==0.4.1", "edx-django-release-util==1.5.0",
-            "mock==5.2.0", "openedx-events==10.2.0", "pyproject-hooks==1.2.0", "django-model-utils==5.0.0",
-            "jsonfield==3.2.0", "pockets==0.9.1", "certifi==2026.2.25", "attrs==26.1.0",
-            "psutil==7.2.2", "pylint-django==2.7.0", "pip==26.0.1", "distlib==0.4.0",
-            "pycparser==3.0", "platformdirs==4.9.6", "pytz==2026.1.post1", "colorama==0.4.6",
-            "sphinx==9.1.0", "freezegun==1.5.5", "django==5.2.13", "faker==40.13.0",
-            "fastavro==1.12.1", "pydata-sphinx-theme==0.16.1", "accessible-pygments==0.0.5",
-            "sphinxcontrib-devhelp==2.0.0", "tomlkit==0.14.0", "markdown-it-py==4.0.0",
-            "alabaster==1.0.0", "python-discovery==1.2.2", "astroid==4.0.4", "mdurl==0.1.2",
-            "coverage[toml]==7.13.5", "edx-lint==6.0.0", "annotated-doc==0.0.4", "urllib3==2.6.3",
-            "code-annotations==3.0.0", "pyproject-api==1.10.0", "edx-ccx-keys==2.0.2",
-            "wheel==0.46.3", "coveralls==4.1.0", "edx-django-utils==8.0.1", "pynacl==1.6.2",
-            "jinja2==3.1.6", "imagesize==2.0.0", "click==8.3.2", "pip-tools==7.5.3",
-            "isort==8.0.1", "pylint==4.0.5", "pytest==9.0.3", "click-log==0.4.0",
-            "six==1.17.0", "typer==0.24.1", "pymongo==4.16.0", "sphinxcontrib-qthelp==2.0.0",
-            "packaging==26.0", "sphinxcontrib-applehelp==2.0.0", "requests==2.33.1",
-            "asgiref==3.11.1", "django-crum==0.7.9", "sphinxcontrib-napoleon==0.7",
-            "beautifulsoup4==4.14.3", "rich==15.0.0", "roman-numerals==4.1.0", "snowballstemmer==3.0.1",
-            "sphinxcontrib-jsmath==1.0.1", "soupsieve==2.8", "tomli-w==1.2.0", "typing-extensions==4.15.0",
-            "pylint-plugin-utils==0.9.0", "pyyaml==6.0.3", "pycodestyle==2.14.0",
-            "pytest-django==4.12.0", "mccabe==0.7.0", "pygments==2.20.0", "text-unidecode==1.3",
-            "setuptools==82.0.1", "docutils==0.22.4", "cffi==2.0.0", "charset-normalizer==3.4.7",
-            "filelock==3.25.2", "build==1.4.3", "sphinx-book-theme==1.2.0", "pluggy==1.6.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "tox==4.52.1", "factory-boy==3.3.3",
-            "markupsafe==3.0.3", "cachetools==7.0.5", "edx-opaque-keys[django]==4.0.0",
-            "babel==2.18.0", "virtualenv==21.2.1", "sphinxcontrib-serializinghtml==2.0.0",
-            "pylint-celery==0.3", "stevedore==5.7.0", "idna==3.11", "python-dateutil==2.9.0.post0",
-            "djangorestframework==3.17.1", "dnspython==2.8.0", "django-waffle==5.0.0",
-            "ddt==1.7.2", "python-slugify==8.0.4", "sqlparse==0.5.5", "shellingham==1.5.4",
-            "iniconfig==2.3.0"]'
+        list: '["freezegun==1.5.5", "cachetools==7.1.1", "sphinxcontrib-serializinghtml==2.0.0",
+            "sphinx==9.1.0", "six==1.17.0", "tomli-w==1.2.0", "alabaster==1.0.0",
+            "django-model-utils==5.0.0", "pyproject-hooks==1.2.0", "annotated-doc==0.0.4",
+            "colorama==0.4.6", "asgiref==3.11.1", "setuptools==82.0.1", "tomlkit==0.15.0",
+            "babel==2.18.0", "roman-numerals==4.1.0", "requests==2.34.0", "certifi==2026.4.22",
+            "djangorestframework==3.17.1", "pylint-celery==0.3", "ddt==1.7.2", "django-waffle==5.0.0",
+            "sphinxcontrib-qthelp==2.0.0", "accessible-pygments==0.0.5", "cffi==2.0.0",
+            "dill==0.4.1", "faker==40.15.0", "click==8.3.3", "pylint-plugin-utils==0.9.0",
+            "pip==26.1.1", "code-annotations==3.0.0", "shellingham==1.5.4", "mdurl==0.1.2",
+            "pip-tools==7.5.3", "pycparser==3.0", "edx-ccx-keys==2.0.2", "tox==4.53.1",
+            "idna==3.15", "mccabe==0.7.0", "edx-django-release-util==1.5.0", "markupsafe==3.0.3",
+            "mock==5.2.0", "coverage[toml]==7.14.0", "jsonfield==3.2.0", "filelock==3.29.0",
+            "django==5.2.14", "distlib==0.4.0", "pygments==2.20.0", "openedx-events==10.2.0",
+            "iniconfig==2.3.0", "edx-django-utils==8.0.1", "platformdirs==4.9.6",
+            "edx-lint==6.1.0", "beautifulsoup4==4.14.3", "pockets==0.9.1", "pytest==9.0.3",
+            "jinja2==3.1.6", "pytest-cov==7.1.0", "pylint==4.0.5", "pycodestyle==2.14.0",
+            "stevedore==5.7.0", "text-unidecode==1.3", "coveralls==4.1.0", "dnspython==2.8.0",
+            "sphinxcontrib-napoleon==0.7", "markdown-it-py==4.2.0", "pyyaml==6.0.3",
+            "pluggy==1.6.0", "charset-normalizer==3.4.7", "docutils==0.22.4", "snowballstemmer==3.0.1",
+            "urllib3==2.7.0", "rich==15.0.0", "sqlparse==0.5.5", "typing-extensions==4.15.0",
+            "typer==0.25.1", "build==1.5.0", "isort==8.0.1", "sphinxcontrib-jsmath==1.0.1",
+            "wheel==0.47.0", "factory-boy==3.3.3", "soupsieve==2.8", "edx-opaque-keys[django]==4.0.0",
+            "pynacl==1.6.2", "python-discovery==1.3.0", "python-slugify==8.0.4", "psutil==7.2.2",
+            "sphinxcontrib-devhelp==2.0.0", "pytz==2026.2", "python-dateutil==2.9.0.post0",
+            "pydata-sphinx-theme==0.16.1", "fastavro==1.12.2", "virtualenv==21.3.2",
+            "sphinx-book-theme==1.2.0", "click-log==0.4.0", "pylint-django==2.7.0",
+            "pyproject-api==1.10.0", "sphinxcontrib-applehelp==2.0.0", "astroid==4.0.4",
+            "pymongo==4.17.0", "django-crum==0.7.9", "pytest-django==4.12.0", "imagesize==2.0.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "packaging==26.2", "attrs==26.1.0"]'
 django_packages:
     django_42:
         count: 8
-        list: '["edx-django-release-util", "pylint-django", "pytest-django", "django-waffle",
-            "code-annotations", "djangorestframework", "edx-django-utils", "factory-boy"]'
+        list: '["django-waffle", "code-annotations", "edx-django-release-util", "djangorestframework",
+            "edx-django-utils", "factory-boy", "pytest-django", "pylint-django"]'
     total:
         count: 11
-        list: '["edx-django-release-util", "pylint-django", "pytest-django", "django-waffle",
-            "django-crum", "code-annotations", "django-model-utils", "jsonfield",
-            "djangorestframework", "edx-django-utils", "factory-boy"]'
+        list: '["django-waffle", "code-annotations", "edx-django-release-util", "djangorestframework",
+            "edx-django-utils", "factory-boy", "jsonfield", "django-model-utils",
+            "pytest-django", "django-crum", "pylint-django"]'
     upgraded:
         count: 4
-        list: '["edx-django-utils", "edx-django-release-util", "code-annotations",
-            "django-waffle"]'
+        list: '["edx-django-release-util", "django-waffle", "edx-django-utils", "code-annotations"]'
 docs:
     build_badge: true
     python_version: null
@@ -97,31 +95,33 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 18
-    build_details: '{"total_duration": "14994 minutes 32 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12, django52-drflatest)", "duration": "1 minutes
-        25 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django52-drf315)", "duration":
-        "1 minutes 19 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django42-drflatest)",
-        "duration": "1 minutes 8 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
-        django42-drf315)", "duration": "1 minutes 7 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "1 minutes 1 seconds"}, {"name": "Tests
-        (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 56 seconds"}, {"name":
-        "check migrations (ubuntu-latest, 3.12)", "duration": "0 minutes 46 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 33 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 32 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
-        docs)", "duration": "0 minutes 30 seconds"}, {"name": "add_remove_labels /
-        remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 16
+    build_details: '{"total_duration": "1 minutes 23 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, django52-drf315)", "duration": "1 minutes 23
+        seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django52-drflatest)", "duration":
+        "1 minutes 17 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django42-drf315)",
+        "duration": "1 minutes 9 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
+        django42-drflatest)", "duration": "1 minutes 6 seconds"}, {"name": "Tests
+        (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 55 seconds"}, {"name":
+        "update-pip-graph", "duration": "0 minutes 51 seconds"}, {"name": "check migrations
+        (ubuntu-latest, 3.12)", "duration": "0 minutes 41 seconds"}, {"name": "Tests
+        (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 30 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     created_at: 2014-06-05 18:19:35
     default_branch: master
     description: API for creating submissions and scores
-    disk_usage_kb: 708
-    fork_count: 37
+    disk_usage_kb: 699
+    fork_count: 38
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -129,9 +129,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-12 16:59:41
+    last_push: 2026-05-26 17:26:36
     license: GNU AGPLv3
-    pulls_count: 3
+    pulls_count: 2
 github_actions: true
 language_bytes:
     css: 0
@@ -152,6 +152,7 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 4
 readme:
     bad_links:

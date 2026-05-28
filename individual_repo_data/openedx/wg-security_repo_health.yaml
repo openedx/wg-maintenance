@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-18
+TIMESTAMP: 2026-05-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -76,7 +76,7 @@ github:
     default_branch: main
     description: A repo to keep public issues related to Security Working Group Work
     disk_usage_kb: 17
-    fork_count: 1
+    fork_count: 2
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -107,6 +107,7 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
+ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links: []
