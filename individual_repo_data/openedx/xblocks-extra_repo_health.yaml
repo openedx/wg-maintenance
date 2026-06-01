@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,11 +63,13 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 4
-    build_details: '{"total_duration": "1 minutes 23 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 58 seconds"}, {"name": "Test (Python 3.12,
-        Django 4.2)", "duration": "0 minutes 22 seconds"}, {"name": "run_ci / Test
+    build_details: '{"total_duration": "9484 minutes 37 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 58 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 34 seconds"}, {"name": "Test
         (Python 3.12, Django 4.2)", "duration": "0 minutes 22 seconds"}, {"name":
-        "Test (Python 3.12, Django 5.2)", "duration": "0 minutes 15 seconds"}, {"name":
+        "run_ci / Test (Python 3.12, Django 4.2)", "duration": "0 minutes 22 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 21 seconds"}, {"name": "Test
+        (Python 3.12, Django 5.2)", "duration": "0 minutes 15 seconds"}, {"name":
         "run_ci / Test (Python 3.12, Django 5.2)", "duration": "0 minutes 15 seconds"},
         {"name": "run_ci / Lint", "duration": "0 minutes 11 seconds"}, {"name": "Lint",
         "duration": "0 minutes 7 seconds"}, {"name": "publish_to_pypi", "duration":

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -159,19 +159,19 @@ travis_yml:
 ubuntu_packages:
     apt_get_packages: []
     docker_packages:
-    - ssh-client
     - build-essential
-    - ca-certificates
-    - dist-
-    - libpq-dev
-    - clean
+    - make
     - gcc
-    - git
-    - /tmp/*
-    - /var/tmp/*
     - unixodbc-dev
+    - dist-
+    - ca-certificates
     - python-dev
     - software-properties-common
-    - make
+    - /tmp/*
+    - git
+    - ssh-client
+    - clean
     - libsasl2-dev
+    - libpq-dev
+    - /var/tmp/*
     yml_files: '[]'

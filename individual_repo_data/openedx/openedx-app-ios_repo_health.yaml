@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -63,27 +63,22 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 16
-    build_details: '{"total_duration": "16305 minutes 55 seconds", "checks": [{"name":
-        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+    build_details: '{"total_duration": "0 minutes 29 seconds", "checks": [{"name":
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "routeissue / add_and_notify", "duration": "0 minutes 0 seconds"},
-        {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 51 seconds"}]}'
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-03-13 09:15:29
     default_branch: main
     description: The mobile app for iOS for the Open EdX Platform.
-    disk_usage_kb: 13051
+    disk_usage_kb: 13069
     fork_count: 30
     has_issues: true
     has_wiki: false
@@ -92,9 +87,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-05 09:05:46
+    last_push: 2026-05-28 08:47:00
     license: Apache License 2.0
-    pulls_count: 7
+    pulls_count: 4
 github_actions: false
 language_bytes:
     css: 0

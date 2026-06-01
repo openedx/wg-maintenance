@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,51 +22,52 @@ dependencies:
         list: ''
     pypi:
         count: 29
-        list: '["django-appconf==1.2.0", "simplejson==4.1.1", "webencodings==0.5.1",
-            "pyyaml==6.0.3", "webob==1.8.9", "mako==1.3.12", "lxml==6.1.1", "django-statici18n==2.7.1",
-            "s3transfer==0.17.0", "xblock[django]==6.1.0", "django==5.2.14", "tinycss2==1.4.0",
-            "botocore==1.43.14", "python-dateutil==2.9.0.post0", "asgiref==3.11.1",
-            "jmespath==1.1.0", "lazy==1.6", "urllib3==2.7.0", "sqlparse==0.5.5", "openedx-django-pyfs==4.0.0",
-            "bleach[css]==6.3.0", "appdirs==1.4.4", "markupsafe==3.0.3", "fs==2.4.16",
-            "pytz==2026.2", "six==1.17.0", "fs-s3fs==1.1.1", "boto3==1.43.14", "web-fragments==4.0.0"]'
+        list: '["asgiref==3.11.1", "xblock[django]==6.1.0", "fs-s3fs==1.1.1", "urllib3==2.7.0",
+            "jmespath==1.1.0", "sqlparse==0.5.5", "lazy==1.6", "botocore==1.43.14",
+            "simplejson==4.1.1", "markupsafe==3.0.3", "pytz==2026.2", "web-fragments==4.0.0",
+            "fs==2.4.16", "boto3==1.43.14", "pyyaml==6.0.3", "django==5.2.14", "s3transfer==0.17.0",
+            "webob==1.8.9", "appdirs==1.4.4", "bleach[css]==6.3.0", "lxml==6.1.1",
+            "webencodings==0.5.1", "six==1.17.0", "python-dateutil==2.9.0.post0",
+            "tinycss2==1.4.0", "django-statici18n==2.7.1", "mako==1.3.12", "openedx-django-pyfs==4.0.0",
+            "django-appconf==1.2.0"]'
     pypi_all:
         count: 91
-        list: '["wheel==0.47.0", "edx-i18n-tools==2.0.0", "xblock-sdk==0.14.0", "tomlkit==0.15.0",
-            "click==8.4.1", "distlib==0.4.0", "cookiecutter==2.7.1", "code-annotations==3.0.0",
-            "coverage[toml]==7.14.0", "tzdata==2026.2", "python-dateutil==2.9.0.post0",
-            "lazy==1.6", "packaging==26.2", "openedx-django-pyfs==4.0.0", "appdirs==1.4.4",
-            "pyproject-hooks==1.2.0", "binaryornot==0.6.0", "pytz==2026.2", "pyproject-api==1.10.0",
-            "web-fragments==4.0.0", "pygments==2.20.0", "polib==1.2.0", "platformdirs==4.9.6",
-            "iniconfig==2.3.0", "pluggy==1.6.0", "pylint-plugin-utils==0.9.0", "edx-lint==6.1.0",
-            "django-statici18n==2.7.1", "s3transfer==0.17.0", "mccabe==0.7.0", "botocore==1.43.14",
-            "pypng==0.20220715.0", "pip-tools==7.5.3", "mock==5.2.0", "cachetools==7.1.4",
-            "filelock==3.29.0", "astroid==4.0.4", "pytest-cov==7.1.0", "idna==3.16",
-            "markupsafe==3.0.3", "fs==2.4.16", "six==1.17.0", "arrow==1.4.0", "colorama==0.4.6",
-            "charset-normalizer==3.4.7", "lxml[html-clean]==6.1.1", "lxml-html-clean==0.4.5",
-            "isort==8.0.1", "markdown-it-py==4.2.0", "text-unidecode==1.3", "tox==4.54.0",
-            "setuptools==82.0.1", "python-discovery==1.3.1", "lxml==6.1.1", "xblock[django]==6.1.0",
-            "django==5.2.14", "asgiref==3.11.1", "jmespath==1.1.0", "ddt==1.7.2",
-            "tomli-w==1.2.0", "bleach[css]==6.3.0", "dill==0.4.1", "pycodestyle==2.14.0",
-            "click-log==0.4.0", "pylint-django==2.7.0", "boto3==1.43.14", "requests==2.34.2",
-            "pip==26.1.1", "django-appconf==1.2.0", "jinja2==3.1.6", "rich==15.0.0",
-            "simplejson==4.1.1", "webencodings==0.5.1", "pyyaml==6.0.3", "python-slugify==8.0.4",
-            "webob==1.8.9", "pylint-celery==0.3", "mako==1.3.12", "mdurl==0.1.2",
-            "build==1.5.0", "tinycss2==1.4.0", "urllib3==2.7.0", "certifi==2026.5.20",
-            "pytest==9.0.3", "sqlparse==0.5.5", "stevedore==5.8.0", "virtualenv==21.3.3",
-            "fs-s3fs==1.1.1", "pytest-django==4.12.0", "pylint==4.0.5", "path==16.16.0"]'
+        list: '["asgiref==3.11.1", "colorama==0.4.6", "fs-s3fs==1.1.1", "tomli-w==1.2.0",
+            "xblock-sdk==0.14.0", "rich==15.0.0", "jmespath==1.1.0", "simplejson==4.1.1",
+            "edx-lint==6.1.0", "markupsafe==3.0.3", "pytz==2026.2", "packaging==26.2",
+            "idna==3.16", "pyproject-hooks==1.2.0", "django==5.2.14", "mock==5.2.0",
+            "pylint-celery==0.3", "tomlkit==0.15.0", "iniconfig==2.3.0", "tinycss2==1.4.0",
+            "django-statici18n==2.7.1", "tox==4.54.0", "isort==8.0.1", "charset-normalizer==3.4.7",
+            "mccabe==0.7.0", "polib==1.2.0", "web-fragments==4.0.0", "pylint-django==2.7.0",
+            "binaryornot==0.6.0", "s3transfer==0.17.0", "astroid==4.0.4", "pypng==0.20220715.0",
+            "bleach[css]==6.3.0", "lxml==6.1.1", "pytest-cov==7.1.0", "six==1.17.0",
+            "cachetools==7.1.4", "python-discovery==1.3.1", "mdurl==0.1.2", "pycodestyle==2.14.0",
+            "dill==0.4.1", "mako==1.3.12", "ddt==1.7.2", "openedx-django-pyfs==4.0.0",
+            "xblock[django]==6.1.0", "click-log==0.4.0", "pytest-django==4.12.0",
+            "requests==2.34.2", "lazy==1.6", "setuptools==82.0.1", "fs==2.4.16", "pylint-plugin-utils==0.9.0",
+            "pip-tools==7.5.3", "python-slugify==8.0.4", "boto3==1.43.14", "pyyaml==6.0.3",
+            "tzdata==2026.2", "platformdirs==4.9.6", "webob==1.8.9", "lxml[html-clean]==6.1.1",
+            "text-unidecode==1.3", "python-dateutil==2.9.0.post0", "sqlparse==0.5.5",
+            "jinja2==3.1.6", "urllib3==2.7.0", "cookiecutter==2.7.1", "coverage[toml]==7.14.0",
+            "botocore==1.43.14", "arrow==1.4.0", "distlib==0.4.0", "markdown-it-py==4.2.0",
+            "pyproject-api==1.10.0", "virtualenv==21.3.3", "pluggy==1.6.0", "stevedore==5.8.0",
+            "click==8.4.1", "pytest==9.0.3", "edx-i18n-tools==2.0.0", "build==1.5.0",
+            "pylint==4.0.5", "pygments==2.20.0", "pip==26.1.1", "code-annotations==3.0.0",
+            "appdirs==1.4.4", "certifi==2026.5.20", "lxml-html-clean==0.4.5", "webencodings==0.5.1",
+            "path==16.16.0", "wheel==0.47.0", "django-appconf==1.2.0", "filelock==3.29.0"]'
 django_packages:
     django_42:
         count: 7
-        list: '["xblock-sdk", "pytest-django", "django-appconf", "pylint-django",
-            "code-annotations", "edx-i18n-tools", "web-fragments"]'
+        list: '["edx-i18n-tools", "pytest-django", "web-fragments", "code-annotations",
+            "xblock-sdk", "pylint-django", "django-appconf"]'
     total:
         count: 8
-        list: '["xblock-sdk", "django-statici18n", "pytest-django", "django-appconf",
-            "pylint-django", "code-annotations", "edx-i18n-tools", "web-fragments"]'
+        list: '["edx-i18n-tools", "django-statici18n", "pytest-django", "web-fragments",
+            "code-annotations", "xblock-sdk", "pylint-django", "django-appconf"]'
     upgraded:
         count: 5
-        list: '["xblock-sdk", "django-appconf", "code-annotations", "edx-i18n-tools",
-            "web-fragments"]'
+        list: '["edx-i18n-tools", "web-fragments", "code-annotations", "xblock-sdk",
+            "django-appconf"]'
 docs:
     build_badge: false
     python_version: null
@@ -93,19 +94,24 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 28
-    build_details: '{"total_duration": "1467 minutes 36 seconds", "checks": [{"name":
-        "tests (ubuntu-latest, 3.12, translations)", "duration": "0 minutes 50 seconds"},
-        {"name": "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 42
-        seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)", "duration": "0
-        minutes 36 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django42)", "duration":
-        "0 minutes 36 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
-        31 seconds"}, {"name": "Dependabot", "duration": "0 minutes 24 seconds"}]}'
+    branch_count: 29
+    build_details: '{"total_duration": "9986 minutes 42 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 2 seconds"}, {"name": "tests (ubuntu-latest, 3.12, translations)",
+        "duration": "0 minutes 50 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
+        quality)", "duration": "0 minutes 42 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 36 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, django42)", "duration": "0 minutes 36 seconds"}, {"name": "update-pip-graph",
+        "duration": "0 minutes 31 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 24 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2014-06-30 15:30:30
     default_branch: master
     description: ''
-    disk_usage_kb: 3531
+    disk_usage_kb: 3538
     fork_count: 72
     has_issues: true
     has_wiki: false
@@ -114,9 +120,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-25 02:17:49
+    last_push: 2026-06-01 00:44:25
     license: GNU AGPLv3
-    pulls_count: 0
+    pulls_count: 1
 github_actions: true
 language_bytes:
     css: 30354

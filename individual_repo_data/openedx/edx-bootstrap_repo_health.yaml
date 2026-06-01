@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -69,19 +69,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 27
-    build_details: '{"total_duration": "3100 minutes 2 seconds", "checks": [{"name":
-        "Release", "duration": "2 minutes 3 seconds"}, {"name": "tests", "duration":
-        "1 minutes 50 seconds"}, {"name": "Dependabot", "duration": "0 minutes 50
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 49 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 47 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 45 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 44 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 4 seconds"}]}'
+    build_details: '{"total_duration": "2 minutes 5 seconds", "checks": [{"name":
+        "Release", "duration": "2 minutes 5 seconds"}, {"name": "tests", "duration":
+        "1 minutes 57 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
     created_at: 2017-06-23 20:12:07
     default_branch: master
     description: Bootstrap theme for Open edX
-    disk_usage_kb: 9245
+    disk_usage_kb: 9246
     fork_count: 23
     has_issues: true
     has_wiki: false
@@ -90,9 +86,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 07:50:53
+    last_push: 2026-05-30 15:08:27
     license: Apache License 2.0
-    pulls_count: 11
+    pulls_count: 10
 github_actions: true
 language_bytes:
     css: 0

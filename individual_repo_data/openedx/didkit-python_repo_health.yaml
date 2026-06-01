@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -63,17 +63,14 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "89921 minutes 11 seconds", "checks": [{"name":
-        "windows", "duration": "3 minutes 37 seconds"}, {"name": "CI (3.11)", "duration":
-        "3 minutes 24 seconds"}, {"name": "CI (3.10)", "duration": "3 minutes 22 seconds"},
-        {"name": "linux-aarch64", "duration": "3 minutes 20 seconds"}, {"name": "CI
-        (3.12)", "duration": "3 minutes 15 seconds"}, {"name": "linux-x86_64", "duration":
-        "3 minutes 10 seconds"}, {"name": "macos (aarch64)", "duration": "2 minutes
-        6 seconds"}, {"name": "macos (x64)", "duration": "1 minutes 39 seconds"},
-        {"name": "Release", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}]}'
+    build_details: '{"total_duration": "6 minutes 54 seconds", "checks": [{"name":
+        "windows", "duration": "6 minutes 54 seconds"}, {"name": "linux-x86_64", "duration":
+        "6 minutes 6 seconds"}, {"name": "CI (3.11)", "duration": "6 minutes 0 seconds"},
+        {"name": "CI (3.10)", "duration": "5 minutes 40 seconds"}, {"name": "CI (3.12)",
+        "duration": "5 minutes 35 seconds"}, {"name": "macos (aarch64)", "duration":
+        "5 minutes 5 seconds"}, {"name": "macos (x64)", "duration": "4 minutes 47
+        seconds"}, {"name": "linux-aarch64", "duration": "4 minutes 41 seconds"},
+        {"name": "Release", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2026-03-12 15:11:16
     default_branch: main
@@ -87,9 +84,9 @@ github:
     is_fork: true
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 07:50:55
+    last_push: 2026-05-30 14:52:54
     license: null
-    pulls_count: 1
+    pulls_count: 0
 github_actions: true
 language_bytes:
     css: 0

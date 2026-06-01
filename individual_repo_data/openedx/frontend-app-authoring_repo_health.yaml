@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -103,14 +103,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 33
-    build_details: '{"total_duration": "1375 minutes 17 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "2838 minutes 8 seconds", "checks": [{"name":
         "tests", "duration": "8 minutes 43 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 31 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 3 seconds"}, {"name": "coverage", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}]}'
+        "1 minutes 31 seconds"}, {"name": "Dependabot", "duration": "1 minutes 29
+        seconds"}, {"name": "Dependabot", "duration": "1 minutes 23 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 3 seconds"}, {"name":
+        "coverage", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2020-05-06 18:34:51
     default_branch: master
