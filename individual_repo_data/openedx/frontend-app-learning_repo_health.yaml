@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -100,7 +100,7 @@ github:
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
     disk_usage_kb: 20771
-    fork_count: 325
+    fork_count: 324
     has_issues: true
     has_wiki: false
     is_archived: false

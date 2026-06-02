@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -80,9 +80,10 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 59
-    build_details: '{"total_duration": "6455 minutes 2 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "16540 minutes 43 seconds", "checks": [{"name":
         "test", "duration": "2 minutes 53 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "1 minutes 0 seconds"}, {"name": "version-check
+        / update-dep", "duration": "1 minutes 0 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "0 minutes 57 seconds"}, {"name": "version-check
         / version-check", "duration": "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
     created_at: 2018-10-17 15:49:15

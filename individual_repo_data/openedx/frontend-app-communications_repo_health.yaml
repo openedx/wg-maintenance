@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -77,9 +77,10 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 21
-    build_details: '{"total_duration": "13534 minutes 27 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "23617 minutes 5 seconds", "checks": [{"name":
         "tests", "duration": "2 minutes 29 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "1 minutes 9 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 8 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "1 minutes 8 seconds"}, {"name": "version-check
         / version-check", "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
@@ -95,7 +96,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-25 00:33:42
+    last_push: 2026-06-01 00:36:20
     license: GNU AGPLv3
     pulls_count: 3
 github_actions: true
@@ -122,6 +123,7 @@ ownership: {}
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.org/slack: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-communications:
         404'
     getting-help: false
@@ -134,7 +136,6 @@ readme:
     - https://github.com/openedx/frontend-platform/blob/master/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-communications/issues
-    - https://openedx.org/slack
     - https://openedx.slack.com/
     - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect

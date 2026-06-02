@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -115,7 +115,7 @@ github:
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 349715
+    disk_usage_kb: 349818
     fork_count: 99
     has_issues: true
     has_wiki: false
@@ -124,7 +124,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-27 15:28:43
+    last_push: 2026-05-31 14:54:28
     license: Apache License 2.0
     pulls_count: 57
 github_actions: true
@@ -152,11 +152,8 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://www.npmjs.com/package/@openedx/paragon: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://cdn.jsdelivr.net/npm/@my-brand/core.min.css: 404'
     - 'https://cdn.jsdelivr.net/npm/@my-brand/light.min.css: 404'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://github.com/openedx/eslint-config-edx/tree/master/packages/eslint-config-edx:
         404'
     - 'https://www.npmjs.com/package/eslint-config-airbnb: 403'
@@ -177,6 +174,7 @@ readme:
     - https://www.w3.org/WAI/standards-guidelines/aria/
     - https://openedx.org/
     - https://paragon-openedx.netlify.app/
+    - https://openedx.org/slack
     - https://openedx.slack.com/archives/C02NR285KV4
     - https://github.com/openedx/paragon/issues/new?template=blank-issue.md
     - https://calendar.google.com/calendar/embed?src=c_v86shrnegshsqgp4fj2k94u7bc%40group.calendar.google.com&ctz=America%2FNew_York
@@ -187,6 +185,8 @@ readme:
     - https://github.com/openedx/paragon/tree/release-23.x
     - https://paragon-openedx-v23.netlify.app/
     - https://github.com/openedx/paragon/tree/next
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://github.com/openedx/paragon/issues
     - https://github.com/orgs/openedx/projects/43/views/15
     - https://github.com/openedx/frontend-build

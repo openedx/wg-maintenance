@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -116,8 +116,7 @@ readme:
     - 'https://stylelint.io/user-guide/rules/function-comma-newline-after/: 404'
     - 'https://stylelint.io/user-guide/rules/function-parentheses-newline-inside/:
         404'
-    - 'https://stylelint.io/user-guide/rules/max-empty-lines/: (''Connection aborted.'',
-        RemoteDisconnected(''Remote end closed connection without response''))'
+    - 'https://stylelint.io/user-guide/rules/max-empty-lines/: 404'
     getting-help: false
     good_links:
     - https://github.com/openedx/stylelint-config-edx/workflows/Node%20CI/badge.svg?branch=master

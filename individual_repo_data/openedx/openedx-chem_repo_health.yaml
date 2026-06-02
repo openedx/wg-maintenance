@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -22,21 +22,21 @@ dependencies:
         list: ''
     pypi:
         count: 9
-        list: '["joblib==1.5.3", "nltk==3.9.3", "pyparsing==3.3.2", "numpy==2.4.2",
-            "click==8.3.1", "markupsafe==3.0.3", "regex==2026.2.28", "tqdm==4.67.3",
-            "scipy==1.17.1"]'
+        list: '["regex==2026.2.28", "numpy==2.4.2", "tqdm==4.67.3", "joblib==1.5.3",
+            "click==8.3.1", "markupsafe==3.0.3", "scipy==1.17.1", "pyparsing==3.3.2",
+            "nltk==3.9.3"]'
     pypi_all:
         count: 39
-        list: '["astroid==4.0.4", "distlib==0.4.0", "build==1.4.0", "dill==0.4.1",
-            "scipy==1.17.1", "mccabe==0.7.0", "setuptools==82.0.0", "pycodestyle==2.14.0",
-            "pip==26.0.1", "pylint==4.0.5", "pygments==2.19.2", "pyproject-api==1.10.0",
-            "nltk==3.9.3", "platformdirs==4.9.4", "numpy==2.4.2", "click==8.3.1",
-            "pytest==9.0.2", "pytest-cov==7.0.0", "tqdm==4.67.3", "packaging==26.0",
-            "filelock==3.25.0", "tomlkit==0.14.0", "tomli-w==1.2.0", "iniconfig==2.3.0",
-            "joblib==1.5.3", "pyparsing==3.3.2", "wheel==0.46.3", "regex==2026.2.28",
-            "virtualenv==21.1.0", "coverage[toml]==7.13.4", "tox==4.49.0", "pyproject-hooks==1.2.0",
-            "isort==8.0.1", "python-discovery==1.1.1", "pip-tools==7.5.3", "markupsafe==3.0.3",
-            "cachetools==7.0.3", "pluggy==1.6.0", "colorama==0.4.6"]'
+        list: '["pyproject-hooks==1.2.0", "pygments==2.19.2", "astroid==4.0.4", "pylint==4.0.5",
+            "packaging==26.0", "python-discovery==1.1.1", "numpy==2.4.2", "markupsafe==3.0.3",
+            "click==8.3.1", "tomlkit==0.14.0", "pyparsing==3.3.2", "wheel==0.46.3",
+            "iniconfig==2.3.0", "build==1.4.0", "coverage[toml]==7.13.4", "mccabe==0.7.0",
+            "cachetools==7.0.3", "tomli-w==1.2.0", "tqdm==4.67.3", "joblib==1.5.3",
+            "pip-tools==7.5.3", "setuptools==82.0.0", "pip==26.0.1", "pytest-cov==7.0.0",
+            "pycodestyle==2.14.0", "scipy==1.17.1", "pluggy==1.6.0", "nltk==3.9.3",
+            "filelock==3.25.0", "regex==2026.2.28", "distlib==0.4.0", "tox==4.49.0",
+            "dill==0.4.1", "colorama==0.4.6", "isort==8.0.1", "pytest==9.0.2", "platformdirs==4.9.4",
+            "pyproject-api==1.10.0", "virtualenv==21.1.0"]'
 django_packages:
     django_42:
         count: 0
@@ -74,22 +74,18 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 27
-    build_details: '{"total_duration": "56867 minutes 43 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 57 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 54
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 38 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 36 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 35 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 35 seconds"}, {"name": "Dependabot", "duration": "0 minutes 34 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 31 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
-        "-1 minutes 54 seconds"}]}'
+    build_details: '{"total_duration": "1 minutes 2 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 2 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 53
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 33 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 30 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 26 seconds"}]}'
     code_of_conduct: Other
     created_at: 2019-05-07 16:58:24
     default_branch: master
     description: ''
-    disk_usage_kb: 121
+    disk_usage_kb: 120
     fork_count: 5
     has_issues: true
     has_wiki: false
@@ -98,9 +94,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 07:50:45
+    last_push: 2026-05-30 15:29:42
     license: GNU AGPLv3
-    pulls_count: 3
+    pulls_count: 2
 github_actions: true
 language_bytes:
     css: 0
@@ -170,8 +166,8 @@ travis_yml:
 ubuntu_packages:
     apt_get_packages: []
     docker_packages:
-    - libblas-dev
-    - liblapack-dev
     - python3-dev
     - gfortran
+    - libblas-dev
+    - liblapack-dev
     yml_files: '[]'

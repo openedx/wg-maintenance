@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -63,32 +63,28 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "5755 minutes 41 seconds", "checks": [{"name":
-        "call-repo-health-job-workflow / repo_health_check (3.12)", "duration": "70
-        minutes 10 seconds"}, {"name": "call-repo-health-job-workflow / repo_health_check
-        (3.12)", "duration": "70 minutes 9 seconds"}, {"name": "call-repo-health-job-workflow
-        / repo_health_check (3.12)", "duration": "60 minutes 33 seconds"}, {"name":
-        "call-repo-health-job-workflow / repo_health_check (3.12)", "duration": "59
-        minutes 48 seconds"}, {"name": "call-repo-health-job-workflow / repo_health_check
-        (3.12)", "duration": "0 minutes 56 seconds"}, {"name": "call-repo-health-job-workflow
-        / repo_health_check (3.12)", "duration": "0 minutes 48 seconds"}, {"name":
+    build_details: '{"total_duration": "4345 minutes 3 seconds", "checks": [{"name":
+        "call-repo-health-job-workflow / repo_health_check (3.12)", "duration": "72
+        minutes 1 seconds"}, {"name": "call-repo-health-job-workflow / repo_health_check
+        (3.12)", "duration": "68 minutes 31 seconds"}, {"name": "call-repo-health-job-workflow
+        / repo_health_check (3.12)", "duration": "63 minutes 56 seconds"}, {"name":
         "call-repo-health-job-workflow / repo_health_check (3.12)", "duration": "0
-        minutes 44 seconds"}, {"name": "call-repo-health-job-workflow / repo_health_check
-        (3.12)", "duration": "0 minutes 38 seconds"}, {"name": "call-repo-health-job-workflow
-        / repo_health_check (3.12)", "duration": "0 minutes 36 seconds"}, {"name":
-        "set-default-inputs", "duration": "0 minutes 5 seconds"}, {"name": "set-default-inputs",
-        "duration": "0 minutes 4 seconds"}, {"name": "set-default-inputs", "duration":
-        "0 minutes 4 seconds"}, {"name": "set-default-inputs", "duration": "0 minutes
-        3 seconds"}, {"name": "set-default-inputs", "duration": "0 minutes 3 seconds"},
-        {"name": "set-default-inputs", "duration": "0 minutes 3 seconds"}, {"name":
-        "set-default-inputs", "duration": "0 minutes 2 seconds"}, {"name": "set-default-inputs",
+        minutes 52 seconds"}, {"name": "call-repo-health-job-workflow / repo_health_check
+        (3.12)", "duration": "0 minutes 48 seconds"}, {"name": "call-repo-health-job-workflow
+        / repo_health_check (3.12)", "duration": "0 minutes 43 seconds"}, {"name":
+        "call-repo-health-job-workflow / repo_health_check (3.12)", "duration": "0
+        minutes 37 seconds"}, {"name": "set-default-inputs", "duration": "0 minutes
+        4 seconds"}, {"name": "set-default-inputs", "duration": "0 minutes 4 seconds"},
+        {"name": "set-default-inputs", "duration": "0 minutes 4 seconds"}, {"name":
+        "set-default-inputs", "duration": "0 minutes 3 seconds"}, {"name": "set-default-inputs",
         "duration": "0 minutes 2 seconds"}, {"name": "set-default-inputs", "duration":
-        "0 minutes 2 seconds"}]}'
+        "0 minutes 2 seconds"}, {"name": "set-default-inputs", "duration": "0 minutes
+        2 seconds"}, {"name": "set-default-inputs", "duration": "0 minutes 2 seconds"}]}'
     code_of_conduct: Other
     created_at: 2026-04-03 14:53:13
     default_branch: main
     description: A repository for use by the Maintenance working group.
-    disk_usage_kb: 4145
+    disk_usage_kb: 4680
     fork_count: 1
     has_issues: true
     has_wiki: false
@@ -97,7 +93,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-27 06:20:37
+    last_push: 2026-05-31 06:42:45
     license: null
     pulls_count: 1
 github_actions: false

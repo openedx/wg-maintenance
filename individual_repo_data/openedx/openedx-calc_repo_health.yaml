@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,34 +22,34 @@ dependencies:
         list: ''
     pypi:
         count: 6
-        list: '["lxml==6.0.2", "pyparsing==3.3.2", "mpmath==1.3.0", "sympy==1.14.0",
-            "markupsafe==3.0.3", "numpy==2.4.2"]'
+        list: '["pyparsing==3.3.2", "markupsafe==3.0.3", "mpmath==1.3.0", "sympy==1.14.0",
+            "lxml==6.0.2", "numpy==2.4.2"]'
     pypi_all:
         count: 64
-        list: '["pygments==2.19.2", "lxml==6.0.2", "text-unidecode==1.3", "pytest==9.0.2",
-            "setuptools==82.0.0", "markdown-it-py==4.0.0", "cachetools==7.0.3", "markupsafe==3.0.3",
-            "pylint==4.0.5", "python-slugify==8.0.4", "stevedore==5.7.0", "idna==3.11",
-            "tomlkit==0.14.0", "coverage[toml]==7.13.4", "distlib==0.4.0", "click==8.3.1",
-            "jinja2==3.1.6", "setuptools==78.1.0", "pylint-celery==0.3", "astroid==4.0.4",
-            "pip==26.0.1", "sympy==1.14.0", "filelock==3.25.0", "click-log==0.4.0",
-            "dill==0.4.1", "pylint-plugin-utils==0.9.0", "build==1.4.0", "coverage==7.13.4",
-            "mccabe==0.7.0", "certifi==2026.2.25", "pyyaml==6.0.3", "shellingham==1.5.4",
-            "annotated-doc==0.0.4", "coveralls==4.1.0", "pylint-django==2.7.0", "isort==8.0.1",
-            "pip-tools==7.5.3", "charset-normalizer==3.4.5", "pyproject-api==1.10.0",
-            "python-discovery==1.1.1", "pyproject-hooks==1.2.0", "platformdirs==4.9.4",
-            "edx-lint==5.6.0", "numpy==2.4.2", "pluggy==1.6.0", "requests==2.32.5",
-            "pip==24.2", "urllib3==2.6.3", "typer==0.24.1", "code-annotations==2.3.2",
-            "pyparsing==3.3.2", "mpmath==1.3.0", "tox==4.49.0", "tomli-w==1.2.0",
-            "pycodestyle==2.14.0", "packaging==26.0", "virtualenv==21.1.0", "wheel==0.45.1",
-            "rich==14.3.3", "wheel==0.46.3", "colorama==0.4.6", "six==1.17.0", "iniconfig==2.3.0",
-            "mdurl==0.1.2"]'
+        list: '["wheel==0.46.3", "pyproject-hooks==1.2.0", "pycodestyle==2.14.0",
+            "text-unidecode==1.3", "filelock==3.25.0", "sympy==1.14.0", "pylint-plugin-utils==0.9.0",
+            "charset-normalizer==3.4.5", "numpy==2.4.2", "pylint-celery==0.3", "idna==3.11",
+            "markdown-it-py==4.0.0", "pyparsing==3.3.2", "iniconfig==2.3.0", "pip==24.2",
+            "annotated-doc==0.0.4", "pylint==4.0.5", "colorama==0.4.6", "shellingham==1.5.4",
+            "six==1.17.0", "pygments==2.19.2", "rich==14.3.3", "click==8.3.1", "urllib3==2.6.3",
+            "platformdirs==4.9.4", "isort==8.0.1", "markupsafe==3.0.3", "pylint-django==2.7.0",
+            "mccabe==0.7.0", "coverage[toml]==7.13.4", "distlib==0.4.0", "click-log==0.4.0",
+            "mpmath==1.3.0", "typer==0.24.1", "wheel==0.45.1", "requests==2.32.5",
+            "pip==26.0.1", "jinja2==3.1.6", "certifi==2026.2.25", "tomli-w==1.2.0",
+            "edx-lint==5.6.0", "virtualenv==21.1.0", "dill==0.4.1", "setuptools==82.0.0",
+            "cachetools==7.0.3", "stevedore==5.7.0", "pluggy==1.6.0", "tox==4.49.0",
+            "pip-tools==7.5.3", "pyproject-api==1.10.0", "code-annotations==2.3.2",
+            "python-slugify==8.0.4", "astroid==4.0.4", "tomlkit==0.14.0", "coverage==7.13.4",
+            "lxml==6.0.2", "pytest==9.0.2", "pyyaml==6.0.3", "python-discovery==1.1.1",
+            "setuptools==78.1.0", "packaging==26.0", "mdurl==0.1.2", "coveralls==4.1.0",
+            "build==1.4.0"]'
 django_packages:
     django_42:
         count: 2
-        list: '["pylint-django", "code-annotations"]'
+        list: '["code-annotations", "pylint-django"]'
     total:
         count: 2
-        list: '["pylint-django", "code-annotations"]'
+        list: '["code-annotations", "pylint-django"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -80,20 +80,23 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 14
-    build_details: '{"total_duration": "93 minutes 5 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 56 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, py)", "duration": "0 minutes 51 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 38 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 36 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 35 seconds"}, {"name": "Dependabot", "duration": "0 minutes 34 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 28 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 27 seconds"}, {"name": "push", "duration": "0 minutes 22 seconds"}]}'
+    build_details: '{"total_duration": "2175 minutes 30 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, quality)", "duration": "1 minutes 16 seconds"},
+        {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
+        "duration": "1 minutes 8 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
+        py)", "duration": "0 minutes 46 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 27 seconds"}, {"name": "Dependabot", "duration": "0 minutes 27
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 26 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 26 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 25 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     created_at: 2019-04-19 21:38:24
     default_branch: master
     description: ''
-    disk_usage_kb: 234
+    disk_usage_kb: 235
     fork_count: 5
     has_issues: true
     has_wiki: false
@@ -102,9 +105,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-25 03:44:34
+    last_push: 2026-06-01 03:45:01
     license: GNU AGPLv3
-    pulls_count: 3
+    pulls_count: 2
 github_actions: true
 language_bytes:
     css: 0
@@ -200,8 +203,8 @@ travis_yml:
 ubuntu_packages:
     apt_get_packages: []
     docker_packages:
-    - liblapack-dev
     - python3-dev
+    - liblapack-dev
     - libblas-dev
     - gfortran
     yml_files: '[]'

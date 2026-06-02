@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-05-28
+TIMESTAMP: 2026-06-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -81,7 +81,7 @@ github:
     created_at: 2019-01-02 20:14:34
     default_branch: master
     description: Site footer component for edX frontend apps.
-    disk_usage_kb: 16298
+    disk_usage_kb: 16296
     fork_count: 155
     has_issues: true
     has_wiki: false
@@ -90,7 +90,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 09:43:42
+    last_push: 2026-05-28 23:13:24
     license: GNU AGPLv3
     pulls_count: 15
 github_actions: true
@@ -118,7 +118,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://travis-ci.com/edx/frontend-component-footer: 404'
     getting-help: false
     good_links:
@@ -135,6 +134,7 @@ readme:
     - https://github.com/openedx/frontend-component-footer/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/code-of-conduct/
     - https://api.travis-ci.com/edx/frontend-component-footer.svg?branch=master
