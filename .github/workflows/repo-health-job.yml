@@ -53,6 +53,11 @@ jobs:
       TARGET_REPO_TO_STORE_REPORTS: "openedx/wg-maintenance"
       TARGET_REPO_BRANCH: "main"
       MAX_REPOS: ${{ github.event.inputs.max_repos }}
+      # Space-separated list of repos (by bare name) to skip during health scans.
+      # Covers all current wg-* working-group repos plus the webhook test repo.
+      # Note: matching is exact-name only (no glob), so new wg-* repos must be
+      # added here manually.
+      REPOS_TO_IGNORE: "wg-build-test-release wg-data wg-devops wg-frontend wg-governance wg-maintenance wg-marketing wg-mobile wg-security wg-translations webhook-test-repo"
     secrets:
       REPO_HEALTH_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO_HEALTH_BOT_EMAIL: ${{ secrets.REPO_HEALTH_BOT_EMAIL }}
