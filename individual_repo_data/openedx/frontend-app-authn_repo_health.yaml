@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,7 +60,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: false
     Makefile: true
     README: true
@@ -78,18 +77,21 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 51
-    build_details: '{"total_duration": "2 minutes 31 seconds", "checks": [{"name":
+    branch_count: 50
+    build_details: '{"total_duration": "48260 minutes 42 seconds", "checks": [{"name":
         "tests", "duration": "2 minutes 31 seconds"}, {"name": "autoupdate", "duration":
         "0 minutes 20 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 4 seconds"}]}'
+        "0 minutes 4 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     created_at: 2020-09-28 13:08:13
     default_branch: master
     description: Open edX micro-frontend application for new login and registration
         experience.
-    disk_usage_kb: 17267
-    fork_count: 261
+    disk_usage_kb: 17283
+    fork_count: 263
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -97,9 +99,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-27 21:32:31
+    last_push: 2026-06-16 01:52:52
     license: GNU AGPLv3
-    pulls_count: 20
+    pulls_count: 19
 github_actions: true
 language_bytes:
     css: 0
@@ -164,14 +166,12 @@ renovate:
     configured: true
     last_pr: '2026-03-27'
     oldest_open_pr_date: '2024-12-05'
-    total_open_prs: 9
+    total_open_prs: 8
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: false
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: false
     python_versions: []
 tox_ini:
     has_section:
@@ -179,15 +179,3 @@ tox_ini:
         testenv:quality: false
         tox: false
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'

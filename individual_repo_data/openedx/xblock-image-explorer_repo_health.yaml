@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,7 +7,7 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 80
+    count: 84
     github:
         count: 0
         list: '[]'
@@ -21,48 +21,51 @@ dependencies:
         count: 0
         list: ''
     pypi:
-        count: 24
-        list: '["jmespath==1.1.0", "pyyaml==6.0.3", "urllib3==2.7.0", "xblock[django]==6.1.0",
-            "lazy==1.6", "openedx-django-pyfs==4.0.0", "pytz==2026.2", "python-dateutil==2.9.0.post0",
-            "webob==1.8.9", "lxml==6.1.1", "mako==1.3.12", "boto3==1.43.14", "six==1.17.0",
-            "fs==2.4.16", "markupsafe==3.0.3", "asgiref==3.11.1", "sqlparse==0.5.5",
-            "django==5.2.14", "simplejson==4.1.1", "botocore==1.43.14", "s3transfer==0.17.0",
-            "web-fragments==4.0.0", "appdirs==1.4.4", "fs-s3fs==1.1.1"]'
+        count: 28
+        list: '["jmespath==1.1.0", "pymongo==4.17.0", "six==1.17.0", "s3transfer==0.18.0",
+            "pytz==2026.2", "sqlparse==0.5.5", "asgiref==3.11.1", "python-dateutil==2.9.0.post0",
+            "appdirs==1.4.4", "stevedore==5.8.0", "botocore==1.43.29", "lxml==6.1.1",
+            "mako==1.3.12", "lazy==1.6", "urllib3==2.7.0", "fs==2.4.16", "webob==1.8.10",
+            "markupsafe==3.0.3", "django==5.2.15", "fs-s3fs==1.1.1", "pyyaml==6.0.3",
+            "typing-extensions==4.15.0", "xblock[django]==6.3.0", "simplejson==4.1.1",
+            "boto3==1.43.29", "openedx-django-pyfs==4.0.0", "edx-opaque-keys==4.0.0",
+            "dnspython==2.8.0"]'
     pypi_all:
-        count: 80
-        list: '["jmespath==1.1.0", "pyyaml==6.0.3", "xblock[django]==6.1.0", "setuptools==82.0.1",
-            "pyproject-api==1.10.0", "edx-lint==6.1.0", "arrow==1.4.0", "mako==1.3.12",
-            "fs==2.4.16", "mock==5.2.0", "pycodestyle==2.14.0", "pip==26.1.1", "asgiref==3.11.1",
-            "wheel==0.47.0", "django==5.2.14", "code-annotations==3.0.0", "s3transfer==0.17.0",
-            "fs-s3fs==1.1.1", "pytest-django==4.12.0", "urllib3==2.7.0", "lazy==1.6",
-            "openedx-django-pyfs==4.0.0", "pluggy==1.6.0", "python-discovery==1.3.1",
-            "stevedore==5.8.0", "lxml==6.1.1", "virtualenv==21.3.3", "boto3==1.43.14",
-            "pyproject-hooks==1.2.0", "rich==15.0.0", "tox==4.54.0", "pylint-plugin-utils==0.9.0",
-            "pytest-cov==7.1.0", "pytest==9.0.3", "pip-tools==7.5.3", "distlib==0.4.0",
-            "iniconfig==2.3.0", "sqlparse==0.5.5", "tomlkit==0.15.0", "charset-normalizer==3.4.7",
-            "web-fragments==4.0.0", "pypng==0.20220715.0", "certifi==2026.5.20", "tzdata==2026.2",
-            "pytz==2026.2", "python-dateutil==2.9.0.post0", "webob==1.8.9", "colorama==0.4.6",
-            "cookiecutter==2.7.1", "requests==2.34.2", "six==1.17.0", "packaging==26.2",
-            "python-slugify==8.0.4", "astroid==4.0.4", "platformdirs==4.9.6", "dill==0.4.1",
-            "pylint-celery==0.3", "tomli-w==1.2.0", "click==8.4.1", "pygments==2.20.0",
-            "markdown-it-py==4.2.0", "cachetools==7.1.4", "coverage[toml]==7.14.0",
-            "markupsafe==3.0.3", "filelock==3.29.0", "build==1.5.0", "pylint==4.0.5",
-            "mccabe==0.7.0", "pylint-django==2.7.0", "click-log==0.4.0", "binaryornot==0.6.0",
-            "jinja2==3.1.6", "botocore==1.43.14", "simplejson==4.1.1", "mdurl==0.1.2",
-            "isort==8.0.1", "idna==3.16", "xblock-sdk==0.14.0", "text-unidecode==1.3",
-            "appdirs==1.4.4"]'
+        count: 84
+        list: '["pymongo==4.17.0", "code-annotations==3.0.0", "cookiecutter==2.7.1",
+            "pip-tools==7.5.3", "pytz==2026.2", "sqlparse==0.5.5", "asgiref==3.11.1",
+            "wheel==0.47.0", "idna==3.18", "platformdirs==4.10.0", "edx-lint==6.1.0",
+            "certifi==2026.5.20", "stevedore==5.8.0", "filelock==3.29.4", "packaging==26.2",
+            "mock==5.2.0", "coverage[toml]==7.14.1", "isort==8.0.1", "xblock[django]==6.3.0",
+            "tzdata==2026.2", "pylint-django==2.7.0", "pypng==0.20220715.0", "dnspython==2.8.0",
+            "setuptools==82.0.1", "pyproject-hooks==1.2.0", "arrow==1.4.0", "charset-normalizer==3.4.7",
+            "click==8.4.1", "colorama==0.4.6", "tox==4.55.1", "pytest-cov==7.1.0",
+            "python-dateutil==2.9.0.post0", "lxml==6.1.1", "pytest-django==4.12.0",
+            "mdurl==0.1.2", "pylint-celery==0.3", "fs-s3fs==1.1.1", "build==1.5.0",
+            "pyproject-api==1.10.1", "dill==0.4.1", "pluggy==1.6.0", "python-slugify==8.0.4",
+            "jmespath==1.1.0", "rich==15.0.0", "tomlkit==0.15.0", "distlib==0.4.3",
+            "jinja2==3.1.6", "appdirs==1.4.4", "pylint-plugin-utils==0.9.0", "python-discovery==1.4.2",
+            "astroid==4.0.4", "botocore==1.43.29", "mako==1.3.12", "fs==2.4.16", "web-fragments==4.0.0",
+            "django==5.2.15", "pytest==9.1.0", "click-log==0.4.0", "pyyaml==6.0.3",
+            "typing-extensions==4.15.0", "pygments==2.20.0", "simplejson==4.1.1",
+            "boto3==1.43.29", "urllib3==2.7.0", "edx-opaque-keys==4.0.0", "xblock-sdk==0.14.0",
+            "virtualenv==21.5.0", "mccabe==0.7.0", "pycodestyle==2.14.0", "six==1.17.0",
+            "s3transfer==0.18.0", "markdown-it-py==4.2.0", "binaryornot==0.6.0", "requests==2.34.2",
+            "iniconfig==2.3.0", "webob==1.8.10", "lazy==1.6", "markupsafe==3.0.3",
+            "text-unidecode==1.3", "cachetools==7.1.4", "pip==26.1.2", "pylint==4.0.6",
+            "tomli-w==1.2.0", "openedx-django-pyfs==4.0.0"]'
 django_packages:
     django_42:
-        count: 5
-        list: '["web-fragments", "xblock-sdk", "code-annotations", "pytest-django",
-            "pylint-django"]'
+        count: 6
+        list: '["edx-opaque-keys", "web-fragments", "code-annotations", "xblock-sdk",
+            "pylint-django", "pytest-django"]'
     total:
-        count: 5
-        list: '["web-fragments", "xblock-sdk", "code-annotations", "pytest-django",
-            "pylint-django"]'
+        count: 6
+        list: '["edx-opaque-keys", "web-fragments", "code-annotations", "xblock-sdk",
+            "pylint-django", "pytest-django"]'
     upgraded:
-        count: 3
-        list: '["xblock-sdk", "code-annotations", "web-fragments"]'
+        count: 4
+        list: '["edx-opaque-keys", "xblock-sdk", "web-fragments", "code-annotations"]'
 docs:
     build_badge: false
     python_version: null
@@ -71,7 +74,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: false
     Makefile: true
     README: true
@@ -89,24 +91,18 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
-    build_details: '{"total_duration": "10013 minutes 9 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 0 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django42)",
-        "duration": "0 minutes 35 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
-        package)", "duration": "0 minutes 35 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 35 seconds"}, {"name": "update-pip-graph",
-        "duration": "0 minutes 35 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
-        django52)", "duration": "0 minutes 33 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 24 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "0 minutes 52 seconds", "checks": [{"name":
+        "update-pip-graph", "duration": "0 minutes 48 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 42 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, package)", "duration": "0 minutes 39 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 37 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, django42)", "duration": "0 minutes 32 seconds"}]}'
     code_of_conduct: Other
     created_at: 2014-03-09 14:40:29
     default_branch: master
     description: ''
-    disk_usage_kb: 1513
+    disk_usage_kb: 1522
     fork_count: 42
     has_issues: true
     has_wiki: false
@@ -115,9 +111,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-01 01:10:52
+    last_push: 2026-06-15 16:00:09
     license: GNU AGPLv3
-    pulls_count: 2
+    pulls_count: 1
 github_actions: true
 language_bytes:
     css: 3925
@@ -165,12 +161,10 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    boto: false
     django: true
-    nose: false
     pytest: true
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: true
     pypi_name: xblock-image-explorer
     python_versions:
     - '3.12'
@@ -181,15 +175,3 @@ tox_ini:
         testenv:quality: true
         tox: true
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'

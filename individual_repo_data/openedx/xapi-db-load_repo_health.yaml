@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,7 +7,7 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 117
+    count: 123
     github:
         count: 0
         list: '[]'
@@ -22,55 +22,57 @@ dependencies:
         list: ''
     pypi:
         count: 35
-        list: '["charset-normalizer==3.4.7", "chdb==4.1.8", "requests==2.34.2", "certifi==2026.5.20",
-            "frozenlist==1.8.0", "clickhouse-connect[async]==1.0.1", "lz4==4.4.5",
-            "propcache==0.5.2", "attrs==26.1.0", "yarl==1.24.2", "chdb-core==26.3.0",
-            "pandas==3.0.3", "botocore==1.43.14", "aiohttp==3.13.5", "s3transfer==0.17.0",
-            "urllib3==2.7.0", "smart-open[s3]==7.6.1", "urwid==4.0.0", "typing-extensions==4.15.0",
-            "click==8.4.1", "six==1.17.0", "pyyaml==6.0.3", "aiohappyeyeballs==2.6.2",
-            "zstandard==0.25.0", "boto3==1.43.14", "pyarrow==24.0.0", "wcwidth==0.7.0",
-            "wrapt==2.2.1", "numpy==2.4.6", "python-dateutil==2.9.0.post0", "multidict==6.7.1",
-            "idna==3.16", "uvloop==0.22.1", "jmespath==1.1.0", "aiosignal==1.4.0"]'
+        list: '["aiosignal==1.4.0", "clickhouse-connect[async]==1.3.0", "certifi==2026.5.20",
+            "urllib3==2.7.0", "wcwidth==0.8.1", "numpy==2.4.6", "charset-normalizer==3.4.7",
+            "urwid==4.0.2", "zstandard==0.25.0", "typing-extensions==4.15.0", "attrs==26.1.0",
+            "jmespath==1.1.0", "multidict==6.7.1", "boto3==1.43.29", "chdb-core==26.5.0",
+            "smart-open[s3]==7.6.1", "six==1.17.0", "pyarrow==24.0.0", "requests==2.34.2",
+            "aiohappyeyeballs==2.6.2", "click==8.4.1", "s3transfer==0.18.0", "frozenlist==1.8.0",
+            "lz4==4.4.5", "chdb==4.1.9", "idna==3.18", "wrapt==2.2.1", "python-dateutil==2.9.0.post0",
+            "aiohttp==3.14.1", "propcache==0.5.2", "botocore==1.43.29", "yarl==1.24.2",
+            "pyyaml==6.0.3", "pandas==3.0.3", "uvloop==0.22.1"]'
     pypi_all:
-        count: 117
-        list: '["keyring==25.7.0", "isort==8.0.1", "sphinxcontrib-applehelp==2.0.0",
-            "charset-normalizer==3.4.7", "chdb==4.1.8", "certifi==2026.5.20", "packaging==26.2",
-            "readme-renderer==44.0", "rich==15.0.0", "twine==6.2.0", "pydocstyle==6.3.0",
-            "pyproject-hooks==1.2.0", "chardet==7.4.3", "virtualenv==21.3.3", "setuptools==82.0.1",
-            "aiohttp==3.13.5", "s3transfer==0.17.0", "urllib3==2.7.0", "tomlkit==0.15.0",
-            "jaraco-functools==4.5.0", "cffi==2.0.0", "python-discovery==1.3.1", "docutils==0.22.4",
-            "cryptography==48.0.0", "zstandard==0.25.0", "sphinxcontrib-qthelp==2.0.0",
-            "alabaster==1.0.0", "wrapt==2.2.1", "pygments==2.20.0", "roman-numerals==4.1.0",
-            "pip-tools==7.5.3", "mccabe==0.7.0", "id==1.6.1", "edx-lint==6.1.0", "frozenlist==1.8.0",
-            "pylint-django==2.7.0", "tox==4.54.0", "pydata-sphinx-theme==0.16.1",
-            "imagesize==2.0.0", "tomli-w==1.2.0", "filelock==3.29.0", "jmespath==1.1.0",
-            "pytest-asyncio==1.3.0", "nh3==0.3.5", "smart-open[s3]==7.6.1", "distlib==0.4.0",
-            "code-annotations==3.0.0", "pyyaml==6.0.3", "more-itertools==11.1.0",
-            "markdown-it-py==4.2.0", "wheel==0.47.0", "pytest-cov==7.1.0", "sphinxcontrib-jsmath==1.0.1",
-            "python-dateutil==2.9.0.post0", "snowballstemmer==3.1.0", "uvloop==0.22.1",
-            "text-unidecode==1.3", "aiosignal==1.4.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "platformdirs==4.9.6", "requests==2.34.2", "lz4==4.4.5", "propcache==0.5.2",
-            "pytest==9.0.3", "requests-toolbelt==1.0.0", "yarl==1.24.2", "click-log==0.4.0",
-            "pycodestyle==2.14.0", "typing-extensions==4.15.0", "click==8.4.1", "rfc3986==2.0.0",
-            "jinja2==3.1.6", "build==1.5.0", "jeepney==0.9.0", "pip==26.1.1", "iniconfig==2.3.0",
-            "pyarrow==24.0.0", "secretstorage==3.5.0", "colorama==0.4.6", "numpy==2.4.6",
-            "markupsafe==3.0.3", "python-slugify==8.0.4", "sphinx==9.1.0", "coverage[toml]==7.14.0",
-            "pluggy==1.6.0", "diff-cover==10.2.1", "dill==0.4.1", "clickhouse-connect[async]==1.0.1",
-            "soupsieve==2.8.4", "attrs==26.1.0", "mdurl==0.1.2", "sphinxcontrib-devhelp==2.0.0",
-            "jaraco-classes==3.4.0", "babel==2.18.0", "pylint-plugin-utils==0.9.0",
-            "chdb-core==26.3.0", "pandas==3.0.3", "cachetools==7.1.4", "botocore==1.43.14",
-            "accessible-pygments==0.0.5", "pylint-celery==0.3", "urwid==4.0.0", "stevedore==5.8.0",
-            "six==1.17.0", "pycparser==3.0", "astroid==4.0.4", "jaraco-context==6.1.2",
-            "pyproject-api==1.10.0", "aiohappyeyeballs==2.6.2", "sphinx-book-theme==1.2.0",
-            "boto3==1.43.14", "wcwidth==0.7.0", "sphinxcontrib-htmlhelp==2.1.0", "multidict==6.7.1",
-            "idna==3.16", "beautifulsoup4==4.14.3", "pylint==4.0.5"]'
+        count: 123
+        list: '["pydata-sphinx-theme==0.16.1", "pytest-cov==7.1.0", "pydocstyle==6.3.0",
+            "colorama==0.4.6", "diff-cover==10.3.0", "coverage[toml]==7.14.1", "stevedore==5.8.0",
+            "mypy-extensions==1.1.0", "pycparser==3.0", "babel==2.18.0", "build==1.5.0",
+            "python-slugify==8.0.4", "edx-lint==6.1.0", "pygments==2.20.0", "nh3==0.3.5",
+            "dill==0.4.1", "smart-open[s3]==7.6.1", "tomli-w==1.2.0", "frozenlist==1.8.0",
+            "chdb==4.1.9", "distlib==0.4.3", "lz4==4.4.5", "docutils==0.22.4", "beautifulsoup4==4.15.0",
+            "pyproject-hooks==1.2.0", "isort==8.0.1", "tomlkit==0.15.0", "markupsafe==3.0.3",
+            "id==1.6.1", "pluggy==1.6.0", "mypy==2.1.0", "click-log==0.4.0", "jinja2==3.1.6",
+            "charset-normalizer==3.4.7", "ast-serialize==0.5.0", "python-discovery==1.4.2",
+            "setuptools==82.0.1", "requests-toolbelt==1.0.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "sphinx-book-theme==1.2.0", "jmespath==1.1.0", "sphinxcontrib-jsmath==1.0.1",
+            "chdb-core==26.5.0", "pyproject-api==1.10.1", "click==8.4.1", "jaraco-context==6.1.2",
+            "jaraco-functools==4.5.0", "pathspec==1.1.1", "python-dateutil==2.9.0.post0",
+            "iniconfig==2.3.0", "pylint-plugin-utils==0.9.0", "sphinxcontrib-applehelp==2.0.0",
+            "secretstorage==3.5.0", "virtualenv==21.5.0", "twine==6.2.0", "aiosignal==1.4.0",
+            "clickhouse-connect[async]==1.3.0", "certifi==2026.5.20", "sphinxcontrib-devhelp==2.0.0",
+            "urllib3==2.7.0", "markdown-it-py==4.2.0", "wcwidth==0.8.1", "numpy==2.4.6",
+            "urwid==4.0.2", "astroid==4.0.4", "zstandard==0.25.0", "cffi==2.0.0",
+            "pytest-asyncio==1.4.0", "rfc3986==2.0.0", "cryptography==49.0.0", "text-unidecode==1.3",
+            "attrs==26.1.0", "pyarrow==24.0.0", "sphinxcontrib-qthelp==2.0.0", "requests==2.34.2",
+            "keyring==25.7.0", "wheel==0.47.0", "s3transfer==0.18.0", "chardet==7.4.3",
+            "idna==3.18", "rich==15.0.0", "alabaster==1.0.0", "propcache==0.5.2",
+            "readme-renderer==45.0", "pandas==3.0.3", "snowballstemmer==3.1.1", "cachetools==7.1.4",
+            "pip==26.1.2", "sphinx==9.1.0", "pycodestyle==2.14.0", "pip-tools==7.5.3",
+            "platformdirs==4.10.0", "mccabe==0.7.0", "packaging==26.2", "more-itertools==11.1.0",
+            "jaraco-classes==3.4.0", "sphinxcontrib-serializinghtml==2.0.0", "typing-extensions==4.15.0",
+            "pylint==4.0.6", "pytest==9.1.0", "librt==0.11.0", "multidict==6.7.1",
+            "boto3==1.43.29", "six==1.17.0", "accessible-pygments==0.0.5", "aiohappyeyeballs==2.6.2",
+            "mdurl==0.1.2", "imagesize==2.0.0", "wrapt==2.2.1", "aiohttp==3.14.1",
+            "botocore==1.43.29", "docutils==0.23", "yarl==1.24.2", "roman-numerals==4.1.0",
+            "pylint-celery==0.3", "jeepney==0.9.0", "pyyaml==6.0.3", "uvloop==0.22.1",
+            "filelock==3.29.4", "tox==4.55.1", "pylint-django==2.7.0", "code-annotations==3.0.0",
+            "soupsieve==2.8.4"]'
 django_packages:
     django_42:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     total:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -82,7 +84,6 @@ exists:
     .editorconfig: true
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: true
     Makefile: true
     README: true
@@ -100,20 +101,16 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 10
-    build_details: '{"total_duration": "9645 minutes 31 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 26 seconds"}, {"name": "tests (3.12)", "duration": "1 minutes 12
-        seconds"}, {"name": "update-pip-graph", "duration": "0 minutes 32 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 29 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 8
+    build_details: '{"total_duration": "640 minutes 6 seconds", "checks": [{"name":
+        "tests (3.12)", "duration": "1 minutes 12 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 46 seconds"}, {"name": "update-pip-graph", "duration":
+        "0 minutes 28 seconds"}]}'
     code_of_conduct: Other
     created_at: 2022-11-21 15:37:46
     default_branch: main
     description: ''
-    disk_usage_kb: 5910
+    disk_usage_kb: 5936
     fork_count: 6
     has_issues: true
     has_wiki: false
@@ -122,17 +119,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-01 00:39:05
+    last_push: 2026-06-15 06:13:41
     license: GNU AGPLv3
-    pulls_count: 2
+    pulls_count: 0
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
     javascript: 0
-    makefile: 3008
-    python: 188454
+    makefile: 3027
+    python: 212088
     shell: 0
 makefile:
     pip-installed: true
@@ -160,6 +157,7 @@ readme:
     getting-help: true
     good_links:
     - https://github.com/openedx/xapi-db-load/issues
+    - https://vector.dev
     - https://pypi.org/project/smart-open/
     - https://discuss.openedx.org
     - https://openedx.org/slack
@@ -180,15 +178,13 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: true
 setup_py:
     project_urls: "{\n        \"Code\": \"https://github.com/openedx/xapi-db-load\"\
         ,\n        \"Issue tracker\": \"https://github.com/openedx/xapi-db-load/issues\"\
         ,\n    }"
-    py38_classifiers: false
+    py312_classifiers: true
     pypi_name: xapi-db-load
     python_versions:
     - '3.12'
@@ -199,15 +195,3 @@ tox_ini:
         testenv:quality: true
         tox: true
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'
