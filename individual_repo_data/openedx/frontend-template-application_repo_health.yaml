@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -56,7 +56,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: false
     Makefile: true
     README: true
@@ -74,10 +73,12 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 48
-    build_details: '{"total_duration": "16515 minutes 33 seconds", "checks": [{"name":
+    branch_count: 47
+    build_details: '{"total_duration": "36679 minutes 24 seconds", "checks": [{"name":
         "test", "duration": "1 minutes 52 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 12 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "1 minutes 11 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 7 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "1 minutes 6 seconds"}, {"name": "version-check
         / version-check", "duration": "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
@@ -94,9 +95,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-01 00:26:46
+    last_push: 2026-06-16 17:53:20
     license: GNU AGPLv3
-    pulls_count: 23
+    pulls_count: 22
 github_actions: true
 language_bytes:
     css: 0
@@ -160,14 +161,12 @@ renovate:
     configured: true
     last_pr: '2026-04-06'
     oldest_open_pr_date: '2025-10-20'
-    total_open_prs: 7
+    total_open_prs: 6
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: false
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: false
     python_versions: []
 tox_ini:
     has_section:
@@ -175,15 +174,3 @@ tox_ini:
         testenv:quality: false
         tox: false
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'

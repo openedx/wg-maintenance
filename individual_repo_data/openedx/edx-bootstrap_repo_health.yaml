@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: false
     has_ecosystem:
@@ -50,7 +50,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: false
     Makefile: false
     README: true
@@ -68,7 +67,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
+    branch_count: 26
     build_details: '{"total_duration": "2 minutes 5 seconds", "checks": [{"name":
         "Release", "duration": "2 minutes 5 seconds"}, {"name": "tests", "duration":
         "1 minutes 57 seconds"}, {"name": "version-check / version-check", "duration":
@@ -77,7 +76,7 @@ github:
     created_at: 2017-06-23 20:12:07
     default_branch: master
     description: Bootstrap theme for Open edX
-    disk_usage_kb: 9246
+    disk_usage_kb: 9242
     fork_count: 23
     has_issues: true
     has_wiki: false
@@ -86,9 +85,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-30 15:08:27
+    last_push: 2026-06-16 16:48:00
     license: Apache License 2.0
-    pulls_count: 10
+    pulls_count: 9
 github_actions: true
 language_bytes:
     css: 0
@@ -136,14 +135,12 @@ renovate:
     configured: true
     last_pr: '2026-04-06'
     oldest_open_pr_date: '2021-08-23'
-    total_open_prs: 7
+    total_open_prs: 6
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: false
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: false
     python_versions: []
 tox_ini:
     has_section:
@@ -151,15 +148,3 @@ tox_ini:
         testenv:quality: false
         tox: false
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'

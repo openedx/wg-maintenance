@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: false
     has_ecosystem:
@@ -44,7 +44,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: false
     Makefile: true
     README: true
@@ -63,23 +62,28 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 16
-    build_details: '{"total_duration": "0 minutes 29 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "10793 minutes 28 seconds", "checks": [{"name":
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
         {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
         59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 50 seconds"}]}'
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 55 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-03-13 09:15:29
     default_branch: main
     description: The mobile app for iOS for the Open EdX Platform.
     disk_usage_kb: 13069
-    fork_count: 30
+    fork_count: 31
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -89,7 +93,7 @@ github:
     is_private: false
     last_push: 2026-05-28 08:47:00
     license: Apache License 2.0
-    pulls_count: 4
+    pulls_count: 3
 github_actions: false
 language_bytes:
     css: 0
@@ -139,12 +143,10 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: false
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: false
     python_versions: []
 tox_ini:
     has_section:
@@ -152,15 +154,3 @@ tox_ini:
         testenv:quality: false
         tox: false
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'

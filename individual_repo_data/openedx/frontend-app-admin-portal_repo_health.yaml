@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -72,7 +72,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: false
     Makefile: true
     README: true
@@ -90,21 +89,22 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 196
-    build_details: '{"total_duration": "2745 minutes 57 seconds", "checks": [{"name":
-        "tests", "duration": "5 minutes 3 seconds"}, {"name": "build", "duration":
-        "2 minutes 57 seconds"}, {"name": "lint", "duration": "1 minutes 55 seconds"},
-        {"name": "extract_translations", "duration": "1 minutes 14 seconds"}, {"name":
-        "Dependabot", "duration": "1 minutes 5 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 4 seconds"}, {"name": "Dependabot", "duration": "1 minutes 1 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 54 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 41 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 6 seconds"}]}'
+    branch_count: 197
+    build_details: '{"total_duration": "3898 minutes 40 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 15 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 45 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 26 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     created_at: 2018-05-10 13:44:58
     default_branch: master
     description: edx-portal is a frontend that provides branded learning experiences.
-    disk_usage_kb: 25155
+    disk_usage_kb: 25682
     fork_count: 44
     has_issues: true
     has_wiki: false
@@ -113,7 +113,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-29 22:50:02
+    last_push: 2026-06-18 05:38:38
     license: GNU AGPLv3
     pulls_count: 54
 github_actions: true
@@ -167,12 +167,10 @@ renovate:
     oldest_open_pr_date: '2024-05-22'
     total_open_prs: 6
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: false
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: false
     python_versions: []
 tox_ini:
     has_section:
@@ -180,15 +178,3 @@ tox_ini:
         testenv:quality: false
         tox: false
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: []
-    yml_files: '[]'

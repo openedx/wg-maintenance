@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -44,7 +44,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: true
     Makefile: true
     README: true
@@ -62,23 +61,31 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 4
-    build_details: '{"total_duration": "9484 minutes 37 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 58 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 34 seconds"}, {"name": "Test
-        (Python 3.12, Django 4.2)", "duration": "0 minutes 22 seconds"}, {"name":
-        "run_ci / Test (Python 3.12, Django 4.2)", "duration": "0 minutes 22 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 21 seconds"}, {"name": "Test
-        (Python 3.12, Django 5.2)", "duration": "0 minutes 15 seconds"}, {"name":
-        "run_ci / Test (Python 3.12, Django 5.2)", "duration": "0 minutes 15 seconds"},
-        {"name": "run_ci / Lint", "duration": "0 minutes 11 seconds"}, {"name": "Lint",
-        "duration": "0 minutes 7 seconds"}, {"name": "publish_to_pypi", "duration":
-        "-1 minutes 59 seconds"}]}'
+    branch_count: 9
+    build_details: '{"total_duration": "1899 minutes 58 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 14 seconds"}, {"name": "run_ci / Test (Python
+        3.12, Django 4.2)", "duration": "0 minutes 21 seconds"}, {"name": "Test (Python
+        3.12, Django 4.2)", "duration": "0 minutes 20 seconds"}, {"name": "Test (Python
+        3.12, Django 5.2)", "duration": "0 minutes 20 seconds"}, {"name": "run_ci
+        / Test (Python 3.12, Django 5.2)", "duration": "0 minutes 15 seconds"}, {"name":
+        "Lint", "duration": "0 minutes 11 seconds"}, {"name": "run_ci / Lint", "duration":
+        "0 minutes 8 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-04-17 17:54:17
     default_branch: main
     description: ''
-    disk_usage_kb: 949
+    disk_usage_kb: 954
     fork_count: 4
     has_issues: true
     has_wiki: false
@@ -87,17 +94,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-25 11:29:11
+    last_push: 2026-06-12 14:11:53
     license: GNU AGPLv3
-    pulls_count: 3
+    pulls_count: 7
 github_actions: true
 language_bytes:
-    css: 6275
+    css: 9625
     dockerfile: 0
-    html: 22844
-    javascript: 19303
+    html: 25498
+    javascript: 26607
     makefile: 2183
-    python: 145041
+    python: 195097
     shell: 0
 makefile:
     pip-installed: false
@@ -118,6 +125,7 @@ readme:
     good_links:
     - https://github.com/openedx-unsupported/AudioXBlock
     - https://github.com/openedx/FeedbackXBlock
+    - https://github.com/openedx/xblock-free-text-response
     - https://github.com/openedx-unsupported/xblock-image-modal
     - https://github.com/openedx-unsupported/xblock-qualtrics-survey
     - https://github.com/openedx/xblock-sql-grader
@@ -139,12 +147,10 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: false
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: false
     python_versions: []
 tox_ini:
     has_section:
@@ -152,15 +158,3 @@ tox_ini:
         testenv:quality: false
         tox: false
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,7 +62,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: false
     Makefile: true
     README: true
@@ -80,26 +79,24 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 91
-    build_details: '{"total_duration": "4882 minutes 18 seconds", "checks": [{"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration": "0
-        minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 51 seconds"}]}'
+    branch_count: 88
+    build_details: '{"total_duration": "734 minutes 17 seconds", "checks": [{"name":
+        "tests", "duration": "4 minutes 20 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 59 seconds"}, {"name": "coverage", "duration": "0 minutes 7 seconds"},
+        {"name": "version-check / version-check", "duration": "0 minutes 4 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
+        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2019-04-30 20:28:43
     default_branch: master
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 20771
+    disk_usage_kb: 20876
     fork_count: 324
     has_issues: true
     has_wiki: false
@@ -108,7 +105,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-18 01:18:11
+    last_push: 2026-06-17 17:53:32
     license: GNU AGPLv3
     pulls_count: 48
 github_actions: false
@@ -116,7 +113,7 @@ language_bytes:
     css: 128
     dockerfile: 0
     html: 752
-    javascript: 1288456
+    javascript: 1288744
     makefile: 2076
     python: 0
     shell: 0
@@ -140,7 +137,6 @@ readme:
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://support.edx.org/hc/en-us/articles/206503858-How-do-I-verify-my-identity:
         404'
-    - 'https://twitter.com/openedx: 403'
     getting-help: false
     good_links:
     - https://codecov.io/gh/edx/frontend-app-learning/branch/master/graph/badge.svg?token=3z7XvuzTq3
@@ -157,6 +153,7 @@ readme:
     - https://openedx.atlassian.net/browse/TNL-8678
     - https://support.edx.org/hc/en-us/articles/360000038428-Entering-math-expressions-in-assignments-or-the-calculator
     - https://support.edx.org/hc/en-us/articles/206502008-What-is-a-verified-certificate
+    - https://twitter.com/openedx
     - https://github.com/openedx/frontend-app-learning/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
@@ -179,12 +176,10 @@ renovate:
     oldest_open_pr_date: '2022-03-29'
     total_open_prs: 9
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: false
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: false
     python_versions: []
 tox_ini:
     has_section:
@@ -192,15 +187,3 @@ tox_ini:
         testenv:quality: false
         tox: false
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'

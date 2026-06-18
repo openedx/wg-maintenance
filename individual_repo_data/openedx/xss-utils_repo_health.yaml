@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,39 +22,39 @@ dependencies:
         list: ''
     pypi:
         count: 3
-        list: '["django==5.2.12", "asgiref==3.11.1", "sqlparse==0.5.5"]'
+        list: '["asgiref==3.11.1", "sqlparse==0.5.5", "django==5.2.12"]'
     pypi_all:
         count: 84
-        list: '["pylint-celery==0.3", "beautifulsoup4==4.14.3", "pytest-cov==7.0.0",
-            "pydata-sphinx-theme==0.15.4", "tox==4.49.0", "sphinx-book-theme==1.1.4",
-            "asgiref==3.11.1", "six==1.17.0", "diff-cover==10.2.0", "pyproject-hooks==1.2.0",
-            "pip-tools==7.5.3", "pylint-django==2.7.0", "snowballstemmer==3.0.1",
-            "roman-numerals==4.1.0", "coverage[toml]==7.13.4", "idna==3.11", "certifi==2026.2.25",
-            "python-slugify==8.0.4", "readme-renderer==44.0", "edx-lint==5.6.0", "build==1.4.0",
-            "tomli-w==1.2.0", "packaging==26.0", "dill==0.4.1", "babel==2.18.0", "sqlparse==0.5.5",
-            "cachetools==7.0.3", "edx-i18n-tools==1.9.0", "pycodestyle==2.14.0", "typing-extensions==4.15.0",
-            "path==16.16.0", "polib==1.2.0", "sphinxcontrib-applehelp==2.0.0", "sphinxcontrib-jsmath==1.0.1",
-            "requests==2.32.5", "markupsafe==3.0.3", "charset-normalizer==3.4.5",
-            "stevedore==5.7.0", "pylint==4.0.5", "lxml[html-clean]==6.0.2", "accessible-pygments==0.0.5",
-            "click-log==0.4.0", "doc8==2.0.0", "sphinxcontrib-qthelp==2.0.0", "astroid==4.0.4",
-            "pip==26.0.1", "platformdirs==4.9.4", "pydocstyle==6.3.0", "isort==8.0.1",
-            "sphinxcontrib-devhelp==2.0.0", "tomlkit==0.14.0", "django==5.2.12", "jinja2==3.1.6",
-            "click==8.3.1", "imagesize==2.0.0", "docutils==0.21.2", "pyproject-api==1.10.0",
-            "setuptools==82.0.0", "soupsieve==2.8.3", "pluggy==1.6.0", "filelock==3.25.0",
-            "wheel==0.46.3", "virtualenv==21.1.0", "pytest==9.0.2", "distlib==0.4.0",
-            "text-unidecode==1.3", "mccabe==0.7.0", "alabaster==1.0.0", "lxml-html-clean==0.4.4",
-            "sphinxcontrib-serializinghtml==2.0.0", "nh3==0.3.3", "iniconfig==2.3.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "chardet==7.0.1", "restructuredtext-lint==2.0.2",
-            "pygments==2.19.2", "sphinx==9.1.0", "colorama==0.4.6", "pytest-django==4.12.0",
-            "python-discovery==1.1.1", "pyyaml==6.0.3", "code-annotations==2.3.2",
-            "urllib3==2.6.3", "pylint-plugin-utils==0.9.0"]'
+        list: '["dill==0.4.1", "platformdirs==4.9.4", "six==1.17.0", "colorama==0.4.6",
+            "pyproject-api==1.10.0", "diff-cover==10.2.0", "packaging==26.0", "certifi==2026.2.25",
+            "pytest-django==4.12.0", "cachetools==7.0.3", "sphinxcontrib-qthelp==2.0.0",
+            "pyyaml==6.0.3", "nh3==0.3.3", "snowballstemmer==3.0.1", "wheel==0.46.3",
+            "sphinxcontrib-serializinghtml==2.0.0", "alabaster==1.0.0", "pycodestyle==2.14.0",
+            "edx-i18n-tools==1.9.0", "tomli-w==1.2.0", "pip==26.0.1", "python-slugify==8.0.4",
+            "polib==1.2.0", "sphinxcontrib-htmlhelp==2.1.0", "pluggy==1.6.0", "pylint-django==2.7.0",
+            "click==8.3.1", "pygments==2.19.2", "asgiref==3.11.1", "pydata-sphinx-theme==0.15.4",
+            "mccabe==0.7.0", "pylint-celery==0.3", "virtualenv==21.1.0", "accessible-pygments==0.0.5",
+            "chardet==7.0.1", "sphinx==9.1.0", "build==1.4.0", "readme-renderer==44.0",
+            "roman-numerals==4.1.0", "filelock==3.25.0", "code-annotations==2.3.2",
+            "sqlparse==0.5.5", "path==16.16.0", "urllib3==2.6.3", "requests==2.32.5",
+            "charset-normalizer==3.4.5", "docutils==0.21.2", "pytest==9.0.2", "tomlkit==0.14.0",
+            "beautifulsoup4==4.14.3", "pylint-plugin-utils==0.9.0", "jinja2==3.1.6",
+            "iniconfig==2.3.0", "pyproject-hooks==1.2.0", "django==5.2.12", "imagesize==2.0.0",
+            "distlib==0.4.0", "sphinxcontrib-jsmath==1.0.1", "astroid==4.0.4", "setuptools==82.0.0",
+            "idna==3.11", "coverage[toml]==7.13.4", "pydocstyle==6.3.0", "restructuredtext-lint==2.0.2",
+            "soupsieve==2.8.3", "doc8==2.0.0", "tox==4.49.0", "click-log==0.4.0",
+            "typing-extensions==4.15.0", "edx-lint==5.6.0", "pylint==4.0.5", "lxml[html-clean]==6.0.2",
+            "babel==2.18.0", "python-discovery==1.1.1", "stevedore==5.7.0", "markupsafe==3.0.3",
+            "pytest-cov==7.0.0", "text-unidecode==1.3", "isort==8.0.1", "lxml-html-clean==0.4.4",
+            "sphinx-book-theme==1.1.4", "sphinxcontrib-devhelp==2.0.0", "sphinxcontrib-applehelp==2.0.0",
+            "pip-tools==7.5.3"]'
 django_packages:
     django_42:
         count: 4
-        list: '["pytest-django", "pylint-django", "code-annotations", "edx-i18n-tools"]'
+        list: '["code-annotations", "pylint-django", "pytest-django", "edx-i18n-tools"]'
     total:
         count: 4
-        list: '["pytest-django", "pylint-django", "code-annotations", "edx-i18n-tools"]'
+        list: '["code-annotations", "pylint-django", "pytest-django", "edx-i18n-tools"]'
     upgraded:
         count: 2
         list: '["code-annotations", "edx-i18n-tools"]'
@@ -66,7 +66,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: true
     Makefile: true
     README: true
@@ -111,7 +110,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-03-30 20:41:16
+    last_push: 2026-06-08 19:32:57
     license: GNU AGPLv3
     pulls_count: 3
 github_actions: true
@@ -170,12 +169,10 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    boto: false
     django: true
-    nose: false
     pytest: true
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: true
     pypi_name: xss-utils
     python_versions:
     - '3'
@@ -187,15 +184,3 @@ tox_ini:
         testenv:quality: true
         tox: true
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'

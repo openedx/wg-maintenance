@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-01
+TIMESTAMP: 2026-06-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -58,7 +58,6 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    .travis.yml: false
     CHANGELOG.rst: false
     Makefile: true
     README: true
@@ -77,23 +76,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 73
-    build_details: '{"total_duration": "15781 minutes 14 seconds", "checks": [{"name":
-        "tests", "duration": "3 minutes 27 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 4 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    build_details: '{"total_duration": "3 minutes 36 seconds", "checks": [{"name":
+        "tests", "duration": "3 minutes 33 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     created_at: 2020-08-11 23:04:15
     default_branch: master
     description: A React-based micro frontend for the Open edX discussion forums.
-    disk_usage_kb: 8932
-    fork_count: 107
+    disk_usage_kb: 8976
+    fork_count: 110
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -101,15 +92,15 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-29 20:32:11
+    last_push: 2026-06-17 18:22:22
     license: GNU AGPLv3
-    pulls_count: 17
+    pulls_count: 16
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 6378
-    javascript: 909185
+    javascript: 909169
     makefile: 2014
     python: 0
     shell: 0
@@ -162,12 +153,10 @@ renovate:
     oldest_open_pr_date: '2024-01-08'
     total_open_prs: 7
 requires:
-    boto: false
     django: false
-    nose: false
     pytest: false
 setup_py:
-    py38_classifiers: false
+    py312_classifiers: false
     python_versions: []
 tox_ini:
     has_section:
@@ -175,15 +164,3 @@ tox_ini:
         testenv:quality: false
         tox: false
     uses_whitelist_externals: false
-travis_ci:
-    active: false
-    active_on_com: false
-    active_on_org: false
-travis_yml:
-    parsable: false
-    py38_tests: false
-    python_versions: []
-ubuntu_packages:
-    apt_get_packages: []
-    docker_packages: null
-    yml_files: '[]'
