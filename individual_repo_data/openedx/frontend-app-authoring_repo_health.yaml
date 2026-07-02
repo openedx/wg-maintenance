@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -101,23 +101,25 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 34
-    build_details: '{"total_duration": "529 minutes 21 seconds", "checks": [{"name":
-        "tests", "duration": "10 minutes 50 seconds"}, {"name": "coverage", "duration":
-        "0 minutes 8 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 4 seconds"}, {"name": "routeissue / add_label", "duration": "0
-        minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+    branch_count: 33
+    build_details: '{"total_duration": "894 minutes 55 seconds", "checks": [{"name":
+        "tests", "duration": "10 minutes 24 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 7 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 54 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 52 seconds"}]}'
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2020-05-06 18:34:51
     default_branch: master
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 52105
-    fork_count: 201
+    disk_usage_kb: 52059
+    fork_count: 204
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -125,15 +127,15 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-17 21:05:28
+    last_push: 2026-07-01 23:18:04
     license: GNU AGPLv3
-    pulls_count: 30
+    pulls_count: 28
 github_actions: false
 language_bytes:
     css: 0
     dockerfile: 0
     html: 388
-    javascript: 3167604
+    javascript: 3033517
     makefile: 1967
     python: 0
     shell: 0
@@ -201,9 +203,9 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2026-04-16'
+    last_pr: '2026-07-01'
     oldest_open_pr_date: '2025-04-07'
-    total_open_prs: 2
+    total_open_prs: 3
 requires:
     django: false
     pytest: false

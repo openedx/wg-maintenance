@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: false
     has_ecosystem:
@@ -77,7 +77,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 29
+    branch_count: 28
     build_details: '{"total_duration": "1 minutes 48 seconds", "checks": [{"name":
         "build", "duration": "1 minutes 48 seconds"}, {"name": "Release", "duration":
         "0 minutes 35 seconds"}]}'
@@ -85,7 +85,7 @@ github:
     created_at: 2015-08-13 07:28:13
     default_branch: master
     description: A JavaScript toolkit for building edX user interfaces.
-    disk_usage_kb: 3781
+    disk_usage_kb: 3780
     fork_count: 14
     has_issues: true
     has_wiki: false
@@ -94,9 +94,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-11 11:11:55
+    last_push: 2026-06-18 19:44:57
     license: Apache License 2.0
-    pulls_count: 13
+    pulls_count: 12
 github_actions: true
 language_bytes:
     css: 0
@@ -150,7 +150,7 @@ renovate:
     configured: true
     last_pr: '2026-04-06'
     oldest_open_pr_date: '2023-09-04'
-    total_open_prs: 8
+    total_open_prs: 7
 requires:
     django: false
     pytest: false

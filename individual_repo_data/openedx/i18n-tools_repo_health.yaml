@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,24 +22,24 @@ dependencies:
         list: ''
     pypi:
         count: 8
-        list: '["path==16.16.0", "polib==1.2.0", "lxml[html-clean]==6.0.2", "pyyaml==6.0.3",
-            "asgiref==3.11.1", "lxml-html-clean==0.4.4", "django==5.2.12", "sqlparse==0.5.5"]'
+        list: '["polib==1.2.0", "pyyaml==6.0.3", "path==16.16.0", "lxml[html-clean]==6.0.2",
+            "django==5.2.12", "lxml-html-clean==0.4.4", "asgiref==3.11.1", "sqlparse==0.5.5"]'
     pypi_all:
         count: 54
-        list: '["tomli-w==1.2.0", "click==8.3.1", "path==16.16.0", "text-unidecode==1.3",
-            "build==1.4.0", "pyproject-hooks==1.2.0", "markupsafe==3.0.3", "isort==8.0.1",
-            "pygments==2.19.2", "tomlkit==0.14.0", "mock==5.2.0", "pytest-cov==7.0.0",
-            "asgiref==3.11.1", "pylint-celery==0.3", "wheel==0.46.3", "django==5.2.12",
-            "pip==26.0.1", "pycodestyle==2.14.0", "pylint-plugin-utils==0.9.0", "pytest==9.0.2",
-            "filelock==3.25.0", "iniconfig==2.3.0", "polib==1.2.0", "pluggy==1.6.0",
-            "mccabe==0.7.0", "virtualenv==21.1.0", "pytz==2026.1.post1", "sqlparse==0.5.5",
-            "coverage[toml]==7.13.4", "astroid==4.0.4", "jinja2==3.1.6", "packaging==26.0",
-            "python-discovery==1.1.1", "tox==4.49.0", "edx-lint==5.6.0", "setuptools==82.0.0",
-            "six==1.17.0", "python-slugify==8.0.4", "lxml-html-clean==0.4.4", "click-log==0.4.0",
-            "ddt==1.7.2", "code-annotations==2.3.2", "pylint==4.0.5", "stevedore==5.7.0",
-            "pip-tools==7.5.3", "colorama==0.4.6", "pyproject-api==1.10.0", "platformdirs==4.9.4",
-            "pylint-django==2.7.0", "cachetools==7.0.3", "lxml[html-clean]==6.0.2",
-            "pyyaml==6.0.3", "dill==0.4.1", "distlib==0.4.0"]'
+        list: '["click-log==0.4.0", "click==8.3.1", "polib==1.2.0", "pytz==2026.1.post1",
+            "tomlkit==0.14.0", "python-slugify==8.0.4", "pyproject-hooks==1.2.0",
+            "pylint-django==2.7.0", "packaging==26.0", "django==5.2.12", "pytest-cov==7.0.0",
+            "jinja2==3.1.6", "edx-lint==5.6.0", "wheel==0.46.3", "pluggy==1.6.0",
+            "mccabe==0.7.0", "pip==26.0.1", "virtualenv==21.1.0", "isort==8.0.1",
+            "dill==0.4.1", "cachetools==7.0.3", "ddt==1.7.2", "pylint==4.0.5", "code-annotations==2.3.2",
+            "tomli-w==1.2.0", "colorama==0.4.6", "six==1.17.0", "pip-tools==7.5.3",
+            "pygments==2.19.2", "lxml[html-clean]==6.0.2", "pyproject-api==1.10.0",
+            "pytest==9.0.2", "python-discovery==1.1.1", "pylint-celery==0.3", "lxml-html-clean==0.4.4",
+            "platformdirs==4.9.4", "setuptools==82.0.0", "pylint-plugin-utils==0.9.0",
+            "pyyaml==6.0.3", "astroid==4.0.4", "coverage[toml]==7.13.4", "mock==5.2.0",
+            "path==16.16.0", "sqlparse==0.5.5", "tox==4.49.0", "iniconfig==2.3.0",
+            "build==1.4.0", "markupsafe==3.0.3", "filelock==3.25.0", "asgiref==3.11.1",
+            "text-unidecode==1.3", "pycodestyle==2.14.0", "stevedore==5.7.0", "distlib==0.4.0"]'
 django_packages:
     django_42:
         count: 2
@@ -105,7 +105,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-15 01:02:48
+    last_push: 2026-06-29 00:57:31
     license: Apache License 2.0
     pulls_count: 13
 github_actions: true
