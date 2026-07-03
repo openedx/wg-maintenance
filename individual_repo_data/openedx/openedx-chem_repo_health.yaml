@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: false
     has_ecosystem:
@@ -22,20 +22,20 @@ dependencies:
         list: ''
     pypi:
         count: 9
-        list: '["joblib==1.5.3", "numpy==2.4.2", "scipy==1.17.1", "nltk==3.9.3", "regex==2026.2.28",
-            "click==8.3.1", "pyparsing==3.3.2", "markupsafe==3.0.3", "tqdm==4.67.3"]'
+        list: '["regex==2026.2.28", "joblib==1.5.3", "nltk==3.9.3", "markupsafe==3.0.3",
+            "pyparsing==3.3.2", "numpy==2.4.2", "click==8.3.1", "scipy==1.17.1", "tqdm==4.67.3"]'
     pypi_all:
         count: 39
-        list: '["tomli-w==1.2.0", "nltk==3.9.3", "regex==2026.2.28", "dill==0.4.1",
-            "tomlkit==0.14.0", "pyproject-api==1.10.0", "pyparsing==3.3.2", "pytest==9.0.2",
-            "virtualenv==21.1.0", "tqdm==4.67.3", "joblib==1.5.3", "numpy==2.4.2",
-            "build==1.4.0", "pip-tools==7.5.3", "python-discovery==1.1.1", "filelock==3.25.0",
-            "pygments==2.19.2", "markupsafe==3.0.3", "colorama==0.4.6", "scipy==1.17.1",
-            "cachetools==7.0.3", "setuptools==82.0.0", "pluggy==1.6.0", "pyproject-hooks==1.2.0",
-            "pycodestyle==2.14.0", "packaging==26.0", "tox==4.49.0", "astroid==4.0.4",
-            "click==8.3.1", "coverage[toml]==7.13.4", "distlib==0.4.0", "platformdirs==4.9.4",
-            "pytest-cov==7.0.0", "pylint==4.0.5", "wheel==0.46.3", "isort==8.0.1",
-            "mccabe==0.7.0", "pip==26.0.1", "iniconfig==2.3.0"]'
+        list: '["joblib==1.5.3", "setuptools==82.0.0", "iniconfig==2.3.0", "markupsafe==3.0.3",
+            "pyparsing==3.3.2", "pyproject-api==1.10.0", "astroid==4.0.4", "coverage[toml]==7.13.4",
+            "mccabe==0.7.0", "packaging==26.0", "pytest-cov==7.0.0", "tomlkit==0.14.0",
+            "pylint==4.0.5", "pip-tools==7.5.3", "python-discovery==1.1.1", "filelock==3.25.0",
+            "cachetools==7.0.3", "build==1.4.0", "virtualenv==21.1.0", "pygments==2.19.2",
+            "tqdm==4.67.3", "nltk==3.9.3", "pip==26.0.1", "numpy==2.4.2", "colorama==0.4.6",
+            "pytest==9.0.2", "click==8.3.1", "pyproject-hooks==1.2.0", "regex==2026.2.28",
+            "tomli-w==1.2.0", "platformdirs==4.9.4", "pycodestyle==2.14.0", "tox==4.49.0",
+            "distlib==0.4.0", "scipy==1.17.1", "dill==0.4.1", "wheel==0.46.3", "isort==8.0.1",
+            "pluggy==1.6.0"]'
 django_packages:
     django_42:
         count: 0
@@ -72,13 +72,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 27
-    build_details: '{"total_duration": "1 minutes 2 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "29585 minutes 24 seconds", "checks": [{"name":
         "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 2 seconds"},
         {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 53
         seconds"}, {"name": "Dependabot", "duration": "0 minutes 33 seconds"}, {"name":
         "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 30 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 26 seconds"}]}'
+        minutes 29 seconds"}, {"name": "Dependabot", "duration": "0 minutes 26 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 24 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 20 seconds"}]}'
     code_of_conduct: Other
     created_at: 2019-05-07 16:58:24
     default_branch: master

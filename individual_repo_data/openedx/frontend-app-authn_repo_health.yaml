@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -77,7 +77,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 50
+    branch_count: 49
     build_details: '{"total_duration": "48260 minutes 42 seconds", "checks": [{"name":
         "tests", "duration": "2 minutes 31 seconds"}, {"name": "autoupdate", "duration":
         "0 minutes 20 seconds"}, {"name": "version-check / version-check", "duration":
@@ -90,8 +90,8 @@ github:
     default_branch: master
     description: Open edX micro-frontend application for new login and registration
         experience.
-    disk_usage_kb: 17283
-    fork_count: 263
+    disk_usage_kb: 17135
+    fork_count: 262
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -99,9 +99,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-16 01:52:52
+    last_push: 2026-06-26 02:32:36
     license: GNU AGPLv3
-    pulls_count: 19
+    pulls_count: 18
 github_actions: true
 language_bytes:
     css: 0
@@ -166,7 +166,7 @@ renovate:
     configured: true
     last_pr: '2026-03-27'
     oldest_open_pr_date: '2024-12-05'
-    total_open_prs: 8
+    total_open_prs: 7
 requires:
     django: false
     pytest: false

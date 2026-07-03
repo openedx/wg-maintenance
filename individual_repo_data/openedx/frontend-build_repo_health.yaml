@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: false
     has_ecosystem:
@@ -90,17 +90,22 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 32
-    build_details: '{"total_duration": "2 minutes 0 seconds", "checks": [{"name":
+    branch_count: 38
+    build_details: '{"total_duration": "50373 minutes 41 seconds", "checks": [{"name":
         "tests", "duration": "2 minutes 0 seconds"}, {"name": "Release", "duration":
-        "1 minutes 45 seconds"}, {"name": "Syncing branches", "duration": "0 minutes
-        15 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        4 seconds"}]}'
+        "1 minutes 45 seconds"}, {"name": "Dependabot", "duration": "0 minutes 40
+        seconds"}, {"name": "Syncing branches", "duration": "0 minutes 15 seconds"},
+        {"name": "version-check / version-check", "duration": "0 minutes 4 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 54 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        51 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2019-09-23 13:41:45
     default_branch: master
     description: Common build scripts and tooling for Open edX micro-frontends.
-    disk_usage_kb: 17128
+    disk_usage_kb: 18083
     fork_count: 41
     has_issues: true
     has_wiki: false
@@ -109,9 +114,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-20 13:13:27
+    last_push: 2026-06-24 13:26:44
     license: GNU AGPLv3
-    pulls_count: 11
+    pulls_count: 17
 github_actions: true
 language_bytes:
     css: 0

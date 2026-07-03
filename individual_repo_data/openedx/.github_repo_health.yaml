@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,19 +61,19 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
-    build_details: '{"total_duration": "8668 minutes 58 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 34 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 18 seconds"}, {"name": "Get list of PRs", "duration":
-        "0 minutes 11 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes
-        10 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes 6 seconds"},
-        {"name": "Get list of PRs", "duration": "0 minutes 6 seconds"}, {"name": "Get
+    branch_count: 10
+    build_details: '{"total_duration": "8834 minutes 0 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 47 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 27 seconds"}, {"name": "Get list of PRs", "duration":
+        "0 minutes 10 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes
+        9 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes 7 seconds"},
+        {"name": "Get list of PRs", "duration": "0 minutes 7 seconds"}, {"name": "Get
         list of PRs", "duration": "0 minutes 6 seconds"}, {"name": "Get list of PRs",
         "duration": "0 minutes 6 seconds"}, {"name": "Get list of PRs", "duration":
-        "0 minutes 5 seconds"}, {"name": "merge_pr", "duration": "0 minutes 0 seconds"},
+        "0 minutes 6 seconds"}, {"name": "merge_pr", "duration": "0 minutes 0 seconds"},
         {"name": "merge_pr", "duration": "0 minutes 0 seconds"}, {"name": "merge_pr",
-        "duration": "0 minutes 0 seconds"}, {"name": "merge_pr", "duration": "-1 minutes
-        59 seconds"}, {"name": "merge_pr", "duration": "-1 minutes 59 seconds"}, {"name":
+        "duration": "0 minutes 0 seconds"}, {"name": "merge_pr", "duration": "0 minutes
+        0 seconds"}, {"name": "merge_pr", "duration": "0 minutes 0 seconds"}, {"name":
         "merge_pr", "duration": "-1 minutes 59 seconds"}, {"name": "merge_pr", "duration":
         "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
@@ -81,7 +81,7 @@ github:
     default_branch: master
     description: Centralized openedx repository workflows, community health files,
         etc.
-    disk_usage_kb: 401
+    disk_usage_kb: 437
     fork_count: 33
     has_issues: true
     has_wiki: false
@@ -90,9 +90,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-09 16:27:48
+    last_push: 2026-06-29 14:22:45
     license: Apache License 2.0
-    pulls_count: 0
+    pulls_count: 2
 github_actions: false
 language_bytes:
     css: 0

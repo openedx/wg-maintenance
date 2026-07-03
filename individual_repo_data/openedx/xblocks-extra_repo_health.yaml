@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -44,7 +44,7 @@ exists:
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
-    CHANGELOG.rst: true
+    CHANGELOG.rst: false
     Makefile: true
     README: true
     commitlint.yml: true
@@ -55,37 +55,35 @@ exists:
     requirements: false
     setup.cfg: false
     setup.py: false
-    tox.ini: false
+    tox.ini: true
     transifex_config: false
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
-    build_details: '{"total_duration": "1899 minutes 58 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 14 seconds"}, {"name": "run_ci / Test (Python
-        3.12, Django 4.2)", "duration": "0 minutes 21 seconds"}, {"name": "Test (Python
-        3.12, Django 4.2)", "duration": "0 minutes 20 seconds"}, {"name": "Test (Python
-        3.12, Django 5.2)", "duration": "0 minutes 20 seconds"}, {"name": "run_ci
-        / Test (Python 3.12, Django 5.2)", "duration": "0 minutes 15 seconds"}, {"name":
-        "Lint", "duration": "0 minutes 11 seconds"}, {"name": "run_ci / Lint", "duration":
-        "0 minutes 8 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 6
+    build_details: '{"total_duration": "6568 minutes 30 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 16 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 35 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 30 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 27 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 25 seconds"}, {"name": "Dependabot", "duration": "0 minutes 23 seconds"},
+        {"name": "run_ci / django42", "duration": "0 minutes 20 seconds"}, {"name":
+        "django42", "duration": "0 minutes 18 seconds"}, {"name": "django52", "duration":
+        "0 minutes 17 seconds"}, {"name": "run_ci / django52", "duration": "0 minutes
+        16 seconds"}, {"name": "docs", "duration": "0 minutes 15 seconds"}, {"name":
+        "run_ci / docs", "duration": "0 minutes 15 seconds"}, {"name": "run_ci / lint",
+        "duration": "0 minutes 13 seconds"}, {"name": "lint", "duration": "0 minutes
+        10 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
+        50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2025-04-17 17:54:17
     default_branch: main
     description: ''
-    disk_usage_kb: 954
+    disk_usage_kb: 959
     fork_count: 4
     has_issues: true
     has_wiki: false
@@ -94,16 +92,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-12 14:11:53
+    last_push: 2026-06-24 11:17:36
     license: GNU AGPLv3
-    pulls_count: 7
+    pulls_count: 4
 github_actions: true
 language_bytes:
     css: 9625
     dockerfile: 0
     html: 25498
     javascript: 26607
-    makefile: 2183
+    makefile: 2090
     python: 195097
     shell: 0
 makefile:
@@ -154,7 +152,7 @@ setup_py:
     python_versions: []
 tox_ini:
     has_section:
-        testenv: false
+        testenv: true
         testenv:quality: false
-        tox: false
+        tox: true
     uses_whitelist_externals: false

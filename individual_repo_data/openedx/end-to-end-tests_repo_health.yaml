@@ -7,22 +7,19 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 11
+    count: 0
     github:
         count: 0
         list: ''
     js:
         count: 0
-        list: '{}'
+        list: ''
     js.all:
         count: 0
-        list: '{}'
+        list: ''
     js.dev:
-        count: 11
-        list: '{"@openedx/frontend-base": "^1.0.0-alpha || 0.0.0-dev", "@testing-library/jest-dom":
-            "^6.9.1", "@testing-library/react": "^16.3.0", "@types/jest": "^29.5.14",
-            "@types/react": "^18", "@types/react-dom": "^18", "jest": "^29", "nodemon":
-            "^3.1.14", "react": "^18", "react-dom": "^18", "tsc-alias": "^1.8.16"}'
+        count: 0
+        list: ''
     pypi:
         count: 0
         list: ''
@@ -45,15 +42,15 @@ docs:
 exists:
     .coveragerc: false
     .editorconfig: false
-    .gitignore: true
+    .gitignore: false
     .pii_annotations.yml: false
     CHANGELOG.rst: false
-    Makefile: true
+    Makefile: false
     README: true
-    commitlint.yml: true
+    commitlint.yml: false
     dependabot.yml: false
     openedx.yaml: false
-    package.json: true
+    package.json: false
     pylintrc: false
     requirements: false
     setup.cfg: false
@@ -65,34 +62,30 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "0 minutes 59 seconds", "checks": [{"name":
-        "test", "duration": "0 minutes 59 seconds"}, {"name": "Release", "duration":
-        "0 minutes 40 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 5 seconds"}]}'
+    build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
-    created_at: 2026-05-02 22:17:10
+    created_at: 2026-06-18 19:35:55
     default_branch: main
-    description: Compatibility shim that lets legacy frontend-plugin-framework env.config.jsx
-        files run on top of @openedx/frontend-base.
-    disk_usage_kb: 275
-    fork_count: 2
+    description: A repository of end-to-end Tests for the Open edX Platform
+    disk_usage_kb: 8
+    fork_count: 0
     has_issues: true
-    has_wiki: false
+    has_wiki: true
     is_archived: false
     is_disabled: false
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-20 13:22:04
-    license: GNU AGPLv3
+    last_push: 2026-07-01 15:54:30
+    license: Apache License 2.0
     pulls_count: 0
-github_actions: true
+github_actions: false
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
-    javascript: 893
-    makefile: 157
+    javascript: 0
+    makefile: 0
     python: 0
     shell: 0
 makefile:
@@ -111,9 +104,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links: []
     getting-help: false
-    good_links:
-    - https://github.com/openedx/frontend-base
-    - https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/mfe_config_api/views.py
+    good_links: []
     irc-missing: true
     mailing-list-missing: true
     security: false
@@ -122,10 +113,10 @@ readthedocs_config:
     file_name: ''
     version: ''
 renovate:
-    configured: true
+    configured: false
     last_pr: null
     oldest_open_pr_date: null
-    total_open_prs: 0
+    total_open_prs: null
 requires:
     django: false
     pytest: false

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-06-18
+TIMESTAMP: 2026-07-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,39 +22,39 @@ dependencies:
         list: ''
     pypi:
         count: 3
-        list: '["asgiref==3.11.1", "sqlparse==0.5.5", "django==5.2.12"]'
+        list: '["django==5.2.12", "asgiref==3.11.1", "sqlparse==0.5.5"]'
     pypi_all:
         count: 84
-        list: '["dill==0.4.1", "platformdirs==4.9.4", "six==1.17.0", "colorama==0.4.6",
-            "pyproject-api==1.10.0", "diff-cover==10.2.0", "packaging==26.0", "certifi==2026.2.25",
-            "pytest-django==4.12.0", "cachetools==7.0.3", "sphinxcontrib-qthelp==2.0.0",
-            "pyyaml==6.0.3", "nh3==0.3.3", "snowballstemmer==3.0.1", "wheel==0.46.3",
-            "sphinxcontrib-serializinghtml==2.0.0", "alabaster==1.0.0", "pycodestyle==2.14.0",
-            "edx-i18n-tools==1.9.0", "tomli-w==1.2.0", "pip==26.0.1", "python-slugify==8.0.4",
-            "polib==1.2.0", "sphinxcontrib-htmlhelp==2.1.0", "pluggy==1.6.0", "pylint-django==2.7.0",
-            "click==8.3.1", "pygments==2.19.2", "asgiref==3.11.1", "pydata-sphinx-theme==0.15.4",
-            "mccabe==0.7.0", "pylint-celery==0.3", "virtualenv==21.1.0", "accessible-pygments==0.0.5",
-            "chardet==7.0.1", "sphinx==9.1.0", "build==1.4.0", "readme-renderer==44.0",
-            "roman-numerals==4.1.0", "filelock==3.25.0", "code-annotations==2.3.2",
-            "sqlparse==0.5.5", "path==16.16.0", "urllib3==2.6.3", "requests==2.32.5",
-            "charset-normalizer==3.4.5", "docutils==0.21.2", "pytest==9.0.2", "tomlkit==0.14.0",
-            "beautifulsoup4==4.14.3", "pylint-plugin-utils==0.9.0", "jinja2==3.1.6",
-            "iniconfig==2.3.0", "pyproject-hooks==1.2.0", "django==5.2.12", "imagesize==2.0.0",
-            "distlib==0.4.0", "sphinxcontrib-jsmath==1.0.1", "astroid==4.0.4", "setuptools==82.0.0",
-            "idna==3.11", "coverage[toml]==7.13.4", "pydocstyle==6.3.0", "restructuredtext-lint==2.0.2",
-            "soupsieve==2.8.3", "doc8==2.0.0", "tox==4.49.0", "click-log==0.4.0",
-            "typing-extensions==4.15.0", "edx-lint==5.6.0", "pylint==4.0.5", "lxml[html-clean]==6.0.2",
-            "babel==2.18.0", "python-discovery==1.1.1", "stevedore==5.7.0", "markupsafe==3.0.3",
-            "pytest-cov==7.0.0", "text-unidecode==1.3", "isort==8.0.1", "lxml-html-clean==0.4.4",
-            "sphinx-book-theme==1.1.4", "sphinxcontrib-devhelp==2.0.0", "sphinxcontrib-applehelp==2.0.0",
-            "pip-tools==7.5.3"]'
+        list: '["pylint-celery==0.3", "mccabe==0.7.0", "coverage[toml]==7.13.4", "roman-numerals==4.1.0",
+            "pytest-django==4.12.0", "alabaster==1.0.0", "sphinxcontrib-applehelp==2.0.0",
+            "restructuredtext-lint==2.0.2", "click-log==0.4.0", "edx-i18n-tools==1.9.0",
+            "pip-tools==7.5.3", "sphinx-book-theme==1.1.4", "pyyaml==6.0.3", "setuptools==82.0.0",
+            "isort==8.0.1", "charset-normalizer==3.4.5", "platformdirs==4.9.4", "urllib3==2.6.3",
+            "nh3==0.3.3", "snowballstemmer==3.0.1", "pytest-cov==7.0.0", "babel==2.18.0",
+            "click==8.3.1", "pylint-django==2.7.0", "stevedore==5.7.0", "sphinx==9.1.0",
+            "lxml[html-clean]==6.0.2", "iniconfig==2.3.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "tomli-w==1.2.0", "sphinxcontrib-devhelp==2.0.0", "pygments==2.19.2",
+            "requests==2.32.5", "soupsieve==2.8.3", "certifi==2026.2.25", "sphinxcontrib-jsmath==1.0.1",
+            "distlib==0.4.0", "python-discovery==1.1.1", "filelock==3.25.0", "packaging==26.0",
+            "pyproject-hooks==1.2.0", "tomlkit==0.14.0", "colorama==0.4.6", "idna==3.11",
+            "build==1.4.0", "pydata-sphinx-theme==0.15.4", "django==5.2.12", "pluggy==1.6.0",
+            "asgiref==3.11.1", "accessible-pygments==0.0.5", "edx-lint==5.6.0", "doc8==2.0.0",
+            "six==1.17.0", "code-annotations==2.3.2", "imagesize==2.0.0", "text-unidecode==1.3",
+            "wheel==0.46.3", "jinja2==3.1.6", "markupsafe==3.0.3", "typing-extensions==4.15.0",
+            "diff-cover==10.2.0", "polib==1.2.0", "pydocstyle==6.3.0", "sphinxcontrib-qthelp==2.0.0",
+            "pyproject-api==1.10.0", "pytest==9.0.2", "dill==0.4.1", "chardet==7.0.1",
+            "docutils==0.21.2", "pylint-plugin-utils==0.9.0", "beautifulsoup4==4.14.3",
+            "lxml-html-clean==0.4.4", "tox==4.49.0", "readme-renderer==44.0", "pycodestyle==2.14.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "virtualenv==21.1.0", "pylint==4.0.5",
+            "python-slugify==8.0.4", "pip==26.0.1", "astroid==4.0.4", "sqlparse==0.5.5",
+            "cachetools==7.0.3", "path==16.16.0"]'
 django_packages:
     django_42:
         count: 4
-        list: '["code-annotations", "pylint-django", "pytest-django", "edx-i18n-tools"]'
+        list: '["pytest-django", "code-annotations", "edx-i18n-tools", "pylint-django"]'
     total:
         count: 4
-        list: '["code-annotations", "pylint-django", "pytest-django", "edx-i18n-tools"]'
+        list: '["pytest-django", "code-annotations", "edx-i18n-tools", "pylint-django"]'
     upgraded:
         count: 2
         list: '["code-annotations", "edx-i18n-tools"]'
@@ -83,7 +83,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
+    branch_count: 28
     build_details: '{"total_duration": "37512 minutes 55 seconds", "checks": [{"name":
         "tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 37 seconds"},
         {"name": "Dependabot", "duration": "0 minutes 35 seconds"}, {"name": "Dependabot",
@@ -101,7 +101,7 @@ github:
     default_branch: master
     description: ' This repo contains utility functions for Django and Mako templates
         to remove potential XSS attacks in templates.'
-    disk_usage_kb: 338
+    disk_usage_kb: 341
     fork_count: 10
     has_issues: true
     has_wiki: false
@@ -110,9 +110,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-08 19:32:57
+    last_push: 2026-06-22 19:32:26
     license: GNU AGPLv3
-    pulls_count: 3
+    pulls_count: 4
 github_actions: true
 language_bytes:
     css: 0
