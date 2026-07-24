@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,20 +61,26 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 59
-    build_details: '{"total_duration": "6350 minutes 46 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 53 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 47 seconds"}, {"name": "Dependabot", "duration": "0 minutes 45 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 38 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 36 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 35 seconds"}, {"name": "Dependabot", "duration": "0 minutes 29 seconds"},
-        {"name": "build (ubuntu-latest, 3.12)", "duration": "0 minutes 24 seconds"}]}'
+    branch_count: 57
+    build_details: '{"total_duration": "6620 minutes 22 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 17 seconds"}, {"name": "Dependabot", "duration": "0 minutes 29
+        seconds"}, {"name": "build (ubuntu-latest, 3.12)", "duration": "0 minutes
+        22 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     created_at: 2013-10-16 22:30:05
     default_branch: master
     description: Tools for repo maintenance, etc.
-    disk_usage_kb: 2162
+    disk_usage_kb: 2119
     fork_count: 46
     has_issues: true
     has_wiki: false
@@ -83,9 +89,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-02 05:14:31
+    last_push: 2026-07-23 05:00:52
     license: Apache License 2.0
-    pulls_count: 26
+    pulls_count: 25
 github_actions: true
 language_bytes:
     css: 0

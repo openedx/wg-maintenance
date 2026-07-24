@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,23 +68,21 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 22
-    build_details: '{"total_duration": "9380 minutes 15 seconds", "checks": [{"name":
-        "Release", "duration": "1 minutes 57 seconds"}, {"name": "test", "duration":
-        "1 minutes 40 seconds"}, {"name": "update-browserslist / update-dep", "duration":
-        "1 minutes 9 seconds"}, {"name": "Dependabot", "duration": "0 minutes 18 seconds"},
-        {"name": "version-check / version-check", "duration": "0 minutes 5 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 51 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 51 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 50 seconds"}]}'
+    branch_count: 21
+    build_details: '{"total_duration": "10335 minutes 16 seconds", "checks": [{"name":
+        "Release", "duration": "1 minutes 58 seconds"}, {"name": "test", "duration":
+        "1 minutes 45 seconds"}, {"name": "update-browserslist / update-dep", "duration":
+        "1 minutes 13 seconds"}, {"name": "Dependabot", "duration": "0 minutes 36
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 28 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 3 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-11-02 19:50:48
     default_branch: master
     description: An experimental framework for micro-frontend plugins.
-    disk_usage_kb: 1441
+    disk_usage_kb: 1356
     fork_count: 27
     has_issues: true
     has_wiki: false
@@ -93,9 +91,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-01 22:04:27
+    last_push: 2026-07-21 21:39:26
     license: GNU AGPLv3
-    pulls_count: 13
+    pulls_count: 12
 github_actions: true
 language_bytes:
     css: 0
@@ -121,7 +119,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 404'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-framework:
         404'
     getting-help: true
@@ -139,6 +136,7 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
+    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
@@ -153,7 +151,7 @@ renovate:
     configured: true
     last_pr: '2025-11-24'
     oldest_open_pr_date: '2024-05-20'
-    total_open_prs: 10
+    total_open_prs: 9
 requires:
     django: false
     pytest: false

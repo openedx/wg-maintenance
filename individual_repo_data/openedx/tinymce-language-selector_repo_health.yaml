@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -69,7 +69,7 @@ github:
     description: A plugin for TinyMCE 5 that allows the user to specify if text is
         written in a foreign language and in which language. Adds language data to
         <span> tags to improve accessibility.
-    disk_usage_kb: 2460
+    disk_usage_kb: 2463
     fork_count: 6
     has_issues: true
     has_wiki: false
@@ -78,7 +78,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-29 15:40:02
+    last_push: 2026-07-20 14:47:32
     license: GNU AGPLv3
     pulls_count: 0
 github_actions: false
