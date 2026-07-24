@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: false
     has_ecosystem:
@@ -99,24 +99,24 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 4
-    build_details: '{"total_duration": "2 minutes 20 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 20 seconds"}, {"name": "Release", "duration":
-        "1 minutes 4 seconds"}, {"name": "version-check / mismatch-check", "duration":
-        "0 minutes 10 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 3 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}]}'
+    build_details: '{"total_duration": "2329 minutes 17 seconds", "checks": [{"name":
+        "tests", "duration": "2 minutes 23 seconds"}, {"name": "Release", "duration":
+        "0 minutes 50 seconds"}, {"name": "Release", "duration": "0 minutes 47 seconds"},
+        {"name": "version-check / mismatch-check", "duration": "0 minutes 9 seconds"},
+        {"name": "version-check / version-check", "duration": "0 minutes 3 seconds"},
+        {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "routeissue / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "routeissue / add_and_notify", "duration": "-1 minutes 54 seconds"}, {"name":
+        "routeissue / add_label", "duration": "-1 minutes 54 seconds"}, {"name": "routeissue
+        / add_label", "duration": "-1 minutes 54 seconds"}, {"name": "routeissue /
+        add_and_notify", "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     created_at: 2024-06-26 19:45:23
     default_branch: main
-    description: '[pre-alpha] Future Open edX frontend framework implemented for OEP-65'
-    disk_usage_kb: 51179
+    description: The Open edX frontend framework
+    disk_usage_kb: 51185
     fork_count: 11
     has_issues: true
     has_wiki: false
@@ -125,9 +125,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-16 20:38:36
+    last_push: 2026-07-09 01:16:02
     license: GNU AGPLv3
-    pulls_count: 3
+    pulls_count: 4
 github_actions: true
 language_bytes:
     css: 0
@@ -163,11 +163,12 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework
     - https://github.com/openedx/frontend-component-header
     - https://github.com/openedx/frontend-component-footer
-    - https://github.com/openedx/open-edx-proposals/pull/598
-    - https://discuss.openedx.org/t/oep-65-adjacent-a-frontend-architecture-vision/13223
+    - https://github.com/openedx/frontend-template-site/blob/main/package.json
+    - https://docs.npmjs.com/cli/using-npm/workspaces
+    - https://github.com/openedx/frontend-template-site
+    - https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0065/decisions/0001-unified-platform-repository.html
     - https://github.com/orgs/openedx/projects/65/views/1
     - https://openedx.slack.com/archives/C04BM6YC7A6
-    - https://github.com/openedx/frontend-dev-utils/blob/main/tools/autoinstall/README.md
     irc-missing: true
     mailing-list-missing: true
     security: false

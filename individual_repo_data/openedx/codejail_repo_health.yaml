@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,20 +22,21 @@ dependencies:
         list: ''
     pypi:
         count: 16
-        list: '["astroid==4.0.4", "pylint==4.0.6", "pluggy==1.6.0", "platformdirs==4.10.0",
-            "packaging==26.2", "dill==0.4.1", "pygments==2.20.0", "asgiref==3.11.1",
-            "pytest==9.1.1", "isort==8.0.1", "mccabe==0.7.0", "iniconfig==2.3.0",
-            "tomlkit==0.15.0", "django==5.2.15", "pycodestyle==2.14.0", "sqlparse==0.5.5"]'
+        list: '["packaging==26.2", "sqlparse==0.5.5", "isort==8.0.1", "asgiref==3.11.1",
+            "pycodestyle==2.14.0", "pluggy==1.6.0", "mccabe==0.7.0", "pylint==4.0.6",
+            "django==5.2.15", "iniconfig==2.3.0", "pygments==2.20.0", "tomlkit==0.15.0",
+            "astroid==4.0.4", "dill==0.4.1", "pytest==9.1.1", "platformdirs==4.10.0"]'
     pypi_all:
         count: 34
-        list: '["tomli-w==1.2.0", "python-discovery==1.4.2", "numpy==2.5.0", "platformdirs==4.10.0",
-            "iniconfig==2.3.0", "colorama==0.4.6", "tomlkit==0.15.0", "click==8.4.2",
-            "pip-tools==7.5.3", "virtualenv==21.5.1", "wheel==0.47.0", "astroid==4.0.4",
-            "cachetools==7.1.4", "pluggy==1.6.0", "pyproject-api==1.10.1", "pygments==2.20.0",
-            "dill==0.4.1", "pytest==9.1.1", "asgiref==3.11.1", "isort==8.0.1", "mccabe==0.7.0",
-            "pip==26.1.2", "six==1.17.0", "build==1.5.0", "pycodestyle==2.14.0", "pyproject-hooks==1.2.0",
-            "tox==4.56.1", "pylint==4.0.6", "setuptools==82.0.1", "packaging==26.2",
-            "distlib==0.4.3", "django==5.2.15", "filelock==3.29.4", "sqlparse==0.5.5"]'
+        list: '["packaging==26.2", "cachetools==7.1.4", "asgiref==3.11.1", "filelock==3.29.4",
+            "setuptools==82.0.1", "pip==26.1.2", "sqlparse==0.5.5", "tox==4.56.1",
+            "isort==8.0.1", "pylint==4.0.6", "mccabe==0.7.0", "virtualenv==21.5.1",
+            "pytest==9.1.1", "distlib==0.4.3", "wheel==0.47.0", "tomli-w==1.2.0",
+            "pycodestyle==2.14.0", "pluggy==1.6.0", "pyproject-hooks==1.2.0", "colorama==0.4.6",
+            "django==5.2.15", "iniconfig==2.3.0", "six==1.17.0", "astroid==4.0.4",
+            "numpy==2.5.0", "platformdirs==4.10.0", "build==1.5.0", "pip-tools==7.5.3",
+            "pyproject-api==1.10.1", "pygments==2.20.0", "python-discovery==1.4.2",
+            "click==8.4.2", "dill==0.4.1", "tomlkit==0.15.0"]'
 django_packages:
     django_42:
         count: 0
@@ -71,19 +72,30 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
-    build_details: '{"total_duration": "2 minutes 6 seconds", "checks": [{"name":
+    branch_count: 14
+    build_details: '{"total_duration": "19320 minutes 55 seconds", "checks": [{"name":
         "tests (3.12, 24.04, django52)", "duration": "2 minutes 4 seconds"}, {"name":
         "tests (3.12, 22.04, django42)", "duration": "2 minutes 1 seconds"}, {"name":
         "tests (3.12, 22.04, django52)", "duration": "1 minutes 58 seconds"}, {"name":
         "tests (3.12, 24.04, django42)", "duration": "1 minutes 42 seconds"}, {"name":
-        "tests (quality, 24.04, 3.12)", "duration": "1 minutes 24 seconds"}]}'
+        "tests (quality, 24.04, 3.12)", "duration": "1 minutes 24 seconds"}, {"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "0 minutes 57 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 46 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 28 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     created_at: 2013-04-26 20:48:06
     default_branch: master
     description: Secure code execution
-    disk_usage_kb: 450
-    fork_count: 83
+    disk_usage_kb: 456
+    fork_count: 84
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -91,9 +103,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-29 14:14:59
+    last_push: 2026-07-20 08:05:06
     license: Apache License 2.0
-    pulls_count: 1
+    pulls_count: 4
 github_actions: true
 language_bytes:
     css: 0

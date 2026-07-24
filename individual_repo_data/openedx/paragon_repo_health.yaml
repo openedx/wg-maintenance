@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -95,23 +95,29 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 178
-    build_details: '{"total_duration": "17 minutes 43 seconds", "checks": [{"name":
-        "Release", "duration": "17 minutes 42 seconds"}, {"name": "Pages changed -
-        paragon-openedx", "duration": "2 minutes 22 seconds"}, {"name": "Header rules
-        - paragon-openedx", "duration": "2 minutes 22 seconds"}, {"name": "Redirect
-        rules - paragon-openedx", "duration": "2 minutes 22 seconds"}, {"name": "Pages
-        changed - paragon-openedx-v23", "duration": "1 minutes 37 seconds"}, {"name":
-        "Header rules - paragon-openedx-v23", "duration": "1 minutes 37 seconds"},
-        {"name": "Redirect rules - paragon-openedx-v23", "duration": "1 minutes 37
-        seconds"}, {"name": "Syncing branches", "duration": "0 minutes 16 seconds"},
-        {"name": "version-check / version-check", "duration": "0 minutes 6 seconds"}]}'
+    branch_count: 175
+    build_details: '{"total_duration": "19 minutes 39 seconds", "checks": [{"name":
+        "Release", "duration": "8 minutes 18 seconds"}, {"name": "Pages changed -
+        paragon-openedx-v23", "duration": "1 minutes 32 seconds"}, {"name": "Header
+        rules - paragon-openedx-v23", "duration": "1 minutes 32 seconds"}, {"name":
+        "Redirect rules - paragon-openedx-v23", "duration": "1 minutes 32 seconds"},
+        {"name": "Pages changed - paragon-openedx", "duration": "1 minutes 21 seconds"},
+        {"name": "Header rules - paragon-openedx", "duration": "1 minutes 21 seconds"},
+        {"name": "Redirect rules - paragon-openedx", "duration": "1 minutes 21 seconds"},
+        {"name": "Syncing branches", "duration": "0 minutes 11 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 4 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 55 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 53 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        52 seconds"}]}'
     code_of_conduct: Other
     created_at: 2017-04-27 18:57:22
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 349417
+    disk_usage_kb: 354024
     fork_count: 99
     has_issues: true
     has_wiki: false
@@ -120,9 +126,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-01 16:28:30
+    last_push: 2026-07-23 14:59:03
     license: Apache License 2.0
-    pulls_count: 60
+    pulls_count: 55
 github_actions: true
 language_bytes:
     css: 271597
@@ -213,7 +219,7 @@ renovate:
     configured: true
     last_pr: '2026-04-22'
     oldest_open_pr_date: '2025-10-10'
-    total_open_prs: 9
+    total_open_prs: 8
 requires:
     django: false
     pytest: false

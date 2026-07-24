@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: false
     has_ecosystem:
@@ -67,7 +67,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 26
+    branch_count: 25
     build_details: '{"total_duration": "2 minutes 5 seconds", "checks": [{"name":
         "Release", "duration": "2 minutes 5 seconds"}, {"name": "tests", "duration":
         "1 minutes 57 seconds"}, {"name": "version-check / version-check", "duration":
@@ -76,7 +76,7 @@ github:
     created_at: 2017-06-23 20:12:07
     default_branch: master
     description: Bootstrap theme for Open edX
-    disk_usage_kb: 9242
+    disk_usage_kb: 9241
     fork_count: 23
     has_issues: true
     has_wiki: false
@@ -85,9 +85,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-29 20:16:09
+    last_push: 2026-07-21 20:14:41
     license: Apache License 2.0
-    pulls_count: 9
+    pulls_count: 8
 github_actions: true
 language_bytes:
     css: 0
@@ -134,8 +134,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-04-06'
-    oldest_open_pr_date: '2021-08-23'
-    total_open_prs: 6
+    oldest_open_pr_date: '2023-05-15'
+    total_open_prs: 5
 requires:
     django: false
     pytest: false

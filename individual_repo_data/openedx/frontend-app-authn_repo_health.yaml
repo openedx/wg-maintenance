@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -77,21 +77,24 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 49
-    build_details: '{"total_duration": "48260 minutes 42 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 31 seconds"}, {"name": "autoupdate", "duration":
-        "0 minutes 20 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 4 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+    branch_count: 45
+    build_details: '{"total_duration": "14031 minutes 47 seconds", "checks": [{"name":
+        "tests", "duration": "2 minutes 16 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 31 seconds"}, {"name": "autoupdate", "duration": "0 minutes 18
+        seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        6 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
         "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}]}'
+        "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 51 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
     created_at: 2020-09-28 13:08:13
     default_branch: master
     description: Open edX micro-frontend application for new login and registration
         experience.
-    disk_usage_kb: 17135
-    fork_count: 262
+    disk_usage_kb: 18066
+    fork_count: 264
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -99,9 +102,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-26 02:32:36
+    last_push: 2026-07-21 18:58:26
     license: GNU AGPLv3
-    pulls_count: 18
+    pulls_count: 14
 github_actions: true
 language_bytes:
     css: 0
@@ -165,8 +168,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-03-27'
-    oldest_open_pr_date: '2024-12-05'
-    total_open_prs: 7
+    oldest_open_pr_date: '2025-03-14'
+    total_open_prs: 4
 requires:
     django: false
     pytest: false

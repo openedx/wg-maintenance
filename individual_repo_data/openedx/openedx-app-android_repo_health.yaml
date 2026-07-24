@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,15 +61,24 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 14
-    build_details: '{"total_duration": "5 minutes 1 seconds", "checks": [{"name":
-        "Runs unit tests", "duration": "5 minutes 1 seconds"}, {"name": "Validate
-        strings.xml", "duration": "0 minutes 9 seconds"}]}'
+    branch_count: 16
+    build_details: '{"total_duration": "10390 minutes 58 seconds", "checks": [{"name":
+        "Runs unit tests", "duration": "4 minutes 51 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 52 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 45 seconds"}, {"name": "Validate strings.xml", "duration": "0 minutes
+        6 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     created_at: 2023-03-13 09:14:43
     default_branch: main
     description: The mobile app for Android for the Open EdX Platform.
-    disk_usage_kb: 7647
+    disk_usage_kb: 7665
     fork_count: 58
     has_issues: true
     has_wiki: false
@@ -78,9 +87,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-30 15:28:17
+    last_push: 2026-07-21 10:30:35
     license: Apache License 2.0
-    pulls_count: 6
+    pulls_count: 9
 github_actions: false
 language_bytes:
     css: 0

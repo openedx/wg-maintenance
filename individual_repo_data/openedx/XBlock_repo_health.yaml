@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-02
+TIMESTAMP: 2026-07-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,28 +62,21 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 16
-    build_details: '{"total_duration": "3045 minutes 52 seconds", "checks": [{"name":
-        "copilot-pull-request-reviewer", "duration": "2 minutes 15 seconds"}, {"name":
-        "release", "duration": "1 minutes 11 seconds"}, {"name": "run_tests / tests
-        (3.12, django42)", "duration": "0 minutes 35 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 33 seconds"}, {"name": "run_tests / tests (3.12, django52)",
-        "duration": "0 minutes 32 seconds"}, {"name": "run_tests / tests (3.12, quality)",
-        "duration": "0 minutes 31 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 29 seconds"}, {"name": "run_tests / tests (3.12, docs)", "duration":
-        "0 minutes 24 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+    build_details: '{"total_duration": "39 minutes 32 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 15 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 37 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 33 seconds"}, {"name": "run_tests / tests (3.12, quality)", "duration":
+        "0 minutes 32 seconds"}, {"name": "run_tests / tests (3.12, django42)", "duration":
+        "0 minutes 31 seconds"}, {"name": "run_tests / tests (3.12, docs)", "duration":
+        "0 minutes 27 seconds"}, {"name": "run_tests / tests (3.12, django52)", "duration":
+        "0 minutes 25 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}]}'
     code_of_conduct: Other
     created_at: 2013-03-11 18:35:36
     default_branch: master
     description: Framework for building custom learning components that run in the
         Open edX LMS!
-    disk_usage_kb: 4207
+    disk_usage_kb: 4136
     fork_count: 227
     has_issues: true
     has_wiki: false
@@ -92,9 +85,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-06-29 09:53:08
+    last_push: 2026-07-20 09:53:26
     license: Apache License 2.0
-    pulls_count: 5
+    pulls_count: 4
 github_actions: true
 language_bytes:
     css: 0
@@ -102,7 +95,7 @@ language_bytes:
     html: 6638
     javascript: 10004
     makefile: 1197
-    python: 507344
+    python: 507791
     shell: 0
 makefile:
     pip-installed: false
@@ -120,7 +113,11 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'http://scorm.com/scorm-explained/: 403'
+    - 'https://openedx.org/slack: 403'
+    - 'https://openedx.org/getting-help: 403'
     - 'https://github.com/openedx/XBlock/blob/master/LICENSE.txt: 404'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - http://www.lon-capa.org/
@@ -131,11 +128,7 @@ readme:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/index.html
     - https://discuss.openedx.org
     - https://github.com/openedx/XBlock/issues
-    - https://openedx.org/slack
     - https://openedx.slack.com/
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock
     - https://img.shields.io/pypi/v/XBlock.svg
     - https://pypi.python.org/pypi/XBlock/
