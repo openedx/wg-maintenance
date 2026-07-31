@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,21 +22,21 @@ dependencies:
         list: ''
     pypi:
         count: 16
-        list: '["packaging==26.2", "sqlparse==0.5.5", "isort==8.0.1", "asgiref==3.11.1",
-            "pycodestyle==2.14.0", "pluggy==1.6.0", "mccabe==0.7.0", "pylint==4.0.6",
-            "django==5.2.15", "iniconfig==2.3.0", "pygments==2.20.0", "tomlkit==0.15.0",
-            "astroid==4.0.4", "dill==0.4.1", "pytest==9.1.1", "platformdirs==4.10.0"]'
+        list: '["pylint==4.0.6", "packaging==26.2", "pycodestyle==2.14.0", "platformdirs==4.10.0",
+            "asgiref==3.11.1", "django==5.2.15", "pytest==9.1.1", "sqlparse==0.5.5",
+            "dill==0.4.1", "iniconfig==2.3.0", "astroid==4.0.4", "tomlkit==0.15.0",
+            "mccabe==0.7.0", "pygments==2.20.0", "pluggy==1.6.0", "isort==8.0.1"]'
     pypi_all:
         count: 34
-        list: '["packaging==26.2", "cachetools==7.1.4", "asgiref==3.11.1", "filelock==3.29.4",
-            "setuptools==82.0.1", "pip==26.1.2", "sqlparse==0.5.5", "tox==4.56.1",
-            "isort==8.0.1", "pylint==4.0.6", "mccabe==0.7.0", "virtualenv==21.5.1",
-            "pytest==9.1.1", "distlib==0.4.3", "wheel==0.47.0", "tomli-w==1.2.0",
-            "pycodestyle==2.14.0", "pluggy==1.6.0", "pyproject-hooks==1.2.0", "colorama==0.4.6",
-            "django==5.2.15", "iniconfig==2.3.0", "six==1.17.0", "astroid==4.0.4",
-            "numpy==2.5.0", "platformdirs==4.10.0", "build==1.5.0", "pip-tools==7.5.3",
-            "pyproject-api==1.10.1", "pygments==2.20.0", "python-discovery==1.4.2",
-            "click==8.4.2", "dill==0.4.1", "tomlkit==0.15.0"]'
+        list: '["pytest==9.1.1", "sqlparse==0.5.5", "dill==0.4.1", "iniconfig==2.3.0",
+            "setuptools==82.0.1", "pyproject-hooks==1.2.0", "cachetools==7.1.4", "pip==26.1.2",
+            "pyproject-api==1.10.1", "isort==8.0.1", "filelock==3.29.4", "wheel==0.47.0",
+            "platformdirs==4.10.0", "click==8.4.2", "astroid==4.0.4", "mccabe==0.7.0",
+            "numpy==2.5.0", "pygments==2.20.0", "pluggy==1.6.0", "pip-tools==7.5.3",
+            "colorama==0.4.6", "pylint==4.0.6", "packaging==26.2", "build==1.5.0",
+            "asgiref==3.11.1", "tox==4.56.1", "python-discovery==1.4.2", "tomli-w==1.2.0",
+            "distlib==0.4.3", "pycodestyle==2.14.0", "django==5.2.15", "tomlkit==0.15.0",
+            "six==1.17.0", "virtualenv==21.5.1"]'
 django_packages:
     django_42:
         count: 0
@@ -63,6 +63,7 @@ exists:
     openedx.yaml: true
     package.json: false
     pylintrc: true
+    pyproject.toml: false
     requirements: true
     setup.cfg: true
     setup.py: true
@@ -72,7 +73,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 14
+    branch_count: 15
     build_details: '{"total_duration": "19320 minutes 55 seconds", "checks": [{"name":
         "tests (3.12, 24.04, django52)", "duration": "2 minutes 4 seconds"}, {"name":
         "tests (3.12, 22.04, django42)", "duration": "2 minutes 1 seconds"}, {"name":
@@ -91,10 +92,11 @@ github:
         "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 3
     created_at: 2013-04-26 20:48:06
     default_branch: master
     description: Secure code execution
-    disk_usage_kb: 456
+    disk_usage_kb: 458
     fork_count: 84
     has_issues: true
     has_wiki: false
@@ -103,9 +105,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-20 08:05:06
+    last_push: 2026-07-27 08:05:04
     license: Apache License 2.0
+    median_pr_response_seconds: 46286
+    pr_closure_ratio_90d: 0.8095
     pulls_count: 4
+    release_count_12mo: 1
 github_actions: true
 language_bytes:
     css: 0
@@ -126,7 +131,10 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 2
 readme:
     bad_links: []
@@ -134,7 +142,7 @@ readme:
     good_links: []
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''

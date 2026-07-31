@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -52,6 +52,7 @@ exists:
     openedx.yaml: false
     package.json: false
     pylintrc: false
+    pyproject.toml: true
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -66,6 +67,7 @@ github:
         "tests (3.12)", "duration": "0 minutes 33 seconds"}, {"name": "tests (3.9)",
         "duration": "0 minutes 33 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 4
     created_at: 2026-01-28 18:40:12
     default_branch: main
     description: ''
@@ -80,8 +82,11 @@ github:
     is_private: false
     last_push: 2026-06-09 14:55:25
     license: GNU AGPLv3
+    median_pr_response_seconds: 21546
+    pr_closure_ratio_90d: 1.0
     pulls_count: 0
-github_actions: false
+    release_count_12mo: 0
+github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
@@ -101,7 +106,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

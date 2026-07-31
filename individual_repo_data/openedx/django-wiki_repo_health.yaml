@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,38 +22,37 @@ dependencies:
         list: ''
     pypi:
         count: 12
-        list: '["sqlparse==0.5.3", "django-sekizai==4.1.0", "django-classy-tags==4.1.0",
-            "markdown==3.8", "sorl-thumbnail==12.11.0", "tinycss2==1.4.0", "django-mptt==0.17.0",
-            "django-js-asset==3.1.2", "bleach[css]==6.2.0", "webencodings==0.5.1",
-            "django==4.2.21", "asgiref==3.8.1"]'
+        list: '["django==4.2.21", "django-classy-tags==4.1.0", "django-mptt==0.17.0",
+            "sorl-thumbnail==12.11.0", "tinycss2==1.4.0", "webencodings==0.5.1", "django-sekizai==4.1.0",
+            "django-js-asset==3.1.2", "markdown==3.8", "sqlparse==0.5.3", "bleach[css]==6.2.0",
+            "asgiref==3.8.1"]'
     pypi_all:
         count: 62
-        list: '["sphinxcontrib-jsmath==1.0.1", "pytest==8.3.5", "django-sekizai==4.1.0",
-            "sphinxcontrib-applehelp==2.0.0", "beautifulsoup4==4.13.4", "docutils==0.21.2",
-            "sphinxcontrib-htmlhelp==2.1.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "sorl-thumbnail==12.11.0", "sphinx-book-theme==1.1.4", "snowballstemmer==3.0.1",
-            "soupsieve==2.7", "pygments==2.19.1", "sphinx==8.2.3", "pytest-django==4.11.1",
-            "chardet==5.2.0", "pip-tools==7.4.1", "sphinxcontrib-devhelp==2.0.0",
-            "imagesize==1.4.1", "click==8.2.0", "pyproject-api==1.9.1", "tox==4.25.0",
-            "wheel==0.45.1", "virtualenv==20.31.2", "pluggy==1.5.0", "colorama==0.4.6",
-            "distlib==0.3.9", "sqlparse==0.5.3", "babel==2.17.0", "django-classy-tags==4.1.0",
-            "setuptools==80.4.0", "filelock==3.18.0", "markdown==3.8", "requests==2.32.3",
-            "iniconfig==2.1.0", "tinycss2==1.4.0", "pytest-cov==6.1.1", "charset-normalizer==3.4.2",
-            "django-js-asset==3.1.2", "coverage[toml]==7.8.0", "alabaster==1.0.0",
-            "pydata-sphinx-theme==0.15.4", "pyproject-hooks==1.2.0", "cachetools==5.5.2",
-            "idna==3.10", "accessible-pygments==0.0.5", "roman-numerals-py==3.1.0",
-            "urllib3==2.2.3", "platformdirs==4.3.8", "markupsafe==3.0.2", "typing-extensions==4.13.2",
-            "build==1.2.2.post1", "django-mptt==0.17.0", "pip==24.2", "sphinxcontrib-qthelp==2.0.0",
-            "certifi==2025.4.26", "bleach[css]==6.2.0", "django==4.2.21", "asgiref==3.8.1",
-            "jinja2==3.1.6", "packaging==25.0", "webencodings==0.5.1"]'
+        list: '["tox==4.25.0", "jinja2==3.1.6", "pyproject-api==1.9.1", "click==8.2.0",
+            "iniconfig==2.1.0", "coverage[toml]==7.8.0", "babel==2.17.0", "colorama==0.4.6",
+            "pydata-sphinx-theme==0.15.4", "certifi==2025.4.26", "requests==2.32.3",
+            "platformdirs==4.3.8", "sqlparse==0.5.3", "pip-tools==7.4.1", "asgiref==3.8.1",
+            "idna==3.10", "django-mptt==0.17.0", "imagesize==1.4.1", "sphinxcontrib-qthelp==2.0.0",
+            "pytest-django==4.11.1", "packaging==25.0", "sphinxcontrib-jsmath==1.0.1",
+            "pyproject-hooks==1.2.0", "markupsafe==3.0.2", "urllib3==2.2.3", "accessible-pygments==0.0.5",
+            "sphinx-book-theme==1.1.4", "snowballstemmer==3.0.1", "pytest==8.3.5",
+            "soupsieve==2.7", "charset-normalizer==3.4.2", "sphinx==8.2.3", "sphinxcontrib-serializinghtml==2.0.0",
+            "roman-numerals-py==3.1.0", "webencodings==0.5.1", "build==1.2.2.post1",
+            "pluggy==1.5.0", "chardet==5.2.0", "cachetools==5.5.2", "sphinxcontrib-applehelp==2.0.0",
+            "setuptools==80.4.0", "django-js-asset==3.1.2", "markdown==3.8", "sphinxcontrib-devhelp==2.0.0",
+            "distlib==0.3.9", "pygments==2.19.1", "pytest-cov==6.1.1", "pip==24.2",
+            "django==4.2.21", "django-classy-tags==4.1.0", "sorl-thumbnail==12.11.0",
+            "tinycss2==1.4.0", "beautifulsoup4==4.13.4", "docutils==0.21.2", "django-sekizai==4.1.0",
+            "filelock==3.18.0", "alabaster==1.0.0", "typing-extensions==4.13.2", "virtualenv==20.31.2",
+            "sphinxcontrib-htmlhelp==2.1.0", "wheel==0.45.1", "bleach[css]==6.2.0"]'
 django_packages:
     django_42:
         count: 4
-        list: '["django-classy-tags", "pytest-django", "django-sekizai", "django-js-asset"]'
+        list: '["django-classy-tags", "django-sekizai", "django-js-asset", "pytest-django"]'
     total:
         count: 6
-        list: '["pytest-django", "sorl-thumbnail", "django-mptt", "django-classy-tags",
-            "django-sekizai", "django-js-asset"]'
+        list: '["django-classy-tags", "sorl-thumbnail", "django-mptt", "django-js-asset",
+            "pytest-django", "django-sekizai"]'
     upgraded:
         count: 2
         list: '["django-sekizai", "django-js-asset"]'
@@ -73,6 +72,7 @@ exists:
     openedx.yaml: true
     package.json: false
     pylintrc: true
+    pyproject.toml: false
     requirements: true
     setup.cfg: false
     setup.py: true
@@ -87,6 +87,7 @@ github:
         "update-pip-graph", "duration": "0 minutes 34 seconds"}, {"name": "push",
         "duration": "0 minutes 24 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 2
     created_at: 2012-08-25 16:00:34
     default_branch: edx_release
     description: 'A wiki system with complex functionality for simple integration
@@ -102,7 +103,10 @@ github:
     is_private: false
     last_push: 2026-06-11 14:51:33
     license: null
+    median_pr_response_seconds: 2991
+    pr_closure_ratio_90d: 0.6667
     pulls_count: 2
+    release_count_12mo: 1
 github_actions: true
 language_bytes:
     css: 15119
@@ -123,7 +127,10 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 1
 readme:
     bad_links:

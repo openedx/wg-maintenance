@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -69,6 +69,7 @@ exists:
     openedx.yaml: false
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -78,9 +79,10 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 21
-    build_details: '{"total_duration": "9530 minutes 52 seconds", "checks": [{"name":
+    branch_count: 22
+    build_details: '{"total_duration": "19062 minutes 7 seconds", "checks": [{"name":
         "test", "duration": "3 minutes 37 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 30 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "1 minutes 23 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 36 seconds"}, {"name": "version-check / version-check",
         "duration": "0 minutes 5 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -88,10 +90,11 @@ github:
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 2
     created_at: 2023-07-12 21:42:38
     default_branch: master
     description: Open Response Assessment MFE
-    disk_usage_kb: 4071
+    disk_usage_kb: 4068
     fork_count: 24
     has_issues: true
     has_wiki: false
@@ -100,9 +103,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-20 09:53:38
+    last_push: 2026-07-30 14:44:45
     license: GNU GPLv3
-    pulls_count: 8
+    median_pr_response_seconds: 243
+    pr_closure_ratio_90d: 0.3333
+    pulls_count: 9
+    release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 0
@@ -123,7 +129,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -158,7 +167,7 @@ readme:
     - https://codecov.io/github/openedx/frontend-app-ora?branch=master
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''

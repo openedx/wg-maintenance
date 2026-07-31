@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -57,6 +57,7 @@ exists:
     openedx.yaml: false
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -66,19 +67,25 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 2
-    build_details: '{"total_duration": "112 minutes 42 seconds", "checks": [{"name":
-        "Release", "duration": "0 minutes 36 seconds"}, {"name": "routeissue / add_and_notify",
+    branch_count: 3
+    build_details: '{"total_duration": "11553 minutes 5 seconds", "checks": [{"name":
+        "Release", "duration": "0 minutes 36 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "0 minutes 30 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 27 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
         "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 5
     created_at: 2026-05-28 13:40:16
     default_branch: main
     description: ''
-    disk_usage_kb: 430
+    disk_usage_kb: 432
     fork_count: 3
     has_issues: true
     has_wiki: false
@@ -87,9 +94,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-22 18:54:04
+    last_push: 2026-07-30 19:25:20
     license: GNU AGPLv3
-    pulls_count: 0
+    median_pr_response_seconds: 107
+    pr_closure_ratio_90d: 0.9333
+    pulls_count: 1
+    release_count_12mo: 3
 github_actions: true
 language_bytes:
     css: 0
@@ -110,7 +120,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -138,7 +151,7 @@ readme:
     - https://codecov.io/github/openedx/frontend-app-aspects?branch=main
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''

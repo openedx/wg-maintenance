@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -52,6 +52,7 @@ exists:
     openedx.yaml: false
     package.json: false
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: true
     setup.py: false
@@ -66,6 +67,7 @@ github:
         "Run Tests (3.12)", "duration": "0 minutes 27 seconds"}, {"name": "Run Tests
         (3.11)", "duration": "0 minutes 25 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 2
     created_at: 2020-04-06 17:49:34
     default_branch: master
     description: A flask web application to handle pull request webhook events and
@@ -81,7 +83,10 @@ github:
     is_private: false
     last_push: 2026-05-30 15:32:44
     license: GNU AGPLv3
+    median_pr_response_seconds: 24168
+    pr_closure_ratio_90d: 1.0
     pulls_count: 0
+    release_count_12mo: 0
 github_actions: true
 language_bytes:
     css: 0
@@ -102,7 +107,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

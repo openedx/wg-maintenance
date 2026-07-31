@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -52,6 +52,7 @@ exists:
     openedx.yaml: false
     package.json: false
     pylintrc: false
+    pyproject.toml: true
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -61,23 +62,31 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 4
-    build_details: '{"total_duration": "9002 minutes 45 seconds", "checks": [{"name":
+    branch_count: 6
+    build_details: '{"total_duration": "19083 minutes 55 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 4 seconds"}, {"name": "Dependabot", "duration":
         "1 minutes 2 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 49 seconds"}, {"name": "run_ci
-        / django42", "duration": "0 minutes 24 seconds"}, {"name": "django42", "duration":
-        "0 minutes 23 seconds"}, {"name": "django52", "duration": "0 minutes 20 seconds"},
-        {"name": "run_ci / django52", "duration": "0 minutes 20 seconds"}, {"name":
-        "docs", "duration": "0 minutes 16 seconds"}, {"name": "run_ci / docs", "duration":
-        "0 minutes 13 seconds"}, {"name": "lint", "duration": "0 minutes 9 seconds"},
-        {"name": "run_ci / lint", "duration": "0 minutes 9 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 0 seconds"}]}'
+        / upgrade_requirements", "duration": "0 minutes 49 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 49 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 47 seconds"}, {"name": "run_ci / django42", "duration":
+        "0 minutes 24 seconds"}, {"name": "django42", "duration": "0 minutes 23 seconds"},
+        {"name": "django52", "duration": "0 minutes 20 seconds"}, {"name": "run_ci
+        / django52", "duration": "0 minutes 20 seconds"}, {"name": "docs", "duration":
+        "0 minutes 16 seconds"}, {"name": "run_ci / docs", "duration": "0 minutes
+        13 seconds"}, {"name": "lint", "duration": "0 minutes 9 seconds"}, {"name":
+        "run_ci / lint", "duration": "0 minutes 9 seconds"}, {"name": "publish_to_pypi",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 4
     created_at: 2025-04-17 17:54:17
     default_branch: main
     description: ''
-    disk_usage_kb: 977
+    disk_usage_kb: 983
     fork_count: 4
     has_issues: true
     has_wiki: false
@@ -86,9 +95,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-13 18:38:17
+    last_push: 2026-07-27 00:45:06
     license: GNU AGPLv3
-    pulls_count: 1
+    median_pr_response_seconds: 48
+    pr_closure_ratio_90d: 0.9091
+    pulls_count: 3
+    release_count_12mo: 12
 github_actions: true
 language_bytes:
     css: 9625
@@ -109,7 +121,10 @@ makefile:
     upgrade: true
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

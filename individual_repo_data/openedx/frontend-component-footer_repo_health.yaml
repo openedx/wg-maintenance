@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -62,6 +62,7 @@ exists:
     openedx.yaml: false
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -77,6 +78,7 @@ github:
         "1 minutes 48 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 1
     created_at: 2019-01-02 20:14:34
     default_branch: master
     description: Site footer component for edX frontend apps.
@@ -89,9 +91,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-21 16:44:36
+    last_push: 2026-07-30 15:37:11
     license: GNU AGPLv3
+    median_pr_response_seconds: 137
+    pr_closure_ratio_90d: 1.0
     pulls_count: 12
+    release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 0
@@ -112,7 +117,10 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-component-footer'
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -145,7 +153,7 @@ readme:
     - https://github.com/semantic-release/semantic-release
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -52,6 +52,7 @@ exists:
     openedx.yaml: false
     package.json: false
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -65,6 +66,7 @@ github:
     build_details: '{"total_duration": "0 minutes 11 seconds", "checks": [{"name":
         "source_and_tars_match", "duration": "0 minutes 11 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 1
     created_at: 2022-04-07 19:17:04
     default_branch: main
     description: Repo for course content & Issues related to Open edX training courses
@@ -79,7 +81,10 @@ github:
     is_private: false
     last_push: 2026-05-19 13:23:02
     license: Other
+    median_pr_response_seconds: 23984
+    pr_closure_ratio_90d: 1.0
     pulls_count: 0
+    release_count_12mo: 0
 github_actions: true
 language_bytes:
     css: 0
@@ -100,7 +105,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

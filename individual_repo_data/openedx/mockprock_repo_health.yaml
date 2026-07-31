@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -52,6 +52,7 @@ exists:
     openedx.yaml: true
     package.json: true
     pylintrc: true
+    pyproject.toml: true
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -62,16 +63,23 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "0 minutes 55 seconds", "checks": [{"name":
-        "update-uv-graph", "duration": "0 minutes 43 seconds"}, {"name": "update-pip-graph",
-        "duration": "0 minutes 31 seconds"}, {"name": "quality", "duration": "0 minutes
-        14 seconds"}, {"name": "py", "duration": "0 minutes 11 seconds"}, {"name":
-        "version-check / version-check", "duration": "0 minutes 3 seconds"}]}'
+    build_details: '{"total_duration": "1209 minutes 3 seconds", "checks": [{"name":
+        "quality", "duration": "2 minutes 50 seconds"}, {"name": "py", "duration":
+        "0 minutes 17 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes
+        12 seconds"}, {"name": "run_tests / py", "duration": "0 minutes 12 seconds"},
+        {"name": "Release", "duration": "0 minutes 9 seconds"}, {"name": "version-check
+        / version-check", "duration": "0 minutes 6 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 4
     created_at: 2018-11-16 19:08:31
     default_branch: master
     description: mock proctoring package
-    disk_usage_kb: 306
+    disk_usage_kb: 309
     fork_count: 9
     has_issues: true
     has_wiki: false
@@ -80,9 +88,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-23 17:35:44
+    last_push: 2026-07-29 15:32:37
     license: Apache License 2.0
-    pulls_count: 3
+    median_pr_response_seconds: 11574
+    pr_closure_ratio_90d: 0.8
+    pulls_count: 4
+    release_count_12mo: 0
 github_actions: true
 language_bytes:
     css: 0
@@ -103,7 +114,10 @@ makefile:
     upgrade: true
 npm_package: '@edx/mockprock'
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

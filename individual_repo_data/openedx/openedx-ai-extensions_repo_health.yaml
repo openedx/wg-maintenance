@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -52,6 +52,7 @@ exists:
     openedx.yaml: false
     package.json: false
     pylintrc: false
+    pyproject.toml: true
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -62,7 +63,7 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "6945 minutes 16 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "22759 minutes 54 seconds", "checks": [{"name":
         "Live LLM Integration Tests", "duration": "4 minutes 4 seconds"}, {"name":
         "Backend Tests (ubuntu-latest, 3.12, django42)", "duration": "2 minutes 17
         seconds"}, {"name": "Frontend Tests (ubuntu-latest, 20)", "duration": "2 minutes
@@ -70,15 +71,19 @@ github:
         "1 minutes 25 seconds"}, {"name": "Plugin / Docs Tests (ubuntu-latest, 3.12)",
         "duration": "0 minutes 55 seconds"}, {"name": "Backend Tests (ubuntu-latest,
         3.12, pii_check)", "duration": "0 minutes 48 seconds"}, {"name": "routeissue
-        / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name": "trigger",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "trigger", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "-1 minutes 53 seconds"}, {"name": "routeissue / add_label", "duration":
-        "-1 minutes 51 seconds"}, {"name": "routeissue / add_label", "duration": "-1
-        minutes 50 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 50 seconds"}]}'
+        "duration": "-1 minutes 59 seconds"}, {"name": "trigger", "duration": "-1
+        minutes 59 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 53 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 51 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes
+        50 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
+        minutes 50 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 4
     created_at: 2025-07-29 15:04:02
     default_branch: main
     description: An edx-platform plugin that will house tools and helpers for working
@@ -94,7 +99,10 @@ github:
     is_private: false
     last_push: 2026-07-08 22:22:17
     license: GNU AGPLv3
+    median_pr_response_seconds: 6
+    pr_closure_ratio_90d: 0.8846
     pulls_count: 3
+    release_count_12mo: 24
 github_actions: true
 language_bytes:
     css: 839
@@ -115,7 +123,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
