@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -57,6 +57,7 @@ exists:
     openedx.yaml: false
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -66,22 +67,21 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 2
-    build_details: '{"total_duration": "4063 minutes 38 seconds", "checks": [{"name":
-        "test", "duration": "2 minutes 44 seconds"}, {"name": "Release", "duration":
-        "1 minutes 1 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}]}'
+    branch_count: 3
+    build_details: '{"total_duration": "1260 minutes 25 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 54 seconds"}, {"name": "test", "duration":
+        "2 minutes 51 seconds"}, {"name": "Release", "duration": "0 minutes 52 seconds"},
+        {"name": "commitlint / commitlint", "duration": "0 minutes 16 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 6 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 7
     created_at: 2025-08-21 12:52:46
     default_branch: main
     description: Instructor Dashboard pages in MFE-land
-    disk_usage_kb: 1502
+    disk_usage_kb: 1514
     fork_count: 18
     has_issues: true
     has_wiki: false
@@ -90,9 +90,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-20 23:54:11
+    last_push: 2026-07-31 02:43:09
     license: GNU AGPLv3
-    pulls_count: 1
+    median_pr_response_seconds: 6
+    pr_closure_ratio_90d: 0.9048
+    pulls_count: 2
+    release_count_12mo: 52
 github_actions: true
 language_bytes:
     css: 0
@@ -113,7 +116,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -147,7 +153,7 @@ readme:
     - https://codecov.io/github/openedx/frontend-app-instructor-dashboard?branch=main
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''

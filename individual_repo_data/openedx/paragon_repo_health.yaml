@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -86,6 +86,7 @@ exists:
     openedx.yaml: true
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -96,28 +97,25 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 175
-    build_details: '{"total_duration": "19 minutes 39 seconds", "checks": [{"name":
-        "Release", "duration": "8 minutes 18 seconds"}, {"name": "Pages changed -
-        paragon-openedx-v23", "duration": "1 minutes 32 seconds"}, {"name": "Header
-        rules - paragon-openedx-v23", "duration": "1 minutes 32 seconds"}, {"name":
-        "Redirect rules - paragon-openedx-v23", "duration": "1 minutes 32 seconds"},
-        {"name": "Pages changed - paragon-openedx", "duration": "1 minutes 21 seconds"},
-        {"name": "Header rules - paragon-openedx", "duration": "1 minutes 21 seconds"},
-        {"name": "Redirect rules - paragon-openedx", "duration": "1 minutes 21 seconds"},
-        {"name": "Syncing branches", "duration": "0 minutes 11 seconds"}, {"name":
-        "version-check / version-check", "duration": "0 minutes 4 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+    build_details: '{"total_duration": "586 minutes 3 seconds", "checks": [{"name":
+        "Pages changed - paragon-openedx", "duration": "1 minutes 57 seconds"}, {"name":
+        "Header rules - paragon-openedx", "duration": "1 minutes 57 seconds"}, {"name":
+        "Redirect rules - paragon-openedx", "duration": "1 minutes 57 seconds"}, {"name":
+        "Pages changed - paragon-openedx-v23", "duration": "1 minutes 52 seconds"},
+        {"name": "Header rules - paragon-openedx-v23", "duration": "1 minutes 52 seconds"},
+        {"name": "Redirect rules - paragon-openedx-v23", "duration": "1 minutes 52
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 41 seconds"}, {"name":
         "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 55 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 53 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
         {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        52 seconds"}]}'
+        59 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 5
     created_at: 2017-04-27 18:57:22
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 354024
+    disk_usage_kb: 354279
     fork_count: 99
     has_issues: true
     has_wiki: false
@@ -126,9 +124,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-23 14:59:03
+    last_push: 2026-07-30 15:07:37
     license: Apache License 2.0
+    median_pr_response_seconds: 3
+    pr_closure_ratio_90d: 0.93
     pulls_count: 55
+    release_count_12mo: 38
 github_actions: true
 language_bytes:
     css: 271597
@@ -149,7 +150,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -210,7 +214,7 @@ readme:
     - https://github.com/openedx/frontend-platform/pull/440
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''

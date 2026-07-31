@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,6 +66,7 @@ exists:
     openedx.yaml: false
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -75,7 +76,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 10
+    branch_count: 9
     build_details: '{"total_duration": "11645 minutes 34 seconds", "checks": [{"name":
         "test", "duration": "2 minutes 56 seconds"}, {"name": "Dependabot", "duration":
         "0 minutes 38 seconds"}, {"name": "version-check / version-check", "duration":
@@ -87,10 +88,11 @@ github:
         "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 3
     created_at: 2025-05-05 20:11:00
     default_branch: master
     description: ''
-    disk_usage_kb: 40828
+    disk_usage_kb: 40532
     fork_count: 18
     has_issues: true
     has_wiki: false
@@ -99,9 +101,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-23 22:34:16
+    last_push: 2026-07-30 14:21:54
     license: GNU AGPLv3
-    pulls_count: 9
+    median_pr_response_seconds: 217
+    pr_closure_ratio_90d: 0.5455
+    pulls_count: 8
+    release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 0
@@ -122,7 +127,10 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-app-catalog'
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -157,7 +165,7 @@ readme:
     - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''
@@ -166,7 +174,7 @@ renovate:
     configured: true
     last_pr: '2026-04-06'
     oldest_open_pr_date: '2025-12-19'
-    total_open_prs: 4
+    total_open_prs: 3
 requires:
     django: false
     pytest: false

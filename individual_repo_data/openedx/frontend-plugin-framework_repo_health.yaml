@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -59,6 +59,7 @@ exists:
     openedx.yaml: false
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -79,10 +80,11 @@ github:
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 2
     created_at: 2023-11-02 19:50:48
     default_branch: master
     description: An experimental framework for micro-frontend plugins.
-    disk_usage_kb: 1356
+    disk_usage_kb: 1350
     fork_count: 27
     has_issues: true
     has_wiki: false
@@ -91,9 +93,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-21 21:39:26
+    last_push: 2026-07-30 18:35:00
     license: GNU AGPLv3
+    median_pr_response_seconds: 183
+    pr_closure_ratio_90d: 0.7143
     pulls_count: 12
+    release_count_12mo: 6
 github_actions: true
 language_bytes:
     css: 0
@@ -114,7 +119,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -142,7 +150,7 @@ readme:
     - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''

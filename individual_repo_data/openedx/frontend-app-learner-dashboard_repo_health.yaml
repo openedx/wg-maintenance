@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -69,6 +69,7 @@ exists:
     openedx.yaml: false
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -78,7 +79,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 28
+    branch_count: 25
     build_details: '{"total_duration": "9364 minutes 47 seconds", "checks": [{"name":
         "tests", "duration": "2 minutes 50 seconds"}, {"name": "Dependabot", "duration":
         "0 minutes 22 seconds"}, {"name": "version-check / version-check", "duration":
@@ -90,10 +91,11 @@ github:
         "duration": "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 2
     created_at: 2022-06-03 14:59:36
     default_branch: master
     description: Learner Dashboard MFE
-    disk_usage_kb: 10862
+    disk_usage_kb: 10654
     fork_count: 208
     has_issues: true
     has_wiki: false
@@ -102,9 +104,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-20 16:53:29
+    last_push: 2026-07-31 02:39:18
     license: GNU AGPLv3
+    median_pr_response_seconds: 186
+    pr_closure_ratio_90d: 0.7143
     pulls_count: 12
+    release_count_12mo: 19
 github_actions: true
 language_bytes:
     css: 0
@@ -125,7 +130,10 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-app-learner-dashboard'
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []
@@ -151,7 +159,7 @@ readme:
     - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
-    security: false
+    security: true
 readthedocs_config:
     exists: false
     file_name: ''

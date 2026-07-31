@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -89,6 +89,7 @@ exists:
     openedx.yaml: false
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -113,6 +114,7 @@ github:
         add_and_notify", "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels
         / remove_label", "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 2
     created_at: 2024-06-26 19:45:23
     default_branch: main
     description: The Open edX frontend framework
@@ -127,7 +129,10 @@ github:
     is_private: false
     last_push: 2026-07-09 01:16:02
     license: GNU AGPLv3
+    median_pr_response_seconds: 10398
+    pr_closure_ratio_90d: 0.8
     pulls_count: 4
+    release_count_12mo: 46
 github_actions: true
 language_bytes:
     css: 0
@@ -148,7 +153,10 @@ makefile:
     upgrade: false
 npm_package: ''
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -178,7 +186,7 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2020-01-07'
+    last_pr: '2026-04-21'
     oldest_open_pr_date: '2025-04-25'
     total_open_prs: 1
 requires:

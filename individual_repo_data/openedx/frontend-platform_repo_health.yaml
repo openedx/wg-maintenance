@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-24
+TIMESTAMP: 2026-07-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,6 +66,7 @@ exists:
     openedx.yaml: true
     package.json: true
     pylintrc: false
+    pyproject.toml: false
     requirements: false
     setup.cfg: false
     setup.py: false
@@ -75,21 +76,19 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 49
-    build_details: '{"total_duration": "10077 minutes 24 seconds", "checks": [{"name":
-        "update-browserslist / update-dep", "duration": "1 minutes 20 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 53 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        50 seconds"}]}'
+    branch_count: 48
+    build_details: '{"total_duration": "5092 minutes 6 seconds", "checks": [{"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "routeissue / add_and_notify", "duration": "-1 minutes 59 seconds"},
+        {"name": "routeissue / add_label", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
+    contributor_count_90d: 3
     created_at: 2019-11-06 21:04:09
     default_branch: master
     description: A framework for Open edX micro-frontend applications.
-    disk_usage_kb: 37603
+    disk_usage_kb: 37606
     fork_count: 89
     has_issues: true
     has_wiki: false
@@ -98,9 +97,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-21 16:16:13
+    last_push: 2026-07-31 03:49:38
     license: GNU AGPLv3
-    pulls_count: 23
+    median_pr_response_seconds: 3
+    pr_closure_ratio_90d: 0.7273
+    pulls_count: 22
+    release_count_12mo: 10
 github_actions: true
 language_bytes:
     css: 0
@@ -121,7 +123,10 @@ makefile:
     upgrade: false
 npm_package: '@edx/frontend-platform'
 org_name: openedx
-ownership: {}
+ownership:
+    owner: ''
+    owner_kind: ''
+    owner_name: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
