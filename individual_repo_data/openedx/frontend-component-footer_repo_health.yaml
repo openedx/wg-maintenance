@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: false
     has_ecosystem:
@@ -78,7 +78,7 @@ github:
         "1 minutes 48 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 0
     created_at: 2019-01-02 20:14:34
     default_branch: master
     description: Site footer component for edX frontend apps.
@@ -91,10 +91,8 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-30 15:37:11
+    last_push: 2026-08-14 19:15:40
     license: GNU AGPLv3
-    median_pr_response_seconds: 137
-    pr_closure_ratio_90d: 1.0
     pulls_count: 12
     release_count_12mo: 5
 github_actions: true
@@ -125,6 +123,8 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
+    - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://travis-ci.com/edx/frontend-component-footer: 404'
     getting-help: false
     good_links:
@@ -140,8 +140,6 @@ readme:
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-component-footer/issues
     - https://openedx.org/slack
-    - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/code-of-conduct/
     - https://api.travis-ci.com/edx/frontend-component-footer.svg?branch=master

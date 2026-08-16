@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,44 +22,44 @@ dependencies:
         list: ''
     pypi:
         count: 21
-        list: '["packaging==26.2", "frozenlist==1.8.0", "gitpython==3.1.50", "iniconfig==2.3.0",
-            "propcache==0.5.2", "attrs==26.1.0", "pygments==2.20.0", "pytest-asyncio==1.4.0",
-            "aiosignal==1.4.0", "aiohappyeyeballs==2.7.1", "typing-extensions==4.16.0",
-            "pyyaml==6.0.3", "pluggy==1.6.0", "pytest-aiohttp==1.1.1", "aiohttp==3.14.1",
-            "smmap==5.0.3", "multidict==6.7.1", "gitdb==4.0.12", "yarl==1.24.2", "idna==3.18",
-            "pytest==9.1.1"]'
+        list: '["pluggy==1.6.0", "yarl==1.24.2", "gitpython==3.1.50", "typing-extensions==4.16.0",
+            "pytest-aiohttp==1.1.1", "gitdb==4.0.12", "propcache==0.5.2", "aiohttp==3.14.1",
+            "iniconfig==2.3.0", "aiosignal==1.4.0", "aiohappyeyeballs==2.7.1", "pygments==2.20.0",
+            "pytest-asyncio==1.4.0", "pytest==9.1.1", "idna==3.18", "packaging==26.2",
+            "pyyaml==6.0.3", "multidict==6.7.1", "frozenlist==1.8.0", "attrs==26.1.0",
+            "smmap==5.0.3"]'
     pypi_all:
         count: 88
-        list: '["colorama==0.4.6", "edx-lint==6.1.0", "setuptools==83.0.0", "sphinxcontrib-applehelp==2.0.0",
-            "pytest-cov==7.1.0", "aiosignal==1.4.0", "sphinx-book-theme==1.2.0", "pylint-django==2.7.0",
-            "platformdirs==4.10.0", "text-unidecode==1.3", "restructuredtext-lint==2.0.2",
-            "pip==26.1.2", "typing-extensions==4.16.0", "pylint-plugin-utils==0.9.0",
-            "gitdb==4.0.12", "code-annotations==3.0.0", "jinja2==3.1.6", "pytest==9.1.1",
-            "click-log==0.4.0", "python-discovery==1.4.3", "stevedore==5.9.0", "pycodestyle==2.14.0",
-            "packaging==26.2", "frozenlist==1.8.0", "certifi==2026.6.17", "accessible-pygments==0.0.5",
-            "propcache==0.5.2", "nh3==0.3.6", "doc8==2.0.0", "sphinxcontrib-devhelp==2.0.0",
-            "sphinx==9.1.0", "chardet==7.4.3", "pyyaml==6.0.3", "tomli-w==1.2.0",
-            "pytest-aiohttp==1.1.1", "smmap==5.0.3", "sphinxcontrib-jsmath==1.0.1",
-            "coverage[toml]==7.15.0", "mccabe==0.7.0", "readme-renderer==45.0", "idna==3.18",
-            "tox==4.56.2", "pydata-sphinx-theme==0.16.1", "diff-cover==10.3.0", "pydocstyle==6.3.0",
-            "requests==2.34.2", "beautifulsoup4==4.15.0", "gitpython==3.1.50", "iniconfig==2.3.0",
-            "python-slugify==8.0.4", "attrs==26.1.0", "pygments==2.20.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "pytest-asyncio==1.4.0", "dill==0.4.1", "six==1.17.0", "aiohappyeyeballs==2.7.1",
-            "pylint-celery==0.3", "markupsafe==3.0.3", "imagesize==2.0.0", "roman-numerals==4.1.0",
-            "pluggy==1.6.0", "isort==8.0.1", "wheel==0.47.0", "docutils==0.21.2",
-            "click==8.4.2", "yarl==1.24.2", "sphinxcontrib-htmlhelp==2.1.0", "snowballstemmer==3.1.1",
-            "pip-tools==7.5.3", "cachetools==7.1.4", "pyproject-hooks==1.2.0", "virtualenv==21.6.0",
-            "distlib==0.4.3", "charset-normalizer==3.4.9", "filelock==3.29.7", "pyproject-api==1.10.1",
-            "build==1.5.0", "sphinxcontrib-qthelp==2.0.0", "aiohttp==3.14.1", "astroid==4.0.4",
-            "multidict==6.7.1", "babel==2.18.0", "alabaster==1.0.0", "soupsieve==2.8.4",
-            "urllib3==2.7.0", "pylint==4.0.6", "tomlkit==0.15.0"]'
+        list: '["mccabe==0.7.0", "sphinxcontrib-devhelp==2.0.0", "doc8==2.0.0", "requests==2.34.2",
+            "gitdb==4.0.12", "pylint-celery==0.3", "dill==0.4.1", "markupsafe==3.0.3",
+            "pytest-asyncio==1.4.0", "pytest==9.1.1", "filelock==3.29.7", "idna==3.18",
+            "text-unidecode==1.3", "stevedore==5.9.0", "tomli-w==1.2.0", "wheel==0.47.0",
+            "pylint==4.0.6", "click-log==0.4.0", "pyproject-api==1.10.1", "sphinxcontrib-applehelp==2.0.0",
+            "beautifulsoup4==4.15.0", "frozenlist==1.8.0", "accessible-pygments==0.0.5",
+            "sphinx==9.1.0", "jinja2==3.1.6", "yarl==1.24.2", "alabaster==1.0.0",
+            "imagesize==2.0.0", "typing-extensions==4.16.0", "tomlkit==0.15.0", "readme-renderer==45.0",
+            "pytest-aiohttp==1.1.1", "astroid==4.0.4", "pyproject-hooks==1.2.0", "pylint-plugin-utils==0.9.0",
+            "edx-lint==6.1.0", "aiosignal==1.4.0", "aiohappyeyeballs==2.7.1", "coverage[toml]==7.15.0",
+            "build==1.5.0", "click==8.4.2", "packaging==26.2", "sphinxcontrib-jsmath==1.0.1",
+            "multidict==6.7.1", "pip==26.1.2", "roman-numerals==4.1.0", "docutils==0.21.2",
+            "code-annotations==3.0.0", "charset-normalizer==3.4.9", "sphinxcontrib-serializinghtml==2.0.0",
+            "distlib==0.4.3", "cachetools==7.1.4", "pylint-django==2.7.0", "python-discovery==1.4.3",
+            "pydata-sphinx-theme==0.16.1", "urllib3==2.7.0", "babel==2.18.0", "platformdirs==4.10.0",
+            "virtualenv==21.6.0", "sphinx-book-theme==1.2.0", "sphinxcontrib-qthelp==2.0.0",
+            "six==1.17.0", "pydocstyle==6.3.0", "pytest-cov==7.1.0", "isort==8.0.1",
+            "pluggy==1.6.0", "python-slugify==8.0.4", "gitpython==3.1.50", "setuptools==83.0.0",
+            "colorama==0.4.6", "pycodestyle==2.14.0", "diff-cover==10.3.0", "restructuredtext-lint==2.0.2",
+            "soupsieve==2.8.4", "propcache==0.5.2", "certifi==2026.6.17", "aiohttp==3.14.1",
+            "iniconfig==2.3.0", "snowballstemmer==3.1.1", "pygments==2.20.0", "chardet==7.4.3",
+            "pyyaml==6.0.3", "sphinxcontrib-htmlhelp==2.1.0", "nh3==0.3.6", "tox==4.56.2",
+            "attrs==26.1.0", "pip-tools==7.5.3", "smmap==5.0.3"]'
 django_packages:
     django_42:
         count: 2
-        list: '["pylint-django", "code-annotations"]'
+        list: '["code-annotations", "pylint-django"]'
     total:
         count: 2
-        list: '["pylint-django", "code-annotations"]'
+        list: '["code-annotations", "pylint-django"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -89,26 +89,19 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 13
-    build_details: '{"total_duration": "10698 minutes 16 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 41 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "1 minutes 24 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 41 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
-        quality)", "duration": "0 minutes 36 seconds"}, {"name": "update-pip-graph",
-        "duration": "0 minutes 33 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
-        py)", "duration": "0 minutes 26 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 20 seconds"}, {"name": "push", "duration": "0 minutes 17 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        51 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "1701 minutes 43 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 48 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 44 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 38 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
+        py)", "duration": "0 minutes 31 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 21 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2020-03-16 16:53:00
     default_branch: master
     description: ''
-    disk_usage_kb: 439
+    disk_usage_kb: 441
     fork_count: 8
     has_issues: true
     has_wiki: false
@@ -117,11 +110,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-29 00:43:51
+    last_push: 2026-08-10 20:09:28
     license: GNU AGPLv3
-    median_pr_response_seconds: 818607
-    pr_closure_ratio_90d: 0.6364
-    pulls_count: 5
+    median_pr_response_seconds: 1421453
+    pr_closure_ratio_90d: 0.9
+    pulls_count: 3
     release_count_12mo: 2
 github_actions: true
 language_bytes:

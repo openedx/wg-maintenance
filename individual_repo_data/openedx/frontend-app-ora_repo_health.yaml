@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -79,22 +79,16 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 22
-    build_details: '{"total_duration": "19062 minutes 7 seconds", "checks": [{"name":
-        "test", "duration": "3 minutes 37 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "1 minutes 30 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "1 minutes 23 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 36 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 5 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 54 seconds"}]}'
+    branch_count: 20
+    build_details: '{"total_duration": "3 minutes 42 seconds", "checks": [{"name":
+        "test", "duration": "3 minutes 37 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2023-07-12 21:42:38
     default_branch: master
     description: Open Response Assessment MFE
-    disk_usage_kb: 4068
+    disk_usage_kb: 4071
     fork_count: 24
     has_issues: true
     has_wiki: false
@@ -103,11 +97,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-30 14:44:45
+    last_push: 2026-08-10 20:15:46
     license: GNU GPLv3
-    median_pr_response_seconds: 243
-    pr_closure_ratio_90d: 0.3333
-    pulls_count: 9
+    median_pr_response_seconds: 234
+    pr_closure_ratio_90d: 1.0
+    pulls_count: 7
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -139,6 +133,7 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.slack.com/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-ora:
         404'
     - 'https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml/badge.svg:
@@ -154,7 +149,6 @@ readme:
     - https://discuss.openedx.org
     - https://github.com/edx/frontend-app-ora/issues
     - https://openedx.org/slack
-    - https://openedx.slack.com/
     - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute

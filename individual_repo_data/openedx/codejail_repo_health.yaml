@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,21 +22,21 @@ dependencies:
         list: ''
     pypi:
         count: 16
-        list: '["pylint==4.0.6", "packaging==26.2", "pycodestyle==2.14.0", "platformdirs==4.10.0",
-            "asgiref==3.11.1", "django==5.2.15", "pytest==9.1.1", "sqlparse==0.5.5",
-            "dill==0.4.1", "iniconfig==2.3.0", "astroid==4.0.4", "tomlkit==0.15.0",
-            "mccabe==0.7.0", "pygments==2.20.0", "pluggy==1.6.0", "isort==8.0.1"]'
+        list: '["platformdirs==4.10.0", "asgiref==3.11.1", "isort==8.0.1", "pylint==4.0.6",
+            "astroid==4.0.4", "pytest==9.1.1", "tomlkit==0.15.0", "django==5.2.15",
+            "dill==0.4.1", "pluggy==1.6.0", "iniconfig==2.3.0", "packaging==26.2",
+            "mccabe==0.7.0", "pygments==2.20.0", "sqlparse==0.5.5", "pycodestyle==2.14.0"]'
     pypi_all:
         count: 34
-        list: '["pytest==9.1.1", "sqlparse==0.5.5", "dill==0.4.1", "iniconfig==2.3.0",
-            "setuptools==82.0.1", "pyproject-hooks==1.2.0", "cachetools==7.1.4", "pip==26.1.2",
-            "pyproject-api==1.10.1", "isort==8.0.1", "filelock==3.29.4", "wheel==0.47.0",
-            "platformdirs==4.10.0", "click==8.4.2", "astroid==4.0.4", "mccabe==0.7.0",
-            "numpy==2.5.0", "pygments==2.20.0", "pluggy==1.6.0", "pip-tools==7.5.3",
-            "colorama==0.4.6", "pylint==4.0.6", "packaging==26.2", "build==1.5.0",
-            "asgiref==3.11.1", "tox==4.56.1", "python-discovery==1.4.2", "tomli-w==1.2.0",
-            "distlib==0.4.3", "pycodestyle==2.14.0", "django==5.2.15", "tomlkit==0.15.0",
-            "six==1.17.0", "virtualenv==21.5.1"]'
+        list: '["six==1.17.0", "isort==8.0.1", "colorama==0.4.6", "pip-tools==7.5.3",
+            "dill==0.4.1", "pluggy==1.6.0", "python-discovery==1.4.2", "mccabe==0.7.0",
+            "pygments==2.20.0", "distlib==0.4.3", "filelock==3.29.4", "tomli-w==1.2.0",
+            "iniconfig==2.3.0", "packaging==26.2", "sqlparse==0.5.5", "virtualenv==21.5.1",
+            "build==1.5.0", "pylint==4.0.6", "astroid==4.0.4", "pytest==9.1.1", "setuptools==82.0.1",
+            "tomlkit==0.15.0", "click==8.4.2", "pyproject-api==1.10.1", "pip==26.1.2",
+            "platformdirs==4.10.0", "asgiref==3.11.1", "numpy==2.5.0", "wheel==0.47.0",
+            "cachetools==7.1.4", "django==5.2.15", "tox==4.56.1", "pyproject-hooks==1.2.0",
+            "pycodestyle==2.14.0"]'
 django_packages:
     django_42:
         count: 0
@@ -73,30 +73,20 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 15
-    build_details: '{"total_duration": "19320 minutes 55 seconds", "checks": [{"name":
-        "tests (3.12, 24.04, django52)", "duration": "2 minutes 4 seconds"}, {"name":
-        "tests (3.12, 22.04, django42)", "duration": "2 minutes 1 seconds"}, {"name":
-        "tests (3.12, 22.04, django52)", "duration": "1 minutes 58 seconds"}, {"name":
-        "tests (3.12, 24.04, django42)", "duration": "1 minutes 42 seconds"}, {"name":
-        "tests (quality, 24.04, 3.12)", "duration": "1 minutes 24 seconds"}, {"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 57 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 46 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 28 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 50 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 14
+    build_details: '{"total_duration": "2 minutes 18 seconds", "checks": [{"name":
+        "tests (3.12, 24.04, django42)", "duration": "1 minutes 59 seconds"}, {"name":
+        "tests (3.12, 22.04, django42)", "duration": "1 minutes 56 seconds"}, {"name":
+        "tests (3.12, 22.04, django52)", "duration": "1 minutes 56 seconds"}, {"name":
+        "tests (3.12, 24.04, django52)", "duration": "1 minutes 54 seconds"}, {"name":
+        "tests (quality, 24.04, 3.12)", "duration": "1 minutes 29 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2013-04-26 20:48:06
     default_branch: master
     description: Secure code execution
-    disk_usage_kb: 458
+    disk_usage_kb: 463
     fork_count: 84
     has_issues: true
     has_wiki: false
@@ -105,11 +95,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-27 08:05:04
+    last_push: 2026-08-10 20:12:36
     license: Apache License 2.0
-    median_pr_response_seconds: 46286
-    pr_closure_ratio_90d: 0.8095
-    pulls_count: 4
+    median_pr_response_seconds: 51278
+    pr_closure_ratio_90d: 0.8333
+    pulls_count: 3
     release_count_12mo: 1
 github_actions: true
 language_bytes:
