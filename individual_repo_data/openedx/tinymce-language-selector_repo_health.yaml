@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,7 +63,9 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 5
-    build_details: '{"total_duration": "", "checks": []}'
+    build_details: '{"total_duration": "10081 minutes 5 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 54 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 38 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2020-01-23 19:26:19

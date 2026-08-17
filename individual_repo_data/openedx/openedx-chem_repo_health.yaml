@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: false
     has_ecosystem:
@@ -22,20 +22,20 @@ dependencies:
         list: ''
     pypi:
         count: 9
-        list: '["click==8.3.1", "pyparsing==3.3.2", "numpy==2.4.2", "scipy==1.17.1",
-            "joblib==1.5.3", "nltk==3.9.3", "regex==2026.2.28", "tqdm==4.67.3", "markupsafe==3.0.3"]'
+        list: '["markupsafe==3.0.3", "click==8.3.1", "joblib==1.5.3", "numpy==2.4.2",
+            "scipy==1.17.1", "tqdm==4.67.3", "nltk==3.9.3", "pyparsing==3.3.2", "regex==2026.2.28"]'
     pypi_all:
         count: 39
-        list: '["packaging==26.0", "pycodestyle==2.14.0", "isort==8.0.1", "numpy==2.4.2",
-            "pip-tools==7.5.3", "setuptools==82.0.0", "build==1.4.0", "tox==4.49.0",
-            "virtualenv==21.1.0", "click==8.3.1", "dill==0.4.1", "scipy==1.17.1",
-            "pyproject-hooks==1.2.0", "iniconfig==2.3.0", "astroid==4.0.4", "wheel==0.46.3",
-            "distlib==0.4.0", "mccabe==0.7.0", "pylint==4.0.5", "python-discovery==1.1.1",
-            "colorama==0.4.6", "pyproject-api==1.10.0", "joblib==1.5.3", "markupsafe==3.0.3",
-            "pluggy==1.6.0", "cachetools==7.0.3", "platformdirs==4.9.4", "pytest==9.0.2",
-            "pytest-cov==7.0.0", "pyparsing==3.3.2", "nltk==3.9.3", "regex==2026.2.28",
-            "tqdm==4.67.3", "coverage[toml]==7.13.4", "filelock==3.25.0", "pip==26.0.1",
-            "tomlkit==0.14.0", "pygments==2.19.2", "tomli-w==1.2.0"]'
+        list: '["joblib==1.5.3", "numpy==2.4.2", "tomlkit==0.14.0", "pyparsing==3.3.2",
+            "pluggy==1.6.0", "dill==0.4.1", "pycodestyle==2.14.0", "iniconfig==2.3.0",
+            "mccabe==0.7.0", "pip-tools==7.5.3", "tomli-w==1.2.0", "pytest==9.0.2",
+            "tox==4.49.0", "packaging==26.0", "isort==8.0.1", "pyproject-api==1.10.0",
+            "pytest-cov==7.0.0", "astroid==4.0.4", "setuptools==82.0.0", "python-discovery==1.1.1",
+            "pylint==4.0.5", "platformdirs==4.9.4", "filelock==3.25.0", "scipy==1.17.1",
+            "virtualenv==21.1.0", "coverage[toml]==7.13.4", "pyproject-hooks==1.2.0",
+            "markupsafe==3.0.3", "wheel==0.46.3", "click==8.3.1", "build==1.4.0",
+            "cachetools==7.0.3", "distlib==0.4.0", "tqdm==4.67.3", "regex==2026.2.28",
+            "nltk==3.9.3", "pip==26.0.1", "colorama==0.4.6", "pygments==2.19.2"]'
 django_packages:
     django_42:
         count: 0

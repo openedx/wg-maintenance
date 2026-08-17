@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: false
     has_ecosystem:
@@ -236,7 +236,9 @@ ownership:
     owner_name: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3:
+        403'
     getting-help: false
     good_links:
     - https://nodejs.org/en/
@@ -245,7 +247,6 @@ readme:
     - https://developer.android.com/tools
     - https://github.com/openedx/openedx-app-test
     - https://www.python.org/downloads/
-    - https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3
     - https://www.browserstack.com/list-of-browsers-and-platforms/automate
     irc-missing: true
     mailing-list-missing: true

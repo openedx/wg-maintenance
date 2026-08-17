@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -81,20 +81,18 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 63
-    build_details: '{"total_duration": "1 minutes 27 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 18 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 2 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 1 seconds"}, {"name": "Dependabot", "duration": "0 minutes 56 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 45 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 51 seconds"}]}'
+    build_details: '{"total_duration": "374 minutes 23 seconds", "checks": [{"name":
+        "tests (test)", "duration": "2 minutes 57 seconds"}, {"name": "tests (i18n_extract)",
+        "duration": "2 minutes 32 seconds"}, {"name": "tests (lint)", "duration":
+        "2 minutes 31 seconds"}, {"name": "Dependabot", "duration": "1 minutes 6 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 37 seconds"}, {"name": "version-check
+        / version-check", "duration": "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2019-01-10 17:55:59
     default_branch: master
     description: Open edX micro-frontend application for managing user profile information.
-    disk_usage_kb: 23259
+    disk_usage_kb: 23264
     fork_count: 156
     has_issues: true
     has_wiki: false
@@ -103,10 +101,10 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-30 17:28:29
+    last_push: 2026-08-13 14:04:18
     license: GNU AGPLv3
-    median_pr_response_seconds: 217
-    pr_closure_ratio_90d: 0.3947
+    median_pr_response_seconds: 223
+    pr_closure_ratio_90d: 0.4146
     pulls_count: 35
     release_count_12mo: 5
 github_actions: true

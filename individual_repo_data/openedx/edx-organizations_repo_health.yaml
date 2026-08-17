@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,40 +22,41 @@ dependencies:
         list: ''
     pypi:
         count: 31
-        list: '["charset-normalizer==3.4.7", "cryptography==48.0.0", "django==5.2.14",
-            "django-crum==0.7.9", "setuptools==82.0.1", "pillow==12.2.0", "edx-drf-extensions==10.6.0",
-            "click==8.4.1", "cffi==2.0.0", "edx-opaque-keys==4.0.0", "semantic-version==2.10.0",
-            "django-simple-history==3.11.0", "edx-django-utils==8.0.1", "djangorestframework==3.17.1",
-            "requests==2.34.2", "pymongo==4.17.0", "idna==3.17", "urllib3==2.7.0",
-            "pyjwt[crypto]==2.13.0", "pycparser==3.0", "asgiref==3.11.1", "psutil==7.2.2",
-            "typing-extensions==4.15.0", "drf-jwt==1.19.2", "pynacl==1.6.2", "dnspython==2.8.0",
-            "stevedore==5.8.0", "django-model-utils==5.0.0", "sqlparse==0.5.5", "certifi==2026.5.20",
-            "django-waffle==5.0.0"]'
+        list: '["requests==2.34.2", "edx-drf-extensions==10.6.0", "dnspython==2.8.0",
+            "django-model-utils==5.0.0", "cffi==2.1.1", "psutil==7.2.2", "django==5.2.17",
+            "pyjwt[crypto]==2.13.0", "sqlparse==0.5.5", "cryptography==50.0.0", "idna==3.18",
+            "typing-extensions==4.16.0", "edx-opaque-keys==4.0.0", "semantic-version==2.10.0",
+            "pymongo==4.17.0", "stevedore==5.9.0", "click==8.4.2", "django-crum==0.7.9",
+            "pillow==12.3.0", "django-simple-history==3.13.0", "djangorestframework==3.18.0",
+            "charset-normalizer==3.4.9", "setuptools==84.0.0", "certifi==2026.7.22",
+            "pycparser==3.0", "django-waffle==5.0.0", "edx-django-utils==8.0.1", "drf-jwt==1.19.2",
+            "asgiref==3.12.1", "pynacl==1.6.2", "urllib3==2.7.0"]'
     pypi_all:
         count: 37
-        list: '["charset-normalizer==3.4.7", "cryptography==48.0.0", "django==5.2.14",
-            "django-crum==0.7.9", "setuptools==82.0.1", "pillow==12.2.0", "edx-drf-extensions==10.6.0",
-            "click==8.4.1", "cffi==2.0.0", "edx-opaque-keys==4.0.0", "semantic-version==2.10.0",
-            "django-simple-history==3.11.0", "wheel==0.47.0", "edx-django-utils==8.0.1",
-            "djangorestframework==3.17.1", "requests==2.34.2", "pymongo==4.17.0",
-            "idna==3.17", "urllib3==2.7.0", "pyjwt[crypto]==2.13.0", "pycparser==3.0",
-            "asgiref==3.11.1", "psutil==7.2.2", "typing-extensions==4.15.0", "build==1.5.0",
-            "drf-jwt==1.19.2", "pynacl==1.6.2", "dnspython==2.8.0", "stevedore==5.8.0",
-            "packaging==26.2", "pip==26.1.2", "pip-tools==7.5.3", "pyproject-hooks==1.2.0",
-            "django-model-utils==5.0.0", "sqlparse==0.5.5", "certifi==2026.5.20",
-            "django-waffle==5.0.0"]'
+        list: '["requests==2.34.2", "edx-drf-extensions==10.6.0", "dnspython==2.8.0",
+            "django-model-utils==5.0.0", "build==1.5.0", "cffi==2.1.1", "psutil==7.2.2",
+            "pyproject-hooks==1.2.0", "django==5.2.17", "pyjwt[crypto]==2.13.0", "pip-tools==7.6.0",
+            "sqlparse==0.5.5", "cryptography==50.0.0", "idna==3.18", "packaging==26.3",
+            "typing-extensions==4.16.0", "edx-opaque-keys==4.0.0", "semantic-version==2.10.0",
+            "pymongo==4.17.0", "stevedore==5.9.0", "pip==26.1.2", "click==8.4.2",
+            "django-crum==0.7.9", "pillow==12.3.0", "django-simple-history==3.13.0",
+            "djangorestframework==3.18.0", "charset-normalizer==3.4.9", "setuptools==84.0.0",
+            "certifi==2026.7.22", "pycparser==3.0", "django-waffle==5.0.0", "edx-django-utils==8.0.1",
+            "drf-jwt==1.19.2", "asgiref==3.12.1", "pynacl==1.6.2", "urllib3==2.7.0",
+            "wheel==0.47.0"]'
 django_packages:
     django_42:
         count: 5
-        list: '["edx-opaque-keys", "djangorestframework", "edx-drf-extensions", "django-waffle",
-            "edx-django-utils"]'
+        list: '["edx-django-utils", "edx-drf-extensions", "edx-opaque-keys", "django-waffle",
+            "djangorestframework"]'
     total:
         count: 9
-        list: '["edx-opaque-keys", "djangorestframework", "django-model-utils", "django-simple-history",
-            "django-crum", "edx-drf-extensions", "django-waffle", "drf-jwt", "edx-django-utils"]'
+        list: '["edx-django-utils", "django-model-utils", "edx-drf-extensions", "drf-jwt",
+            "edx-opaque-keys", "django-crum", "django-waffle", "django-simple-history",
+            "djangorestframework"]'
     upgraded:
         count: 4
-        list: '["edx-drf-extensions", "edx-django-utils", "edx-opaque-keys", "django-waffle"]'
+        list: '["edx-django-utils", "edx-opaque-keys", "django-waffle", "edx-drf-extensions"]'
 docs:
     build_badge: false
     python_version: null
@@ -82,26 +83,23 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
-    build_details: '{"total_duration": "12873 minutes 14 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 50 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django42)",
-        "duration": "1 minutes 5 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 4 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django52)", "duration":
-        "1 minutes 2 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 58 seconds"}, {"name": "Dependabot", "duration": "0 minutes 58
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 57 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 42 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 34 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 5
+    build_details: '{"total_duration": "1199 minutes 30 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes 9 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "1 minutes 7
+        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 5
     created_at: 2015-07-14 19:39:03
     default_branch: master
     description: ''
-    disk_usage_kb: 512
+    disk_usage_kb: 517
     fork_count: 36
     has_issues: true
     has_wiki: false
@@ -110,12 +108,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-27 05:14:36
+    last_push: 2026-08-11 16:34:38
     license: GNU AGPLv3
-    median_pr_response_seconds: 266550
-    pr_closure_ratio_90d: 0.7083
-    pulls_count: 7
-    release_count_12mo: 2
+    median_pr_response_seconds: 777460
+    pr_closure_ratio_90d: 1.0
+    pulls_count: 0
+    release_count_12mo: 3
 github_actions: true
 language_bytes:
     css: 0
@@ -140,15 +138,15 @@ ownership:
     owner: ''
     owner_kind: ''
     owner_name: ''
-pinned_python_dependencies: 4
+pinned_python_dependencies: 7
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://coveralls.io/github/edx/edx-organizations?branch=master: 403'
     getting-help: false
     good_links:
     - https://github.com/openedx/edx-organizations/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/edx-organizations/actions?query=workflow%3A%22Python+CI%22
     - https://coveralls.io/repos/github/edx/edx-organizations/badge.svg?branch=master
-    - https://coveralls.io/github/edx/edx-organizations?branch=master
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://groups.google.com/forum/
     irc-missing: true

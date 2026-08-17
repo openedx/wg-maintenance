@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,41 +22,39 @@ dependencies:
         list: ''
     pypi:
         count: 4
-        list: '["pymongo==4.17.0", "typing-extensions==4.16.0", "stevedore==5.9.0",
-            "dnspython==2.8.0"]'
+        list: '["dnspython==2.8.0", "stevedore==5.9.0", "pymongo==4.17.0", "typing-extensions==4.16.0"]'
     pypi_all:
         count: 85
-        list: '["idna==3.18", "pylint-celery==0.3", "coverage[toml]==7.15.2", "charset-normalizer==3.4.9",
-            "pyyaml==6.0.3", "dill==0.4.1", "code-annotations==3.0.0", "platformdirs==4.11.0",
-            "edx-lint==6.1.0", "coverage==7.15.2", "execnet==2.1.2", "beautifulsoup4==4.15.0",
-            "jinja2==3.1.6", "pymongo==4.17.0", "iniconfig==2.3.0", "urllib3==2.7.0",
-            "click-log==0.4.0", "snowballstemmer==3.1.1", "tox==4.58.0", "pyproject-api==1.11.0",
-            "tomlkit==0.15.1", "mccabe==0.7.0", "roman-numerals==4.1.0", "pip==26.1.2",
-            "sphinxcontrib-jsmath==1.0.1", "distlib==0.4.3", "text-unidecode==1.3",
-            "alabaster==1.0.0", "filelock==3.32.0", "accessible-pygments==0.0.5",
-            "setuptools==83.0.0", "markupsafe==3.0.3", "sortedcontainers==2.4.0",
-            "imagesize==2.0.0", "mypy-extensions==1.1.0", "pydata-sphinx-theme==0.20.0",
-            "colorama==0.4.6", "python-slugify==8.0.4", "build==1.5.0", "docutils==0.22.4",
-            "astroid==4.0.4", "cachetools==7.1.6", "python-discovery==1.5.0", "pytest-cov==7.1.0",
-            "mypy==2.3.0", "requests==2.34.2", "six==1.17.0", "dnspython==2.8.0",
-            "pylint-django==2.8.0", "librt==0.13.0", "sphinxcontrib-htmlhelp==2.1.0",
-            "pycodestyle==2.14.0", "sphinxcontrib-qthelp==2.0.0", "typing-extensions==4.16.0",
-            "pytest==9.1.1", "stevedore==5.9.0", "packaging==26.2", "pygments==2.20.0",
-            "babel==2.18.0", "nh3==0.3.6", "pylint==4.0.6", "pytest-xdist==3.8.0",
-            "wheel==0.47.0", "virtualenv==21.7.0", "sphinxcontrib-devhelp==2.0.0",
-            "click==8.4.2", "ddt==1.7.2", "mock==5.2.0", "pip-tools==7.6.0", "pytest-django==4.12.0",
-            "sphinx-book-theme==1.4.0", "hypothesis==6.161.5", "pathspec==1.1.1",
-            "sphinxcontrib-serializinghtml==2.0.0", "isort==8.0.1", "readme-renderer==45.0",
-            "pyproject-hooks==1.2.0", "certifi==2026.7.22", "soupsieve==2.9.1", "sphinxcontrib-applehelp==2.0.0",
-            "pluggy==1.6.0", "tomli-w==1.2.0", "ast-serialize==0.6.0", "pylint-plugin-utils==0.9.0",
-            "sphinx==9.1.0"]'
+        list: '["edx-lint==6.1.0", "coverage[toml]==7.15.4", "filelock==3.32.2", "charset-normalizer==3.4.9",
+            "distlib==0.4.3", "accessible-pygments==0.0.5", "execnet==2.1.2", "colorama==0.4.6",
+            "sortedcontainers==2.4.0", "mock==5.2.0", "pyproject-hooks==1.2.0", "tox==4.59.0",
+            "jinja2==3.1.6", "librt==0.15.0", "mypy==2.3.0", "alabaster==1.0.0", "platformdirs==4.11.2",
+            "readme-renderer==45.0", "pylint-django==2.8.0", "pylint-plugin-utils==0.9.0",
+            "certifi==2026.7.22", "sphinxcontrib-jsmath==1.0.1", "pymongo==4.17.0",
+            "pydata-sphinx-theme==0.20.0", "pytest-xdist==3.8.0", "virtualenv==21.7.4",
+            "sphinxcontrib-applehelp==2.0.0", "code-annotations==3.0.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "coverage==7.15.4", "setuptools==84.0.0", "pip==26.2.1", "iniconfig==2.3.0",
+            "sphinxcontrib-devhelp==2.0.0", "pyproject-api==1.11.0", "stevedore==5.9.0",
+            "soupsieve==2.9.2", "ast-serialize==0.8.0", "text-unidecode==1.3", "pylint==4.0.7",
+            "dill==0.4.1", "docutils==0.22.4", "snowballstemmer==3.1.1", "six==1.17.0",
+            "pytest==9.1.1", "pluggy==1.6.0", "pyyaml==6.0.3", "astroid==4.0.4", "beautifulsoup4==4.15.0",
+            "idna==3.18", "pytest-cov==7.1.0", "tomli-w==1.2.0", "dnspython==2.8.0",
+            "build==1.5.0", "requests==2.34.2", "sphinxcontrib-qthelp==2.0.0", "mypy-extensions==1.1.0",
+            "packaging==26.3", "pytest-django==4.14.0", "tomlkit==0.15.1", "pygments==2.20.0",
+            "hypothesis==6.165.3", "roman-numerals==4.1.0", "ddt==1.7.2", "babel==2.18.0",
+            "pycodestyle==2.14.0", "sphinx==9.1.0", "pip-tools==7.6.1", "typing-extensions==4.16.0",
+            "isort==8.0.1", "python-discovery==1.5.1", "wheel==0.48.0", "markupsafe==3.0.3",
+            "cachetools==7.1.7", "nh3==0.3.6", "mccabe==0.7.0", "python-slugify==8.0.4",
+            "pathspec==1.1.1", "urllib3==2.7.0", "click==8.4.2", "click-log==0.4.0",
+            "pylint-celery==0.3", "sphinx-book-theme==1.4.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "imagesize==2.0.0"]'
 django_packages:
     django_42:
         count: 3
-        list: '["code-annotations", "pylint-django", "pytest-django"]'
+        list: '["pytest-django", "code-annotations", "pylint-django"]'
     total:
         count: 3
-        list: '["code-annotations", "pylint-django", "pytest-django"]'
+        list: '["pytest-django", "code-annotations", "pylint-django"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -86,27 +84,20 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 13
-    build_details: '{"total_duration": "564 minutes 29 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12, django42)", "duration": "3 minutes 18 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, without-django)", "duration": "3 minutes
-        4 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, docs)", "duration": "0
-        minutes 55 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 54 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
-        34 seconds"}, {"name": "Dependabot", "duration": "0 minutes 28 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 53 seconds"}]}'
+    branch_count: 12
+    build_details: '{"total_duration": "2 minutes 59 seconds", "checks": [{"name":
+        "Tests (ubuntu-latest, 3.12, django42)", "duration": "2 minutes 59 seconds"},
+        {"name": "Tests (ubuntu-latest, 3.12, without-django)", "duration": "2 minutes
+        50 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 58 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, docs)", "duration":
+        "0 minutes 50 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
+        35 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 6
+    contributor_count_90d: 7
     created_at: 2014-05-23 17:24:54
     default_branch: master
     description: ''
-    disk_usage_kb: 987
+    disk_usage_kb: 997
     fork_count: 21
     has_issues: true
     has_wiki: false
@@ -115,11 +106,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-27 08:28:49
+    last_push: 2026-08-12 14:07:36
     license: GNU AGPLv3
     median_pr_response_seconds: 209
-    pr_closure_ratio_90d: 0.85
-    pulls_count: 4
+    pr_closure_ratio_90d: 0.8889
+    pulls_count: 3
     release_count_12mo: 2
 github_actions: true
 language_bytes:
@@ -147,14 +138,14 @@ ownership:
     owner_name: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://coveralls.io/r/edx/opaque-keys: 403'
     getting-help: false
     good_links:
     - http://code.edx.org/
     - https://github.com/openedx/opaque-keys/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/opaque-keys/actions?query=workflow%3A%22Python+CI%22
     - https://coveralls.io/repos/edx/opaque-keys/badge.svg?branch=master
-    - https://coveralls.io/r/edx/opaque-keys
     - https://github.com/openedx/edx-platform/wiki/Opaque-Keys
     irc-missing: true
     mailing-list-missing: true

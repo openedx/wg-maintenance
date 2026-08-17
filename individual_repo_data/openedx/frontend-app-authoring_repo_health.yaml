@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -103,25 +103,26 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 38
-    build_details: '{"total_duration": "10 minutes 2 seconds", "checks": [{"name":
-        "tests", "duration": "9 minutes 40 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 53 seconds"}, {"name": "Dependabot", "duration": "0 minutes 44
-        seconds"}, {"name": "coverage", "duration": "0 minutes 7 seconds"}, {"name":
-        "version-check / version-check", "duration": "0 minutes 4 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        51 seconds"}]}'
+    branch_count: 37
+    build_details: '{"total_duration": "1486 minutes 50 seconds", "checks": [{"name":
+        "tests", "duration": "9 minutes 13 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 8 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 7 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 23
+    contributor_count_90d: 22
     created_at: 2020-05-06 18:34:51
     default_branch: master
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 52274
+    disk_usage_kb: 53908
     fork_count: 210
     has_issues: true
     has_wiki: false
@@ -130,18 +131,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-30 14:21:28
+    last_push: 2026-08-14 16:49:28
     license: GNU AGPLv3
     median_pr_response_seconds: 7
-    pr_closure_ratio_90d: 0.74
-    pulls_count: 40
+    pr_closure_ratio_90d: 0.79
+    pulls_count: 36
     release_count_12mo: 7
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 388
-    javascript: 3011493
+    javascript: 2974956
     makefile: 1967
     python: 0
     shell: 0
@@ -167,6 +168,7 @@ readme:
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://travis-ci.com/edx/frontend-app-course-authoring: 404'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-course-authoring:
         404'
     getting-help: false
@@ -193,7 +195,6 @@ readme:
     - https://github.com/openedx/frontend-app-course-authoring/issues
     - https://openedx.org/slack
     - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/r/how-to-contribute
     - https://github.com/openedx/.github/blob/master/AI_POLICY.md
@@ -212,9 +213,9 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2026-07-28'
+    last_pr: '2026-08-13'
     oldest_open_pr_date: '2025-04-07'
-    total_open_prs: 7
+    total_open_prs: 6
 requires:
     django: false
     pytest: false

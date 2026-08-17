@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: false
     has_ecosystem:
@@ -62,29 +62,28 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 16
-    build_details: '{"total_duration": "10793 minutes 28 seconds", "checks": [{"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 55 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
+    branch_count: 17
+    build_details: '{"total_duration": "38 minutes 47 seconds", "checks": [{"name":
+        "Tests", "duration": "14 minutes 3 seconds"}, {"name": "Lint", "duration":
+        "1 minutes 55 seconds"}, {"name": "extract_translations", "duration": "0 minutes
+        20 seconds"}, {"name": "pull_translations", "duration": "0 minutes 18 seconds"},
+        {"name": "commitlint / commitlint", "duration": "0 minutes 18 seconds"}, {"name":
+        "clean_translations", "duration": "0 minutes 15 seconds"}, {"name": "SwiftLint",
+        "duration": "0 minutes 2 seconds"}, {"name": "codecov/project", "duration":
+        "0 minutes 1 seconds"}, {"name": "codecov/patch", "duration": "0 minutes 1
+        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 4
     created_at: 2023-03-13 09:15:29
     default_branch: main
     description: The mobile app for iOS for the Open EdX Platform.
-    disk_usage_kb: 13082
+    disk_usage_kb: 13164
     fork_count: 32
     has_issues: true
     has_wiki: false
@@ -93,21 +92,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-30 14:21:42
+    last_push: 2026-08-13 15:10:29
     license: Apache License 2.0
-    median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.8333
-    pulls_count: 3
-    release_count_12mo: 6
+    median_pr_response_seconds: 7
+    pr_closure_ratio_90d: 0.7
+    pulls_count: 5
+    release_count_12mo: 7
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
-    javascript: 537
+    javascript: 3433
     makefile: 433
-    python: 70039
-    shell: 1844
+    python: 70287
+    shell: 5431
 makefile:
     pip-installed: false
     quality: false

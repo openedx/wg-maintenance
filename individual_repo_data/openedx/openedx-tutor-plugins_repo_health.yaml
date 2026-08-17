@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-07-31
+TIMESTAMP: 2026-08-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,18 +62,21 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 5
-    build_details: '{"total_duration": "10080 minutes 19 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 30 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
-        "-1 minutes 51 seconds"}]}'
+    branch_count: 3
+    build_details: '{"total_duration": "4213 minutes 2 seconds", "checks": [{"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 51 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 3
     created_at: 2023-05-31 16:33:08
     default_branch: main
     description: A set of Tutor plugins maintained by the Open edX community.
-    disk_usage_kb: 180
+    disk_usage_kb: 170
     fork_count: 15
     has_issues: true
     has_wiki: false
@@ -82,11 +85,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-27 04:43:10
+    last_push: 2026-08-10 20:13:31
     license: GNU AGPLv3
-    median_pr_response_seconds: 18619
-    pr_closure_ratio_90d: 0.5
-    pulls_count: 3
+    median_pr_response_seconds: 1562398
+    pr_closure_ratio_90d: 1.0
+    pulls_count: 1
     release_count_12mo: 0
 github_actions: true
 language_bytes:
@@ -95,7 +98,7 @@ language_bytes:
     html: 0
     javascript: 0
     makefile: 4316
-    python: 39661
+    python: 39447
     shell: 3277
 makefile:
     pip-installed: false
