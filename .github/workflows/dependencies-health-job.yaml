@@ -1,9 +1,22 @@
 name: Dependencies Health Workflow Call
 
 on:
-  schedule:
-    # Run at 04:00 UTC (09:00 AM PKT) everyday.
-    - cron: "0 4 * * *"
+  # The daily schedule is disabled: this job cannot succeed against wg-maintenance yet.
+  # Blockers, all of which must be fixed before restoring the cron below:
+  #   1. TARGET_REPO_BRANCH is not passed, so the reusable workflow defaults to
+  #      "master" and the repo-health-data checkout fails (wg-maintenance uses "main").
+  #   2. ENABLE_EMAIL_ALERTS is true but EMAIL_ADDRESS_FOR_ALERTS / SMTP_USERNAME /
+  #      SMTP_PASSWORD are neither set as repo secrets nor forwarded, so the alert step
+  #      itself errors and masks the real failure.
+  #   3. dashboard_name defaults to "py_dependency_health", but the reusable workflow
+  #      gates the dependencies step on DASHBOARD_NAME == "dependencies_health", so
+  #      every step is skipped.
+  #   4. dashboards/dependencies_urls.csv, which the dependencies script reads first,
+  #      does not exist in this repo.
+  # To re-enable, restore:
+  #   schedule:
+  #     # Run at 04:00 UTC (09:00 AM PKT) everyday.
+  #     - cron: "0 4 * * *"
   workflow_dispatch:
     inputs:
       repo_health_branch:
