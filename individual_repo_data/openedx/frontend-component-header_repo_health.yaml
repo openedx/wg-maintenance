@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: false
     has_ecosystem:
@@ -105,8 +105,8 @@ github:
     last_push: 2026-08-10 01:50:13
     license: GNU AGPLv3
     median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.6
-    pulls_count: 18
+    pr_closure_ratio_90d: 0.6667
+    pulls_count: 17
     release_count_12mo: 7
 github_actions: true
 language_bytes:
@@ -138,6 +138,8 @@ readme:
     - 'https://github.com/openedx/frontend-template-application/blob/master/src/index.jsx:
         404'
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
+    - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://api.travis-ci.com/edx/frontend-component-header.svg?branch=master:
         404'
     - 'https://travis-ci.com/edx/frontend-component-header: 404'
@@ -155,8 +157,6 @@ readme:
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-component-header/issues
     - https://openedx.org/slack
-    - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/codecov/c/github/edx/frontend-component-header

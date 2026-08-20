@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,33 +22,33 @@ dependencies:
         list: ''
     pypi:
         count: 6
-        list: '["sympy==1.14.0", "markupsafe==3.0.3", "pyparsing==3.3.2", "mpmath==1.3.0",
-            "lxml==6.0.2", "numpy==2.4.2"]'
+        list: '["pyparsing==3.3.2", "numpy==2.4.2", "lxml==6.0.2", "markupsafe==3.0.3",
+            "sympy==1.14.0", "mpmath==1.3.0"]'
     pypi_all:
         count: 64
-        list: '["coveralls==4.1.0", "wheel==0.45.1", "tomli-w==1.2.0", "setuptools==82.0.0",
-            "shellingham==1.5.4", "edx-lint==5.6.0", "markupsafe==3.0.3", "iniconfig==2.3.0",
-            "mpmath==1.3.0", "filelock==3.25.0", "colorama==0.4.6", "markdown-it-py==4.0.0",
-            "click-log==0.4.0", "pip==26.0.1", "code-annotations==2.3.2", "urllib3==2.6.3",
-            "idna==3.11", "rich==14.3.3", "isort==8.0.1", "annotated-doc==0.0.4",
-            "jinja2==3.1.6", "setuptools==78.1.0", "astroid==4.0.4", "pyparsing==3.3.2",
-            "cachetools==7.0.3", "six==1.17.0", "typer==0.24.1", "lxml==6.0.2", "pycodestyle==2.14.0",
-            "pygments==2.19.2", "pylint-plugin-utils==0.9.0", "pylint==4.0.5", "coverage[toml]==7.13.4",
-            "platformdirs==4.9.4", "tox==4.49.0", "pylint-celery==0.3", "virtualenv==21.1.0",
-            "text-unidecode==1.3", "python-discovery==1.1.1", "certifi==2026.2.25",
-            "requests==2.32.5", "stevedore==5.7.0", "wheel==0.46.3", "distlib==0.4.0",
-            "pluggy==1.6.0", "tomlkit==0.14.0", "packaging==26.0", "pyproject-api==1.10.0",
-            "pytest==9.0.2", "pyproject-hooks==1.2.0", "dill==0.4.1", "coverage==7.13.4",
-            "mdurl==0.1.2", "pip==24.2", "python-slugify==8.0.4", "mccabe==0.7.0",
-            "pip-tools==7.5.3", "build==1.4.0", "pyyaml==6.0.3", "charset-normalizer==3.4.5",
-            "sympy==1.14.0", "numpy==2.4.2", "pylint-django==2.7.0", "click==8.3.1"]'
+        list: '["tomlkit==0.14.0", "pylint-django==2.7.0", "setuptools==82.0.0", "pyparsing==3.3.2",
+            "wheel==0.46.3", "pygments==2.19.2", "colorama==0.4.6", "distlib==0.4.0",
+            "stevedore==5.7.0", "sympy==1.14.0", "pyproject-api==1.10.0", "python-discovery==1.1.1",
+            "click==8.3.1", "typer==0.24.1", "mccabe==0.7.0", "pyyaml==6.0.3", "pyproject-hooks==1.2.0",
+            "idna==3.11", "mpmath==1.3.0", "pylint-celery==0.3", "coverage==7.13.4",
+            "certifi==2026.2.25", "pip==26.0.1", "mdurl==0.1.2", "packaging==26.0",
+            "numpy==2.4.2", "build==1.4.0", "pycodestyle==2.14.0", "filelock==3.25.0",
+            "dill==0.4.1", "iniconfig==2.3.0", "requests==2.32.5", "pip==24.2", "shellingham==1.5.4",
+            "pluggy==1.6.0", "wheel==0.45.1", "rich==14.3.3", "platformdirs==4.9.4",
+            "text-unidecode==1.3", "setuptools==78.1.0", "edx-lint==5.6.0", "jinja2==3.1.6",
+            "cachetools==7.0.3", "code-annotations==2.3.2", "pylint==4.0.5", "pylint-plugin-utils==0.9.0",
+            "six==1.17.0", "lxml==6.0.2", "markupsafe==3.0.3", "coverage[toml]==7.13.4",
+            "annotated-doc==0.0.4", "tomli-w==1.2.0", "python-slugify==8.0.4", "pip-tools==7.5.3",
+            "urllib3==2.6.3", "markdown-it-py==4.0.0", "isort==8.0.1", "virtualenv==21.1.0",
+            "click-log==0.4.0", "tox==4.49.0", "pytest==9.0.2", "coveralls==4.1.0",
+            "astroid==4.0.4", "charset-normalizer==3.4.5"]'
 django_packages:
     django_42:
         count: 2
-        list: '["pylint-django", "code-annotations"]'
+        list: '["code-annotations", "pylint-django"]'
     total:
         count: 2
-        list: '["pylint-django", "code-annotations"]'
+        list: '["code-annotations", "pylint-django"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -79,16 +79,27 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 14
-    build_details: '{"total_duration": "1 minutes 9 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12, py)", "duration": "1 minutes 0 seconds"}, {"name":
-        "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 57 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 38 seconds"}]}'
+    build_details: '{"total_duration": "9035 minutes 47 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 5 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, py)", "duration":
+        "1 minutes 0 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 57 seconds"}, {"name": "Dependabot", "duration": "0 minutes 38
+        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 2
     created_at: 2019-04-19 21:38:24
     default_branch: master
     description: ''
-    disk_usage_kb: 245
+    disk_usage_kb: 247
     fork_count: 5
     has_issues: true
     has_wiki: false
@@ -97,9 +108,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-10 20:12:26
+    last_push: 2026-08-17 02:48:08
     license: GNU AGPLv3
-    median_pr_response_seconds: 1234638
+    median_pr_response_seconds: 1241295
     pr_closure_ratio_90d: 0.875
     pulls_count: 3
     release_count_12mo: 2
@@ -131,6 +142,7 @@ pinned_python_dependencies: 2
 readme:
     bad_links:
     - 'https://docs.openedx.org/projects/: 404'
+    - 'https://openedx.slack.com/: 403'
     - 'https://docs.openedx.org/projects/openedx-calc: 404'
     - 'https://github.com/openedx/openedx-calc/blob/main/LICENSE.txt: 404'
     getting-help: true
@@ -141,7 +153,6 @@ readme:
     - https://github.com/openedx/openedx-calc/issues
     - https://openedx.org/getting-help
     - https://openedx.org/slack
-    - https://openedx.slack.com/
     - https://github.com/openedx/edx-platform
     - https://github.com/openedx/openedx-calc/blob/master/LICENSE
     - https://openedx.org/r/how-to-contribute

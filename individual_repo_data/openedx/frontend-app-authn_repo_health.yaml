@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -79,12 +79,12 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 44
-    build_details: '{"total_duration": "3588 minutes 23 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 44 seconds"}, {"name": "autoupdate", "duration":
-        "0 minutes 17 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 3 seconds"}, {"name": "routeissue / add_label", "duration": "0
-        minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1
-        minutes 51 seconds"}]}'
+    build_details: '{"total_duration": "9011 minutes 33 seconds", "checks": [{"name":
+        "tests", "duration": "2 minutes 44 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 35 seconds"}, {"name": "autoupdate", "duration": "0 minutes 17
+        seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        3 seconds"}, {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "routeissue / add_and_notify", "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2020-09-28 13:08:13
@@ -92,7 +92,7 @@ github:
     description: Open edX micro-frontend application for new login and registration
         experience.
     disk_usage_kb: 18071
-    fork_count: 263
+    fork_count: 262
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -137,6 +137,8 @@ readme:
         port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''support.example.com'',
         port=443): Failed to resolve ''support.example.com'' ([Errno -5] No address
         associated with hostname)"))'
+    - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://travis-ci.com/edx/frontend-app-authn: 404'
     getting-help: false
     good_links:
@@ -149,8 +151,6 @@ readme:
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-authn/issues
     - https://openedx.org/slack
-    - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/group/2u-infinity

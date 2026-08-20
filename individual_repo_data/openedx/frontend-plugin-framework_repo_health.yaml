@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -69,18 +69,18 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 20
-    build_details: '{"total_duration": "335 minutes 8 seconds", "checks": [{"name":
-        "Release", "duration": "2 minutes 12 seconds"}, {"name": "test", "duration":
-        "1 minutes 31 seconds"}, {"name": "Dependabot", "duration": "0 minutes 39
+    branch_count: 19
+    build_details: '{"total_duration": "602 minutes 32 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 45 seconds"}, {"name": "Release", "duration":
+        "1 minutes 34 seconds"}, {"name": "Dependabot", "duration": "0 minutes 33
         seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        5 seconds"}]}'
+        3 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 2
     created_at: 2023-11-02 19:50:48
     default_branch: master
     description: An experimental framework for micro-frontend plugins.
-    disk_usage_kb: 1352
+    disk_usage_kb: 1355
     fork_count: 27
     has_issues: true
     has_wiki: false
@@ -89,11 +89,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-14 17:34:56
+    last_push: 2026-08-18 21:10:04
     license: GNU AGPLv3
     median_pr_response_seconds: 183
-    pr_closure_ratio_90d: 0.8571
-    pulls_count: 11
+    pr_closure_ratio_90d: 1.0
+    pulls_count: 10
     release_count_12mo: 6
 github_actions: true
 language_bytes:
@@ -123,6 +123,8 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 404'
+    - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-framework:
         404'
     getting-help: true
@@ -139,8 +141,6 @@ readme:
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-plugin-framework/issues
     - https://openedx.org/slack
-    - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: false
     has_ecosystem:
@@ -86,10 +86,11 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 76
-    build_details: '{"total_duration": "546 minutes 51 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "9042 minutes 10 seconds", "checks": [{"name":
         "tests (test)", "duration": "2 minutes 37 seconds"}, {"name": "tests (lint)",
         "duration": "1 minutes 54 seconds"}, {"name": "tests (i18n_extract)", "duration":
-        "1 minutes 21 seconds"}, {"name": "version-check / version-check", "duration":
+        "1 minutes 21 seconds"}, {"name": "update-browserslist / update-dep", "duration":
+        "1 minutes 2 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 3 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -149,6 +150,8 @@ readme:
         port=443): Failed to resolve ''support.example.com'' ([Errno -5] No address
         associated with hostname)"))'
     - 'https://openedx.github.io/frontend-platform/module-Config.html: 404'
+    - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-app-profile
@@ -163,8 +166,6 @@ readme:
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-account/issues
     - https://openedx.org/slack
-    - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/community/connect
     - https://openedx.org/code-of-conduct/
     - https://github.com/openedx/edx-developer-docs/actions/workflows/ci.yml/badge.svg

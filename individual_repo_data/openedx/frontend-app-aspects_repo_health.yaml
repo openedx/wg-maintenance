@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,21 +67,20 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 6
-    build_details: '{"total_duration": "9995 minutes 33 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 18 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 5 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 4 seconds"}, {"name": "Dependabot", "duration": "0 minutes 55 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 54 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 50 seconds"}, {"name": "Release", "duration": "0 minutes
-        45 seconds"}, {"name": "Dependabot", "duration": "0 minutes 41 seconds"},
-        {"name": "update-browserslist / update-dep", "duration": "0 minutes 33 seconds"}]}'
+    branch_count: 2
+    build_details: '{"total_duration": "1503 minutes 45 seconds", "checks": [{"name":
+        "Dependabot", "duration": "97 minutes 25 seconds"}, {"name": "Dependabot",
+        "duration": "1 minutes 13 seconds"}, {"name": "Dependabot", "duration": "1
+        minutes 7 seconds"}, {"name": "Dependabot", "duration": "1 minutes 6 seconds"},
+        {"name": "Dependabot", "duration": "1 minutes 3 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 48 seconds"}, {"name": "Release", "duration": "0 minutes
+        45 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2026-05-28 13:40:16
     default_branch: main
     description: ''
-    disk_usage_kb: 1275
+    disk_usage_kb: 2331
     fork_count: 3
     has_issues: true
     has_wiki: false
@@ -90,11 +89,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-10 14:59:03
+    last_push: 2026-08-18 17:51:34
     license: GNU AGPLv3
-    median_pr_response_seconds: 123
-    pr_closure_ratio_90d: 0.7895
-    pulls_count: 4
+    median_pr_response_seconds: 126
+    pr_closure_ratio_90d: 1.0
+    pulls_count: 0
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -123,6 +122,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-aspects:
         404'
     getting-help: true
@@ -134,7 +134,6 @@ readme:
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://openedx.org/slack
-    - https://openedx.slack.com/archives/C04BM6YC7A6
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
