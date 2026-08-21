@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: false
     has_ecosystem:
@@ -67,7 +67,7 @@ github:
         "Run Tests (3.12)", "duration": "0 minutes 27 seconds"}, {"name": "Run Tests
         (3.11)", "duration": "0 minutes 25 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 2
+    contributor_count_90d: 1
     created_at: 2020-04-06 17:49:34
     default_branch: master
     description: A flask web application to handle pull request webhook events and
@@ -83,8 +83,6 @@ github:
     is_private: false
     last_push: 2026-05-30 15:32:44
     license: GNU AGPLv3
-    median_pr_response_seconds: 24168
-    pr_closure_ratio_90d: 1.0
     pulls_count: 0
     release_count_12mo: 0
 github_actions: true

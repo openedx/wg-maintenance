@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: false
     has_ecosystem:
@@ -83,7 +83,7 @@ github:
     default_branch: master
     description: Site footer component for edX frontend apps.
     disk_usage_kb: 16028
-    fork_count: 158
+    fork_count: 157
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -123,8 +123,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/community/connect: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://travis-ci.com/edx/frontend-component-footer: 404'
     getting-help: false
     good_links:
@@ -136,12 +140,8 @@ readme:
     - https://github.com/nvm-sh/nvm
     - https://github.com/openedx/frontend-plugin-framework
     - https://github.com/openedx/frontend-template-application/blob/3cd5485bf387b8c479baf6b02bf59e3061dc3465/src/index.scss
-    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-component-footer/issues
-    - https://openedx.org/slack
-    - https://openedx.org/community/connect
-    - https://openedx.org/code-of-conduct/
     - https://api.travis-ci.com/edx/frontend-component-footer.svg?branch=master
     - https://img.shields.io/codecov/c/github/edx/frontend-component-footer
     - https://img.shields.io/npm/v/@edx/frontend-component-footer.svg

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,123 +22,124 @@ dependencies:
         list: ''
     pypi:
         count: 119
-        list: '["redis==7.1.0", "greenlet==3.3.0", "billiard==4.2.4", "scikit-learn==1.8.0",
-            "joblib==1.5.3", "sniffio==1.3.1", "zope-event==6.1", "vine==5.1.0", "tqdm==4.67.1",
-            "urllib3==2.6.3", "typing-extensions==4.15.0", "social-auth-core==4.8.3",
-            "psutil==7.2.1", "django-clearcache==1.2.1", "semantic-version==2.10.0",
-            "pytz==2025.2", "httpcore==1.0.9", "edx-toggles==5.4.1", "openai==1.13.3",
-            "requests==2.32.5", "sqlparse==0.5.5", "idna==3.11", "python-dateutil==2.9.0.post0",
-            "django-config-models==2.9.0", "six==1.17.0", "markupsafe==3.0.3", "python3-openid==3.2.0",
-            "numpy==2.4.1", "text-unidecode==1.3", "zope-interface==8.2", "requests-oauthlib==2.0.0",
-            "backoff==1.10.0", "defusedxml==0.7.1", "click==8.3.1", "pyyaml==6.0.3",
-            "code-annotations==2.3.0", "mysqlclient==2.2.7", "djangoql==0.18.1", "stevedore==5.6.0",
-            "asgiref==3.11.0", "edx-rest-api-client==6.2.0", "django-log-request-id==2.1.0",
-            "click-repl==0.3.0", "amqp==5.3.1", "social-auth-app-django==5.7.0", "xlsxwriter==3.2.9",
-            "rpds-py==0.30.0", "django-celery-results==2.6.0", "distro==1.9.0", "edx-opaque-keys==3.0.0",
-            "analytics-python==1.4.post1", "edx-celeryutils==1.4.0", "jsonschema-specifications==2025.9.1",
-            "httpx==0.28.1", "celery==5.6.2", "simplejson==3.20.2", "edx-django-release-util==1.5.0",
-            "djangorestframework==3.16.1", "monotonic==1.6", "oauthlib==3.3.1", "packaging==25.0",
-            "rules==3.5", "cryptography==46.0.3", "pyjwt[crypto]==2.10.1", "django-extensions==4.1",
-            "django==5.2.10", "click-didyoumean==0.3.1", "kombu==5.6.2", "referencing==0.37.0",
-            "jsonschema==4.26.0", "anyio==4.12.1", "djangorestframework-xml==2.0.0",
-            "algoliasearch==3.0.0", "jsonfield==3.2.0", "edx-django-utils==8.0.1",
-            "pydantic-core==2.41.5", "django-import-export==4.4.0", "jinja2==3.1.6",
-            "zipp==3.23.0", "threadpoolctl==3.6.0", "python-slugify==8.0.4", "ply==3.11",
-            "click-plugins==1.1.1.2", "annotated-types==0.7.0", "drf-spectacular==0.29.0",
-            "prompt-toolkit==3.0.52", "django-cors-headers==4.9.0", "diff-match-patch==20241021",
-            "pynacl==1.6.2", "certifi==2026.1.4", "pymemcache==4.0.0", "scipy==1.17.0",
-            "attrs==25.4.0", "django-model-utils==5.0.0", "edx-auth-backends==4.6.2",
-            "drf-jwt==1.19.2", "python-memcached==1.62", "cffi==2.0.0", "jsonfield2==4.0.0.post0",
-            "django-simple-history==3.11.0", "dnspython==2.8.0", "wcwidth==0.2.14",
-            "django-crum==0.7.9", "h11==0.16.0", "pymongo==4.16.0", "pydantic==2.12.5",
-            "pycparser==2.23", "edx-rbac==2.1.0", "typing-inspection==0.4.2", "charset-normalizer==3.4.4",
-            "tzdata==2025.3", "gunicorn==23.0.0", "tablib==3.9.0", "inflection==0.5.1",
-            "tzlocal==5.3.1", "uritemplate==4.2.0", "edx-drf-extensions==10.6.0",
-            "gevent==25.9.1", "django-waffle==5.0.0"]'
+        list: '["semantic-version==2.10.0", "edx-celeryutils==1.4.0", "edx-django-release-util==1.5.0",
+            "django-waffle==5.0.0", "httpcore==1.0.9", "scipy==1.17.0", "asgiref==3.11.0",
+            "pycparser==2.23", "click-didyoumean==0.3.1", "referencing==0.37.0", "django-import-export==4.4.0",
+            "edx-rest-api-client==6.2.0", "pymongo==4.16.0", "djangoql==0.18.1", "scikit-learn==1.8.0",
+            "certifi==2026.1.4", "sqlparse==0.5.5", "python-slugify==8.0.4", "sniffio==1.3.1",
+            "typing-inspection==0.4.2", "attrs==25.4.0", "django-log-request-id==2.1.0",
+            "zope-event==6.1", "analytics-python==1.4.post1", "social-auth-app-django==5.7.0",
+            "tablib==3.9.0", "zipp==3.23.0", "celery==5.6.2", "uritemplate==4.2.0",
+            "stevedore==5.6.0", "oauthlib==3.3.1", "urllib3==2.6.3", "edx-django-utils==8.0.1",
+            "joblib==1.5.3", "click-repl==0.3.0", "pytz==2025.2", "wcwidth==0.2.14",
+            "cryptography==46.0.3", "django-model-utils==5.0.0", "pyjwt[crypto]==2.10.1",
+            "pydantic-core==2.41.5", "idna==3.11", "billiard==4.2.4", "rules==3.5",
+            "python-memcached==1.62", "openai==1.13.3", "django-clearcache==1.2.1",
+            "drf-spectacular==0.29.0", "distro==1.9.0", "simplejson==3.20.2", "python-dateutil==2.9.0.post0",
+            "inflection==0.5.1", "edx-rbac==2.1.0", "backoff==1.10.0", "django-cors-headers==4.9.0",
+            "djangorestframework==3.16.1", "vine==5.1.0", "gevent==25.9.1", "redis==7.1.0",
+            "algoliasearch==3.0.0", "six==1.17.0", "monotonic==1.6", "xlsxwriter==3.2.9",
+            "cffi==2.0.0", "tzdata==2025.3", "django-extensions==4.1", "packaging==25.0",
+            "djangorestframework-xml==2.0.0", "httpx==0.28.1", "charset-normalizer==3.4.4",
+            "tzlocal==5.3.1", "markupsafe==3.0.3", "prompt-toolkit==3.0.52", "python3-openid==3.2.0",
+            "mysqlclient==2.2.7", "jsonschema-specifications==2025.9.1", "kombu==5.6.2",
+            "anyio==4.12.1", "edx-auth-backends==4.6.2", "django==5.2.10", "greenlet==3.3.0",
+            "text-unidecode==1.3", "click==8.3.1", "zope-interface==8.2", "rpds-py==0.30.0",
+            "threadpoolctl==3.6.0", "jsonfield==3.2.0", "edx-drf-extensions==10.6.0",
+            "pydantic==2.12.5", "numpy==2.4.1", "django-simple-history==3.11.0", "edx-opaque-keys==3.0.0",
+            "jsonfield2==4.0.0.post0", "pymemcache==4.0.0", "jinja2==3.1.6", "requests==2.32.5",
+            "click-plugins==1.1.1.2", "django-crum==0.7.9", "amqp==5.3.1", "h11==0.16.0",
+            "social-auth-core==4.8.3", "dnspython==2.8.0", "jsonschema==4.26.0", "pyyaml==6.0.3",
+            "django-celery-results==2.6.0", "django-config-models==2.9.0", "drf-jwt==1.19.2",
+            "typing-extensions==4.15.0", "edx-toggles==5.4.1", "gunicorn==23.0.0",
+            "defusedxml==0.7.1", "pynacl==1.6.2", "diff-match-patch==20241021", "requests-oauthlib==2.0.0",
+            "code-annotations==2.3.0", "annotated-types==0.7.0", "tqdm==4.67.1", "ply==3.11",
+            "psutil==7.2.1"]'
     pypi_all:
         count: 204
-        list: '["redis==7.1.0", "greenlet==3.3.0", "accessible-pygments==0.0.5", "billiard==4.2.4",
-            "scikit-learn==1.8.0", "faker==40.1.0", "joblib==1.5.3", "sniffio==1.3.1",
-            "zope-event==6.1", "vine==5.1.0", "tqdm==4.67.1", "urllib3==2.6.3", "soupsieve==2.8.1",
-            "lxml-html-clean==0.4.3", "sphinx-book-theme==1.1.4", "snowballstemmer==3.0.1",
-            "typing-extensions==4.15.0", "ddt==1.7.2", "platformdirs==4.5.1", "social-auth-core==4.8.3",
-            "factory-boy==3.3.3", "psutil==7.2.1", "docutils==0.21.2", "django-clearcache==1.2.1",
-            "semantic-version==2.10.0", "pytz==2025.2", "httpcore==1.0.9", "edx-toggles==5.4.1",
-            "openai==1.13.3", "requests==2.32.5", "sphinxcontrib-devhelp==2.0.0",
-            "sqlparse==0.5.5", "idna==3.11", "python-dateutil==2.9.0.post0", "django-config-models==2.9.0",
-            "six==1.17.0", "markupsafe==3.0.3", "python3-openid==3.2.0", "numpy==2.4.1",
-            "text-unidecode==1.3", "astroid==4.0.3", "zope-interface==8.2", "requests-oauthlib==2.0.0",
-            "backoff==1.10.0", "defusedxml==0.7.1", "click==8.3.1", "restructuredtext-lint==2.0.2",
-            "pyyaml==6.0.3", "code-annotations==2.3.0", "mysqlclient==2.2.7", "djangoql==0.18.1",
-            "stevedore==5.6.0", "typeguard==4.4.4", "asgiref==3.11.0", "edx-rest-api-client==6.2.0",
-            "beautifulsoup4==4.14.3", "pylint-django==2.7.0", "edx-i18n-tools==1.9.0",
-            "click-log==0.4.0", "django-log-request-id==2.1.0", "click-repl==0.3.0",
-            "iniconfig==2.3.0", "amqp==5.3.1", "social-auth-app-django==5.7.0", "xlsxwriter==3.2.9",
-            "rpds-py==0.30.0", "django-celery-results==2.6.0", "distro==1.9.0", "pyproject-hooks==1.2.0",
-            "pylint-plugin-utils==0.9.0", "pluggy==1.6.0", "edx-opaque-keys==3.0.0",
-            "edx-lint==5.6.0", "analytics-python==1.4.post1", "sphinxcontrib-htmlhelp==2.1.0",
-            "edx-celeryutils==1.4.0", "polib==1.2.0", "jsonschema-specifications==2025.9.1",
-            "chardet==5.2.0", "django-dynamic-fixture==4.0.1", "httpx==0.28.1", "six==1.16.0",
-            "doc8==2.0.0", "celery==5.6.2", "isort==7.0.0", "imagesize==1.4.1", "filelock==3.20.3",
-            "sphinxcontrib-applehelp==2.0.0", "setuptools==80.9.0", "pip==25.2", "simplejson==3.20.2",
-            "pytest-cov==7.0.0", "edx-django-release-util==1.5.0", "djangorestframework==3.16.1",
-            "monotonic==1.6", "oauthlib==3.3.1", "packaging==25.0", "jinja2-pluralize==0.3.0",
-            "filelock==3.4.2", "rules==3.5", "responses==0.25.8", "alabaster==1.0.0",
-            "readme-renderer==44.0", "cryptography==46.0.3", "pyjwt[crypto]==2.10.1",
-            "django-extensions==4.1", "django==5.2.10", "click-didyoumean==0.3.1",
-            "kombu==5.6.2", "referencing==0.37.0", "tox-battery==0.6.1", "pylint-celery==0.3",
-            "jsonschema==4.26.0", "colorama==0.4.6", "sphinxcontrib-jsmath==1.0.1",
-            "anyio==4.12.1", "djangorestframework-xml==2.0.0", "nh3==0.3.2", "sphinx==9.1.0",
-            "algoliasearch==3.0.0", "jsonfield==3.2.0", "tox==4.34.1", "edx-django-utils==8.0.1",
-            "pydantic-core==2.41.5", "distlib==0.4.0", "django-import-export==4.4.0",
-            "pip-tools==7.5.2", "jinja2==3.1.6", "zipp==3.23.0", "threadpoolctl==3.6.0",
-            "python-slugify==8.0.4", "lxml[html-clean]==6.0.2", "pyparsing==3.0.7",
-            "ply==3.11", "click-plugins==1.1.1.2", "more-itertools==10.8.0", "annotated-types==0.7.0",
-            "pycodestyle==2.14.0", "drf-spectacular==0.29.0", "prompt-toolkit==3.0.52",
-            "django-cors-headers==4.9.0", "mccabe==0.7.0", "diff-match-patch==20241021",
-            "pluggy==1.0.0", "sphinxcontrib-serializinghtml==2.0.0", "pynacl==1.6.2",
-            "certifi==2026.1.4", "build==1.4.0", "babel==2.17.0", "pytest-django==4.11.1",
-            "pyproject-api==1.10.0", "pymemcache==4.0.0", "platformdirs==2.4.1", "virtualenv==20.13.1",
-            "scipy==1.17.0", "virtualenv==20.36.1", "attrs==25.4.0", "tomlkit==0.13.3",
-            "django-model-utils==5.0.0", "edx-auth-backends==4.6.2", "toml==0.10.2",
-            "roman-numerals==4.1.0", "pytest==9.0.2", "drf-jwt==1.19.2", "python-memcached==1.62",
-            "cffi==2.0.0", "pydata-sphinx-theme==0.15.4", "inflect==7.5.0", "pylint==4.0.4",
-            "jsonfield2==4.0.0.post0", "django-simple-history==3.11.0", "dnspython==2.8.0",
-            "path==16.16.0", "wcwidth==0.2.14", "django-crum==0.7.9", "h11==0.16.0",
-            "pymongo==4.16.0", "django-debug-toolbar==6.1.0", "pydantic==2.12.5",
-            "pycparser==2.23", "edx-rbac==2.1.0", "typing-inspection==0.4.2", "cachetools==6.2.4",
-            "charset-normalizer==3.4.4", "coverage[toml]==7.13.1", "pygments==2.19.2",
-            "py==1.11.0", "diff-cover==4.0.0", "distlib==0.3.4", "tzdata==2025.3",
-            "tox==3.24.5", "gunicorn==23.0.0", "tablib==3.9.0", "packaging==21.3",
-            "inflection==0.5.1", "sphinxcontrib-qthelp==2.0.0", "wheel==0.45.1", "tzlocal==5.3.1",
-            "dill==0.4.0", "uritemplate==4.2.0", "edx-drf-extensions==10.6.0", "gevent==25.9.1",
-            "django-waffle==5.0.0", "pydocstyle==6.3.0"]'
+        list: '["semantic-version==2.10.0", "edx-celeryutils==1.4.0", "edx-django-release-util==1.5.0",
+            "django-waffle==5.0.0", "httpcore==1.0.9", "sphinxcontrib-jsmath==1.0.1",
+            "more-itertools==10.8.0", "beautifulsoup4==4.14.3", "nh3==0.3.2", "scipy==1.17.0",
+            "asgiref==3.11.0", "edx-i18n-tools==1.9.0", "polib==1.2.0", "pycparser==2.23",
+            "pyparsing==3.0.7", "accessible-pygments==0.0.5", "click-didyoumean==0.3.1",
+            "sphinxcontrib-qthelp==2.0.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "pylint-celery==0.3", "virtualenv==20.13.1", "pip-tools==7.5.2", "referencing==0.37.0",
+            "django-import-export==4.4.0", "edx-rest-api-client==6.2.0", "pymongo==4.16.0",
+            "snowballstemmer==3.0.1", "jinja2-pluralize==0.3.0", "docutils==0.21.2",
+            "djangoql==0.18.1", "scikit-learn==1.8.0", "certifi==2026.1.4", "sqlparse==0.5.5",
+            "python-slugify==8.0.4", "setuptools==80.9.0", "astroid==4.0.3", "sniffio==1.3.1",
+            "typing-inspection==0.4.2", "attrs==25.4.0", "distlib==0.3.4", "django-log-request-id==2.1.0",
+            "zope-event==6.1", "analytics-python==1.4.post1", "social-auth-app-django==5.7.0",
+            "tablib==3.9.0", "wheel==0.45.1", "tox==3.24.5", "zipp==3.23.0", "ddt==1.7.2",
+            "readme-renderer==44.0", "celery==5.6.2", "uritemplate==4.2.0", "click-log==0.4.0",
+            "stevedore==5.6.0", "oauthlib==3.3.1", "restructuredtext-lint==2.0.2",
+            "urllib3==2.6.3", "edx-django-utils==8.0.1", "joblib==1.5.3", "click-repl==0.3.0",
+            "pytz==2025.2", "chardet==5.2.0", "wcwidth==0.2.14", "cryptography==46.0.3",
+            "django-model-utils==5.0.0", "pyjwt[crypto]==2.10.1", "build==1.4.0",
+            "pytest-django==4.11.1", "pydantic-core==2.41.5", "pluggy==1.6.0", "sphinx-book-theme==1.1.4",
+            "idna==3.11", "imagesize==1.4.1", "billiard==4.2.4", "pygments==2.19.2",
+            "rules==3.5", "python-memcached==1.62", "openai==1.13.3", "pylint==4.0.4",
+            "django-clearcache==1.2.1", "drf-spectacular==0.29.0", "distro==1.9.0",
+            "responses==0.25.8", "simplejson==3.20.2", "python-dateutil==2.9.0.post0",
+            "inflection==0.5.1", "edx-rbac==2.1.0", "backoff==1.10.0", "django-cors-headers==4.9.0",
+            "djangorestframework==3.16.1", "pyproject-api==1.10.0", "pluggy==1.0.0",
+            "tox-battery==0.6.1", "sphinxcontrib-htmlhelp==2.1.0", "vine==5.1.0",
+            "tomlkit==0.13.3", "gevent==25.9.1", "redis==7.1.0", "algoliasearch==3.0.0",
+            "six==1.17.0", "monotonic==1.6", "lxml[html-clean]==6.0.2", "soupsieve==2.8.1",
+            "xlsxwriter==3.2.9", "django-dynamic-fixture==4.0.1", "cffi==2.0.0", "dill==0.4.0",
+            "tzdata==2025.3", "django-extensions==4.1", "alabaster==1.0.0", "packaging==25.0",
+            "pydata-sphinx-theme==0.15.4", "coverage[toml]==7.13.1", "faker==40.1.0",
+            "djangorestframework-xml==2.0.0", "iniconfig==2.3.0", "sphinxcontrib-devhelp==2.0.0",
+            "sphinx==9.1.0", "colorama==0.4.6", "httpx==0.28.1", "charset-normalizer==3.4.4",
+            "tzlocal==5.3.1", "markupsafe==3.0.3", "prompt-toolkit==3.0.52", "doc8==2.0.0",
+            "python3-openid==3.2.0", "filelock==3.4.2", "mysqlclient==2.2.7", "toml==0.10.2",
+            "jsonschema-specifications==2025.9.1", "pydocstyle==6.3.0", "platformdirs==2.4.1",
+            "pytest-cov==7.0.0", "kombu==5.6.2", "mccabe==0.7.0", "anyio==4.12.1",
+            "edx-auth-backends==4.6.2", "diff-cover==4.0.0", "django==5.2.10", "greenlet==3.3.0",
+            "text-unidecode==1.3", "tox==4.34.1", "distlib==0.4.0", "path==16.16.0",
+            "click==8.3.1", "zope-interface==8.2", "rpds-py==0.30.0", "threadpoolctl==3.6.0",
+            "lxml-html-clean==0.4.3", "jsonfield==3.2.0", "edx-drf-extensions==10.6.0",
+            "django-debug-toolbar==6.1.0", "sphinxcontrib-applehelp==2.0.0", "pydantic==2.12.5",
+            "numpy==2.4.1", "django-simple-history==3.11.0", "pyproject-hooks==1.2.0",
+            "pylint-django==2.7.0", "edx-opaque-keys==3.0.0", "six==1.16.0", "jsonfield2==4.0.0.post0",
+            "pymemcache==4.0.0", "pytest==9.0.2", "pycodestyle==2.14.0", "jinja2==3.1.6",
+            "platformdirs==4.5.1", "requests==2.32.5", "edx-lint==5.6.0", "click-plugins==1.1.1.2",
+            "cachetools==6.2.4", "django-crum==0.7.9", "amqp==5.3.1", "pip==25.2",
+            "roman-numerals==4.1.0", "h11==0.16.0", "virtualenv==20.36.1", "social-auth-core==4.8.3",
+            "dnspython==2.8.0", "jsonschema==4.26.0", "pyyaml==6.0.3", "packaging==21.3",
+            "py==1.11.0", "django-celery-results==2.6.0", "django-config-models==2.9.0",
+            "drf-jwt==1.19.2", "inflect==7.5.0", "typing-extensions==4.15.0", "pylint-plugin-utils==0.9.0",
+            "edx-toggles==5.4.1", "gunicorn==23.0.0", "defusedxml==0.7.1", "pynacl==1.6.2",
+            "filelock==3.20.3", "diff-match-patch==20241021", "typeguard==4.4.4",
+            "requests-oauthlib==2.0.0", "code-annotations==2.3.0", "factory-boy==3.3.3",
+            "isort==7.0.0", "annotated-types==0.7.0", "tqdm==4.67.1", "ply==3.11",
+            "babel==2.17.0", "psutil==7.2.1"]'
 django_packages:
     django_42:
         count: 22
-        list: '["django-waffle", "pytest-django", "django-cors-headers", "edx-opaque-keys",
-            "djangorestframework", "edx-i18n-tools", "code-annotations", "django-debug-toolbar",
-            "factory-boy", "edx-django-release-util", "edx-django-utils", "edx-rest-api-client",
-            "edx-rbac", "social-auth-app-django", "django-celery-results", "edx-auth-backends",
-            "pylint-django", "edx-celeryutils", "edx-drf-extensions", "django-config-models",
-            "django-extensions", "edx-toggles"]'
+        list: '["edx-rbac", "edx-i18n-tools", "django-debug-toolbar", "edx-celeryutils",
+            "edx-toggles", "edx-django-release-util", "djangorestframework", "code-annotations",
+            "django-waffle", "django-celery-results", "django-extensions", "django-cors-headers",
+            "edx-auth-backends", "edx-django-utils", "edx-opaque-keys", "edx-rest-api-client",
+            "pytest-django", "factory-boy", "pylint-django", "social-auth-app-django",
+            "edx-drf-extensions", "django-config-models"]'
     total:
         count: 30
-        list: '["drf-jwt", "django-waffle", "pytest-django", "django-crum", "djangorestframework-xml",
-            "jsonfield", "django-cors-headers", "edx-opaque-keys", "djangorestframework",
-            "edx-i18n-tools", "code-annotations", "django-debug-toolbar", "factory-boy",
-            "edx-django-release-util", "django-simple-history", "edx-django-utils",
-            "django-model-utils", "edx-rest-api-client", "edx-rbac", "social-auth-app-django",
-            "django-celery-results", "edx-auth-backends", "pylint-django", "edx-celeryutils",
-            "edx-drf-extensions", "django-dynamic-fixture", "django-config-models",
-            "rules", "django-extensions", "edx-toggles"]'
+        list: '["djangorestframework-xml", "edx-rbac", "edx-i18n-tools", "django-debug-toolbar",
+            "django-crum", "edx-celeryutils", "edx-toggles", "jsonfield", "edx-django-release-util",
+            "djangorestframework", "code-annotations", "django-waffle", "django-celery-results",
+            "drf-jwt", "django-extensions", "django-cors-headers", "edx-auth-backends",
+            "edx-django-utils", "edx-opaque-keys", "edx-rest-api-client", "pytest-django",
+            "django-dynamic-fixture", "django-simple-history", "django-model-utils",
+            "rules", "factory-boy", "pylint-django", "social-auth-app-django", "edx-drf-extensions",
+            "django-config-models"]'
     upgraded:
         count: 18
-        list: '["django-config-models", "django-debug-toolbar", "edx-rest-api-client",
-            "django-waffle", "edx-django-release-util", "django-extensions", "django-celery-results",
-            "edx-django-utils", "edx-auth-backends", "edx-toggles", "django-cors-headers",
-            "edx-opaque-keys", "edx-celeryutils", "edx-drf-extensions", "edx-i18n-tools",
-            "code-annotations", "edx-rbac", "social-auth-app-django"]'
+        list: '["edx-rest-api-client", "django-extensions", "django-cors-headers",
+            "edx-toggles", "edx-rbac", "edx-django-release-util", "edx-i18n-tools",
+            "django-debug-toolbar", "edx-auth-backends", "edx-celeryutils", "code-annotations",
+            "edx-django-utils", "social-auth-app-django", "edx-opaque-keys", "edx-drf-extensions",
+            "django-waffle", "django-config-models", "django-celery-results"]'
 docs:
     build_badge: false
     python_version: null
@@ -165,21 +166,21 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 83
-    build_details: '{"total_duration": "125 minutes 1 seconds", "checks": [{"name":
-        "build (3.12, django52)", "duration": "5 minutes 14 seconds"}, {"name": "check
-        migration for MySql8 (ubuntu-latest, 3.12)", "duration": "1 minutes 5 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        51 seconds"}]}'
+    branch_count: 82
+    build_details: '{"total_duration": "1696 minutes 30 seconds", "checks": [{"name":
+        "build (3.12, django52)", "duration": "6 minutes 1 seconds"}, {"name": "check
+        migration for MySql8 (ubuntu-latest, 3.12)", "duration": "1 minutes 10 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
+        50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 6
+    contributor_count_90d: 5
     created_at: 2019-12-10 15:58:48
     default_branch: master
     description: A Django-based microservice for handling Enterprise catalogs, associating
         enterprise customers with curated courses from the full course catalog.
-    disk_usage_kb: 48638
+    disk_usage_kb: 48641
     fork_count: 28
     has_issues: true
     has_wiki: false
@@ -188,11 +189,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-11 11:31:01
+    last_push: 2026-08-17 12:46:07
     license: GNU AGPLv3
-    median_pr_response_seconds: 259800
-    pr_closure_ratio_90d: 0.7143
-    pulls_count: 18
+    median_pr_response_seconds: 757671
+    pr_closure_ratio_90d: 0.8333
+    pulls_count: 17
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -222,6 +223,7 @@ pinned_python_dependencies: 9
 readme:
     bad_links:
     - 'https://travis-ci.com/edx/enterprise-catalog: 404'
+    - 'https://openedx.slack.com/messages/general/: 403'
     getting-help: false
     good_links:
     - https://travis-ci.com/edx/enterprise-catalog.svg?branch=master
@@ -229,7 +231,6 @@ readme:
     - http://codecov.io/github/edx/enterprise-catalog?branch=master
     - https://github.com/openedx/enterprise-catalog/blob/master/LICENSE
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
-    - https://openedx.slack.com/messages/general/
     - https://groups.google.com/forum/
     irc-missing: true
     mailing-list-missing: false

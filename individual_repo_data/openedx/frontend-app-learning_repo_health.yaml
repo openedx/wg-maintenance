@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -80,7 +80,7 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 104
+    branch_count: 106
     build_details: '{"total_duration": "690 minutes 35 seconds", "checks": [{"name":
         "tests", "duration": "4 minutes 36 seconds"}, {"name": "coverage", "duration":
         "0 minutes 12 seconds"}, {"name": "version-check / version-check", "duration":
@@ -99,8 +99,8 @@ github:
     default_branch: master
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 21264
-    fork_count: 332
+    disk_usage_kb: 21279
+    fork_count: 335
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -108,11 +108,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-15 20:53:36
+    last_push: 2026-08-19 20:43:17
     license: GNU AGPLv3
-    median_pr_response_seconds: 319
-    pr_closure_ratio_90d: 0.5312
-    pulls_count: 60
+    median_pr_response_seconds: 320
+    pr_closure_ratio_90d: 0.5075
+    pulls_count: 63
     release_count_12mo: 5
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-16
+TIMESTAMP: 2026-08-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,14 +63,14 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "4213 minutes 2 seconds", "checks": [{"name":
-        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 51 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        50 seconds"}]}'
+    build_details: '{"total_duration": "7984 minutes 8 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 34 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2023-05-31 16:33:08
@@ -118,6 +118,8 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.slack.com/archives/CGE253B7V: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/openedx-tutor-plugins:
         404'
     getting-help: true
@@ -130,8 +132,6 @@ readme:
     - https://discuss.openedx.org
     - https://github.com/openedx/openedx-tutor-plugins/issues
     - https://openedx.org/slack
-    - https://openedx.slack.com/
-    - https://openedx.slack.com/archives/CGE253B7V
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
