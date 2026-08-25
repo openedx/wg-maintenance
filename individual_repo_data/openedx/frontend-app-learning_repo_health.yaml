@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -80,26 +80,18 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 106
-    build_details: '{"total_duration": "690 minutes 35 seconds", "checks": [{"name":
-        "tests", "duration": "4 minutes 36 seconds"}, {"name": "coverage", "duration":
-        "0 minutes 12 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 7 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
-        "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 51 seconds"}]}'
+    branch_count: 100
+    build_details: '{"total_duration": "5 minutes 2 seconds", "checks": [{"name":
+        "tests", "duration": "4 minutes 48 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 11 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2019-04-30 20:28:43
     default_branch: master
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 21279
+    disk_usage_kb: 21318
     fork_count: 335
     has_issues: true
     has_wiki: false
@@ -108,18 +100,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-19 20:43:17
+    last_push: 2026-08-24 23:01:23
     license: GNU AGPLv3
-    median_pr_response_seconds: 320
-    pr_closure_ratio_90d: 0.5075
-    pulls_count: 63
+    median_pr_response_seconds: 323
+    pr_closure_ratio_90d: 0.6
+    pulls_count: 58
     release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 128
     dockerfile: 0
     html: 752
-    javascript: 1268086
+    javascript: 1249167
     makefile: 2076
     python: 0
     shell: 0

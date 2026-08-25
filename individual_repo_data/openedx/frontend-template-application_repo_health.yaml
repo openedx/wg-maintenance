@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -75,17 +75,21 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 57
-    build_details: '{"total_duration": "114 minutes 8 seconds", "checks": [{"name":
-        "test", "duration": "2 minutes 0 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 35 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 6 seconds"}]}'
+    build_details: '{"total_duration": "10194 minutes 37 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 0 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 3 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 35 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 35 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 6 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2018-02-27 18:34:11
     default_branch: master
     description: "A template repository for creating Open edX frontend applications.\
         \ \U0001F4BF\u27A1\uFE0F\U0001F4C0"
-    disk_usage_kb: 19364
+    disk_usage_kb: 17531
     fork_count: 66
     has_issues: true
     has_wiki: false
@@ -94,7 +98,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-17 12:56:07
+    last_push: 2026-08-24 00:04:30
     license: GNU AGPLv3
     median_pr_response_seconds: 141
     pr_closure_ratio_90d: 0.2308
@@ -127,12 +131,8 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application:
         404'
     - 'https://github.com/openedx/frontend-template-application/blob/main/LICENSE:
@@ -149,6 +149,10 @@ readme:
     - https://github.com/openedx/frontend-platform/blob/master/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-template-application/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-template-application.svg
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml/badge.svg

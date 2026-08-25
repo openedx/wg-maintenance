@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,18 +63,20 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "1207 minutes 45 seconds", "checks": [{"name":
-        "update-uv-graph", "duration": "0 minutes 36 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 35 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    build_details: '{"total_duration": "326 minutes 34 seconds", "checks": [{"name":
+        "update-uv-graph", "duration": "0 minutes 38 seconds"}, {"name": "routeissue
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 53 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2023-01-05 19:08:37
     default_branch: main
     description: Aspects - Analytics for Open edX
-    disk_usage_kb: 6265
+    disk_usage_kb: 6287
     fork_count: 12
     has_issues: true
     has_wiki: false
@@ -83,9 +85,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-17 19:54:42
+    last_push: 2026-08-24 15:17:15
     license: Apache License 2.0
-    median_pr_response_seconds: 58672
+    median_pr_response_seconds: 56644
     pr_closure_ratio_90d: 1.0
     pulls_count: 1
     release_count_12mo: 5
