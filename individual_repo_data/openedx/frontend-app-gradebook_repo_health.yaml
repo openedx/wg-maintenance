@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -97,7 +97,7 @@ github:
     default_branch: master
     description: Instructor grade book tool
     disk_usage_kb: 10937
-    fork_count: 120
+    fork_count: 121
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -144,12 +144,8 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/community/connect: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://travis-ci.com/edx/frontend-app-gradebook: 404'
     getting-help: false
     good_links:
@@ -160,8 +156,12 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework
     - https://webpack.js.org/
     - https://github.com/edx-unsupported/frontend-auth
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-gradebook/issues
+    - https://openedx.org/slack
+    - https://openedx.org/community/connect
+    - https://openedx.org/code-of-conduct/
     - https://api.travis-ci.com/edx/frontend-app-gradebook.svg?branch=master
     - https://img.shields.io/codecov/c/gh/openedx/frontend-app-gradebook
     - https://app.codecov.io/gh/openedx/frontend-app-gradebook

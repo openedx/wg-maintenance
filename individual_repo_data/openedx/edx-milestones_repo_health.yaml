@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,33 +22,33 @@ dependencies:
         list: ''
     pypi:
         count: 11
-        list: '["typing-extensions==4.15.0", "six==1.17.0", "sqlparse==0.5.5", "pymongo==4.16.0",
-            "setuptools==82.0.0", "asgiref==3.11.1", "dnspython==2.8.0", "django-model-utils==5.0.0",
-            "django==5.2.12", "stevedore==5.7.0", "edx-opaque-keys==3.1.0"]'
+        list: '["edx-opaque-keys==3.1.0", "stevedore==5.7.0", "pymongo==4.16.0", "typing-extensions==4.15.0",
+            "django-model-utils==5.0.0", "dnspython==2.8.0", "six==1.17.0", "setuptools==82.0.0",
+            "django==5.2.12", "sqlparse==0.5.5", "asgiref==3.11.1"]'
     pypi_all:
         count: 55
-        list: '["pluggy==1.6.0", "isort==8.0.1", "wheel==0.46.3", "virtualenv==21.1.0",
-            "sqlparse==0.5.5", "pylint-django==2.7.0", "pytest-django==4.12.0", "django-model-utils==5.0.0",
-            "pyyaml==6.0.3", "cachetools==7.0.3", "colorama==0.4.6", "astroid==4.0.4",
-            "mccabe==0.7.0", "pip==26.0.1", "typing-extensions==4.15.0", "pylint-plugin-utils==0.9.0",
-            "six==1.17.0", "packaging==26.0", "setuptools==82.0.0", "snowballstemmer==3.0.1",
-            "asgiref==3.11.1", "dnspython==2.8.0", "stevedore==5.7.0", "tox==4.49.0",
-            "edx-opaque-keys==3.1.0", "code-annotations==2.3.2", "coverage[toml]==7.13.4",
-            "pydocstyle==6.3.0", "tomlkit==0.14.0", "filelock==3.25.0", "pymongo==4.16.0",
-            "pytest==9.0.2", "distlib==0.4.0", "python-discovery==1.1.0", "pyproject-hooks==1.2.0",
-            "pycodestyle==2.14.0", "click-log==0.4.0", "python-slugify==8.0.4", "jinja2==3.1.6",
-            "pylint-celery==0.3", "pytest-cov==7.0.0", "click==8.3.1", "text-unidecode==1.3",
-            "build==1.4.0", "pyproject-api==1.10.0", "pip-tools==7.5.3", "tomli-w==1.2.0",
-            "iniconfig==2.3.0", "dill==0.4.1", "edx-lint==5.6.0", "markupsafe==3.0.3",
-            "django==5.2.12", "pylint==4.0.5", "platformdirs==4.9.4", "pygments==2.19.2"]'
+        list: '["stevedore==5.7.0", "typing-extensions==4.15.0", "dill==0.4.1", "pytest-cov==7.0.0",
+            "django-model-utils==5.0.0", "iniconfig==2.3.0", "click==8.3.1", "setuptools==82.0.0",
+            "django==5.2.12", "pygments==2.19.2", "tomlkit==0.14.0", "mccabe==0.7.0",
+            "jinja2==3.1.6", "pydocstyle==6.3.0", "pylint-plugin-utils==0.9.0", "pip-tools==7.5.3",
+            "pymongo==4.16.0", "virtualenv==21.1.0", "edx-lint==5.6.0", "text-unidecode==1.3",
+            "pytest==9.0.2", "pyproject-hooks==1.2.0", "packaging==26.0", "click-log==0.4.0",
+            "tomli-w==1.2.0", "sqlparse==0.5.5", "markupsafe==3.0.3", "wheel==0.46.3",
+            "pluggy==1.6.0", "asgiref==3.11.1", "pyyaml==6.0.3", "pylint-django==2.7.0",
+            "pip==26.0.1", "cachetools==7.0.3", "edx-opaque-keys==3.1.0", "colorama==0.4.6",
+            "six==1.17.0", "pylint-celery==0.3", "coverage[toml]==7.13.4", "filelock==3.25.0",
+            "pylint==4.0.5", "snowballstemmer==3.0.1", "python-discovery==1.1.0",
+            "platformdirs==4.9.4", "pycodestyle==2.14.0", "distlib==0.4.0", "dnspython==2.8.0",
+            "astroid==4.0.4", "pytest-django==4.12.0", "build==1.4.0", "pyproject-api==1.10.0",
+            "tox==4.49.0", "code-annotations==2.3.2", "isort==8.0.1", "python-slugify==8.0.4"]'
 django_packages:
     django_42:
         count: 4
-        list: '["code-annotations", "pylint-django", "edx-opaque-keys", "pytest-django"]'
+        list: '["code-annotations", "pytest-django", "pylint-django", "edx-opaque-keys"]'
     total:
         count: 5
-        list: '["edx-opaque-keys", "code-annotations", "django-model-utils", "pylint-django",
-            "pytest-django"]'
+        list: '["pytest-django", "edx-opaque-keys", "pylint-django", "code-annotations",
+            "django-model-utils"]'
     upgraded:
         count: 2
         list: '["code-annotations", "edx-opaque-keys"]'
@@ -79,11 +79,12 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "672 minutes 47 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "10752 minutes 47 seconds", "checks": [{"name":
         "Tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 54 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 41
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 39 seconds"}, {"name":
-        "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 33 seconds"}]}'
+        {"name": "Dependabot", "duration": "0 minutes 42 seconds"}, {"name": "Tests
+        (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 41 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 39 seconds"}, {"name": "Tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 33 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2014-11-24 16:56:50
@@ -132,6 +133,8 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://coveralls.io/r/edx/edx-milestones?branch=master: 403'
+    - 'https://github.com/openedx/edx-platform/blob/master/requirements/edx/base.in:
+        404'
     - 'https://openedx.org/slack: 403'
     - 'http://openedx.slack.com/: 403'
     - 'https://openedx.org/getting-help: 403'
@@ -140,7 +143,6 @@ readme:
     - https://github.com/openedx/edx-milestones/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/edx-milestones/actions?query=workflow%3A%22Python+CI%22
     - https://img.shields.io/coveralls/edx/edx-milestones.svg
-    - https://github.com/openedx/edx-platform/blob/master/requirements/edx/base.in
     - https://github.com/openedx/edx-platform/
     - https://docs.openedx.org/en/latest/site_ops/install_configure_run_guide/configuration/enable_prerequisites.html
     - https://docs.openedx.org/en/latest/educators/references/controlling_content_visibility.html

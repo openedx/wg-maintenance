@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -151,7 +151,7 @@ readme:
         associated with hostname)"))'
     - 'https://openedx.github.io/frontend-platform/module-Config.html: 404'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-app-profile

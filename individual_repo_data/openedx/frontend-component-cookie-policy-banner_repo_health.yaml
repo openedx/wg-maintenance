@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -143,7 +143,6 @@ readme:
     - 'https://github.com/openedx/frontend-component-cookie-policy-banner.svg/blob/master/LICENSE:
         404'
     - 'https://imgur.com/mZct2v5.png: 429'
-    - 'https://open.edx.org/code-of-conduct/: 403'
     getting-help: false
     good_links:
     - https://badges.greenkeeper.io/edx/frontend-component-cookie-policy-banner.svg
@@ -154,6 +153,7 @@ readme:
     - https://github.com/semantic-release/semantic-release
     - https://github.com/openedx/frontend-component-cookie-policy-banner
     - https://github.com/storybooks/storybook
+    - https://open.edx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

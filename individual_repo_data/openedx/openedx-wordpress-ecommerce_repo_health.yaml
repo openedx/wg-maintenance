@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -25,19 +25,20 @@ dependencies:
         list: '[]'
     pypi_all:
         count: 46
-        list: '["build==1.4.2", "sphinx-book-theme==1.2.0", "sphinxcontrib-jsmath==1.0.1",
-            "urllib3==2.6.3", "wheel==0.46.3", "beautifulsoup4==4.14.3", "accessible-pygments==0.0.5",
-            "uvicorn==0.44.0", "alabaster==1.0.0", "idna==3.11", "sphinxcontrib-serializinghtml==2.0.0",
-            "anyio==4.13.0", "watchfiles==1.1.1", "typing-extensions==4.15.0", "click==8.3.2",
-            "h11==0.16.0", "pip==26.0.1", "pyyaml==6.0.3", "pip-tools==7.5.3", "imagesize==2.0.0",
-            "packaging==26.0", "sphinx-autobuild==2025.8.25", "websockets==16.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "sphinxcontrib-qthelp==2.0.0", "requests==2.33.1",
-            "babel==2.18.0", "sphinxcontrib-devhelp==2.0.0", "roman-numerals==4.1.0",
-            "pygments==2.20.0", "snowballstemmer==3.0.1", "jinja2==3.1.6", "setuptools==82.0.1",
-            "pydata-sphinx-theme==0.16.1", "charset-normalizer==3.4.7", "soupsieve==2.8.3",
-            "sphinx-copybutton==0.5.2", "starlette==1.0.0", "markupsafe==3.0.3", "sphinxcontrib-mermaid==2.0.1",
-            "certifi==2026.2.25", "sphinx==9.1.0", "pyproject-hooks==1.2.0", "docutils==0.22.4",
-            "sphinxcontrib-applehelp==2.0.0", "colorama==0.4.6"]'
+        list: '["imagesize==2.0.0", "requests==2.33.1", "sphinxcontrib-applehelp==2.0.0",
+            "pip-tools==7.5.3", "colorama==0.4.6", "roman-numerals==4.1.0", "idna==3.11",
+            "h11==0.16.0", "jinja2==3.1.6", "sphinxcontrib-mermaid==2.0.1", "urllib3==2.6.3",
+            "sphinx-autobuild==2025.8.25", "build==1.4.2", "charset-normalizer==3.4.7",
+            "alabaster==1.0.0", "beautifulsoup4==4.14.3", "pygments==2.20.0", "pyyaml==6.0.3",
+            "babel==2.18.0", "accessible-pygments==0.0.5", "typing-extensions==4.15.0",
+            "sphinxcontrib-htmlhelp==2.1.0", "docutils==0.22.4", "sphinx-book-theme==1.2.0",
+            "sphinxcontrib-jsmath==1.0.1", "pyproject-hooks==1.2.0", "certifi==2026.2.25",
+            "sphinx-copybutton==0.5.2", "wheel==0.46.3", "snowballstemmer==3.0.1",
+            "setuptools==82.0.1", "sphinxcontrib-devhelp==2.0.0", "uvicorn==0.44.0",
+            "sphinxcontrib-qthelp==2.0.0", "packaging==26.0", "pydata-sphinx-theme==0.16.1",
+            "watchfiles==1.1.1", "sphinxcontrib-serializinghtml==2.0.0", "sphinx==9.1.0",
+            "starlette==1.0.0", "pip==26.0.1", "soupsieve==2.8.3", "websockets==16.0",
+            "markupsafe==3.0.3", "click==8.3.2", "anyio==4.13.0"]'
 django_packages:
     django_42:
         count: 0
@@ -75,13 +76,14 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 14
-    build_details: '{"total_duration": "10354 minutes 35 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "20434 minutes 17 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 42 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 39 seconds"}, {"name": "build-test", "duration": "0
-        minutes 11 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 53 seconds"}]}'
+        "duration": "0 minutes 39 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 36 seconds"}, {"name": "build-test", "duration": "0 minutes 11 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
+        minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2023-06-05 21:25:23

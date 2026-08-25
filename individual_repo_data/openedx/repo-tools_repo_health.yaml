@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,16 +63,14 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 54
-    build_details: '{"total_duration": "3824 minutes 54 seconds", "checks": [{"name":
-        "build (ubuntu-latest, 3.12)", "duration": "0 minutes 27 seconds"}, {"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 24 seconds"}]}'
+    build_details: '{"total_duration": "0 minutes 30 seconds", "checks": [{"name":
+        "build (ubuntu-latest, 3.12)", "duration": "0 minutes 30 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2013-10-16 22:30:05
     default_branch: master
     description: Tools for repo maintenance, etc.
-    disk_usage_kb: 1962
+    disk_usage_kb: 1966
     fork_count: 46
     has_issues: true
     has_wiki: false
@@ -81,10 +79,10 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-17 12:25:48
+    last_push: 2026-08-24 14:13:28
     license: Apache License 2.0
     median_pr_response_seconds: 292907
-    pr_closure_ratio_90d: 0.8333
+    pr_closure_ratio_90d: 0.8205
     pulls_count: 21
     release_count_12mo: 7
 github_actions: true

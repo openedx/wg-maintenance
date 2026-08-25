@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-20
+TIMESTAMP: 2026-08-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -63,7 +63,7 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "17903 minutes 21 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "27983 minutes 39 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 27 seconds"}, {"name": "publish_to_npm",
         "duration": "1 minutes 3 seconds"}, {"name": "update-uv-graph", "duration":
         "0 minutes 34 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
@@ -73,7 +73,8 @@ github:
         "0 minutes 30 seconds"}, {"name": "run_backend_tests / tests (ubuntu-latest,
         3.12, quality)", "duration": "0 minutes 28 seconds"}, {"name": "publish_tutor_plugin_to_pypi",
         "duration": "0 minutes 20 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 19 seconds"}, {"name": "run_backend_tests
+        / upgrade_requirements", "duration": "0 minutes 19 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 18 seconds"}, {"name": "run_backend_tests
         / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes 15 seconds"},
         {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
         "duration": "0 minutes 14 seconds"}, {"name": "publish_to_pypi", "duration":
