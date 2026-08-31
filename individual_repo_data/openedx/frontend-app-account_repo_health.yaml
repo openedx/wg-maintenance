@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -86,24 +86,13 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 76
-    build_details: '{"total_duration": "9042 minutes 10 seconds", "checks": [{"name":
-        "tests (test)", "duration": "2 minutes 37 seconds"}, {"name": "tests (lint)",
-        "duration": "1 minutes 54 seconds"}, {"name": "tests (i18n_extract)", "duration":
-        "1 minutes 21 seconds"}, {"name": "update-browserslist / update-dep", "duration":
-        "1 minutes 2 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 3 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}]}'
+    build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2019-04-23 15:40:26
     default_branch: master
     description: Open edX micro-frontend application for managing user account information.
-    disk_usage_kb: 21214
+    disk_usage_kb: 21213
     fork_count: 185
     has_issues: true
     has_wiki: false
@@ -112,11 +101,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-10 17:39:58
+    last_push: 2026-08-31 00:58:55
     license: GNU AGPLv3
-    median_pr_response_seconds: 5
-    pr_closure_ratio_90d: 0.625
-    pulls_count: 25
+    median_pr_response_seconds: 6
+    pr_closure_ratio_90d: 0.5789
+    pulls_count: 27
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -151,7 +140,7 @@ readme:
         associated with hostname)"))'
     - 'https://openedx.github.io/frontend-platform/module-Config.html: 404'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-app-profile

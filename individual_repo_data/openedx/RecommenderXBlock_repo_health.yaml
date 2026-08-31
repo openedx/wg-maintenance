@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,10 +62,13 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: false
-    branch_count: 25
-    build_details: '{"total_duration": "6671 minutes 4 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 55 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 54 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+    branch_count: 27
+    build_details: '{"total_duration": "16750 minutes 48 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 2 seconds"}, {"name": "release", "duration":
+        "0 minutes 55 seconds"}, {"name": "Dependabot", "duration": "0 minutes 54
+        seconds"}, {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
+        "duration": "0 minutes 44 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 44 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 34 seconds"}, {"name": "run_tests
         / quality (3.12)", "duration": "0 minutes 12 seconds"}, {"name": "publish_to_pypi",
         "duration": "0 minutes 0 seconds"}]}'
@@ -75,7 +78,7 @@ github:
     default_branch: master
     description: 'edX: An XBlock to recommend resources to other students, written
         by Daniel Li, under my supervision'
-    disk_usage_kb: 1496
+    disk_usage_kb: 1522
     fork_count: 15
     has_issues: true
     has_wiki: false
@@ -84,11 +87,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-19 10:12:22
+    last_push: 2026-08-31 01:23:15
     license: GNU AGPLv3
-    median_pr_response_seconds: 666745
-    pr_closure_ratio_90d: 1.0
-    pulls_count: 0
+    median_pr_response_seconds: 661580
+    pr_closure_ratio_90d: 0.8333
+    pulls_count: 2
     release_count_12mo: 3
 github_actions: true
 language_bytes:

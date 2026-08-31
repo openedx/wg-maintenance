@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -74,7 +74,7 @@ github:
         "1 minutes 57 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 0
     created_at: 2017-06-23 20:12:07
     default_branch: master
     description: Bootstrap theme for Open edX
@@ -87,7 +87,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-11 23:41:11
+    last_push: 2026-08-28 17:40:35
     license: Apache License 2.0
     pulls_count: 8
     release_count_12mo: 1

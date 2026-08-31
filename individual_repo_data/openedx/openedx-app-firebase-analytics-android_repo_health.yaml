@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -65,7 +65,7 @@ github:
     branch_count: 3
     build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 0
     created_at: 2024-10-11 09:09:27
     default_branch: main
     description: ''

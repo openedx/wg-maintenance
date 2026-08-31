@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,35 +7,28 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 41
+    count: 26
     github:
         count: 0
         list: ''
     js:
-        count: 30
-        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.3", "@edx/frontend-platform":
-            "^8.7.0", "@edx/openedx-atlas": "^0.6.0", "@fortawesome/fontawesome-svg-core":
-            "6.7.2", "@fortawesome/free-brands-svg-icons": "6.7.2", "@fortawesome/free-solid-svg-icons":
-            "6.7.2", "@fortawesome/react-fontawesome": "0.2.6", "@openedx/frontend-plugin-framework":
-            "^1.7.0", "@openedx/paragon": "^23.4.2", "@optimizely/react-sdk": "^2.9.1",
-            "@tanstack/react-query": "^5.90.19", "@testing-library/react": "^16.2.0",
-            "algoliasearch": "^4.14.3", "algoliasearch-helper": "^3.26.0", "classnames":
-            "2.5.1", "core-js": "3.43.0", "fastest-levenshtein": "1.0.16", "form-urlencoded":
-            "6.1.6", "prop-types": "15.8.1", "query-string": "7.1.3", "react": "^18.3.1",
-            "react-dom": "^18.3.1", "react-helmet": "6.1.0", "react-loading-skeleton":
-            "3.5.0", "react-responsive": "8.2.0", "react-router": "6.30.3", "react-router-dom":
-            "6.30.3", "react-zendesk": "^0.1.13", "regenerator-runtime": "0.14.1",
-            "universal-cookie": "7.2.2"}'
+        count: 15
+        list: '{"@edx/openedx-atlas": "^0.7.0", "@fortawesome/fontawesome-svg-core":
+            "^6.7.2", "@fortawesome/free-brands-svg-icons": "^6.7.2", "@fortawesome/free-solid-svg-icons":
+            "^6.7.2", "@fortawesome/react-fontawesome": "^0.2.2", "classnames": "^2.5.1",
+            "fastest-levenshtein": "^1.0.16", "form-urlencoded": "^6.1.5", "i18n-iso-countries":
+            "^7.13.0", "prop-types": "^15.8.1", "query-string": "^7.1.3", "react-helmet":
+            "^6.1.0", "react-loading-skeleton": "^3.5.0", "react-responsive": "^8.2.0",
+            "universal-cookie": "^8.0.1"}'
     js.all:
         count: 0
         list: '{}'
     js.dev:
         count: 11
-        list: '{"@edx/browserslist-config": "^1.1.1", "@edx/typescript-config": "^1.1.0",
-            "@openedx/frontend-build": "^14.6.6", "@testing-library/jest-dom": "^6.9.1",
-            "babel-plugin-formatjs": "10.5.41", "eslint-plugin-import": "2.32.0",
-            "glob": "7.2.3", "history": "5.3.0", "jest": "30.3.0", "react-test-renderer":
-            "^18.3.1", "ts-jest": "^29.4.0"}'
+        list: '{"@edx/browserslist-config": "^1.5.0", "@testing-library/react": "^16.3.0",
+            "@types/jest": "^29.5.14", "babel-plugin-formatjs": "10.5.38", "eslint-plugin-import":
+            "2.31.0", "jest": "^29.7.0", "nodemon": "^3.1.14", "react-test-renderer":
+            "^18.3.1", "ts-jest": "^29.4.0", "tsc-alias": "^1.8.16", "turbo": "^2.8.16"}'
     pypi:
         count: 0
         list: ''
@@ -78,23 +71,19 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 44
-    build_details: '{"total_duration": "19091 minutes 44 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 44 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 35 seconds"}, {"name": "Dependabot", "duration": "0 minutes 35
-        seconds"}, {"name": "autoupdate", "duration": "0 minutes 17 seconds"}, {"name":
-        "version-check / version-check", "duration": "0 minutes 3 seconds"}, {"name":
-        "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "-1 minutes 54 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 41
+    build_details: '{"total_duration": "701 minutes 5 seconds", "checks": [{"name":
+        "tests", "duration": "1 minutes 27 seconds"}, {"name": "Release", "duration":
+        "0 minutes 46 seconds"}, {"name": "Dependabot", "duration": "0 minutes 29
+        seconds"}, {"name": "autoupdate", "duration": "0 minutes 16 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 5
     created_at: 2020-09-28 13:08:13
     default_branch: master
     description: Open edX micro-frontend application for new login and registration
         experience.
-    disk_usage_kb: 18071
+    disk_usage_kb: 18195
     fork_count: 262
     has_issues: true
     has_wiki: false
@@ -103,19 +92,19 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-10 21:12:54
+    last_push: 2026-08-31 03:01:57
     license: GNU AGPLv3
-    median_pr_response_seconds: 164
+    median_pr_response_seconds: 150
     pr_closure_ratio_90d: 1.0
-    pulls_count: 13
-    release_count_12mo: 15
+    pulls_count: 8
+    release_count_12mo: 17
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
-    html: 1165
-    javascript: 555109
-    makefile: 1657
+    html: 268
+    javascript: 497436
+    makefile: 1936
     python: 0
     shell: 0
 makefile:
@@ -127,7 +116,7 @@ makefile:
     test-js: false
     test-python: false
     upgrade: false
-npm_package: '@edx/frontend-app-authn'
+npm_package: ''
 org_name: openedx
 ownership:
     owner: ''
@@ -136,33 +125,37 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://support.example.com: HTTPSConnectionPool(host=''support.example.com'',
-        port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''support.example.com'',
-        port=443): Failed to resolve ''support.example.com'' ([Errno -5] No address
-        associated with hostname)"))'
+    - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
+        port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
+        port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://travis-ci.com/edx/frontend-app-authn: 404'
-    getting-help: false
+    getting-help: true
     good_links:
+    - https://github.com/openedx/frontend-base
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
+    - https://github.com/openedx/frontend-app-authn/tree/legacy-mfe
     - https://github.com/overhangio/tutor
-    - https://github.com/overhangio/tutor-mfe?tab=readme-ov-file
-    - https://github.com/edx/frontend-app-authn.git
+    - https://github.com/overhangio/tutor-mfe
+    - https://github.com/openedx/frontend-app-authn.git
     - https://github.com/nvm-sh/nvm
-    - https://docs.openedx.org/en/latest/developers/references/developer_guide/process/index.html
-    - https://github.com/openedx/frontend-app-authn/blob/master/.github/pull_request_template.md
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-authn/issues
     - https://openedx.org/slack
-    - https://openedx.org/community/connect
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
-    - https://backstage.openedx.org/catalog/default/group/2u-infinity
+    - https://backstage.openedx.org/catalog/default/component/frontend-app-authn
+    - https://img.shields.io/github/license/openedx/frontend-app-authn.svg
     - https://github.com/openedx/frontend-app-authn/blob/master/LICENSE
-    - https://api.travis-ci.com/edx/frontend-app-authn.svg?branch=master
-    - https://img.shields.io/codecov/c/github/edx/frontend-app-authn
-    - https://codecov.io/gh/edx/frontend-app-authn
-    - https://github.com/openedx/edx-developer-docs/actions/workflows/ci.yml/badge.svg
-    - https://github.com/openedx/edx-developer-docs/actions/workflows/ci.yml
+    - https://img.shields.io/badge/Status-Maintained-brightgreen
+    - https://github.com/openedx/frontend-app-authn/actions/workflows/ci.yml/badge.svg
+    - https://github.com/openedx/frontend-app-authn/actions/workflows/ci.yml
+    - https://codecov.io/github/openedx/frontend-app-authn/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-app-authn?branch=master
     - https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
     - https://github.com/semantic-release/semantic-release
     irc-missing: true
@@ -175,8 +168,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-03-27'
-    oldest_open_pr_date: '2025-03-14'
-    total_open_prs: 4
+    oldest_open_pr_date: '2025-07-24'
+    total_open_prs: 1
 requires:
     django: false
     pytest: false

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -19,7 +19,7 @@ dependencies:
         list: '{}'
     js.dev:
         count: 11
-        list: '{"@openedx/frontend-base": "^1.0.0 || 0.0.0-dev", "@testing-library/jest-dom":
+        list: '{"@openedx/frontend-base": "^2.0.0-alpha.2 || 0.0.0-dev", "@testing-library/jest-dom":
             "^6.9.1", "@testing-library/react": "^16.3.0", "@types/jest": "^29.5.14",
             "@types/react": "^18", "@types/react-dom": "^18", "jest": "^29", "nodemon":
             "^3.1.14", "react": "^18", "react-dom": "^18", "tsc-alias": "^1.8.16"}'
@@ -65,27 +65,18 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 3
-    build_details: '{"total_duration": "3 minutes 36 seconds", "checks": [{"name":
-        "Release", "duration": "1 minutes 10 seconds"}, {"name": "test", "duration":
-        "1 minutes 2 seconds"}, {"name": "Release", "duration": "0 minutes 43 seconds"},
-        {"name": "version-check / version-check", "duration": "0 minutes 3 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 55 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 52 seconds"}]}'
+    branch_count: 2
+    build_details: '{"total_duration": "1 minutes 2 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 2 seconds"}, {"name": "Release", "duration":
+        "0 minutes 51 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 7 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 2
     created_at: 2026-05-02 22:17:10
     default_branch: main
     description: Compatibility shim that lets legacy frontend-plugin-framework env.config.jsx
         files run on top of @openedx/frontend-base.
-    disk_usage_kb: 276
+    disk_usage_kb: 76
     fork_count: 2
     has_issues: true
     has_wiki: false
@@ -94,12 +85,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-21 21:54:41
+    last_push: 2026-08-28 16:50:38
     license: GNU AGPLv3
     median_pr_response_seconds: 187
-    pr_closure_ratio_90d: 0.5
-    pulls_count: 1
-    release_count_12mo: 4
+    pr_closure_ratio_90d: 1.0
+    pulls_count: 0
+    release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 0
@@ -131,6 +122,8 @@ readme:
     good_links:
     - https://github.com/openedx/frontend-base
     - https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/mfe_config_api/views.py
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
     irc-missing: true
     mailing-list-missing: true
     security: false

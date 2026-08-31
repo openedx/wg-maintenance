@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -79,7 +79,7 @@ github:
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 2
     created_at: 2023-03-13 09:15:29
     default_branch: main
     description: The mobile app for iOS for the Open EdX Platform.
@@ -95,7 +95,7 @@ github:
     last_push: 2026-08-13 15:10:29
     license: Apache License 2.0
     median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.7
+    pr_closure_ratio_90d: 0.6667
     pulls_count: 5
     release_count_12mo: 7
 github_actions: true
