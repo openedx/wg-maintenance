@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -81,7 +81,7 @@ github:
     last_push: 2026-07-30 14:21:49
     license: Apache License 2.0
     pulls_count: 0
-    release_count_12mo: 9
+    release_count_12mo: 4
 github_actions: true
 language_bytes:
     css: 0

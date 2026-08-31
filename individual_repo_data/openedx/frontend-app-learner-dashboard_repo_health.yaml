@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,36 +7,28 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 42
+    count: 26
     github:
         count: 0
         list: ''
     js:
-        count: 28
-        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.3", "@edx/frontend-component-footer":
-            "^14.6.0", "@edx/frontend-component-header": "^8.2.1", "@edx/frontend-enterprise-hotjar":
-            "7.2.0", "@edx/frontend-platform": "^8.7.0", "@edx/openedx-atlas": "^0.7.0",
-            "@fortawesome/fontawesome-svg-core": "^1.2.36", "@fortawesome/free-brands-svg-icons":
-            "^5.15.4", "@fortawesome/free-solid-svg-icons": "^5.15.4", "@fortawesome/react-fontawesome":
-            "^0.2.0", "@openedx/frontend-plugin-framework": "^1.7.0", "@openedx/paragon":
-            "^23.4.5", "@tanstack/react-query": "^5.90.16", "classnames": "^2.3.1",
-            "core-js": "3.49.0", "font-awesome": "4.7.0", "history": "5.3.0", "lodash":
-            "^4.17.21", "moment": "^2.29.4", "prop-types": "15.8.1", "react": "^18.3.1",
-            "react-dom": "^18.3.1", "react-helmet": "^6.1.0", "react-intl": "6.8.9",
-            "react-router-dom": "6.30.3", "react-share": "^5.2.2", "regenerator-runtime":
-            "^0.14.0", "util": "^0.12.4"}'
+        count: 12
+        list: '{"@edx/openedx-atlas": "^0.7.0", "@fortawesome/fontawesome-svg-core":
+            "^1.2.36", "@fortawesome/free-brands-svg-icons": "^5.15.4", "@fortawesome/free-solid-svg-icons":
+            "^5.15.4", "@fortawesome/react-fontawesome": "^0.2.0", "classnames": "^2.3.1",
+            "font-awesome": "4.7.0", "lodash": "^4.17.21", "moment": "^2.29.4", "prop-types":
+            "15.8.1", "react-helmet": "^6.1.0", "react-share": "^5.2.2"}'
     js.all:
         count: 0
         list: '{}'
     js.dev:
         count: 14
-        list: '{"@edx/browserslist-config": "^1.3.0", "@edx/typescript-config": "^1.1.0",
-            "@openedx/frontend-build": "^14.6.6", "@testing-library/jest-dom": "^6.6.3",
-            "@testing-library/react": "^16.2.0", "@testing-library/user-event": "^14.6.1",
-            "copy-webpack-plugin": "^13.0.0", "identity-obj-proxy": "^3.0.0", "jest":
-            "^29.7.0", "jest-environment-jsdom": "^29.7.0", "jest-expect-message":
-            "^1.1.3", "jest-when": "^3.6.0", "react-dev-utils": "^12.0.0", "react-test-renderer":
-            "^18.3.1"}'
+        list: '{"@edx/browserslist-config": "^1.5.0", "@testing-library/jest-dom":
+            "^6.6.3", "@testing-library/react": "^16.3.0", "@testing-library/user-event":
+            "^14.6.1", "@types/jest": "^29.5.14", "identity-obj-proxy": "^3.0.0",
+            "jest": "^29.7.0", "jest-environment-jsdom": "^29.7.0", "jest-expect-message":
+            "^1.1.3", "jest-when": "^3.6.0", "nodemon": "^3.1.14", "react-dev-utils":
+            "^12.0.0", "tsc-alias": "^1.8.16", "turbo": "^2.8.20"}'
     pypi:
         count: 0
         list: ''
@@ -79,24 +71,17 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 23
-    build_details: '{"total_duration": "4260 minutes 36 seconds", "checks": [{"name":
-        "tests", "duration": "3 minutes 0 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 11 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 6 seconds"}, {"name": "routeissue / add_label", "duration": "0
-        minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "0
-        minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1
-        minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 52 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "-1 minutes 50 seconds"}]}'
+    branch_count: 21
+    build_details: '{"total_duration": "1 minutes 59 seconds", "checks": [{"name":
+        "tests", "duration": "1 minutes 59 seconds"}, {"name": "Release", "duration":
+        "0 minutes 55 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 8 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2022-06-03 14:59:36
     default_branch: master
     description: Learner Dashboard MFE
-    disk_usage_kb: 10504
+    disk_usage_kb: 10697
     fork_count: 207
     has_issues: true
     has_wiki: false
@@ -105,19 +90,19 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-23 05:51:41
+    last_push: 2026-08-30 15:43:58
     license: GNU AGPLv3
-    median_pr_response_seconds: 7
-    pr_closure_ratio_90d: 0.875
-    pulls_count: 10
-    release_count_12mo: 18
+    median_pr_response_seconds: 66
+    pr_closure_ratio_90d: 0.8889
+    pulls_count: 6
+    release_count_12mo: 20
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
-    html: 224
-    javascript: 409312
-    makefile: 2330
+    html: 281
+    javascript: 382873
+    makefile: 2164
     python: 0
     shell: 0
 makefile:
@@ -129,7 +114,7 @@ makefile:
     test-js: false
     test-python: false
     upgrade: false
-npm_package: '@edx/frontend-app-learner-dashboard'
+npm_package: ''
 org_name: openedx
 ownership:
     owner: ''
@@ -138,26 +123,43 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
+        port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
+        port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'http://credit.example.com: HTTPConnectionPool(host=''credit.example.com'',
+        port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''credit.example.com'',
+        port=80): Failed to resolve ''credit.example.com'' ([Errno -5] No address
+        associated with hostname)"))'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    getting-help: false
+    getting-help: true
     good_links:
+    - https://github.com/openedx/frontend-base
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
+    - https://github.com/openedx/frontend-app-learner-dashboard/tree/legacy-mfe
+    - https://github.com/overhangio/tutor
+    - https://github.com/overhangio/tutor-mfe
+    - https://github.com/openedx/frontend-app-learner-dashboard.git
+    - https://github.com/nvm-sh/nvm
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
+    - https://discuss.openedx.org
+    - https://github.com/openedx/frontend-app-learner-dashboard/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
+    - https://backstage.openedx.org/catalog/default/component/frontend-app-learner-dashboard
     - https://img.shields.io/github/license/openedx/frontend-app-learner-dashboard.svg
     - https://github.com/openedx/frontend-app-learner-dashboard/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-learner-dashboard/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-learner-dashboard/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-app-learner-dashboard/coverage.svg?branch=master
-    - https://app.codecov.io/github/openedx/frontend-app-learner-dashboard?branch=master
-    - https://github.com/openedx/frontend-plugin-framework
-    - https://docs.openedx.org/en/latest/developers/quickstarts/so_you_want_to_contribute.html
-    - https://openedx.atlassian.net/wiki/spaces/COMM/pages/3875962884/How+to+submit+an+open+source+contribution+for+Product+Review
-    - https://discuss.openedx.org
-    - https://github.com/openedx/frontend-app-learner-dashboard/issues
-    - https://openedx.org/slack
-    - https://openedx.org/community/connect
-    - https://openedx.atlassian.net/wiki/spaces/OEPM/pages/3575906333/Learner+Home
-    - https://openedx.org/code-of-conduct/
+    - https://codecov.io/github/openedx/frontend-app-learner-dashboard?branch=master
+    - https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+    - https://github.com/semantic-release/semantic-release
     irc-missing: true
     mailing-list-missing: true
     security: true
@@ -168,8 +170,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-04-06'
-    oldest_open_pr_date: '2025-02-17'
-    total_open_prs: 4
+    oldest_open_pr_date: '2025-09-29'
+    total_open_prs: 2
 requires:
     django: false
     pytest: false

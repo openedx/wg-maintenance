@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,22 +22,22 @@ dependencies:
         list: ''
     pypi:
         count: 17
-        list: '["appdirs==1.4.4", "typing-extensions==4.15.0", "dnspython==2.8.0",
-            "python-dateutil==2.9.0.post0", "webob==1.8.10", "pytz==2026.2", "pyyaml==6.0.3",
-            "simplejson==4.1.1", "mako==1.3.12", "lxml==6.1.1", "markupsafe==3.0.3",
-            "pymongo==4.17.0", "edx-opaque-keys==4.0.0", "six==1.17.0", "fs==2.4.16",
-            "stevedore==5.8.0", "xblock==6.2.0"]'
+        list: '["python-dateutil==2.9.0.post0", "simplejson==4.1.1", "stevedore==5.8.0",
+            "markupsafe==3.0.3", "fs==2.4.16", "pyyaml==6.0.3", "pymongo==4.17.0",
+            "webob==1.8.10", "xblock==6.2.0", "mako==1.3.12", "six==1.17.0", "dnspython==2.8.0",
+            "appdirs==1.4.4", "lxml==6.1.1", "typing-extensions==4.15.0", "edx-opaque-keys==4.0.0",
+            "pytz==2026.2"]'
     pypi_all:
         count: 35
-        list: '["typing-extensions==4.15.0", "click==8.4.1", "pygments==2.20.0", "flake8==7.3.0",
-            "dnspython==2.8.0", "stevedore==5.8.0", "webob==1.8.10", "pycodestyle==2.14.0",
-            "pyflakes==3.4.0", "iniconfig==2.3.0", "pip-tools==7.5.3", "pytest==9.0.3",
-            "coverage[toml]==7.14.1", "fs==2.4.16", "wheel==0.47.0", "pytest-cov==7.1.0",
-            "mccabe==0.7.0", "simplejson==4.1.1", "markupsafe==3.0.3", "pymongo==4.17.0",
-            "six==1.17.0", "edx-opaque-keys==4.0.0", "xblock==6.2.0", "appdirs==1.4.4",
-            "build==1.5.0", "python-dateutil==2.9.0.post0", "packaging==26.2", "pytz==2026.2",
-            "pyyaml==6.0.3", "mako==1.3.12", "lxml==6.1.1", "pluggy==1.6.0", "pip==26.1.2",
-            "setuptools==82.0.1", "pyproject-hooks==1.2.0"]'
+        list: '["packaging==26.2", "wheel==0.47.0", "pyyaml==6.0.3", "xblock==6.2.0",
+            "setuptools==82.0.1", "iniconfig==2.3.0", "edx-opaque-keys==4.0.0", "pytz==2026.2",
+            "python-dateutil==2.9.0.post0", "pip==26.1.2", "simplejson==4.1.1", "stevedore==5.8.0",
+            "fs==2.4.16", "webob==1.8.10", "pluggy==1.6.0", "dnspython==2.8.0", "appdirs==1.4.4",
+            "typing-extensions==4.15.0", "pytest==9.0.3", "build==1.5.0", "pip-tools==7.5.3",
+            "markupsafe==3.0.3", "pytest-cov==7.1.0", "coverage[toml]==7.14.1", "pymongo==4.17.0",
+            "pycodestyle==2.14.0", "six==1.17.0", "pygments==2.20.0", "flake8==7.3.0",
+            "mccabe==0.7.0", "mako==1.3.12", "pyflakes==3.4.0", "lxml==6.1.1", "pyproject-hooks==1.2.0",
+            "click==8.4.1"]'
 django_packages:
     django_42:
         count: 2
@@ -94,7 +94,7 @@ github:
     created_at: 2019-03-08 19:22:50
     default_branch: master
     description: Crowdsource hinter xblock
-    disk_usage_kb: 62907
+    disk_usage_kb: 62908
     fork_count: 12
     has_issues: true
     has_wiki: false
@@ -103,10 +103,10 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-24 00:18:09
+    last_push: 2026-08-31 00:45:21
     license: GNU AGPLv3
     median_pr_response_seconds: 897741
-    pr_closure_ratio_90d: 0.8235
+    pr_closure_ratio_90d: 0.7778
     pulls_count: 9
     release_count_12mo: 2
 github_actions: true

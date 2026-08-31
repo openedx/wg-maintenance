@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -77,22 +77,17 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 17
-    build_details: '{"total_duration": "13180 minutes 45 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 24 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "1 minutes 8 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 41 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 3 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 49 seconds"}]}'
+    build_details: '{"total_duration": "55 minutes 54 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 32 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2021-07-19 19:30:14
     default_branch: master
     description: Open edX micro-frontend application for viewing learner records
-    disk_usage_kb: 8727
+    disk_usage_kb: 8951
     fork_count: 26
     has_issues: true
     has_wiki: false
@@ -101,10 +96,10 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-10 17:18:02
+    last_push: 2026-08-31 00:49:06
     license: GNU AGPLv3
-    median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.5714
+    median_pr_response_seconds: 5
+    pr_closure_ratio_90d: 0.625
     pulls_count: 7
     release_count_12mo: 5
 github_actions: true

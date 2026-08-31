@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,18 +63,20 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 10
-    build_details: '{"total_duration": "7454 minutes 8 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "8641 minutes 17 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 24 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 34 seconds"}, {"name": "Get list of PRs", "duration":
         "0 minutes 10 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes
         10 seconds"}, {"name": "Get list of PRs", "duration": "0 minutes 10 seconds"},
         {"name": "Get list of PRs", "duration": "0 minutes 9 seconds"}, {"name": "Get
         list of PRs", "duration": "0 minutes 8 seconds"}, {"name": "Get list of PRs",
-        "duration": "0 minutes 8 seconds"}, {"name": "merge_pr", "duration": "0 minutes
-        0 seconds"}, {"name": "merge_pr", "duration": "0 minutes 0 seconds"}, {"name":
+        "duration": "0 minutes 8 seconds"}, {"name": "Get list of PRs", "duration":
+        "0 minutes 6 seconds"}, {"name": "merge_pr", "duration": "0 minutes 0 seconds"},
+        {"name": "merge_pr", "duration": "0 minutes 0 seconds"}, {"name": "merge_pr",
+        "duration": "0 minutes 0 seconds"}, {"name": "merge_pr", "duration": "-1 minutes
+        59 seconds"}, {"name": "merge_pr", "duration": "-1 minutes 59 seconds"}, {"name":
         "merge_pr", "duration": "-1 minutes 59 seconds"}, {"name": "merge_pr", "duration":
-        "-1 minutes 59 seconds"}, {"name": "merge_pr", "duration": "-1 minutes 59
-        seconds"}, {"name": "merge_pr", "duration": "-1 minutes 59 seconds"}]}'
+        "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2022-01-05 17:05:00

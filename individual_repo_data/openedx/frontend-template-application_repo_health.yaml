@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,31 +7,23 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 28
+    count: 13
     github:
         count: 0
         list: ''
     js:
-        count: 19
-        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.2", "@edx/frontend-component-footer":
-            "^14.9.2", "@edx/frontend-component-header": "^8.0.0", "@edx/frontend-platform":
-            "^8.5.1", "@edx/openedx-atlas": "^0.7.0", "@fortawesome/fontawesome-svg-core":
-            "1.2.36", "@fortawesome/free-brands-svg-icons": "5.15.4", "@fortawesome/free-regular-svg-icons":
-            "5.15.4", "@fortawesome/free-solid-svg-icons": "5.15.4", "@fortawesome/react-fontawesome":
-            "0.2.6", "@openedx/paragon": "^23.14.9", "@tanstack/react-query": "^5.90.5",
-            "classnames": "^2.5.1", "core-js": "3.49.0", "react": "^18.3.1", "react-dom":
-            "^18.3.1", "react-router": "6.30.3", "react-router-dom": "6.30.3", "regenerator-runtime":
-            "0.14.1"}'
+        count: 2
+        list: '{"@edx/openedx-atlas": "^0.7.0", "react-helmet": "^6.1.0"}'
     js.all:
         count: 0
         list: '{}'
     js.dev:
-        count: 9
-        list: '{"@edx/browserslist-config": "^1.1.1", "@edx/reactifex": "^2.2.0",
-            "@edx/stylelint-config-edx": "^2.3.3", "@edx/typescript-config": "^1.1.0",
-            "@openedx/frontend-build": "14.6.3", "@testing-library/jest-dom": "^6.9.1",
-            "@testing-library/react": "^16.3.0", "@testing-library/user-event": "^14.6.1",
-            "glob": "11.1.0"}'
+        count: 11
+        list: '{"@edx/browserslist-config": "^1.5.0", "@testing-library/jest-dom":
+            "^6.9.1", "@testing-library/react": "^16.3.0", "@testing-library/user-event":
+            "^14.6.1", "@types/jest": "^29.5.14", "@types/react": "^18", "@types/react-dom":
+            "^18", "jest": "^29", "nodemon": "^3.1.14", "tsc-alias": "^1.8.16", "turbo":
+            "^2.9.2"}'
     pypi:
         count: 0
         list: ''
@@ -74,22 +66,23 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 57
-    build_details: '{"total_duration": "10194 minutes 37 seconds", "checks": [{"name":
-        "test", "duration": "2 minutes 0 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "1 minutes 3 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 35 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 35 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 6 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "-1
-        minutes 53 seconds"}]}'
+    branch_count: 56
+    build_details: '{"total_duration": "505 minutes 14 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 26 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "0 minutes 43 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 39 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 4 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "Release", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
+        minutes 52 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 2
+    contributor_count_90d: 3
     created_at: 2018-02-27 18:34:11
-    default_branch: master
+    default_branch: main
     description: "A template repository for creating Open edX frontend applications.\
         \ \U0001F4BF\u27A1\uFE0F\U0001F4C0"
-    disk_usage_kb: 17531
+    disk_usage_kb: 18369
     fork_count: 66
     has_issues: true
     has_wiki: false
@@ -98,19 +91,19 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-24 00:04:30
+    last_push: 2026-08-31 00:08:22
     license: GNU AGPLv3
-    median_pr_response_seconds: 141
-    pr_closure_ratio_90d: 0.2308
-    pulls_count: 32
+    median_pr_response_seconds: 138
+    pr_closure_ratio_90d: 0.3226
+    pulls_count: 30
     release_count_12mo: 0
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
-    html: 464
-    javascript: 667
-    makefile: 1565
+    html: 256
+    javascript: 1118
+    makefile: 1786
     python: 0
     shell: 0
 makefile:
@@ -122,7 +115,7 @@ makefile:
     test-js: false
     test-python: false
     upgrade: false
-npm_package: '@edx/frontend-template-application'
+npm_package: ''
 org_name: openedx
 ownership:
     owner: ''
@@ -131,22 +124,24 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
+        port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
+        port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application:
         404'
-    - 'https://github.com/openedx/frontend-template-application/blob/main/LICENSE:
-        404'
     getting-help: true
     good_links:
-    - https://github.com/openedx/paragon/?tab=readme-ov-file
-    - https://github.com/openedx/brand-openedx/issues/23
-    - https://github.com/openedx/frontend-template-application/tree/release/teak
+    - https://github.com/openedx/frontend-base
+    - https://github.com/openedx/frontend-template-application/tree/legacy-mfe
     - https://github.com/overhangio/tutor
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/nvm-sh/nvm
-    - https://github.com/openedx/frontend-template-application/blob/master/docs/decisions/0002-feature-based-application-organization.rst
-    - https://github.com/openedx/frontend-platform/blob/master/docs/how_tos/i18n.rst
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0055-proc-project-maintainers.html
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-template-application/issues
     - https://openedx.org/slack
@@ -154,6 +149,7 @@ readme:
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-template-application.svg
+    - https://github.com/openedx/frontend-template-application/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml
@@ -169,8 +165,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-04-06'
-    oldest_open_pr_date: '2025-12-29'
-    total_open_prs: 3
+    oldest_open_pr_date: '2026-03-16'
+    total_open_prs: 1
 requires:
     django: false
     pytest: false

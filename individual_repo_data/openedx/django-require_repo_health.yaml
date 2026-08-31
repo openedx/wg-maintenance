@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,7 +68,7 @@ github:
         {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 0
         seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 0
     created_at: 2022-09-07 14:36:46
     default_branch: master
     description: Legacy fork of a Django staticfiles post-processor for optimizing

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-25
+TIMESTAMP: 2026-08-31
 dependabot:
     exists: false
     has_ecosystem:
@@ -106,7 +106,7 @@ github:
     created_at: 2019-09-23 13:41:45
     default_branch: master
     description: Common build scripts and tooling for Open edX micro-frontends.
-    disk_usage_kb: 19183
+    disk_usage_kb: 17110
     fork_count: 41
     has_issues: true
     has_wiki: false
@@ -115,12 +115,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-18 17:01:21
+    last_push: 2026-08-27 21:05:31
     license: GNU AGPLv3
     median_pr_response_seconds: 86
     pr_closure_ratio_90d: 1.0
     pulls_count: 7
-    release_count_12mo: 15
+    release_count_12mo: 14
 github_actions: true
 language_bytes:
     css: 0
