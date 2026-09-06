@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: false
     has_ecosystem:
@@ -63,32 +63,21 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "22759 minutes 54 seconds", "checks": [{"name":
-        "Live LLM Integration Tests", "duration": "4 minutes 4 seconds"}, {"name":
-        "Backend Tests (ubuntu-latest, 3.12, django42)", "duration": "2 minutes 17
-        seconds"}, {"name": "Frontend Tests (ubuntu-latest, 20)", "duration": "2 minutes
-        12 seconds"}, {"name": "Backend Tests (ubuntu-latest, 3.12, quality)", "duration":
-        "1 minutes 25 seconds"}, {"name": "Plugin / Docs Tests (ubuntu-latest, 3.12)",
-        "duration": "0 minutes 55 seconds"}, {"name": "Backend Tests (ubuntu-latest,
-        3.12, pii_check)", "duration": "0 minutes 48 seconds"}, {"name": "routeissue
-        / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "trigger", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "trigger", "duration": "-1
-        minutes 59 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "-1 minutes 53 seconds"}, {"name": "routeissue / add_label", "duration": "-1
-        minutes 51 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes
-        50 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 50 seconds"}]}'
+    build_details: '{"total_duration": "4 minutes 32 seconds", "checks": [{"name":
+        "Live LLM Integration Tests", "duration": "4 minutes 31 seconds"}, {"name":
+        "Frontend Tests (ubuntu-latest, 20)", "duration": "2 minutes 16 seconds"},
+        {"name": "Backend Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes
+        56 seconds"}, {"name": "Backend Tests (ubuntu-latest, 3.12, quality)", "duration":
+        "1 minutes 30 seconds"}, {"name": "Plugin / Docs Tests (ubuntu-latest, 3.12)",
+        "duration": "0 minutes 54 seconds"}, {"name": "Backend Tests (ubuntu-latest,
+        3.12, pii_check)", "duration": "0 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2025-07-29 15:04:02
     default_branch: main
     description: An edx-platform plugin that will house tools and helpers for working
         with AI.
-    disk_usage_kb: 3051
+    disk_usage_kb: 3056
     fork_count: 10
     has_issues: true
     has_wiki: false
@@ -97,12 +86,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-08 22:22:17
+    last_push: 2026-09-01 20:42:43
     license: GNU AGPLv3
     median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.875
+    pr_closure_ratio_90d: 0.8824
     pulls_count: 3
-    release_count_12mo: 24
+    release_count_12mo: 19
 github_actions: true
 language_bytes:
     css: 839

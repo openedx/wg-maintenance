@@ -40,66 +40,68 @@ docs:
     build_badge: false
     python_version: null
 exists:
-    .coveragerc: false
-    .editorconfig: false
+    .coveragerc: true
+    .editorconfig: true
     .gitignore: true
-    .pii_annotations.yml: false
+    .pii_annotations.yml: true
     CHANGELOG.rst: false
-    Makefile: false
+    Makefile: true
     README: true
-    commitlint.yml: true
+    commitlint.yml: false
     dependabot.yml: false
     openedx.yaml: false
     package.json: false
-    pylintrc: false
-    pyproject.toml: false
+    pylintrc: true
+    pyproject.toml: true
     requirements: false
-    setup.cfg: false
+    setup.cfg: true
     setup.py: false
-    tox.ini: false
+    tox.ini: true
     transifex_config: false
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 3
+    branch_count: 1
     build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
-    contributor_count_90d: 0
-    created_at: 2024-10-07 11:30:41
+    contributor_count_90d: 1
+    created_at: 2026-09-02 13:48:15
     default_branch: main
-    description: ''
-    disk_usage_kb: 74
-    fork_count: 5
+    description: This is intended to be a long-term successor to edx-search.
+    disk_usage_kb: 139
+    fork_count: 1
     has_issues: true
-    has_wiki: false
+    has_wiki: true
     is_archived: false
     is_disabled: false
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-07-30 14:21:48
-    license: Apache License 2.0
-    pulls_count: 0
-    release_count_12mo: 6
-github_actions: true
+    last_push: 2026-09-02 15:45:25
+    license: GNU AGPLv3
+    median_pr_response_seconds: 6
+    pr_closure_ratio_90d: 0.0
+    pulls_count: 1
+    release_count_12mo: 0
+github_actions: false
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
     javascript: 0
-    makefile: 0
-    python: 0
+    makefile: 3865
+    python: 21313
     shell: 0
 makefile:
     pip-installed: false
-    quality: false
+    quality: true
     quality-js: false
     quality-python: false
-    test: false
+    test: true
     test-js: false
     test-python: false
-    upgrade: false
+    upgrade: true
 npm_package: ''
 org_name: openedx
 ownership:
@@ -110,15 +112,14 @@ pinned_python_dependencies: 0
 readme:
     bad_links: []
     getting-help: false
-    good_links:
-    - https://github.com/openedx/openedx-app-foundation-ios.git
+    good_links: []
     irc-missing: true
     mailing-list-missing: true
     security: false
 readthedocs_config:
-    exists: false
-    file_name: ''
-    version: ''
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
 renovate:
     configured: false
     last_pr: null
@@ -132,7 +133,7 @@ setup_py:
     python_versions: []
 tox_ini:
     has_section:
-        testenv: false
-        testenv:quality: false
-        tox: false
+        testenv: true
+        testenv:quality: true
+        tox: true
     uses_whitelist_externals: false

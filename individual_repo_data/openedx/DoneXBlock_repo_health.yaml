@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,10 +7,10 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 127
+    count: 0
     github:
         count: 0
-        list: '[]'
+        list: ''
     js:
         count: 0
         list: ''
@@ -21,67 +21,26 @@ dependencies:
         count: 0
         list: ''
     pypi:
-        count: 20
-        list: '["typing-extensions==4.16.0", "asgiref==3.12.1", "simplejson==4.1.1",
-            "dnspython==2.8.0", "pytz==2026.3.post1", "pymongo==4.17.0", "webob==1.8.11",
-            "stevedore==5.9.1", "xblock==6.3.1", "six==1.17.0", "fs==2.4.16", "pyyaml==6.0.3",
-            "sqlparse==0.6.0", "edx-opaque-keys==4.0.0", "lxml==6.1.2", "mako==1.4.1",
-            "python-dateutil==2.9.0.post0", "appdirs==1.4.4", "markupsafe==3.0.3",
-            "django==5.2.17"]'
+        count: 0
+        list: ''
     pypi_all:
-        count: 127
-        list: '["pip-tools==7.6.1", "roman-numerals==4.1.0", "jaraco-classes==3.4.0",
-            "cryptography==50.0.0", "docutils==0.23", "babel==2.18.0", "asgiref==3.12.1",
-            "pytest==9.1.1", "lxml[html-clean]==6.1.2", "pluggy==1.6.0", "pypng==0.20220715.0",
-            "pymongo==4.17.0", "sphinxcontrib-applehelp==2.0.0", "rich==15.0.0", "webob==1.8.11",
-            "stevedore==5.9.1", "pydata-sphinx-theme==0.20.0", "distlib==0.4.3", "mdurl==0.1.2",
-            "twine==7.0.0", "lazy==2.0", "edx-opaque-keys==4.0.0", "edx-i18n-tools==2.0.0",
-            "soupsieve==2.9.2", "python-dateutil==2.9.0.post0", "coveralls==4.1.0",
-            "appdirs==1.4.4", "sphinx==9.1.0", "snowballstemmer==3.1.1", "xblock-sdk==0.15.1",
-            "pyproject-hooks==1.2.0", "arrow==1.4.0", "typing-extensions==4.16.0",
-            "requests==2.34.2", "certifi==2026.7.22", "python-discovery==1.5.2", "beautifulsoup4==4.15.0",
-            "dnspython==2.8.0", "dill==0.4.1", "polib==1.2.0", "sphinxcontrib-jsmath==1.0.1",
-            "sphinxcontrib-serializinghtml==2.0.0", "more-itertools==11.1.0", "rfc3986==2.0.0",
-            "alabaster==1.0.0", "secretstorage==3.5.0", "jaraco-functools==4.6.0",
-            "pylint-django==2.8.0", "text-unidecode==1.3", "jaraco-context==6.1.2",
-            "pygments==2.21.0", "isort==8.0.1", "edx-lint==6.2.0", "annotated-doc==0.0.5",
-            "ddt==1.7.2", "markupsafe==3.0.3", "lxml-html-clean==0.4.5", "sphinxcontrib-qthelp==2.0.0",
-            "fs-s3fs==1.1.1", "path==16.16.0", "s3transfer==0.19.2", "tzdata==2026.3",
-            "tox==4.60.0", "pylint-plugin-utils==0.9.0", "simplejson==4.1.1", "sphinxcontrib-htmlhelp==2.1.0",
-            "tomlkit==0.15.1", "charset-normalizer==3.5.1", "platformdirs==4.11.3",
-            "mccabe==0.7.0", "pycparser==3.0", "wheel==0.48.0", "accessible-pygments==0.0.5",
-            "jinja2==3.1.6", "astroid==4.0.4", "pycodestyle==2.14.0", "pylint==4.0.7",
-            "markdown-it-py==4.2.0", "shellingham==1.5.4", "imagesize==2.0.0", "pylint-celery==0.3",
-            "cffi==2.1.1", "packaging==26.3", "pyproject-api==1.11.0", "urllib3==2.7.0",
-            "click==8.4.2", "cachetools==7.1.7", "pip==26.2", "click-log==0.4.0",
-            "pytz==2026.3.post1", "coverage[toml]==7.15.4", "cookiecutter==2.7.1",
-            "python-slugify==8.0.4", "idna==3.19", "id==1.6.1", "openedx-django-pyfs==4.0.0",
-            "docutils==0.22.4", "jeepney==0.9.0", "boto3==1.43.78", "code-annotations==3.0.0",
-            "xblock==6.3.1", "nh3==0.3.7", "jmespath==1.1.0", "iniconfig==2.3.0",
-            "six==1.17.0", "fs==2.4.16", "pyyaml==6.0.3", "sqlparse==0.6.0", "typer==0.27.1",
-            "filelock==3.32.4", "lxml==6.1.2", "mako==1.4.1", "readme-renderer==45.0",
-            "xblock[django]==6.3.1", "build==1.5.0", "web-fragments==4.0.0", "sphinxcontrib-devhelp==2.0.0",
-            "keyring==25.7.0", "sphinx-book-theme==1.4.0", "binaryornot==0.6.0", "requests-toolbelt==1.0.0",
-            "virtualenv==21.7.4", "tomli-w==1.2.0", "colorama==0.4.6", "botocore==1.43.78",
-            "django==5.2.17", "setuptools==84.0.0"]'
+        count: 0
+        list: ''
 django_packages:
     django_42:
-        count: 7
-        list: '["code-annotations", "web-fragments", "edx-i18n-tools", "pylint-django",
-            "edx-opaque-keys", "xblock", "xblock-sdk"]'
+        count: 0
+        list: '[]'
     total:
-        count: 7
-        list: '["code-annotations", "web-fragments", "edx-i18n-tools", "pylint-django",
-            "edx-opaque-keys", "xblock", "xblock-sdk"]'
+        count: 0
+        list: '[]'
     upgraded:
-        count: 6
-        list: '["code-annotations", "web-fragments", "edx-i18n-tools", "edx-opaque-keys",
-            "xblock", "xblock-sdk"]'
+        count: 0
+        list: '[]'
 docs:
     build_badge: false
     python_version: null
 exists:
-    .coveragerc: true
+    .coveragerc: false
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
@@ -93,37 +52,39 @@ exists:
     openedx.yaml: true
     package.json: false
     pylintrc: true
-    pyproject.toml: false
-    requirements: true
+    pyproject.toml: true
+    requirements: false
     setup.cfg: false
-    setup.py: true
+    setup.py: false
     tox.ini: true
     transifex_config: false
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 38
-    build_details: '{"total_duration": "8242 minutes 4 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 14 seconds"}, {"name": "Tests (3.12, django42)", "duration": "0
-        minutes 55 seconds"}, {"name": "Dependabot", "duration": "0 minutes 51 seconds"},
-        {"name": "Tests (3.12, quality)", "duration": "0 minutes 50 seconds"}, {"name":
-        "Tests (3.12, django52)", "duration": "0 minutes 44 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 41 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 37 seconds"}, {"name": "Dependabot", "duration": "0 minutes 33 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        53 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 52 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 51 seconds"}]}'
+    branch_count: 39
+    build_details: '{"total_duration": "5 minutes 13 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 6 seconds"}, {"name": "release", "duration":
+        "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "1 minutes 0 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 46 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 42 seconds"}, {"name": "update-pip-graph", "duration":
+        "0 minutes 37 seconds"}, {"name": "quality", "duration": "0 minutes 24 seconds"},
+        {"name": "run_tests / quality", "duration": "0 minutes 22 seconds"}, {"name":
+        "django42", "duration": "0 minutes 18 seconds"}, {"name": "run_tests / django42",
+        "duration": "0 minutes 17 seconds"}, {"name": "docs", "duration": "0 minutes
+        16 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes 16 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 16 seconds"}, {"name":
+        "django52", "duration": "0 minutes 13 seconds"}, {"name": "run_tests / django52",
+        "duration": "0 minutes 12 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2017-07-07 16:01:04
     default_branch: master
     description: 'An XBlock for students to mark they''ve finished something. '
-    disk_usage_kb: 677
+    disk_usage_kb: 863
     fork_count: 25
     has_issues: true
     has_wiki: false
@@ -132,23 +93,23 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:32:41
+    last_push: 2026-09-03 12:02:59
     license: GNU AGPLv3
-    median_pr_response_seconds: 91
-    pr_closure_ratio_90d: 0.9535
+    median_pr_response_seconds: 87
+    pr_closure_ratio_90d: 0.9512
     pulls_count: 2
-    release_count_12mo: 2
+    release_count_12mo: 3
 github_actions: true
 language_bytes:
     css: 2185
     dockerfile: 290
     html: 1526
     javascript: 1496
-    makefile: 3794
-    python: 11612
+    makefile: 2910
+    python: 5605
     shell: 367
 makefile:
-    pip-installed: true
+    pip-installed: false
     quality: true
     quality-js: false
     quality-python: false
@@ -168,6 +129,8 @@ readme:
     - 'https://www.gnu.org/licenses/agpl-3.0: HTTPSConnectionPool(host=''www.gnu.org'',
         port=443): Max retries exceeded with url: /licenses/agpl-3.0 (Caused by NewConnectionError("HTTPSConnection(host=''www.gnu.org'',
         port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'
+    - 'https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg:
+        404'
     - 'https://openedx.slack.com/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock:
         404'
@@ -176,7 +139,6 @@ readme:
     - https://img.shields.io/badge/License-AGPL_v3-blue.svg
     - https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
-    - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
     - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
     - https://img.shields.io/badge/status-maintained-31c653
     - https://openedx.org/r/xblock
@@ -200,15 +162,11 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    django: true
-    pytest: true
+    django: false
+    pytest: false
 setup_py:
-    py312_classifiers: true
-    pypi_name: done-xblock
-    python_versions:
-    - '3'
-    - '3.12'
-    repo_url: https://github.com/openedx/DoneXBlock
+    py312_classifiers: false
+    python_versions: []
 tox_ini:
     has_section:
         testenv: true

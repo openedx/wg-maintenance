@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -103,22 +103,18 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 38
-    build_details: '{"total_duration": "74 minutes 16 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 23 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 40
+    build_details: '{"total_duration": "8 minutes 37 seconds", "checks": [{"name":
+        "tests", "duration": "8 minutes 22 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 13 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 23
     created_at: 2020-05-06 18:34:51
     default_branch: master
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 52690
+    disk_usage_kb: 52587
     fork_count: 215
     has_issues: true
     has_wiki: false
@@ -127,18 +123,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 01:34:16
+    last_push: 2026-09-05 01:23:45
     license: GNU AGPLv3
     median_pr_response_seconds: 7
-    pr_closure_ratio_90d: 0.68
-    pulls_count: 50
+    pr_closure_ratio_90d: 0.72
+    pulls_count: 46
     release_count_12mo: 6
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 388
-    javascript: 2975675
+    javascript: 2932931
     makefile: 1967
     python: 0
     shell: 0

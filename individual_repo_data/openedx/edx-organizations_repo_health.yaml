@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,40 +22,39 @@ dependencies:
         list: ''
     pypi:
         count: 31
-        list: '["click==8.4.2", "django==5.2.17", "djangorestframework==3.18.0", "urllib3==2.7.0",
-            "pyjwt[crypto]==2.13.0", "asgiref==3.12.1", "django-model-utils==5.0.0",
-            "pynacl==1.6.2", "cffi==2.1.1", "stevedore==5.9.0", "dnspython==2.8.0",
-            "charset-normalizer==3.4.9", "edx-opaque-keys==4.0.0", "psutil==7.2.2",
-            "sqlparse==0.5.5", "semantic-version==2.10.0", "setuptools==84.0.0", "django-crum==0.7.9",
-            "pillow==12.3.0", "drf-jwt==1.19.2", "pymongo==4.17.0", "pycparser==3.0",
-            "idna==3.18", "requests==2.34.2", "django-simple-history==3.13.0", "typing-extensions==4.16.0",
-            "certifi==2026.7.22", "edx-django-utils==8.0.1", "edx-drf-extensions==10.6.0",
-            "cryptography==50.0.0", "django-waffle==5.0.0"]'
+        list: '["requests==2.34.2", "cffi==2.1.1", "typing-extensions==4.16.0", "djangorestframework==3.18.0",
+            "click==8.5.0", "pyjwt[crypto]==2.13.0", "semantic-version==2.10.0", "charset-normalizer==3.5.1",
+            "edx-django-utils==8.0.2", "django-simple-history==3.13.0", "pynacl==1.6.2",
+            "pymongo==4.17.0", "setuptools==84.0.0", "pillow==12.3.0", "sqlparse==0.6.0",
+            "django-crum==0.7.9", "django==5.2.17", "dnspython==2.8.0", "drf-jwt==1.19.2",
+            "django-waffle==5.0.0", "psutil==7.2.2", "urllib3==2.7.0", "asgiref==3.12.1",
+            "cryptography==50.0.1", "certifi==2026.7.22", "stevedore==5.9.1", "edx-drf-extensions==10.7.0",
+            "idna==3.19", "django-model-utils==5.0.0", "pycparser==3.0", "edx-opaque-keys==4.0.0"]'
     pypi_all:
         count: 37
-        list: '["click==8.4.2", "django==5.2.17", "djangorestframework==3.18.0", "urllib3==2.7.0",
-            "pyjwt[crypto]==2.13.0", "asgiref==3.12.1", "build==1.5.0", "django-model-utils==5.0.0",
-            "pynacl==1.6.2", "cffi==2.1.1", "stevedore==5.9.0", "packaging==26.3",
-            "dnspython==2.8.0", "charset-normalizer==3.4.9", "edx-opaque-keys==4.0.0",
-            "wheel==0.47.0", "psutil==7.2.2", "sqlparse==0.5.5", "semantic-version==2.10.0",
-            "setuptools==84.0.0", "django-crum==0.7.9", "pip==26.1.2", "pyproject-hooks==1.2.0",
-            "pillow==12.3.0", "drf-jwt==1.19.2", "pymongo==4.17.0", "pycparser==3.0",
-            "idna==3.18", "requests==2.34.2", "django-simple-history==3.13.0", "typing-extensions==4.16.0",
-            "certifi==2026.7.22", "pip-tools==7.6.0", "edx-django-utils==8.0.1", "edx-drf-extensions==10.6.0",
-            "cryptography==50.0.0", "django-waffle==5.0.0"]'
+        list: '["requests==2.34.2", "cffi==2.1.1", "typing-extensions==4.16.0", "djangorestframework==3.18.0",
+            "wheel==0.48.0", "click==8.5.0", "pyjwt[crypto]==2.13.0", "semantic-version==2.10.0",
+            "charset-normalizer==3.5.1", "pip==26.1.2", "edx-django-utils==8.0.2",
+            "django-simple-history==3.13.0", "pynacl==1.6.2", "pymongo==4.17.0", "setuptools==84.0.0",
+            "pillow==12.3.0", "sqlparse==0.6.0", "django-crum==0.7.9", "django==5.2.17",
+            "dnspython==2.8.0", "drf-jwt==1.19.2", "django-waffle==5.0.0", "psutil==7.2.2",
+            "urllib3==2.7.0", "packaging==26.3", "asgiref==3.12.1", "cryptography==50.0.1",
+            "certifi==2026.7.22", "build==1.6.0", "stevedore==5.9.1", "edx-drf-extensions==10.7.0",
+            "idna==3.19", "django-model-utils==5.0.0", "pyproject-hooks==1.2.0", "pycparser==3.0",
+            "edx-opaque-keys==4.0.0", "pip-tools==7.6.1"]'
 django_packages:
     django_42:
         count: 5
-        list: '["edx-django-utils", "django-waffle", "edx-opaque-keys", "djangorestframework",
-            "edx-drf-extensions"]'
+        list: '["djangorestframework", "edx-drf-extensions", "django-waffle", "edx-django-utils",
+            "edx-opaque-keys"]'
     total:
         count: 9
-        list: '["edx-django-utils", "drf-jwt", "django-model-utils", "django-waffle",
-            "django-simple-history", "edx-opaque-keys", "djangorestframework", "edx-drf-extensions",
-            "django-crum"]'
+        list: '["drf-jwt", "django-simple-history", "djangorestframework", "edx-drf-extensions",
+            "django-waffle", "django-crum", "edx-django-utils", "edx-opaque-keys",
+            "django-model-utils"]'
     upgraded:
         count: 4
-        list: '["django-waffle", "edx-drf-extensions", "edx-opaque-keys", "edx-django-utils"]'
+        list: '["edx-django-utils", "edx-opaque-keys", "django-waffle", "edx-drf-extensions"]'
 docs:
     build_badge: false
     python_version: null
@@ -82,24 +81,22 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
-    build_details: '{"total_duration": "9161 minutes 30 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 29 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django52)",
-        "duration": "1 minutes 9 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
-        quality)", "duration": "1 minutes 7 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 43 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 49 seconds"}]}'
+    branch_count: 5
+    build_details: '{"total_duration": "1167 minutes 19 seconds", "checks": [{"name":
+        "update-pip-graph", "duration": "1 minutes 6 seconds"}, {"name": "Tests (ubuntu-latest,
+        3.12, django52)", "duration": "1 minutes 5 seconds"}, {"name": "Tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 59 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 41 seconds"}, {"name": "Dependabot", "duration": "0 minutes 35 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
+        minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2015-07-14 19:39:03
     default_branch: master
     description: ''
@@ -112,11 +109,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:48:02
+    last_push: 2026-08-31 23:33:45
     license: GNU AGPLv3
-    median_pr_response_seconds: 1252687
-    pr_closure_ratio_90d: 0.8846
-    pulls_count: 3
+    median_pr_response_seconds: 1245907
+    pr_closure_ratio_90d: 1.0
+    pulls_count: 0
     release_count_12mo: 2
 github_actions: true
 language_bytes:
@@ -142,7 +139,7 @@ ownership:
     owner: ''
     owner_kind: ''
     owner_name: ''
-pinned_python_dependencies: 7
+pinned_python_dependencies: 8
 readme:
     bad_links:
     - 'https://coveralls.io/github/edx/edx-organizations?branch=master: 403'
