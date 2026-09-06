@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -97,18 +97,23 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 173
-    build_details: '{"total_duration": "-1 minutes 59 seconds", "checks": [{"name":
-        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"}]}'
+    branch_count: 174
+    build_details: '{"total_duration": "613 minutes 55 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2017-04-27 18:57:22
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 354059
+    disk_usage_kb: 354540
     fork_count: 100
     has_issues: true
     has_wiki: false
@@ -117,11 +122,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:24:56
+    last_push: 2026-09-05 14:26:01
     license: Apache License 2.0
     median_pr_response_seconds: 3
-    pr_closure_ratio_90d: 0.96
-    pulls_count: 52
+    pr_closure_ratio_90d: 0.95
+    pulls_count: 54
     release_count_12mo: 35
 github_actions: true
 language_bytes:

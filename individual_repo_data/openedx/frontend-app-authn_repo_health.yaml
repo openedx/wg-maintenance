@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -72,11 +72,14 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 41
-    build_details: '{"total_duration": "701 minutes 5 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "4726 minutes 56 seconds", "checks": [{"name":
         "tests", "duration": "1 minutes 27 seconds"}, {"name": "Release", "duration":
         "0 minutes 46 seconds"}, {"name": "Dependabot", "duration": "0 minutes 29
         seconds"}, {"name": "autoupdate", "duration": "0 minutes 16 seconds"}, {"name":
-        "version-check / version-check", "duration": "0 minutes 6 seconds"}]}'
+        "version-check / version-check", "duration": "0 minutes 6 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2020-09-28 13:08:13
@@ -84,7 +87,7 @@ github:
     description: Open edX micro-frontend application for new login and registration
         experience.
     disk_usage_kb: 18195
-    fork_count: 262
+    fork_count: 263
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -94,9 +97,9 @@ github:
     is_private: false
     last_push: 2026-08-31 03:01:57
     license: GNU AGPLv3
-    median_pr_response_seconds: 150
-    pr_closure_ratio_90d: 1.0
-    pulls_count: 8
+    median_pr_response_seconds: 152
+    pr_closure_ratio_90d: 0.8889
+    pulls_count: 9
     release_count_12mo: 17
 github_actions: true
 language_bytes:

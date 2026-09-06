@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -98,8 +98,8 @@ github:
     is_private: false
     last_push: 2026-08-31 00:49:06
     license: GNU AGPLv3
-    median_pr_response_seconds: 5
-    pr_closure_ratio_90d: 0.625
+    median_pr_response_seconds: 6
+    pr_closure_ratio_90d: 0.5714
     pulls_count: 7
     release_count_12mo: 5
 github_actions: true

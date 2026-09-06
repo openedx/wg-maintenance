@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -90,18 +90,20 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 210
-    build_details: '{"total_duration": "1 minutes 13 seconds", "checks": [{"name":
+    branch_count: 212
+    build_details: '{"total_duration": "1290 minutes 19 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 11 seconds"}, {"name": "Dependabot",
         "duration": "1 minutes 8 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 1 seconds"}, {"name": "Dependabot", "duration": "1 minutes 0 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 49 seconds"}]}'
+        minutes 1 seconds"}, {"name": "Dependabot", "duration": "1 minutes 1 seconds"},
+        {"name": "Dependabot", "duration": "1 minutes 0 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 56 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 49 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2018-05-10 13:44:58
     default_branch: master
     description: edx-portal is a frontend that provides branded learning experiences.
-    disk_usage_kb: 26954
+    disk_usage_kb: 27485
     fork_count: 46
     has_issues: true
     has_wiki: false
@@ -110,11 +112,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:54:02
+    last_push: 2026-09-04 00:36:36
     license: GNU AGPLv3
-    median_pr_response_seconds: 351
-    pr_closure_ratio_90d: 0.4615
-    pulls_count: 66
+    median_pr_response_seconds: 365
+    pr_closure_ratio_90d: 0.4103
+    pulls_count: 68
     release_count_12mo: 0
 github_actions: true
 language_bytes:

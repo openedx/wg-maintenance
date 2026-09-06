@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,17 +66,20 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "1 minutes 2 seconds", "checks": [{"name":
-        "test", "duration": "1 minutes 2 seconds"}, {"name": "Release", "duration":
-        "0 minutes 51 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 7 seconds"}]}'
+    build_details: '{"total_duration": "0 minutes 58 seconds", "checks": [{"name":
+        "test", "duration": "0 minutes 57 seconds"}, {"name": "Release", "duration":
+        "0 minutes 55 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2026-05-02 22:17:10
     default_branch: main
     description: Compatibility shim that lets legacy frontend-plugin-framework env.config.jsx
         files run on top of @openedx/frontend-base.
-    disk_usage_kb: 76
+    disk_usage_kb: 285
     fork_count: 2
     has_issues: true
     has_wiki: false
@@ -85,12 +88,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-28 16:50:38
+    last_push: 2026-09-02 09:53:27
     license: GNU AGPLv3
-    median_pr_response_seconds: 187
+    median_pr_response_seconds: 128
     pr_closure_ratio_90d: 1.0
     pulls_count: 0
-    release_count_12mo: 5
+    release_count_12mo: 6
 github_actions: true
 language_bytes:
     css: 0

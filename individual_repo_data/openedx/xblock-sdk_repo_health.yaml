@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,30 +63,24 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 34
-    build_details: '{"total_duration": "6580 minutes 28 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 58 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 57 seconds"}, {"name": "quality",
-        "duration": "0 minutes 28 seconds"}, {"name": "django42", "duration": "0 minutes
-        26 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes 26 seconds"},
-        {"name": "run_tests / quality", "duration": "0 minutes 21 seconds"}, {"name":
-        "django52", "duration": "0 minutes 20 seconds"}, {"name": "run_tests / django52",
-        "duration": "0 minutes 18 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 18 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+    build_details: '{"total_duration": "5004 minutes 33 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "0 minutes 52 seconds"}, {"name": "release", "duration": "0 minutes 42 seconds"},
+        {"name": "quality", "duration": "0 minutes 28 seconds"}, {"name": "run_tests
+        / quality", "duration": "0 minutes 25 seconds"}, {"name": "run_tests / django52",
+        "duration": "0 minutes 24 seconds"}, {"name": "django42", "duration": "0 minutes
+        23 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes 20 seconds"},
+        {"name": "django52", "duration": "0 minutes 14 seconds"}, {"name": "publish_to_pypi",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 50 seconds"}]}'
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 4
     created_at: 2014-03-06 20:34:41
     default_branch: master
     description: Workbench and example xblocks
-    disk_usage_kb: 2058
+    disk_usage_kb: 2148
     fork_count: 104
     has_issues: true
     has_wiki: false
@@ -95,9 +89,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-30 00:17:22
+    last_push: 2026-09-06 00:17:03
     license: Apache License 2.0
-    median_pr_response_seconds: 107598
+    median_pr_response_seconds: 108471
     pr_closure_ratio_90d: 0.9333
     pulls_count: 2
     release_count_12mo: 4
@@ -132,11 +126,7 @@ readme:
         port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''docs.seleniumhq.org'',
         port=80): Failed to resolve ''docs.seleniumhq.org'' ([Errno -2] Name or service
         not known)"))'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://docs.openedx.org/projects/xblock-sdk: 404'
     - 'https://github.com/openedx/xblock-sdk/blob/main/LICENSE.txt: 404'
     - 'https://github.com/openedx/xblock-sdk/blob/master/sample_xblocks/README.rst:
@@ -148,6 +138,10 @@ readme:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/sdk/get_started_sdk.html
     - https://discuss.openedx.org
     - https://github.com/openedx/xblock-sdk/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock-sdk
     - https://img.shields.io/pypi/v/xblock-sdk.svg
     - https://pypi.python.org/pypi/xblock-sdk/
