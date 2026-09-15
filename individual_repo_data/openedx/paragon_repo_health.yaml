@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-15
 dependabot:
     exists: true
     has_ecosystem:
@@ -97,18 +97,24 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 173
-    build_details: '{"total_duration": "-1 minutes 59 seconds", "checks": [{"name":
-        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"}]}'
+    branch_count: 174
+    build_details: '{"total_duration": "11 minutes 8 seconds", "checks": [{"name":
+        "Release", "duration": "11 minutes 6 seconds"}, {"name": "Pages changed -
+        paragon-openedx", "duration": "2 minutes 27 seconds"}, {"name": "Header rules
+        - paragon-openedx", "duration": "2 minutes 27 seconds"}, {"name": "Redirect
+        rules - paragon-openedx", "duration": "2 minutes 27 seconds"}, {"name": "Pages
+        changed - paragon-openedx-v23", "duration": "1 minutes 41 seconds"}, {"name":
+        "Header rules - paragon-openedx-v23", "duration": "1 minutes 41 seconds"},
+        {"name": "Redirect rules - paragon-openedx-v23", "duration": "1 minutes 41
+        seconds"}, {"name": "Syncing branches", "duration": "0 minutes 14 seconds"},
+        {"name": "version-check / version-check", "duration": "0 minutes 4 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 6
     created_at: 2017-04-27 18:57:22
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 354059
+    disk_usage_kb: 354464
     fork_count: 100
     has_issues: true
     has_wiki: false
@@ -117,18 +123,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:24:56
+    last_push: 2026-09-14 14:34:34
     license: Apache License 2.0
     median_pr_response_seconds: 3
-    pr_closure_ratio_90d: 0.96
-    pulls_count: 52
-    release_count_12mo: 35
+    pr_closure_ratio_90d: 0.95
+    pulls_count: 54
+    release_count_12mo: 34
 github_actions: true
 language_bytes:
     css: 271597
     dockerfile: 0
     html: 237
-    javascript: 4367789
+    javascript: 4364199
     makefile: 2202
     python: 0
     shell: 2709
@@ -151,9 +157,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://www.npmjs.com/package/@openedx/paragon: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/archives/C02NR285KV4: 403'
     - 'https://cdn.jsdelivr.net/npm/@my-brand/core.min.css: 404'
     - 'https://cdn.jsdelivr.net/npm/@my-brand/light.min.css: 404'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://github.com/openedx/eslint-config-edx/tree/master/packages/eslint-config-edx:
         404'
     - 'https://www.npmjs.com/package/eslint-config-airbnb: 403'
@@ -174,7 +183,6 @@ readme:
     - https://www.w3.org/WAI/standards-guidelines/aria/
     - https://openedx.org/
     - https://paragon-openedx.netlify.app/
-    - https://openedx.org/slack
     - https://github.com/openedx/paragon/issues/new?template=blank-issue.md
     - https://calendar.google.com/calendar/embed?src=c_v86shrnegshsqgp4fj2k94u7bc%40group.calendar.google.com&ctz=America%2FNew_York
     - https://github.com/openedx/brand-openedx
@@ -184,8 +192,6 @@ readme:
     - https://github.com/openedx/paragon/tree/release-23.x
     - https://paragon-openedx-v23.netlify.app/
     - https://github.com/openedx/paragon/tree/next
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://github.com/openedx/paragon/issues
     - https://github.com/orgs/openedx/projects/43/views/15
     - https://github.com/openedx/frontend-build

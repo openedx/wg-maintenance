@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-15
 dependabot:
     exists: false
     has_ecosystem:
@@ -72,7 +72,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 19
+    branch_count: 18
     build_details: '{"total_duration": "139111 minutes 4 seconds", "checks": [{"name":
         "Release", "duration": "2 minutes 21 seconds"}, {"name": "tests", "duration":
         "1 minutes 48 seconds"}, {"name": "version-check / version-check", "duration":
@@ -85,7 +85,7 @@ github:
     created_at: 2019-01-02 20:14:34
     default_branch: master
     description: Site footer component for edX frontend apps.
-    disk_usage_kb: 16028
+    disk_usage_kb: 16027
     fork_count: 157
     has_issues: true
     has_wiki: false
@@ -94,10 +94,10 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-28 15:39:42
+    last_push: 2026-09-08 18:23:47
     license: GNU AGPLv3
-    pulls_count: 11
-    release_count_12mo: 5
+    pulls_count: 10
+    release_count_12mo: 3
 github_actions: true
 language_bytes:
     css: 0
@@ -126,8 +126,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/community/connect: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://travis-ci.com/edx/frontend-component-footer: 404'
     getting-help: false
     good_links:
@@ -139,12 +143,8 @@ readme:
     - https://github.com/nvm-sh/nvm
     - https://github.com/openedx/frontend-plugin-framework
     - https://github.com/openedx/frontend-template-application/blob/3cd5485bf387b8c479baf6b02bf59e3061dc3465/src/index.scss
-    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-component-footer/issues
-    - https://openedx.org/slack
-    - https://openedx.org/community/connect
-    - https://openedx.org/code-of-conduct/
     - https://api.travis-ci.com/edx/frontend-component-footer.svg?branch=master
     - https://img.shields.io/codecov/c/github/edx/frontend-component-footer
     - https://img.shields.io/npm/v/@edx/frontend-component-footer.svg
@@ -163,7 +163,7 @@ renovate:
     configured: true
     last_pr: '2026-04-06'
     oldest_open_pr_date: '2024-01-01'
-    total_open_prs: 6
+    total_open_prs: 5
 requires:
     django: false
     pytest: false
