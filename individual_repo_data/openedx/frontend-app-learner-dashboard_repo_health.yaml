@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-15
 dependabot:
     exists: true
     has_ecosystem:
@@ -72,16 +72,20 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 21
-    build_details: '{"total_duration": "1 minutes 59 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "11590 minutes 50 seconds", "checks": [{"name":
         "tests", "duration": "1 minutes 59 seconds"}, {"name": "Release", "duration":
-        "0 minutes 55 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 8 seconds"}]}'
+        "0 minutes 55 seconds"}, {"name": "Dependabot", "duration": "0 minutes 38
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 31 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 8 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2022-06-03 14:59:36
     default_branch: master
     description: Learner Dashboard MFE
-    disk_usage_kb: 10697
+    disk_usage_kb: 10556
     fork_count: 207
     has_issues: true
     has_wiki: false
@@ -90,11 +94,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-30 15:43:58
+    last_push: 2026-09-10 16:09:28
     license: GNU AGPLv3
-    median_pr_response_seconds: 66
-    pr_closure_ratio_90d: 0.8889
-    pulls_count: 6
+    median_pr_response_seconds: 125
+    pr_closure_ratio_90d: 0.8
+    pulls_count: 7
     release_count_12mo: 20
 github_actions: true
 language_bytes:

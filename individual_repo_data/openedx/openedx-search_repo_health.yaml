@@ -40,67 +40,68 @@ docs:
     build_badge: false
     python_version: null
 exists:
-    .coveragerc: false
-    .editorconfig: false
-    .gitignore: false
-    .pii_annotations.yml: false
+    .coveragerc: true
+    .editorconfig: true
+    .gitignore: true
+    .pii_annotations.yml: true
     CHANGELOG.rst: false
     Makefile: true
     README: true
-    commitlint.yml: true
+    commitlint.yml: false
     dependabot.yml: false
     openedx.yaml: false
     package.json: false
-    pylintrc: false
-    pyproject.toml: false
+    pylintrc: true
+    pyproject.toml: true
     requirements: false
-    setup.cfg: false
+    setup.cfg: true
     setup.py: false
-    tox.ini: false
+    tox.ini: true
     transifex_config: false
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 2
-    build_details: '{"total_duration": "0 minutes 11 seconds", "checks": [{"name":
-        "source_and_tars_match", "duration": "0 minutes 11 seconds"}]}'
+    branch_count: 1
+    build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
-    contributor_count_90d: 0
-    created_at: 2022-04-07 19:17:04
+    contributor_count_90d: 1
+    created_at: 2026-09-02 13:48:15
     default_branch: main
-    description: Repo for course content & Issues related to Open edX training courses
-    disk_usage_kb: 270180
-    fork_count: 5
+    description: This is intended to be a long-term successor to edx-search.
+    disk_usage_kb: 139
+    fork_count: 1
     has_issues: true
-    has_wiki: false
+    has_wiki: true
     is_archived: false
     is_disabled: false
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-05-19 13:23:02
-    license: Other
-    pulls_count: 0
+    last_push: 2026-09-02 15:45:25
+    license: GNU AGPLv3
+    median_pr_response_seconds: 6
+    pr_closure_ratio_90d: 0.0
+    pulls_count: 1
     release_count_12mo: 0
-github_actions: true
+github_actions: false
 language_bytes:
     css: 0
     dockerfile: 0
-    html: 8067554
+    html: 0
     javascript: 0
-    makefile: 2772
-    python: 0
+    makefile: 3865
+    python: 21313
     shell: 0
 makefile:
     pip-installed: false
-    quality: false
+    quality: true
     quality-js: false
     quality-python: false
-    test: false
+    test: true
     test-js: false
     test-python: false
-    upgrade: false
+    upgrade: true
 npm_package: ''
 org_name: openedx
 ownership:
@@ -111,16 +112,14 @@ pinned_python_dependencies: 0
 readme:
     bad_links: []
     getting-help: false
-    good_links:
-    - https://creativecommons.org/licenses/by-sa/4.0/
-    - http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+    good_links: []
     irc-missing: true
     mailing-list-missing: true
     security: false
 readthedocs_config:
-    exists: false
-    file_name: ''
-    version: ''
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
 renovate:
     configured: false
     last_pr: null
@@ -134,7 +133,7 @@ setup_py:
     python_versions: []
 tox_ini:
     has_section:
-        testenv: false
-        testenv:quality: false
-        tox: false
+        testenv: true
+        testenv:quality: true
+        tox: true
     uses_whitelist_externals: false

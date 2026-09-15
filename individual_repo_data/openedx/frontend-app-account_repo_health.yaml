@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-15
 dependabot:
     exists: false
     has_ecosystem:
@@ -85,15 +85,23 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 76
-    build_details: '{"total_duration": "", "checks": []}'
+    branch_count: 75
+    build_details: '{"total_duration": "4156 minutes 13 seconds", "checks": [{"name":
+        "tests (test)", "duration": "2 minutes 48 seconds"}, {"name": "tests (lint)",
+        "duration": "1 minutes 58 seconds"}, {"name": "tests (i18n_extract)", "duration":
+        "1 minutes 47 seconds"}, {"name": "update-browserslist / update-dep", "duration":
+        "0 minutes 55 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 6
     created_at: 2019-04-23 15:40:26
     default_branch: master
     description: Open edX micro-frontend application for managing user account information.
-    disk_usage_kb: 21213
-    fork_count: 185
+    disk_usage_kb: 21045
+    fork_count: 187
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -101,18 +109,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:58:55
+    last_push: 2026-09-11 14:48:53
     license: GNU AGPLv3
     median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.5789
-    pulls_count: 27
+    pr_closure_ratio_90d: 0.8125
+    pulls_count: 23
     release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 5411
-    javascript: 538987
+    javascript: 543372
     makefile: 2011
     python: 0
     shell: 0
@@ -139,8 +147,12 @@ readme:
         port=443): Failed to resolve ''support.example.com'' ([Errno -5] No address
         associated with hostname)"))'
     - 'https://openedx.github.io/frontend-platform/module-Config.html: 404'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/community/connect: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-app-profile
@@ -151,12 +163,8 @@ readme:
     - https://github.com/openedx/frontend-app-account.git
     - https://github.com/nvm-sh/nvm
     - https://github.com/openedx/frontend-build
-    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-account/issues
-    - https://openedx.org/slack
-    - https://openedx.org/community/connect
-    - https://openedx.org/code-of-conduct/
     - https://github.com/openedx/edx-developer-docs/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/edx-developer-docs/actions/workflows/ci.yml
     - https://img.shields.io/codecov/c/github/edx/frontend-app-account
@@ -177,7 +185,7 @@ renovate:
     configured: true
     last_pr: '2026-04-06'
     oldest_open_pr_date: '2021-10-11'
-    total_open_prs: 4
+    total_open_prs: 3
 requires:
     django: false
     pytest: false
