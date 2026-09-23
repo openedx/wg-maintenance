@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -97,19 +97,29 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 173
-    build_details: '{"total_duration": "-1 minutes 59 seconds", "checks": [{"name":
-        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"}]}'
+    branch_count: 174
+    build_details: '{"total_duration": "13 minutes 21 seconds", "checks": [{"name":
+        "tests", "duration": "12 minutes 56 seconds"}, {"name": "Release", "duration":
+        "12 minutes 55 seconds"}, {"name": "Pages changed - paragon-openedx", "duration":
+        "1 minutes 48 seconds"}, {"name": "Header rules - paragon-openedx", "duration":
+        "1 minutes 48 seconds"}, {"name": "Redirect rules - paragon-openedx", "duration":
+        "1 minutes 48 seconds"}, {"name": "Pages changed - paragon-openedx-v23", "duration":
+        "1 minutes 16 seconds"}, {"name": "Header rules - paragon-openedx-v23", "duration":
+        "1 minutes 16 seconds"}, {"name": "Redirect rules - paragon-openedx-v23",
+        "duration": "1 minutes 16 seconds"}, {"name": "commitlint / commitlint", "duration":
+        "0 minutes 17 seconds"}, {"name": "Syncing branches", "duration": "0 minutes
+        11 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        5 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        5 seconds"}, {"name": "codecov/project", "duration": "0 minutes 1 seconds"},
+        {"name": "codecov/patch", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 6
     created_at: 2017-04-27 18:57:22
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 354059
-    fork_count: 100
+    disk_usage_kb: 353993
+    fork_count: 101
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -117,18 +127,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:24:56
+    last_push: 2026-09-22 14:29:20
     license: Apache License 2.0
     median_pr_response_seconds: 3
-    pr_closure_ratio_90d: 0.96
-    pulls_count: 52
-    release_count_12mo: 35
+    pr_closure_ratio_90d: 0.95
+    pulls_count: 54
+    release_count_12mo: 34
 github_actions: true
 language_bytes:
     css: 271597
     dockerfile: 0
     html: 237
-    javascript: 4367789
+    javascript: 4364199
     makefile: 2202
     python: 0
     shell: 2709
