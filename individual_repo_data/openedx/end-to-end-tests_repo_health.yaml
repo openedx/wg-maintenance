@@ -1,9 +1,9 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-23
 dependabot:
-    exists: false
+    exists: true
     has_ecosystem:
-        github-actions: false
-        npm: false
+        github-actions: true
+        npm: true
         pip: false
 dependabot_alerts: {}
 dependencies:
@@ -13,16 +13,16 @@ dependencies:
         list: ''
     js:
         count: 3
-        list: '{"dotenv": "^17.4.2", "tldts": "^7.4.10", "zod": "^4.4.3"}'
+        list: '{"dotenv": "^17.4.2", "tldts": "^7.4.11", "zod": "^4.6.5"}'
     js.all:
         count: 0
         list: '{}'
     js.dev:
         count: 10
         list: '{"@axe-core/playwright": "^4.13.0", "@eslint/js": "^10.0.1", "@playwright/test":
-            "^1.62.1", "@types/node": "^26.2.0", "eslint": "^10.8.1", "eslint-config-prettier":
-            "^10.1.8", "eslint-plugin-playwright": "^2.11.0", "prettier": "^3.9.6",
-            "typescript": "^6.0.3", "typescript-eslint": "^8.67.0"}'
+            "^1.62.1", "@types/node": "^26.5.1", "eslint": "^10.10.0", "eslint-config-prettier":
+            "^10.1.8", "eslint-plugin-playwright": "^2.12.0", "prettier": "^3.9.6",
+            "typescript": "^6.0.3", "typescript-eslint": "^8.70.0"}'
     pypi:
         count: 0
         list: ''
@@ -51,7 +51,7 @@ exists:
     Makefile: false
     README: true
     commitlint.yml: true
-    dependabot.yml: false
+    dependabot.yml: true
     openedx.yaml: false
     package.json: true
     pylintrc: false
@@ -65,25 +65,20 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 5
-    build_details: '{"total_duration": "2556 minutes 14 seconds", "checks": [{"name":
-        "local", "duration": "32 minutes 3 seconds"}, {"name": "local", "duration":
-        "19 minutes 43 seconds"}, {"name": "Lint, types & unit tests", "duration":
-        "0 minutes 19 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "0
-        minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 7
+    build_details: '{"total_duration": "1654 minutes 24 seconds", "checks": [{"name":
+        "Docker: main environment / local", "duration": "33 minutes 16 seconds"},
+        {"name": "Docker: last release (verawood) / local", "duration": "27 minutes
+        36 seconds"}, {"name": "build", "duration": "20 minutes 40 seconds"}, {"name":
+        "build", "duration": "16 minutes 47 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 1 seconds"}, {"name": "Lint, types & unit tests", "duration": "0
+        minutes 36 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 5
     created_at: 2026-06-18 19:35:55
     default_branch: main
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 231
+    disk_usage_kb: 1696
     fork_count: 1
     has_issues: true
     has_wiki: false
@@ -92,21 +87,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-28 18:33:12
+    last_push: 2026-09-22 22:50:57
     license: Apache License 2.0
-    median_pr_response_seconds: 127172
-    pr_closure_ratio_90d: 0.6667
-    pulls_count: 3
+    median_pr_response_seconds: 329359
+    pr_closure_ratio_90d: 0.8974
+    pulls_count: 4
     release_count_12mo: 0
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
-    javascript: 3936
+    javascript: 7584
     makefile: 0
-    python: 0
-    shell: 0
+    python: 17965
+    shell: 1885
 makefile:
     pip-installed: false
     quality: false
@@ -144,6 +139,7 @@ readme:
     - https://playwright.dev/
     - https://github.com/nvm-sh/nvm
     - https://github.com/openedx/end-to-end-tests/issues/10
+    - https://github.com/openedx/openedx-platform/issues/39117
     irc-missing: true
     mailing-list-missing: true
     security: false

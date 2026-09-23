@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,28 +7,24 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 22
+    count: 16
     github:
         count: 0
         list: ''
     js:
-        count: 12
-        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.3", "@edx/frontend-component-header":
-            "^8.0.0", "@edx/frontend-platform": "^8.7.0", "@edx/openedx-atlas": "^0.7.0",
-            "@openedx/frontend-plugin-framework": "^1.7.0", "@openedx/paragon": "^23.15.1",
-            "@tanstack/react-query": "5.96.2", "lodash.debounce": "^4.0.8", "react":
-            "^18.3.1", "react-dom": "^18.3.1", "react-error-boundary": "^4.1.2", "react-router-dom":
-            "^6.30.3"}'
+        count: 4
+        list: '{"@edx/openedx-atlas": "^0.7.0", "lodash.debounce": "^4.0.8", "react-error-boundary":
+            "^4.1.2", "react-helmet": "^6.1.0"}'
     js.all:
         count: 0
         list: '{}'
     js.dev:
-        count: 10
-        list: '{"@edx/browserslist-config": "^1.1.1", "@edx/typescript-config": "1.1.0",
-            "@openedx/frontend-build": "^14.6.6", "@testing-library/dom": "^10.4.1",
+        count: 12
+        list: '{"@edx/browserslist-config": "^1.1.1", "@testing-library/dom": "^10.4.1",
             "@testing-library/jest-dom": "^6.6.4", "@testing-library/react": "^16.3.0",
-            "@testing-library/user-event": "^14.6.1", "@types/react": "^18", "@types/react-dom":
-            "^18", "ts-jest": "^29.4.5"}'
+            "@testing-library/user-event": "^14.6.1", "@types/jest": "^29.5.14", "@types/react":
+            "^18", "@types/react-dom": "^18", "@types/react-helmet": "^6.1.11", "nodemon":
+            "^3.1.14", "tsc-alias": "^1.9.1", "turbo": "^2.10.11"}'
     pypi:
         count: 0
         list: ''
@@ -71,18 +67,24 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 11
-    build_details: '{"total_duration": "0 minutes 0 seconds", "checks": [{"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 7
+    build_details: '{"total_duration": "2 minutes 32 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 53 seconds"}, {"name": "Release", "duration":
+        "0 minutes 50 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 5 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 9
+    contributor_count_90d: 10
     created_at: 2025-09-23 11:32:49
     default_branch: master
     description: Administrator console for the Open edX application
-    disk_usage_kb: 1495
-    fork_count: 12
+    disk_usage_kb: 1426
+    fork_count: 13
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -90,19 +92,19 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:26:10
+    last_push: 2026-09-21 21:43:06
     license: GNU AGPLv3
-    median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.8163
-    pulls_count: 12
-    release_count_12mo: 5
+    median_pr_response_seconds: 134
+    pr_closure_ratio_90d: 0.9298
+    pulls_count: 7
+    release_count_12mo: 10
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 457
-    javascript: 744
-    makefile: 1556
+    javascript: 1139
+    makefile: 2136
     python: 0
     shell: 0
 makefile:
@@ -110,7 +112,7 @@ makefile:
     quality: false
     quality-js: false
     quality-python: false
-    test: false
+    test: true
     test-js: false
     test-python: false
     upgrade: false
@@ -123,23 +125,33 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://github.com/openedx/frontend-app-admin-console/blob/main/LICENSE: 404'
+    - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
+        port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
+        port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-admin-console:
+        404'
     getting-help: true
     good_links:
     - https://img.shields.io/github/license/openedx/frontend-app-admin-console.svg
+    - https://github.com/openedx/frontend-app-admin-console/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-admin-console/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-admin-console/actions/workflows/ci.yml
-    - https://codecov.io/github/openedx/frontend-app-admin-console/coverage.svg?branch=main
-    - https://codecov.io/github/openedx/frontend-app-admin-console?branch=main
-    - https://github.com/overhangio/tutor-mfe?tab=readme-ov-file
+    - https://codecov.io/github/openedx/frontend-app-admin-console/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-app-admin-console?branch=master
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
+    - https://github.com/openedx/frontend-app-admin-console/tree/legacy-mfe
+    - https://github.com/overhangio/tutor
     - https://github.com/openedx/openedx-authz
-    - https://github.com/openedx/frontend-plugin-framework
+    - https://github.com/openedx/frontend-base
+    - https://github.com/openedx/frontend-base/blob/main/docs/decisions/0009-slot-naming-and-lifecycle.rst
     - https://openedx.atlassian.net/wiki/x/M4B4MgE
     - https://openedx.atlassian.net/wiki/x/AgAwMQE
     - https://discuss.openedx.org
+    - https://github.com/openedx/frontend-app-admin-console/issues
     - https://openedx.org/slack
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
@@ -155,7 +167,7 @@ renovate:
     configured: true
     last_pr: '2026-07-01'
     oldest_open_pr_date: '2026-03-30'
-    total_open_prs: 3
+    total_open_prs: 1
 requires:
     django: false
     pytest: false

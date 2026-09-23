@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,32 +62,22 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
-    build_details: '{"total_duration": "9272 minutes 7 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 11 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 48 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 31 seconds"}, {"name": "run_ci
-        / django42", "duration": "0 minutes 24 seconds"}, {"name": "django42", "duration":
-        "0 minutes 23 seconds"}, {"name": "run_ci / django52", "duration": "0 minutes
-        20 seconds"}, {"name": "django52", "duration": "0 minutes 19 seconds"}, {"name":
-        "docs", "duration": "0 minutes 15 seconds"}, {"name": "lint", "duration":
-        "0 minutes 14 seconds"}, {"name": "run_ci / docs", "duration": "0 minutes
-        14 seconds"}, {"name": "run_ci / lint", "duration": "0 minutes 10 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes 59 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 50 seconds"}]}'
+    branch_count: 6
+    build_details: '{"total_duration": "1 minutes 16 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 47 seconds"}, {"name": "django42", "duration":
+        "0 minutes 23 seconds"}, {"name": "run_ci / django42", "duration": "0 minutes
+        23 seconds"}, {"name": "django52", "duration": "0 minutes 19 seconds"}, {"name":
+        "run_ci / docs", "duration": "0 minutes 17 seconds"}, {"name": "run_ci / django52",
+        "duration": "0 minutes 17 seconds"}, {"name": "docs", "duration": "0 minutes
+        15 seconds"}, {"name": "run_ci / lint", "duration": "0 minutes 10 seconds"},
+        {"name": "lint", "duration": "0 minutes 9 seconds"}, {"name": "publish_to_pypi",
+        "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 4
     created_at: 2025-04-17 17:54:17
     default_branch: main
     description: ''
-    disk_usage_kb: 989
+    disk_usage_kb: 1009
     fork_count: 5
     has_issues: true
     has_wiki: false
@@ -96,20 +86,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:44:45
+    last_push: 2026-09-21 14:31:32
     license: GNU AGPLv3
-    median_pr_response_seconds: 58
-    pr_closure_ratio_90d: 0.9032
-    pulls_count: 4
-    release_count_12mo: 18
+    median_pr_response_seconds: 61
+    pr_closure_ratio_90d: 0.963
+    pulls_count: 1
+    release_count_12mo: 20
 github_actions: true
 language_bytes:
     css: 9625
     dockerfile: 0
-    html: 25498
+    html: 25496
     javascript: 26607
     makefile: 2090
-    python: 195097
+    python: 206562
     shell: 0
 makefile:
     pip-installed: false

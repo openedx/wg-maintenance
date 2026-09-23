@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -69,19 +69,18 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 6
-    build_details: '{"total_duration": "228 minutes 52 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 32 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 27 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 7
+    build_details: '{"total_duration": "5 minutes 59 seconds", "checks": [{"name":
+        "Dependabot", "duration": "2 minutes 32 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 5
     created_at: 2025-03-21 15:08:32
     default_branch: main
     description: Frontend plugins for Aspects
-    disk_usage_kb: 1881
+    disk_usage_kb: 2354
     fork_count: 6
     has_issues: true
     has_wiki: false
@@ -90,11 +89,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:49:58
+    last_push: 2026-09-21 14:33:30
     license: GNU AGPLv3
     median_pr_response_seconds: 132
-    pr_closure_ratio_90d: 0.9767
-    pulls_count: 1
+    pr_closure_ratio_90d: 0.9434
+    pulls_count: 3
     release_count_12mo: 6
 github_actions: true
 language_bytes:
@@ -124,7 +123,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-aspects:
         404'
     getting-help: true
@@ -154,9 +153,9 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2026-08-18'
-    oldest_open_pr_date: '2026-08-18'
-    total_open_prs: 1
+    last_pr: '2026-09-22'
+    oldest_open_pr_date: '2026-09-14'
+    total_open_prs: 2
 requires:
     django: false
     pytest: false

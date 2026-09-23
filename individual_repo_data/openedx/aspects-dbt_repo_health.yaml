@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,14 +63,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 18
-    build_details: '{"total_duration": "39780 minutes 52 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "49859 minutes 55 seconds", "checks": [{"name":
         "Deploy dbt docs to github pages", "duration": "4 minutes 47 seconds"}, {"name":
         "Check coverage & run tests", "duration": "2 minutes 57 seconds"}, {"name":
         "Dependabot", "duration": "0 minutes 44 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 40 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 40 seconds"}, {"name": "Dependabot", "duration": "0 minutes 33 seconds"},
-        {"name": "routeissue / add_label", "duration": "-1 minutes 59 seconds"}, {"name":
-        "routeissue / add_and_notify", "duration": "-1 minutes 59 seconds"}]}'
+        minutes 40 seconds"}, {"name": "Dependabot", "duration": "0 minutes 35 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 33 seconds"}, {"name": "routeissue
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "routeissue /
+        add_and_notify", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2023-05-24 17:11:54
@@ -87,10 +88,10 @@ github:
     is_private: false
     last_push: 2026-07-30 14:21:43
     license: Apache License 2.0
-    median_pr_response_seconds: 33570
+    median_pr_response_seconds: 34753
     pr_closure_ratio_90d: 1.0
     pulls_count: 0
-    release_count_12mo: 10
+    release_count_12mo: 9
 github_actions: true
 language_bytes:
     css: 0
@@ -118,6 +119,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/openedx-event-sink-clickhouse:
         404'
@@ -129,7 +131,6 @@ readme:
     - https://docs.getdbt.com/reference/resource-properties/unit-tests
     - https://discuss.openedx.org
     - https://github.com/openedx/aspects-dbt/issues
-    - https://openedx.org/slack
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/

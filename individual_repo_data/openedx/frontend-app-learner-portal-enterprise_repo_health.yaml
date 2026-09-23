@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -89,15 +89,17 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 152
-    build_details: '{"total_duration": "1 minutes 8 seconds", "checks": [{"name":
-        "generate", "duration": "1 minutes 8 seconds"}]}'
+    branch_count: 158
+    build_details: '{"total_duration": "2216 minutes 26 seconds", "checks": [{"name":
+        "tests", "duration": "5 minutes 7 seconds"}, {"name": "generate", "duration":
+        "1 minutes 5 seconds"}, {"name": "generate", "duration": "1 minutes 4 seconds"},
+        {"name": "version-check / version-check", "duration": "0 minutes 8 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2019-09-23 14:57:34
     default_branch: master
     description: Enterprise Learner Portal
-    disk_usage_kb: 21897
+    disk_usage_kb: 21894
     fork_count: 33
     has_issues: true
     has_wiki: false
@@ -106,11 +108,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 04:24:45
+    last_push: 2026-09-22 04:22:46
     license: GNU AGPLv3
-    median_pr_response_seconds: 327
-    pr_closure_ratio_90d: 0.4565
-    pulls_count: 57
+    median_pr_response_seconds: 331
+    pr_closure_ratio_90d: 0.3617
+    pulls_count: 63
     release_count_12mo: 0
 github_actions: true
 language_bytes:

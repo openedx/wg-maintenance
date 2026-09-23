@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-08-31
+TIMESTAMP: 2026-09-23
 dependabot:
     exists: false
     has_ecosystem:
@@ -102,7 +102,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-08-31 00:17:31
+    last_push: 2026-09-21 00:16:59
     license: GNU AGPLv3
     median_pr_response_seconds: 1743
     pr_closure_ratio_90d: 1.0
@@ -136,7 +136,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-communications:
         404'
     getting-help: false
