@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -118,7 +118,7 @@ github:
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 353993
+    disk_usage_kb: 354150
     fork_count: 101
     has_issues: true
     has_wiki: false
@@ -127,7 +127,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-22 14:29:20
+    last_push: 2026-09-23 14:25:08
     license: Apache License 2.0
     median_pr_response_seconds: 3
     pr_closure_ratio_90d: 0.95
@@ -154,9 +154,9 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: group:committers-paragon
+    owner_kind: group
+    owner_name: committers-paragon
 pinned_python_dependencies: 0
 readme:
     bad_links:

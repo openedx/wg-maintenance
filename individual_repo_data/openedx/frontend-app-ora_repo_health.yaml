@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -80,9 +80,11 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 20
-    build_details: '{"total_duration": "4 minutes 7 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "2804 minutes 39 seconds", "checks": [{"name":
         "test", "duration": "4 minutes 7 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 3 seconds"}]}'
+        "duration": "0 minutes 3 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
+        "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2023-07-12 21:42:38
@@ -124,9 +126,9 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: group:committers-frontend
+    owner_kind: group
+    owner_name: committers-frontend
 pinned_python_dependencies: 0
 readme:
     bad_links:

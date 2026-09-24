@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,12 +7,12 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 89
+    count: 88
     github:
         count: 0
         list: ''
     js:
-        count: 71
+        count: 70
         list: '{"@codemirror/lang-html": "^6.0.0", "@codemirror/lang-markdown": "^6.0.0",
             "@codemirror/lang-xml": "^6.0.0", "@codemirror/lint": "^6.2.1", "@codemirror/state":
             "^6.0.0", "@codemirror/view": "^6.0.0", "@dnd-kit/core": "^6.1.0", "@dnd-kit/modifiers":
@@ -37,17 +37,16 @@ dependencies:
             "2.11.2", "@tanstack/react-query": "5.95.2", "@tanstack/react-table":
             "^8.21.3", "@tinymce/tinymce-react": "^6.0.0", "classnames": "2.5.1",
             "codemirror": "^6.0.0", "email-validator": "2.0.4", "fast-xml-parser":
-            "5.11.1", "file-saver": "^2.0.5", "formik": "2.4.9", "frontend-components-tinymce-advanced-plugins":
-            "^1.0.3", "jszip": "^3.10.1", "lodash": "4.18.1", "meilisearch": "^0.41.0",
-            "moment": "2.30.1", "moment-shortformat": "^2.1.0", "prop-types": "^15.8.1",
-            "react": "^18.3.1", "react-datepicker": "^8.10.0", "react-dom": "^18.3.1",
-            "react-error-boundary": "^4.0.13", "react-helmet": "^6.1.0", "react-onclickoutside":
-            "^6.13.0", "react-redux": "7.2.9", "react-responsive": "10.0.1", "react-router":
-            "6.30.3", "react-router-dom": "6.30.3", "react-select": "5.10.2", "react-textarea-autosize":
-            "^8.5.3", "react-transition-group": "4.4.5", "redux": "4.2.1", "redux-logger":
-            "^3.0.6", "redux-thunk": "^2.4.1", "reselect": "^4.1.5", "tinymce": "^5.10.4",
-            "universal-cookie": "^8.0.0", "uuid": "^11.1.0", "xmlchecker": "^0.1.0",
-            "yup": "0.32.11"}'
+            "5.11.1", "file-saver": "^2.0.5", "formik": "2.4.9", "jszip": "^3.10.1",
+            "lodash": "4.18.1", "meilisearch": "^0.41.0", "moment": "2.30.1", "moment-shortformat":
+            "^2.1.0", "prop-types": "^15.8.1", "react": "^18.3.1", "react-datepicker":
+            "^8.10.0", "react-dom": "^18.3.1", "react-error-boundary": "^4.0.13",
+            "react-helmet": "^6.1.0", "react-onclickoutside": "^6.13.0", "react-redux":
+            "7.2.9", "react-responsive": "10.0.1", "react-router": "6.30.3", "react-router-dom":
+            "6.30.3", "react-select": "5.10.2", "react-textarea-autosize": "^8.5.3",
+            "react-transition-group": "4.4.5", "redux": "4.2.1", "redux-logger": "^3.0.6",
+            "redux-thunk": "^2.4.1", "reselect": "^4.1.5", "tinymce": "^7.0.0", "universal-cookie":
+            "^8.0.0", "uuid": "^11.1.0", "xmlchecker": "^0.1.0", "yup": "0.32.11"}'
     js.all:
         count: 0
         list: '{}'
@@ -103,24 +102,19 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 33
-    build_details: '{"total_duration": "545 minutes 59 seconds", "checks": [{"name":
-        "copilot-pull-request-reviewer", "duration": "11 minutes 58 seconds"}, {"name":
-        "copilot-pull-request-reviewer", "duration": "10 minutes 4 seconds"}, {"name":
-        "tests", "duration": "9 minutes 16 seconds"}, {"name": "coverage", "duration":
-        "0 minutes 11 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 6 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 32
+    build_details: '{"total_duration": "9 minutes 26 seconds", "checks": [{"name":
+        "tests", "duration": "9 minutes 14 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 9 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 25
+    contributor_count_90d: 23
     created_at: 2020-05-06 18:34:51
     default_branch: master
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 52925
-    fork_count: 218
+    disk_usage_kb: 53592
+    fork_count: 217
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -128,18 +122,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-23 02:39:40
+    last_push: 2026-09-24 04:52:16
     license: GNU AGPLv3
     median_pr_response_seconds: 7
     pr_closure_ratio_90d: 0.77
-    pulls_count: 40
+    pulls_count: 41
     release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 388
-    javascript: 2830183
+    javascript: 2830647
     makefile: 1967
     python: 0
     shell: 0
@@ -155,15 +149,25 @@ makefile:
 npm_package: '@edx/frontend-app-authoring'
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: user:bradenmacdonald
+    owner_kind: user
+    owner_name: bradenmacdonald
 pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://cdn.example.com/tinymce/plugins/a11ychecker/plugin.min.js: HTTPSConnectionPool(host=''cdn.example.com'',
+        port=443): Max retries exceeded with url: /tinymce/plugins/a11ychecker/plugin.min.js
+        (Caused by NameResolutionError("HTTPSConnection(host=''cdn.example.com'',
+        port=443): Failed to resolve ''cdn.example.com'' ([Errno -5] No address associated
+        with hostname)"))'
+    - 'https://cdn.example.com/tinymce/plugins/powerpaste/plugin.min.js: HTTPSConnectionPool(host=''cdn.example.com'',
+        port=443): Max retries exceeded with url: /tinymce/plugins/powerpaste/plugin.min.js
+        (Caused by NameResolutionError("HTTPSConnection(host=''cdn.example.com'',
+        port=443): Failed to resolve ''cdn.example.com'' ([Errno -5] No address associated
+        with hostname)"))'
     - 'https://travis-ci.com/edx/frontend-app-course-authoring: 404'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
@@ -179,6 +183,7 @@ readme:
     - https://discuss.openedx.org/t/repo-rename-frontend-app-course-authoring-frontend-app-authoring/13930/2
     - https://github.com/openedx/frontend-app-learning
     - https://github.com/openedx/frontend-app-discussions/
+    - https://www.tiny.cloud/
     - https://github.com/edx/edx-exams
     - https://github.com/open-craft/tutor-contrib-meilisearch
     - https://docs.tutor.edly.io/
@@ -212,7 +217,7 @@ renovate:
     configured: true
     last_pr: '2026-09-19'
     oldest_open_pr_date: '2026-07-21'
-    total_open_prs: 4
+    total_open_prs: 3
 requires:
     django: false
     pytest: false

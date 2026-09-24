@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -116,14 +116,14 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: group:committers-frontend
+    owner_kind: group
+    owner_name: committers-frontend
 pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-aspects:
         404'
     getting-help: true

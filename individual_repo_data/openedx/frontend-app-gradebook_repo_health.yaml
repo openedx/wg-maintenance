@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -70,21 +70,24 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 70
-    build_details: '{"total_duration": "1645 minutes 10 seconds", "checks": [{"name":
-        "test", "duration": "1 minutes 44 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 0 seconds"}, {"name": "Release", "duration": "0 minutes 49 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 49 seconds"}, {"name": "version-check
-        / version-check", "duration": "0 minutes 4 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 54 seconds"}]}'
+    build_details: '{"total_duration": "398 minutes 17 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 19 seconds"}, {"name": "Release", "duration":
+        "0 minutes 50 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2018-10-17 15:49:15
     default_branch: master
     description: Instructor grade book tool
-    disk_usage_kb: 10365
+    disk_usage_kb: 10366
     fork_count: 122
     has_issues: true
     has_wiki: false
@@ -93,10 +96,10 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-21 15:27:20
+    last_push: 2026-09-23 09:50:20
     license: GNU AGPLv3
-    median_pr_response_seconds: 202
-    pr_closure_ratio_90d: 0.5625
+    median_pr_response_seconds: 201
+    pr_closure_ratio_90d: 0.5714
     pulls_count: 29
     release_count_12mo: 9
 github_actions: true
@@ -104,7 +107,7 @@ language_bytes:
     css: 0
     dockerfile: 0
     html: 381
-    javascript: 254576
+    javascript: 254784
     makefile: 2136
     python: 0
     shell: 0
@@ -120,9 +123,9 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: user:farhaanbukhsh
+    owner_kind: user
+    owner_name: farhaanbukhsh
 pinned_python_dependencies: 0
 readme:
     bad_links:

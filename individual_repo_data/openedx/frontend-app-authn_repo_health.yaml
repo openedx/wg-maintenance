@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -89,7 +89,7 @@ github:
     description: Open edX micro-frontend application for new login and registration
         experience.
     disk_usage_kb: 18204
-    fork_count: 263
+    fork_count: 262
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -124,9 +124,9 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: group:2u-infinity
+    owner_kind: group
+    owner_name: 2u-infinity
 pinned_python_dependencies: 0
 readme:
     bad_links:

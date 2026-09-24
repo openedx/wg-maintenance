@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: false
     has_ecosystem:
@@ -112,15 +112,15 @@ makefile:
 npm_package: '@edx/edx-bootstrap'
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: group:openedx-unmaintained
+    owner_kind: group
+    owner_name: openedx-unmaintained
 pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://badge.fury.io/js/%40edx%2Fedx-bootstrap: 403'
     - 'https://openedx.slack.com/messages/C0EUBSV7D: 403'
-    - 'https://openedx.slack.com/messages/C02BMP2RD5Y: 403'
+    - 'https://openedx.slack.com/messages/C02BMP2RD5Y: 429'
     getting-help: false
     good_links:
     - https://badge.fury.io/js/%40edx%2Fedx-bootstrap.svg
