@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,22 +68,16 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 4
-    build_details: '{"total_duration": "3360 minutes 31 seconds", "checks": [{"name":
-        "Dependabot", "duration": "2 minutes 2 seconds"}, {"name": "test", "duration":
-        "1 minutes 30 seconds"}, {"name": "Release", "duration": "0 minutes 50 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 49 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 45 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 44 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 54 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        51 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        40 seconds"}]}'
+    build_details: '{"total_duration": "3 minutes 56 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 8 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 52 seconds"}, {"name": "Dependabot", "duration": "0 minutes 39
+        seconds"}, {"name": "Release", "duration": "0 minutes 31 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2026-05-28 13:40:16
     default_branch: main
     description: ''
-    disk_usage_kb: 1154
+    disk_usage_kb: 1158
     fork_count: 4
     has_issues: true
     has_wiki: false
@@ -92,10 +86,10 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-08 16:17:05
+    last_push: 2026-09-23 12:03:09
     license: GNU AGPLv3
-    median_pr_response_seconds: 126
-    pr_closure_ratio_90d: 0.8824
+    median_pr_response_seconds: 123
+    pr_closure_ratio_90d: 0.8889
     pulls_count: 2
     release_count_12mo: 5
 github_actions: true
@@ -119,9 +113,9 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: group:frontend-app-aspects-maintainers
+    owner_kind: group
+    owner_name: frontend-app-aspects-maintainers
 pinned_python_dependencies: 0
 readme:
     bad_links:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-23
+TIMESTAMP: 2026-09-24
 dependabot:
     exists: false
     has_ecosystem:
@@ -69,10 +69,12 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "384 minutes 28 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "1529 minutes 59 seconds", "checks": [{"name":
         "tests", "duration": "0 minutes 41 seconds"}, {"name": "routeissue / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "0 minutes 0 seconds"}]}'
+        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2025-06-27 13:43:21
@@ -90,8 +92,8 @@ github:
     last_push: 2026-09-22 09:49:08
     license: GNU AGPLv3
     median_pr_response_seconds: 13298
-    pr_closure_ratio_90d: 0.8667
-    pulls_count: 2
+    pr_closure_ratio_90d: 0.8125
+    pulls_count: 3
     release_count_12mo: 1
 github_actions: true
 language_bytes:
@@ -114,9 +116,9 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
-    owner: ''
-    owner_kind: ''
-    owner_name: ''
+    owner: group:committers-frontend
+    owner_kind: group
+    owner_name: committers-frontend
 pinned_python_dependencies: 0
 readme:
     bad_links:
