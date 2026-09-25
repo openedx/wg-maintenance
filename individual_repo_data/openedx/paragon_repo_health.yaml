@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -97,7 +97,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 174
+    branch_count: 175
     build_details: '{"total_duration": "13 minutes 21 seconds", "checks": [{"name":
         "tests", "duration": "12 minutes 56 seconds"}, {"name": "Release", "duration":
         "12 minutes 55 seconds"}, {"name": "Pages changed - paragon-openedx", "duration":
@@ -118,7 +118,7 @@ github:
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 354150
+    disk_usage_kb: 354152
     fork_count: 101
     has_issues: true
     has_wiki: false
@@ -127,11 +127,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-23 14:25:08
+    last_push: 2026-09-24 14:17:21
     license: Apache License 2.0
     median_pr_response_seconds: 3
-    pr_closure_ratio_90d: 0.95
-    pulls_count: 54
+    pr_closure_ratio_90d: 0.94
+    pr_opened_90d: 100
+    pulls_count: 55
     release_count_12mo: 34
 github_actions: true
 language_bytes:
@@ -154,9 +155,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: group:committers-paragon
     owner_kind: group
     owner_name: committers-paragon
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

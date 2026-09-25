@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -81,6 +81,7 @@ github:
     is_private: false
     last_push: 2026-05-19 13:23:02
     license: Other
+    pr_opened_90d: 0
     pulls_count: 0
     release_count_12mo: 0
 github_actions: true
@@ -104,9 +105,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: website
+    lifecycle: production
     owner: user:sarina
     owner_kind: user
     owner_name: sarina
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

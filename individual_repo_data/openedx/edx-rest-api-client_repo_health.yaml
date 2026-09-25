@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -93,9 +93,10 @@ github:
     is_private: false
     last_push: 2026-09-22 05:04:17
     license: Apache License 2.0
-    median_pr_response_seconds: 868571
-    pr_closure_ratio_90d: 0.7407
-    pulls_count: 15
+    median_pr_response_seconds: 253704
+    pr_closure_ratio_90d: 0.7143
+    pr_opened_90d: 28
+    pulls_count: 16
     release_count_12mo: 2
 github_actions: true
 language_bytes:
@@ -118,9 +119,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: user:usamasadiq
     owner_kind: user
     owner_name: usamasadiq
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

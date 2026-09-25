@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -102,6 +102,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 83794
     pr_closure_ratio_90d: 1.0
+    pr_opened_90d: 19
     pulls_count: 0
     release_count_12mo: 2
 github_actions: true
@@ -125,9 +126,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: user:moisesgsalas
     owner_kind: user
     owner_name: moisesgsalas
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

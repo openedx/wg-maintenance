@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,47 +22,47 @@ dependencies:
         list: ''
     pypi:
         count: 5
-        list: '["sqlparse==0.4.4", "backports-zoneinfo==0.2.1 ; python_version < \"3.9\"",
-            "typing-extensions==4.10.0", "django==4.2.11", "asgiref==3.8.1"]'
+        list: '["sqlparse==0.4.4", "django==4.2.11", "typing-extensions==4.10.0",
+            "backports-zoneinfo==0.2.1 ; python_version < \"3.9\"", "asgiref==3.8.1"]'
     pypi_all:
         count: 94
-        list: '["tomlkit==0.15.1", "filelock==4.0.1", "markdown-it-py==4.2.0", "requests==2.34.2",
-            "codecov==2.1.13", "typing-extensions==4.10.0", "tomli-w==1.2.0", "pyyaml==6.0.3",
-            "click-log==0.4.0", "polib==1.2.0", "pytest-catchlog==1.2.2", "py==1.11.0",
-            "packaging==26.3", "tox==4.63.0", "sqlparse==0.6.0", "asgiref==3.12.1",
-            "six==1.17.0", "path==16.16.0", "code-annotations==3.0.0", "markupsafe==3.0.3",
-            "edx-lint==6.2.0", "pygments==2.21.0", "platformdirs==4.11.12", "iniconfig==2.3.0",
-            "backports-zoneinfo==0.2.1 ; python_version < \"3.9\"", "edx-i18n-tools==2.0.0",
-            "dill==0.4.1", "pycparser==3.0", "astroid==4.0.4", "pytest==9.1.1", "pyproject-api==1.11.2",
-            "typing-extensions==4.16.0", "chardet==7.6.0", "wheel==0.48.0", "pyproject-hooks==1.3.3",
-            "id==1.6.1", "pytest-django==4.14.0", "virtualenv==21.11.0", "pylint-django==2.8.0",
-            "pip-tools==7.6.1", "more-itertools==11.1.0", "edx-django-release-util==1.5.0",
-            "urllib3==2.8.0", "pylint-plugin-utils==0.9.0", "mypy-extensions==1.1.0",
-            "distlib==0.4.3", "pluggy==1.6.0", "asgiref==3.8.1", "coverage[toml]==7.16.1",
-            "charset-normalizer==3.5.1", "setuptools==84.0.0", "rich==15.0.0", "pytest-cov==7.1.0",
-            "lxml-html-clean==0.4.5", "certifi==2026.7.22", "django==4.2.11", "cachetools==7.2.0",
-            "nh3==0.3.7", "jinja2==3.1.6", "pydocstyle==6.3.0", "pip==26.2", "docutils==0.23",
-            "idna==3.20", "snowballstemmer==3.1.1", "sqlparse==0.4.4", "rfc3986==2.0.0",
-            "django==5.2.17", "requests-toolbelt==1.0.0", "python-discovery==1.6.1",
-            "lxml[html-clean]==6.1.3", "colorama==0.4.6", "jaraco-classes==3.4.0",
-            "pylint==4.0.8", "cffi==2.1.1", "isort==9.0.1", "jaraco-context==6.1.2",
-            "python-slugify==9.1.1", "jeepney==0.9.0", "mccabe==0.7.0", "text-unidecode==1.3",
-            "click==8.5.0", "keyring==25.7.0", "twine==7.0.0", "secretstorage==3.5.0",
-            "jaraco-functools==4.6.0", "readme-renderer==46.0", "build==1.6.1", "stevedore==5.9.1",
-            "pylint-celery==0.3", "diff-cover==10.6.0", "pycodestyle==2.15.0", "cryptography==50.0.1",
-            "mdurl==0.1.2", "coverage==7.16.1"]'
+        list: '["asgiref==3.12.1", "six==1.17.0", "python-discovery==1.6.1", "isort==9.0.1",
+            "diff-cover==10.6.0", "pip==26.2", "chardet==7.6.0", "pyproject-api==1.11.2",
+            "snowballstemmer==3.1.1", "platformdirs==4.11.12", "certifi==2026.7.22",
+            "pydocstyle==6.3.0", "edx-django-release-util==1.5.0", "click==8.5.0",
+            "packaging==26.3", "virtualenv==21.11.0", "lxml[html-clean]==6.1.3", "polib==1.2.0",
+            "pyyaml==6.0.3", "tomlkit==0.15.1", "astroid==4.0.4", "pytest-catchlog==1.2.2",
+            "colorama==0.4.6", "asgiref==3.8.1", "pylint==4.0.8", "django==5.2.17",
+            "text-unidecode==1.3", "coverage[toml]==7.16.1", "iniconfig==2.3.0", "tox==4.63.0",
+            "jinja2==3.1.6", "pycparser==3.0", "py==1.11.0", "requests-toolbelt==1.0.0",
+            "pylint-celery==0.3", "cachetools==7.2.0", "setuptools==84.0.0", "wheel==0.48.0",
+            "cffi==2.1.1", "urllib3==2.8.0", "id==1.6.1", "edx-lint==6.2.0", "readme-renderer==46.0",
+            "secretstorage==3.5.0", "click-log==0.4.0", "jaraco-classes==3.4.0", "coverage==7.16.1",
+            "path==16.16.0", "mdurl==0.1.2", "docutils==0.23", "markupsafe==3.0.3",
+            "tomli-w==1.2.0", "python-slugify==9.1.1", "pluggy==1.6.0", "jaraco-functools==4.6.0",
+            "typing-extensions==4.10.0", "mccabe==0.7.0", "pylint-django==2.8.0",
+            "requests==2.34.2", "rich==15.0.0", "edx-i18n-tools==2.0.0", "pyproject-hooks==1.3.3",
+            "twine==7.0.0", "pycodestyle==2.15.0", "stevedore==5.9.1", "pylint-plugin-utils==0.9.0",
+            "jeepney==0.9.0", "keyring==25.7.0", "codecov==2.1.13", "nh3==0.3.7",
+            "sqlparse==0.6.0", "django==4.2.11", "code-annotations==3.0.0", "mypy-extensions==1.1.0",
+            "pytest-cov==7.1.0", "rfc3986==2.0.0", "lxml-html-clean==0.4.5", "more-itertools==11.1.0",
+            "typing-extensions==4.16.0", "backports-zoneinfo==0.2.1 ; python_version
+            < \"3.9\"", "pytest-django==4.14.0", "cryptography==50.0.1", "pip-tools==7.6.1",
+            "distlib==0.4.3", "markdown-it-py==4.2.0", "jaraco-context==6.1.2", "dill==0.4.1",
+            "build==1.6.1", "charset-normalizer==3.5.1", "sqlparse==0.4.4", "filelock==4.0.1",
+            "pytest==9.1.1", "pygments==2.21.0", "idna==3.20"]'
 django_packages:
     django_42:
         count: 5
-        list: '["code-annotations", "pytest-django", "edx-django-release-util", "edx-i18n-tools",
-            "pylint-django"]'
+        list: '["code-annotations", "edx-django-release-util", "pytest-django", "pylint-django",
+            "edx-i18n-tools"]'
     total:
         count: 5
-        list: '["code-annotations", "pytest-django", "edx-django-release-util", "edx-i18n-tools",
-            "pylint-django"]'
+        list: '["code-annotations", "edx-django-release-util", "pytest-django", "pylint-django",
+            "edx-i18n-tools"]'
     upgraded:
         count: 3
-        list: '["edx-i18n-tools", "edx-django-release-util", "code-annotations"]'
+        list: '["code-annotations", "edx-django-release-util", "edx-i18n-tools"]'
 docs:
     build_badge: false
     python_version: null
@@ -90,13 +90,17 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 59
-    build_details: '{"total_duration": "31 minutes 11 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 37 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 30 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, django52)", "duration": "0 minutes 30 seconds"}, {"name": "update-pip-graph",
-        "duration": "0 minutes 30 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
-        check_keywords)", "duration": "0 minutes 23 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, django42)", "duration": "0 minutes 21 seconds"}]}'
+    build_details: '{"total_duration": "1396 minutes 39 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 38 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 37 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 31 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 30 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)",
+        "duration": "0 minutes 30 seconds"}, {"name": "update-pip-graph", "duration":
+        "0 minutes 30 seconds"}, {"name": "Dependabot", "duration": "0 minutes 30
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 29 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 28 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, check_keywords)", "duration": "0 minutes 23 seconds"}, {"name": "tests
+        (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 21 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2017-04-26 19:09:45
@@ -115,6 +119,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 42043
     pr_closure_ratio_90d: 0.9333
+    pr_opened_90d: 15
     pulls_count: 4
     release_count_12mo: 1
 github_actions: true
@@ -138,9 +143,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: group:2u-arch-bom
     owner_kind: group
     owner_name: 2u-arch-bom
+    release: ''
 pinned_python_dependencies: 5
 readme:
     bad_links: []

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,7 +63,8 @@ github:
     allows_rebase_merge: false
     allows_squash_merge: false
     branch_count: 10
-    build_details: '{"total_duration": "1458 minutes 41 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "4371 minutes 57 seconds", "checks": [{"name":
+        "copilot-pull-request-reviewer", "duration": "6 minutes 16 seconds"}, {"name":
         "copilot-pull-request-reviewer", "duration": "4 minutes 11 seconds"}, {"name":
         "update-uv-graph", "duration": "0 minutes 53 seconds"}, {"name": "release",
         "duration": "0 minutes 45 seconds"}, {"name": "run_tests / quality", "duration":
@@ -89,6 +90,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 110246
     pr_closure_ratio_90d: 0.9286
+    pr_opened_90d: 14
     pulls_count: 1
     release_count_12mo: 3
 github_actions: true
@@ -112,9 +114,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: xblock
+    lifecycle: unmaintained
     owner: axim-engineering
     owner_kind: unknown
     owner_name: axim-engineering
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -111,10 +111,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-13 22:16:03
+    last_push: 2026-09-24 22:50:21
     license: GNU AGPLv3
     median_pr_response_seconds: 51
     pr_closure_ratio_90d: 0.902
+    pr_opened_90d: 51
     pulls_count: 12
     release_count_12mo: 15
 github_actions: true
@@ -138,9 +139,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: group:committers-frontend-build
     owner_kind: group
     owner_name: committers-frontend-build
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

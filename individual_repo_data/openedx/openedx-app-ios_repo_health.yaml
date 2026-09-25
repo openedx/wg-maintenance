@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -93,8 +93,9 @@ github:
     last_push: 2026-09-22 10:53:18
     license: Apache License 2.0
     median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.7895
-    pulls_count: 6
+    pr_closure_ratio_90d: 0.8421
+    pr_opened_90d: 19
+    pulls_count: 5
     release_count_12mo: 7
 github_actions: true
 language_bytes:
@@ -117,9 +118,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: mobile
+    lifecycle: production
     owner: group:openedx-mobile-maintainers
     owner_kind: group
     owner_name: openedx-mobile-maintainers
+    release: main
 pinned_python_dependencies: 0
 readme:
     bad_links:

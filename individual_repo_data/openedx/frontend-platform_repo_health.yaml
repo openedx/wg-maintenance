@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -28,8 +28,8 @@ dependencies:
         count: 20
         list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.2", "@edx/browserslist-config":
             "1.5.0", "@openedx/frontend-build": "^14.3.0", "@openedx/paragon": "^23.3.0",
-            "@testing-library/dom": "10.4.0", "@testing-library/jest-dom": "6.6.3",
-            "@testing-library/react": "16.2.0", "@testing-library/user-event": "14.6.1",
+            "@testing-library/dom": "10.4.2", "@testing-library/jest-dom": "6.9.1",
+            "@testing-library/react": "16.3.3", "@testing-library/user-event": "14.6.7",
             "@types/node": "^25.6.0", "axios-mock-adapter": "^1.22.0", "jest-environment-jsdom":
             "29.7.0", "jest-localstorage-mock": "^2.4.26", "jsdoc": "^4.0.0", "nodemon":
             "3.1.11", "prop-types": "15.8.1", "react": "18.3.1", "react-dom": "18.3.1",
@@ -76,24 +76,20 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 48
-    build_details: '{"total_duration": "30237 minutes 3 seconds", "checks": [{"name":
-        "update-browserslist / update-dep", "duration": "0 minutes 58 seconds"}, {"name":
-        "update-browserslist / update-dep", "duration": "0 minutes 57 seconds"}, {"name":
-        "update-browserslist / update-dep", "duration": "0 minutes 43 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 52 seconds"}]}'
+    branch_count: 47
+    build_details: '{"total_duration": "1 minutes 57 seconds", "checks": [{"name":
+        "tests", "duration": "1 minutes 57 seconds"}, {"name": "Release", "duration":
+        "1 minutes 20 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2019-11-06 21:04:09
     default_branch: master
     description: A framework for Open edX micro-frontend applications.
-    disk_usage_kb: 37525
+    disk_usage_kb: 37615
     fork_count: 91
     has_issues: true
     has_wiki: false
@@ -102,11 +98,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-19 21:42:37
+    last_push: 2026-09-25 03:19:29
     license: GNU AGPLv3
     median_pr_response_seconds: 2
     pr_closure_ratio_90d: 1.0
-    pulls_count: 21
+    pr_opened_90d: 6
+    pulls_count: 20
     release_count_12mo: 8
 github_actions: true
 language_bytes:
@@ -129,9 +126,12 @@ makefile:
 npm_package: '@edx/frontend-platform'
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: group:committers-frontend
     owner_kind: group
     owner_name: committers-frontend
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
@@ -175,7 +175,7 @@ renovate:
     configured: true
     last_pr: '2026-07-01'
     oldest_open_pr_date: '2023-05-29'
-    total_open_prs: 10
+    total_open_prs: 9
 requires:
     django: false
     pytest: false

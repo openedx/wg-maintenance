@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -90,6 +90,7 @@ github:
     last_push: 2026-08-14 18:51:58
     license: Apache License 2.0
     pr_closure_ratio_90d: 1.0
+    pr_opened_90d: 1
     pulls_count: 2
     release_count_12mo: 0
 github_actions: true
@@ -113,9 +114,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: website
+    lifecycle: experimental
     owner: backstage-maintainers
     owner_kind: unknown
     owner_name: backstage-maintainers
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

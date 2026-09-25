@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -87,6 +87,7 @@ github:
     is_private: false
     last_push: 2026-05-30 14:52:54
     license: null
+    pr_opened_90d: 0
     pulls_count: 0
     release_count_12mo: 9
 github_actions: true
@@ -110,9 +111,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: service
+    lifecycle: production
     owner: GlugovGrGlib
     owner_kind: unknown
     owner_name: GlugovGrGlib
+    release: main
 pinned_python_dependencies: 0
 readme:
     bad_links: []

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,28 +22,28 @@ dependencies:
         list: ''
     pypi:
         count: 11
-        list: '["requests==2.33.1", "urllib3==2.6.3", "attrs==26.1.0", "youtube-dl==2021.12.17",
-            "sqlparse==0.5.5", "asgiref==3.11.1", "charset-normalizer==3.4.7", "django==5.2.13",
-            "idna==3.11", "certifi==2026.2.25", "lxml==6.0.2"]'
+        list: '["attrs==26.1.0", "requests==2.33.1", "urllib3==2.6.3", "sqlparse==0.5.5",
+            "lxml==6.0.2", "asgiref==3.11.1", "certifi==2026.2.25", "django==5.2.13",
+            "idna==3.11", "charset-normalizer==3.4.7", "youtube-dl==2021.12.17"]'
     pypi_all:
         count: 67
-        list: '["pytest-mock==3.15.1", "pytokens==0.4.1", "requests==2.33.1", "markdown-it-py==4.0.0",
-            "pytest==9.0.2", "mypy-extensions==1.1.0", "click==8.3.2", "cryptography==46.0.6",
-            "black==26.3.1", "packaging==26.0", "pytest-django==4.12.0", "xmlformatter==0.2.8",
-            "cffi==2.0.0", "jaraco-classes==3.4.0", "pathspec==1.0.4", "pluggy==1.6.0",
-            "keyring==25.7.0", "cachetools==7.0.5", "twine==6.2.0", "distlib==0.4.0",
-            "urllib3==2.6.3", "iniconfig==2.3.0", "readme-renderer==44.0", "filelock==3.25.2",
-            "charset-normalizer==3.4.7", "pip-tools==7.5.3", "bump2version==1.0.1",
-            "certifi==2026.2.25", "nh3==0.3.4", "colorama==0.4.6", "id==1.6.1", "build==1.4.2",
-            "docutils==0.22.4", "youtube-dl==2021.12.17", "secretstorage==3.5.0",
-            "platformdirs==4.9.4", "rich==14.3.3", "pygments==2.20.0", "jaraco-functools==4.4.0",
-            "python-discovery==1.2.1", "pyflakes==3.4.0", "django==5.2.13", "tox==4.52.0",
-            "coverage[toml]==7.13.5", "jaraco-context==6.1.2", "pycparser==3.0", "flake8==7.3.0",
-            "pip==26.0.1", "attrs==26.1.0", "mdurl==0.1.2", "requests-toolbelt==1.0.0",
-            "pytest-cov==7.1.0", "sqlparse==0.5.5", "setuptools==82.0.1", "virtualenv==21.2.0",
-            "pyproject-hooks==1.2.0", "mccabe==0.7.0", "jeepney==0.9.0", "asgiref==3.11.1",
-            "wheel==0.46.3", "more-itertools==11.0.1", "pycodestyle==2.14.0", "rfc3986==2.0.0",
-            "idna==3.11", "pyproject-api==1.10.0", "lxml==6.0.2", "tomli-w==1.2.0"]'
+        list: '["iniconfig==2.3.0", "jaraco-context==6.1.2", "nh3==0.3.4", "pluggy==1.6.0",
+            "pygments==2.20.0", "packaging==26.0", "cffi==2.0.0", "pyflakes==3.4.0",
+            "pycodestyle==2.14.0", "pytest==9.0.2", "pycparser==3.0", "django==5.2.13",
+            "idna==3.11", "pyproject-hooks==1.2.0", "build==1.4.2", "colorama==0.4.6",
+            "flake8==7.3.0", "attrs==26.1.0", "jeepney==0.9.0", "rfc3986==2.0.0",
+            "tomli-w==1.2.0", "setuptools==82.0.1", "click==8.3.2", "platformdirs==4.9.4",
+            "lxml==6.0.2", "xmlformatter==0.2.8", "pytest-mock==3.15.1", "black==26.3.1",
+            "asgiref==3.11.1", "distlib==0.4.0", "rich==14.3.3", "mdurl==0.1.2", "docutils==0.22.4",
+            "pytest-cov==7.1.0", "urllib3==2.6.3", "coverage[toml]==7.13.5", "pip-tools==7.5.3",
+            "sqlparse==0.5.5", "pytest-django==4.12.0", "pyproject-api==1.10.0", "python-discovery==1.2.1",
+            "wheel==0.46.3", "jaraco-functools==4.4.0", "markdown-it-py==4.0.0", "youtube-dl==2021.12.17",
+            "more-itertools==11.0.1", "charset-normalizer==3.4.7", "cryptography==46.0.6",
+            "readme-renderer==44.0", "mccabe==0.7.0", "bump2version==1.0.1", "twine==6.2.0",
+            "requests==2.33.1", "id==1.6.1", "jaraco-classes==3.4.0", "cachetools==7.0.5",
+            "requests-toolbelt==1.0.0", "pytokens==0.4.1", "tox==4.52.0", "certifi==2026.2.25",
+            "secretstorage==3.5.0", "virtualenv==21.2.0", "keyring==25.7.0", "mypy-extensions==1.1.0",
+            "pip==26.0.1", "filelock==3.25.2", "pathspec==1.0.4"]'
 django_packages:
     django_42:
         count: 1
@@ -111,6 +111,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 1020470
     pr_closure_ratio_90d: 0.9
+    pr_opened_90d: 10
     pulls_count: 4
     release_count_12mo: 1
 github_actions: true
@@ -134,9 +135,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: ''
+    lifecycle: ''
     owner: ''
     owner_kind: ''
     owner_name: ''
+    release: ''
 pinned_python_dependencies: 2
 readme:
     bad_links: []

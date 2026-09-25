@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -80,18 +80,27 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 70
-    build_details: '{"total_duration": "3 minutes 57 seconds", "checks": [{"name":
+    branch_count: 73
+    build_details: '{"total_duration": "486 minutes 37 seconds", "checks": [{"name":
         "tests", "duration": "3 minutes 40 seconds"}, {"name": "coverage", "duration":
         "0 minutes 14 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 3 seconds"}]}'
+        "0 minutes 3 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
+        "-1 minutes 53 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 9
     created_at: 2019-04-30 20:28:43
     default_branch: master
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 21697
+    disk_usage_kb: 21755
     fork_count: 336
     has_issues: true
     has_wiki: false
@@ -100,11 +109,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-24 02:56:49
+    last_push: 2026-09-25 02:44:29
     license: GNU AGPLv3
-    median_pr_response_seconds: 324
-    pr_closure_ratio_90d: 0.93
-    pulls_count: 30
+    median_pr_response_seconds: 320
+    pr_closure_ratio_90d: 0.9
+    pr_opened_90d: 100
+    pulls_count: 33
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -127,9 +137,12 @@ makefile:
 npm_package: '@edx/frontend-app-learning'
 org_name: openedx
 ownership:
+    component_type: website
+    lifecycle: production
     owner: group:committers-frontend-app-learning
     owner_kind: group
     owner_name: committers-frontend-app-learning
+    release: master
 pinned_python_dependencies: 0
 readme:
     bad_links:

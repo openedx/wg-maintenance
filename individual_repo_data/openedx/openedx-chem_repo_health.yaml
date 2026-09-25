@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -22,20 +22,20 @@ dependencies:
         list: ''
     pypi:
         count: 9
-        list: '["pyparsing==3.3.2", "tqdm==4.67.3", "markupsafe==3.0.3", "numpy==2.4.2",
-            "click==8.3.1", "scipy==1.17.1", "joblib==1.5.3", "nltk==3.9.3", "regex==2026.2.28"]'
+        list: '["nltk==3.9.3", "tqdm==4.67.3", "pyparsing==3.3.2", "markupsafe==3.0.3",
+            "click==8.3.1", "joblib==1.5.3", "scipy==1.17.1", "numpy==2.4.2", "regex==2026.2.28"]'
     pypi_all:
         count: 39
-        list: '["isort==8.0.1", "pytest-cov==7.0.0", "virtualenv==21.1.0", "pyproject-hooks==1.2.0",
-            "iniconfig==2.3.0", "pylint==4.0.5", "scipy==1.17.1", "joblib==1.5.3",
-            "distlib==0.4.0", "pygments==2.19.2", "packaging==26.0", "pytest==9.0.2",
-            "filelock==3.25.0", "setuptools==82.0.0", "pyproject-api==1.10.0", "pycodestyle==2.14.0",
-            "pip-tools==7.5.3", "pyparsing==3.3.2", "cachetools==7.0.3", "colorama==0.4.6",
-            "mccabe==0.7.0", "markupsafe==3.0.3", "dill==0.4.1", "platformdirs==4.9.4",
-            "tomli-w==1.2.0", "python-discovery==1.1.1", "tomlkit==0.14.0", "pip==26.0.1",
-            "build==1.4.0", "tqdm==4.67.3", "coverage[toml]==7.13.4", "pluggy==1.6.0",
-            "astroid==4.0.4", "numpy==2.4.2", "click==8.3.1", "tox==4.49.0", "wheel==0.46.3",
-            "nltk==3.9.3", "regex==2026.2.28"]'
+        list: '["tomlkit==0.14.0", "filelock==3.25.0", "pluggy==1.6.0", "iniconfig==2.3.0",
+            "python-discovery==1.1.1", "platformdirs==4.9.4", "pygments==2.19.2",
+            "isort==8.0.1", "regex==2026.2.28", "packaging==26.0", "wheel==0.46.3",
+            "markupsafe==3.0.3", "distlib==0.4.0", "pytest-cov==7.0.0", "numpy==2.4.2",
+            "pyproject-api==1.10.0", "pip-tools==7.5.3", "nltk==3.9.3", "build==1.4.0",
+            "setuptools==82.0.0", "tomli-w==1.2.0", "cachetools==7.0.3", "pylint==4.0.5",
+            "scipy==1.17.1", "dill==0.4.1", "colorama==0.4.6", "astroid==4.0.4", "coverage[toml]==7.13.4",
+            "pytest==9.0.2", "pyproject-hooks==1.2.0", "pycodestyle==2.14.0", "virtualenv==21.1.0",
+            "tqdm==4.67.3", "pyparsing==3.3.2", "click==8.3.1", "mccabe==0.7.0", "tox==4.49.0",
+            "joblib==1.5.3", "pip==26.0.1"]'
 django_packages:
     django_42:
         count: 0
@@ -101,6 +101,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 6
     pr_closure_ratio_90d: 0.0
+    pr_opened_90d: 1
     pulls_count: 3
     release_count_12mo: 0
 github_actions: true
@@ -124,9 +125,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: user:codewithemad
     owner_kind: user
     owner_name: codewithemad
+    release: ''
 pinned_python_dependencies: 2
 readme:
     bad_links: []
