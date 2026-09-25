@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -119,7 +119,7 @@ github:
     default_branch: main
     description: The Open edX frontend framework
     disk_usage_kb: 51317
-    fork_count: 13
+    fork_count: 14
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -131,6 +131,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 486
     pr_closure_ratio_90d: 0.9091
+    pr_opened_90d: 22
     pulls_count: 4
     release_count_12mo: 60
 github_actions: true
@@ -154,9 +155,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: experimental
     owner: group:axim-engineering
     owner_kind: group
     owner_name: axim-engineering
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

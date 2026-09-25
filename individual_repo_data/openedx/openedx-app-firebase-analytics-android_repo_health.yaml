@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -80,6 +80,7 @@ github:
     is_private: false
     last_push: 2026-07-30 14:21:51
     license: Apache License 2.0
+    pr_opened_90d: 0
     pulls_count: 0
     release_count_12mo: 0
 github_actions: true
@@ -103,9 +104,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: mobile
+    lifecycle: production
     owner: group:rg-mobile
     owner_kind: group
     owner_name: rg-mobile
+    release: main
 pinned_python_dependencies: 0
 readme:
     bad_links: []

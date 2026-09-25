@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -89,6 +89,7 @@ github:
     last_push: 2026-07-27 14:41:00
     license: GNU AGPLv3
     pr_closure_ratio_90d: 1.0
+    pr_opened_90d: 2
     pulls_count: 0
     release_count_12mo: 0
 github_actions: true
@@ -112,9 +113,12 @@ makefile:
 npm_package: '@edx/tinymce-language-selector'
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: user:angonz
     owner_kind: user
     owner_name: angonz
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

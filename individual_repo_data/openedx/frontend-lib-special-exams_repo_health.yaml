@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -93,6 +93,7 @@ github:
     is_private: false
     last_push: 2026-05-20 13:20:43
     license: null
+    pr_opened_90d: 0
     pulls_count: 3
     release_count_12mo: 0
 github_actions: true
@@ -116,9 +117,12 @@ makefile:
 npm_package: '@edx/frontend-lib-special-exams'
 org_name: openedx
 ownership:
+    component_type: ''
+    lifecycle: ''
     owner: ''
     owner_kind: ''
     owner_name: ''
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

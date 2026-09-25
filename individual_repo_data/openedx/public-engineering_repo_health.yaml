@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -97,6 +97,7 @@ github:
     is_private: false
     last_push: 2025-03-05 16:20:54
     license: null
+    pr_opened_90d: 0
     pulls_count: 0
     release_count_12mo: 0
 github_actions: true
@@ -120,9 +121,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: support
+    lifecycle: production
     owner: group:axim-admins
     owner_kind: group
     owner_name: axim-admins
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links: []

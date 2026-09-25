@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,7 +62,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 10
+    branch_count: 11
     build_details: '{"total_duration": "2688 minutes 30 seconds", "checks": [{"name":
         "release", "duration": "0 minutes 25 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
@@ -80,7 +80,7 @@ github:
     default_branch: main
     description: A Prototype Helm Chart for deploying multiple Open edX instances
         (via Tutor) onto a cluster.
-    disk_usage_kb: 1815
+    disk_usage_kb: 1833
     fork_count: 19
     has_issues: true
     has_wiki: false
@@ -89,10 +89,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-22 16:30:23
+    last_push: 2026-09-24 15:08:52
     license: GNU AGPLv3
     median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.9333
+    pr_closure_ratio_90d: 0.9286
+    pr_opened_90d: 14
     pulls_count: 2
     release_count_12mo: 6
 github_actions: true
@@ -116,9 +117,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: source-code
+    lifecycle: experimental
     owner: group:openedx-k8s-harmony-maintainers
     owner_kind: group
     owner_name: openedx-k8s-harmony-maintainers
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

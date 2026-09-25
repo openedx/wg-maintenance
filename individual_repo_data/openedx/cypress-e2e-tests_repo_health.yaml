@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -96,8 +96,9 @@ github:
     is_private: false
     last_push: 2026-09-21 21:33:13
     license: GNU AGPLv3
-    median_pr_response_seconds: 1188309
-    pr_closure_ratio_90d: 0.5714
+    median_pr_response_seconds: 1493691
+    pr_closure_ratio_90d: 0.5385
+    pr_opened_90d: 13
     pulls_count: 13
     release_count_12mo: 5
 github_actions: true
@@ -121,9 +122,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: service
+    lifecycle: production
     owner: group:committers-cypress-e2e-tests
     owner_kind: group
     owner_name: committers-cypress-e2e-tests
+    release: master
 pinned_python_dependencies: 0
 readme:
     bad_links: []

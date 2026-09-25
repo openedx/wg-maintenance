@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -25,19 +25,19 @@ dependencies:
         list: '[]'
     pypi_all:
         count: 46
-        list: '["setuptools==82.0.1", "sphinxcontrib-htmlhelp==2.1.0", "sphinxcontrib-mermaid==2.0.1",
-            "charset-normalizer==3.4.7", "sphinx==9.1.0", "sphinxcontrib-qthelp==2.0.0",
-            "packaging==26.0", "certifi==2026.2.25", "watchfiles==1.1.1", "h11==0.16.0",
-            "websockets==16.0", "babel==2.18.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "sphinxcontrib-devhelp==2.0.0", "click==8.3.2", "alabaster==1.0.0", "idna==3.11",
-            "jinja2==3.1.6", "roman-numerals==4.1.0", "starlette==1.0.0", "urllib3==2.6.3",
-            "anyio==4.13.0", "sphinxcontrib-jsmath==1.0.1", "docutils==0.22.4", "build==1.4.2",
-            "sphinx-autobuild==2025.8.25", "pyproject-hooks==1.2.0", "wheel==0.46.3",
-            "typing-extensions==4.15.0", "imagesize==2.0.0", "requests==2.33.1", "pyyaml==6.0.3",
-            "accessible-pygments==0.0.5", "pydata-sphinx-theme==0.16.1", "soupsieve==2.8.3",
-            "pip==26.0.1", "snowballstemmer==3.0.1", "colorama==0.4.6", "sphinx-book-theme==1.2.0",
-            "uvicorn==0.44.0", "markupsafe==3.0.3", "pip-tools==7.5.3", "sphinx-copybutton==0.5.2",
-            "sphinxcontrib-applehelp==2.0.0", "pygments==2.20.0", "beautifulsoup4==4.14.3"]'
+        list: '["uvicorn==0.44.0", "wheel==0.46.3", "charset-normalizer==3.4.7", "babel==2.18.0",
+            "packaging==26.0", "click==8.3.2", "build==1.4.2", "colorama==0.4.6",
+            "sphinxcontrib-jsmath==1.0.1", "starlette==1.0.0", "markupsafe==3.0.3",
+            "pip==26.0.1", "typing-extensions==4.15.0", "anyio==4.13.0", "h11==0.16.0",
+            "requests==2.33.1", "setuptools==82.0.1", "certifi==2026.2.25", "accessible-pygments==0.0.5",
+            "docutils==0.22.4", "sphinxcontrib-serializinghtml==2.0.0", "alabaster==1.0.0",
+            "watchfiles==1.1.1", "roman-numerals==4.1.0", "soupsieve==2.8.3", "idna==3.11",
+            "sphinxcontrib-mermaid==2.0.1", "urllib3==2.6.3", "snowballstemmer==3.0.1",
+            "sphinxcontrib-applehelp==2.0.0", "sphinx-book-theme==1.2.0", "pydata-sphinx-theme==0.16.1",
+            "websockets==16.0", "jinja2==3.1.6", "pip-tools==7.5.3", "sphinx-autobuild==2025.8.25",
+            "sphinxcontrib-devhelp==2.0.0", "sphinxcontrib-qthelp==2.0.0", "beautifulsoup4==4.14.3",
+            "imagesize==2.0.0", "pygments==2.20.0", "sphinx==9.1.0", "sphinx-copybutton==0.5.2",
+            "pyproject-hooks==1.2.0", "sphinxcontrib-htmlhelp==2.1.0", "pyyaml==6.0.3"]'
 django_packages:
     django_42:
         count: 0
@@ -104,6 +104,7 @@ github:
     license: GNU GPLv2
     median_pr_response_seconds: 1797855
     pr_closure_ratio_90d: 0.5
+    pr_opened_90d: 2
     pulls_count: 2
     release_count_12mo: 7
 github_actions: true
@@ -127,9 +128,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: user:mafermazu
     owner_kind: user
     owner_name: mafermazu
+    release: main
 pinned_python_dependencies: 0
 readme:
     bad_links:

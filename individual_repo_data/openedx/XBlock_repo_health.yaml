@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,14 +63,20 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "1 minutes 23 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "4959 minutes 17 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 49 seconds"}, {"name": "release", "duration":
         "0 minutes 47 seconds"}, {"name": "run_tests / tests (3.12, quality)", "duration":
         "0 minutes 34 seconds"}, {"name": "run_tests / tests (3.12, django42)", "duration":
         "0 minutes 32 seconds"}, {"name": "run_tests / tests (3.12, django52)", "duration":
         "0 minutes 28 seconds"}, {"name": "run_tests / tests (3.12, docs)", "duration":
         "0 minutes 20 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        0 seconds"}]}'
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2013-03-11 18:35:36
@@ -90,6 +96,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 112826
     pr_closure_ratio_90d: 0.9167
+    pr_opened_90d: 24
     pulls_count: 5
     release_count_12mo: 8
 github_actions: true
@@ -113,9 +120,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: group:axim-engineering
     owner_kind: group
     owner_name: axim-engineering
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

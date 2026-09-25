@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -90,17 +90,18 @@ github:
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 158
-    build_details: '{"total_duration": "3656 minutes 18 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "5096 minutes 28 seconds", "checks": [{"name":
         "tests", "duration": "5 minutes 7 seconds"}, {"name": "generate", "duration":
         "1 minutes 8 seconds"}, {"name": "generate", "duration": "1 minutes 5 seconds"},
-        {"name": "generate", "duration": "1 minutes 4 seconds"}, {"name": "version-check
-        / version-check", "duration": "0 minutes 8 seconds"}]}'
+        {"name": "generate", "duration": "1 minutes 4 seconds"}, {"name": "generate",
+        "duration": "1 minutes 4 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 8 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2019-09-23 14:57:34
     default_branch: master
     description: Enterprise Learner Portal
-    disk_usage_kb: 21894
+    disk_usage_kb: 21891
     fork_count: 33
     has_issues: true
     has_wiki: false
@@ -109,10 +110,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-24 04:23:24
+    last_push: 2026-09-24 22:47:15
     license: GNU AGPLv3
     median_pr_response_seconds: 331
     pr_closure_ratio_90d: 0.3617
+    pr_opened_90d: 47
     pulls_count: 63
     release_count_12mo: 0
 github_actions: true
@@ -136,9 +138,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: website
+    lifecycle: production
     owner: group:2u-enterprise
     owner_kind: group
     owner_name: 2u-enterprise
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

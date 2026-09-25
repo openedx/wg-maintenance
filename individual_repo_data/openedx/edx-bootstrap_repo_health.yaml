@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -89,6 +89,7 @@ github:
     is_private: false
     last_push: 2026-09-08 18:05:20
     license: Apache License 2.0
+    pr_opened_90d: 0
     pulls_count: 7
     release_count_12mo: 1
 github_actions: true
@@ -112,15 +113,19 @@ makefile:
 npm_package: '@edx/edx-bootstrap'
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: ''
     owner: group:openedx-unmaintained
     owner_kind: group
     owner_name: openedx-unmaintained
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://badge.fury.io/js/%40edx%2Fedx-bootstrap: 403'
     - 'https://openedx.slack.com/messages/C0EUBSV7D: 403'
-    - 'https://openedx.slack.com/messages/C02BMP2RD5Y: 429'
+    - 'https://openedx.slack.com/messages/C02BMP2RD5Y: 403'
+    - 'https://github.com/openedx/.github/blob/master/CONTRIBUTING.md: 503'
     getting-help: false
     good_links:
     - https://badge.fury.io/js/%40edx%2Fedx-bootstrap.svg
@@ -129,7 +134,6 @@ readme:
     - https://github.com/nvm-sh/nvm
     - https://github.com/openedx/edx-bootstrap/blob/master/LICENSE
     - https://open.edx.org/wp-content/uploads/2019/01/individual-contributor-agreement.pdf
-    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     irc-missing: true
     mailing-list-missing: true
     security: true

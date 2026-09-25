@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -100,6 +100,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 252
     pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 6
     pulls_count: 15
     release_count_12mo: 5
 github_actions: true
@@ -123,9 +124,12 @@ makefile:
 npm_package: '@edx/frontend-app-discussions'
 org_name: openedx
 ownership:
+    component_type: website
+    lifecycle: production
     owner: group:edx-infinity
     owner_kind: group
     owner_name: edx-infinity
+    release: master
 pinned_python_dependencies: 0
 readme:
     bad_links:

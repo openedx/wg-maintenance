@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -109,6 +109,7 @@ github:
     is_private: false
     last_push: 2026-05-20 13:21:13
     license: GNU AGPLv3
+    pr_opened_90d: 0
     pulls_count: 2
     release_count_12mo: 1
 github_actions: true
@@ -132,9 +133,12 @@ makefile:
 npm_package: '@edx/frontend-component-cookie-policy-banner'
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: group:cookie-policy-banner-maintainers
     owner_kind: group
     owner_name: cookie-policy-banner-maintainers
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

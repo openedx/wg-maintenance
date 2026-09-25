@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -89,6 +89,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 107366
     pr_closure_ratio_90d: 0.9667
+    pr_opened_90d: 30
     pulls_count: 1
     release_count_12mo: 4
 github_actions: true
@@ -112,9 +113,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: xblock
+    lifecycle: production
     owner: group:axim-engineering
     owner_kind: group
     owner_name: axim-engineering
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

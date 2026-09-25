@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -99,6 +99,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 7
     pr_closure_ratio_90d: 0.8
+    pr_opened_90d: 10
     pulls_count: 4
     release_count_12mo: 19
 github_actions: true
@@ -122,9 +123,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: experimental
     owner: user:felipemontoya
     owner_kind: user
     owner_name: felipemontoya
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

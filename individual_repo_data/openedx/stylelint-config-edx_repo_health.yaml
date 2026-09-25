@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -87,6 +87,7 @@ github:
     is_private: false
     last_push: 2026-05-20 13:18:41
     license: Apache License 2.0
+    pr_opened_90d: 0
     pulls_count: 3
     release_count_12mo: 0
 github_actions: true
@@ -110,9 +111,12 @@ makefile:
 npm_package: '@edx/stylelint-config-edx'
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: group:committers-frontend-build
     owner_kind: group
     owner_name: committers-frontend-build
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

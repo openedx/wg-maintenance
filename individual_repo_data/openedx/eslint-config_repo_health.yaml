@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -85,8 +85,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-18 21:40:05
+    last_push: 2026-09-25 01:11:28
     license: GNU AGPLv3
+    pr_opened_90d: 0
     pulls_count: 12
     release_count_12mo: 0
 github_actions: true
@@ -110,9 +111,12 @@ makefile:
 npm_package: '@edx/eslint-config'
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: production
     owner: group:committers-frontend
     owner_kind: group
     owner_name: committers-frontend
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -96,8 +96,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-15 12:01:06
+    last_push: 2026-09-24 23:09:19
     license: Apache License 2.0
+    pr_opened_90d: 0
     pulls_count: 12
     release_count_12mo: 0
 github_actions: true
@@ -121,9 +122,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: library
+    lifecycle: deprecated
     owner: user:kdmccormick
     owner_kind: user
     owner_name: kdmccormick
+    release: ''
 pinned_python_dependencies: 0
 readme:
     bad_links:

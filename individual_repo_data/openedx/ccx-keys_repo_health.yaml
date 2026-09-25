@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,22 +22,23 @@ dependencies:
         list: ''
     pypi:
         count: 6
-        list: '["dnspython==2.8.0", "six==1.17.0", "pymongo==4.16.0", "typing-extensions==4.15.0",
-            "stevedore==5.6.0", "edx-opaque-keys==3.0.0"]'
+        list: '["stevedore==5.6.0", "dnspython==2.8.0", "typing-extensions==4.15.0",
+            "edx-opaque-keys==3.0.0", "six==1.17.0", "pymongo==4.16.0"]'
     pypi_all:
         count: 49
-        list: '["lazy-object-proxy==1.12.0", "astroid==4.0.4", "markupsafe==3.0.3",
-            "six==1.17.0", "click-log==0.4.0", "pytest==9.0.2", "typing-extensions==4.15.0",
-            "mccabe==0.7.0", "code-annotations==2.3.0", "python-slugify==8.0.4", "distlib==0.4.0",
-            "mock==5.2.0", "pluggy==1.6.0", "wheel==0.46.3", "packaging==26.0", "pip-tools==7.5.3",
-            "dill==0.4.1", "colorama==0.4.6", "setuptools==82.0.0", "click==8.3.1",
-            "jinja2==3.1.6", "ddt==1.7.2", "pylint==4.0.4", "pymongo==4.16.0", "pyproject-api==1.10.0",
-            "edx-opaque-keys==3.0.0", "pip==25.3", "text-unidecode==1.3", "filelock==3.24.3",
-            "virtualenv==20.38.0", "tox==4.40.0", "edx-lint==5.6.0", "cachetools==7.0.1",
-            "pylint-django==2.7.0", "isort==7.0.0", "chardet==5.2.0", "pylint-celery==0.3",
-            "tomlkit==0.14.0", "dnspython==2.8.0", "pyproject-hooks==1.2.0", "iniconfig==2.3.0",
-            "coverage==7.13.4", "platformdirs==4.9.2", "pycodestyle==2.14.0", "pyyaml==6.0.3",
-            "stevedore==5.6.0", "build==1.4.0", "pylint-plugin-utils==0.9.0", "pygments==2.19.2"]'
+        list: '["chardet==5.2.0", "pycodestyle==2.14.0", "pip==25.3", "cachetools==7.0.1",
+            "pyproject-api==1.10.0", "isort==7.0.0", "virtualenv==20.38.0", "coverage==7.13.4",
+            "click==8.3.1", "pylint-plugin-utils==0.9.0", "packaging==26.0", "markupsafe==3.0.3",
+            "mock==5.2.0", "pygments==2.19.2", "stevedore==5.6.0", "pytest==9.0.2",
+            "code-annotations==2.3.0", "build==1.4.0", "ddt==1.7.2", "python-slugify==8.0.4",
+            "wheel==0.46.3", "pip-tools==7.5.3", "six==1.17.0", "pymongo==4.16.0",
+            "iniconfig==2.3.0", "setuptools==82.0.0", "platformdirs==4.9.2", "edx-opaque-keys==3.0.0",
+            "text-unidecode==1.3", "lazy-object-proxy==1.12.0", "tox==4.40.0", "pylint==4.0.4",
+            "edx-lint==5.6.0", "distlib==0.4.0", "filelock==3.24.3", "pylint-django==2.7.0",
+            "tomlkit==0.14.0", "jinja2==3.1.6", "dnspython==2.8.0", "mccabe==0.7.0",
+            "typing-extensions==4.15.0", "pyproject-hooks==1.2.0", "pylint-celery==0.3",
+            "click-log==0.4.0", "pluggy==1.6.0", "colorama==0.4.6", "pyyaml==6.0.3",
+            "astroid==4.0.4", "dill==0.4.1"]'
 django_packages:
     django_42:
         count: 3
@@ -74,7 +75,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 13
+    branch_count: 14
     build_details: '{"total_duration": "1824 minutes 18 seconds", "checks": [{"name":
         "update-pip-graph", "duration": "1 minutes 8 seconds"}, {"name": "Tests (ubuntu-latest,
         3.12, unittest)", "duration": "0 minutes 12 seconds"}, {"name": "Tests (ubuntu-latest,
@@ -95,7 +96,7 @@ github:
     created_at: 2015-07-17 21:04:14
     default_branch: master
     description: Opaque key implementation for the Custom Courses for EdX feature.
-    disk_usage_kb: 192
+    disk_usage_kb: 201
     fork_count: 8
     has_issues: true
     has_wiki: false
@@ -104,11 +105,12 @@ github:
     is_fork: true
     is_locked: false
     is_private: false
-    last_push: 2026-09-23 14:17:37
+    last_push: 2026-09-24 14:05:15
     license: GNU AGPLv3
-    median_pr_response_seconds: 7
-    pr_closure_ratio_90d: 0.0
-    pulls_count: 8
+    median_pr_response_seconds: 129
+    pr_closure_ratio_90d: 0.3333
+    pr_opened_90d: 3
+    pulls_count: 9
     release_count_12mo: 0
 github_actions: true
 language_bytes:
@@ -131,9 +133,12 @@ makefile:
 npm_package: ''
 org_name: openedx
 ownership:
+    component_type: service
+    lifecycle: production
     owner: group:2u-arch-bom
     owner_kind: group
     owner_name: 2u-arch-bom
+    release: ''
 pinned_python_dependencies: 3
 readme:
     bad_links:

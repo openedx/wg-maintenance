@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-24
+TIMESTAMP: 2026-09-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -103,10 +103,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-23 20:42:47
+    last_push: 2026-09-25 04:18:12
     license: GNU AGPLv3
     median_pr_response_seconds: 219
     pr_closure_ratio_90d: 0.3191
+    pr_opened_90d: 47
     pulls_count: 44
     release_count_12mo: 5
 github_actions: true
@@ -130,9 +131,12 @@ makefile:
 npm_package: '@edx/frontend-app-profile'
 org_name: openedx
 ownership:
+    component_type: service
+    lifecycle: production
     owner: jacobo-dominguez-wgu
     owner_kind: unknown
     owner_name: jacobo-dominguez-wgu
+    release: master
 pinned_python_dependencies: 0
 readme:
     bad_links:
