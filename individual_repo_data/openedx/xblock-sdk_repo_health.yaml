@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-25
+TIMESTAMP: 2026-09-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -87,9 +87,9 @@ github:
     is_private: false
     last_push: 2026-09-21 14:28:42
     license: Apache License 2.0
-    median_pr_response_seconds: 107366
-    pr_closure_ratio_90d: 0.9667
-    pr_opened_90d: 30
+    median_pr_response_seconds: 105775
+    pr_closure_ratio_90d: 0.9655
+    pr_opened_90d: 29
     pulls_count: 1
     release_count_12mo: 4
 github_actions: true
