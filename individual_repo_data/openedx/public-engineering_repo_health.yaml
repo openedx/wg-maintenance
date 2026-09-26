@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-25
+TIMESTAMP: 2026-09-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,8 +63,7 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "20193 minutes 50 seconds", "checks": [{"name":
-        "routeissue / add_and_notify", "duration": "0 minutes 7 seconds"}, {"name":
+    build_details: '{"total_duration": "13148 minutes 54 seconds", "checks": [{"name":
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
@@ -76,9 +75,10 @@ github:
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
         "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other

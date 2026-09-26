@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-25
+TIMESTAMP: 2026-09-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,24 +22,25 @@ dependencies:
         list: ''
     pypi:
         count: 8
-        list: '["polib==1.2.0", "django==5.2.12", "pyyaml==6.0.3", "asgiref==3.11.1",
-            "path==16.16.0", "lxml-html-clean==0.4.4", "sqlparse==0.5.5", "lxml[html-clean]==6.0.2"]'
+        list: '["path==16.16.0", "sqlparse==0.5.5", "lxml[html-clean]==6.0.2", "lxml-html-clean==0.4.4",
+            "polib==1.2.0", "django==5.2.12", "asgiref==3.11.1", "pyyaml==6.0.3"]'
     pypi_all:
         count: 54
-        list: '["polib==1.2.0", "packaging==26.0", "asgiref==3.11.1", "wheel==0.46.3",
-            "iniconfig==2.3.0", "pylint-plugin-utils==0.9.0", "six==1.17.0", "click==8.3.1",
-            "setuptools==82.0.0", "cachetools==7.0.3", "pylint-celery==0.3", "stevedore==5.7.0",
-            "pyyaml==6.0.3", "pytest==9.0.2", "mccabe==0.7.0", "python-discovery==1.1.1",
-            "isort==8.0.1", "pyproject-hooks==1.2.0", "code-annotations==2.3.2", "platformdirs==4.9.4",
-            "colorama==0.4.6", "lxml[html-clean]==6.0.2", "pyproject-api==1.10.0",
-            "tomlkit==0.14.0", "jinja2==3.1.6", "pytest-cov==7.0.0", "distlib==0.4.0",
-            "edx-lint==5.6.0", "path==16.16.0", "astroid==4.0.4", "click-log==0.4.0",
-            "ddt==1.7.2", "lxml-html-clean==0.4.4", "pluggy==1.6.0", "coverage[toml]==7.13.4",
-            "tomli-w==1.2.0", "build==1.4.0", "filelock==3.25.0", "tox==4.49.0", "python-slugify==8.0.4",
-            "dill==0.4.1", "django==5.2.12", "pytz==2026.1.post1", "pip-tools==7.5.3",
-            "pygments==2.19.2", "mock==5.2.0", "pycodestyle==2.14.0", "pylint==4.0.5",
-            "sqlparse==0.5.5", "pylint-django==2.7.0", "virtualenv==21.1.0", "text-unidecode==1.3",
-            "pip==26.0.1", "markupsafe==3.0.3"]'
+        list: '["build==1.4.0", "pyproject-api==1.10.0", "isort==8.0.1", "six==1.17.0",
+            "click==8.3.1", "jinja2==3.1.6", "pytz==2026.1.post1", "filelock==3.25.0",
+            "polib==1.2.0", "setuptools==82.0.0", "mccabe==0.7.0", "pylint==4.0.5",
+            "iniconfig==2.3.0", "pygments==2.19.2", "colorama==0.4.6", "click-log==0.4.0",
+            "wheel==0.46.3", "tox==4.49.0", "platformdirs==4.9.4", "path==16.16.0",
+            "coverage[toml]==7.13.4", "code-annotations==2.3.2", "pluggy==1.6.0",
+            "virtualenv==21.1.0", "pyyaml==6.0.3", "packaging==26.0", "pylint-django==2.7.0",
+            "markupsafe==3.0.3", "pyproject-hooks==1.2.0", "python-slugify==8.0.4",
+            "ddt==1.7.2", "pylint-plugin-utils==0.9.0", "tomli-w==1.2.0", "python-discovery==1.1.1",
+            "pylint-celery==0.3", "pytest-cov==7.0.0", "dill==0.4.1", "pip==26.0.1",
+            "astroid==4.0.4", "pycodestyle==2.14.0", "pytest==9.0.2", "stevedore==5.7.0",
+            "cachetools==7.0.3", "distlib==0.4.0", "pip-tools==7.5.3", "edx-lint==5.6.0",
+            "sqlparse==0.5.5", "lxml[html-clean]==6.0.2", "lxml-html-clean==0.4.4",
+            "tomlkit==0.14.0", "asgiref==3.11.1", "mock==5.2.0", "django==5.2.12",
+            "text-unidecode==1.3"]'
 django_packages:
     django_42:
         count: 2

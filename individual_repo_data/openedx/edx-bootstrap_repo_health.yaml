@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-25
+TIMESTAMP: 2026-09-26
 dependabot:
     exists: false
     has_ecosystem:
@@ -125,7 +125,6 @@ readme:
     - 'https://badge.fury.io/js/%40edx%2Fedx-bootstrap: 403'
     - 'https://openedx.slack.com/messages/C0EUBSV7D: 403'
     - 'https://openedx.slack.com/messages/C02BMP2RD5Y: 403'
-    - 'https://github.com/openedx/.github/blob/master/CONTRIBUTING.md: 503'
     getting-help: false
     good_links:
     - https://badge.fury.io/js/%40edx%2Fedx-bootstrap.svg
@@ -134,6 +133,7 @@ readme:
     - https://github.com/nvm-sh/nvm
     - https://github.com/openedx/edx-bootstrap/blob/master/LICENSE
     - https://open.edx.org/wp-content/uploads/2019/01/individual-contributor-agreement.pdf
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     irc-missing: true
     mailing-list-missing: true
     security: true
