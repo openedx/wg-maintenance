@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-26
+TIMESTAMP: 2026-09-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -96,9 +96,9 @@ github:
     is_private: false
     last_push: 2026-09-25 12:03:08
     license: GNU AGPLv3
-    median_pr_response_seconds: 86
-    pr_closure_ratio_90d: 0.9556
-    pr_opened_90d: 45
+    median_pr_response_seconds: 85
+    pr_closure_ratio_90d: 0.9545
+    pr_opened_90d: 44
     pulls_count: 2
     release_count_12mo: 3
 github_actions: true
@@ -136,6 +136,7 @@ readme:
         port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'
     - 'https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg:
         404'
+    - 'https://openedx.org/r/xblock: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock:
         404'
@@ -146,7 +147,6 @@ readme:
     - https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
     - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
     - https://img.shields.io/badge/status-maintained-31c653
-    - https://openedx.org/r/xblock
     - https://docs.tutor.edly.io/configuration.html
     - https://discuss.openedx.org
     - https://github.com/openedx/DoneXBlock/issues
