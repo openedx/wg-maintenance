@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-27
+TIMESTAMP: 2026-09-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,7 +62,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 39
+    branch_count: 40
     build_details: '{"total_duration": "5615 minutes 31 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 26 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 56 seconds"}, {"name": "Dependabot", "duration": "0
@@ -85,7 +85,7 @@ github:
     created_at: 2017-07-07 16:01:04
     default_branch: master
     description: 'An XBlock for students to mark they''ve finished something. '
-    disk_usage_kb: 1215
+    disk_usage_kb: 1321
     fork_count: 25
     has_issues: true
     has_wiki: false
@@ -94,12 +94,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-25 12:03:08
+    last_push: 2026-09-28 00:34:24
     license: GNU AGPLv3
     median_pr_response_seconds: 85
-    pr_closure_ratio_90d: 0.9545
-    pr_opened_90d: 44
-    pulls_count: 2
+    pr_closure_ratio_90d: 0.9333
+    pr_opened_90d: 45
+    pulls_count: 3
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -137,7 +137,11 @@ readme:
     - 'https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg:
         404'
     - 'https://openedx.org/r/xblock: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock:
         404'
     getting-help: true
@@ -150,10 +154,6 @@ readme:
     - https://docs.tutor.edly.io/configuration.html
     - https://discuss.openedx.org
     - https://github.com/openedx/DoneXBlock/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

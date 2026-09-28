@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-27
+TIMESTAMP: 2026-09-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,9 +68,10 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "1 minutes 42 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "3245 minutes 33 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 30 seconds"}, {"name": "test", "duration":
         "1 minutes 26 seconds"}, {"name": "Release", "duration": "0 minutes 43 seconds"},
+        {"name": "update-browserslist / update-dep", "duration": "0 minutes 38 seconds"},
         {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
         {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
@@ -126,6 +127,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-aspects:
         404'
@@ -139,7 +141,6 @@ readme:
     - https://github.com/openedx/frontend-base
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
-    - https://openedx.org/slack
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/

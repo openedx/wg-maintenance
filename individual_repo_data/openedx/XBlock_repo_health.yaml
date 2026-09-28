@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-27
+TIMESTAMP: 2026-09-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -99,8 +99,8 @@ github:
     last_push: 2026-09-27 00:22:04
     license: Apache License 2.0
     median_pr_response_seconds: 113318
-    pr_closure_ratio_90d: 0.875
-    pr_opened_90d: 24
+    pr_closure_ratio_90d: 0.8636
+    pr_opened_90d: 22
     pulls_count: 6
     release_count_12mo: 8
 github_actions: true
@@ -134,8 +134,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'http://scorm.com/scorm-explained/: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.org/getting-help: 403'
     - 'https://github.com/openedx/XBlock/blob/master/LICENSE.txt: 404'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - http://www.lon-capa.org/
@@ -146,10 +150,6 @@ readme:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/index.html
     - https://discuss.openedx.org
     - https://github.com/openedx/XBlock/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock
     - https://img.shields.io/pypi/v/XBlock.svg
     - https://pypi.python.org/pypi/XBlock/

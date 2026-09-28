@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-27
+TIMESTAMP: 2026-09-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,7 +63,7 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "2 minutes 35 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "9250 minutes 12 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 44 seconds"}, {"name": "run_ci / frontend
         / build", "duration": "0 minutes 42 seconds"}, {"name": "run_ci / backend
         / tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 28 seconds"},
@@ -72,7 +72,8 @@ github:
         3.12, django60)", "duration": "0 minutes 27 seconds"}, {"name": "run_ci /
         backend / tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 24 seconds"},
         {"name": "run_ci / brand / build", "duration": "0 minutes 22 seconds"}, {"name":
-        "run_ci / tutor / build", "duration": "0 minutes 22 seconds"}, {"name": "run_ci
+        "run_ci / tutor / build", "duration": "0 minutes 22 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 20 seconds"}, {"name": "run_ci
         / backend / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes
         12 seconds"}, {"name": "run_ci / all required checks passed", "duration":
         "0 minutes 2 seconds"}]}'

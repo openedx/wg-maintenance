@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-27
+TIMESTAMP: 2026-09-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -22,20 +22,21 @@ dependencies:
         list: ''
     pypi:
         count: 9
-        list: '["nltk==3.9.3", "joblib==1.5.3", "numpy==2.4.2", "scipy==1.17.1", "tqdm==4.67.3",
-            "pyparsing==3.3.2", "click==8.3.1", "markupsafe==3.0.3", "regex==2026.2.28"]'
+        list: '["scipy==1.17.1", "nltk==3.9.3", "click==8.3.1", "regex==2026.2.28",
+            "joblib==1.5.3", "tqdm==4.67.3", "markupsafe==3.0.3", "pyparsing==3.3.2",
+            "numpy==2.4.2"]'
     pypi_all:
         count: 39
-        list: '["nltk==3.9.3", "numpy==2.4.2", "iniconfig==2.3.0", "coverage[toml]==7.13.4",
-            "scipy==1.17.1", "pylint==4.0.5", "filelock==3.25.0", "build==1.4.0",
-            "isort==8.0.1", "regex==2026.2.28", "pycodestyle==2.14.0", "colorama==0.4.6",
-            "pip-tools==7.5.3", "joblib==1.5.3", "tomlkit==0.14.0", "tox==4.49.0",
-            "platformdirs==4.9.4", "distlib==0.4.0", "pytest-cov==7.0.0", "wheel==0.46.3",
-            "pyproject-hooks==1.2.0", "mccabe==0.7.0", "pyparsing==3.3.2", "markupsafe==3.0.3",
-            "astroid==4.0.4", "pluggy==1.6.0", "packaging==26.0", "pytest==9.0.2",
-            "tomli-w==1.2.0", "setuptools==82.0.0", "cachetools==7.0.3", "python-discovery==1.1.1",
-            "pyproject-api==1.10.0", "pygments==2.19.2", "tqdm==4.67.3", "dill==0.4.1",
-            "virtualenv==21.1.0", "pip==26.0.1", "click==8.3.1"]'
+        list: '["pylint==4.0.5", "regex==2026.2.28", "iniconfig==2.3.0", "mccabe==0.7.0",
+            "tomlkit==0.14.0", "nltk==3.9.3", "platformdirs==4.9.4", "pyproject-api==1.10.0",
+            "click==8.3.1", "coverage[toml]==7.13.4", "wheel==0.46.3", "pycodestyle==2.14.0",
+            "tomli-w==1.2.0", "tqdm==4.67.3", "cachetools==7.0.3", "scipy==1.17.1",
+            "tox==4.49.0", "build==1.4.0", "pip==26.0.1", "pyparsing==3.3.2", "numpy==2.4.2",
+            "pygments==2.19.2", "packaging==26.0", "distlib==0.4.0", "joblib==1.5.3",
+            "python-discovery==1.1.1", "isort==8.0.1", "pluggy==1.6.0", "setuptools==82.0.0",
+            "pip-tools==7.5.3", "astroid==4.0.4", "filelock==3.25.0", "pytest==9.0.2",
+            "virtualenv==21.1.0", "pytest-cov==7.0.0", "pyproject-hooks==1.2.0", "markupsafe==3.0.3",
+            "colorama==0.4.6", "dill==0.4.1"]'
 django_packages:
     django_42:
         count: 0

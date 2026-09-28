@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-27
+TIMESTAMP: 2026-09-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -70,18 +70,17 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 6
-    build_details: '{"total_duration": "14 minutes 54 seconds", "checks": [{"name":
-        "Dependabot", "duration": "2 minutes 10 seconds"}, {"name": "Dependabot",
-        "duration": "2 minutes 6 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 52 seconds"}]}'
+    build_details: '{"total_duration": "221 minutes 52 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 26 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 4
     created_at: 2025-03-21 15:08:32
     default_branch: main
     description: Frontend plugins for Aspects
-    disk_usage_kb: 2602
+    disk_usage_kb: 2604
     fork_count: 6
     has_issues: true
     has_wiki: false
@@ -90,11 +89,11 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-25 17:57:34
+    last_push: 2026-09-28 00:51:38
     license: GNU AGPLv3
-    median_pr_response_seconds: 130
-    pr_closure_ratio_90d: 0.963
-    pr_opened_90d: 54
+    median_pr_response_seconds: 129
+    pr_closure_ratio_90d: 0.9608
+    pr_opened_90d: 51
     pulls_count: 2
     release_count_12mo: 6
 github_actions: true
