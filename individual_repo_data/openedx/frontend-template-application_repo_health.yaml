@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-27
+TIMESTAMP: 2026-09-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,9 +67,10 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 61
-    build_details: '{"total_duration": "5772 minutes 15 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "9216 minutes 8 seconds", "checks": [{"name":
         "test", "duration": "1 minutes 19 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 35 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 35 seconds"}, {"name": "update-browserslist / update-dep", "duration":
+        "0 minutes 33 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 6 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -90,7 +91,7 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-25 14:43:03
+    last_push: 2026-09-28 00:08:37
     license: GNU AGPLv3
     median_pr_response_seconds: 140
     pr_closure_ratio_90d: 0.3171
@@ -130,8 +131,12 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application:
         404'
     getting-help: true
@@ -147,10 +152,6 @@ readme:
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-template-application/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-template-application.svg
     - https://github.com/openedx/frontend-template-application/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen

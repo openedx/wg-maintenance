@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-27
+TIMESTAMP: 2026-09-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -62,7 +62,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 7
+    branch_count: 8
     build_details: '{"total_duration": "1954 minutes 56 seconds", "checks": [{"name":
         "Analyze (javascript-typescript)", "duration": "2 minutes 10 seconds"}, {"name":
         "Run JavaScript Tests (24)", "duration": "1 minutes 47 seconds"}, {"name":
@@ -87,7 +87,7 @@ github:
     created_at: 2024-06-26 15:14:53
     default_branch: main
     description: 'Core Open edX XBlock types: Problem, Text, Video, etc.'
-    disk_usage_kb: 22552
+    disk_usage_kb: 22710
     fork_count: 15
     has_issues: true
     has_wiki: false
@@ -96,12 +96,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-21 05:28:21
+    last_push: 2026-09-28 00:10:39
     license: GNU AGPLv3
-    median_pr_response_seconds: 2157
+    median_pr_response_seconds: 4306
     pr_closure_ratio_90d: 0.7143
     pr_opened_90d: 28
-    pulls_count: 11
+    pulls_count: 12
     release_count_12mo: 31
 github_actions: true
 language_bytes:
