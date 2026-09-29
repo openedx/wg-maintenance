@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -58,41 +58,39 @@ exists:
     setup.py: false
     tox.ini: true
     transifex_config: false
+git:
+    absence_factor_365d: 2
+    commits_365d: 13
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 13
-    build_details: '{"total_duration": "9294 minutes 44 seconds", "checks": [{"name":
-        "tests (3.12, 22.04, django42)", "duration": "1 minutes 10 seconds"}, {"name":
-        "tests (3.12, 24.04, django42)", "duration": "1 minutes 8 seconds"}, {"name":
-        "run_ci / tests (quality, 24.04, 3.12)", "duration": "1 minutes 2 seconds"},
-        {"name": "tests (3.12, 24.04, django52)", "duration": "0 minutes 55 seconds"},
-        {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
-        "duration": "0 minutes 55 seconds"}, {"name": "run_ci / tests (3.12, 24.04,
-        django42)", "duration": "0 minutes 53 seconds"}, {"name": "run_ci / tests
-        (3.12, 22.04, django42)", "duration": "0 minutes 53 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 49 seconds"}, {"name": "tests (3.12, 22.04, django52)",
-        "duration": "0 minutes 45 seconds"}, {"name": "run_ci / tests (3.12, 22.04,
-        django52)", "duration": "0 minutes 44 seconds"}, {"name": "tests (quality,
-        24.04, 3.12)", "duration": "0 minutes 43 seconds"}, {"name": "run_ci / tests
-        (3.12, 24.04, django52)", "duration": "0 minutes 40 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 40 seconds"}, {"name": "release", "duration": "0 minutes
-        0 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 49 seconds"}]}'
+    branch_count: 12
+    build_details: '{"total_duration": "3 minutes 16 seconds", "checks": [{"name":
+        "run_ci / tests (3.12, 22.04, django42)", "duration": "2 minutes 15 seconds"},
+        {"name": "run_ci / tests (3.12, 24.04, django52)", "duration": "1 minutes
+        56 seconds"}, {"name": "run_ci / tests (3.12, 22.04, django52)", "duration":
+        "1 minutes 54 seconds"}, {"name": "tests (3.12, 22.04, django52)", "duration":
+        "1 minutes 51 seconds"}, {"name": "tests (3.12, 24.04, django52)", "duration":
+        "1 minutes 49 seconds"}, {"name": "run_ci / tests (3.12, 24.04, django42)",
+        "duration": "1 minutes 45 seconds"}, {"name": "tests (3.12, 22.04, django42)",
+        "duration": "1 minutes 39 seconds"}, {"name": "tests (3.12, 24.04, django42)",
+        "duration": "1 minutes 38 seconds"}, {"name": "tests (quality, 24.04, 3.12)",
+        "duration": "1 minutes 37 seconds"}, {"name": "run_ci / tests (quality, 24.04,
+        3.12)", "duration": "1 minutes 19 seconds"}, {"name": "update-uv-graph", "duration":
+        "1 minutes 1 seconds"}, {"name": "release", "duration": "0 minutes 57 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2013-04-26 20:48:06
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: Secure code execution
-    disk_usage_kb: 524
+    disk_usage_kb: 529
+    first_timer_prs_90d: 0
     fork_count: 83
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -100,12 +98,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-28 00:01:06
+    issues_open: 15
+    issues_opened_90d: 0
+    issues_stale_open_180d: 15
+    last_push: 2026-09-28 19:11:12
     license: Apache License 2.0
-    median_pr_response_seconds: 680516
-    pr_closure_ratio_90d: 0.9444
-    pr_opened_90d: 18
-    pulls_count: 1
+    median_pr_response_seconds: 118624
+    median_pr_time_to_merge_seconds: 69003
+    pr_closure_ratio_90d: 1.0
+    pr_opened_90d: 19
+    prs_open: 0
+    pulls_count: 0
     release_count_12mo: 2
 github_actions: true
 language_bytes:

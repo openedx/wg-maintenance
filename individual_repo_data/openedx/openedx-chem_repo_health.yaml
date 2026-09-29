@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: false
     has_ecosystem:
@@ -22,21 +22,20 @@ dependencies:
         list: ''
     pypi:
         count: 9
-        list: '["scipy==1.17.1", "nltk==3.9.3", "click==8.3.1", "regex==2026.2.28",
-            "joblib==1.5.3", "tqdm==4.67.3", "markupsafe==3.0.3", "pyparsing==3.3.2",
-            "numpy==2.4.2"]'
+        list: '["pyparsing==3.3.2", "joblib==1.5.3", "nltk==3.9.3", "numpy==2.4.2",
+            "scipy==1.17.1", "click==8.3.1", "tqdm==4.67.3", "regex==2026.2.28", "markupsafe==3.0.3"]'
     pypi_all:
         count: 39
-        list: '["pylint==4.0.5", "regex==2026.2.28", "iniconfig==2.3.0", "mccabe==0.7.0",
-            "tomlkit==0.14.0", "nltk==3.9.3", "platformdirs==4.9.4", "pyproject-api==1.10.0",
-            "click==8.3.1", "coverage[toml]==7.13.4", "wheel==0.46.3", "pycodestyle==2.14.0",
-            "tomli-w==1.2.0", "tqdm==4.67.3", "cachetools==7.0.3", "scipy==1.17.1",
-            "tox==4.49.0", "build==1.4.0", "pip==26.0.1", "pyparsing==3.3.2", "numpy==2.4.2",
-            "pygments==2.19.2", "packaging==26.0", "distlib==0.4.0", "joblib==1.5.3",
-            "python-discovery==1.1.1", "isort==8.0.1", "pluggy==1.6.0", "setuptools==82.0.0",
-            "pip-tools==7.5.3", "astroid==4.0.4", "filelock==3.25.0", "pytest==9.0.2",
-            "virtualenv==21.1.0", "pytest-cov==7.0.0", "pyproject-hooks==1.2.0", "markupsafe==3.0.3",
-            "colorama==0.4.6", "dill==0.4.1"]'
+        list: '["colorama==0.4.6", "pytest-cov==7.0.0", "build==1.4.0", "dill==0.4.1",
+            "mccabe==0.7.0", "setuptools==82.0.0", "virtualenv==21.1.0", "tqdm==4.67.3",
+            "markupsafe==3.0.3", "pycodestyle==2.14.0", "tomlkit==0.14.0", "filelock==3.25.0",
+            "pip-tools==7.5.3", "pyproject-api==1.10.0", "wheel==0.46.3", "coverage[toml]==7.13.4",
+            "iniconfig==2.3.0", "nltk==3.9.3", "distlib==0.4.0", "isort==8.0.1", "pytest==9.0.2",
+            "tox==4.49.0", "click==8.3.1", "tomli-w==1.2.0", "pip==26.0.1", "regex==2026.2.28",
+            "pluggy==1.6.0", "pygments==2.19.2", "cachetools==7.0.3", "pyparsing==3.3.2",
+            "joblib==1.5.3", "pylint==4.0.5", "scipy==1.17.1", "pyproject-hooks==1.2.0",
+            "python-discovery==1.1.1", "platformdirs==4.9.4", "numpy==2.4.2", "packaging==26.0",
+            "astroid==4.0.4"]'
 django_packages:
     django_42:
         count: 0
@@ -69,6 +68,10 @@ exists:
     setup.py: true
     tox.ini: true
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 6
+    lockfile_age_days: 203
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -88,9 +91,12 @@ github:
     contributor_count_90d: 0
     created_at: 2019-05-07 16:58:24
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: ''
     disk_usage_kb: 120
+    first_timer_prs_90d: 0
     fork_count: 5
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -98,11 +104,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issues_open: 3
+    issues_opened_90d: 0
+    issues_stale_open_180d: 3
     last_push: 2026-09-23 14:22:40
     license: GNU AGPLv3
-    median_pr_response_seconds: 6
+    median_pr_response_seconds: 4535362
+    oldest_open_pr_days: 1784
     pr_closure_ratio_90d: 0.0
     pr_opened_90d: 1
+    prs_open: 3
     pulls_count: 3
     release_count_12mo: 0
 github_actions: true

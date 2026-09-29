@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,23 +65,38 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 19
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 70
-    build_details: '{"total_duration": "2 minutes 27 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 51 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 53 seconds"}]}'
+    build_details: '{"total_duration": "14 minutes 23 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 47 seconds"}, {"name": "Release", "duration":
+        "1 minutes 1 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 6 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2018-10-17 15:49:15
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: Instructor grade book tool
-    disk_usage_kb: 10691
+    disk_usage_kb: 10385
+    first_timer_median_first_response_seconds: 1619604
+    first_timer_prs_90d: 3
     fork_count: 123
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -89,19 +104,26 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-28 00:49:45
+    issue_closure_ratio_90d: 0.75
+    issues_open: 14
+    issues_opened_90d: 4
+    issues_stale_open_180d: 13
+    last_push: 2026-09-28 20:52:54
     license: GNU AGPLv3
-    median_pr_response_seconds: 201
-    pr_closure_ratio_90d: 0.58
-    pr_opened_90d: 50
+    median_pr_response_seconds: 60404
+    median_pr_time_to_merge_seconds: 31619
+    oldest_open_pr_days: 1251
+    pr_closure_ratio_90d: 0.5962
+    pr_opened_90d: 52
+    prs_open: 29
     pulls_count: 29
-    release_count_12mo: 9
+    release_count_12mo: 11
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 381
-    javascript: 254784
+    javascript: 258021
     makefile: 2136
     python: 0
     shell: 0
@@ -132,12 +154,8 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/community/connect: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: false
     good_links:
     - https://docs.openedx.org/en/latest/educators/how-tos/data/view_learner_grades.html
@@ -148,8 +166,12 @@ readme:
     - https://github.com/overhangio/tutor-mfe?tab=readme-ov-file
     - https://docs.npmjs.com/cli/using-npm/workspaces
     - https://github.com/openedx/frontend-base
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-gradebook/issues
+    - https://openedx.org/slack
+    - https://openedx.org/community/connect
+    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/codecov/c/gh/openedx/frontend-app-gradebook
     - https://app.codecov.io/gh/openedx/frontend-app-gradebook
     - https://img.shields.io/npm/v/@openedx/frontend-app-gradebook.svg

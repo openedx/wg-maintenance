@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: false
     has_ecosystem:
@@ -58,6 +58,10 @@ exists:
     setup.py: false
     tox.ini: true
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 2
+    lockfile_age_days: 26
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -70,7 +74,9 @@ github:
     default_branch: main
     description: This is intended to be a long-term successor to edx-search.
     disk_usage_kb: 156
+    first_timer_prs_90d: 0
     fork_count: 1
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: true
     is_archived: false
@@ -78,11 +84,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issues_open: 0
+    issues_opened_90d: 0
+    issues_stale_open_180d: 0
     last_push: 2026-09-26 17:16:44
     license: GNU AGPLv3
-    median_pr_response_seconds: 6
+    median_pr_response_seconds: 1323
+    median_pr_time_to_merge_seconds: 1219337
+    oldest_open_pr_days: 2
     pr_closure_ratio_90d: 0.5
     pr_opened_90d: 2
+    prs_open: 1
     pulls_count: 1
     release_count_12mo: 0
 github_actions: true

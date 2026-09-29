@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,6 +66,10 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 43
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -79,7 +83,10 @@ github:
     description: A collection of components meant to integrate Notifications into
         the platform UI. They are presently used in the HeaderNotificationsSlot.
     disk_usage_kb: 979
+    first_timer_median_first_response_seconds: 56714
+    first_timer_prs_90d: 4
     fork_count: 10
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -87,11 +94,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issue_closure_ratio_90d: 1.0
+    issues_open: 4
+    issues_opened_90d: 3
+    issues_stale_open_180d: 2
     last_push: 2026-09-28 00:26:56
     license: GNU AGPLv3
-    median_pr_response_seconds: 2
+    median_pr_response_seconds: 56714
+    median_pr_time_to_merge_seconds: 1631
+    oldest_open_pr_days: 480
     pr_closure_ratio_90d: 0.9333
     pr_opened_90d: 15
+    prs_open: 2
     pulls_count: 2
     release_count_12mo: 16
 github_actions: true

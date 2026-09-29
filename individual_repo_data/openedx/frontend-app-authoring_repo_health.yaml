@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -98,20 +98,38 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 5
+    commits_365d: 267
+    lockfile_age_days: 0
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 32
-    build_details: '{"total_duration": "", "checks": []}'
+    branch_count: 31
+    build_details: '{"total_duration": "402 minutes 15 seconds", "checks": [{"name":
+        "tests", "duration": "6 minutes 46 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 12 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 6 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 55 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 54 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 23
     created_at: 2020-05-06 18:34:51
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 53864
+    disk_usage_kb: 53669
+    first_timer_median_first_response_seconds: 372352
+    first_timer_prs_90d: 3
     fork_count: 217
+    good_first_issues_open: 16
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -119,19 +137,27 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-28 04:45:16
+    issue_closure_ratio_90d: 0.25
+    issues_open: 261
+    issues_opened_90d: 20
+    issues_stale_open_180d: 16
+    last_push: 2026-09-28 22:55:52
     license: GNU AGPLv3
-    median_pr_response_seconds: 7
-    pr_closure_ratio_90d: 0.72
+    median_issue_first_response_seconds: 34348
+    median_pr_response_seconds: 209249
+    median_pr_time_to_merge_seconds: 704328
+    oldest_open_pr_days: 884
+    pr_closure_ratio_90d: 0.78
     pr_opened_90d: 100
-    pulls_count: 46
+    prs_open: 40
+    pulls_count: 40
     release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 388
-    javascript: 2830647
+    javascript: 2830681
     makefile: 1967
     python: 0
     shell: 0
@@ -218,7 +244,7 @@ renovate:
     configured: true
     last_pr: '2026-09-19'
     oldest_open_pr_date: '2026-07-21'
-    total_open_prs: 3
+    total_open_prs: 2
 requires:
     django: false
     pytest: false

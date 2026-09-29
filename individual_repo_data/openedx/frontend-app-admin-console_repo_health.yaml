@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,26 +63,31 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 2
+    commits_365d: 101
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
-    build_details: '{"total_duration": "2 minutes 3 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 55 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 47 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 43 seconds"}, {"name": "Dependabot", "duration": "0 minutes 39 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 37 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 7
+    build_details: '{"total_duration": "2 minutes 4 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 4 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 47 seconds"}, {"name": "Dependabot", "duration": "0 minutes 43
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 42 seconds"}, {"name":
+        "Release", "duration": "0 minutes 34 seconds"}, {"name": "version-check /
+        version-check", "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 10
     created_at: 2025-09-23 11:32:49
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: Administrator console for the Open edX application
-    disk_usage_kb: 1773
+    disk_usage_kb: 1777
+    first_timer_prs_90d: 0
     fork_count: 13
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -90,12 +95,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-28 00:26:47
+    issue_closure_ratio_90d: 0.4118
+    issues_open: 15
+    issues_opened_90d: 17
+    issues_stale_open_180d: 3
+    last_push: 2026-09-28 13:31:42
     license: GNU AGPLv3
-    median_pr_response_seconds: 144
-    pr_closure_ratio_90d: 0.9273
+    median_issue_first_response_seconds: 1655276
+    median_pr_response_seconds: 39306
+    median_pr_time_to_merge_seconds: 31265
+    oldest_open_pr_days: 182
+    pr_closure_ratio_90d: 0.9455
     pr_opened_90d: 55
-    pulls_count: 7
+    prs_open: 6
+    pulls_count: 6
     release_count_12mo: 11
 github_actions: true
 language_bytes:

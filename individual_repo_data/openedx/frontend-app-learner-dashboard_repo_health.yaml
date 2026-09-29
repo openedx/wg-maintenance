@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,28 +67,34 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 85
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 22
-    build_details: '{"total_duration": "1 minutes 34 seconds", "checks": [{"name":
-        "tests", "duration": "1 minutes 34 seconds"}, {"name": "Release", "duration":
-        "1 minutes 2 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 5 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}]}'
+    branch_count: 21
+    build_details: '{"total_duration": "551 minutes 4 seconds", "checks": [{"name":
+        "tests", "duration": "2 minutes 4 seconds"}, {"name": "Release", "duration":
+        "0 minutes 31 seconds"}, {"name": "Dependabot", "duration": "0 minutes 26
+        seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        3 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2022-06-03 14:59:36
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: Learner Dashboard MFE
-    disk_usage_kb: 10569
+    disk_usage_kb: 10571
+    first_timer_median_first_response_seconds: 66453
+    first_timer_prs_90d: 8
     fork_count: 206
+    good_first_issues_open: 1
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -96,11 +102,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-22 23:16:24
+    issue_closure_ratio_90d: 0.4286
+    issues_open: 20
+    issues_opened_90d: 7
+    issues_stale_open_180d: 15
+    last_push: 2026-09-28 13:32:06
     license: GNU AGPLv3
-    median_pr_response_seconds: 132
-    pr_closure_ratio_90d: 0.8125
-    pr_opened_90d: 16
+    median_pr_response_seconds: 207159
+    median_pr_time_to_merge_seconds: 360795
+    oldest_open_pr_days: 497
+    pr_closure_ratio_90d: 0.8235
+    pr_opened_90d: 17
+    prs_open: 7
     pulls_count: 7
     release_count_12mo: 21
 github_actions: true

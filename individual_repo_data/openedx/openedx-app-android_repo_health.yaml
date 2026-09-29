@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -58,25 +58,28 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 20
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 13
-    build_details: '{"total_duration": "8779 minutes 11 seconds", "checks": [{"name":
-        "Runs unit tests", "duration": "5 minutes 2 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 46 seconds"}, {"name": "Validate strings.xml", "duration":
-        "0 minutes 6 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 53 seconds"}]}'
+    build_details: '{"total_duration": "628 minutes 43 seconds", "checks": [{"name":
+        "Runs unit tests", "duration": "4 minutes 48 seconds"}, {"name": "Dependabot",
+        "duration": "1 minutes 50 seconds"}, {"name": "Validate strings.xml", "duration":
+        "0 minutes 7 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2023-03-13 09:14:43
     default_branch: main
+    default_branch_ci_state: SUCCESS
     description: The mobile app for Android for the Open EdX Platform.
-    disk_usage_kb: 7221
+    disk_usage_kb: 7225
+    first_timer_prs_90d: 1
     fork_count: 61
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -84,11 +87,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-21 23:54:45
+    issues_open: 74
+    issues_opened_90d: 0
+    issues_stale_open_180d: 49
+    last_push: 2026-09-28 23:54:07
     license: Apache License 2.0
-    median_pr_response_seconds: 7
-    pr_closure_ratio_90d: 0.84
-    pr_opened_90d: 25
+    median_pr_response_seconds: 285682
+    median_pr_time_to_merge_seconds: 1795785
+    oldest_open_pr_days: 724
+    pr_closure_ratio_90d: 0.8462
+    pr_opened_90d: 26
+    prs_open: 6
     pulls_count: 6
     release_count_12mo: 7
 github_actions: true

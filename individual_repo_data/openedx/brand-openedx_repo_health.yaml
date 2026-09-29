@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -58,25 +58,32 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 14
+    lockfile_age_days: 151
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 5
-    build_details: '{"total_duration": "50430 minutes 5 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "60510 minutes 10 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 40 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 39 seconds"}, {"name": "Dependabot", "duration": "0
         minutes 34 seconds"}, {"name": "Dependabot", "duration": "0 minutes 32 seconds"},
         {"name": "Release", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 29 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 28 seconds"}]}'
+        "duration": "0 minutes 31 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 29 seconds"}, {"name": "Dependabot", "duration": "0 minutes 28 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2020-09-08 20:23:21
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: ''
     disk_usage_kb: 125
+    first_timer_prs_90d: 0
     fork_count: 217
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -84,11 +91,15 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issues_open: 0
+    issues_opened_90d: 0
+    issues_stale_open_180d: 0
     last_push: 2026-08-17 12:46:20
     license: GNU AGPLv3
-    median_pr_response_seconds: 1531439
+    median_pr_time_to_merge_seconds: 1822498
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 2
+    prs_open: 0
     pulls_count: 0
     release_count_12mo: 7
 github_actions: true
