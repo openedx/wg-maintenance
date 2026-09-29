@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,6 +63,10 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 29
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -80,9 +84,12 @@ github:
     contributor_count_90d: 4
     created_at: 2026-05-28 13:40:16
     default_branch: main
+    default_branch_ci_state: SUCCESS
     description: ''
     disk_usage_kb: 1578
+    first_timer_prs_90d: 0
     fork_count: 4
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -90,11 +97,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issue_closure_ratio_90d: 1.0
+    issues_open: 0
+    issues_opened_90d: 2
+    issues_stale_open_180d: 0
     last_push: 2026-09-25 17:58:05
     license: GNU AGPLv3
-    median_pr_response_seconds: 120
+    median_pr_response_seconds: 1053
+    median_pr_time_to_merge_seconds: 448266
+    oldest_open_pr_days: 26
     pr_closure_ratio_90d: 0.95
     pr_opened_90d: 20
+    prs_open: 1
     pulls_count: 1
     release_count_12mo: 5
 github_actions: true
@@ -127,7 +141,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-aspects:
         404'
@@ -141,6 +154,7 @@ readme:
     - https://github.com/openedx/frontend-base
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
+    - https://openedx.org/slack
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/

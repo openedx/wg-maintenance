@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,26 +65,31 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: true
+git:
+    absence_factor_365d: 2
+    commits_365d: 4
+    lockfile_age_days: 368
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 20
-    build_details: '{"total_duration": "20762 minutes 25 seconds", "checks": [{"name":
-        "test", "duration": "1 minutes 45 seconds"}, {"name": "Release", "duration":
-        "1 minutes 34 seconds"}, {"name": "update-browserslist / update-dep", "duration":
-        "1 minutes 14 seconds"}, {"name": "update-browserslist / update-dep", "duration":
-        "1 minutes 8 seconds"}, {"name": "Dependabot", "duration": "0 minutes 35 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 33 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 31 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 3 seconds"}]}'
+    branch_count: 19
+    build_details: '{"total_duration": "566 minutes 56 seconds", "checks": [{"name":
+        "Release", "duration": "1 minutes 59 seconds"}, {"name": "test", "duration":
+        "1 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0 minutes 25
+        seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        5 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2023-11-02 19:50:48
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: An experimental framework for micro-frontend plugins.
-    disk_usage_kb: 1341
+    disk_usage_kb: 1249
+    first_timer_median_first_response_seconds: 260305
+    first_timer_prs_90d: 1
     fork_count: 28
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -92,12 +97,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-25 04:06:39
+    issues_open: 10
+    issues_opened_90d: 0
+    issues_stale_open_180d: 9
+    last_push: 2026-09-28 13:31:31
     license: GNU AGPLv3
-    median_pr_response_seconds: 151
-    pr_closure_ratio_90d: 0.5
+    median_pr_response_seconds: 260305
+    median_pr_time_to_merge_seconds: 1794236
+    oldest_open_pr_days: 862
+    pr_closure_ratio_90d: 0.75
     pr_opened_90d: 4
-    pulls_count: 12
+    prs_open: 11
+    pulls_count: 11
     release_count_12mo: 6
 github_actions: true
 language_bytes:

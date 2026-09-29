@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: false
     has_ecosystem:
@@ -58,6 +58,9 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -70,7 +73,9 @@ github:
     default_branch: main
     description: ''
     disk_usage_kb: 157
+    first_timer_prs_90d: 0
     fork_count: 3
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -78,9 +83,13 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issues_open: 0
+    issues_opened_90d: 0
+    issues_stale_open_180d: 0
     last_push: 2026-07-30 14:21:49
     license: Apache License 2.0
     pr_opened_90d: 0
+    prs_open: 0
     pulls_count: 0
     release_count_12mo: 4
 github_actions: true

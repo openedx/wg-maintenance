@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -86,25 +86,31 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 3
+    commits_365d: 28
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 214
-    build_details: '{"total_duration": "1 minutes 44 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 21 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 8 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 7 seconds"}, {"name": "Dependabot", "duration": "1 minutes 6 seconds"},
-        {"name": "Dependabot", "duration": "1 minutes 5 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 4 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 56 seconds"}]}'
+    branch_count: 213
+    build_details: '{"total_duration": "186 minutes 9 seconds", "checks": [{"name":
+        "tests", "duration": "5 minutes 52 seconds"}, {"name": "build", "duration":
+        "3 minutes 5 seconds"}, {"name": "lint", "duration": "1 minutes 57 seconds"},
+        {"name": "extract_translations", "duration": "1 minutes 16 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 38 seconds"}, {"name": "version-check
+        / version-check", "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2018-05-10 13:44:58
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: edx-portal is a frontend that provides branded learning experiences.
-    disk_usage_kb: 25678
+    disk_usage_kb: 25701
+    first_timer_prs_90d: 1
     fork_count: 46
+    good_first_issues_open: 1
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -112,12 +118,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-28 00:55:50
+    issues_open: 31
+    issues_opened_90d: 0
+    issues_stale_open_180d: 30
+    last_push: 2026-09-29 00:49:36
     license: GNU AGPLv3
-    median_pr_response_seconds: 355
-    pr_closure_ratio_90d: 0.3659
+    median_pr_time_to_merge_seconds: 1810857
+    oldest_open_pr_days: 1543
+    pr_closure_ratio_90d: 0.3902
     pr_opened_90d: 41
-    pulls_count: 70
+    prs_open: 69
+    pulls_count: 69
     release_count_12mo: 0
 github_actions: true
 language_bytes:
@@ -149,12 +160,8 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/community/connect: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-app-admin-portal/actions/workflows/ci.yml/badge.svg
@@ -163,6 +170,10 @@ readme:
     - https://github.com/openedx/edx-analytics-data-api
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-admin-portal/issues
+    - https://openedx.org/slack
+    - https://openedx.org/community/connect
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -58,6 +58,9 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -83,7 +86,9 @@ github:
     description: Tracking the maintenance, enhancement, and advancement of the Open
         edX project.
     disk_usage_kb: 34
+    first_timer_prs_90d: 0
     fork_count: 6
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -91,9 +96,15 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issue_closure_ratio_90d: 0.0
+    issues_open: 210
+    issues_opened_90d: 14
+    issues_stale_open_180d: 58
     last_push: 2025-10-30 15:11:06
     license: null
+    median_issue_first_response_seconds: 443773
     pr_opened_90d: 0
+    prs_open: 0
     pulls_count: 0
     release_count_12mo: 0
 github_actions: true

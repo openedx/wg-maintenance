@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: false
     has_ecosystem:
@@ -63,19 +63,35 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 119
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 4
-    build_details: '{"total_duration": "", "checks": []}'
+    build_details: '{"total_duration": "3 minutes 0 seconds", "checks": [{"name":
+        "test", "duration": "3 minutes 0 seconds"}, {"name": "Release", "duration":
+        "1 minutes 19 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 6
+    contributor_count_90d: 7
     created_at: 2025-08-21 12:52:46
     default_branch: main
+    default_branch_ci_state: SUCCESS
     description: Instructor Dashboard pages in MFE-land
-    disk_usage_kb: 1463
+    disk_usage_kb: 1521
+    first_timer_prs_90d: 0
     fork_count: 19
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -83,13 +99,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-28 00:32:39
+    issue_closure_ratio_90d: 0.5714
+    issues_open: 9
+    issues_opened_90d: 7
+    issues_stale_open_180d: 1
+    last_push: 2026-09-28 19:06:28
     license: GNU AGPLv3
-    median_pr_response_seconds: 6
-    pr_closure_ratio_90d: 0.9231
-    pr_opened_90d: 26
+    median_issue_first_response_seconds: 70513
+    median_pr_response_seconds: 44967
+    median_pr_time_to_merge_seconds: 95177
+    oldest_open_pr_days: 26
+    pr_closure_ratio_90d: 0.9259
+    pr_opened_90d: 27
+    prs_open: 2
     pulls_count: 2
-    release_count_12mo: 69
+    release_count_12mo: 70
 github_actions: true
 language_bytes:
     css: 0
@@ -123,6 +147,7 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-instructor-dashboard:
@@ -139,7 +164,6 @@ readme:
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-instructor-dashboard/issues
-    - https://openedx.org/slack
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/

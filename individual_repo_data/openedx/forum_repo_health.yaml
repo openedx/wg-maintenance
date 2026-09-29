@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: false
     has_ecosystem:
@@ -58,12 +58,16 @@ exists:
     setup.py: false
     tox.ini: true
     transifex_config: false
+git:
+    absence_factor_365d: 3
+    commits_365d: 31
+    lockfile_age_days: 49
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 14
-    build_details: '{"total_duration": "23284 minutes 17 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "28674 minutes 49 seconds", "checks": [{"name":
         "run_ci / e2e", "duration": "2 minutes 34 seconds"}, {"name": "e2e", "duration":
         "2 minutes 29 seconds"}, {"name": "release", "duration": "1 minutes 6 seconds"},
         {"name": "run_ci / quality", "duration": "0 minutes 46 seconds"}, {"name":
@@ -80,6 +84,7 @@ github:
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -90,9 +95,13 @@ github:
     contributor_count_90d: 4
     created_at: 2024-07-25 08:43:29
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: Python rewrite of the legacy Open edX Ruby forum
     disk_usage_kb: 995
+    first_timer_median_first_response_seconds: 1236349
+    first_timer_prs_90d: 3
     fork_count: 27
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -100,11 +109,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issue_closure_ratio_90d: 0.0
+    issues_open: 10
+    issues_opened_90d: 1
+    issues_stale_open_180d: 9
     last_push: 2026-09-08 16:56:21
     license: GNU AGPLv3
-    median_pr_response_seconds: 41784
+    median_pr_response_seconds: 169443
+    median_pr_time_to_merge_seconds: 645395
+    oldest_open_pr_days: 113
     pr_closure_ratio_90d: 0.6364
     pr_opened_90d: 11
+    prs_open: 5
     pulls_count: 5
     release_count_12mo: 12
 github_actions: true

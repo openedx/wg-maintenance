@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,33 +22,33 @@ dependencies:
         list: ''
     pypi:
         count: 14
-        list: '["webob==1.8.9", "pytz==2025.2", "pyyaml==6.0.3", "python-dateutil==2.9.0.post0",
-            "six==1.17.0", "fs==2.4.16", "web-fragments==3.1.0", "markupsafe==3.0.3",
-            "mako==1.3.10", "appdirs==1.4.4", "xblock==5.3.0", "lazy==1.6", "lxml==6.0.2",
-            "simplejson==3.20.2"]'
+        list: '["mako==1.3.10", "pytz==2025.2", "xblock==5.3.0", "pyyaml==6.0.3",
+            "lxml==6.0.2", "appdirs==1.4.4", "lazy==1.6", "fs==2.4.16", "webob==1.8.9",
+            "simplejson==3.20.2", "six==1.17.0", "web-fragments==3.1.0", "python-dateutil==2.9.0.post0",
+            "markupsafe==3.0.3"]'
     pypi_all:
         count: 45
-        list: '["pylint-django==2.7.0", "pip-tools==7.5.2", "pytz==2025.2", "pytest-cov==7.0.0",
-            "xblock==5.3.0", "code-annotations==2.3.0", "packaging==25.0", "simplejson==3.20.2",
-            "pyproject-hooks==1.2.0", "wheel==0.45.1", "webob==1.8.9", "python-slugify==8.0.4",
-            "pylint-celery==0.3", "python-dateutil==2.9.0.post0", "fs==2.4.16", "platformdirs==4.5.1",
-            "mako==1.3.10", "pip==25.3", "stevedore==5.6.0", "lazy==1.6", "lxml==6.0.2",
-            "coverage[toml]==7.13.1", "pylint-plugin-utils==0.9.0", "dill==0.4.0",
-            "text-unidecode==1.3", "edx-lint==5.6.0", "six==1.17.0", "tomlkit==0.14.0",
-            "mccabe==0.7.0", "markupsafe==3.0.3", "astroid==4.0.3", "appdirs==1.4.4",
-            "setuptools==80.9.0", "click==8.3.1", "click-log==0.4.0", "pyyaml==6.0.3",
-            "web-fragments==3.1.0", "pytest==9.0.2", "iniconfig==2.3.0", "jinja2==3.1.6",
-            "build==1.4.0", "pylint==4.0.4", "isort==7.0.0", "pygments==2.19.2", "pluggy==1.6.0"]'
+        list: '["pyproject-hooks==1.2.0", "mako==1.3.10", "pylint-plugin-utils==0.9.0",
+            "web-fragments==3.1.0", "dill==0.4.0", "markupsafe==3.0.3", "click==8.3.1",
+            "pip==25.3", "tomlkit==0.14.0", "pytz==2025.2", "build==1.4.0", "jinja2==3.1.6",
+            "appdirs==1.4.4", "pylint-django==2.7.0", "lazy==1.6", "python-slugify==8.0.4",
+            "pylint==4.0.4", "wheel==0.45.1", "click-log==0.4.0", "pytest-cov==7.0.0",
+            "pip-tools==7.5.2", "pygments==2.19.2", "coverage[toml]==7.13.1", "xblock==5.3.0",
+            "pyyaml==6.0.3", "pluggy==1.6.0", "lxml==6.0.2", "mccabe==0.7.0", "fs==2.4.16",
+            "text-unidecode==1.3", "simplejson==3.20.2", "six==1.17.0", "python-dateutil==2.9.0.post0",
+            "webob==1.8.9", "iniconfig==2.3.0", "edx-lint==5.6.0", "code-annotations==2.3.0",
+            "isort==7.0.0", "packaging==25.0", "pylint-celery==0.3", "platformdirs==4.5.1",
+            "pytest==9.0.2", "setuptools==80.9.0", "stevedore==5.6.0", "astroid==4.0.3"]'
 django_packages:
     django_42:
         count: 4
-        list: '["web-fragments", "xblock", "pylint-django", "code-annotations"]'
+        list: '["pylint-django", "xblock", "web-fragments", "code-annotations"]'
     total:
         count: 4
-        list: '["web-fragments", "xblock", "pylint-django", "code-annotations"]'
+        list: '["pylint-django", "xblock", "web-fragments", "code-annotations"]'
     upgraded:
         count: 3
-        list: '["web-fragments", "xblock", "code-annotations"]'
+        list: '["xblock", "web-fragments", "code-annotations"]'
 docs:
     build_badge: false
     python_version: null
@@ -71,6 +71,10 @@ exists:
     setup.py: true
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 4
+    lockfile_age_days: 257
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -96,7 +100,10 @@ github:
     default_branch: master
     description: An XBlock for testing XBlock Runtimes
     disk_usage_kb: 176
+    first_timer_median_first_response_seconds: 107414
+    first_timer_prs_90d: 1
     fork_count: 24
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -104,11 +111,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-23 14:22:37
+    issues_open: 0
+    issues_opened_90d: 0
+    issues_stale_open_180d: 0
+    last_push: 2026-09-29 02:42:53
     license: GNU AGPLv3
-    median_pr_response_seconds: 1540996
-    pr_closure_ratio_90d: 0.5909
-    pr_opened_90d: 22
+    median_pr_response_seconds: 107414
+    median_pr_time_to_merge_seconds: 9983364
+    oldest_open_pr_days: 249
+    pr_closure_ratio_90d: 0.6087
+    pr_opened_90d: 23
+    prs_open: 11
     pulls_count: 11
     release_count_12mo: 0
 github_actions: true

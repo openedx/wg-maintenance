@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -58,32 +58,37 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 117
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "9250 minutes 12 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 44 seconds"}, {"name": "run_ci / frontend
-        / build", "duration": "0 minutes 42 seconds"}, {"name": "run_ci / backend
-        / tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 28 seconds"},
-        {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 28 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
-        3.12, django60)", "duration": "0 minutes 27 seconds"}, {"name": "run_ci /
-        backend / tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 24 seconds"},
-        {"name": "run_ci / brand / build", "duration": "0 minutes 22 seconds"}, {"name":
-        "run_ci / tutor / build", "duration": "0 minutes 22 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 20 seconds"}, {"name": "run_ci
+    build_details: '{"total_duration": "2 minutes 58 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 7 seconds"}, {"name": "run_ci / frontend
+        / build", "duration": "0 minutes 56 seconds"}, {"name": "run_ci / backend
+        / tests (ubuntu-latest, 3.12, django60)", "duration": "0 minutes 35 seconds"},
+        {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, django52)", "duration":
+        "0 minutes 29 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
+        3.12, docs)", "duration": "0 minutes 23 seconds"}, {"name": "run_ci / backend
+        / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 22 seconds"},
+        {"name": "run_ci / tutor / build", "duration": "0 minutes 20 seconds"}, {"name":
+        "run_ci / brand / build", "duration": "0 minutes 15 seconds"}, {"name": "run_ci
         / backend / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes
-        12 seconds"}, {"name": "run_ci / all required checks passed", "duration":
-        "0 minutes 2 seconds"}]}'
+        14 seconds"}, {"name": "run_ci / all required checks passed", "duration":
+        "0 minutes 4 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2025-03-21 17:45:40
     default_branch: main
+    default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1131
+    disk_usage_kb: 1143
+    first_timer_prs_90d: 0
     fork_count: 4
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -91,13 +96,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    last_push: 2026-09-21 14:31:50
+    issue_closure_ratio_90d: 0.0
+    issues_open: 9
+    issues_opened_90d: 1
+    issues_stale_open_180d: 3
+    last_push: 2026-09-28 13:25:15
     license: null
-    median_pr_response_seconds: 80
+    median_pr_response_seconds: 18440
+    median_pr_time_to_merge_seconds: 18133
+    oldest_open_pr_days: 137
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 17
+    pr_opened_90d: 19
+    prs_open: 2
     pulls_count: 2
-    release_count_12mo: 33
+    release_count_12mo: 34
 github_actions: true
 language_bytes:
     css: 0

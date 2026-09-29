@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-28
+TIMESTAMP: 2026-09-29
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,6 +61,10 @@ exists:
     setup.py: false
     tox.ini: false
     transifex_config: false
+git:
+    absence_factor_365d: 1
+    commits_365d: 22
+    lockfile_age_days: 32
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -77,10 +81,13 @@ github:
     contributor_count_90d: 2
     created_at: 2026-05-02 22:17:10
     default_branch: main
+    default_branch_ci_state: SUCCESS
     description: Compatibility shim that lets legacy frontend-plugin-framework env.config.jsx
         files run on top of @openedx/frontend-base.
     disk_usage_kb: 285
+    first_timer_prs_90d: 0
     fork_count: 2
+    good_first_issues_open: 0
     has_issues: true
     has_wiki: false
     is_archived: false
@@ -88,11 +95,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
+    issue_closure_ratio_90d: 1.0
+    issues_open: 1
+    issues_opened_90d: 1
+    issues_stale_open_180d: 0
     last_push: 2026-09-02 09:53:27
     license: GNU AGPLv3
-    median_pr_response_seconds: 128
+    median_pr_response_seconds: 313109
+    median_pr_time_to_merge_seconds: 158
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 3
+    prs_open: 0
     pulls_count: 0
     release_count_12mo: 6
 github_actions: true
