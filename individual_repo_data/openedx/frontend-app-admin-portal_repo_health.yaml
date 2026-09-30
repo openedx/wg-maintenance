@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-29
+TIMESTAMP: 2026-09-30
 dependabot:
     exists: true
     has_ecosystem:
@@ -89,7 +89,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 28
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -108,7 +108,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: edx-portal is a frontend that provides branded learning experiences.
     disk_usage_kb: 25701
-    first_timer_prs_90d: 1
+    first_timer_prs_90d: 0
     fork_count: 46
     good_first_issues_open: 1
     has_issues: true
@@ -121,12 +121,12 @@ github:
     issues_open: 31
     issues_opened_90d: 0
     issues_stale_open_180d: 30
-    last_push: 2026-09-29 00:49:36
+    last_push: 2026-09-29 12:32:54
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 1810857
-    oldest_open_pr_days: 1543
-    pr_closure_ratio_90d: 0.3902
-    pr_opened_90d: 41
+    oldest_open_pr_days: 1544
+    pr_closure_ratio_90d: 0.375
+    pr_opened_90d: 40
     prs_open: 69
     pulls_count: 69
     release_count_12mo: 0
@@ -161,7 +161,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-app-admin-portal/actions/workflows/ci.yml/badge.svg

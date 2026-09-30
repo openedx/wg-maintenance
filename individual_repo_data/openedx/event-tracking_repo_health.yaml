@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-29
+TIMESTAMP: 2026-09-30
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,32 +60,25 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 23
-    lockfile_age_days: 7
+    commits_365d: 22
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 15
-    build_details: '{"total_duration": "851 minutes 54 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 16 seconds"}, {"name": "release", "duration": "0 minutes 47 seconds"},
-        {"name": "run_tests / django52", "duration": "0 minutes 35 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "publish_to_pypi", "duration": "-1 minutes 59 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "-1 minutes 52 seconds"}, {"name":
-        "add_remove_labels / remove_label", "duration": "-1 minutes 52 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        50 seconds"}]}'
+    branch_count: 14
+    build_details: '{"total_duration": "1 minutes 28 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 52 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 37 seconds"}, {"name": "run_tests / django52", "duration":
+        "0 minutes 32 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2013-09-16 17:57:22
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: a system for tracking events
-    disk_usage_kb: 1302
+    disk_usage_kb: 1303
     first_timer_prs_90d: 0
     fork_count: 39
     good_first_issues_open: 0
@@ -100,16 +93,15 @@ github:
     issues_open: 1
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-09-29 03:33:20
+    last_push: 2026-09-29 12:43:58
     license: GNU AGPLv3
     median_issue_first_response_seconds: 14658
     median_pr_response_seconds: 6328
-    median_pr_time_to_merge_seconds: 31653
-    oldest_open_pr_days: 0
-    pr_closure_ratio_90d: 0.9677
+    median_pr_time_to_merge_seconds: 32079
+    pr_closure_ratio_90d: 1.0
     pr_opened_90d: 31
-    prs_open: 1
-    pulls_count: 1
+    prs_open: 0
+    pulls_count: 0
     release_count_12mo: 9
 github_actions: true
 language_bytes:

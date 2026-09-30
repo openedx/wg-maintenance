@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-29
+TIMESTAMP: 2026-09-30
 dependabot:
     exists: false
     has_ecosystem:
@@ -104,7 +104,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 95951
     median_pr_time_to_merge_seconds: 379612
-    oldest_open_pr_days: 154
+    oldest_open_pr_days: 155
     pr_closure_ratio_90d: 0.8571
     pr_opened_90d: 21
     prs_open: 5

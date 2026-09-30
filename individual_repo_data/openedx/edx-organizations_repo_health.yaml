@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-29
+TIMESTAMP: 2026-09-30
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,40 +22,40 @@ dependencies:
         list: ''
     pypi:
         count: 31
-        list: '["requests==2.34.2", "edx-django-utils==8.0.2", "django-crum==0.7.9",
-            "asgiref==3.12.1", "stevedore==5.9.1", "edx-drf-extensions==10.7.0", "pillow==12.3.0",
-            "sqlparse==0.6.0", "drf-jwt==1.19.2", "pyjwt[crypto]==2.13.0", "cffi==2.1.1",
-            "certifi==2026.7.22", "dnspython==2.8.0", "django-simple-history==3.13.0",
-            "django-waffle==5.0.0", "charset-normalizer==3.5.1", "semantic-version==2.10.0",
-            "django-model-utils==5.0.0", "idna==3.19", "psutil==7.2.2", "click==8.5.0",
-            "pynacl==1.6.2", "django==5.2.17", "setuptools==84.0.0", "djangorestframework==3.18.0",
-            "typing-extensions==4.16.0", "pymongo==4.17.0", "urllib3==2.7.0", "edx-opaque-keys==4.0.0",
-            "cryptography==50.0.1", "pycparser==3.0"]'
+        list: '["django==5.2.17", "pynacl==1.6.2", "semantic-version==2.10.0", "stevedore==5.9.1",
+            "drf-jwt==1.19.2", "pillow==12.3.0", "cffi==2.1.1", "urllib3==2.7.0",
+            "djangorestframework==3.18.0", "typing-extensions==4.16.0", "edx-django-utils==8.0.2",
+            "sqlparse==0.6.0", "asgiref==3.12.1", "charset-normalizer==3.5.1", "psutil==7.2.2",
+            "requests==2.34.2", "click==8.5.0", "pymongo==4.17.0", "edx-opaque-keys==4.0.0",
+            "django-waffle==5.0.0", "setuptools==84.0.0", "idna==3.19", "pycparser==3.0",
+            "django-simple-history==3.13.0", "dnspython==2.8.0", "django-crum==0.7.9",
+            "certifi==2026.7.22", "edx-drf-extensions==10.7.0", "django-model-utils==5.0.0",
+            "cryptography==50.0.1", "pyjwt[crypto]==2.13.0"]'
     pypi_all:
         count: 37
-        list: '["requests==2.34.2", "edx-django-utils==8.0.2", "django-crum==0.7.9",
-            "asgiref==3.12.1", "stevedore==5.9.1", "edx-drf-extensions==10.7.0", "pillow==12.3.0",
-            "sqlparse==0.6.0", "drf-jwt==1.19.2", "pyjwt[crypto]==2.13.0", "cffi==2.1.1",
-            "certifi==2026.7.22", "pip-tools==7.6.1", "dnspython==2.8.0", "django-simple-history==3.13.0",
-            "django-waffle==5.0.0", "charset-normalizer==3.5.1", "semantic-version==2.10.0",
-            "django-model-utils==5.0.0", "pip==26.1.2", "idna==3.19", "psutil==7.2.2",
-            "click==8.5.0", "wheel==0.48.0", "pynacl==1.6.2", "django==5.2.17", "setuptools==84.0.0",
-            "djangorestframework==3.18.0", "typing-extensions==4.16.0", "pymongo==4.17.0",
-            "packaging==26.3", "build==1.6.0", "urllib3==2.7.0", "edx-opaque-keys==4.0.0",
-            "cryptography==50.0.1", "pycparser==3.0", "pyproject-hooks==1.2.0"]'
+        list: '["build==1.6.0", "django==5.2.17", "pynacl==1.6.2", "semantic-version==2.10.0",
+            "stevedore==5.9.1", "wheel==0.48.0", "drf-jwt==1.19.2", "pillow==12.3.0",
+            "cffi==2.1.1", "pip-tools==7.6.1", "urllib3==2.7.0", "djangorestframework==3.18.0",
+            "typing-extensions==4.16.0", "edx-django-utils==8.0.2", "sqlparse==0.6.0",
+            "asgiref==3.12.1", "charset-normalizer==3.5.1", "psutil==7.2.2", "requests==2.34.2",
+            "pyproject-hooks==1.2.0", "pip==26.1.2", "click==8.5.0", "pymongo==4.17.0",
+            "edx-opaque-keys==4.0.0", "django-waffle==5.0.0", "packaging==26.3", "setuptools==84.0.0",
+            "idna==3.19", "pycparser==3.0", "django-simple-history==3.13.0", "dnspython==2.8.0",
+            "django-crum==0.7.9", "certifi==2026.7.22", "edx-drf-extensions==10.7.0",
+            "django-model-utils==5.0.0", "cryptography==50.0.1", "pyjwt[crypto]==2.13.0"]'
 django_packages:
     django_42:
         count: 5
-        list: '["edx-opaque-keys", "djangorestframework", "django-waffle", "edx-django-utils",
-            "edx-drf-extensions"]'
+        list: '["django-waffle", "djangorestframework", "edx-drf-extensions", "edx-opaque-keys",
+            "edx-django-utils"]'
     total:
         count: 9
-        list: '["django-crum", "edx-opaque-keys", "djangorestframework", "django-waffle",
-            "django-model-utils", "edx-django-utils", "edx-drf-extensions", "drf-jwt",
-            "django-simple-history"]'
+        list: '["django-model-utils", "drf-jwt", "edx-django-utils", "djangorestframework",
+            "edx-drf-extensions", "edx-opaque-keys", "django-crum", "django-simple-history",
+            "django-waffle"]'
     upgraded:
         count: 4
-        list: '["django-waffle", "edx-drf-extensions", "edx-opaque-keys", "edx-django-utils"]'
+        list: '["edx-drf-extensions", "edx-django-utils", "django-waffle", "edx-opaque-keys"]'
 docs:
     build_badge: false
     python_version: null
@@ -81,7 +81,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 9
-    lockfile_age_days: 29
+    lockfile_age_days: 30
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -123,7 +123,7 @@ github:
     last_push: 2026-09-28 00:49:48
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 1248381
-    oldest_open_pr_days: 1
+    oldest_open_pr_days: 2
     pr_closure_ratio_90d: 0.9545
     pr_opened_90d: 22
     prs_open: 1
