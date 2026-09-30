@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-29
+TIMESTAMP: 2026-09-30
 dependabot:
     exists: false
     has_ecosystem:
@@ -7,10 +7,10 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 39
+    count: 0
     github:
         count: 0
-        list: '[]'
+        list: ''
     js:
         count: 0
         list: ''
@@ -21,21 +21,11 @@ dependencies:
         count: 0
         list: ''
     pypi:
-        count: 9
-        list: '["pyparsing==3.3.2", "joblib==1.5.3", "nltk==3.9.3", "numpy==2.4.2",
-            "scipy==1.17.1", "click==8.3.1", "tqdm==4.67.3", "regex==2026.2.28", "markupsafe==3.0.3"]'
+        count: 0
+        list: ''
     pypi_all:
-        count: 39
-        list: '["colorama==0.4.6", "pytest-cov==7.0.0", "build==1.4.0", "dill==0.4.1",
-            "mccabe==0.7.0", "setuptools==82.0.0", "virtualenv==21.1.0", "tqdm==4.67.3",
-            "markupsafe==3.0.3", "pycodestyle==2.14.0", "tomlkit==0.14.0", "filelock==3.25.0",
-            "pip-tools==7.5.3", "pyproject-api==1.10.0", "wheel==0.46.3", "coverage[toml]==7.13.4",
-            "iniconfig==2.3.0", "nltk==3.9.3", "distlib==0.4.0", "isort==8.0.1", "pytest==9.0.2",
-            "tox==4.49.0", "click==8.3.1", "tomli-w==1.2.0", "pip==26.0.1", "regex==2026.2.28",
-            "pluggy==1.6.0", "pygments==2.19.2", "cachetools==7.0.3", "pyparsing==3.3.2",
-            "joblib==1.5.3", "pylint==4.0.5", "scipy==1.17.1", "pyproject-hooks==1.2.0",
-            "python-discovery==1.1.1", "platformdirs==4.9.4", "numpy==2.4.2", "packaging==26.0",
-            "astroid==4.0.4"]'
+        count: 0
+        list: ''
 django_packages:
     django_42:
         count: 0
@@ -50,7 +40,7 @@ docs:
     build_badge: false
     python_version: null
 exists:
-    .coveragerc: true
+    .coveragerc: false
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
@@ -62,38 +52,38 @@ exists:
     openedx.yaml: true
     package.json: false
     pylintrc: false
-    pyproject.toml: false
-    requirements: true
+    pyproject.toml: true
+    requirements: false
     setup.cfg: false
-    setup.py: true
+    setup.py: false
     tox.ini: true
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 6
-    lockfile_age_days: 203
+    commits_365d: 7
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
-    build_details: '{"total_duration": "59385 minutes 38 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 2 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 53
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 33 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 31 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 30 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 29 seconds"}, {"name": "Dependabot", "duration": "0 minutes 29 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 26 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 24 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 20 seconds"}]}'
+    branch_count: 28
+    build_details: '{"total_duration": "4 minutes 21 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 1 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 56 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
+        32 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes 31 seconds"},
+        {"name": "run_tests / py", "duration": "0 minutes 29 seconds"}, {"name": "run_tests
+        / quality", "duration": "0 minutes 24 seconds"}, {"name": "publish_to_pypi",
+        "duration": "0 minutes 24 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 0
+    contributor_count_90d: 1
     created_at: 2019-05-07 16:58:24
     default_branch: master
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: ''
-    disk_usage_kb: 120
+    disk_usage_kb: 215
     first_timer_prs_90d: 0
     fork_count: 5
     good_first_issues_open: 0
@@ -107,30 +97,31 @@ github:
     issues_open: 3
     issues_opened_90d: 0
     issues_stale_open_180d: 3
-    last_push: 2026-09-23 14:22:40
+    last_push: 2026-09-29 19:53:42
     license: GNU AGPLv3
     median_pr_response_seconds: 4535362
-    oldest_open_pr_days: 1784
-    pr_closure_ratio_90d: 0.0
-    pr_opened_90d: 1
+    median_pr_time_to_merge_seconds: 5521455
+    oldest_open_pr_days: 1785
+    pr_closure_ratio_90d: 0.5
+    pr_opened_90d: 2
     prs_open: 3
     pulls_count: 3
-    release_count_12mo: 0
+    release_count_12mo: 1
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 384
     html: 0
     javascript: 0
-    makefile: 1281
-    python: 61200
+    makefile: 599
+    python: 58966
     shell: 0
 makefile:
     pip-installed: false
     quality: false
     quality-js: false
     quality-python: false
-    test: false
+    test: true
     test-js: false
     test-python: false
     upgrade: true
@@ -143,7 +134,7 @@ ownership:
     owner_kind: user
     owner_name: codewithemad
     release: ''
-pinned_python_dependencies: 2
+pinned_python_dependencies: 0
 readme:
     bad_links: []
     getting-help: false
@@ -164,14 +155,10 @@ renovate:
     total_open_prs: null
 requires:
     django: false
-    pytest: true
+    pytest: false
 setup_py:
-    py312_classifiers: true
-    pypi_name: chem
-    python_versions:
-    - '3'
-    - '3.12'
-    repo_url: https://github.com/openedx/openedx-chem
+    py312_classifiers: false
+    python_versions: []
 tox_ini:
     has_section:
         testenv: true

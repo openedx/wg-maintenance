@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-29
+TIMESTAMP: 2026-09-30
 dependabot:
     exists: false
     has_ecosystem:
@@ -136,7 +136,7 @@ readme:
     bad_links:
     - 'https://badge.fury.io/js/%40edx%2Fedx-bootstrap: 403'
     - 'https://openedx.slack.com/messages/C0EUBSV7D: 403'
-    - 'https://openedx.slack.com/messages/C02BMP2RD5Y: 429'
+    - 'https://openedx.slack.com/messages/C02BMP2RD5Y: 403'
     getting-help: false
     good_links:
     - https://badge.fury.io/js/%40edx%2Fedx-bootstrap.svg

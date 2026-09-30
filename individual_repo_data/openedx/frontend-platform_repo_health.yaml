@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-29
+TIMESTAMP: 2026-09-30
 dependabot:
     exists: false
     has_ecosystem:
@@ -75,7 +75,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 8
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -93,7 +93,7 @@ github:
     description: A framework for Open edX micro-frontend applications.
     disk_usage_kb: 37827
     first_timer_prs_90d: 0
-    fork_count: 91
+    fork_count: 90
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -110,9 +110,9 @@ github:
     license: GNU AGPLv3
     median_issue_first_response_seconds: 713261
     median_pr_time_to_merge_seconds: 147
-    oldest_open_pr_days: 1279
+    oldest_open_pr_days: 1280
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 7
+    pr_opened_90d: 5
     prs_open: 19
     pulls_count: 19
     release_count_12mo: 8

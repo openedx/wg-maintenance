@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-29
+TIMESTAMP: 2026-09-30
 dependabot:
     exists: true
     has_ecosystem:
@@ -73,9 +73,9 @@ exists:
     tox.ini: false
     transifex_config: false
 git:
-    absence_factor_365d: 3
-    commits_365d: 17
-    lockfile_age_days: 152
+    absence_factor_365d: 2
+    commits_365d: 16
+    lockfile_age_days: 153
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -96,7 +96,7 @@ github:
     disk_usage_kb: 8980
     first_timer_median_first_response_seconds: 4985871
     first_timer_prs_90d: 1
-    fork_count: 116
+    fork_count: 115
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
