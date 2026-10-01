@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,68 +22,69 @@ dependencies:
         list: ''
     pypi:
         count: 57
-        list: '["requests==2.34.2", "inflection==0.5.1", "sqlparse==0.6.0", "djangorestframework==3.18.1",
-            "asgiref==3.12.1", "cffi==2.1.1", "drf-jwt==1.19.2", "typing-inspection==0.4.4",
-            "cryptography==50.0.1", "pymongo==4.18.2", "click==8.5.0", "django-waffle==5.0.0",
-            "setuptools==84.0.0", "pydantic==2.13.5", "django-elasticsearch-dsl==7.4",
-            "psutil==7.2.2", "semantic-version==2.10.0", "pynacl==1.6.2", "edx-django-release-util==1.5.0",
-            "meilisearch==0.43.0", "mysqlclient==2.3.0", "rpds-py==2026.6.3", "six==1.17.0",
-            "pydantic-core==2.46.5", "django==5.2.17", "pycparser==3.0", "pyyaml==6.0.3",
-            "idna==3.20", "camel-converter[pydantic]==5.1.1", "path==17.1.1", "jsonschema==4.26.0",
-            "django-elasticsearch-dsl-drf==0.22.5", "python-dateutil==2.9.0.post0",
-            "path-py==12.5.0", "edx-opaque-keys==4.0.0", "charset-normalizer==3.5.1",
-            "edx-drf-extensions==10.9.0", "pyjwt[crypto]==2.15.0", "referencing==0.37.0",
-            "packaging==26.3", "stevedore==5.9.1", "gunicorn==26.2.0", "drf-spectacular==0.30.0",
-            "django-crum==0.7.9", "certifi==2026.7.22", "dnspython==2.8.0", "elasticsearch-dsl==7.4.1",
-            "django-cors-headers==4.9.0", "typing-extensions==4.16.0", "django-nine==0.2.7",
-            "edx-django-utils==8.0.2", "attrs==26.1.0", "elasticsearch==7.13.4", "jsonschema-specifications==2025.9.1",
-            "annotated-types==0.8.0", "urllib3==1.26.20", "uritemplate==4.2.0"]'
+        list: '["cffi==2.1.1", "pyyaml==6.0.3", "drf-spectacular==0.30.0", "path==17.1.1",
+            "annotated-types==0.8.0", "meilisearch==0.43.0", "pymongo==4.18.2", "django-elasticsearch-dsl==7.4",
+            "dnspython==2.8.0", "mysqlclient==2.3.0", "idna==3.20", "attrs==26.1.0",
+            "psutil==7.2.2", "pynacl==1.6.2", "edx-django-release-util==1.5.0", "asgiref==3.12.1",
+            "referencing==0.37.0", "urllib3==1.26.20", "django-nine==0.2.7", "gunicorn==26.2.0",
+            "requests==2.34.2", "drf-jwt==1.19.2", "edx-drf-extensions==10.9.0", "jsonschema==4.26.0",
+            "pyjwt[crypto]==2.15.0", "click==8.5.0", "cryptography==50.0.1", "elasticsearch==7.13.4",
+            "uritemplate==4.2.0", "pydantic==2.13.5", "django-crum==0.7.9", "semantic-version==2.10.0",
+            "pydantic-core==2.46.5", "django==5.2.17", "six==1.17.0", "stevedore==5.9.1",
+            "django-cors-headers==4.9.0", "djangorestframework==3.18.1", "inflection==0.5.1",
+            "path-py==12.5.0", "typing-inspection==0.4.4", "elasticsearch-dsl==7.4.1",
+            "setuptools==84.0.0", "rpds-py==2026.6.3", "certifi==2026.7.22", "django-elasticsearch-dsl-drf==0.22.5",
+            "edx-django-utils==8.0.2", "edx-opaque-keys==4.0.0", "packaging==26.3",
+            "django-waffle==5.0.0", "charset-normalizer==3.5.1", "python-dateutil==2.9.0.post0",
+            "typing-extensions==4.16.0", "camel-converter[pydantic]==5.1.1", "sqlparse==0.6.0",
+            "jsonschema-specifications==2025.9.1", "pycparser==3.0"]'
     pypi_all:
         count: 104
-        list: '["pep8==1.7.1", "requests==2.34.2", "inflection==0.5.1", "factory-boy==3.3.3",
-            "sqlparse==0.6.0", "pip==26.2", "djangorestframework==3.18.1", "asgiref==3.12.1",
-            "pyproject-api==1.11.2", "typing-inspection==0.4.4", "django-waffle==5.0.0",
-            "isort==9.0.1", "pycodestyle==2.15.0", "rpds-py==2026.6.3", "jinja2==3.1.6",
-            "pycparser==3.0", "idna==3.20", "jsonschema==4.26.0", "pytest-cov==7.1.0",
-            "django-elasticsearch-dsl-drf==0.22.5", "python-dateutil==2.9.0.post0",
-            "edx-opaque-keys==4.0.0", "markupsafe==3.0.3", "stevedore==5.9.1", "mypy-extensions==1.1.0",
-            "certifi==2026.7.22", "virtualenv==21.13.0", "tox==4.64.4", "distlib==0.4.3",
-            "django-nine==0.2.7", "edx-django-utils==8.0.2", "dill==0.4.1", "elasticsearch==7.13.4",
-            "pip-tools==7.6.1", "diff-cover==10.6.0", "urllib3==1.26.20", "filelock==4.0.4",
-            "pytest-django==4.14.0", "cryptography==50.0.1", "python-discovery==1.6.1",
-            "more-itertools==11.1.0", "tomli-w==1.2.0", "semantic-version==2.10.0",
-            "edx-django-release-util==1.5.0", "six==1.17.0", "tomlkit==0.15.1", "django==5.2.17",
-            "pyyaml==6.0.3", "chardet==7.6.0", "code-annotations==3.0.0", "cachetools==7.2.0",
-            "mccabe==0.7.0", "wheel==0.48.0", "pylint-django==2.8.0", "dnspython==2.8.0",
-            "pyproject-hooks==1.3.3", "attrs==26.1.0", "uritemplate==4.2.0", "pylint-celery==0.3",
-            "colorama==0.4.6", "setuptools==84.0.0", "pynacl==1.6.2", "meilisearch==0.43.0",
-            "mysqlclient==2.3.0", "pygments==2.21.0", "pluggy==1.6.0", "path==17.1.1",
-            "iniconfig==2.3.0", "astroid==4.0.4", "pylint==4.0.9", "text-unidecode==1.3",
-            "coverage[toml]==7.16.2", "referencing==0.37.0", "gunicorn==26.2.0", "django-crum==0.7.9",
-            "elasticsearch-dsl==7.4.1", "build==1.6.1", "pytest==9.1.1", "click-log==0.4.0",
-            "annotated-types==0.8.0", "cffi==2.1.1", "drf-jwt==1.19.2", "python-slugify==9.1.2",
-            "pymongo==4.18.2", "click==8.5.0", "pydantic==2.13.5", "django-elasticsearch-dsl==7.4",
-            "ddt==1.7.2", "psutil==7.2.2", "pydantic-core==2.46.5", "pylint-plugin-utils==0.9.0",
-            "platformdirs==4.12.0", "camel-converter[pydantic]==5.1.1", "faker==40.39.0",
-            "edx-lint==6.2.0", "path-py==12.5.0", "charset-normalizer==3.5.1", "edx-drf-extensions==10.9.0",
-            "pyjwt[crypto]==2.15.0", "packaging==26.3", "django-cors-headers==4.9.0",
-            "typing-extensions==4.16.0", "jsonschema-specifications==2025.9.1", "drf-spectacular==0.30.0"]'
+        list: '["isort==9.0.1", "pip-tools==7.6.1", "mccabe==0.7.0", "jinja2==3.1.6",
+            "mysqlclient==2.3.0", "markupsafe==3.0.3", "psutil==7.2.2", "pynacl==1.6.2",
+            "edx-django-release-util==1.5.0", "colorama==0.4.6", "urllib3==1.26.20",
+            "edx-drf-extensions==10.9.0", "pyjwt[crypto]==2.15.0", "uritemplate==4.2.0",
+            "elasticsearch==7.13.4", "six==1.17.0", "stevedore==5.9.1", "pytest-django==4.14.0",
+            "inflection==0.5.1", "dill==0.4.1", "pluggy==1.6.0", "edx-opaque-keys==4.0.0",
+            "iniconfig==2.3.0", "packaging==26.3", "pyyaml==6.0.3", "tomli-w==1.2.0",
+            "coverage[toml]==7.16.2", "chardet==7.6.0", "pytest==9.1.1", "pymongo==4.18.2",
+            "diff-cover==10.6.0", "build==1.6.1", "platformdirs==4.12.0", "virtualenv==21.13.0",
+            "tox==4.64.4", "django-nine==0.2.7", "gunicorn==26.2.0", "pydantic==2.13.5",
+            "semantic-version==2.10.0", "pydantic-core==2.46.5", "django==5.2.17",
+            "django-cors-headers==4.9.0", "djangorestframework==3.18.1", "filelock==4.0.4",
+            "pytest-cov==7.1.0", "rpds-py==2026.6.3", "pycodestyle==2.15.0", "django-waffle==5.0.0",
+            "text-unidecode==1.3", "python-dateutil==2.9.0.post0", "pylint-celery==0.3",
+            "pylint-django==2.8.0", "jsonschema-specifications==2025.9.1", "cffi==2.1.1",
+            "pylint-plugin-utils==0.9.0", "faker==40.39.0", "astroid==4.0.4", "path==17.1.1",
+            "code-annotations==3.0.0", "ddt==1.7.2", "attrs==26.1.0", "python-slugify==9.1.2",
+            "drf-jwt==1.19.2", "pylint==4.0.9", "cryptography==50.0.1", "path-py==12.5.0",
+            "pep8==1.7.1", "setuptools==84.0.0", "certifi==2026.7.22", "django-elasticsearch-dsl-drf==0.22.5",
+            "edx-django-utils==8.0.2", "charset-normalizer==3.5.1", "python-discovery==1.6.1",
+            "pip==26.2", "camel-converter[pydantic]==5.1.1", "sqlparse==0.6.0", "pycparser==3.0",
+            "drf-spectacular==0.30.0", "annotated-types==0.8.0", "cachetools==7.2.0",
+            "factory-boy==3.3.3", "meilisearch==0.43.0", "pygments==2.21.0", "django-elasticsearch-dsl==7.4",
+            "mypy-extensions==1.1.0", "dnspython==2.8.0", "pyproject-hooks==1.3.3",
+            "idna==3.20", "asgiref==3.12.1", "tomlkit==0.15.1", "referencing==0.37.0",
+            "requests==2.34.2", "jsonschema==4.26.0", "distlib==0.4.3", "click==8.5.0",
+            "django-crum==0.7.9", "more-itertools==11.1.0", "wheel==0.48.0", "typing-inspection==0.4.4",
+            "click-log==0.4.0", "edx-lint==6.2.0", "elasticsearch-dsl==7.4.1", "pyproject-api==1.11.2",
+            "typing-extensions==4.16.0"]'
 django_packages:
     django_42:
         count: 11
-        list: '["factory-boy", "code-annotations", "django-cors-headers", "django-waffle",
-            "pylint-django", "pytest-django", "edx-opaque-keys", "edx-django-release-util",
-            "djangorestframework", "edx-django-utils", "edx-drf-extensions"]'
+        list: '["edx-drf-extensions", "edx-django-utils", "django-cors-headers", "code-annotations",
+            "pytest-django", "edx-django-release-util", "django-waffle", "pylint-django",
+            "edx-opaque-keys", "djangorestframework", "factory-boy"]'
     total:
         count: 16
-        list: '["django-elasticsearch-dsl", "factory-boy", "django-elasticsearch-dsl-drf",
-            "drf-jwt", "code-annotations", "django-cors-headers", "django-waffle",
-            "pylint-django", "pytest-django", "django-nine", "edx-opaque-keys", "edx-django-release-util",
-            "djangorestframework", "edx-django-utils", "django-crum", "edx-drf-extensions"]'
+        list: '["edx-drf-extensions", "edx-django-utils", "django-crum", "django-cors-headers",
+            "drf-jwt", "code-annotations", "django-elasticsearch-dsl", "pytest-django",
+            "edx-django-release-util", "django-waffle", "pylint-django", "django-nine",
+            "edx-opaque-keys", "djangorestframework", "factory-boy", "django-elasticsearch-dsl-drf"]'
     upgraded:
         count: 7
-        list: '["code-annotations", "django-cors-headers", "django-waffle", "edx-opaque-keys",
-            "edx-django-release-util", "edx-django-utils", "edx-drf-extensions"]'
+        list: '["edx-drf-extensions", "edx-django-utils", "django-cors-headers", "code-annotations",
+            "edx-django-release-util", "django-waffle", "edx-opaque-keys"]'
 docs:
     build_badge: false
     python_version: null
@@ -109,7 +110,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 5
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -152,7 +153,7 @@ github:
     last_push: 2026-09-28 06:36:19
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 31260
-    oldest_open_pr_days: 721
+    oldest_open_pr_days: 722
     pr_closure_ratio_90d: 0.8919
     pr_opened_90d: 37
     prs_open: 6

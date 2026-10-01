@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,7 +65,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 15
-    lockfile_age_days: 30
+    lockfile_age_days: 31
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -101,7 +101,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 265
     median_pr_time_to_merge_seconds: 258270
-    oldest_open_pr_days: 1133
+    oldest_open_pr_days: 1134
     pr_closure_ratio_90d: 0.3415
     pr_opened_90d: 41
     prs_open: 34
@@ -140,8 +140,12 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application:
         404'
     getting-help: true
@@ -157,10 +161,6 @@ readme:
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-template-application/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-template-application.svg
     - https://github.com/openedx/frontend-template-application/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen

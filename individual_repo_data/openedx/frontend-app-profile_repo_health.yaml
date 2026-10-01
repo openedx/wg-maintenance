@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -79,7 +79,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 10
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -120,7 +120,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 582035
     median_pr_time_to_merge_seconds: 457543
-    oldest_open_pr_days: 1213
+    oldest_open_pr_days: 1214
     pr_closure_ratio_90d: 0.3542
     pr_opened_90d: 48
     prs_open: 43
@@ -157,8 +157,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://github.com/openedx/frontend-app-profile/blob/main/LICENSE: 404'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://backstage.herokuapp.com/catalog/default/component/frontend-app-profile:
         502'
     getting-help: true
@@ -176,10 +180,6 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-profile/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true
