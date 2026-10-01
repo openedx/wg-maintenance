@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: false
     has_ecosystem:
@@ -80,12 +80,12 @@ github:
         "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 3
     created_at: 2023-03-13 09:15:29
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: The mobile app for iOS for the Open EdX Platform.
-    disk_usage_kb: 13543
+    disk_usage_kb: 13547
     first_timer_median_first_response_seconds: 115803
     first_timer_prs_90d: 1
     fork_count: 33
@@ -100,15 +100,15 @@ github:
     issues_open: 88
     issues_opened_90d: 0
     issues_stale_open_180d: 31
-    last_push: 2026-09-29 05:44:34
+    last_push: 2026-09-30 13:13:51
     license: Apache License 2.0
     median_pr_response_seconds: 95951
-    median_pr_time_to_merge_seconds: 379612
-    oldest_open_pr_days: 155
-    pr_closure_ratio_90d: 0.8571
+    median_pr_time_to_merge_seconds: 298156
+    oldest_open_pr_days: 156
+    pr_closure_ratio_90d: 0.9048
     pr_opened_90d: 21
-    prs_open: 5
-    pulls_count: 5
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 7
 github_actions: true
 language_bytes:

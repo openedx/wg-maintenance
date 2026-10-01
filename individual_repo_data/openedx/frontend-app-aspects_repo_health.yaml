@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,20 +66,20 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 29
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "3245 minutes 33 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "6735 minutes 12 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 30 seconds"}, {"name": "test", "duration":
         "1 minutes 26 seconds"}, {"name": "Release", "duration": "0 minutes 43 seconds"},
         {"name": "update-browserslist / update-dep", "duration": "0 minutes 38 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        52 seconds"}]}'
+        {"name": "Dependabot", "duration": "0 minutes 27 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2026-05-28 13:40:16
@@ -105,7 +105,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 635
     median_pr_time_to_merge_seconds: 448266
-    oldest_open_pr_days: 27
+    oldest_open_pr_days: 28
     pr_closure_ratio_90d: 0.9474
     pr_opened_90d: 19
     prs_open: 1

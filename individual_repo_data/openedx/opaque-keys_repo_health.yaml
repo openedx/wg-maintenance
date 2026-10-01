@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,10 +7,10 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 85
+    count: 0
     github:
         count: 0
-        list: '[]'
+        list: ''
     js:
         count: 0
         list: ''
@@ -21,49 +21,26 @@ dependencies:
         count: 0
         list: ''
     pypi:
-        count: 4
-        list: '["pymongo==4.18.2", "dnspython==2.8.0", "stevedore==5.9.1", "typing-extensions==4.16.0"]'
+        count: 0
+        list: ''
     pypi_all:
-        count: 85
-        list: '["alabaster==1.0.0", "pyproject-api==1.11.2", "requests==2.34.2", "pip-tools==7.6.1",
-            "text-unidecode==1.3", "readme-renderer==46.0", "tox==4.64.4", "mccabe==0.7.0",
-            "idna==3.20", "imagesize==2.0.1", "docutils==0.22.4", "distlib==0.4.3",
-            "ast-serialize==0.11.2", "sphinxcontrib-serializinghtml==2.0.0", "coverage[toml]==7.16.2",
-            "sortedcontainers==2.4.0", "sphinxcontrib-jsmath==1.0.1", "astroid==4.0.4",
-            "snowballstemmer==3.1.1", "pytest-django==4.14.0", "colorama==0.4.6",
-            "pylint-celery==0.3", "pygments==2.21.0", "charset-normalizer==3.5.1",
-            "pip==26.2", "librt==0.15.0", "edx-lint==6.2.0", "python-slugify==9.1.2",
-            "isort==9.0.1", "dill==0.4.1", "coverage==7.16.2", "pymongo==4.18.2",
-            "six==1.17.0", "pylint==4.0.9", "sphinxcontrib-devhelp==2.0.0", "click==8.5.0",
-            "pycodestyle==2.15.0", "tomlkit==0.15.1", "pytest-xdist==3.8.0", "babel==2.18.0",
-            "typing-extensions==4.16.0", "mypy-extensions==1.1.0", "virtualenv==21.13.0",
-            "pluggy==1.6.0", "pylint-django==2.8.0", "sphinxcontrib-htmlhelp==2.1.0",
-            "markupsafe==3.0.3", "setuptools==84.0.0", "mock==5.2.0", "packaging==26.3",
-            "platformdirs==4.12.0", "mypy==2.3.1", "jinja2==3.1.6", "dnspython==2.8.0",
-            "build==1.6.1", "iniconfig==2.3.0", "tomli-w==1.2.0", "python-discovery==1.6.1",
-            "pyyaml==6.0.3", "hypothesis==6.168.2", "sphinx-book-theme==1.4.0", "stevedore==5.9.1",
-            "ddt==1.7.2", "pathspec==1.1.1", "pylint-plugin-utils==0.9.0", "sphinx==9.1.0",
-            "urllib3==2.8.0", "code-annotations==3.0.0", "filelock==4.0.4", "soupsieve==2.10",
-            "pytest-cov==7.1.0", "pydata-sphinx-theme==0.20.0", "roman-numerals==4.1.0",
-            "pytest==9.1.1", "beautifulsoup4==4.15.0", "sphinxcontrib-qthelp==2.0.0",
-            "cachetools==7.2.0", "sphinxcontrib-applehelp==2.0.0", "pyproject-hooks==1.3.3",
-            "click-log==0.4.0", "wheel==0.48.0", "accessible-pygments==0.0.5", "certifi==2026.7.22",
-            "execnet==2.1.2", "nh3==0.3.7"]'
+        count: 0
+        list: ''
 django_packages:
     django_42:
-        count: 3
-        list: '["code-annotations", "pylint-django", "pytest-django"]'
+        count: 0
+        list: '[]'
     total:
-        count: 3
-        list: '["code-annotations", "pylint-django", "pytest-django"]'
+        count: 0
+        list: '[]'
     upgraded:
-        count: 1
-        list: '["code-annotations"]'
+        count: 0
+        list: '[]'
 docs:
     build_badge: false
     python_version: null
 exists:
-    .coveragerc: true
+    .coveragerc: false
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
@@ -75,35 +52,47 @@ exists:
     openedx.yaml: true
     package.json: false
     pylintrc: true
-    pyproject.toml: false
-    requirements: true
+    pyproject.toml: true
+    requirements: false
     setup.cfg: false
-    setup.py: true
+    setup.py: false
     tox.ini: true
     transifex_config: false
 git:
-    absence_factor_365d: 1
-    commits_365d: 5
-    lockfile_age_days: 2
+    absence_factor_365d: 2
+    commits_365d: 11
+    lockfile_age_days: 27
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 11
-    build_details: '{"total_duration": "266 minutes 24 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12, django42)", "duration": "2 minutes 56 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, without-django)", "duration": "2 minutes
-        3 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 58 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, docs)", "duration":
-        "0 minutes 38 seconds"}, {"name": "Dependabot", "duration": "0 minutes 30
-        seconds"}]}'
+    branch_count: 13
+    build_details: '{"total_duration": "4 minutes 23 seconds", "checks": [{"name":
+        "run_tests / Tests (ubuntu-latest, 3.12, django42)", "duration": "2 minutes
+        38 seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration":
+        "2 minutes 33 seconds"}, {"name": "run_tests / Tests (ubuntu-latest, 3.12,
+        without-django)", "duration": "2 minutes 33 seconds"}, {"name": "Tests (ubuntu-latest,
+        3.12, without-django)", "duration": "1 minutes 46 seconds"}, {"name": "release",
+        "duration": "1 minutes 0 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 57 seconds"}, {"name": "Dependabot", "duration": "0 minutes 55 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 48 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 45 seconds"}, {"name": "update-pip-graph", "duration":
+        "0 minutes 41 seconds"}, {"name": "run_tests / Tests (ubuntu-latest, 3.12,
+        quality)", "duration": "0 minutes 28 seconds"}, {"name": "Tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 25 seconds"}, {"name": "Tests (ubuntu-latest,
+        3.12, docs)", "duration": "0 minutes 21 seconds"}, {"name": "run_tests / Tests
+        (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 20 seconds"}, {"name":
+        "publish_to_pypi", "duration": "0 minutes 17 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 7
     created_at: 2014-05-23 17:24:54
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1016
+    disk_usage_kb: 1250
     first_timer_prs_90d: 0
     fork_count: 21
     good_first_issues_open: 0
@@ -117,27 +106,27 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-09-28 13:26:36
+    last_push: 2026-09-30 15:26:36
     license: GNU AGPLv3
     median_pr_response_seconds: 2011511
-    median_pr_time_to_merge_seconds: 27596
-    oldest_open_pr_days: 203
-    pr_closure_ratio_90d: 0.9375
-    pr_opened_90d: 16
-    prs_open: 2
-    pulls_count: 2
-    release_count_12mo: 3
+    median_pr_time_to_merge_seconds: 28358
+    oldest_open_pr_days: 204
+    pr_closure_ratio_90d: 0.8889
+    pr_opened_90d: 18
+    prs_open: 3
+    pulls_count: 3
+    release_count_12mo: 4
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
     javascript: 0
-    makefile: 1757
-    python: 258429
+    makefile: 755
+    python: 250593
     shell: 0
 makefile:
-    pip-installed: true
+    pip-installed: false
     quality: false
     quality-js: false
     quality-python: false
@@ -156,14 +145,14 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://coveralls.io/r/edx/opaque-keys: 403'
+    bad_links: []
     getting-help: false
     good_links:
     - http://code.edx.org/
     - https://github.com/openedx/opaque-keys/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/opaque-keys/actions?query=workflow%3A%22Python+CI%22
-    - https://coveralls.io/repos/edx/opaque-keys/badge.svg?branch=master
+    - https://codecov.io/github/openedx/opaque-keys/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/opaque-keys?branch=master
     - https://github.com/openedx/edx-platform/wiki/Opaque-Keys
     irc-missing: true
     mailing-list-missing: true
@@ -178,15 +167,11 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    django: true
-    pytest: true
+    django: false
+    pytest: false
 setup_py:
-    py312_classifiers: true
-    pypi_name: edx-opaque-keys
-    python_versions:
-    - '3'
-    - '3.12'
-    repo_url: https://github.com/openedx/opaque-keys
+    py312_classifiers: false
+    python_versions: []
 tox_ini:
     has_section:
         testenv: true

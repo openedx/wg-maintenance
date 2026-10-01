@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -90,8 +90,8 @@ github:
     default_branch_ci_state: SUCCESS
     description: An Open edX CLI tool for moving translation files from openedx-translations
     disk_usage_kb: 127
-    first_timer_prs_90d: 0
-    fork_count: 13
+    first_timer_prs_90d: 2
+    fork_count: 14
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -107,10 +107,11 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 227351
     median_pr_time_to_merge_seconds: 2703099
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 9
-    prs_open: 0
-    pulls_count: 0
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.9091
+    pr_opened_90d: 11
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 2
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,32 +63,25 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 155
-    lockfile_age_days: 8
+    commits_365d: 197
+    lockfile_age_days: 9
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 17
-    build_details: '{"total_duration": "4433 minutes 50 seconds", "checks": [{"name":
-        "Docker: main environment / local", "duration": "33 minutes 16 seconds"},
-        {"name": "Docker: last release (verawood) / local", "duration": "27 minutes
-        36 seconds"}, {"name": "build", "duration": "20 minutes 40 seconds"}, {"name":
-        "build", "duration": "16 minutes 47 seconds"}, {"name": "build", "duration":
-        "16 minutes 32 seconds"}, {"name": "Dependabot", "duration": "1 minutes 27
-        seconds"}, {"name": "Dependabot", "duration": "1 minutes 1 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 56 seconds"}, {"name": "Lint, types &
-        unit tests", "duration": "0 minutes 36 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 15
+    build_details: '{"total_duration": "452 minutes 47 seconds", "checks": [{"name":
+        "Docker: main environment / local", "duration": "49 minutes 3 seconds"}, {"name":
+        "Docker: last release (verawood) / local", "duration": "49 minutes 1 seconds"},
+        {"name": "build", "duration": "26 minutes 7 seconds"}, {"name": "Lint, types
+        & unit tests", "duration": "0 minutes 46 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2026-06-18 19:35:55
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 2957
+    disk_usage_kb: 1900
     first_timer_prs_90d: 0
     fork_count: 3
     good_first_issues_open: 0
@@ -99,20 +92,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.3077
-    issues_open: 36
+    issue_closure_ratio_90d: 0.3462
+    issues_open: 34
     issues_opened_90d: 52
     issues_stale_open_180d: 0
-    last_push: 2026-09-29 19:18:20
+    last_push: 2026-09-30 20:40:29
     license: Apache License 2.0
     median_issue_first_response_seconds: 252350
-    median_pr_response_seconds: 228379
-    median_pr_time_to_merge_seconds: 442701
-    oldest_open_pr_days: 29
-    pr_closure_ratio_90d: 0.7308
+    median_pr_response_seconds: 257519
+    median_pr_time_to_merge_seconds: 484856
+    oldest_open_pr_days: 30
+    pr_closure_ratio_90d: 0.7692
     pr_opened_90d: 52
-    prs_open: 14
-    pulls_count: 14
+    prs_open: 12
+    pulls_count: 12
     release_count_12mo: 0
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-09-30
+TIMESTAMP: 2026-10-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -99,18 +99,25 @@ exists:
     tox.ini: false
     transifex_config: false
 git:
-    absence_factor_365d: 5
+    absence_factor_365d: 6
     commits_365d: 269
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 31
-    build_details: '{"total_duration": "9 minutes 27 seconds", "checks": [{"name":
-        "tests", "duration": "9 minutes 12 seconds"}, {"name": "coverage", "duration":
-        "0 minutes 12 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 4 seconds"}]}'
+    build_details: '{"total_duration": "363 minutes 6 seconds", "checks": [{"name":
+        "tests", "duration": "7 minutes 11 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 8 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 5 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 23
     created_at: 2020-05-06 18:34:51
@@ -118,7 +125,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 53712
+    disk_usage_kb: 53716
     first_timer_median_first_response_seconds: 372352
     first_timer_prs_90d: 3
     fork_count: 216
@@ -130,16 +137,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.25
-    issues_open: 261
-    issues_opened_90d: 20
-    issues_stale_open_180d: 16
-    last_push: 2026-09-30 02:38:05
+    issue_closure_ratio_90d: 0.2273
+    issues_open: 263
+    issues_opened_90d: 22
+    issues_stale_open_180d: 14
+    last_push: 2026-09-30 14:48:14
     license: GNU AGPLv3
     median_issue_first_response_seconds: 36838
     median_pr_response_seconds: 224831
-    median_pr_time_to_merge_seconds: 703243
-    oldest_open_pr_days: 885
+    median_pr_time_to_merge_seconds: 702159
+    oldest_open_pr_days: 886
     pr_closure_ratio_90d: 0.79
     pr_opened_90d: 100
     prs_open: 39
@@ -189,8 +196,12 @@ readme:
         port=443): Failed to resolve ''cdn.example.com'' ([Errno -5] No address associated
         with hostname)"))'
     - 'https://travis-ci.com/edx/frontend-app-course-authoring: 404'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/community/connect: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-course-authoring:
         404'
     getting-help: false
@@ -216,11 +227,7 @@ readme:
     - https://github.com/openedx/frontend-platform/blob/master/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-course-authoring/issues
-    - https://openedx.org/slack
-    - https://openedx.org/community/connect
-    - https://openedx.org/r/how-to-contribute
     - https://github.com/openedx/.github/blob/master/AI_POLICY.md
-    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-app-course-authoring.svg
     - https://github.com/openedx/frontend-app-course-authoring/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
