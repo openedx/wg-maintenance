@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -78,24 +78,17 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 91
-    lockfile_age_days: 3
+    commits_365d: 94
+    lockfile_age_days: 4
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 74
-    build_details: '{"total_duration": "936 minutes 57 seconds", "checks": [{"name":
-        "tests", "duration": "4 minutes 20 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 23 seconds"}, {"name": "coverage", "duration": "0 minutes 12 seconds"},
-        {"name": "version-check / version-check", "duration": "0 minutes 6 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+    build_details: '{"total_duration": "4 minutes 33 seconds", "checks": [{"name":
+        "tests", "duration": "4 minutes 20 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 10 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 9
     created_at: 2019-04-30 20:28:43
@@ -103,9 +96,9 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 22093
+    disk_usage_kb: 21897
     first_timer_prs_90d: 1
-    fork_count: 336
+    fork_count: 335
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -114,16 +107,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.5949
+    issue_closure_ratio_90d: 0.6125
     issues_open: 68
-    issues_opened_90d: 79
-    issues_stale_open_180d: 12
-    last_push: 2026-09-30 10:41:51
+    issues_opened_90d: 80
+    issues_stale_open_180d: 11
+    last_push: 2026-10-02 04:03:11
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1157504
-    median_pr_response_seconds: 160054
+    median_pr_response_seconds: 154763
     median_pr_time_to_merge_seconds: 215641
-    oldest_open_pr_days: 1309
+    oldest_open_pr_days: 1310
     pr_closure_ratio_90d: 0.89
     pr_opened_90d: 100
     prs_open: 35
@@ -134,7 +127,7 @@ language_bytes:
     css: 128
     dockerfile: 0
     html: 752
-    javascript: 1147578
+    javascript: 1162225
     makefile: 2076
     python: 0
     shell: 0

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,25 +63,34 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 197
-    lockfile_age_days: 9
+    commits_365d: 257
+    lockfile_age_days: 10
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 15
-    build_details: '{"total_duration": "452 minutes 47 seconds", "checks": [{"name":
-        "Docker: main environment / local", "duration": "49 minutes 3 seconds"}, {"name":
-        "Docker: last release (verawood) / local", "duration": "49 minutes 1 seconds"},
-        {"name": "build", "duration": "26 minutes 7 seconds"}, {"name": "Lint, types
-        & unit tests", "duration": "0 minutes 46 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "665 minutes 39 seconds", "checks": [{"name":
+        "Docker: last release (verawood) / default 4/4", "duration": "30 minutes 31
+        seconds"}, {"name": "Docker: main environment / default 4/4", "duration":
+        "26 minutes 26 seconds"}, {"name": "Docker: main environment / default 3/4",
+        "duration": "23 minutes 50 seconds"}, {"name": "Docker: main environment /
+        default 1/4", "duration": "21 minutes 10 seconds"}, {"name": "Docker: main
+        environment / default 2/4", "duration": "14 minutes 28 seconds"}, {"name":
+        "Docker: main environment / extended 1/1", "duration": "11 minutes 42 seconds"},
+        {"name": "build", "duration": "10 minutes 12 seconds"}, {"name": "Docker:
+        last release (verawood) / extended 1/1", "duration": "7 minutes 48 seconds"},
+        {"name": "Lint, types & unit tests", "duration": "0 minutes 56 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 55 seconds"}, {"name": "Docker:
+        main environment / plan", "duration": "0 minutes 8 seconds"}, {"name": "Docker:
+        last release (verawood) / plan", "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2026-06-18 19:35:55
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 1900
+    disk_usage_kb: 1957
     first_timer_prs_90d: 0
     fork_count: 3
     good_first_issues_open: 0
@@ -92,30 +101,30 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.3462
-    issues_open: 34
+    issue_closure_ratio_90d: 0.3846
+    issues_open: 32
     issues_opened_90d: 52
     issues_stale_open_180d: 0
-    last_push: 2026-09-30 20:40:29
+    last_push: 2026-10-01 20:27:55
     license: Apache License 2.0
     median_issue_first_response_seconds: 252350
     median_pr_response_seconds: 257519
-    median_pr_time_to_merge_seconds: 484856
-    oldest_open_pr_days: 30
-    pr_closure_ratio_90d: 0.7692
+    median_pr_time_to_merge_seconds: 530876
+    oldest_open_pr_days: 31
+    pr_closure_ratio_90d: 0.8462
     pr_opened_90d: 52
-    prs_open: 12
-    pulls_count: 12
+    prs_open: 8
+    pulls_count: 8
     release_count_12mo: 0
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
-    javascript: 7584
+    javascript: 7733
     makefile: 0
-    python: 17965
-    shell: 1885
+    python: 29128
+    shell: 4629
 makefile:
     pip-installed: false
     quality: false
@@ -157,6 +166,7 @@ readme:
     - https://github.com/nvm-sh/nvm
     - https://github.com/openedx/end-to-end-tests/issues/10
     - https://github.com/openedx/openedx-platform/issues/39117
+    - https://mailpit.axllent.org
     irc-missing: true
     mailing-list-missing: true
     security: false

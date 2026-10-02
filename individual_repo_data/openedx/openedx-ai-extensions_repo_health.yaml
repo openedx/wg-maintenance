@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: false
     has_ecosystem:
@@ -90,7 +90,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: An edx-platform plugin that will house tools and helpers for working
         with AI.
-    disk_usage_kb: 3297
+    disk_usage_kb: 3302
     first_timer_prs_90d: 0
     fork_count: 11
     good_first_issues_open: 4
@@ -105,14 +105,14 @@ github:
     issues_open: 27
     issues_opened_90d: 5
     issues_stale_open_180d: 14
-    last_push: 2026-09-11 22:24:37
+    last_push: 2026-10-01 18:38:04
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1193
-    median_pr_response_seconds: 59693
+    median_pr_response_seconds: 35300
     median_pr_time_to_merge_seconds: 10916
-    oldest_open_pr_days: 148
-    pr_closure_ratio_90d: 0.875
-    pr_opened_90d: 8
+    oldest_open_pr_days: 149
+    pr_closure_ratio_90d: 0.8571
+    pr_opened_90d: 7
     prs_open: 4
     pulls_count: 4
     release_count_12mo: 19

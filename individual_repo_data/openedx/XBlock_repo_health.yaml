@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,30 +60,35 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 16
-    lockfile_age_days: 2
+    commits_365d: 17
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "1 minutes 24 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 44 seconds"}, {"name": "run_tests / tests
-        (3.12, django42)", "duration": "0 minutes 37 seconds"}, {"name": "run_tests
-        / tests (3.12, quality)", "duration": "0 minutes 33 seconds"}, {"name": "run_tests
-        / tests (3.12, django52)", "duration": "0 minutes 27 seconds"}, {"name": "run_tests
-        / tests (3.12, docs)", "duration": "0 minutes 25 seconds"}, {"name": "publish_to_pypi",
-        "duration": "-1 minutes 59 seconds"}]}'
+    build_details: '{"total_duration": "3 minutes 3 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 54 seconds"}, {"name": "release", "duration":
+        "0 minutes 49 seconds"}, {"name": "run_tests / tests (3.12, django42)", "duration":
+        "0 minutes 36 seconds"}, {"name": "run_tests / tests (3.12, django42)", "duration":
+        "0 minutes 36 seconds"}, {"name": "run_tests / tests (3.12, django52)", "duration":
+        "0 minutes 33 seconds"}, {"name": "run_tests / tests (3.12, quality)", "duration":
+        "0 minutes 31 seconds"}, {"name": "run_tests / tests (3.12, quality)", "duration":
+        "0 minutes 31 seconds"}, {"name": "run_tests / tests (3.12, django52)", "duration":
+        "0 minutes 27 seconds"}, {"name": "run_tests / tests (3.12, docs)", "duration":
+        "0 minutes 26 seconds"}, {"name": "run_tests / tests (3.12, docs)", "duration":
+        "0 minutes 24 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 6
     created_at: 2013-03-11 18:35:36
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Framework for building custom learning components that run in the
         Open edX LMS!
-    disk_usage_kb: 4647
-    first_timer_median_first_response_seconds: 409868
-    first_timer_prs_90d: 2
+    disk_usage_kb: 4649
+    first_timer_median_first_response_seconds: 269328
+    first_timer_prs_90d: 1
     fork_count: 231
     good_first_issues_open: 0
     has_issues: true
@@ -96,15 +101,15 @@ github:
     issues_open: 33
     issues_opened_90d: 0
     issues_stale_open_180d: 32
-    last_push: 2026-09-28 10:24:55
+    last_push: 2026-10-01 18:39:34
     license: Apache License 2.0
     median_pr_response_seconds: 269328
-    median_pr_time_to_merge_seconds: 113650
-    oldest_open_pr_days: 842
-    pr_closure_ratio_90d: 0.913
+    median_pr_time_to_merge_seconds: 114220
+    oldest_open_pr_days: 843
+    pr_closure_ratio_90d: 0.9565
     pr_opened_90d: 23
-    prs_open: 5
-    pulls_count: 5
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 8
 github_actions: true
 language_bytes:
