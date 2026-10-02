@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: false
     has_ecosystem:
@@ -76,7 +76,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 39
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -110,16 +110,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.5714
+    issue_closure_ratio_90d: 0.5
     issues_open: 18
-    issues_opened_90d: 7
+    issues_opened_90d: 6
     issues_stale_open_180d: 14
     last_push: 2026-09-29 19:40:59
     license: GNU AGPLv3
     median_issue_first_response_seconds: 857478
     median_pr_response_seconds: 328175
     median_pr_time_to_merge_seconds: 303167
-    oldest_open_pr_days: 1816
+    oldest_open_pr_days: 1817
     pr_closure_ratio_90d: 0.9048
     pr_opened_90d: 21
     prs_open: 21
@@ -160,7 +160,7 @@ readme:
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://openedx.org/getting-help: 403'
     - 'https://openedx.org/r/how-to-contribute: 403'
     - 'https://openedx.org/code-of-conduct/: 403'

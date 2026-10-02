@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,10 +7,10 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 76
+    count: 0
     github:
         count: 0
-        list: '[]'
+        list: ''
     js:
         count: 0
         list: ''
@@ -21,52 +21,21 @@ dependencies:
         count: 0
         list: ''
     pypi:
-        count: 33
-        list: '["edx-django-utils==8.0.1", "certifi==2026.2.25", "requests-oauthlib==2.0.0",
-            "social-auth-app-django==5.7.0", "python-slugify==8.0.4", "text-unidecode==1.3",
-            "django==5.2.12", "click==8.3.1", "defusedxml==0.7.1", "cffi==2.0.0",
-            "edx-toggles==5.4.1", "psutil==7.2.2", "oauthlib==3.3.1", "django-crum==0.7.9",
-            "six==1.17.0", "pynacl==1.6.2", "markupsafe==3.0.3", "pycparser==3.0",
-            "urllib3==2.6.3", "django-waffle==5.0.0", "python3-openid==3.2.0", "sqlparse==0.5.5",
-            "asgiref==3.11.1", "pyyaml==6.0.3", "charset-normalizer==3.4.5", "requests==2.32.5",
-            "code-annotations==2.3.2", "pyjwt[crypto]==2.11.0", "cryptography==46.0.5",
-            "idna==3.11", "social-auth-core==4.8.5", "jinja2==3.1.6", "stevedore==5.7.0"]'
+        count: 0
+        list: ''
     pypi_all:
-        count: 76
-        list: '["responses==0.26.0", "edx-django-utils==8.0.1", "unittest2==1.1.0",
-            "certifi==2026.2.25", "requests-oauthlib==2.0.0", "pluggy==1.6.0", "social-auth-app-django==5.7.0",
-            "tox==3.28.0", "typing-extensions==4.15.0", "iniconfig==2.3.0", "pytest-django==4.12.0",
-            "python-slugify==8.0.4", "virtualenv==21.1.0", "text-unidecode==1.3",
-            "build==1.4.0", "tomlkit==0.14.0", "pylint-django==2.7.0", "python-discovery==1.1.0",
-            "django==5.2.12", "ddt==1.7.2", "click==8.3.1", "isort==8.0.1", "defusedxml==0.7.1",
-            "dill==0.4.1", "filelock==3.25.0", "packaging==26.0", "cffi==2.0.0", "distlib==0.4.0",
-            "pygments==2.19.2", "edx-toggles==5.4.1", "edx-lint==5.6.0", "mccabe==0.7.0",
-            "psutil==7.2.2", "oauthlib==3.3.1", "pylint-plugin-utils==0.9.0", "pyproject-hooks==1.2.0",
-            "astroid==4.0.4", "argparse==1.4.0", "pip-tools==7.5.3", "traceback2==1.4.0",
-            "django-crum==0.7.9", "pytest-cov==7.0.0", "platformdirs==4.9.4", "six==1.17.0",
-            "pynacl==1.6.2", "pylint-celery==0.3", "pip==26.0.1", "markupsafe==3.0.3",
-            "pycparser==3.0", "wheel==0.46.3", "urllib3==2.6.3", "click-log==0.4.0",
-            "pylint==4.0.5", "django-waffle==5.0.0", "python3-openid==3.2.0", "sqlparse==0.5.5",
-            "asgiref==3.11.1", "edx-django-release-util==1.5.0", "linecache2==1.0.0",
-            "pycryptodomex==3.23.0", "pyyaml==6.0.3", "charset-normalizer==3.4.5",
-            "py==1.11.0", "requests==2.32.5", "code-annotations==2.3.2", "setuptools==82.0.0",
-            "httpretty==1.1.4", "pyjwt[crypto]==2.11.0", "cryptography==46.0.5", "idna==3.11",
-            "pycodestyle==2.14.0", "social-auth-core==4.8.5", "coverage[toml]==7.13.4",
-            "pytest==9.0.2", "jinja2==3.1.6", "stevedore==5.7.0"]'
+        count: 0
+        list: ''
 django_packages:
     django_42:
-        count: 8
-        list: '["edx-django-utils", "social-auth-app-django", "pylint-django", "edx-django-release-util",
-            "code-annotations", "django-waffle", "edx-toggles", "pytest-django"]'
+        count: 0
+        list: '[]'
     total:
-        count: 9
-        list: '["django-crum", "edx-django-utils", "social-auth-app-django", "pylint-django",
-            "edx-django-release-util", "code-annotations", "django-waffle", "edx-toggles",
-            "pytest-django"]'
+        count: 0
+        list: '[]'
     upgraded:
-        count: 6
-        list: '["edx-django-utils", "social-auth-app-django", "edx-django-release-util",
-            "code-annotations", "django-waffle", "edx-toggles"]'
+        count: 0
+        list: '[]'
 docs:
     build_badge: false
     python_version: null
@@ -83,35 +52,40 @@ exists:
     openedx.yaml: true
     package.json: false
     pylintrc: true
-    pyproject.toml: false
-    requirements: true
-    setup.cfg: true
-    setup.py: true
+    pyproject.toml: true
+    requirements: false
+    setup.cfg: false
+    setup.py: false
     tox.ini: true
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 7
-    lockfile_age_days: 203
+    commits_365d: 8
+    lockfile_age_days: 0
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 21
-    build_details: '{"total_duration": "3697 minutes 41 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 1 seconds"}, {"name": "Tests (ubuntu-latest,
-        3.12, django52)", "duration": "0 minutes 42 seconds"}, {"name": "Tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 42 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 41 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
-        check_keywords)", "duration": "0 minutes 30 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 20 seconds"}]}'
+    branch_count: 23
+    build_details: '{"total_duration": "3 minutes 25 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 18 seconds"}, {"name": "release", "duration":
+        "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "1 minutes 1 seconds"},
+        {"name": "Dependabot", "duration": "1 minutes 1 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 57 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 50 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes 40
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 37 seconds"}, {"name":
+        "update-pip-graph", "duration": "0 minutes 36 seconds"}, {"name": "run_tests
+        / django52", "duration": "0 minutes 26 seconds"}, {"name": "publish_to_pypi",
+        "duration": "0 minutes 24 seconds"}, {"name": "run_tests / quality", "duration":
+        "0 minutes 20 seconds"}, {"name": "run_tests / check_keywords", "duration":
+        "0 minutes 17 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 2
     created_at: 2015-02-17 19:08:53
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Custom authentication backends and views for edX services
-    disk_usage_kb: 440
+    disk_usage_kb: 670
     first_timer_prs_90d: 0
     fork_count: 23
     good_first_issues_open: 0
@@ -125,27 +99,27 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-09-28 13:25:19
+    last_push: 2026-10-01 17:46:07
     license: GNU AGPLv3
     median_pr_response_seconds: 3739005
-    median_pr_time_to_merge_seconds: 1616784
-    oldest_open_pr_days: 267
-    pr_closure_ratio_90d: 0.5556
-    pr_opened_90d: 18
-    prs_open: 9
-    pulls_count: 9
-    release_count_12mo: 2
+    median_pr_time_to_merge_seconds: 3637188
+    oldest_open_pr_days: 268
+    pr_closure_ratio_90d: 0.625
+    pr_opened_90d: 24
+    prs_open: 10
+    pulls_count: 10
+    release_count_12mo: 3
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
     javascript: 0
-    makefile: 2244
-    python: 41146
+    makefile: 558
+    python: 35091
     shell: 0
 makefile:
-    pip-installed: true
+    pip-installed: false
     quality: true
     quality-js: false
     quality-python: false
@@ -162,9 +136,11 @@ ownership:
     owner_kind: ''
     owner_name: ''
     release: ''
-pinned_python_dependencies: 4
+pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://github.com/openedx/auth-backends/actions?query=workflow%3A%22Python+CI%22:
+        429'
     - 'http://edx.devstack.lms: HTTPConnectionPool(host=''edx.devstack.lms'', port=80):
         Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''edx.devstack.lms'',
         port=80): Failed to resolve ''edx.devstack.lms'' ([Errno -2] Name or service
@@ -172,11 +148,11 @@ readme:
     getting-help: false
     good_links:
     - https://github.com/openedx/auth-backends/workflows/Python%20CI/badge.svg?branch=master
-    - https://github.com/openedx/auth-backends/actions?query=workflow%3A%22Python+CI%22
     - http://codecov.io/github/edx/auth-backends/coverage.svg?branch=master
     - http://codecov.io/github/edx/auth-backends?branch=master
     - https://courses.stage.edx.org
     - http://python-social-auth.readthedocs.io/en/latest/strategies.html
+    - https://python-semantic-release.readthedocs.io/
     - https://github.com/openedx/auth-backends/releases
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://groups.google.com/forum/
@@ -193,18 +169,14 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    django: true
-    pytest: true
+    django: false
+    pytest: false
 setup_py:
-    py312_classifiers: true
-    pypi_name: edx-auth-backends
-    python_versions:
-    - '3'
-    - '3.12'
-    repo_url: https://github.com/openedx/auth-backends
+    py312_classifiers: false
+    python_versions: []
 tox_ini:
     has_section:
         testenv: true
         testenv:quality: true
         tox: true
-    uses_whitelist_externals: true
+    uses_whitelist_externals: false

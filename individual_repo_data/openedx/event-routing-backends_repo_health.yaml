@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 17
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -105,7 +105,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 4308214
     median_pr_time_to_merge_seconds: 470061
-    oldest_open_pr_days: 49
+    oldest_open_pr_days: 50
     pr_closure_ratio_90d: 0.6667
     pr_opened_90d: 12
     prs_open: 4
@@ -141,8 +141,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     getting-help: true
     good_links:
@@ -151,6 +149,8 @@ readme:
     - https://event-routing-backends.readthedocs.io/en/latest/
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://discuss.openedx.org
+    - https://openedx.org/getting-help
+    - https://openedx.org/slack
     - https://img.shields.io/pypi/v/event-routing-backends.svg
     - https://pypi.python.org/pypi/event-routing-backends/
     - https://github.com/openedx/event-routing-backends/workflows/Python%20CI/badge.svg?branch=master

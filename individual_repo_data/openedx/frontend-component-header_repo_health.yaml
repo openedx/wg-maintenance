@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: false
     has_ecosystem:
@@ -72,7 +72,7 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 11
-    lockfile_age_days: 169
+    lockfile_age_days: 170
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -94,7 +94,7 @@ github:
     disk_usage_kb: 13324
     first_timer_median_first_response_seconds: 2038
     first_timer_prs_90d: 3
-    fork_count: 193
+    fork_count: 192
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -112,7 +112,7 @@ github:
     median_issue_first_response_seconds: 1290369
     median_pr_response_seconds: 87046
     median_pr_time_to_merge_seconds: 1177045
-    oldest_open_pr_days: 1415
+    oldest_open_pr_days: 1416
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 6
     prs_open: 15
@@ -151,12 +151,8 @@ readme:
     - 'https://github.com/openedx/frontend-template-application/blob/master/src/index.jsx:
         404'
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/community/connect: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://api.travis-ci.com/edx/frontend-component-header.svg?branch=master:
         404'
     - 'https://travis-ci.com/edx/frontend-component-header: 404'
@@ -170,8 +166,12 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework
     - https://github.com/openedx/frontend-template-application/blob/3355bb3a96232390e9056f35b06ffa8f105ed7ca/src/index.jsx
     - https://github.com/openedx/frontend-template-application/blob/3cd5485bf387b8c479baf6b02bf59e3061dc3465/src/index.scss
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-component-header/issues
+    - https://openedx.org/slack
+    - https://openedx.org/community/connect
+    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/codecov/c/github/edx/frontend-component-header
     - https://img.shields.io/npm/v/@edx/frontend-component-header.svg
     - https://img.shields.io/npm/dt/@edx/frontend-component-header.svg

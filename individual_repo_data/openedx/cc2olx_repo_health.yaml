@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,29 +22,29 @@ dependencies:
         list: ''
     pypi:
         count: 11
-        list: '["requests==2.33.1", "asgiref==3.11.1", "youtube-dl==2021.12.17", "urllib3==2.6.3",
-            "certifi==2026.2.25", "idna==3.11", "lxml==6.0.2", "attrs==26.1.0", "sqlparse==0.5.5",
-            "django==5.2.13", "charset-normalizer==3.4.7"]'
+        list: '["asgiref==3.11.1", "idna==3.11", "youtube-dl==2021.12.17", "certifi==2026.2.25",
+            "lxml==6.0.2", "charset-normalizer==3.4.7", "attrs==26.1.0", "requests==2.33.1",
+            "django==5.2.13", "sqlparse==0.5.5", "urllib3==2.6.3"]'
     pypi_all:
         count: 67
-        list: '["pip-tools==7.5.3", "wheel==0.46.3", "black==26.3.1", "build==1.4.2",
-            "markdown-it-py==4.0.0", "jaraco-functools==4.4.0", "colorama==0.4.6",
-            "pycodestyle==2.14.0", "lxml==6.0.2", "jaraco-classes==3.4.0", "virtualenv==21.2.0",
-            "mypy-extensions==1.1.0", "pyflakes==3.4.0", "django==5.2.13", "charset-normalizer==3.4.7",
-            "docutils==0.22.4", "mccabe==0.7.0", "setuptools==82.0.1", "cryptography==46.0.6",
-            "iniconfig==2.3.0", "cffi==2.0.0", "tomli-w==1.2.0", "pytokens==0.4.1",
-            "click==8.3.2", "distlib==0.4.0", "requests-toolbelt==1.0.0", "secretstorage==3.5.0",
-            "rich==14.3.3", "pytest==9.0.2", "bump2version==1.0.1", "pytest-mock==3.15.1",
-            "requests==2.33.1", "jaraco-context==6.1.2", "python-discovery==1.2.1",
-            "pyproject-hooks==1.2.0", "asgiref==3.11.1", "pip==26.0.1", "pycparser==3.0",
-            "id==1.6.1", "youtube-dl==2021.12.17", "urllib3==2.6.3", "certifi==2026.2.25",
-            "idna==3.11", "twine==6.2.0", "pytest-django==4.12.0", "pluggy==1.6.0",
-            "jeepney==0.9.0", "nh3==0.3.4", "mdurl==0.1.2", "sqlparse==0.5.5", "packaging==26.0",
-            "pygments==2.20.0", "readme-renderer==44.0", "keyring==25.7.0", "filelock==3.25.2",
-            "coverage[toml]==7.13.5", "pyproject-api==1.10.0", "tox==4.52.0", "pathspec==1.0.4",
-            "rfc3986==2.0.0", "cachetools==7.0.5", "flake8==7.3.0", "pytest-cov==7.1.0",
-            "platformdirs==4.9.4", "more-itertools==11.0.1", "xmlformatter==0.2.8",
-            "attrs==26.1.0"]'
+        list: '["asgiref==3.11.1", "youtube-dl==2021.12.17", "click==8.3.2", "build==1.4.2",
+            "docutils==0.22.4", "markdown-it-py==4.0.0", "charset-normalizer==3.4.7",
+            "more-itertools==11.0.1", "mypy-extensions==1.1.0", "colorama==0.4.6",
+            "xmlformatter==0.2.8", "tox==4.52.0", "platformdirs==4.9.4", "black==26.3.1",
+            "secretstorage==3.5.0", "pyproject-api==1.10.0", "idna==3.11", "python-discovery==1.2.1",
+            "coverage[toml]==7.13.5", "iniconfig==2.3.0", "pytest-cov==7.1.0", "distlib==0.4.0",
+            "readme-renderer==44.0", "pytest-mock==3.15.1", "tomli-w==1.2.0", "pytokens==0.4.1",
+            "sqlparse==0.5.5", "jaraco-functools==4.4.0", "keyring==25.7.0", "rfc3986==2.0.0",
+            "mdurl==0.1.2", "id==1.6.1", "pip-tools==7.5.3", "twine==6.2.0", "pytest==9.0.2",
+            "cryptography==46.0.6", "pygments==2.20.0", "lxml==6.0.2", "nh3==0.3.4",
+            "attrs==26.1.0", "pyproject-hooks==1.2.0", "requests-toolbelt==1.0.0",
+            "virtualenv==21.2.0", "wheel==0.46.3", "cachetools==7.0.5", "pytest-django==4.12.0",
+            "jeepney==0.9.0", "pyflakes==3.4.0", "mccabe==0.7.0", "urllib3==2.6.3",
+            "django==5.2.13", "flake8==7.3.0", "packaging==26.0", "certifi==2026.2.25",
+            "bump2version==1.0.1", "cffi==2.0.0", "filelock==3.25.2", "pip==26.0.1",
+            "jaraco-context==6.1.2", "jaraco-classes==3.4.0", "setuptools==82.0.1",
+            "rich==14.3.3", "pluggy==1.6.0", "requests==2.33.1", "pycodestyle==2.14.0",
+            "pathspec==1.0.4", "pycparser==3.0"]'
 django_packages:
     django_42:
         count: 1
@@ -80,12 +80,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 2
-    lockfile_age_days: 176
+    lockfile_age_days: 177
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 55
+    branch_count: 56
     build_details: '{"total_duration": "11241 minutes 9 seconds", "checks": [{"name":
         "Tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 47 seconds"},
         {"name": "Dependabot", "duration": "0 minutes 47 seconds"}, {"name": "Dependabot",
@@ -104,7 +104,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: A library to convert Common Cartridge Courses to OLX.
-    disk_usage_kb: 43137
+    disk_usage_kb: 43140
     first_timer_prs_90d: 0
     fork_count: 17
     good_first_issues_open: 0
@@ -118,14 +118,14 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-08-10 20:02:13
+    last_push: 2026-10-01 17:54:25
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 1021526
-    oldest_open_pr_days: 1786
-    pr_closure_ratio_90d: 0.8333
-    pr_opened_90d: 6
-    prs_open: 4
-    pulls_count: 4
+    oldest_open_pr_days: 1787
+    pr_closure_ratio_90d: 0.7143
+    pr_opened_90d: 7
+    prs_open: 5
+    pulls_count: 5
     release_count_12mo: 1
 github_actions: true
 language_bytes:

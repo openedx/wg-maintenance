@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,32 +61,40 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 18
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 32
-    build_details: '{"total_duration": "2 minutes 29 seconds", "checks": [{"name":
+    branch_count: 33
+    build_details: '{"total_duration": "3384 minutes 57 seconds", "checks": [{"name":
         "Tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes 5 seconds"},
         {"name": "run_ci / Tests (ubuntu-latest, 3.12, django52)", "duration": "1
         minutes 4 seconds"}, {"name": "release", "duration": "0 minutes 57 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 38
-        seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 38 seconds"}, {"name": "check migrations (ubuntu-latest, 3.12)",
-        "duration": "0 minutes 33 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
-        docs)", "duration": "0 minutes 23 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
-        3.12, docs)", "duration": "0 minutes 23 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 20 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
-        pii-annotations)", "duration": "0 minutes 15 seconds"}, {"name": "run_ci /
-        Tests (ubuntu-latest, 3.12, pii-annotations)", "duration": "0 minutes 14 seconds"}]}'
+        {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
+        "duration": "0 minutes 55 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
+        quality)", "duration": "0 minutes 38 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 38 seconds"}, {"name": "check migrations
+        (ubuntu-latest, 3.12)", "duration": "0 minutes 33 seconds"}, {"name": "Tests
+        (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 23 seconds"}, {"name":
+        "run_ci / Tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 23 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 20 seconds"}, {"name":
+        "Tests (ubuntu-latest, 3.12, pii-annotations)", "duration": "0 minutes 15
+        seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, pii-annotations)",
+        "duration": "0 minutes 14 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2020-08-28 15:55:21
     default_branch: master
     default_branch_ci_state: FAILURE
     description: A python package that communicates with 3rd party taxonomy vendors
-    disk_usage_kb: 1086
+    disk_usage_kb: 1214
     first_timer_prs_90d: 0
     fork_count: 18
     good_first_issues_open: 0
@@ -100,15 +108,15 @@ github:
     issues_open: 3
     issues_opened_90d: 0
     issues_stale_open_180d: 3
-    last_push: 2026-09-29 15:44:31
+    last_push: 2026-10-02 00:07:10
     license: GNU AGPLv3
     median_pr_response_seconds: 369385
     median_pr_time_to_merge_seconds: 2449298
-    oldest_open_pr_days: 2078
-    pr_closure_ratio_90d: 0.9333
-    pr_opened_90d: 15
-    prs_open: 11
-    pulls_count: 11
+    oldest_open_pr_days: 2079
+    pr_closure_ratio_90d: 0.875
+    pr_opened_90d: 16
+    prs_open: 12
+    pulls_count: 12
     release_count_12mo: 12
 github_actions: true
 language_bytes:
@@ -139,8 +147,7 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://open.edx.org/getting-help: 403'
+    bad_links: []
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/taxonomy-connector.svg
@@ -149,6 +156,7 @@ readme:
     - http://codecov.io/github/openedx/taxonomy-connector?branch=master
     - https://github.com/openedx/taxonomy-connector/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/taxonomy-connector/actions?query=workflow%3A%22Python+CI%22
+    - https://open.edx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-01
+TIMESTAMP: 2026-10-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,14 +60,14 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 113
-    lockfile_age_days: 1
+    commits_365d: 111
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 28
-    build_details: '{"total_duration": "141 minutes 37 seconds", "checks": [{"name":
+    branch_count: 29
+    build_details: '{"total_duration": "1019 minutes 53 seconds", "checks": [{"name":
         "run_tests / tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes
         50 seconds"}, {"name": "release", "duration": "1 minutes 0 seconds"}, {"name":
         "update-uv-graph", "duration": "0 minutes 59 seconds"}, {"name": "run_tests
@@ -79,6 +79,8 @@ github:
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -93,7 +95,7 @@ github:
     description: Specifications for the authorization model, policy data structures,
         and enforcement APIs that define how access control is evaluated and managed
         across the Open edX ecosystem.
-    disk_usage_kb: 1610
+    disk_usage_kb: 1634
     first_timer_prs_90d: 0
     fork_count: 9
     good_first_issues_open: 0
@@ -104,16 +106,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.41
-    issues_open: 98
-    issues_opened_90d: 100
+    issue_closure_ratio_90d: 0.4124
+    issues_open: 96
+    issues_opened_90d: 97
     issues_stale_open_180d: 0
-    last_push: 2026-09-30 23:22:19
+    last_push: 2026-10-01 23:03:13
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 1548855
-    median_pr_response_seconds: 207180
-    median_pr_time_to_merge_seconds: 1435682
-    oldest_open_pr_days: 377
+    median_issue_first_response_seconds: 1696142
+    median_pr_response_seconds: 158441
+    median_pr_time_to_merge_seconds: 1483547
+    oldest_open_pr_days: 378
     pr_closure_ratio_90d: 0.7222
     pr_opened_90d: 54
     prs_open: 16
