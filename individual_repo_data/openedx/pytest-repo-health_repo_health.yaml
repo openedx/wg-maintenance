@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-02
+TIMESTAMP: 2026-10-03
 dependabot:
     exists: true
     has_ecosystem:
@@ -26,45 +26,45 @@ dependencies:
         list: ''
     pypi:
         count: 21
-        list: '["multidict==6.7.1", "pytest-aiohttp==1.1.1", "pyyaml==6.0.3", "pygments==2.20.0",
-            "aiohappyeyeballs==2.7.1", "attrs==26.1.0", "smmap==5.0.3", "propcache==0.5.2",
-            "packaging==26.2", "pytest==9.1.1", "pluggy==1.6.0", "iniconfig==2.3.0",
-            "frozenlist==1.8.0", "aiosignal==1.4.0", "typing-extensions==4.16.0",
-            "aiohttp==3.14.1", "idna==3.18", "gitdb==4.0.12", "pytest-asyncio==1.4.0",
-            "gitpython==3.1.50", "yarl==1.24.2"]'
+        list: '["smmap==5.0.3", "pluggy==1.6.0", "gitdb==4.0.12", "pytest-asyncio==1.4.0",
+            "aiohttp==3.14.1", "multidict==6.7.1", "packaging==26.2", "attrs==26.1.0",
+            "iniconfig==2.3.0", "propcache==0.5.2", "pygments==2.20.0", "typing-extensions==4.16.0",
+            "yarl==1.24.2", "aiohappyeyeballs==2.7.1", "gitpython==3.1.50", "idna==3.18",
+            "frozenlist==1.8.0", "pyyaml==6.0.3", "aiosignal==1.4.0", "pytest-aiohttp==1.1.1",
+            "pytest==9.1.1"]'
     pypi_all:
         count: 88
-        list: '["snowballstemmer==3.1.1", "certifi==2026.6.17", "pylint==4.0.6", "jinja2==3.1.6",
-            "imagesize==2.0.0", "pygments==2.20.0", "isort==8.0.1", "pydocstyle==6.3.0",
-            "colorama==0.4.6", "sphinxcontrib-qthelp==2.0.0", "smmap==5.0.3", "edx-lint==6.1.0",
-            "packaging==26.2", "pip==26.1.2", "six==1.17.0", "python-discovery==1.4.3",
-            "iniconfig==2.3.0", "sphinxcontrib-applehelp==2.0.0", "frozenlist==1.8.0",
-            "requests==2.34.2", "pycodestyle==2.14.0", "python-slugify==8.0.4", "tox==4.56.2",
-            "soupsieve==2.8.4", "doc8==2.0.0", "accessible-pygments==0.0.5", "gitpython==3.1.50",
-            "sphinx==9.1.0", "pylint-django==2.7.0", "multidict==6.7.1", "distlib==0.4.3",
-            "code-annotations==3.0.0", "roman-numerals==4.1.0", "propcache==0.5.2",
-            "click-log==0.4.0", "urllib3==2.7.0", "tomli-w==1.2.0", "sphinxcontrib-jsmath==1.0.1",
-            "pytest==9.1.1", "text-unidecode==1.3", "pylint-plugin-utils==0.9.0",
-            "babel==2.18.0", "restructuredtext-lint==2.0.2", "coverage[toml]==7.15.0",
-            "aiosignal==1.4.0", "platformdirs==4.10.0", "idna==3.18", "pyproject-hooks==1.2.0",
-            "chardet==7.4.3", "cachetools==7.1.4", "pytest-asyncio==1.4.0", "build==1.5.0",
-            "readme-renderer==45.0", "charset-normalizer==3.4.9", "tomlkit==0.15.0",
-            "docutils==0.21.2", "pytest-aiohttp==1.1.1", "pyyaml==6.0.3", "markupsafe==3.0.3",
-            "pip-tools==7.5.3", "wheel==0.47.0", "sphinxcontrib-devhelp==2.0.0", "aiohappyeyeballs==2.7.1",
-            "stevedore==5.9.0", "pydata-sphinx-theme==0.16.1", "pyproject-api==1.10.1",
-            "sphinxcontrib-serializinghtml==2.0.0", "pluggy==1.6.0", "click==8.4.2",
-            "diff-cover==10.3.0", "virtualenv==21.6.0", "typing-extensions==4.16.0",
-            "sphinx-book-theme==1.2.0", "alabaster==1.0.0", "dill==0.4.1", "pylint-celery==0.3",
-            "mccabe==0.7.0", "sphinxcontrib-htmlhelp==2.1.0", "attrs==26.1.0", "nh3==0.3.6",
-            "pytest-cov==7.1.0", "setuptools==83.0.0", "beautifulsoup4==4.15.0", "astroid==4.0.4",
-            "filelock==3.29.7", "aiohttp==3.14.1", "gitdb==4.0.12", "yarl==1.24.2"]'
+        list: '["beautifulsoup4==4.15.0", "sphinxcontrib-devhelp==2.0.0", "packaging==26.2",
+            "attrs==26.1.0", "nh3==0.3.6", "colorama==0.4.6", "urllib3==2.7.0", "wheel==0.47.0",
+            "tomlkit==0.15.0", "propcache==0.5.2", "tomli-w==1.2.0", "jinja2==3.1.6",
+            "typing-extensions==4.16.0", "pycodestyle==2.14.0", "charset-normalizer==3.4.9",
+            "docutils==0.21.2", "cachetools==7.1.4", "sphinxcontrib-jsmath==1.0.1",
+            "sphinx==9.1.0", "pip-tools==7.5.3", "python-discovery==1.4.3", "pyyaml==6.0.3",
+            "click-log==0.4.0", "roman-numerals==4.1.0", "pytest==9.1.1", "smmap==5.0.3",
+            "pytest-asyncio==1.4.0", "pylint-plugin-utils==0.9.0", "build==1.5.0",
+            "alabaster==1.0.0", "aiohttp==3.14.1", "code-annotations==3.0.0", "dill==0.4.1",
+            "sphinx-book-theme==1.2.0", "sphinxcontrib-qthelp==2.0.0", "pydocstyle==6.3.0",
+            "distlib==0.4.3", "setuptools==83.0.0", "gitpython==3.1.50", "filelock==3.29.7",
+            "idna==3.18", "imagesize==2.0.0", "certifi==2026.6.17", "doc8==2.0.0",
+            "accessible-pygments==0.0.5", "click==8.4.2", "babel==2.18.0", "coverage[toml]==7.15.0",
+            "platformdirs==4.10.0", "snowballstemmer==3.1.1", "chardet==7.4.3", "pyproject-hooks==1.2.0",
+            "multidict==6.7.1", "pyproject-api==1.10.1", "iniconfig==2.3.0", "pygments==2.20.0",
+            "text-unidecode==1.3", "virtualenv==21.6.0", "six==1.17.0", "edx-lint==6.1.0",
+            "yarl==1.24.2", "diff-cover==10.3.0", "astroid==4.0.4", "restructuredtext-lint==2.0.2",
+            "mccabe==0.7.0", "isort==8.0.1", "frozenlist==1.8.0", "markupsafe==3.0.3",
+            "pytest-aiohttp==1.1.1", "pluggy==1.6.0", "pydata-sphinx-theme==0.16.1",
+            "gitdb==4.0.12", "pylint==4.0.6", "sphinxcontrib-applehelp==2.0.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "requests==2.34.2", "pylint-django==2.7.0", "pip==26.1.2", "soupsieve==2.8.4",
+            "tox==4.56.2", "aiohappyeyeballs==2.7.1", "stevedore==5.9.0", "python-slugify==8.0.4",
+            "pylint-celery==0.3", "readme-renderer==45.0", "pytest-cov==7.1.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "aiosignal==1.4.0"]'
 django_packages:
     django_42:
         count: 2
-        list: '["pylint-django", "code-annotations"]'
+        list: '["code-annotations", "pylint-django"]'
     total:
         count: 2
-        list: '["pylint-django", "code-annotations"]'
+        list: '["code-annotations", "pylint-django"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -93,7 +93,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 10
-    lockfile_age_days: 85
+    lockfile_age_days: 86
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -133,7 +133,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 521892
     median_pr_time_to_merge_seconds: 1727588
-    oldest_open_pr_days: 304
+    oldest_open_pr_days: 305
     pr_closure_ratio_90d: 0.8333
     pr_opened_90d: 6
     prs_open: 3

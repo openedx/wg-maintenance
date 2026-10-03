@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-02
+TIMESTAMP: 2026-10-03
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,23 +61,24 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 8
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 37
-    build_details: '{"total_duration": "4238 minutes 25 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "5677 minutes 39 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 57 seconds"}, {"name": "release", "duration":
         "0 minutes 52 seconds"}, {"name": "Dependabot", "duration": "0 minutes 52
         seconds"}, {"name": "Dependabot", "duration": "0 minutes 52 seconds"}, {"name":
-        "quality", "duration": "0 minutes 24 seconds"}, {"name": "run_tests / quality",
-        "duration": "0 minutes 24 seconds"}, {"name": "django42", "duration": "0 minutes
-        17 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes 17 seconds"},
-        {"name": "run_tests / django52", "duration": "0 minutes 17 seconds"}, {"name":
-        "django52", "duration": "0 minutes 15 seconds"}, {"name": "run_tests / docs",
-        "duration": "0 minutes 14 seconds"}, {"name": "docs", "duration": "0 minutes
-        13 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
+        "Dependabot", "duration": "0 minutes 52 seconds"}, {"name": "quality", "duration":
+        "0 minutes 24 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes
+        24 seconds"}, {"name": "django42", "duration": "0 minutes 17 seconds"}, {"name":
+        "run_tests / django42", "duration": "0 minutes 17 seconds"}, {"name": "run_tests
+        / django52", "duration": "0 minutes 17 seconds"}, {"name": "django52", "duration":
+        "0 minutes 15 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes
+        14 seconds"}, {"name": "docs", "duration": "0 minutes 13 seconds"}, {"name":
+        "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2017-07-07 16:01:04
@@ -142,12 +143,7 @@ readme:
         port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'
     - 'https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg:
         404'
-    - 'https://openedx.org/r/xblock: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock:
         404'
     getting-help: true
@@ -157,9 +153,14 @@ readme:
     - https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
     - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
     - https://img.shields.io/badge/status-maintained-31c653
+    - https://openedx.org/r/xblock
     - https://docs.tutor.edly.io/configuration.html
     - https://discuss.openedx.org
     - https://github.com/openedx/DoneXBlock/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

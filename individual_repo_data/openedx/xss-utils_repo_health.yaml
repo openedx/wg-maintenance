@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-02
+TIMESTAMP: 2026-10-03
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 65
+    lockfile_age_days: 66
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -108,7 +108,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 3733477
     median_pr_time_to_merge_seconds: 3020723
-    oldest_open_pr_days: 135
+    oldest_open_pr_days: 136
     pr_closure_ratio_90d: 0.6667
     pr_opened_90d: 3
     prs_open: 2
@@ -145,9 +145,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://xss-utils.readthedocs.org: 404'
-    - 'https://open.edx.org/getting-help: 403'
-    - 'https://github.com/openedx/xss-utils/actions?query=workflow%3A%22Python+CI%22:
-        429'
     - 'http://xss-utils.readthedocs.io/en/latest/: 404'
     - 'https://github.com/openedx/xss-utils/blob/master/LICENSE.txt: 404'
     getting-help: true
@@ -156,9 +153,11 @@ readme:
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://github.com/openedx/xss-utils/blob/master/.github/PULL_REQUEST_TEMPLATE.md
     - https://github.com/openedx/xss-utils/blob/master/.github/ISSUE_TEMPLATE.md
+    - https://open.edx.org/getting-help
     - https://img.shields.io/pypi/v/xss-utils.svg
     - https://pypi.python.org/pypi/xss-utils/
     - https://github.com/openedx/xss-utils/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/xss-utils/actions?query=workflow%3A%22Python+CI%22
     - http://codecov.io/github/edx/xss-utils/coverage.svg?branch=master
     - http://codecov.io/github/edx/xss-utils?branch=master
     - https://readthedocs.org/projects/xss-utils/badge/?version=latest
