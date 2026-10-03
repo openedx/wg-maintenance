@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-02
+TIMESTAMP: 2026-10-03
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,32 +22,32 @@ dependencies:
         list: ''
     pypi:
         count: 30
-        list: '["requests==2.34.2", "urllib3==2.8.0", "sphinx-book-theme==1.4.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "beautifulsoup4==4.15.0", "sphinxcontrib-jsmath==1.0.1",
-            "typing-extensions==4.16.0", "sphinxext-rediraffe==0.3.0", "sphinxcontrib-devhelp==2.0.0",
-            "sphinxcontrib-serializinghtml==2.0.0", "soupsieve==2.10", "certifi==2026.7.22",
-            "markupsafe==3.0.3", "sphinxcontrib-applehelp==2.0.0", "pygments==2.21.0",
-            "accessible-pygments==0.0.5", "alabaster==1.0.0", "imagesize==2.0.1",
-            "pydata-sphinx-theme==0.20.0", "roman-numerals==4.1.0", "idna==3.20",
-            "sphinx==9.1.0", "jinja2==3.1.6", "sphinxcontrib-qthelp==2.0.0", "snowballstemmer==3.1.1",
-            "packaging==26.3", "docutils==0.22.4", "babel==2.18.0", "sphinx-copybutton==0.5.2",
-            "charset-normalizer==3.5.1"]'
+        list: '["beautifulsoup4==4.15.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "sphinxcontrib-devhelp==2.0.0", "charset-normalizer==3.5.1", "idna==3.20",
+            "sphinxcontrib-applehelp==2.0.0", "imagesize==2.0.1", "packaging==26.3",
+            "requests==2.34.2", "urllib3==2.8.0", "typing-extensions==4.16.0", "markupsafe==3.0.3",
+            "sphinxcontrib-htmlhelp==2.1.0", "pygments==2.21.0", "roman-numerals==4.1.0",
+            "certifi==2026.7.22", "babel==2.18.0", "docutils==0.22.4", "sphinx==9.1.0",
+            "jinja2==3.1.6", "alabaster==1.0.0", "sphinxext-rediraffe==0.3.0", "snowballstemmer==3.1.1",
+            "sphinxcontrib-jsmath==1.0.1", "pydata-sphinx-theme==0.20.0", "sphinx-book-theme==1.4.0",
+            "soupsieve==2.10", "sphinx-copybutton==0.5.2", "accessible-pygments==0.0.5",
+            "sphinxcontrib-qthelp==2.0.0"]'
     pypi_all:
         count: 45
-        list: '["requests==2.34.2", "urllib3==2.8.0", "sphinx-book-theme==1.4.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "beautifulsoup4==4.15.0", "sphinxcontrib-jsmath==1.0.1",
-            "typing-extensions==4.16.0", "sphinxext-rediraffe==0.3.0", "sphinxcontrib-devhelp==2.0.0",
-            "sphinxcontrib-serializinghtml==2.0.0", "soupsieve==2.10", "certifi==2026.7.22",
-            "setuptools==84.0.0", "click==8.5.0", "pip==26.2", "markupsafe==3.0.3",
-            "sphinxcontrib-applehelp==2.0.0", "pygments==2.21.0", "uvicorn==0.54.0",
-            "pip-tools==7.6.1", "accessible-pygments==0.0.5", "alabaster==1.0.0",
-            "imagesize==2.0.1", "pydata-sphinx-theme==0.20.0", "roman-numerals==4.1.0",
-            "idna==3.20", "sphinx==9.1.0", "h11==0.16.0", "jinja2==3.1.6", "sphinxcontrib-qthelp==2.0.0",
-            "snowballstemmer==3.1.1", "sphinx-autobuild==2025.8.25", "packaging==26.3",
-            "websockets==17.1", "anyio==4.15.1", "docutils==0.22.4", "watchfiles==1.3.0",
-            "colorama==0.4.6", "pyproject-hooks==1.3.3", "babel==2.18.0", "build==1.6.1",
-            "wheel==0.48.0", "sphinx-copybutton==0.5.2", "charset-normalizer==3.5.1",
-            "starlette==1.7.0"]'
+        list: '["beautifulsoup4==4.15.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "sphinxcontrib-devhelp==2.0.0", "charset-normalizer==3.5.1", "click==8.5.0",
+            "idna==3.20", "sphinxcontrib-applehelp==2.0.0", "imagesize==2.0.1", "anyio==4.15.1",
+            "packaging==26.3", "requests==2.34.2", "pip==26.2", "typing-extensions==4.16.0",
+            "urllib3==2.8.0", "markupsafe==3.0.3", "sphinxcontrib-htmlhelp==2.1.0",
+            "pyproject-hooks==1.3.3", "sphinx-autobuild==2025.8.25", "setuptools==84.0.0",
+            "pip-tools==7.6.1", "pygments==2.21.0", "roman-numerals==4.1.0", "websockets==17.1",
+            "colorama==0.4.6", "certifi==2026.7.22", "babel==2.18.0", "wheel==0.48.0",
+            "docutils==0.22.4", "starlette==1.7.0", "sphinx==9.1.0", "jinja2==3.1.6",
+            "watchfiles==1.3.0", "alabaster==1.0.0", "sphinxext-rediraffe==0.3.0",
+            "snowballstemmer==3.1.1", "sphinxcontrib-jsmath==1.0.1", "pydata-sphinx-theme==0.20.0",
+            "sphinx-book-theme==1.4.0", "soupsieve==2.10", "build==1.6.1", "sphinx-copybutton==0.5.2",
+            "h11==0.16.0", "accessible-pygments==0.0.5", "sphinxcontrib-qthelp==2.0.0",
+            "uvicorn==0.54.0"]'
 django_packages:
     django_42:
         count: 0
@@ -82,8 +82,8 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 35
-    lockfile_age_days: 3
+    commits_365d: 34
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -118,7 +118,7 @@ github:
     license: Other
     median_pr_response_seconds: 58872
     median_pr_time_to_merge_seconds: 296307
-    oldest_open_pr_days: 814
+    oldest_open_pr_days: 815
     pr_closure_ratio_90d: 0.8824
     pr_opened_90d: 17
     prs_open: 4
@@ -154,18 +154,18 @@ ownership:
 pinned_python_dependencies: 5
 readme:
     bad_links:
-    - 'https://openedx.org/r/how-to-contribute: 403'
     - 'https://openedx.slack.com/archives/C1L370YTZ: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://github.com/openedx/openedx-proposals/blob/main/LICENSE.txt: 404'
     getting-help: false
     good_links:
     - https://docs.openedx.org/projects/openedx-proposals/
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org/c/announcements/17
     - https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
     - https://docs.openedx.org/en/latest/developers/quickstarts/first_openedx_pr.html
     - http://graphviz.org/
     - https://discuss.openedx.org/
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/openedx-proposals
     - https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg
     - https://readthedocs.org/projects/openedx-proposals/badge/?version=latest

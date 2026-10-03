@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-02
+TIMESTAMP: 2026-10-03
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,34 +66,26 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
-    build_details: '{"total_duration": "1969 minutes 53 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 58 seconds"}, {"name": "release", "duration": "0 minutes 55 seconds"},
-        {"name": "update-uv-graph", "duration": "0 minutes 40 seconds"}, {"name":
-        "update-pip-graph", "duration": "0 minutes 36 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 33 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, django52)", "duration": "0 minutes 32 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 31 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 23 seconds"}, {"name": "run_ci / tests
-        (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 18 seconds"}, {"name":
-        "tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes 16 seconds"},
-        {"name": "run_ci / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0
-        minutes 13 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 26
+    build_details: '{"total_duration": "1 minutes 29 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 1 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 44 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
+        quality)", "duration": "0 minutes 23 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 22 seconds"}, {"name": "run_ci /
+        tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 22 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 22
+        seconds"}, {"name": "tests (ubuntu-latest, 3.12, pii_check)", "duration":
+        "0 minutes 12 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, pii_check)",
+        "duration": "0 minutes 11 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 7
+    contributor_count_90d: 8
     created_at: 2022-12-21 21:16:19
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A library that records transactions against a ledger, denominated
         in units of value.
-    disk_usage_kb: 584
+    disk_usage_kb: 585
     first_timer_prs_90d: 0
     fork_count: 8
     good_first_issues_open: 0
@@ -107,15 +99,15 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 1
-    last_push: 2026-10-02 02:17:39
+    last_push: 2026-10-02 14:36:09
     license: GNU AGPLv3
     median_pr_response_seconds: 179569
-    median_pr_time_to_merge_seconds: 920348
-    oldest_open_pr_days: 86
-    pr_closure_ratio_90d: 0.875
+    median_pr_time_to_merge_seconds: 591634
+    oldest_open_pr_days: 87
+    pr_closure_ratio_90d: 0.9375
     pr_opened_90d: 16
-    prs_open: 2
-    pulls_count: 2
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 11
 github_actions: true
 language_bytes:
