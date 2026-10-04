@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-03
+TIMESTAMP: 2026-10-04
 dependabot:
     exists: true
     has_ecosystem:
@@ -101,12 +101,12 @@ exists:
 git:
     absence_factor_365d: 6
     commits_365d: 269
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 31
+    branch_count: 32
     build_details: '{"total_duration": "363 minutes 6 seconds", "checks": [{"name":
         "tests", "duration": "7 minutes 11 seconds"}, {"name": "coverage", "duration":
         "0 minutes 8 seconds"}, {"name": "version-check / version-check", "duration":
@@ -125,10 +125,10 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 53716
+    disk_usage_kb: 53971
     first_timer_median_first_response_seconds: 372352
-    first_timer_prs_90d: 3
-    fork_count: 218
+    first_timer_prs_90d: 6
+    fork_count: 219
     good_first_issues_open: 16
     has_issues: true
     has_wiki: false
@@ -141,16 +141,16 @@ github:
     issues_open: 263
     issues_opened_90d: 21
     issues_stale_open_180d: 14
-    last_push: 2026-09-30 14:48:14
+    last_push: 2026-10-03 08:11:54
     license: GNU AGPLv3
     median_issue_first_response_seconds: 65749
     median_pr_response_seconds: 224831
-    median_pr_time_to_merge_seconds: 702159
-    oldest_open_pr_days: 888
-    pr_closure_ratio_90d: 0.77
+    median_pr_time_to_merge_seconds: 703243
+    oldest_open_pr_days: 889
+    pr_closure_ratio_90d: 0.74
     pr_opened_90d: 100
-    prs_open: 41
-    pulls_count: 41
+    prs_open: 44
+    pulls_count: 44
     release_count_12mo: 5
 github_actions: true
 language_bytes:
