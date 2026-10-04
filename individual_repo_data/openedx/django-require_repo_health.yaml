@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-03
+TIMESTAMP: 2026-10-04
 dependabot:
     exists: true
     has_ecosystem:
@@ -127,6 +127,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.org/r/how-to-contribute: 403'
     - 'http://twitter.com/etianen: 520'
     - 'http://www.google.com/profiles/david.etianen: 404'
     getting-help: false
@@ -143,7 +144,6 @@ readme:
     - https://github.com/vtemian/django-require
     - https://github.com/etianen/django-require
     - https://github.com/openedx/django-require/releases/tag/final-bsd-3c-contribution
-    - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/django-require
     - https://github.com/requirejs/almond

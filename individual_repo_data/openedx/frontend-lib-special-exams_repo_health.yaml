@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-03
+TIMESTAMP: 2026-10-04
 dependabot:
     exists: false
     has_ecosystem:
@@ -69,9 +69,9 @@ exists:
     tox.ini: false
     transifex_config: true
 git:
-    absence_factor_365d: 2
-    commits_365d: 3
-    lockfile_age_days: 371
+    absence_factor_365d: 1
+    commits_365d: 2
+    lockfile_age_days: 372
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
@@ -103,7 +103,7 @@ github:
     issues_stale_open_180d: 1
     last_push: 2026-05-20 13:20:43
     license: null
-    oldest_open_pr_days: 1417
+    oldest_open_pr_days: 1418
     pr_opened_90d: 0
     prs_open: 3
     pulls_count: 3

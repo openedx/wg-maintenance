@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-03
+TIMESTAMP: 2026-10-04
 dependabot:
     exists: true
     has_ecosystem:
@@ -70,7 +70,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 85
-    lockfile_age_days: 10
+    lockfile_age_days: 11
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -93,7 +93,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Learner Dashboard MFE
     disk_usage_kb: 10571
-    first_timer_median_first_response_seconds: 66453
+    first_timer_median_first_response_seconds: 119326
     first_timer_prs_90d: 9
     fork_count: 205
     good_first_issues_open: 1
@@ -110,9 +110,9 @@ github:
     issues_stale_open_180d: 15
     last_push: 2026-09-28 13:32:06
     license: GNU AGPLv3
-    median_pr_response_seconds: 207159
+    median_pr_response_seconds: 172200
     median_pr_time_to_merge_seconds: 360795
-    oldest_open_pr_days: 501
+    oldest_open_pr_days: 502
     pr_closure_ratio_90d: 0.7778
     pr_opened_90d: 18
     prs_open: 8
