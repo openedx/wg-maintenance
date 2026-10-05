@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -79,12 +79,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 96
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 75
+    branch_count: 78
     build_details: '{"total_duration": "220 minutes 58 seconds", "checks": [{"name":
         "tests", "duration": "3 minutes 36 seconds"}, {"name": "coverage", "duration":
         "0 minutes 12 seconds"}, {"name": "version-check / version-check", "duration":
@@ -104,8 +104,8 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 21974
-    first_timer_prs_90d: 2
+    disk_usage_kb: 22452
+    first_timer_prs_90d: 3
     fork_count: 337
     good_first_issues_open: 0
     has_issues: true
@@ -119,16 +119,16 @@ github:
     issues_open: 67
     issues_opened_90d: 81
     issues_stale_open_180d: 11
-    last_push: 2026-10-02 15:41:23
+    last_push: 2026-10-05 01:03:16
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1157504
-    median_pr_response_seconds: 120249
-    median_pr_time_to_merge_seconds: 124515
-    oldest_open_pr_days: 1312
-    pr_closure_ratio_90d: 0.87
+    median_pr_response_seconds: 116989
+    median_pr_time_to_merge_seconds: 122960
+    oldest_open_pr_days: 1313
+    pr_closure_ratio_90d: 0.83
     pr_opened_90d: 100
-    prs_open: 37
-    pulls_count: 37
+    prs_open: 41
+    pulls_count: 41
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -160,6 +160,10 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://codecov.io/gh/edx/frontend-app-learning: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /gh/edx/frontend-app-learning (Caused
+        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
+        handshake failure (_ssl.c:1010)'')))'
     - 'http://local.openedx.io: HTTPConnectionPool(host=''local.openedx.io'', port=80):
         Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
@@ -170,7 +174,6 @@ readme:
     getting-help: false
     good_links:
     - https://codecov.io/gh/edx/frontend-app-learning/branch/master/graph/badge.svg?token=3z7XvuzTq3
-    - https://codecov.io/gh/edx/frontend-app-learning
     - https://img.shields.io/badge/license-AGPL-informational
     - https://github.com/openedx/frontend-app-account/blob/master/LICENSE
     - https://github.com/overhangio/tutor

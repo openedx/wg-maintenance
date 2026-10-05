@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,28 +61,29 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 25
-    lockfile_age_days: 67
+    lockfile_age_days: 68
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
-    build_details: '{"total_duration": "2 minutes 18 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 8 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 48 seconds"}, {"name": "update-pip-graph", "duration":
-        "0 minutes 40 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        31 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes 28 seconds"},
-        {"name": "run_tests / django52", "duration": "0 minutes 25 seconds"}, {"name":
-        "run_tests / django42", "duration": "0 minutes 21 seconds"}, {"name": "run_tests
-        / quality", "duration": "0 minutes 20 seconds"}, {"name": "run_tests / pii_check",
-        "duration": "0 minutes 16 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "5097 minutes 30 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 8 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 56 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
+        48 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes 40 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 31 seconds"}, {"name":
+        "run_tests / docs", "duration": "0 minutes 28 seconds"}, {"name": "run_tests
+        / django52", "duration": "0 minutes 25 seconds"}, {"name": "run_tests / django42",
+        "duration": "0 minutes 21 seconds"}, {"name": "run_tests / quality", "duration":
+        "0 minutes 20 seconds"}, {"name": "run_tests / pii_check", "duration": "0
+        minutes 16 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2022-06-11 18:50:06
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Kafka implementation for Open edX event bus
-    disk_usage_kb: 607
+    disk_usage_kb: 613
     first_timer_prs_90d: 0
     fork_count: 7
     good_first_issues_open: 0
@@ -97,15 +98,15 @@ github:
     issues_open: 10
     issues_opened_90d: 2
     issues_stale_open_180d: 7
-    last_push: 2026-10-01 14:57:13
+    last_push: 2026-10-05 03:53:06
     license: GNU AGPLv3
     median_pr_response_seconds: 3726664
     median_pr_time_to_merge_seconds: 5640854
-    oldest_open_pr_days: 1251
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 4
-    prs_open: 3
-    pulls_count: 3
+    oldest_open_pr_days: 1252
+    pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 6
+    prs_open: 5
+    pulls_count: 5
     release_count_12mo: 1
 github_actions: true
 language_bytes:
@@ -139,6 +140,10 @@ readme:
     bad_links:
     - 'https://openedx-slack-invite.herokuapp.com/: 404'
     - 'https://openedx.slack.com/: 403'
+    - 'https://codecov.io/github/openedx/event-bus-kafka?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/openedx/event-bus-kafka?branch=main
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     - 'https://edx-event-bus-kafka.readthedocs.io/en/latest/: 404'
     getting-help: true
     good_links:
@@ -154,7 +159,6 @@ readme:
     - https://github.com/openedx/event-bus-kafka/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/event-bus-kafka/actions
     - https://codecov.io/github/openedx/event-bus-kafka/coverage.svg?branch=main
-    - https://codecov.io/github/openedx/event-bus-kafka?branch=main
     - https://readthedocs.org/projects/edx-event-bus-kafka/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/edx-event-bus-kafka.svg
     - https://img.shields.io/github/license/openedx/event-bus-kafka.svg

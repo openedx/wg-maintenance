@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 4
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -98,7 +98,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 3154251
     median_pr_time_to_merge_seconds: 1483442
-    oldest_open_pr_days: 270
+    oldest_open_pr_days: 271
     pr_closure_ratio_90d: 0.6286
     pr_opened_90d: 35
     prs_open: 21
@@ -142,21 +142,25 @@ readme:
         exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''some.url'',
         port=443): Failed to resolve ''some.url'' ([Errno -2] Name or service not
         known)"))'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
+    - 'https://github.com/openedx/edx-rest-api-client/actions?query=workflow%3A%22Python+CI%22:
+        429'
+    - 'https://codecov.io/github/openedx/edx-rest-api-client?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/openedx/edx-rest-api-client?branch=master
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://requests.readthedocs.io/en/master/user/advanced/
     - https://github.com/openedx/edx-django-utils/blob/master/edx_django_utils/cache/README.rst
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/edx-rest-api-client/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/code-of-conduct/
     - https://github.com/openedx/edx-rest-api-client/workflows/Python%20CI/badge.svg?branch=master
-    - https://github.com/openedx/edx-rest-api-client/actions?query=workflow%3A%22Python+CI%22
     - https://codecov.io/github/openedx/edx-rest-api-client/coverage.svg?branch=master
-    - https://codecov.io/github/openedx/edx-rest-api-client?branch=master
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://img.shields.io/github/license/openedx/edx-rest-api-client.svg
     - https://github.com/openedx/edx-rest-api-client/blob/master/LICENSE

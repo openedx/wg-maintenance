@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,15 +61,20 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 22
-    lockfile_age_days: 53
+    lockfile_age_days: 54
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 84
-    build_details: '{"total_duration": "4 minutes 23 seconds", "checks": [{"name":
-        "build (3.12, django52)", "duration": "4 minutes 22 seconds"}, {"name": "check
-        migration for MySql8 (ubuntu-latest, 3.12)", "duration": "0 minutes 42 seconds"}]}'
+    build_details: '{"total_duration": "9553 minutes 33 seconds", "checks": [{"name":
+        "build (3.12, django52)", "duration": "4 minutes 22 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 47 seconds"}, {"name": "check migration for MySql8
+        (ubuntu-latest, 3.12)", "duration": "0 minutes 42 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 42 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2019-12-10 15:58:48
@@ -77,7 +82,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: A Django-based microservice for handling Enterprise catalogs, associating
         enterprise customers with curated courses from the full course catalog.
-    disk_usage_kb: 48885
+    disk_usage_kb: 48914
     first_timer_prs_90d: 0
     fork_count: 28
     good_first_issues_open: 0
@@ -91,13 +96,13 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-09-28 13:22:48
+    last_push: 2026-10-05 02:34:27
     license: GNU AGPLv3
     median_pr_response_seconds: 40843
     median_pr_time_to_merge_seconds: 1712176
-    oldest_open_pr_days: 2049
-    pr_closure_ratio_90d: 0.8125
-    pr_opened_90d: 16
+    oldest_open_pr_days: 2050
+    pr_closure_ratio_90d: 0.8235
+    pr_opened_90d: 17
     prs_open: 18
     pulls_count: 18
     release_count_12mo: 5
@@ -132,12 +137,15 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://travis-ci.com/edx/enterprise-catalog: 404'
+    - 'http://codecov.io/github/edx/enterprise-catalog?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/edx/enterprise-catalog?branch=master
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     - 'https://openedx.slack.com/messages/general/: 403'
     getting-help: false
     good_links:
     - https://travis-ci.com/edx/enterprise-catalog.svg?branch=master
     - http://codecov.io/github/edx/enterprise-catalog/coverage.svg?branch=master
-    - http://codecov.io/github/edx/enterprise-catalog?branch=master
     - https://github.com/openedx/enterprise-catalog/blob/master/LICENSE
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://groups.google.com/forum/

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,13 +68,14 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 3
-    lockfile_age_days: 373
+    lockfile_age_days: 374
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 19
-    build_details: '{"total_duration": "566 minutes 56 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "9305 minutes 58 seconds", "checks": [{"name":
+        "update-browserslist / update-dep", "duration": "2 minutes 41 seconds"}, {"name":
         "Release", "duration": "1 minutes 59 seconds"}, {"name": "test", "duration":
         "1 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0 minutes 25
         seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
@@ -140,6 +141,11 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://codecov.io/github/openedx/frontend-plugin-framework?branch=master:
+        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
+        with url: /github/openedx/frontend-plugin-framework?branch=master (Caused
+        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
+        handshake failure (_ssl.c:1010)'')))'
     - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 404'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
@@ -153,7 +159,6 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-plugin-framework/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-plugin-framework/coverage.svg?branch=master
-    - https://codecov.io/github/openedx/frontend-plugin-framework?branch=master
     - https://github.com/openedx/frontend-platform/blob/master/docs/decisions/0007-javascript-file-configuration.rst
     - https://github.com/openedx/frontend-platform/blob/master/src/react/ErrorBoundary.jsx
     - https://discuss.openedx.org

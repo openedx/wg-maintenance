@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -96,30 +96,20 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 43
-    lockfile_age_days: 6
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 174
-    build_details: '{"total_duration": "842 minutes 11 seconds", "checks": [{"name":
-        "commit-dependents-analysis", "duration": "8 minutes 59 seconds"}, {"name":
-        "checkout-dependents", "duration": "2 minutes 11 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 46 seconds"}, {"name": "analyze-dependents", "duration":
-        "0 minutes 44 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 52 seconds"}]}'
+    build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2017-04-27 18:57:22
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 354350
+    disk_usage_kb: 354956
     first_timer_prs_90d: 1
     fork_count: 101
     good_first_issues_open: 6
@@ -134,11 +124,11 @@ github:
     issues_open: 180
     issues_opened_90d: 11
     issues_stale_open_180d: 51
-    last_push: 2026-10-03 15:16:13
+    last_push: 2026-10-05 00:28:46
     license: Apache License 2.0
     median_pr_response_seconds: 175433
     median_pr_time_to_merge_seconds: 975
-    oldest_open_pr_days: 1531
+    oldest_open_pr_days: 1532
     pr_closure_ratio_90d: 0.95
     pr_opened_90d: 100
     prs_open: 54
@@ -174,13 +164,13 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://codecov.io/gh/edx/paragon: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /gh/edx/paragon (Caused by SSLError(SSLError(1,
+        ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)'')))'
     - 'https://www.npmjs.com/package/@openedx/paragon: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/archives/C02NR285KV4: 403'
     - 'https://cdn.jsdelivr.net/npm/@my-brand/core.min.css: 404'
     - 'https://cdn.jsdelivr.net/npm/@my-brand/light.min.css: 404'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://github.com/openedx/eslint-config-edx/tree/master/packages/eslint-config-edx:
         404'
     - 'https://www.npmjs.com/package/eslint-config-airbnb: 403'
@@ -196,11 +186,11 @@ readme:
     - https://img.shields.io/badge/status-Maintained-brightgreen
     - https://img.shields.io/github/license/openedx/paragon.svg
     - https://codecov.io/gh/edx/paragon/branch/master/graph/badge.svg?token=x1tZmNduy9
-    - https://codecov.io/gh/edx/paragon
     - https://img.shields.io/npm/dw/@openedx/paragon
     - https://www.w3.org/WAI/standards-guidelines/aria/
     - https://openedx.org/
     - https://paragon-openedx.netlify.app/
+    - https://openedx.org/slack
     - https://github.com/openedx/paragon/issues/new?template=blank-issue.md
     - https://calendar.google.com/calendar/embed?src=c_v86shrnegshsqgp4fj2k94u7bc%40group.calendar.google.com&ctz=America%2FNew_York
     - https://github.com/openedx/brand-openedx
@@ -210,6 +200,8 @@ readme:
     - https://github.com/openedx/paragon/tree/release-23.x
     - https://paragon-openedx-v23.netlify.app/
     - https://github.com/openedx/paragon/tree/next
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://github.com/openedx/paragon/issues
     - https://github.com/orgs/openedx/projects/43/views/15
     - https://github.com/openedx/frontend-build

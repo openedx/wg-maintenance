@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -109,10 +109,10 @@ github:
     last_push: 2026-10-04 01:01:55
     license: Apache License 2.0
     median_pr_response_seconds: 269328
-    median_pr_time_to_merge_seconds: 114220
-    oldest_open_pr_days: 845
-    pr_closure_ratio_90d: 0.913
-    pr_opened_90d: 23
+    median_pr_time_to_merge_seconds: 114791
+    oldest_open_pr_days: 846
+    pr_closure_ratio_90d: 0.9048
+    pr_opened_90d: 21
     prs_open: 5
     pulls_count: 5
     release_count_12mo: 8
@@ -147,12 +147,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'http://scorm.com/scorm-explained/: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
     - 'https://github.com/openedx/XBlock/blob/master/LICENSE.txt: 404'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
+    - 'https://codecov.io/github/openedx/XBlock?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/openedx/XBlock?branch=master
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - http://www.lon-capa.org/
@@ -163,13 +163,16 @@ readme:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/index.html
     - https://discuss.openedx.org
     - https://github.com/openedx/XBlock/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock
     - https://img.shields.io/pypi/v/XBlock.svg
     - https://pypi.python.org/pypi/XBlock/
     - https://github.com/openedx/XBlock/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/XBlock/actions
     - https://codecov.io/github/openedx/XBlock/coverage.svg?branch=master
-    - https://codecov.io/github/openedx/XBlock?branch=master
     - https://readthedocs.org/projects/XBlock/badge/?version=latest
     - https://docs.openedx.org/projects/xblock/en/latest/
     - https://img.shields.io/pypi/pyversions/XBlock.svg

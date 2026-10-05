@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,15 +61,17 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 15
-    lockfile_age_days: 37
+    lockfile_age_days: 38
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: false
     branch_count: 25
-    build_details: '{"total_duration": "2 minutes 12 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 44 seconds"}, {"name": "run_tests / quality
-        (3.12)", "duration": "0 minutes 8 seconds"}, {"name": "publish_to_pypi", "duration":
+    build_details: '{"total_duration": "9359 minutes 46 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 44 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 42 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 40 seconds"}, {"name": "run_tests / quality (3.12)",
+        "duration": "0 minutes 8 seconds"}, {"name": "publish_to_pypi", "duration":
         "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4

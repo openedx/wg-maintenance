@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,26 +66,31 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 37
-    build_details: '{"total_duration": "5677 minutes 39 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 57 seconds"}, {"name": "release", "duration":
-        "0 minutes 52 seconds"}, {"name": "Dependabot", "duration": "0 minutes 52
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 52 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 52 seconds"}, {"name": "quality", "duration":
-        "0 minutes 24 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes
-        24 seconds"}, {"name": "django42", "duration": "0 minutes 17 seconds"}, {"name":
-        "run_tests / django42", "duration": "0 minutes 17 seconds"}, {"name": "run_tests
-        / django52", "duration": "0 minutes 17 seconds"}, {"name": "django52", "duration":
-        "0 minutes 15 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes
-        14 seconds"}, {"name": "docs", "duration": "0 minutes 13 seconds"}, {"name":
-        "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 38
+    build_details: '{"total_duration": "9309 minutes 13 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 6 seconds"}, {"name": "Dependabot", "duration": "0 minutes 57 seconds"},
+        {"name": "release", "duration": "0 minutes 52 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 52 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 52 seconds"}, {"name": "Dependabot", "duration": "0 minutes 52 seconds"},
+        {"name": "quality", "duration": "0 minutes 24 seconds"}, {"name": "run_tests
+        / quality", "duration": "0 minutes 24 seconds"}, {"name": "django42", "duration":
+        "0 minutes 17 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes
+        17 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes 17 seconds"},
+        {"name": "django52", "duration": "0 minutes 15 seconds"}, {"name": "run_tests
+        / docs", "duration": "0 minutes 14 seconds"}, {"name": "docs", "duration":
+        "0 minutes 13 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2017-07-07 16:01:04
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: 'An XBlock for students to mark they''ve finished something. '
-    disk_usage_kb: 1325
+    disk_usage_kb: 1443
     first_timer_prs_90d: 0
     fork_count: 25
     good_first_issues_open: 0
@@ -99,14 +104,15 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-09-28 13:25:11
+    last_push: 2026-10-05 00:34:13
     license: GNU AGPLv3
     median_pr_response_seconds: 262208
-    median_pr_time_to_merge_seconds: 29595
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 41
-    prs_open: 0
-    pulls_count: 0
+    median_pr_time_to_merge_seconds: 30979
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.9762
+    pr_opened_90d: 42
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 3
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -75,7 +75,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 9
-    lockfile_age_days: 157
+    lockfile_age_days: 158
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -113,11 +113,11 @@ github:
     issues_open: 3
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-09-28 00:18:15
+    last_push: 2026-10-05 00:18:44
     license: GNU AGPLv3
     median_pr_response_seconds: 347854
     median_pr_time_to_merge_seconds: 347925
-    oldest_open_pr_days: 1034
+    oldest_open_pr_days: 1035
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 1
     prs_open: 3
@@ -157,6 +157,11 @@ readme:
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-communications:
         404'
+    - 'https://codecov.io/github/openedx/frontend-app-communications?branch=master:
+        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
+        with url: /github/openedx/frontend-app-communications?branch=master (Caused
+        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
+        handshake failure (_ssl.c:1010)'')))'
     getting-help: false
     good_links:
     - https://github.com/overhangio/tutor
@@ -177,7 +182,6 @@ readme:
     - https://github.com/openedx/frontend-app-communications/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-communications/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-app-communications/coverage.svg?branch=master
-    - https://codecov.io/github/openedx/frontend-app-communications?branch=master
     irc-missing: true
     mailing-list-missing: true
     security: true

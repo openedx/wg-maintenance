@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -78,7 +78,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 372
+    lockfile_age_days: 373
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -115,7 +115,7 @@ github:
     issues_stale_open_180d: 3
     last_push: 2026-09-30 23:53:17
     license: GNU AGPLv3
-    oldest_open_pr_days: 1583
+    oldest_open_pr_days: 1584
     pr_opened_90d: 0
     prs_open: 9
     pulls_count: 9
@@ -154,13 +154,16 @@ readme:
     - 'https://github.com/openedx/frontend-i18n/blob/master/docs/how_tos/i18n.rst:
         404'
     - 'https://travis-ci.com/edx/frontend-app-enterprise-public-catalog: 404'
+    - 'https://codecov.io/gh/edx/frontend-app-enterprise-public-catalog: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /gh/edx/frontend-app-enterprise-public-catalog
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: false
     good_links:
     - https://explore-catalog.stage.edx.org/
     - https://github.com/openedx/frontend-app-enterprise-public-catalog/blob/master/docs/decisions/0002-feature-based-application-organization.rst
     - https://api.travis-ci.com/edx/frontend-app-enterprise-public-catalog.svg?branch=master
     - https://codecov.io/gh/edx/frontend-app-enterprise-public-catalog/branch/master/graph/badge.svg
-    - https://codecov.io/gh/edx/frontend-app-enterprise-public-catalog
     - https://img.shields.io/npm/l/@edx/frontend-app-enterprise-public-catalog.svg
     irc-missing: true
     mailing-list-missing: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -127,7 +127,10 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://codecov.io/github/openedx/django-require?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/openedx/django-require?branch=main
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     - 'http://twitter.com/etianen: 520'
     - 'http://www.google.com/profiles/david.etianen: 404'
     getting-help: false
@@ -137,13 +140,13 @@ readme:
     - https://github.com/openedx/django-require/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/django-require/actions
     - https://codecov.io/github/openedx/django-require/coverage.svg?branch=main
-    - https://codecov.io/github/openedx/django-require?branch=main
     - http://requirejs.org/
     - https://github.com/openedx/edx-platform
     - https://github.com/edx/django-require
     - https://github.com/vtemian/django-require
     - https://github.com/etianen/django-require
     - https://github.com/openedx/django-require/releases/tag/final-bsd-3c-contribution
+    - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/django-require
     - https://github.com/requirejs/almond

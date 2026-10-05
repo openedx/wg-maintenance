@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -145,6 +145,13 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://xss-utils.readthedocs.org: 404'
+    - 'https://open.edx.org/getting-help: 403'
+    - 'https://github.com/openedx/xss-utils/actions?query=workflow%3A%22Python+CI%22:
+        429'
+    - 'http://codecov.io/github/edx/xss-utils?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/edx/xss-utils?branch=master
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     - 'http://xss-utils.readthedocs.io/en/latest/: 404'
     - 'https://github.com/openedx/xss-utils/blob/master/LICENSE.txt: 404'
     getting-help: true
@@ -153,13 +160,10 @@ readme:
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://github.com/openedx/xss-utils/blob/master/.github/PULL_REQUEST_TEMPLATE.md
     - https://github.com/openedx/xss-utils/blob/master/.github/ISSUE_TEMPLATE.md
-    - https://open.edx.org/getting-help
     - https://img.shields.io/pypi/v/xss-utils.svg
     - https://pypi.python.org/pypi/xss-utils/
     - https://github.com/openedx/xss-utils/workflows/Python%20CI/badge.svg?branch=master
-    - https://github.com/openedx/xss-utils/actions?query=workflow%3A%22Python+CI%22
     - http://codecov.io/github/edx/xss-utils/coverage.svg?branch=master
-    - http://codecov.io/github/edx/xss-utils?branch=master
     - https://readthedocs.org/projects/xss-utils/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/xss-utils.svg
     - https://img.shields.io/github/license/edx/xss-utils.svg
