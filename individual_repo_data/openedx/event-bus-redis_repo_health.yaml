@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,7 +66,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
+    branch_count: 13
     build_details: '{"total_duration": "6052 minutes 42 seconds", "checks": [{"name":
         "release", "duration": "0 minutes 50 seconds"}, {"name": "run_tests / django42",
         "duration": "0 minutes 22 seconds"}, {"name": "run_tests / docs", "duration":
@@ -92,7 +92,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Redis Streams implementation for the Open edX event bus.
-    disk_usage_kb: 786
+    disk_usage_kb: 814
     first_timer_median_first_response_seconds: 9368
     first_timer_prs_90d: 1
     fork_count: 11
@@ -107,15 +107,15 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-09-28 13:11:10
+    last_push: 2026-10-05 02:35:23
     license: GNU AGPLv3
     median_pr_response_seconds: 8440
-    median_pr_time_to_merge_seconds: 18022
-    oldest_open_pr_days: 165
-    pr_closure_ratio_90d: 0.95
-    pr_opened_90d: 20
-    prs_open: 2
-    pulls_count: 2
+    median_pr_time_to_merge_seconds: 18710
+    oldest_open_pr_days: 166
+    pr_closure_ratio_90d: 0.9048
+    pr_opened_90d: 21
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 9
 github_actions: true
 language_bytes:
@@ -151,6 +151,10 @@ readme:
     - 'https://openedx.slack.com/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/event-bus-redis:
         404'
+    - 'https://codecov.io/github/openedx/event-bus-redis?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/openedx/event-bus-redis?branch=main
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     - 'https://event-bus-redis.readthedocs.io/en/latest/: 404'
     getting-help: true
     good_links:
@@ -171,7 +175,6 @@ readme:
     - https://github.com/openedx/event-bus-redis/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/event-bus-redis/actions
     - https://codecov.io/github/openedx/event-bus-redis/coverage.svg?branch=main
-    - https://codecov.io/github/openedx/event-bus-redis?branch=main
     - https://readthedocs.org/projects/edx-event-bus-redis/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/edx-event-bus-redis.svg
     - https://pypi.python.org/pypi/event-bus-redis/

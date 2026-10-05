@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -78,14 +78,15 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 6
-    lockfile_age_days: 157
+    lockfile_age_days: 158
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 20
-    build_details: '{"total_duration": "9803 minutes 44 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "19343 minutes 6 seconds", "checks": [{"name":
         "test", "duration": "4 minutes 7 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "2 minutes 16 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "1 minutes 6 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 29 seconds"}, {"name": "version-check / version-check",
         "duration": "0 minutes 3 seconds"}, {"name": "routeissue / add_and_notify",
@@ -160,6 +161,10 @@ readme:
         404'
     - 'https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml/badge.svg:
         404'
+    - 'https://codecov.io/github/openedx/frontend-app-ora?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/openedx/frontend-app-ora?branch=master
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://github.com/overhangio/tutor
@@ -179,7 +184,6 @@ readme:
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-app-ora/coverage.svg?branch=master
-    - https://codecov.io/github/openedx/frontend-app-ora?branch=master
     irc-missing: true
     mailing-list-missing: true
     security: true

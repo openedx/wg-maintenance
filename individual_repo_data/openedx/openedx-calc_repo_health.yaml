@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,26 +61,35 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 68
+    lockfile_age_days: 69
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 14
-    build_details: '{"total_duration": "1 minutes 58 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 3 seconds"}, {"name": "update-pip-graph",
+    build_details: '{"total_duration": "6442 minutes 31 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 3 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 50 seconds"}, {"name": "update-pip-graph",
         "duration": "0 minutes 36 seconds"}, {"name": "update-uv-graph", "duration":
         "0 minutes 33 seconds"}, {"name": "run_tests / Tests (ubuntu-latest, 3.12,
         quality)", "duration": "0 minutes 27 seconds"}, {"name": "run_tests / Tests
         (ubuntu-latest, 3.12, py)", "duration": "0 minutes 25 seconds"}, {"name":
-        "publish_to_pypi", "duration": "0 minutes 18 seconds"}]}'
+        "publish_to_pypi", "duration": "0 minutes 18 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2019-04-19 21:38:24
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 320
+    disk_usage_kb: 375
     first_timer_prs_90d: 0
     fork_count: 5
     good_first_issues_open: 0
@@ -94,13 +103,13 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-09-30 15:34:05
+    last_push: 2026-10-05 02:54:54
     license: GNU AGPLv3
     median_pr_response_seconds: 3755143
     median_pr_time_to_merge_seconds: 1840307
-    oldest_open_pr_days: 141
-    pr_closure_ratio_90d: 0.9231
-    pr_opened_90d: 13
+    oldest_open_pr_days: 142
+    pr_closure_ratio_90d: 0.9286
+    pr_opened_90d: 14
     prs_open: 2
     pulls_count: 2
     release_count_12mo: 3
@@ -136,6 +145,10 @@ readme:
     bad_links:
     - 'https://docs.openedx.org/projects/: 404'
     - 'https://openedx.slack.com/: 403'
+    - 'https://codecov.io/github/openedx/openedx-calc?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/openedx/openedx-calc?branch=main
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     - 'https://docs.openedx.org/projects/openedx-calc: 404'
     - 'https://github.com/openedx/openedx-calc/blob/main/LICENSE.txt: 404'
     getting-help: true
@@ -157,7 +170,6 @@ readme:
     - https://github.com/openedx/openedx-calc/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/openedx-calc/actions
     - https://codecov.io/github/openedx/openedx-calc/coverage.svg?branch=main
-    - https://codecov.io/github/openedx/openedx-calc?branch=main
     - https://readthedocs.org/projects/openedx-calc/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/openedx-calc.svg
     - https://img.shields.io/github/license/openedx/openedx-calc.svg

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 17
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -144,6 +144,10 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
+    - 'https://codecov.io/github/edx/event-routing-backends?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/edx/event-routing-backends?branch=master
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://github.com/openedx/event-tracking
@@ -158,7 +162,6 @@ readme:
     - https://github.com/openedx/event-routing-backends/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/event-routing-backends/actions?query=workflow%3A%22Python+CI%22
     - https://codecov.io/github/edx/event-routing-backends/coverage.svg?branch=master
-    - https://codecov.io/github/edx/event-routing-backends?branch=master
     - https://readthedocs.org/projects/event-routing-backends/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/event-routing-backends.svg
     - https://img.shields.io/github/license/edx/event-routing-backends.svg

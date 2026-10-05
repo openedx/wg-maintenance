@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,12 +66,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 120
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 4
+    branch_count: 5
     build_details: '{"total_duration": "3 minutes 4 seconds", "checks": [{"name":
         "test", "duration": "3 minutes 2 seconds"}, {"name": "Release", "duration":
         "0 minutes 52 seconds"}, {"name": "version-check / version-check", "duration":
@@ -103,16 +103,16 @@ github:
     issues_open: 9
     issues_opened_90d: 8
     issues_stale_open_180d: 1
-    last_push: 2026-10-01 20:15:12
+    last_push: 2026-10-05 00:29:37
     license: GNU AGPLv3
     median_issue_first_response_seconds: 70513
     median_pr_response_seconds: 38289
     median_pr_time_to_merge_seconds: 92833
-    oldest_open_pr_days: 31
-    pr_closure_ratio_90d: 0.9286
-    pr_opened_90d: 28
-    prs_open: 2
-    pulls_count: 2
+    oldest_open_pr_days: 32
+    pr_closure_ratio_90d: 0.8966
+    pr_opened_90d: 29
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 71
 github_actions: true
 language_bytes:
@@ -148,9 +148,14 @@ readme:
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-instructor-dashboard:
         404'
+    - 'https://codecov.io/github/openedx/frontend-app-instructor-dashboard?branch=main:
+        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
+        with url: /github/openedx/frontend-app-instructor-dashboard?branch=main (Caused
+        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
+        handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://github.com/overhangio/tutor
@@ -173,7 +178,6 @@ readme:
     - https://github.com/openedx/frontend-app-instructor-dashboard/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-instructor-dashboard/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-app-instructor-dashboard/coverage.svg?branch=main
-    - https://codecov.io/github/openedx/frontend-app-instructor-dashboard?branch=main
     irc-missing: true
     mailing-list-missing: true
     security: true

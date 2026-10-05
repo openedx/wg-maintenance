@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 118
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 17
+    branch_count: 18
     build_details: '{"total_duration": "213 minutes 55 seconds", "checks": [{"name":
         "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration": "4 minutes
         50 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52, 8)", "duration":
@@ -97,7 +97,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 2569
+    disk_usage_kb: 2735
     first_timer_prs_90d: 1
     fork_count: 33
     good_first_issues_open: 0
@@ -112,16 +112,16 @@ github:
     issues_open: 192
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-02 16:31:27
+    last_push: 2026-10-05 00:51:57
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1821897
     median_pr_response_seconds: 71371
-    median_pr_time_to_merge_seconds: 493819
-    oldest_open_pr_days: 241
-    pr_closure_ratio_90d: 0.7857
-    pr_opened_90d: 56
-    prs_open: 19
-    pulls_count: 19
+    median_pr_time_to_merge_seconds: 455822
+    oldest_open_pr_days: 242
+    pr_closure_ratio_90d: 0.7719
+    pr_opened_90d: 57
+    prs_open: 20
+    pulls_count: 20
     release_count_12mo: 38
 github_actions: true
 language_bytes:
@@ -156,6 +156,10 @@ readme:
     - 'https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0049-django-app-patterns.html:
         404'
     - 'https://openedx.slack.com/: 403'
+    - 'https://codecov.io/github/edx/openedx-core?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
+        port=443): Max retries exceeded with url: /github/edx/openedx-core?branch=master
+        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
+        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://2021.djangocon.us/talks/scaling-django-to-500-apps/
@@ -168,7 +172,6 @@ readme:
     - https://github.com/openedx/openedx-core/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/openedx-core/actions
     - https://codecov.io/github/edx/openedx-core/coverage.svg?branch=master
-    - https://codecov.io/github/edx/openedx-core?branch=master
     - https://readthedocs.org/projects/openedx-core/badge/?version=latest
     - https://openedx-core.readthedocs.io/en/latest/
     - https://img.shields.io/pypi/pyversions/openedx-core.svg

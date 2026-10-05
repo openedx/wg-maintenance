@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-04
+TIMESTAMP: 2026-10-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -68,7 +68,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 37
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -101,7 +101,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 9024
     median_pr_time_to_merge_seconds: 3179
-    oldest_open_pr_days: 31
+    oldest_open_pr_days: 32
     pr_closure_ratio_90d: 0.8667
     pr_opened_90d: 15
     prs_open: 2
@@ -142,6 +142,11 @@ readme:
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-site:
         404'
+    - 'https://codecov.io/github/openedx/frontend-template-application?branch=main:
+        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
+        with url: /github/openedx/frontend-template-application?branch=main (Caused
+        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
+        handshake failure (_ssl.c:1010)'')))'
     getting-help: false
     good_links:
     - https://github.com/nvm-sh/nvm
@@ -159,7 +164,6 @@ readme:
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-template-application/coverage.svg?branch=main
-    - https://codecov.io/github/openedx/frontend-template-application?branch=main
     irc-missing: true
     mailing-list-missing: true
     security: true
