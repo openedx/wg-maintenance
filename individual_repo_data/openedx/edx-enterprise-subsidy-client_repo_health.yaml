@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 40
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 21
+    branch_count: 22
     build_details: '{"total_duration": "1459 minutes 11 seconds", "checks": [{"name":
         "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
         "1 minutes 1 seconds"}, {"name": "release", "duration": "1 minutes 0 seconds"},
@@ -93,7 +93,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Client for making requests to edx-enterprise-subsidy.
-    disk_usage_kb: 438
+    disk_usage_kb: 442
     first_timer_prs_90d: 0
     fork_count: 5
     good_first_issues_open: 0
@@ -107,15 +107,15 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 1
-    last_push: 2026-10-05 02:16:23
+    last_push: 2026-10-05 07:54:25
     license: GNU AGPLv3
     median_pr_response_seconds: 301358
     median_pr_time_to_merge_seconds: 1118901
-    oldest_open_pr_days: 0
-    pr_closure_ratio_90d: 0.9333
-    pr_opened_90d: 15
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 1
+    pr_closure_ratio_90d: 0.875
+    pr_opened_90d: 16
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 9
 github_actions: true
 language_bytes:
@@ -153,11 +153,6 @@ readme:
     - 'https://openedx.slack.com/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/edx-enterprise-subsidy-client:
         404'
-    - 'https://codecov.io/github/openedx/edx-enterprise-subsidy-client?branch=main:
-        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
-        with url: /github/openedx/edx-enterprise-subsidy-client?branch=main (Caused
-        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
-        handshake failure (_ssl.c:1010)'')))'
     - 'https://edx-enterprise-subsidy-client.readthedocs.io/en/latest/: 404'
     getting-help: true
     good_links:
@@ -174,6 +169,7 @@ readme:
     - https://github.com/openedx/edx-enterprise-subsidy-client/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/edx-enterprise-subsidy-client/actions
     - https://codecov.io/github/openedx/edx-enterprise-subsidy-client/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/edx-enterprise-subsidy-client?branch=main
     - https://readthedocs.org/projects/edx-enterprise-subsidy-client/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/edx-enterprise-subsidy-client.svg
     - https://img.shields.io/github/license/openedx/edx-enterprise-subsidy-client.svg

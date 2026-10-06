@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,32 +61,30 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 7
-    lockfile_age_days: 6
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 34
-    build_details: '{"total_duration": "7897 minutes 4 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 58 seconds"}, {"name": "release", "duration": "0 minutes 55 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 49 seconds"}, {"name": "quality",
-        "duration": "0 minutes 27 seconds"}, {"name": "django52", "duration": "0 minutes
+    build_details: '{"total_duration": "292 minutes 14 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 59 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 48 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes 47
+        seconds"}, {"name": "django42", "duration": "0 minutes 30 seconds"}, {"name":
+        "run_tests / django42", "duration": "0 minutes 29 seconds"}, {"name": "quality",
+        "duration": "0 minutes 23 seconds"}, {"name": "django52", "duration": "0 minutes
         22 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes 22 seconds"},
-        {"name": "django42", "duration": "0 minutes 21 seconds"}, {"name": "run_tests
-        / django52", "duration": "0 minutes 20 seconds"}, {"name": "run_tests / django42",
-        "duration": "0 minutes 19 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 53 seconds"}]}'
+        {"name": "run_tests / django52", "duration": "0 minutes 18 seconds"}, {"name":
+        "publish_to_pypi", "duration": "0 minutes 0 seconds"}, {"name": "release",
+        "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2014-03-06 20:34:41
     default_branch: master
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: Workbench and example xblocks
-    disk_usage_kb: 2224
+    disk_usage_kb: 2321
     first_timer_prs_90d: 0
     fork_count: 104
     good_first_issues_open: 0
@@ -100,13 +98,13 @@ github:
     issues_open: 12
     issues_opened_90d: 0
     issues_stale_open_180d: 12
-    last_push: 2026-10-04 00:58:48
+    last_push: 2026-10-05 06:21:48
     license: Apache License 2.0
     median_pr_response_seconds: 7653
-    median_pr_time_to_merge_seconds: 107432
-    oldest_open_pr_days: 38
-    pr_closure_ratio_90d: 0.9355
-    pr_opened_90d: 31
+    median_pr_time_to_merge_seconds: 106536
+    oldest_open_pr_days: 39
+    pr_closure_ratio_90d: 0.9375
+    pr_opened_90d: 32
     prs_open: 2
     pulls_count: 2
     release_count_12mo: 4
@@ -144,11 +142,11 @@ readme:
         port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''docs.seleniumhq.org'',
         port=80): Failed to resolve ''docs.seleniumhq.org'' ([Errno -2] Name or service
         not known)"))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://codecov.io/github/openedx/xblock-sdk?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/openedx/xblock-sdk?branch=main
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://docs.openedx.org/projects/xblock-sdk: 404'
     - 'https://github.com/openedx/xblock-sdk/blob/main/LICENSE.txt: 404'
     - 'https://github.com/openedx/xblock-sdk/blob/master/sample_xblocks/README.rst:
@@ -160,16 +158,13 @@ readme:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/sdk/get_started_sdk.html
     - https://discuss.openedx.org
     - https://github.com/openedx/xblock-sdk/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock-sdk
     - https://img.shields.io/pypi/v/xblock-sdk.svg
     - https://pypi.python.org/pypi/xblock-sdk/
     - https://github.com/openedx/xblock-sdk/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/xblock-sdk/actions
     - https://codecov.io/github/openedx/xblock-sdk/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/xblock-sdk?branch=main
     - https://readthedocs.org/projects/xblock-sdk/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/xblock-sdk.svg
     - https://img.shields.io/github/license/openedx/xblock-sdk.svg

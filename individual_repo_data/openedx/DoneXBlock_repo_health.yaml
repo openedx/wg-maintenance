@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 8
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 38
+    branch_count: 39
     build_details: '{"total_duration": "9309 minutes 13 seconds", "checks": [{"name":
         "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
         "1 minutes 6 seconds"}, {"name": "Dependabot", "duration": "0 minutes 57 seconds"},
@@ -90,7 +90,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: 'An XBlock for students to mark they''ve finished something. '
-    disk_usage_kb: 1443
+    disk_usage_kb: 953
     first_timer_prs_90d: 0
     fork_count: 25
     good_first_issues_open: 0
@@ -104,15 +104,15 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-05 00:34:13
+    last_push: 2026-10-05 12:04:02
     license: GNU AGPLv3
     median_pr_response_seconds: 262208
     median_pr_time_to_merge_seconds: 30979
-    oldest_open_pr_days: 0
-    pr_closure_ratio_90d: 0.9762
+    oldest_open_pr_days: 1
+    pr_closure_ratio_90d: 0.9524
     pr_opened_90d: 42
-    prs_open: 1
-    pulls_count: 1
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -149,7 +149,12 @@ readme:
         port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'
     - 'https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg:
         404'
+    - 'https://openedx.org/r/xblock: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock:
         404'
     getting-help: true
@@ -159,14 +164,9 @@ readme:
     - https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
     - https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
     - https://img.shields.io/badge/status-maintained-31c653
-    - https://openedx.org/r/xblock
     - https://docs.tutor.edly.io/configuration.html
     - https://discuss.openedx.org
     - https://github.com/openedx/DoneXBlock/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: false
     has_ecosystem:
@@ -60,14 +60,14 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 32
-    lockfile_age_days: 55
+    commits_365d: 31
+    lockfile_age_days: 56
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 17
-    build_details: '{"total_duration": "3 minutes 54 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "6938 minutes 13 seconds", "checks": [{"name":
         "e2e", "duration": "2 minutes 40 seconds"}, {"name": "run_ci / e2e", "duration":
         "2 minutes 20 seconds"}, {"name": "release", "duration": "0 minutes 58 seconds"},
         {"name": "run_ci / quality", "duration": "0 minutes 49 seconds"}, {"name":
@@ -79,7 +79,11 @@ github:
         30 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 29 seconds"},
         {"name": "run_ci / docs", "duration": "0 minutes 28 seconds"}, {"name": "package",
         "duration": "0 minutes 27 seconds"}, {"name": "py", "duration": "0 minutes
-        27 seconds"}, {"name": "run_ci / package", "duration": "0 minutes 26 seconds"}]}'
+        27 seconds"}, {"name": "run_ci / package", "duration": "0 minutes 26 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
+        54 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2024-07-25 08:43:29
@@ -104,13 +108,13 @@ github:
     issues_stale_open_180d: 9
     last_push: 2026-10-02 19:00:04
     license: GNU AGPLv3
-    median_pr_response_seconds: 116204
+    median_pr_response_seconds: 91210
     median_pr_time_to_merge_seconds: 643837
-    oldest_open_pr_days: 119
-    pr_closure_ratio_90d: 0.6667
+    oldest_open_pr_days: 120
+    pr_closure_ratio_90d: 0.5833
     pr_opened_90d: 12
-    prs_open: 5
-    pulls_count: 5
+    prs_open: 6
+    pulls_count: 6
     release_count_12mo: 13
 github_actions: true
 language_bytes:

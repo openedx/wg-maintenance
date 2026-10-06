@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,7 +65,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 14
-    lockfile_age_days: 35
+    lockfile_age_days: 36
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -89,7 +89,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: "A template repository for creating Open edX frontend applications.\
         \ \U0001F4BF\u27A1\uFE0F\U0001F4C0"
-    disk_usage_kb: 17625
+    disk_usage_kb: 17831
     first_timer_prs_90d: 1
     fork_count: 67
     good_first_issues_open: 0
@@ -108,7 +108,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 265
     median_pr_time_to_merge_seconds: 258270
-    oldest_open_pr_days: 1138
+    oldest_open_pr_days: 1139
     pr_closure_ratio_90d: 0.3721
     pr_opened_90d: 43
     prs_open: 34
@@ -147,15 +147,14 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application:
         404'
-    - 'https://codecov.io/github/openedx/frontend-template-application?branch=main:
-        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
-        with url: /github/openedx/frontend-template-application?branch=main (Caused
-        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
-        handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://github.com/openedx/frontend-base
@@ -169,16 +168,13 @@ readme:
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-template-application/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-template-application.svg
     - https://github.com/openedx/frontend-template-application/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-template-application/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/frontend-template-application?branch=main
     irc-missing: true
     mailing-list-missing: true
     security: true

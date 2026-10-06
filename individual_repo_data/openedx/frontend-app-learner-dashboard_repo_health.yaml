@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -70,7 +70,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 85
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -92,7 +92,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Learner Dashboard MFE
-    disk_usage_kb: 10571
+    disk_usage_kb: 10567
     first_timer_median_first_response_seconds: 119326
     first_timer_prs_90d: 9
     fork_count: 205
@@ -108,11 +108,11 @@ github:
     issues_open: 20
     issues_opened_90d: 7
     issues_stale_open_180d: 15
-    last_push: 2026-09-28 13:32:06
+    last_push: 2026-10-05 19:55:24
     license: GNU AGPLv3
     median_pr_response_seconds: 172200
     median_pr_time_to_merge_seconds: 360795
-    oldest_open_pr_days: 503
+    oldest_open_pr_days: 504
     pr_closure_ratio_90d: 0.7778
     pr_opened_90d: 18
     prs_open: 8
@@ -156,12 +156,7 @@ readme:
         port=80): Failed to resolve ''credit.example.com'' ([Errno -5] No address
         associated with hostname)"))'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://codecov.io/github/openedx/frontend-app-learner-dashboard?branch=master:
-        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
-        with url: /github/openedx/frontend-app-learner-dashboard?branch=master (Caused
-        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
-        handshake failure (_ssl.c:1010)'')))'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     getting-help: true
     good_links:
     - https://github.com/openedx/frontend-base
@@ -187,6 +182,7 @@ readme:
     - https://github.com/openedx/frontend-app-learner-dashboard/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-learner-dashboard/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-app-learner-dashboard/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-app-learner-dashboard?branch=master
     - https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
     - https://github.com/semantic-release/semantic-release
     irc-missing: true

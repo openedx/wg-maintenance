@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: false
     has_ecosystem:
@@ -75,7 +75,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 7
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -107,11 +107,11 @@ github:
     issues_open: 16
     issues_opened_90d: 1
     issues_stale_open_180d: 14
-    last_push: 2026-10-05 00:27:51
+    last_push: 2026-10-05 19:54:17
     license: GNU AGPLv3
     median_issue_first_response_seconds: 713261
     median_pr_time_to_merge_seconds: 135
-    oldest_open_pr_days: 1285
+    oldest_open_pr_days: 1286
     pr_closure_ratio_90d: 0.8333
     pr_opened_90d: 6
     prs_open: 20
@@ -147,10 +147,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://codecov.io/gh/edx/frontend-platform: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /gh/edx/frontend-platform (Caused
-        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
-        handshake failure (_ssl.c:1010)'')))'
     - 'https://www.npmjs.com/package/@edx/frontend-platform: 403'
     - 'http://local.openedx.io: HTTPConnectionPool(host=''local.openedx.io'', port=80):
         Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''local.openedx.io'',
@@ -168,6 +164,7 @@ readme:
     - https://github.com/openedx/frontend-platform/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-platform/actions/workflows/ci.yml
     - https://img.shields.io/codecov/c/github/edx/frontend-platform
+    - https://codecov.io/gh/edx/frontend-platform
     - https://img.shields.io/npm/v/@edx/frontend-platform.svg
     - https://img.shields.io/npm/dt/@edx/frontend-platform.svg
     - https://img.shields.io/npm/l/@edx/frontend-platform.svg

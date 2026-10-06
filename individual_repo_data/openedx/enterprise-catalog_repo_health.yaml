@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 22
-    lockfile_age_days: 54
+    lockfile_age_days: 55
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -100,7 +100,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 40843
     median_pr_time_to_merge_seconds: 1712176
-    oldest_open_pr_days: 2050
+    oldest_open_pr_days: 2051
     pr_closure_ratio_90d: 0.8235
     pr_opened_90d: 17
     prs_open: 18
@@ -137,15 +137,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://travis-ci.com/edx/enterprise-catalog: 404'
-    - 'http://codecov.io/github/edx/enterprise-catalog?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/edx/enterprise-catalog?branch=master
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     - 'https://openedx.slack.com/messages/general/: 403'
     getting-help: false
     good_links:
     - https://travis-ci.com/edx/enterprise-catalog.svg?branch=master
     - http://codecov.io/github/edx/enterprise-catalog/coverage.svg?branch=master
+    - http://codecov.io/github/edx/enterprise-catalog?branch=master
     - https://github.com/openedx/enterprise-catalog/blob/master/LICENSE
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://groups.google.com/forum/

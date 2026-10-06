@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 17
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -87,7 +87,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: A python package that communicates with 3rd party taxonomy vendors
-    disk_usage_kb: 1215
+    disk_usage_kb: 1219
     first_timer_prs_90d: 0
     fork_count: 18
     good_first_issues_open: 0
@@ -105,7 +105,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 369385
     median_pr_time_to_merge_seconds: 1267494
-    oldest_open_pr_days: 2082
+    oldest_open_pr_days: 2083
     pr_closure_ratio_90d: 0.8824
     pr_opened_90d: 17
     prs_open: 12
@@ -140,16 +140,13 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'http://codecov.io/github/openedx/taxonomy-connector?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/openedx/taxonomy-connector?branch=master
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
+    bad_links: []
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/taxonomy-connector.svg
     - https://pypi.org/project/taxonomy-connector/
     - http://codecov.io/github/openedx/taxonomy-connector/coverage.svg?branch=master
+    - http://codecov.io/github/openedx/taxonomy-connector?branch=master
     - https://github.com/openedx/taxonomy-connector/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/taxonomy-connector/actions?query=workflow%3A%22Python+CI%22
     - https://open.edx.org/getting-help

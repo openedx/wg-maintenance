@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -79,29 +79,29 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 10
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 69
-    build_details: '{"total_duration": "9296 minutes 19 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "10707 minutes 26 seconds", "checks": [{"name":
         "tests (test)", "duration": "3 minutes 11 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "3 minutes 1 seconds"}, {"name": "tests (lint)",
         "duration": "2 minutes 38 seconds"}, {"name": "tests (i18n_extract)", "duration":
-        "2 minutes 29 seconds"}, {"name": "Dependabot", "duration": "0 minutes 31
-        seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        3 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}]}'
+        "2 minutes 29 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 31 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 3 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2019-01-10 17:55:59
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Open edX micro-frontend application for managing user profile information.
-    disk_usage_kb: 23716
+    disk_usage_kb: 23447
     first_timer_median_first_response_seconds: 582505
     first_timer_prs_90d: 3
     fork_count: 156
@@ -117,11 +117,11 @@ github:
     issues_open: 12
     issues_opened_90d: 4
     issues_stale_open_180d: 7
-    last_push: 2026-10-05 00:22:05
+    last_push: 2026-10-05 19:44:06
     license: GNU AGPLv3
-    median_pr_response_seconds: 582035
+    median_pr_response_seconds: 582975
     median_pr_time_to_merge_seconds: 567144
-    oldest_open_pr_days: 1218
+    oldest_open_pr_days: 1219
     pr_closure_ratio_90d: 0.3333
     pr_opened_90d: 48
     prs_open: 44
@@ -158,12 +158,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://github.com/openedx/frontend-app-profile/blob/main/LICENSE: 404'
-    - 'https://codecov.io/github/openedx/frontend-app-profile?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/openedx/frontend-app-profile?branch=main
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://backstage.herokuapp.com/catalog/default/component/frontend-app-profile:
         502'
     getting-help: true
@@ -173,6 +173,7 @@ readme:
     - https://github.com/openedx/frontend-app-profile/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-profile/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-app-profile/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/frontend-app-profile?branch=main
     - https://github.com/overhangio/tutor
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-app-profile.git
@@ -180,10 +181,6 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-profile/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

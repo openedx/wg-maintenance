@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 69
+    lockfile_age_days: 70
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 14
+    branch_count: 16
     build_details: '{"total_duration": "6442 minutes 31 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 3 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 50 seconds"}, {"name": "update-pip-graph",
@@ -89,7 +89,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 375
+    disk_usage_kb: 381
     first_timer_prs_90d: 0
     fork_count: 5
     good_first_issues_open: 0
@@ -103,15 +103,15 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-10-05 02:54:54
+    last_push: 2026-10-05 08:23:47
     license: GNU AGPLv3
     median_pr_response_seconds: 3755143
     median_pr_time_to_merge_seconds: 1840307
-    oldest_open_pr_days: 142
-    pr_closure_ratio_90d: 0.9286
-    pr_opened_90d: 14
-    prs_open: 2
-    pulls_count: 2
+    oldest_open_pr_days: 143
+    pr_closure_ratio_90d: 0.8125
+    pr_opened_90d: 16
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -144,11 +144,11 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://docs.openedx.org/projects/: 404'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://codecov.io/github/openedx/openedx-calc?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/openedx/openedx-calc?branch=main
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://docs.openedx.org/projects/openedx-calc: 404'
     - 'https://github.com/openedx/openedx-calc/blob/main/LICENSE.txt: 404'
     getting-help: true
@@ -158,18 +158,15 @@ readme:
     - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
     - https://discuss.openedx.org
     - https://github.com/openedx/openedx-calc/issues
-    - https://openedx.org/getting-help
-    - https://openedx.org/slack
     - https://github.com/openedx/edx-platform
     - https://github.com/openedx/openedx-calc/blob/master/LICENSE
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/openedx-calc
     - https://img.shields.io/pypi/v/openedx-calc.svg
     - https://pypi.python.org/pypi/openedx-calc/
     - https://github.com/openedx/openedx-calc/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/openedx-calc/actions
     - https://codecov.io/github/openedx/openedx-calc/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/openedx-calc?branch=main
     - https://readthedocs.org/projects/openedx-calc/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/openedx-calc.svg
     - https://img.shields.io/github/license/openedx/openedx-calc.svg

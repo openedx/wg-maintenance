@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 14
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -103,9 +103,9 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 179569
     median_pr_time_to_merge_seconds: 920348
-    oldest_open_pr_days: 89
-    pr_closure_ratio_90d: 0.8333
-    pr_opened_90d: 18
+    oldest_open_pr_days: 90
+    pr_closure_ratio_90d: 0.8824
+    pr_opened_90d: 17
     prs_open: 3
     pulls_count: 3
     release_count_12mo: 11
@@ -145,10 +145,6 @@ readme:
     - 'https://openedx.slack.com/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/openedx-ledger:
         404'
-    - 'https://codecov.io/github/openedx/openedx-ledger?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/openedx/openedx-ledger?branch=main
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     - 'https://openedx-ledger.readthedocs.io/en/latest/: 404'
     getting-help: true
     good_links:
@@ -164,6 +160,7 @@ readme:
     - https://github.com/openedx/openedx-ledger/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/openedx-ledger/actions
     - https://codecov.io/github/openedx/openedx-ledger/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/openedx-ledger?branch=main
     - https://readthedocs.org/projects/openedx-ledger/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/openedx-ledger.svg
     - https://img.shields.io/github/license/openedx/openedx-ledger.svg

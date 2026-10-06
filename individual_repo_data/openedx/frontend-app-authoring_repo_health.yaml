@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -101,7 +101,7 @@ exists:
 git:
     absence_factor_365d: 6
     commits_365d: 269
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -128,7 +128,7 @@ github:
     disk_usage_kb: 53971
     first_timer_median_first_response_seconds: 372352
     first_timer_prs_90d: 6
-    fork_count: 219
+    fork_count: 218
     good_first_issues_open: 16
     has_issues: true
     has_wiki: false
@@ -137,20 +137,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.2381
+    issue_closure_ratio_90d: 0.2
     issues_open: 263
-    issues_opened_90d: 21
+    issues_opened_90d: 20
     issues_stale_open_180d: 14
-    last_push: 2026-10-05 00:21:01
+    last_push: 2026-10-05 12:26:28
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 65749
+    median_issue_first_response_seconds: 51293
     median_pr_response_seconds: 263800
     median_pr_time_to_merge_seconds: 703243
-    oldest_open_pr_days: 890
-    pr_closure_ratio_90d: 0.73
+    oldest_open_pr_days: 891
+    pr_closure_ratio_90d: 0.74
     pr_opened_90d: 100
-    prs_open: 45
-    pulls_count: 45
+    prs_open: 44
+    pulls_count: 44
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -196,19 +196,10 @@ readme:
         port=443): Failed to resolve ''cdn.example.com'' ([Errno -5] No address associated
         with hostname)"))'
     - 'https://travis-ci.com/edx/frontend-app-course-authoring: 404'
-    - 'https://codecov.io/gh/edx/frontend-app-course-authoring: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /gh/edx/frontend-app-course-authoring
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-course-authoring:
         404'
-    - 'https://codecov.io/github/openedx/frontend-app-course-authoring?branch=master:
-        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
-        with url: /github/openedx/frontend-app-course-authoring?branch=master (Caused
-        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
-        handshake failure (_ssl.c:1010)'')))'
     getting-help: false
     good_links:
     - https://github.com/openedx/edx-platform/tree/master/cms
@@ -227,6 +218,7 @@ readme:
     - https://github.com/Automattic/node-canvas/issues/1733
     - https://api.travis-ci.com/edx/frontend-app-course-authoring.svg?branch=master
     - https://codecov.io/gh/edx/frontend-app-course-authoring/branch/master/graph/badge.svg
+    - https://codecov.io/gh/edx/frontend-app-course-authoring
     - https://img.shields.io/npm/l/@edx/frontend-app-authoring.svg
     - https://github.com/openedx/frontend-platform/blob/master/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
@@ -240,6 +232,7 @@ readme:
     - https://github.com/openedx/frontend-app-course-authoring/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://codecov.io/github/openedx/frontend-app-course-authoring/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-app-course-authoring?branch=master
     irc-missing: true
     mailing-list-missing: true
     security: true

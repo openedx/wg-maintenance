@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -78,27 +78,28 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 6
-    lockfile_age_days: 158
+    lockfile_age_days: 159
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 20
-    build_details: '{"total_duration": "19343 minutes 6 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "19883 minutes 47 seconds", "checks": [{"name":
         "test", "duration": "4 minutes 7 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "2 minutes 16 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "1 minutes 6 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 29 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 3 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
-        "0 minutes 0 seconds"}]}'
+        "duration": "0 minutes 32 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 29 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 3 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "0
+        minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2023-07-12 21:42:38
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Open Response Assessment MFE
-    disk_usage_kb: 4073
+    disk_usage_kb: 4074
     first_timer_prs_90d: 0
     fork_count: 24
     good_first_issues_open: 0
@@ -113,10 +114,10 @@ github:
     issues_open: 5
     issues_opened_90d: 1
     issues_stale_open_180d: 3
-    last_push: 2026-09-21 14:34:05
+    last_push: 2026-10-05 19:45:40
     license: GNU GPLv3
     median_pr_time_to_merge_seconds: 1235889
-    oldest_open_pr_days: 972
+    oldest_open_pr_days: 973
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 3
     prs_open: 7
@@ -156,15 +157,11 @@ readme:
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-ora:
         404'
     - 'https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml/badge.svg:
         404'
-    - 'https://codecov.io/github/openedx/frontend-app-ora?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/openedx/frontend-app-ora?branch=master
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://github.com/overhangio/tutor
@@ -184,6 +181,7 @@ readme:
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/edx/frontend-app-ora/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-app-ora/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-app-ora?branch=master
     irc-missing: true
     mailing-list-missing: true
     security: true
