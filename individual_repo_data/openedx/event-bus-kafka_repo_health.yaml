@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 25
-    lockfile_age_days: 68
+    lockfile_age_days: 69
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -102,7 +102,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 3726664
     median_pr_time_to_merge_seconds: 5640854
-    oldest_open_pr_days: 1252
+    oldest_open_pr_days: 1253
     pr_closure_ratio_90d: 0.6667
     pr_opened_90d: 6
     prs_open: 5
@@ -140,10 +140,6 @@ readme:
     bad_links:
     - 'https://openedx-slack-invite.herokuapp.com/: 404'
     - 'https://openedx.slack.com/: 403'
-    - 'https://codecov.io/github/openedx/event-bus-kafka?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/openedx/event-bus-kafka?branch=main
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     - 'https://edx-event-bus-kafka.readthedocs.io/en/latest/: 404'
     getting-help: true
     good_links:
@@ -159,6 +155,7 @@ readme:
     - https://github.com/openedx/event-bus-kafka/workflows/Python%20CI/badge.svg?branch=main
     - https://github.com/openedx/event-bus-kafka/actions
     - https://codecov.io/github/openedx/event-bus-kafka/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/event-bus-kafka?branch=main
     - https://readthedocs.org/projects/edx-event-bus-kafka/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/edx-event-bus-kafka.svg
     - https://img.shields.io/github/license/openedx/event-bus-kafka.svg

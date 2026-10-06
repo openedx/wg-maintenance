@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,25 +68,25 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 3
-    lockfile_age_days: 374
+    lockfile_age_days: 375
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 19
-    build_details: '{"total_duration": "9305 minutes 58 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "10647 minutes 16 seconds", "checks": [{"name":
         "update-browserslist / update-dep", "duration": "2 minutes 41 seconds"}, {"name":
         "Release", "duration": "1 minutes 59 seconds"}, {"name": "test", "duration":
-        "1 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0 minutes 25
-        seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        5 seconds"}]}'
+        "1 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0 minutes 40
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 25 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2023-11-02 19:50:48
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: An experimental framework for micro-frontend plugins.
-    disk_usage_kb: 1356
+    disk_usage_kb: 1346
     first_timer_median_first_response_seconds: 260305
     first_timer_prs_90d: 1
     fork_count: 28
@@ -101,11 +101,11 @@ github:
     issues_open: 10
     issues_opened_90d: 0
     issues_stale_open_180d: 9
-    last_push: 2026-09-30 23:48:23
+    last_push: 2026-10-05 19:44:14
     license: GNU AGPLv3
     median_pr_response_seconds: 260305
     median_pr_time_to_merge_seconds: 1794236
-    oldest_open_pr_days: 867
+    oldest_open_pr_days: 868
     pr_closure_ratio_90d: 0.75
     pr_opened_90d: 4
     prs_open: 11
@@ -141,11 +141,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://codecov.io/github/openedx/frontend-plugin-framework?branch=master:
-        HTTPSConnectionPool(host=''app.codecov.io'', port=443): Max retries exceeded
-        with url: /github/openedx/frontend-plugin-framework?branch=master (Caused
-        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
-        handshake failure (_ssl.c:1010)'')))'
     - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 404'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
@@ -159,6 +154,7 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-plugin-framework/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-plugin-framework/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-plugin-framework?branch=master
     - https://github.com/openedx/frontend-platform/blob/master/docs/decisions/0007-javascript-file-configuration.rst
     - https://github.com/openedx/frontend-platform/blob/master/src/react/ErrorBoundary.jsx
     - https://discuss.openedx.org

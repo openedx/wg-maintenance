@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 26
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 10
+    branch_count: 13
     build_details: '{"total_duration": "4639 minutes 13 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 0 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "1 minutes 0 seconds"}, {"name": "update-uv-graph",
@@ -94,7 +94,7 @@ github:
     default_branch: main
     default_branch_ci_state: FAILURE
     description: 'Open edX filters from the Hooks Extensions Framework '
-    disk_usage_kb: 850
+    disk_usage_kb: 860
     first_timer_prs_90d: 1
     fork_count: 29
     good_first_issues_open: 0
@@ -108,15 +108,15 @@ github:
     issues_open: 22
     issues_opened_90d: 0
     issues_stale_open_180d: 22
-    last_push: 2026-10-05 00:49:55
+    last_push: 2026-10-05 07:53:46
     license: GNU AGPLv3
-    median_pr_response_seconds: 69858
+    median_pr_response_seconds: 122411
     median_pr_time_to_merge_seconds: 518463
-    oldest_open_pr_days: 214
-    pr_closure_ratio_90d: 0.9231
-    pr_opened_90d: 26
-    prs_open: 4
-    pulls_count: 4
+    oldest_open_pr_days: 215
+    pr_closure_ratio_90d: 0.8214
+    pr_opened_90d: 28
+    prs_open: 7
+    pulls_count: 7
     release_count_12mo: 16
 github_actions: true
 language_bytes:
@@ -149,10 +149,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
-    - 'https://codecov.io/github/openedx/openedx-filters?branch=main: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/openedx/openedx-filters?branch=main
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://open-edx-proposals.readthedocs.io/en/latest/oep-0050-hooks-extension-framework.html
@@ -170,6 +166,7 @@ readme:
     - https://github.com/openedx/openedx-filters/actions/workflows/ci.yml/badge.svg?branch=main
     - https://github.com/openedx/openedx-filters/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/openedx-filters/coverage.svg?branch=main
+    - https://codecov.io/github/openedx/openedx-filters?branch=main
     - https://readthedocs.org/projects/openedx-filters/badge/?version=latest
     - https://openedx-filters.readthedocs.io/en/latest/
     - https://img.shields.io/pypi/pyversions/openedx-filters.svg

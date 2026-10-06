@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,14 +66,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 10
-    build_details: '{"total_duration": "3427 minutes 22 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 26 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 52 seconds"}]}'
+    build_details: '{"total_duration": "8441 minutes 38 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 39 seconds"}, {"name": "release", "duration":
+        "0 minutes 26 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2022-11-25 18:03:47
@@ -99,7 +100,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 1197630
     median_pr_time_to_merge_seconds: 1293697
-    oldest_open_pr_days: 170
+    oldest_open_pr_days: 171
     pr_closure_ratio_90d: 0.8824
     pr_opened_90d: 17
     prs_open: 3

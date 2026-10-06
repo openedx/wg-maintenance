@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,27 +61,22 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 17
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 23
-    build_details: '{"total_duration": "711 minutes 33 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 9 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 52 seconds"}, {"name": "release", "duration": "0 minutes 51 seconds"},
-        {"name": "update-uv-graph", "duration": "0 minutes 43 seconds"}, {"name":
-        "run_tests / tests (3.12, docs, ubuntu-24.04)", "duration": "0 minutes 29
-        seconds"}, {"name": "run_tests / tests (3.12, quality, ubuntu-24.04)", "duration":
-        "0 minutes 25 seconds"}, {"name": "run_tests / tests (ubuntu-24.04, 3.12,
-        django42)", "duration": "0 minutes 24 seconds"}, {"name": "run_tests / tests
-        (ubuntu-24.04, 3.12, django52)", "duration": "0 minutes 21 seconds"}, {"name":
-        "run_tests / tests (3.12, pii_check, ubuntu-24.04)", "duration": "0 minutes
-        16 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        50 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 50 seconds"}]}'
+    branch_count: 24
+    build_details: '{"total_duration": "1 minutes 15 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 53 seconds"}, {"name": "release", "duration":
+        "0 minutes 40 seconds"}, {"name": "run_tests / tests (3.12, docs, ubuntu-24.04)",
+        "duration": "0 minutes 28 seconds"}, {"name": "run_tests / tests (3.12, quality,
+        ubuntu-24.04)", "duration": "0 minutes 25 seconds"}, {"name": "run_tests /
+        tests (ubuntu-24.04, 3.12, django42)", "duration": "0 minutes 23 seconds"},
+        {"name": "run_tests / tests (ubuntu-24.04, 3.12, django52)", "duration": "0
+        minutes 18 seconds"}, {"name": "run_tests / tests (3.12, pii_check, ubuntu-24.04)",
+        "duration": "0 minutes 13 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2020-09-22 20:33:20
@@ -89,7 +84,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Consume edx tracking events and transform/transmit them to other
         LRSs.
-    disk_usage_kb: 1626
+    disk_usage_kb: 1635
     first_timer_prs_90d: 1
     fork_count: 24
     good_first_issues_open: 1
@@ -103,15 +98,15 @@ github:
     issues_open: 9
     issues_opened_90d: 0
     issues_stale_open_180d: 9
-    last_push: 2026-10-02 14:22:29
+    last_push: 2026-10-05 14:10:22
     license: GNU AGPLv3
     median_pr_response_seconds: 4308214
-    median_pr_time_to_merge_seconds: 376720
-    oldest_open_pr_days: 53
-    pr_closure_ratio_90d: 0.6429
-    pr_opened_90d: 14
-    prs_open: 5
-    pulls_count: 5
+    median_pr_time_to_merge_seconds: 283379
+    oldest_open_pr_days: 54
+    pr_closure_ratio_90d: 0.625
+    pr_opened_90d: 16
+    prs_open: 6
+    pulls_count: 6
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -144,10 +139,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
-    - 'https://codecov.io/github/edx/event-routing-backends?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/edx/event-routing-backends?branch=master
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     getting-help: true
     good_links:
     - https://github.com/openedx/event-tracking
@@ -162,6 +153,7 @@ readme:
     - https://github.com/openedx/event-routing-backends/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/event-routing-backends/actions?query=workflow%3A%22Python+CI%22
     - https://codecov.io/github/edx/event-routing-backends/coverage.svg?branch=master
+    - https://codecov.io/github/edx/event-routing-backends?branch=master
     - https://readthedocs.org/projects/event-routing-backends/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/event-routing-backends.svg
     - https://img.shields.io/github/license/edx/event-routing-backends.svg

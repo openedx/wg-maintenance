@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 26
-    lockfile_age_days: 54
+    lockfile_age_days: 55
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -108,7 +108,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 554689
     median_pr_time_to_merge_seconds: 2300893
-    oldest_open_pr_days: 291
+    oldest_open_pr_days: 292
     pr_closure_ratio_90d: 0.875
     pr_opened_90d: 16
     prs_open: 4
@@ -144,10 +144,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'http://codecov.io/github/edx/license-manager?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/edx/license-manager?branch=master
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     - 'http://license-manager.readthedocs.io/en/latest/: 404'
     - 'https://license-manager.readthedocs.io/en/latest/: 404'
     - 'https://github.com/openedx/license-manager/blob/master/LICENSE: 404'
@@ -155,6 +151,7 @@ readme:
     getting-help: false
     good_links:
     - http://codecov.io/github/edx/license-manager/coverage.svg?branch=master
+    - http://codecov.io/github/edx/license-manager?branch=master
     - https://github.com/openedx/devstack
     - https://github.com/openedx/license-manager/blob/master/docs/getting_started.rst
     - https://readthedocs.org/projects/license-manager/badge/?version=latest

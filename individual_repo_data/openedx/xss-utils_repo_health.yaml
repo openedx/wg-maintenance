@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 68
+    lockfile_age_days: 69
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 26
+    branch_count: 29
     build_details: '{"total_duration": "2 minutes 37 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 1 seconds"}, {"name": "update-uv-graph",
         "duration": "0 minutes 43 seconds"}, {"name": "Dependabot", "duration": "0
@@ -90,7 +90,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: ' This repo contains utility functions for Django and Mako templates
         to remove potential XSS attacks in templates.'
-    disk_usage_kb: 500
+    disk_usage_kb: 510
     first_timer_prs_90d: 0
     fork_count: 10
     good_first_issues_open: 0
@@ -104,15 +104,15 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-09-29 15:16:43
+    last_push: 2026-10-05 19:38:06
     license: GNU AGPLv3
     median_pr_response_seconds: 3733477
     median_pr_time_to_merge_seconds: 3020723
-    oldest_open_pr_days: 138
-    pr_closure_ratio_90d: 0.6667
-    pr_opened_90d: 3
-    prs_open: 2
-    pulls_count: 2
+    oldest_open_pr_days: 139
+    pr_closure_ratio_90d: 0.3333
+    pr_opened_90d: 6
+    prs_open: 5
+    pulls_count: 5
     release_count_12mo: 2
 github_actions: true
 language_bytes:
@@ -148,10 +148,6 @@ readme:
     - 'https://open.edx.org/getting-help: 403'
     - 'https://github.com/openedx/xss-utils/actions?query=workflow%3A%22Python+CI%22:
         429'
-    - 'http://codecov.io/github/edx/xss-utils?branch=master: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /github/edx/xss-utils?branch=master
-        (Caused by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3
-        alert handshake failure (_ssl.c:1010)'')))'
     - 'http://xss-utils.readthedocs.io/en/latest/: 404'
     - 'https://github.com/openedx/xss-utils/blob/master/LICENSE.txt: 404'
     getting-help: true
@@ -164,6 +160,7 @@ readme:
     - https://pypi.python.org/pypi/xss-utils/
     - https://github.com/openedx/xss-utils/workflows/Python%20CI/badge.svg?branch=master
     - http://codecov.io/github/edx/xss-utils/coverage.svg?branch=master
+    - http://codecov.io/github/edx/xss-utils?branch=master
     - https://readthedocs.org/projects/xss-utils/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/xss-utils.svg
     - https://img.shields.io/github/license/edx/xss-utils.svg

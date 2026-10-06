@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-05
+TIMESTAMP: 2026-10-06
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
     transifex_config: false
 git:
     commits_365d: 0
-    lockfile_age_days: 387
+    lockfile_age_days: 388
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
@@ -97,7 +97,7 @@ github:
     issues_stale_open_180d: 0
     last_push: 2026-06-10 14:02:29
     license: GNU AGPLv3
-    oldest_open_pr_days: 213
+    oldest_open_pr_days: 214
     pr_opened_90d: 0
     prs_open: 8
     pulls_count: 8
@@ -131,11 +131,7 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://codecov.io/gh/edx/frontend-enterprise: HTTPSConnectionPool(host=''app.codecov.io'',
-        port=443): Max retries exceeded with url: /gh/edx/frontend-enterprise (Caused
-        by SSLError(SSLError(1, ''[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
-        handshake failure (_ssl.c:1010)'')))'
+    bad_links: []
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-build
@@ -144,6 +140,7 @@ readme:
     - https://github.com/openedx/frontend-enterprise/actions/workflows/release.yml/badge.svg
     - https://github.com/openedx/frontend-enterprise/actions
     - https://codecov.io/gh/edx/frontend-enterprise/branch/master/graph/badge.svg?token=lBHoe5P4Q3
+    - https://codecov.io/gh/edx/frontend-enterprise
     irc-missing: true
     mailing-list-missing: true
     security: false
