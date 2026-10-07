@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-06
+TIMESTAMP: 2026-10-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -78,8 +78,8 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 100
-    lockfile_age_days: 8
+    commits_365d: 99
+    lockfile_age_days: 9
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -105,6 +105,7 @@ github:
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
     disk_usage_kb: 22069
+    first_timer_median_first_response_seconds: 157854
     first_timer_prs_90d: 3
     fork_count: 337
     good_first_issues_open: 0
@@ -115,17 +116,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.6914
-    issues_open: 62
-    issues_opened_90d: 81
-    issues_stale_open_180d: 11
+    issue_closure_ratio_90d: 0.6747
+    issues_open: 64
+    issues_opened_90d: 83
+    issues_stale_open_180d: 9
     last_push: 2026-10-05 18:00:21
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1157504
-    median_pr_response_seconds: 134861
-    median_pr_time_to_merge_seconds: 136668
-    oldest_open_pr_days: 1314
-    pr_closure_ratio_90d: 0.86
+    median_pr_response_seconds: 149473
+    median_pr_time_to_merge_seconds: 124515
+    oldest_open_pr_days: 1315
+    pr_closure_ratio_90d: 0.85
     pr_opened_90d: 100
     prs_open: 38
     pulls_count: 38

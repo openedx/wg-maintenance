@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-06
+TIMESTAMP: 2026-10-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,37 +7,29 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 44
+    count: 27
     github:
         count: 0
         list: ''
     js:
-        count: 35
-        list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.3", "@edx/frontend-component-footer":
-            "^14.6.0", "@edx/frontend-component-header": "^8.2.1", "@edx/frontend-platform":
-            "^8.7.0", "@edx/openedx-atlas": "^0.7.0", "@fortawesome/fontawesome-svg-core":
-            "6.7.2", "@fortawesome/free-brands-svg-icons": "6.7.2", "@fortawesome/free-regular-svg-icons":
-            "6.7.2", "@fortawesome/free-solid-svg-icons": "6.7.2", "@fortawesome/react-fontawesome":
-            "0.2.6", "@openedx/frontend-plugin-framework": "^1.7.0", "@openedx/paragon":
-            "^23.4.5", "@pact-foundation/pact": "^11.0.2", "@redux-devtools/extension":
-            "3.3.0", "classnames": "2.5.1", "core-js": "3.48.0", "history": "5.3.0",
-            "lodash.camelcase": "4.3.0", "lodash.get": "4.4.2", "lodash.pick": "4.4.0",
-            "lodash.snakecase": "4.1.1", "prop-types": "15.8.1", "react": "18.3.1",
-            "react-dom": "18.3.1", "react-helmet": "6.1.0", "react-redux": "7.2.9",
-            "react-router": "6.30.3", "react-router-dom": "6.30.3", "redux": "4.2.1",
-            "redux-logger": "3.0.6", "redux-saga": "1.4.2", "redux-thunk": "2.4.2",
-            "regenerator-runtime": "0.14.1", "reselect": "5.1.1", "universal-cookie":
-            "4.0.4"}'
+        count: 12
+        list: '{"@cospired/i18n-iso-languages": "^4.2.0", "@edx/openedx-atlas": "^0.7.0",
+            "@fortawesome/fontawesome-svg-core": "6.7.2", "@fortawesome/free-brands-svg-icons":
+            "6.7.2", "@fortawesome/free-regular-svg-icons": "6.7.2", "@fortawesome/free-solid-svg-icons":
+            "6.7.2", "@fortawesome/react-fontawesome": "0.2.6", "classnames": "2.5.1",
+            "i18n-iso-countries": "^7.14.0", "lodash.get": "4.4.2", "prop-types":
+            "15.8.1", "react-helmet": "6.1.0"}'
     js.all:
         count: 0
         list: '{}'
     js.dev:
-        count: 9
-        list: '{"@commitlint/cli": "19.8.1", "@commitlint/config-angular": "19.8.1",
-            "@edx/browserslist-config": "^1.1.1", "@openedx/frontend-build": "^14.6.6",
-            "@testing-library/jest-dom": "6.9.1", "@testing-library/react": "14.3.1",
-            "glob": "11.1.0", "jest-environment-jsdom": "^30.3.0", "redux-mock-store":
-            "1.5.5"}'
+        count: 15
+        list: '{"@edx/browserslist-config": "^1.1.1", "@openedx/frontend-base": "^2.0.0-alpha
+            || 0.0.0-dev", "@openedx/paragon": "^23 || 0.0.0-dev", "@pact-foundation/pact":
+            "^11.0.2", "@testing-library/jest-dom": "6.9.1", "@testing-library/react":
+            "14.3.1", "@testing-library/user-event": "14.6.7", "@types/jest": "^29.5.14",
+            "@types/react": "^18", "@types/react-dom": "^18", "jest": "^29.7.0", "jest-environment-jsdom":
+            "^29.7.0", "nodemon": "^3.1.14", "tsc-alias": "^1.8.16", "turbo": "^2.9.2"}'
     pypi:
         count: 0
         list: ''
@@ -77,33 +69,27 @@ exists:
     tox.ini: false
     transifex_config: false
 git:
-    absence_factor_365d: 2
-    commits_365d: 10
-    lockfile_age_days: 8
+    absence_factor_365d: 1
+    commits_365d: 26
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 69
-    build_details: '{"total_duration": "10707 minutes 26 seconds", "checks": [{"name":
-        "tests (test)", "duration": "3 minutes 11 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "3 minutes 1 seconds"}, {"name": "tests (lint)",
-        "duration": "2 minutes 38 seconds"}, {"name": "tests (i18n_extract)", "duration":
-        "2 minutes 29 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 31 seconds"}, {"name":
-        "version-check / version-check", "duration": "0 minutes 3 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 62
+    build_details: '{"total_duration": "10 minutes 17 seconds", "checks": [{"name":
+        "Release", "duration": "10 minutes 16 seconds"}, {"name": "tests", "duration":
+        "2 minutes 13 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2019-01-10 17:55:59
     default_branch: master
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: Open edX micro-frontend application for managing user profile information.
-    disk_usage_kb: 23447
-    first_timer_median_first_response_seconds: 582505
-    first_timer_prs_90d: 3
+    disk_usage_kb: 23498
+    first_timer_median_first_response_seconds: 582035
+    first_timer_prs_90d: 4
     fork_count: 156
     good_first_issues_open: 0
     has_issues: true
@@ -113,27 +99,27 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.0
-    issues_open: 12
+    issue_closure_ratio_90d: 0.75
+    issues_open: 8
     issues_opened_90d: 4
-    issues_stale_open_180d: 7
-    last_push: 2026-10-05 19:44:06
+    issues_stale_open_180d: 6
+    last_push: 2026-10-06 15:33:19
     license: GNU AGPLv3
-    median_pr_response_seconds: 582975
-    median_pr_time_to_merge_seconds: 567144
-    oldest_open_pr_days: 1219
-    pr_closure_ratio_90d: 0.3333
-    pr_opened_90d: 48
-    prs_open: 44
-    pulls_count: 44
-    release_count_12mo: 5
+    median_pr_response_seconds: 582505
+    median_pr_time_to_merge_seconds: 605059
+    oldest_open_pr_days: 686
+    pr_closure_ratio_90d: 0.5
+    pr_opened_90d: 56
+    prs_open: 35
+    pulls_count: 35
+    release_count_12mo: 6
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
-    html: 387
-    javascript: 191644
-    makefile: 1972
+    html: 260
+    javascript: 176611
+    makefile: 1975
     python: 0
     shell: 0
 makefile:
@@ -141,11 +127,11 @@ makefile:
     quality: false
     quality-js: false
     quality-python: false
-    test: true
+    test: false
     test-js: false
     test-python: false
     upgrade: false
-npm_package: '@edx/frontend-app-profile'
+npm_package: ''
 org_name: openedx
 ownership:
     component_type: service
@@ -153,34 +139,43 @@ ownership:
     owner: jacobo-dominguez-wgu
     owner_kind: unknown
     owner_name: jacobo-dominguez-wgu
-    release: master
+    release: legacy-mfe
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://github.com/openedx/frontend-app-profile/blob/main/LICENSE: 404'
+    - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
+        port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
+        port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://openedx.org/getting-help: 403'
     - 'https://openedx.org/r/how-to-contribute: 403'
     - 'https://openedx.org/code-of-conduct/: 403'
-    - 'https://backstage.herokuapp.com/catalog/default/component/frontend-app-profile:
-        502'
     getting-help: true
     good_links:
+    - https://github.com/openedx/frontend-base
+    - https://github.com/openedx/frontend-app-account
+    - https://github.com/openedx/frontend-app-profile/issues/1406
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
+    - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
+    - https://github.com/overhangio/tutor
+    - https://github.com/openedx/frontend-app-profile.git
+    - https://github.com/nvm-sh/nvm
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
+    - https://discuss.openedx.org
+    - https://github.com/openedx/frontend-app-profile/issues
+    - https://backstage.openedx.org/catalog/default/component/frontend-app-profile
     - https://img.shields.io/github/license/openedx/frontend-app-profile.svg
+    - https://github.com/openedx/frontend-app-profile/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-profile/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-profile/actions/workflows/ci.yml
-    - https://codecov.io/github/openedx/frontend-app-profile/coverage.svg?branch=main
-    - https://codecov.io/github/openedx/frontend-app-profile?branch=main
-    - https://github.com/overhangio/tutor
-    - https://github.com/overhangio/tutor-mfe
-    - https://github.com/openedx/frontend-app-profile.git
-    - https://github.com/nvm-sh/nvm
-    - https://github.com/openedx/frontend-plugin-framework
-    - https://discuss.openedx.org
-    - https://github.com/openedx/frontend-app-profile/issues
+    - https://codecov.io/github/openedx/frontend-app-profile/coverage.svg?branch=master
+    - https://codecov.io/github/openedx/frontend-app-profile?branch=master
+    - https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+    - https://github.com/semantic-release/semantic-release
     irc-missing: true
     mailing-list-missing: true
     security: true
@@ -191,8 +186,8 @@ readthedocs_config:
 renovate:
     configured: true
     last_pr: '2026-04-06'
-    oldest_open_pr_date: '2025-07-21'
-    total_open_prs: 5
+    oldest_open_pr_date: '2025-12-22'
+    total_open_prs: 1
 requires:
     django: false
     pytest: false

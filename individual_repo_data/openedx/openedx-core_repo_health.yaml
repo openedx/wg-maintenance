@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-06
+TIMESTAMP: 2026-10-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 118
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -95,7 +95,8 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 2748
+    disk_usage_kb: 2783
+    first_timer_median_first_response_seconds: 431742
     first_timer_prs_90d: 1
     fork_count: 33
     good_first_issues_open: 0
@@ -110,16 +111,16 @@ github:
     issues_open: 192
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-06 02:40:58
+    last_push: 2026-10-07 01:08:57
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1937517
-    median_pr_response_seconds: 72102
-    median_pr_time_to_merge_seconds: 417826
-    oldest_open_pr_days: 243
-    pr_closure_ratio_90d: 0.7627
-    pr_opened_90d: 59
-    prs_open: 21
-    pulls_count: 21
+    median_pr_response_seconds: 78584
+    median_pr_time_to_merge_seconds: 493819
+    oldest_open_pr_days: 244
+    pr_closure_ratio_90d: 0.7368
+    pr_opened_90d: 57
+    prs_open: 22
+    pulls_count: 22
     release_count_12mo: 38
 github_actions: true
 language_bytes:

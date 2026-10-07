@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-06
+TIMESTAMP: 2026-10-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,44 +63,44 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 257
-    lockfile_age_days: 14
+    commits_365d: 280
+    lockfile_age_days: 15
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 11
-    build_details: '{"total_duration": "4986 minutes 57 seconds", "checks": [{"name":
-        "Docker: last release (verawood) / default 4/4", "duration": "30 minutes 31
-        seconds"}, {"name": "Docker: main environment / default 4/4", "duration":
-        "26 minutes 26 seconds"}, {"name": "default 4/4", "duration": "25 minutes
-        42 seconds"}, {"name": "default 3/4", "duration": "25 minutes 29 seconds"},
-        {"name": "Docker: main environment / default 3/4", "duration": "23 minutes
-        50 seconds"}, {"name": "build", "duration": "23 minutes 35 seconds"}, {"name":
-        "default 2/4", "duration": "21 minutes 55 seconds"}, {"name": "default 1/4",
-        "duration": "21 minutes 19 seconds"}, {"name": "Docker: main environment /
-        default 1/4", "duration": "21 minutes 10 seconds"}, {"name": "build", "duration":
-        "18 minutes 57 seconds"}, {"name": "Docker: main environment / default 2/4",
-        "duration": "14 minutes 28 seconds"}, {"name": "Docker: main environment /
-        extended 1/1", "duration": "11 minutes 42 seconds"}, {"name": "build", "duration":
-        "10 minutes 12 seconds"}, {"name": "Docker: last release (verawood) / extended
-        1/1", "duration": "7 minutes 48 seconds"}, {"name": "build", "duration": "6
-        minutes 7 seconds"}, {"name": "Lint, types & unit tests", "duration": "0 minutes
-        56 seconds"}, {"name": "Dependabot", "duration": "0 minutes 55 seconds"},
-        {"name": "Merge reports", "duration": "0 minutes 26 seconds"}, {"name": "Docker:
-        main environment / plan", "duration": "0 minutes 8 seconds"}, {"name": "Docker:
-        last release (verawood) / plan", "duration": "0 minutes 6 seconds"}, {"name":
-        "plan", "duration": "0 minutes 6 seconds"}, {"name": "add_remove_labels /
-        add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}]}'
+    branch_count: 10
+    build_details: '{"total_duration": "111 minutes 39 seconds", "checks": [{"name":
+        "Docker: main environment / default 4/4", "duration": "25 minutes 47 seconds"},
+        {"name": "Docker: last release (verawood) / aspects 1/1", "duration": "23
+        minutes 48 seconds"}, {"name": "Docker: last release (verawood) / default
+        4/4", "duration": "22 minutes 41 seconds"}, {"name": "Docker: last release
+        (verawood) / default 3/4", "duration": "21 minutes 8 seconds"}, {"name": "Docker:
+        last release (verawood) / default 2/4", "duration": "19 minutes 20 seconds"},
+        {"name": "Docker: last release (verawood) / default 1/4", "duration": "19
+        minutes 3 seconds"}, {"name": "Docker: last release (verawood) / extended
+        1/1", "duration": "9 minutes 16 seconds"}, {"name": "Lint, types & unit tests",
+        "duration": "0 minutes 55 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 37 seconds"}, {"name": "Dependabot", "duration": "0 minutes 35 seconds"},
+        {"name": "Docker: last release (verawood) / plan", "duration": "0 minutes
+        9 seconds"}, {"name": "Docker: main environment / plan", "duration": "0 minutes
+        9 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2026-06-18 19:35:55
     default_branch: main
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 2360
+    disk_usage_kb: 2493
     first_timer_prs_90d: 0
     fork_count: 3
     good_first_issues_open: 0
@@ -111,20 +111,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.4038
-    issues_open: 31
+    issue_closure_ratio_90d: 0.4231
+    issues_open: 30
     issues_opened_90d: 52
     issues_stale_open_180d: 0
-    last_push: 2026-10-05 20:33:00
+    last_push: 2026-10-06 20:23:44
     license: Apache License 2.0
     median_issue_first_response_seconds: 252350
     median_pr_response_seconds: 258032
-    median_pr_time_to_merge_seconds: 530876
-    oldest_open_pr_days: 35
-    pr_closure_ratio_90d: 0.8462
+    median_pr_time_to_merge_seconds: 531491
+    oldest_open_pr_days: 36
+    pr_closure_ratio_90d: 0.8654
     pr_opened_90d: 52
-    prs_open: 8
-    pulls_count: 8
+    prs_open: 7
+    pulls_count: 7
     release_count_12mo: 0
 github_actions: true
 language_bytes:
@@ -133,8 +133,8 @@ language_bytes:
     html: 0
     javascript: 7733
     makefile: 0
-    python: 29128
-    shell: 4629
+    python: 30729
+    shell: 6066
 makefile:
     pip-installed: false
     quality: false
