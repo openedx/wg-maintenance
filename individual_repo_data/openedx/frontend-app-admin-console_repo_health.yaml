@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-07
+TIMESTAMP: 2026-10-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,30 +65,30 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 85
-    lockfile_age_days: 9
+    commits_365d: 86
+    lockfile_age_days: 10
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
-    build_details: '{"total_duration": "1027 minutes 9 seconds", "checks": [{"name":
-        "test", "duration": "2 minutes 4 seconds"}, {"name": "Release", "duration":
-        "0 minutes 36 seconds"}, {"name": "version-check / version-check", "duration":
+    branch_count: 8
+    build_details: '{"total_duration": "2 minutes 9 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 56 seconds"}, {"name": "Release", "duration":
+        "1 minutes 7 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 5 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 49 seconds"}]}'
+        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 9
+    contributor_count_90d: 10
     created_at: 2025-09-23 11:32:49
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Administrator console for the Open edX application
-    disk_usage_kb: 1792
+    disk_usage_kb: 1797
     first_timer_prs_90d: 0
     fork_count: 13
     good_first_issues_open: 0
@@ -99,21 +99,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.4706
-    issues_open: 14
+    issue_closure_ratio_90d: 0.5294
+    issues_open: 13
     issues_opened_90d: 17
     issues_stale_open_180d: 3
-    last_push: 2026-10-06 15:07:04
+    last_push: 2026-10-07 16:24:35
     license: GNU AGPLv3
     median_issue_first_response_seconds: 926308
     median_pr_response_seconds: 29008
-    median_pr_time_to_merge_seconds: 76135
-    oldest_open_pr_days: 190
-    pr_closure_ratio_90d: 0.9245
+    median_pr_time_to_merge_seconds: 93255
+    oldest_open_pr_days: 191
+    pr_closure_ratio_90d: 0.9434
     pr_opened_90d: 53
-    prs_open: 7
-    pulls_count: 7
-    release_count_12mo: 11
+    prs_open: 6
+    pulls_count: 6
+    release_count_12mo: 12
 github_actions: true
 language_bytes:
     css: 0

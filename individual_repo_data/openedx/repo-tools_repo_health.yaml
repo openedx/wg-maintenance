@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-07
+TIMESTAMP: 2026-10-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,30 +60,32 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 50
-    lockfile_age_days: 12
+    commits_365d: 56
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 55
-    build_details: '{"total_duration": "6759 minutes 25 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 14 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 56 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 52 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 37 seconds"}, {"name": "build (ubuntu-latest, 3.12)",
-        "duration": "0 minutes 22 seconds"}, {"name": "Create Support Window Issue",
-        "duration": "0 minutes 5 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}]}'
+    branch_count: 54
+    build_details: '{"total_duration": "865 minutes 30 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "0 minutes 56 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
+        49 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42 seconds"},
+        {"name": "build (ubuntu-latest, 3.12)", "duration": "0 minutes 30 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        53 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 9
     created_at: 2013-10-16 22:30:05
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Tools for repo maintenance, etc.
-    disk_usage_kb: 2214
+    disk_usage_kb: 2218
     first_timer_prs_90d: 0
     fork_count: 47
     good_first_issues_open: 0
@@ -97,15 +99,15 @@ github:
     issues_open: 16
     issues_opened_90d: 0
     issues_stale_open_180d: 14
-    last_push: 2026-10-06 19:28:26
+    last_push: 2026-10-08 04:02:52
     license: Apache License 2.0
-    median_pr_response_seconds: 82654
-    median_pr_time_to_merge_seconds: 205462
-    oldest_open_pr_days: 1152
-    pr_closure_ratio_90d: 0.8286
+    median_pr_response_seconds: 70097
+    median_pr_time_to_merge_seconds: 203379
+    oldest_open_pr_days: 1153
+    pr_closure_ratio_90d: 0.8571
     pr_opened_90d: 35
-    prs_open: 23
-    pulls_count: 23
+    prs_open: 22
+    pulls_count: 22
     release_count_12mo: 8
 github_actions: true
 language_bytes:
@@ -114,7 +116,7 @@ language_bytes:
     html: 0
     javascript: 0
     makefile: 1205
-    python: 439768
+    python: 443898
     shell: 3941
 makefile:
     pip-installed: false
