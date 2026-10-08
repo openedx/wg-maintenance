@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-07
+TIMESTAMP: 2026-10-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,39 +61,29 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 40
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 22
-    build_details: '{"total_duration": "1459 minutes 11 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 1 seconds"}, {"name": "release", "duration": "1 minutes 0 seconds"},
-        {"name": "publish_to_pypi", "duration": "0 minutes 28 seconds"}, {"name":
-        "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 24 seconds"},
+    branch_count: 21
+    build_details: '{"total_duration": "1 minutes 16 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 48 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 24 seconds"}, {"name": "run_ci / tests
+        (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 24 seconds"}, {"name":
+        "tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 22 seconds"},
         {"name": "run_ci / tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes
-        23 seconds"}, {"name": "tests (ubuntu-latest, 3.12, docs)", "duration": "0
-        minutes 22 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, quality)",
-        "duration": "0 minutes 19 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.12, py)", "duration": "0 minutes 14 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, py)", "duration": "0 minutes 13 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}]}'
+        20 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, py)", "duration":
+        "0 minutes 15 seconds"}, {"name": "tests (ubuntu-latest, 3.12, py)", "duration":
+        "0 minutes 14 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2022-12-21 21:19:15
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Client for making requests to edx-enterprise-subsidy.
-    disk_usage_kb: 442
+    disk_usage_kb: 443
     first_timer_prs_90d: 0
     fork_count: 5
     good_first_issues_open: 0
@@ -107,16 +97,16 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 1
-    last_push: 2026-10-05 07:54:25
+    last_push: 2026-10-07 16:12:53
     license: GNU AGPLv3
-    median_pr_response_seconds: 301358
-    median_pr_time_to_merge_seconds: 1118901
-    oldest_open_pr_days: 2
-    pr_closure_ratio_90d: 0.875
-    pr_opened_90d: 16
-    prs_open: 2
-    pulls_count: 2
-    release_count_12mo: 9
+    median_pr_response_seconds: 4734
+    median_pr_time_to_merge_seconds: 994693
+    oldest_open_pr_days: 3
+    pr_closure_ratio_90d: 0.9333
+    pr_opened_90d: 15
+    prs_open: 1
+    pulls_count: 1
+    release_count_12mo: 8
 github_actions: true
 language_bytes:
     css: 0

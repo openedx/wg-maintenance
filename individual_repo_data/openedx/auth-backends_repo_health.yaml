@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-07
+TIMESTAMP: 2026-10-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 8
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 23
+    branch_count: 25
     build_details: '{"total_duration": "3 minutes 25 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 18 seconds"}, {"name": "release", "duration":
         "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "1 minutes 1 seconds"},
@@ -85,7 +85,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Custom authentication backends and views for edX services
-    disk_usage_kb: 670
+    disk_usage_kb: 760
     first_timer_prs_90d: 0
     fork_count: 23
     good_first_issues_open: 0
@@ -99,15 +99,15 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-10-01 17:46:07
+    last_push: 2026-10-08 03:03:19
     license: GNU AGPLv3
     median_pr_response_seconds: 3739005
     median_pr_time_to_merge_seconds: 3637188
-    oldest_open_pr_days: 273
-    pr_closure_ratio_90d: 0.6087
-    pr_opened_90d: 23
-    prs_open: 10
-    pulls_count: 10
+    oldest_open_pr_days: 274
+    pr_closure_ratio_90d: 0.5769
+    pr_opened_90d: 26
+    prs_open: 12
+    pulls_count: 12
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -139,8 +139,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://github.com/openedx/auth-backends/actions?query=workflow%3A%22Python+CI%22:
-        429'
     - 'http://edx.devstack.lms: HTTPConnectionPool(host=''edx.devstack.lms'', port=80):
         Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''edx.devstack.lms'',
         port=80): Failed to resolve ''edx.devstack.lms'' ([Errno -2] Name or service
@@ -148,6 +146,7 @@ readme:
     getting-help: false
     good_links:
     - https://github.com/openedx/auth-backends/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/auth-backends/actions?query=workflow%3A%22Python+CI%22
     - http://codecov.io/github/edx/auth-backends/coverage.svg?branch=master
     - http://codecov.io/github/edx/auth-backends?branch=master
     - https://courses.stage.edx.org
