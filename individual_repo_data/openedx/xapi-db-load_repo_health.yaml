@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,15 +67,18 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 9
-    build_details: '{"total_duration": "10041 minutes 42 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "14406 minutes 33 seconds", "checks": [{"name":
         "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
         "1 minutes 3 seconds"}, {"name": "py", "duration": "0 minutes 50 seconds"},
         {"name": "quality", "duration": "0 minutes 47 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 36 seconds"}, {"name": "docs", "duration": "0 minutes
         27 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 50 seconds"}]}'
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2022-11-21 15:37:46
@@ -100,9 +103,9 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 100326
     median_pr_time_to_merge_seconds: 18516
-    oldest_open_pr_days: 3
-    pr_closure_ratio_90d: 0.9565
-    pr_opened_90d: 23
+    oldest_open_pr_days: 4
+    pr_closure_ratio_90d: 0.9583
+    pr_opened_90d: 24
     prs_open: 1
     pulls_count: 1
     release_count_12mo: 3

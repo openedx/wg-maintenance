@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -72,18 +72,21 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 9
-    lockfile_age_days: 176
+    lockfile_age_days: 177
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 30
-    build_details: '{"total_duration": "10 minutes 8 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "27252 minutes 7 seconds", "checks": [{"name":
         "Release", "duration": "3 minutes 10 seconds"}, {"name": "tests", "duration":
         "2 minutes 16 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 4 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
         "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
@@ -93,7 +96,7 @@ github:
     description: ''
     disk_usage_kb: 13324
     first_timer_median_first_response_seconds: 2038
-    first_timer_prs_90d: 3
+    first_timer_prs_90d: 4
     fork_count: 192
     good_first_issues_open: 0
     has_issues: true
@@ -112,9 +115,9 @@ github:
     median_issue_first_response_seconds: 1646499
     median_pr_response_seconds: 87046
     median_pr_time_to_merge_seconds: 1177045
-    oldest_open_pr_days: 1422
+    oldest_open_pr_days: 1423
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 6
+    pr_opened_90d: 7
     prs_open: 15
     pulls_count: 15
     release_count_12mo: 5
@@ -151,12 +154,8 @@ readme:
     - 'https://github.com/openedx/frontend-template-application/blob/master/src/index.jsx:
         404'
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/community/connect: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://api.travis-ci.com/edx/frontend-component-header.svg?branch=master:
         404'
     - 'https://travis-ci.com/edx/frontend-component-header: 404'
@@ -170,8 +169,12 @@ readme:
     - https://github.com/openedx/frontend-plugin-framework
     - https://github.com/openedx/frontend-template-application/blob/3355bb3a96232390e9056f35b06ffa8f105ed7ca/src/index.jsx
     - https://github.com/openedx/frontend-template-application/blob/3cd5485bf387b8c479baf6b02bf59e3061dc3465/src/index.scss
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-component-header/issues
+    - https://openedx.org/slack
+    - https://openedx.org/community/connect
+    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/codecov/c/github/edx/frontend-component-header
     - https://img.shields.io/npm/v/@edx/frontend-component-header.svg
     - https://img.shields.io/npm/dt/@edx/frontend-component-header.svg

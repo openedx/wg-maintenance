@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -64,7 +64,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 22
-    lockfile_age_days: 41
+    lockfile_age_days: 42
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -95,16 +95,15 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 1.0
     issues_open: 1
-    issues_opened_90d: 1
+    issues_opened_90d: 0
     issues_stale_open_180d: 0
     last_push: 2026-09-02 09:53:27
     license: GNU AGPLv3
     median_pr_response_seconds: 313109
-    median_pr_time_to_merge_seconds: 158
+    median_pr_time_to_merge_seconds: 239886
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 3
+    pr_opened_90d: 2
     prs_open: 0
     pulls_count: 0
     release_count_12mo: 6
@@ -137,11 +136,12 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/mfe_config_api/views.py:
+        503'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-base
-    - https://github.com/openedx/edx-platform/blob/master/lms/djangoapps/mfe_config_api/views.py
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
     irc-missing: true

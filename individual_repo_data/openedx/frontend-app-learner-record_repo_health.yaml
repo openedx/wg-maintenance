@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -75,7 +75,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 8
-    lockfile_age_days: 10
+    lockfile_age_days: 11
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -108,7 +108,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 330
     median_pr_time_to_merge_seconds: 46088
-    oldest_open_pr_days: 710
+    oldest_open_pr_days: 711
     pr_closure_ratio_90d: 0.875
     pr_opened_90d: 8
     prs_open: 7
@@ -145,11 +145,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://en.wikipedia.org/wiki/Verifiable_credentials: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/: 404'
     - 'https://travis-ci.com/edx/frontend-app-learner-record: 404'
     getting-help: true
@@ -161,6 +157,10 @@ readme:
     - https://openedx.atlassian.net/wiki/spaces/FEDX/pages/2629829454/Micro+Frontend+MFE+Onboarding
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-learner-record/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://api.travis-ci.com/edx/frontend-app-learner-record.svg?branch=master
     - https://codecov.io/gh/edx/frontend-app-learner-record/branch/master/graph/badge.svg
     - https://codecov.io/gh/edx/frontend-app-learner-record

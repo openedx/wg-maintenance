@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,47 +22,47 @@ dependencies:
         list: ''
     pypi:
         count: 5
-        list: '["backports-zoneinfo==0.2.1 ; python_version < \"3.9\"", "sqlparse==0.4.4",
-            "typing-extensions==4.10.0", "django==4.2.11", "asgiref==3.8.1"]'
+        list: '["sqlparse==0.4.4", "backports-zoneinfo==0.2.1 ; python_version < \"3.9\"",
+            "django==4.2.11", "typing-extensions==4.10.0", "asgiref==3.8.1"]'
     pypi_all:
         count: 94
-        list: '["markdown-it-py==4.2.0", "pytest==9.1.1", "pyproject-hooks==1.3.3",
-            "requests==2.34.2", "cffi==2.1.1", "pylint==4.1.1", "mccabe==0.7.0", "edx-django-release-util==1.5.0",
-            "asgiref==3.12.1", "secretstorage==3.5.0", "pytest-django==4.14.0", "pygments==2.21.0",
-            "cachetools==7.2.0", "python-discovery==1.6.1", "cryptography==50.0.1",
-            "jinja2==3.1.6", "codecov==2.1.13", "python-slugify==9.1.2", "lxml[html-clean]==6.1.3",
-            "pylint-celery==0.3", "pycodestyle==2.15.0", "backports-zoneinfo==0.2.1
-            ; python_version < \"3.9\"", "wheel==0.48.0", "pytest-cov==7.1.0", "charset-normalizer==3.5.1",
-            "id==1.6.1", "isort==9.0.2", "distlib==0.4.3", "nh3==0.3.7", "docutils==0.23",
-            "filelock==4.0.7", "mypy-extensions==1.1.0", "typing-extensions==4.10.0",
-            "django==5.2.17", "django==4.2.11", "asgiref==3.8.1", "click-log==0.4.0",
-            "pytest-catchlog==1.2.2", "polib==1.2.0", "iniconfig==2.3.0", "pyyaml==6.0.3",
-            "colorama==0.4.6", "jeepney==0.9.0", "sqlparse==0.4.4", "path==16.16.0",
-            "certifi==2026.7.22", "readme-renderer==46.0", "pylint-plugin-utils==0.9.0",
-            "build==1.6.1", "idna==3.20", "pycparser==3.0", "jaraco-context==6.1.2",
-            "stevedore==5.9.1", "rfc3986==2.0.0", "pluggy==1.6.0", "code-annotations==3.0.0",
-            "setuptools==84.0.0", "tomli-w==1.2.0", "mdurl==0.1.2", "typing-extensions==4.16.0",
-            "snowballstemmer==3.1.1", "click==8.5.0", "markupsafe==3.0.3", "pyproject-api==1.11.2",
-            "platformdirs==4.12.2", "astroid==4.3.2", "dill==0.4.1", "edx-i18n-tools==2.0.0",
-            "pylint-django==2.8.0", "jaraco-classes==3.4.0", "more-itertools==11.1.0",
-            "rich==15.0.0", "urllib3==2.8.0", "tox==4.64.5", "pip-tools==7.6.1", "coverage[toml]==7.16.2",
-            "pydocstyle==6.3.0", "edx-lint==6.2.0", "diff-cover==10.6.0", "virtualenv==21.14.1",
-            "requests-toolbelt==1.0.0", "coverage==7.16.2", "chardet==7.6.0", "lxml-html-clean==0.4.5",
-            "packaging==26.3", "tomlkit==0.15.1", "six==1.17.0", "jaraco-functools==4.6.0",
-            "pip==26.2", "keyring==25.7.0", "sqlparse==0.6.0", "text-unidecode==1.3",
-            "twine==7.0.0", "py==1.11.0"]'
+        list: '["edx-i18n-tools==2.0.0", "idna==3.20", "jeepney==0.9.0", "tox==4.64.5",
+            "astroid==4.3.2", "code-annotations==3.0.0", "pip-tools==7.6.1", "polib==1.2.0",
+            "wheel==0.48.0", "mccabe==0.7.0", "asgiref==3.12.1", "jaraco-classes==3.4.0",
+            "stevedore==5.9.1", "lxml-html-clean==0.4.5", "cryptography==50.0.1",
+            "jaraco-context==6.1.2", "platformdirs==4.12.2", "requests==2.34.2", "pip==26.2",
+            "pyyaml==6.0.3", "snowballstemmer==3.1.1", "readme-renderer==46.0", "typing-extensions==4.16.0",
+            "pytest-catchlog==1.2.2", "pydocstyle==6.3.0", "pyproject-api==1.11.2",
+            "pluggy==1.6.0", "chardet==7.6.0", "pytest-cov==7.1.0", "keyring==25.7.0",
+            "pygments==2.21.0", "lxml[html-clean]==6.1.3", "asgiref==3.8.1", "markdown-it-py==4.2.0",
+            "charset-normalizer==3.5.1", "pytest==9.1.1", "tomli-w==1.2.0", "mdurl==0.1.2",
+            "jaraco-functools==4.6.0", "pylint-plugin-utils==0.9.0", "python-discovery==1.6.1",
+            "python-slugify==9.1.2", "pycodestyle==2.15.0", "cffi==2.1.1", "filelock==4.0.7",
+            "edx-django-release-util==1.5.0", "pyproject-hooks==1.3.3", "colorama==0.4.6",
+            "virtualenv==21.14.1", "urllib3==2.8.0", "docutils==0.23", "sqlparse==0.4.4",
+            "jinja2==3.1.6", "django==5.2.17", "py==1.11.0", "click-log==0.4.0", "requests-toolbelt==1.0.0",
+            "packaging==26.3", "mypy-extensions==1.1.0", "twine==7.0.0", "diff-cover==10.6.0",
+            "pylint==4.1.1", "cachetools==7.2.0", "certifi==2026.7.22", "isort==9.0.2",
+            "secretstorage==3.5.0", "codecov==2.1.13", "iniconfig==2.3.0", "typing-extensions==4.10.0",
+            "coverage==7.16.2", "rfc3986==2.0.0", "pylint-celery==0.3", "django==4.2.11",
+            "backports-zoneinfo==0.2.1 ; python_version < \"3.9\"", "nh3==0.3.7",
+            "more-itertools==11.1.0", "sqlparse==0.6.0", "build==1.6.1", "distlib==0.4.3",
+            "text-unidecode==1.3", "click==8.5.0", "edx-lint==6.2.0", "pylint-django==2.8.0",
+            "six==1.17.0", "path==16.16.0", "setuptools==84.0.0", "rich==15.0.0",
+            "pytest-django==4.14.0", "coverage[toml]==7.16.2", "pycparser==3.0", "tomlkit==0.15.1",
+            "dill==0.4.1", "markupsafe==3.0.3", "id==1.6.1"]'
 django_packages:
     django_42:
         count: 5
-        list: '["edx-django-release-util", "pylint-django", "code-annotations", "pytest-django",
-            "edx-i18n-tools"]'
+        list: '["pytest-django", "code-annotations", "edx-django-release-util", "edx-i18n-tools",
+            "pylint-django"]'
     total:
         count: 5
-        list: '["edx-django-release-util", "pylint-django", "code-annotations", "pytest-django",
-            "edx-i18n-tools"]'
+        list: '["pytest-django", "code-annotations", "edx-django-release-util", "edx-i18n-tools",
+            "pylint-django"]'
     upgraded:
         count: 3
-        list: '["edx-i18n-tools", "edx-django-release-util", "code-annotations"]'
+        list: '["code-annotations", "edx-django-release-util", "edx-i18n-tools"]'
 docs:
     build_badge: false
     python_version: null
@@ -88,7 +88,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 3
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -132,7 +132,7 @@ github:
     last_push: 2026-10-07 04:22:19
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 59814
-    oldest_open_pr_days: 1170
+    oldest_open_pr_days: 1171
     pr_closure_ratio_90d: 0.9333
     pr_opened_90d: 15
     prs_open: 4

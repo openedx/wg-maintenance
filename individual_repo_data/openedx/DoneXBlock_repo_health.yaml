@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,21 +61,22 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 8
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 37
-    build_details: '{"total_duration": "2 minutes 2 seconds", "checks": [{"name":
-        "run_tests / django52", "duration": "1 minutes 3 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 58 seconds"}, {"name": "release", "duration": "0 minutes
-        53 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes 52 seconds"},
-        {"name": "run_tests / django42", "duration": "0 minutes 49 seconds"}, {"name":
-        "run_tests / docs", "duration": "0 minutes 48 seconds"}, {"name": "quality",
-        "duration": "0 minutes 20 seconds"}, {"name": "django42", "duration": "0 minutes
-        18 seconds"}, {"name": "django52", "duration": "0 minutes 15 seconds"}, {"name":
-        "docs", "duration": "0 minutes 15 seconds"}, {"name": "publish_to_pypi", "duration":
+    build_details: '{"total_duration": "1156 minutes 17 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 4 seconds"}, {"name": "run_tests / django52",
+        "duration": "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 58 seconds"}, {"name": "release", "duration": "0 minutes 53 seconds"},
+        {"name": "run_tests / quality", "duration": "0 minutes 52 seconds"}, {"name":
+        "run_tests / django42", "duration": "0 minutes 49 seconds"}, {"name": "run_tests
+        / docs", "duration": "0 minutes 48 seconds"}, {"name": "quality", "duration":
+        "0 minutes 20 seconds"}, {"name": "django42", "duration": "0 minutes 18 seconds"},
+        {"name": "django52", "duration": "0 minutes 15 seconds"}, {"name": "docs",
+        "duration": "0 minutes 15 seconds"}, {"name": "publish_to_pypi", "duration":
         "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
@@ -100,7 +101,7 @@ github:
     last_push: 2026-10-07 16:46:50
     license: GNU AGPLv3
     median_pr_response_seconds: 262208
-    median_pr_time_to_merge_seconds: 34252
+    median_pr_time_to_merge_seconds: 32615
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 42
     prs_open: 0

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,12 +66,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 86
-    lockfile_age_days: 10
+    lockfile_age_days: 11
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
+    branch_count: 11
     build_details: '{"total_duration": "2 minutes 9 seconds", "checks": [{"name":
         "test", "duration": "1 minutes 56 seconds"}, {"name": "Release", "duration":
         "1 minutes 7 seconds"}, {"name": "version-check / version-check", "duration":
@@ -88,7 +88,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Administrator console for the Open edX application
-    disk_usage_kb: 1797
+    disk_usage_kb: 1111
     first_timer_prs_90d: 0
     fork_count: 13
     good_first_issues_open: 0
@@ -99,20 +99,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.5294
+    issue_closure_ratio_90d: 0.5
     issues_open: 13
-    issues_opened_90d: 17
+    issues_opened_90d: 16
     issues_stale_open_180d: 3
-    last_push: 2026-10-07 16:24:35
+    last_push: 2026-10-08 22:17:48
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 926308
-    median_pr_response_seconds: 29008
+    median_issue_first_response_seconds: 729086
+    median_pr_response_seconds: 28202
     median_pr_time_to_merge_seconds: 93255
-    oldest_open_pr_days: 191
-    pr_closure_ratio_90d: 0.9434
-    pr_opened_90d: 53
-    prs_open: 6
-    pulls_count: 6
+    oldest_open_pr_days: 192
+    pr_closure_ratio_90d: 0.8772
+    pr_opened_90d: 57
+    prs_open: 10
+    pulls_count: 10
     release_count_12mo: 12
 github_actions: true
 language_bytes:
@@ -144,17 +144,20 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://github.com/openedx/frontend-app-admin-console/blob/master/LICENSE:
+        503'
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://github.com/openedx/frontend-base/blob/main/docs/decisions/0009-slot-naming-and-lifecycle.rst:
+        503'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-admin-console:
         404'
     getting-help: true
     good_links:
     - https://img.shields.io/github/license/openedx/frontend-app-admin-console.svg
-    - https://github.com/openedx/frontend-app-admin-console/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-admin-console/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-admin-console/actions/workflows/ci.yml
@@ -166,7 +169,6 @@ readme:
     - https://github.com/overhangio/tutor
     - https://github.com/openedx/openedx-authz
     - https://github.com/openedx/frontend-base
-    - https://github.com/openedx/frontend-base/blob/main/docs/decisions/0009-slot-naming-and-lifecycle.rst
     - https://openedx.atlassian.net/wiki/x/M4B4MgE
     - https://openedx.atlassian.net/wiki/x/AgAwMQE
     - https://discuss.openedx.org

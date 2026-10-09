@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -90,7 +90,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 4
-    lockfile_age_days: 29
+    lockfile_age_days: 30
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -124,7 +124,7 @@ github:
     last_push: 2026-09-24 22:50:21
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 239
-    oldest_open_pr_days: 1283
+    oldest_open_pr_days: 1284
     pr_closure_ratio_90d: 0.902
     pr_opened_90d: 51
     prs_open: 12
@@ -161,11 +161,8 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://travis-ci.com/edx/frontend-build: 404'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/community/connect: 403'
     getting-help: false
     good_links:
     - https://api.travis-ci.com/edx/frontend-build.svg?branch=master
@@ -178,8 +175,11 @@ readme:
     - https://github.com/nvm-sh/nvm
     - https://github.com/openedx/devstack/tree/master/docs/decisions/0005-frontend-package-mounts.rst
     - https://webpack.js.org/configuration/resolve/
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
+    - https://openedx.org/slack
     - https://github.com/openedx/frontend-build/issues
+    - https://openedx.org/community/connect
     - https://developer.chrome.com/docs/lighthouse/overview/
     - https://github.com/openedx/wg-frontend/issues/138
     irc-missing: true
