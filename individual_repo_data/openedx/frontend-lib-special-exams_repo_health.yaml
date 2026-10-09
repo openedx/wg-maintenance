@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -71,7 +71,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 2
-    lockfile_age_days: 376
+    lockfile_age_days: 377
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
@@ -106,7 +106,7 @@ github:
     issues_stale_open_180d: 1
     last_push: 2026-05-20 13:20:43
     license: null
-    oldest_open_pr_days: 1422
+    oldest_open_pr_days: 1423
     pr_opened_90d: 0
     prs_open: 3
     pulls_count: 3
@@ -142,20 +142,20 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/community/connect: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: false
     good_links:
     - https://github.com/edx/frontend-lib-special-exams.git
     - https://github.com/nvm-sh/nvm
     - https://github.com/edx/frontend-i18n/blob/master/docs/how_tos/i18n.rst
     - https://github.com/openedx/frontend-plugin-framework
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-lib-special-exams/issues
+    - https://openedx.org/slack
+    - https://openedx.org/community/connect
+    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

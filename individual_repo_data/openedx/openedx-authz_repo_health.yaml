@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,39 +60,30 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 115
-    lockfile_age_days: 8
+    commits_365d: 118
+    lockfile_age_days: 9
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 28
-    build_details: '{"total_duration": "163 minutes 22 seconds", "checks": [{"name":
+    branch_count: 25
+    build_details: '{"total_duration": "2 minutes 41 seconds", "checks": [{"name":
         "run_tests / tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes
-        59 seconds"}, {"name": "release", "duration": "1 minutes 6 seconds"}, {"name":
+        54 seconds"}, {"name": "release", "duration": "0 minutes 45 seconds"}, {"name":
         "run_tests / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes
-        40 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12, docs)", "duration":
-        "0 minutes 39 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        23 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12, pii_check)",
-        "duration": "0 minutes 16 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 53 seconds"}]}'
+        41 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12, docs)", "duration":
+        "0 minutes 35 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12,
+        pii_check)", "duration": "0 minutes 11 seconds"}, {"name": "publish_to_pypi",
+        "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 11
+    contributor_count_90d: 12
     created_at: 2025-05-20 17:33:52
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Specifications for the authorization model, policy data structures,
         and enforcement APIs that define how access control is evaluated and managed
         across the Open edX ecosystem.
-    disk_usage_kb: 1727
+    disk_usage_kb: 1740
     first_timer_prs_90d: 0
     fork_count: 9
     good_first_issues_open: 0
@@ -103,21 +94,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.43
+    issue_closure_ratio_90d: 0.44
     issues_open: 96
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-07 22:29:52
+    last_push: 2026-10-08 21:50:09
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 1649374
-    median_pr_response_seconds: 123786
-    median_pr_time_to_merge_seconds: 1141094
-    oldest_open_pr_days: 384
-    pr_closure_ratio_90d: 0.7544
-    pr_opened_90d: 57
-    prs_open: 15
-    pulls_count: 15
-    release_count_12mo: 66
+    median_issue_first_response_seconds: 1696142
+    median_pr_response_seconds: 95632
+    median_pr_time_to_merge_seconds: 1179695
+    oldest_open_pr_days: 385
+    pr_closure_ratio_90d: 0.8036
+    pr_opened_90d: 56
+    prs_open: 12
+    pulls_count: 12
+    release_count_12mo: 68
 github_actions: true
 language_bytes:
     css: 0
@@ -125,7 +116,7 @@ language_bytes:
     html: 873
     javascript: 0
     makefile: 3979
-    python: 1294219
+    python: 1341984
     shell: 0
 makefile:
     pip-installed: false

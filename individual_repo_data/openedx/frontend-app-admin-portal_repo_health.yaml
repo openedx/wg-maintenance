@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -89,7 +89,7 @@ exists:
 git:
     absence_factor_365d: 5
     commits_365d: 18
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -107,7 +107,7 @@ github:
     created_at: 2018-05-10 13:44:58
     default_branch: master
     description: edx-portal is a frontend that provides branded learning experiences.
-    disk_usage_kb: 27271
+    disk_usage_kb: 27272
     first_timer_prs_90d: 0
     fork_count: 46
     good_first_issues_open: 1
@@ -124,7 +124,7 @@ github:
     last_push: 2026-10-08 04:24:33
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 1810857
-    oldest_open_pr_days: 1552
+    oldest_open_pr_days: 1553
     pr_closure_ratio_90d: 0.4091
     pr_opened_90d: 44
     prs_open: 70

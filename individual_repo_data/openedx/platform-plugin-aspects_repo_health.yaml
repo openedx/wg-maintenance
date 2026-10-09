@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-08
+TIMESTAMP: 2026-10-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,20 +61,23 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 24
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 14
-    build_details: '{"total_duration": "460 minutes 1 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "4539 minutes 37 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 54 seconds"}, {"name": "run_ci / py",
         "duration": "0 minutes 53 seconds"}, {"name": "update-uv-graph", "duration":
         "0 minutes 49 seconds"}, {"name": "release", "duration": "0 minutes 48 seconds"},
         {"name": "run_ci / docs", "duration": "0 minutes 40 seconds"}, {"name": "run_ci
         / quality", "duration": "0 minutes 33 seconds"}, {"name": "run_ci / pii_check",
         "duration": "0 minutes 21 seconds"}, {"name": "Run tests & display coverage",
-        "duration": "0 minutes 18 seconds"}, {"name": "publish_to_pypi", "duration":
+        "duration": "0 minutes 18 seconds"}, {"name": "Run tests & display coverage",
+        "duration": "0 minutes 16 seconds"}, {"name": "Run tests & display coverage",
+        "duration": "0 minutes 13 seconds"}, {"name": "Run tests & display coverage",
+        "duration": "0 minutes 10 seconds"}, {"name": "publish_to_pypi", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -101,12 +104,13 @@ github:
     issues_stale_open_180d: 1
     last_push: 2026-10-05 14:43:42
     license: Apache License 2.0
-    median_pr_response_seconds: 238053
+    median_pr_response_seconds: 58728
     median_pr_time_to_merge_seconds: 50806
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 23
-    prs_open: 0
-    pulls_count: 0
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.96
+    pr_opened_90d: 25
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 13
 github_actions: true
 language_bytes:
