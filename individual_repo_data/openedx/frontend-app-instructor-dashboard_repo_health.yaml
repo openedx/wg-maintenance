@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,13 +66,14 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 121
-    lockfile_age_days: 11
+    lockfile_age_days: 12
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 5
-    build_details: '{"total_duration": "1 minutes 49 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "1104 minutes 22 seconds", "checks": [{"name":
+        "copilot-pull-request-reviewer", "duration": "2 minutes 10 seconds"}, {"name":
         "test", "duration": "1 minutes 49 seconds"}, {"name": "Release", "duration":
         "0 minutes 56 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 5 seconds"}, {"name": "self_assign_by_comment / add_assignee",
@@ -105,7 +106,7 @@ github:
     median_issue_first_response_seconds: 70513
     median_pr_response_seconds: 38289
     median_pr_time_to_merge_seconds: 95177
-    oldest_open_pr_days: 36
+    oldest_open_pr_days: 37
     pr_closure_ratio_90d: 0.8667
     pr_opened_90d: 30
     prs_open: 4
@@ -144,6 +145,8 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/docs/decisions/0002-feature-based-application-organization.rst:
+        503'
     - 'https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst: 503'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
@@ -157,7 +160,6 @@ readme:
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-app-instructor-dashboard.git
     - https://github.com/nvm-sh/nvm
-    - https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/docs/decisions/0002-feature-based-application-organization.rst
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
     - https://discuss.openedx.org

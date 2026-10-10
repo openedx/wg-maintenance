@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,7 +60,7 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 24
+    commits_365d: 23
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -100,7 +100,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 1197630
     median_pr_time_to_merge_seconds: 1293697
-    oldest_open_pr_days: 174
+    oldest_open_pr_days: 175
     pr_closure_ratio_90d: 0.8824
     pr_opened_90d: 17
     prs_open: 3
@@ -137,7 +137,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://github.com/aws/karpenter/blob/main/website/content/en/docs/upgrade-guide.md:
-        404'
+        503'
     - 'https://XYZ.eks.amazonaws.com: HTTPSConnectionPool(host=''xyz.eks.amazonaws.com'',
         port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''xyz.eks.amazonaws.com'',
         port=443): Failed to resolve ''xyz.eks.amazonaws.com'' ([Errno -2] Name or

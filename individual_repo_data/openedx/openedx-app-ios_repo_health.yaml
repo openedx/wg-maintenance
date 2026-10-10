@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: false
     has_ecosystem:
@@ -97,14 +97,14 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issues_open: 88
+    issues_open: 86
     issues_opened_90d: 0
-    issues_stale_open_180d: 31
+    issues_stale_open_180d: 30
     last_push: 2026-10-06 06:41:58
     license: Apache License 2.0
     median_pr_response_seconds: 83326
     median_pr_time_to_merge_seconds: 298156
-    oldest_open_pr_days: 164
+    oldest_open_pr_days: 165
     pr_closure_ratio_90d: 0.75
     pr_opened_90d: 24
     prs_open: 8

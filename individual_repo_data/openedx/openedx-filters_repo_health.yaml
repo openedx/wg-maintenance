@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,13 +61,13 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 26
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 10
-    build_details: '{"total_duration": "1 minutes 17 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "717 minutes 4 seconds", "checks": [{"name":
         "release", "duration": "0 minutes 46 seconds"}, {"name": "run_tests / tests
         (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 29 seconds"}, {"name":
         "run_tests / tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes
@@ -77,7 +77,10 @@ github:
         / tests (ubuntu-latest, 3.11, py311-django42)", "duration": "0 minutes 16
         seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12, django52)", "duration":
         "0 minutes 13 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
-        59 seconds"}]}'
+        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 9
     created_at: 2021-04-21 17:24:26
@@ -103,7 +106,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 174964
     median_pr_time_to_merge_seconds: 295066
-    oldest_open_pr_days: 218
+    oldest_open_pr_days: 219
     pr_closure_ratio_90d: 0.9286
     pr_opened_90d: 28
     prs_open: 3

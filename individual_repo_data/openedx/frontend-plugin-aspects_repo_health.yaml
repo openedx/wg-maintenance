@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,7 +68,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 17
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -136,6 +136,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://github.com/openedx/frontend-plugin-aspects/blob/main/LICENSE: 503'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-aspects:
@@ -143,7 +144,6 @@ readme:
     getting-help: true
     good_links:
     - https://img.shields.io/github/license/openedx/frontend-plugin-aspects.svg
-    - https://github.com/openedx/frontend-plugin-aspects/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-plugin-aspects/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-plugin-aspects/actions/workflows/ci.yml

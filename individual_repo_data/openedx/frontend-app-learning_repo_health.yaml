@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -79,12 +79,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 98
-    lockfile_age_days: 11
+    lockfile_age_days: 12
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 76
+    branch_count: 77
     build_details: '{"total_duration": "269 minutes 50 seconds", "checks": [{"name":
         "tests", "duration": "5 minutes 29 seconds"}, {"name": "coverage", "duration":
         "0 minutes 8 seconds"}, {"name": "version-check / version-check", "duration":
@@ -104,7 +104,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 22086
+    disk_usage_kb: 22221
     first_timer_median_first_response_seconds: 157854
     first_timer_prs_90d: 4
     fork_count: 337
@@ -120,16 +120,16 @@ github:
     issues_open: 66
     issues_opened_90d: 85
     issues_stale_open_180d: 7
-    last_push: 2026-10-07 13:22:35
+    last_push: 2026-10-10 00:53:38
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1157504
     median_pr_response_seconds: 149473
     median_pr_time_to_merge_seconds: 136668
-    oldest_open_pr_days: 1317
-    pr_closure_ratio_90d: 0.84
+    oldest_open_pr_days: 1318
+    pr_closure_ratio_90d: 0.83
     pr_opened_90d: 100
-    prs_open: 39
-    pulls_count: 39
+    prs_open: 40
+    pulls_count: 40
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -161,6 +161,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://github.com/openedx/frontend-app-account/blob/master/LICENSE: 503'
     - 'http://local.openedx.io: HTTPConnectionPool(host=''local.openedx.io'', port=80):
         Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
@@ -168,12 +169,12 @@ readme:
         404'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://github.com/openedx/.github/blob/master/AI_POLICY.md: 503'
     getting-help: false
     good_links:
     - https://codecov.io/gh/edx/frontend-app-learning/branch/master/graph/badge.svg?token=3z7XvuzTq3
     - https://codecov.io/gh/edx/frontend-app-learning
     - https://img.shields.io/badge/license-AGPL-informational
-    - https://github.com/openedx/frontend-app-account/blob/master/LICENSE
     - https://github.com/overhangio/tutor
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-app-learning.git
@@ -190,7 +191,6 @@ readme:
     - https://openedx.org/community/connect
     - https://discuss.openedx.org
     - https://openedx.org/r/how-to-contribute
-    - https://github.com/openedx/.github/blob/master/AI_POLICY.md
     - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -59,9 +59,9 @@ exists:
     tox.ini: false
     transifex_config: false
 git:
-    absence_factor_365d: 1
-    commits_365d: 25
-    lockfile_age_days: 4
+    absence_factor_365d: 2
+    commits_365d: 21
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -86,7 +86,7 @@ github:
     is_locked: false
     is_private: false
     issue_closure_ratio_90d: 0.0
-    issues_open: 50
+    issues_open: 49
     issues_opened_90d: 36
     issues_stale_open_180d: 3
     last_push: 2026-10-05 14:57:04

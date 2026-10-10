@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 56
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -103,9 +103,9 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 70097
     median_pr_time_to_merge_seconds: 203379
-    oldest_open_pr_days: 1154
-    pr_closure_ratio_90d: 0.8571
-    pr_opened_90d: 35
+    oldest_open_pr_days: 1155
+    pr_closure_ratio_90d: 0.8529
+    pr_opened_90d: 34
     prs_open: 22
     pulls_count: 22
     release_count_12mo: 8
@@ -138,13 +138,14 @@ ownership:
     release: ''
 pinned_python_dependencies: 5
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://github.com/openedx/repo-tools/blob/7aa8bda466d1925c56d4ad6e3b2bdd87b1f83148/README.md:
+        503'
     getting-help: false
     good_links:
     - https://github.com/settings/tokens
     - https://docs.astral.sh/uv/
     - https://astral.sh/uv/install.sh
-    - https://github.com/openedx/repo-tools/blob/7aa8bda466d1925c56d4ad6e3b2bdd87b1f83148/README.md
     irc-missing: true
     mailing-list-missing: true
     security: false

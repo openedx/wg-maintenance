@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -71,7 +71,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 26
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -110,7 +110,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 582505
     median_pr_time_to_merge_seconds: 605059
-    oldest_open_pr_days: 688
+    oldest_open_pr_days: 689
     pr_closure_ratio_90d: 0.5273
     pr_opened_90d: 55
     prs_open: 34
@@ -149,12 +149,12 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
-    - 'https://openedx.org/slack: 403'
+    - 'https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md:
+        503'
+    - 'https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst: 503'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
+    - 'https://github.com/openedx/frontend-app-profile/blob/master/LICENSE: 503'
     getting-help: true
     good_links:
     - https://github.com/openedx/frontend-base
@@ -165,13 +165,14 @@ readme:
     - https://github.com/overhangio/tutor
     - https://github.com/openedx/frontend-app-profile.git
     - https://github.com/nvm-sh/nvm
-    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md
-    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-profile/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/frontend-app-profile
     - https://img.shields.io/github/license/openedx/frontend-app-profile.svg
-    - https://github.com/openedx/frontend-app-profile/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-profile/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-profile/actions/workflows/ci.yml
