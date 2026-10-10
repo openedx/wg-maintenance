@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 3
-    lockfile_age_days: 254
+    lockfile_age_days: 255
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
@@ -104,7 +104,7 @@ github:
     last_push: 2026-08-04 20:06:07
     license: GNU AGPLv3
     median_pr_response_seconds: 245465
-    oldest_open_pr_days: 763
+    oldest_open_pr_days: 764
     pr_closure_ratio_90d: 0.0
     pr_opened_90d: 1
     prs_open: 2
@@ -142,6 +142,7 @@ readme:
     bad_links:
     - 'https://www.npmjs.com/package/@edx/typescript-config: 403'
     - 'https://www.npmjs.com/package/@edx/tpyescript-config: 403'
+    - 'https://github.com/openedx/typescript-config/blob/main/LICENSE: 503'
     getting-help: false
     good_links:
     - https://github.com/openedx/typescript-config/actions/workflows/release.yml/badge.svg
@@ -149,7 +150,6 @@ readme:
     - https://img.shields.io/npm/v/@edx/typescript-config.svg
     - https://img.shields.io/npm/dt/@edx/typescript-config.svg
     - https://img.shields.io/npm/l/@edx/typescript-config.svg
-    - https://github.com/openedx/typescript-config/blob/main/LICENSE
     - https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
     - https://github.com/semantic-release/semantic-release
     - https://www.typescriptlang.org/docs/handbook/tsconfig-json.html

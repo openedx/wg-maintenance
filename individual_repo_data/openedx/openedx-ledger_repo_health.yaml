@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-09
+TIMESTAMP: 2026-10-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 14
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -106,7 +106,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 668
     median_pr_time_to_merge_seconds: 579983
-    oldest_open_pr_days: 93
+    oldest_open_pr_days: 94
     pr_closure_ratio_90d: 0.9375
     pr_opened_90d: 16
     prs_open: 2
@@ -149,6 +149,7 @@ readme:
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/openedx-ledger:
         404'
     - 'https://openedx-ledger.readthedocs.io/en/latest/: 404'
+    - 'https://github.com/openedx/openedx-ledger/blob/main/LICENSE.txt: 503'
     getting-help: true
     good_links:
     - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
@@ -167,7 +168,6 @@ readme:
     - https://readthedocs.org/projects/openedx-ledger/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/openedx-ledger.svg
     - https://img.shields.io/github/license/openedx/openedx-ledger.svg
-    - https://github.com/openedx/openedx-ledger/blob/main/LICENSE.txt
     - https://img.shields.io/badge/Status-Experimental-yellow
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://img.shields.io/badge/Status-Deprecated-orange
