@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-10
+TIMESTAMP: 2026-10-11
 dependabot:
     exists: false
     has_ecosystem:
@@ -80,7 +80,7 @@ github:
         "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 2
     created_at: 2023-03-13 09:15:29
     default_branch: main
     default_branch_ci_state: SUCCESS
@@ -104,7 +104,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 83326
     median_pr_time_to_merge_seconds: 298156
-    oldest_open_pr_days: 165
+    oldest_open_pr_days: 166
     pr_closure_ratio_90d: 0.75
     pr_opened_90d: 24
     prs_open: 8
@@ -142,6 +142,7 @@ readme:
     bad_links:
     - 'https://app.transifex.com/open-edx/openedx-translations/dashboard/: 403'
     - 'https://app.transifex.com/open-edx/openedx-translations/openedx-app-ios/: 404'
+    - 'https://github.com/openedx/openedx-app-ios/blob/main/LICENSE: 503'
     getting-help: false
     good_links:
     - https://github.com/openedx/openedx-app-ios.git
@@ -151,7 +152,6 @@ readme:
     - https://github.com/openedx/openedx-translations/blob/6448167e9695a921f003ff6bd8f40f006a2d6743/translations/openedx-app-ios/I18N/I18N/uk.lproj/Localizable.strings
     - https://github.com/openedx/openedx-atlas/issues/20
     - https://github.com/apps/transifex-integration
-    - https://github.com/openedx/openedx-app-ios/blob/main/LICENSE
     irc-missing: true
     mailing-list-missing: true
     security: false

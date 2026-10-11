@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-10
+TIMESTAMP: 2026-10-11
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,7 +66,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 121
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -88,7 +88,7 @@ github:
     description: Instructor Dashboard pages in MFE-land
     disk_usage_kb: 1531
     first_timer_prs_90d: 0
-    fork_count: 19
+    fork_count: 20
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -106,7 +106,7 @@ github:
     median_issue_first_response_seconds: 70513
     median_pr_response_seconds: 38289
     median_pr_time_to_merge_seconds: 95177
-    oldest_open_pr_days: 37
+    oldest_open_pr_days: 38
     pr_closure_ratio_90d: 0.8667
     pr_opened_90d: 30
     prs_open: 4
@@ -145,21 +145,18 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
-    - 'https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/docs/decisions/0002-feature-based-application-organization.rst:
-        503'
-    - 'https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst: 503'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-instructor-dashboard:
         404'
-    - 'https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/LICENSE:
-        503'
     getting-help: true
     good_links:
     - https://github.com/overhangio/tutor
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-app-instructor-dashboard.git
     - https://github.com/nvm-sh/nvm
+    - https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/docs/decisions/0002-feature-based-application-organization.rst
+    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
     - https://discuss.openedx.org
@@ -169,6 +166,7 @@ readme:
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-app-instructor-dashboard.svg
+    - https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-instructor-dashboard/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-instructor-dashboard/actions/workflows/ci.yml

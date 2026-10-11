@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-10
+TIMESTAMP: 2026-10-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 40
-    lockfile_age_days: 10
+    lockfile_age_days: 11
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -101,9 +101,9 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 4734
     median_pr_time_to_merge_seconds: 994693
-    oldest_open_pr_days: 5
-    pr_closure_ratio_90d: 0.9333
-    pr_opened_90d: 15
+    oldest_open_pr_days: 6
+    pr_closure_ratio_90d: 0.9286
+    pr_opened_90d: 14
     prs_open: 1
     pulls_count: 1
     release_count_12mo: 8
@@ -144,8 +144,6 @@ readme:
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/edx-enterprise-subsidy-client:
         404'
     - 'https://edx-enterprise-subsidy-client.readthedocs.io/en/latest/: 404'
-    - 'https://github.com/openedx/edx-enterprise-subsidy-client/blob/main/LICENSE.txt:
-        503'
     getting-help: true
     good_links:
     - https://docs.astral.sh/uv/getting-started/installation/
@@ -165,6 +163,7 @@ readme:
     - https://readthedocs.org/projects/edx-enterprise-subsidy-client/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/edx-enterprise-subsidy-client.svg
     - https://img.shields.io/github/license/openedx/edx-enterprise-subsidy-client.svg
+    - https://github.com/openedx/edx-enterprise-subsidy-client/blob/main/LICENSE.txt
     - https://img.shields.io/badge/Status-Experimental-yellow
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://img.shields.io/badge/Status-Deprecated-orange
