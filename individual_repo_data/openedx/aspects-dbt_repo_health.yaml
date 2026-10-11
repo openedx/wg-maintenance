@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-10
+TIMESTAMP: 2026-10-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,7 +65,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 18
+    branch_count: 19
     build_details: '{"total_duration": "3284 minutes 12 seconds", "checks": [{"name":
         "Check coverage & run tests", "duration": "12 minutes 48 seconds"}, {"name":
         "Deploy dbt docs to github pages", "duration": "6 minutes 34 seconds"}, {"name":
@@ -85,7 +85,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: The dbt project for Open edX Aspects!
-    disk_usage_kb: 9997
+    disk_usage_kb: 10367
     first_timer_prs_90d: 0
     fork_count: 10
     good_first_issues_open: 0
@@ -100,16 +100,16 @@ github:
     issues_open: 4
     issues_opened_90d: 2
     issues_stale_open_180d: 2
-    last_push: 2026-10-07 10:51:46
+    last_push: 2026-10-10 17:50:47
     license: Apache License 2.0
     median_issue_first_response_seconds: 493169
     median_pr_response_seconds: 47344
     median_pr_time_to_merge_seconds: 34970
-    oldest_open_pr_days: 3
-    pr_closure_ratio_90d: 0.8
-    pr_opened_90d: 5
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 4
+    pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 6
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 9
 github_actions: true
 language_bytes:

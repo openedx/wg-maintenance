@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-10
+TIMESTAMP: 2026-10-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,26 +61,31 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 7
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: false
-    branch_count: 10
-    build_details: '{"total_duration": "1 minutes 44 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 50 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 44 seconds"}, {"name": "run_tests / quality", "duration":
-        "0 minutes 14 seconds"}, {"name": "run_tests / coverage", "duration": "0 minutes
-        11 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes 11 seconds"},
-        {"name": "run_tests / django42", "duration": "0 minutes 9 seconds"}, {"name":
-        "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "8309 minutes 47 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 0 seconds"}, {"name": "release", "duration": "0 minutes 50 seconds"},
+        {"name": "update-uv-graph", "duration": "0 minutes 44 seconds"}, {"name":
+        "run_tests / quality", "duration": "0 minutes 14 seconds"}, {"name": "run_tests
+        / coverage", "duration": "0 minutes 11 seconds"}, {"name": "run_tests / django52",
+        "duration": "0 minutes 11 seconds"}, {"name": "run_tests / django42", "duration":
+        "0 minutes 9 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2020-01-27 18:10:28
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 623
+    disk_usage_kb: 694
     first_timer_prs_90d: 1
     fork_count: 26
     good_first_issues_open: 0
@@ -94,15 +99,15 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-05 06:19:28
+    last_push: 2026-10-11 00:48:56
     license: GNU AGPLv3
     median_pr_response_seconds: 275488
     median_pr_time_to_merge_seconds: 108550
-    oldest_open_pr_days: 28
-    pr_closure_ratio_90d: 0.9231
-    pr_opened_90d: 13
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 29
+    pr_closure_ratio_90d: 0.8571
+    pr_opened_90d: 14
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 3
 github_actions: true
 language_bytes:

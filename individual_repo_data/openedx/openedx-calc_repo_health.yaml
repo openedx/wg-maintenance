@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-10
+TIMESTAMP: 2026-10-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 74
+    lockfile_age_days: 75
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -97,9 +97,9 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 3755143
     median_pr_time_to_merge_seconds: 1241298
-    oldest_open_pr_days: 147
-    pr_closure_ratio_90d: 0.8824
-    pr_opened_90d: 17
+    oldest_open_pr_days: 148
+    pr_closure_ratio_90d: 0.875
+    pr_opened_90d: 16
     prs_open: 3
     pulls_count: 3
     release_count_12mo: 3
@@ -135,9 +135,8 @@ readme:
     bad_links:
     - 'https://docs.openedx.org/projects/: 404'
     - 'https://openedx.slack.com/: 403'
-    - 'https://github.com/openedx/openedx-calc/blob/master/LICENSE: 503'
     - 'https://docs.openedx.org/projects/openedx-calc: 404'
-    - 'https://github.com/openedx/openedx-calc/blob/main/LICENSE.txt: 503'
+    - 'https://github.com/openedx/openedx-calc/blob/main/LICENSE.txt: 404'
     getting-help: true
     good_links:
     - https://docs.openedx.org/en/latest/developers/how-tos/get-ready-for-python-dev.html
@@ -148,6 +147,7 @@ readme:
     - https://openedx.org/getting-help
     - https://openedx.org/slack
     - https://github.com/openedx/edx-platform
+    - https://github.com/openedx/openedx-calc/blob/master/LICENSE
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/openedx-calc
