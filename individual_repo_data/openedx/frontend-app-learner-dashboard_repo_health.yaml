@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-11
+TIMESTAMP: 2026-10-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -70,7 +70,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 85
-    lockfile_age_days: 18
+    lockfile_age_days: 19
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -111,8 +111,8 @@ github:
     last_push: 2026-10-05 19:55:24
     license: GNU AGPLv3
     median_pr_response_seconds: 260032
-    median_pr_time_to_merge_seconds: 476606
-    oldest_open_pr_days: 509
+    median_pr_time_to_merge_seconds: 360795
+    oldest_open_pr_days: 510
     pr_closure_ratio_90d: 0.7778
     pr_opened_90d: 18
     prs_open: 8
@@ -156,7 +156,7 @@ readme:
         port=80): Failed to resolve ''credit.example.com'' ([Errno -5] No address
         associated with hostname)"))'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/frontend-base

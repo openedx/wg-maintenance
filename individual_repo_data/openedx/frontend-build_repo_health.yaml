@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-11
+TIMESTAMP: 2026-10-12
 dependabot:
     exists: false
     has_ecosystem:
@@ -90,7 +90,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 4
-    lockfile_age_days: 32
+    lockfile_age_days: 33
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -123,10 +123,10 @@ github:
     issues_stale_open_180d: 11
     last_push: 2026-09-24 22:50:21
     license: GNU AGPLv3
-    median_pr_time_to_merge_seconds: 239
-    oldest_open_pr_days: 1286
-    pr_closure_ratio_90d: 0.902
-    pr_opened_90d: 51
+    median_pr_time_to_merge_seconds: 488883
+    oldest_open_pr_days: 1287
+    pr_closure_ratio_90d: 0.8077
+    pr_opened_90d: 26
     prs_open: 12
     pulls_count: 12
     release_count_12mo: 15
@@ -162,7 +162,7 @@ readme:
     bad_links:
     - 'https://travis-ci.com/edx/frontend-build: 404'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     getting-help: false
     good_links:
     - https://api.travis-ci.com/edx/frontend-build.svg?branch=master

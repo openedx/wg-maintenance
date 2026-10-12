@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-11
+TIMESTAMP: 2026-10-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,34 +22,34 @@ dependencies:
         list: ''
     pypi:
         count: 14
-        list: '["six==1.17.0", "mako==1.3.10", "markupsafe==3.0.3", "lxml==6.0.2",
-            "simplejson==3.20.2", "pytz==2025.2", "webob==1.8.9", "pyyaml==6.0.3",
-            "appdirs==1.4.4", "fs==2.4.16", "web-fragments==3.1.0", "python-dateutil==2.9.0.post0",
-            "lazy==1.6", "xblock==5.3.0"]'
+        list: '["simplejson==3.20.2", "webob==1.8.9", "lazy==1.6", "python-dateutil==2.9.0.post0",
+            "xblock==5.3.0", "six==1.17.0", "fs==2.4.16", "lxml==6.0.2", "pytz==2025.2",
+            "pyyaml==6.0.3", "mako==1.3.10", "web-fragments==3.1.0", "markupsafe==3.0.3",
+            "appdirs==1.4.4"]'
     pypi_all:
         count: 45
-        list: '["markupsafe==3.0.3", "iniconfig==2.3.0", "jinja2==3.1.6", "pygments==2.19.2",
-            "build==1.4.0", "packaging==25.0", "isort==7.0.0", "coverage[toml]==7.13.1",
-            "pylint==4.0.4", "appdirs==1.4.4", "edx-lint==5.6.0", "pyyaml==6.0.3",
-            "python-dateutil==2.9.0.post0", "lazy==1.6", "web-fragments==3.1.0", "setuptools==80.9.0",
-            "pytest-cov==7.0.0", "six==1.17.0", "dill==0.4.0", "code-annotations==2.3.0",
-            "pluggy==1.6.0", "pytest==9.0.2", "python-slugify==8.0.4", "click==8.3.1",
-            "mccabe==0.7.0", "fs==2.4.16", "platformdirs==4.5.1", "xblock==5.3.0",
-            "stevedore==5.6.0", "tomlkit==0.14.0", "mako==1.3.10", "pylint-celery==0.3",
-            "lxml==6.0.2", "pip==25.3", "pytz==2025.2", "pyproject-hooks==1.2.0",
-            "click-log==0.4.0", "pip-tools==7.5.2", "astroid==4.0.3", "simplejson==3.20.2",
-            "webob==1.8.9", "pylint-plugin-utils==0.9.0", "pylint-django==2.7.0",
-            "wheel==0.45.1", "text-unidecode==1.3"]'
+        list: '["simplejson==3.20.2", "iniconfig==2.3.0", "pylint==4.0.4", "xblock==5.3.0",
+            "astroid==4.0.3", "pytz==2025.2", "text-unidecode==1.3", "setuptools==80.9.0",
+            "platformdirs==4.5.1", "pyproject-hooks==1.2.0", "markupsafe==3.0.3",
+            "packaging==25.0", "python-slugify==8.0.4", "mccabe==0.7.0", "isort==7.0.0",
+            "pylint-plugin-utils==0.9.0", "dill==0.4.0", "pip==25.3", "pip-tools==7.5.2",
+            "build==1.4.0", "lxml==6.0.2", "pylint-celery==0.3", "wheel==0.45.1",
+            "mako==1.3.10", "edx-lint==5.6.0", "stevedore==5.6.0", "click==8.3.1",
+            "click-log==0.4.0", "jinja2==3.1.6", "pygments==2.19.2", "six==1.17.0",
+            "code-annotations==2.3.0", "pluggy==1.6.0", "pyyaml==6.0.3", "pytest==9.0.2",
+            "pylint-django==2.7.0", "python-dateutil==2.9.0.post0", "coverage[toml]==7.13.1",
+            "appdirs==1.4.4", "tomlkit==0.14.0", "webob==1.8.9", "lazy==1.6", "fs==2.4.16",
+            "web-fragments==3.1.0", "pytest-cov==7.0.0"]'
 django_packages:
     django_42:
         count: 4
-        list: '["pylint-django", "code-annotations", "web-fragments", "xblock"]'
+        list: '["pylint-django", "code-annotations", "xblock", "web-fragments"]'
     total:
         count: 4
-        list: '["pylint-django", "code-annotations", "web-fragments", "xblock"]'
+        list: '["pylint-django", "code-annotations", "xblock", "web-fragments"]'
     upgraded:
         count: 3
-        list: '["code-annotations", "web-fragments", "xblock"]'
+        list: '["code-annotations", "xblock", "web-fragments"]'
 docs:
     build_badge: false
     python_version: null
@@ -75,7 +75,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 4
-    lockfile_age_days: 269
+    lockfile_age_days: 270
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -118,10 +118,10 @@ github:
     last_push: 2026-10-06 02:46:11
     license: GNU AGPLv3
     median_pr_response_seconds: 107414
-    median_pr_time_to_merge_seconds: 9983364
-    oldest_open_pr_days: 261
-    pr_closure_ratio_90d: 0.6087
-    pr_opened_90d: 23
+    median_pr_time_to_merge_seconds: 1546196
+    oldest_open_pr_days: 262
+    pr_closure_ratio_90d: 0.6875
+    pr_opened_90d: 16
     prs_open: 11
     pulls_count: 11
     release_count_12mo: 0

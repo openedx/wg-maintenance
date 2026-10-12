@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-11
+TIMESTAMP: 2026-10-12
 dependabot:
     exists: false
     has_ecosystem:
@@ -76,29 +76,19 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 39
-    lockfile_age_days: 11
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 76
-    build_details: '{"total_duration": "45 minutes 57 seconds", "checks": [{"name":
-        "Release", "duration": "40 minutes 16 seconds"}, {"name": "tests", "duration":
-        "1 minutes 53 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 6 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 58 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 75
+    build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2019-04-23 15:40:26
     default_branch: master
-    default_branch_ci_state: FAILURE
     description: Open edX micro-frontend application for managing user account information.
-    disk_usage_kb: 21752
+    disk_usage_kb: 21849
     first_timer_median_first_response_seconds: 2172416
     first_timer_prs_90d: 1
     fork_count: 187
@@ -114,16 +104,16 @@ github:
     issues_open: 18
     issues_opened_90d: 4
     issues_stale_open_180d: 14
-    last_push: 2026-10-05 00:56:46
+    last_push: 2026-10-12 01:03:13
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1683647
-    median_pr_response_seconds: 515435
-    median_pr_time_to_merge_seconds: 593884
-    oldest_open_pr_days: 1826
-    pr_closure_ratio_90d: 0.8235
-    pr_opened_90d: 17
-    prs_open: 22
-    pulls_count: 22
+    median_pr_response_seconds: 526875
+    median_pr_time_to_merge_seconds: 605113
+    oldest_open_pr_days: 1827
+    pr_closure_ratio_90d: 0.875
+    pr_opened_90d: 16
+    prs_open: 21
+    pulls_count: 21
     release_count_12mo: 6
 github_actions: true
 language_bytes:
@@ -158,8 +148,12 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/frontend-base
@@ -174,10 +168,6 @@ readme:
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-account/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/frontend-app-account
     - https://img.shields.io/github/license/openedx/frontend-app-account.svg
     - https://github.com/openedx/frontend-app-account/blob/master/LICENSE
