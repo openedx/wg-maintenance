@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-11
+TIMESTAMP: 2026-10-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -106,8 +106,8 @@ github:
     last_push: 2026-09-29 11:03:06
     license: GNU AGPLv3
     median_pr_response_seconds: 227351
-    median_pr_time_to_merge_seconds: 2703099
-    oldest_open_pr_days: 10
+    median_pr_time_to_merge_seconds: 451361
+    oldest_open_pr_days: 11
     pr_closure_ratio_90d: 0.9091
     pr_opened_90d: 11
     prs_open: 1

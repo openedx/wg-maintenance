@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-11
+TIMESTAMP: 2026-10-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,16 +68,17 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 3
-    lockfile_age_days: 380
+    lockfile_age_days: 381
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 19
-    build_details: '{"total_duration": "10647 minutes 16 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "19386 minutes 26 seconds", "checks": [{"name":
         "update-browserslist / update-dep", "duration": "2 minutes 41 seconds"}, {"name":
         "Release", "duration": "1 minutes 59 seconds"}, {"name": "test", "duration":
-        "1 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0 minutes 40
+        "1 minutes 49 seconds"}, {"name": "update-browserslist / update-dep", "duration":
+        "1 minutes 19 seconds"}, {"name": "Dependabot", "duration": "0 minutes 40
         seconds"}, {"name": "Dependabot", "duration": "0 minutes 25 seconds"}, {"name":
         "version-check / version-check", "duration": "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
@@ -105,7 +106,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 260305
     median_pr_time_to_merge_seconds: 1794236
-    oldest_open_pr_days: 873
+    oldest_open_pr_days: 874
     pr_closure_ratio_90d: 0.75
     pr_opened_90d: 4
     prs_open: 11

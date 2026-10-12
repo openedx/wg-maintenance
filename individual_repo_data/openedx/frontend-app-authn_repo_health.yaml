@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-11
+TIMESTAMP: 2026-10-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -70,7 +70,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 78
-    lockfile_age_days: 18
+    lockfile_age_days: 19
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -87,7 +87,7 @@ github:
         "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
         "-1 minutes 55 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 3
     created_at: 2020-09-28 13:08:13
     default_branch: master
     default_branch_ci_state: SUCCESS
@@ -111,10 +111,10 @@ github:
     last_push: 2026-09-22 23:08:49
     license: GNU AGPLv3
     median_pr_response_seconds: 347841
-    median_pr_time_to_merge_seconds: 200359
-    oldest_open_pr_days: 1607
-    pr_closure_ratio_90d: 0.8
-    pr_opened_90d: 10
+    median_pr_time_to_merge_seconds: 40051
+    oldest_open_pr_days: 1608
+    pr_closure_ratio_90d: 0.7778
+    pr_opened_90d: 9
     prs_open: 10
     pulls_count: 10
     release_count_12mo: 18

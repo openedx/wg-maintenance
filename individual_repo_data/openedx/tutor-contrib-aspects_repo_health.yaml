@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-11
+TIMESTAMP: 2026-10-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,43 +22,42 @@ dependencies:
         list: ''
     pypi:
         count: 46
-        list: '["bcrypt==5.0.0", "requests==2.34.2", "importlib-metadata==9.0.1",
-            "websocket-client==1.9.2", "platformdirs==4.12.3", "yarl==1.25.1", "charset-normalizer==3.5.2",
-            "openedx-atlas==0.7.2", "black==26.10.0", "librt==0.16.0", "propcache==0.5.4",
-            "pathspec==1.1.1", "ruamel-yaml==0.19.1", "tqdm==4.70.1", "ast-serialize==0.12.1",
-            "zipp==4.1.1", "requests-oauthlib==2.0.0", "python-dateutil==2.9.0.post0",
-            "mypy-extensions==1.1.0", "oauthlib==4.0.0", "durationpy==0.11", "appdirs==1.4.4",
-            "urllib3==2.8.0", "certifi==2026.7.22", "aiosignal==1.4.0", "click==8.2.1",
-            "shandy-sqlfmt[jinjafmt]==0.26.0", "idna==3.20", "tutor-mfe==22.1.0",
-            "frozenlist==1.8.0", "packaging==26.3", "markupsafe==3.0.4", "importlib-resources==7.1.0",
-            "aiohttp==3.14.3", "aiohappyeyeballs==2.7.1", "kubernetes==36.0.3", "mypy==2.4.0",
-            "typing-extensions==4.16.0", "pycryptodome==3.24.0", "six==1.17.0", "pyyaml==6.0.3",
-            "pytokens==0.4.1", "multidict==6.9.1", "jinja2==3.1.6", "attrs==26.1.0",
-            "tutor==22.0.2"]'
+        list: '["librt==0.16.0", "requests==2.34.2", "tqdm==4.70.1", "markupsafe==3.0.4",
+            "pycryptodome==3.24.0", "importlib-metadata==9.0.1", "bcrypt==5.0.0",
+            "certifi==2026.7.22", "yarl==1.25.1", "tutor==22.0.2", "kubernetes==36.0.3",
+            "platformdirs==4.12.3", "typing-extensions==4.16.0", "requests-oauthlib==2.0.0",
+            "jinja2==3.1.6", "appdirs==1.4.4", "aiohttp==3.14.3", "durationpy==0.11",
+            "pytokens==0.4.1", "ast-serialize==0.12.1", "propcache==0.5.4", "openedx-atlas==0.7.2",
+            "python-dateutil==2.9.0.post0", "shandy-sqlfmt[jinjafmt]==0.26.0", "websocket-client==1.9.2",
+            "zipp==4.1.1", "click==8.2.1", "black==26.10.0", "idna==3.20", "oauthlib==4.0.0",
+            "pyyaml==6.0.3", "charset-normalizer==3.5.2", "importlib-resources==7.1.0",
+            "frozenlist==1.8.0", "mypy-extensions==1.1.0", "mypy==2.4.0", "six==1.17.0",
+            "aiohappyeyeballs==2.7.1", "urllib3==2.8.0", "aiosignal==1.4.0", "multidict==6.9.1",
+            "attrs==26.1.0", "tutor-mfe==22.1.0", "packaging==26.3", "ruamel-yaml==0.19.1",
+            "pathspec==1.1.1"]'
     pypi_all:
         count: 83
-        list: '["platformdirs==4.12.3", "black==26.10.0", "markdown-it-py==4.2.0",
-            "rfc3986==2.0.0", "pathspec==1.1.1", "pyinstaller==6.22.3", "requests-oauthlib==2.0.0",
-            "certifi==2026.7.22", "idna==3.20", "pip-tools==7.6.1", "kubernetes==36.0.3",
-            "multidict==6.9.1", "mccabe==0.7.0", "pyproject-hooks==1.3.3", "docutils==0.23",
-            "cffi==2.1.1", "importlib-metadata==9.0.1", "id==1.6.1", "requests==2.34.2",
-            "secretstorage==3.5.0", "build==1.6.1", "ast-serialize==0.12.1", "oauthlib==4.0.0",
-            "durationpy==0.11", "keyring==25.7.0", "appdirs==1.4.4", "aiosignal==1.4.0",
-            "shandy-sqlfmt[jinjafmt]==0.26.0", "pip==26.2", "frozenlist==1.8.0", "aiohttp==3.14.3",
-            "pycryptodome==3.24.0", "jinja2==3.1.6", "attrs==26.1.0", "tutor==22.0.2",
-            "bcrypt==5.0.0", "websocket-client==1.9.2", "yarl==1.25.1", "openedx-atlas==0.7.2",
-            "librt==0.16.0", "pygments==2.21.0", "propcache==0.5.4", "pyinstaller-hooks-contrib==2026.8",
-            "twine==7.0.0", "tqdm==4.70.1", "zipp==4.1.1", "python-dateutil==2.9.0.post0",
-            "mypy-extensions==1.1.0", "urllib3==2.8.0", "jaraco-functools==4.6.0",
-            "tutor-mfe==22.1.0", "more-itertools==11.1.0", "dill==0.4.1", "packaging==26.3",
-            "wheel==0.48.0", "importlib-resources==7.1.0", "jaraco-context==6.1.2",
-            "setuptools==84.0.0", "markupsafe==3.0.4", "mypy==2.4.0", "typing-extensions==4.16.0",
-            "pylint==4.1.2", "six==1.17.0", "pyyaml==6.0.3", "altgraph==0.17.5", "pycparser==3.0",
-            "pytokens==0.4.1", "readme-renderer==46.0", "rich==15.0.0", "charset-normalizer==3.5.2",
-            "cryptography==50.0.2", "tomlkit==0.15.1", "jaraco-classes==3.4.0", "mdurl==0.1.2",
-            "requests-toolbelt==1.0.0", "ruamel-yaml==0.19.1", "nh3==0.3.7", "click==8.5.0",
-            "click==8.2.1", "astroid==4.3.3", "isort==9.0.2", "aiohappyeyeballs==2.7.1",
-            "jeepney==0.9.0"]'
+        list: '["docutils==0.23", "markupsafe==3.0.4", "pycryptodome==3.24.0", "yarl==1.25.1",
+            "nh3==0.3.7", "altgraph==0.17.5", "typing-extensions==4.16.0", "jaraco-functools==4.6.0",
+            "jinja2==3.1.6", "pytokens==0.4.1", "zipp==4.1.1", "mccabe==0.7.0", "oauthlib==4.0.0",
+            "wheel==0.48.0", "pyinstaller==6.22.3", "importlib-resources==7.1.0",
+            "setuptools==84.0.0", "secretstorage==3.5.0", "pathspec==1.1.1", "pip-tools==7.6.1",
+            "bcrypt==5.0.0", "kubernetes==36.0.3", "pyinstaller-hooks-contrib==2026.8",
+            "appdirs==1.4.4", "ast-serialize==0.12.1", "openedx-atlas==0.7.2", "shandy-sqlfmt[jinjafmt]==0.26.0",
+            "websocket-client==1.9.2", "black==26.10.0", "pyyaml==6.0.3", "frozenlist==1.8.0",
+            "mypy-extensions==1.1.0", "astroid==4.3.3", "readme-renderer==46.0", "pygments==2.21.0",
+            "jaraco-classes==3.4.0", "urllib3==2.8.0", "pylint==4.1.2", "mdurl==0.1.2",
+            "click==8.5.0", "build==1.6.1", "rfc3986==2.0.0", "cffi==2.1.1", "importlib-metadata==9.0.1",
+            "certifi==2026.7.22", "tutor==22.0.2", "pyproject-hooks==1.3.3", "platformdirs==4.12.3",
+            "pycparser==3.0", "idna==3.20", "charset-normalizer==3.5.2", "mypy==2.4.0",
+            "six==1.17.0", "aiohappyeyeballs==2.7.1", "aiosignal==1.4.0", "multidict==6.9.1",
+            "rich==15.0.0", "tutor-mfe==22.1.0", "ruamel-yaml==0.19.1", "twine==7.0.0",
+            "librt==0.16.0", "requests==2.34.2", "tqdm==4.70.1", "more-itertools==11.1.0",
+            "dill==0.4.1", "keyring==25.7.0", "jaraco-context==6.1.2", "pip==26.2",
+            "requests-oauthlib==2.0.0", "markdown-it-py==4.2.0", "aiohttp==3.14.3",
+            "durationpy==0.11", "propcache==0.5.4", "python-dateutil==2.9.0.post0",
+            "requests-toolbelt==1.0.0", "click==8.2.1", "isort==9.0.2", "jeepney==0.9.0",
+            "tomlkit==0.15.1", "attrs==26.1.0", "packaging==26.3", "id==1.6.1", "cryptography==50.0.2"]'
 django_packages:
     django_42:
         count: 0
@@ -94,12 +93,12 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 100
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 26
+    branch_count: 27
     build_details: '{"total_duration": "3462 minutes 24 seconds", "checks": [{"name":
         "mysql (ralph)", "duration": "25 minutes 2 seconds"}, {"name": "mysql (ralph)",
         "duration": "24 minutes 24 seconds"}, {"name": "mysql (ralph)", "duration":
@@ -124,7 +123,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: The Open Analytics Reference System - Tutor plugin
-    disk_usage_kb: 3801
+    disk_usage_kb: 3803
     first_timer_median_first_response_seconds: 553786
     first_timer_prs_90d: 2
     fork_count: 32
@@ -140,16 +139,16 @@ github:
     issues_open: 21
     issues_opened_90d: 2
     issues_stale_open_180d: 13
-    last_push: 2026-10-10 19:17:20
+    last_push: 2026-10-12 00:52:49
     license: Apache License 2.0
     median_issue_first_response_seconds: 257
     median_pr_response_seconds: 67671
-    median_pr_time_to_merge_seconds: 66491
-    oldest_open_pr_days: 19
-    pr_closure_ratio_90d: 0.9545
+    median_pr_time_to_merge_seconds: 67712
+    oldest_open_pr_days: 20
+    pr_closure_ratio_90d: 0.9394
     pr_opened_90d: 66
-    prs_open: 3
-    pulls_count: 3
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 12
 github_actions: true
 language_bytes:
