@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-12
+TIMESTAMP: 2026-10-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,7 +65,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 1
+    branch_count: 3
     build_details: '{"total_duration": "4 minutes 19 seconds", "checks": [{"name":
         "ubuntu-22.04-git-2.40.1", "duration": "4 minutes 19 seconds"}, {"name": "ubuntu-22.04-git-2.30.2",
         "duration": "3 minutes 56 seconds"}, {"name": "ubuntu-latest-git-2.25.1",
@@ -89,7 +89,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: An Open edX CLI tool for moving translation files from openedx-translations
-    disk_usage_kb: 127
+    disk_usage_kb: 134
     first_timer_prs_90d: 2
     fork_count: 14
     good_first_issues_open: 0
@@ -103,15 +103,15 @@ github:
     issues_open: 11
     issues_opened_90d: 0
     issues_stale_open_180d: 11
-    last_push: 2026-09-29 11:03:06
+    last_push: 2026-10-12 17:08:06
     license: GNU AGPLv3
     median_pr_response_seconds: 227351
     median_pr_time_to_merge_seconds: 451361
-    oldest_open_pr_days: 11
-    pr_closure_ratio_90d: 0.9091
-    pr_opened_90d: 11
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 12
+    pr_closure_ratio_90d: 0.7692
+    pr_opened_90d: 13
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 2
 github_actions: true
 language_bytes:

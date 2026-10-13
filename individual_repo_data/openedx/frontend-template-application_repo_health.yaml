@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-12
+TIMESTAMP: 2026-10-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,12 +65,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 14
-    lockfile_age_days: 42
+    lockfile_age_days: 43
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 60
+    branch_count: 63
     build_details: '{"total_duration": "5779 minutes 36 seconds", "checks": [{"name":
         "test", "duration": "1 minutes 21 seconds"}, {"name": "Dependabot", "duration":
         "1 minutes 1 seconds"}, {"name": "version-check / version-check", "duration":
@@ -89,7 +89,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: "A template repository for creating Open edX frontend applications.\
         \ \U0001F4BF\u27A1\uFE0F\U0001F4C0"
-    disk_usage_kb: 17831
+    disk_usage_kb: 18454
     first_timer_prs_90d: 0
     fork_count: 67
     good_first_issues_open: 0
@@ -104,14 +104,14 @@ github:
     issues_open: 7
     issues_opened_90d: 2
     issues_stale_open_180d: 6
-    last_push: 2026-10-12 00:09:02
+    last_push: 2026-10-12 11:06:06
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 256371
-    oldest_open_pr_days: 1145
-    pr_closure_ratio_90d: 0.3421
-    pr_opened_90d: 38
-    prs_open: 34
-    pulls_count: 34
+    oldest_open_pr_days: 1146
+    pr_closure_ratio_90d: 0.3171
+    pr_opened_90d: 41
+    prs_open: 37
+    pulls_count: 37
     release_count_12mo: 0
 github_actions: true
 language_bytes:
@@ -146,12 +146,8 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application:
         404'
     getting-help: true
@@ -167,6 +163,10 @@ readme:
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-template-application/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-template-application.svg
     - https://github.com/openedx/frontend-template-application/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen

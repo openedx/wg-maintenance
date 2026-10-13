@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-12
+TIMESTAMP: 2026-10-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,12 +68,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 17
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
+    branch_count: 9
     build_details: '{"total_duration": "8 minutes 18 seconds", "checks": [{"name":
         "Dependabot", "duration": "5 minutes 6 seconds"}, {"name": "Dependabot", "duration":
         "5 minutes 6 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
@@ -91,7 +91,7 @@ github:
     created_at: 2025-03-21 15:08:32
     default_branch: main
     description: Frontend plugins for Aspects
-    disk_usage_kb: 2611
+    disk_usage_kb: 2614
     first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0
@@ -105,16 +105,16 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-12 01:02:25
+    last_push: 2026-10-12 13:48:51
     license: GNU AGPLv3
     median_pr_response_seconds: 409
     median_pr_time_to_merge_seconds: 590
-    oldest_open_pr_days: 28
-    pr_closure_ratio_90d: 0.8919
-    pr_opened_90d: 37
-    prs_open: 4
-    pulls_count: 4
-    release_count_12mo: 6
+    oldest_open_pr_days: 29
+    pr_closure_ratio_90d: 0.8684
+    pr_opened_90d: 38
+    prs_open: 5
+    pulls_count: 5
+    release_count_12mo: 5
 github_actions: true
 language_bytes:
     css: 118

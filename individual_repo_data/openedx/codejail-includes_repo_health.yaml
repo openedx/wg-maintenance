@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-12
+TIMESTAMP: 2026-10-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,28 +61,29 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 12
-    lockfile_age_days: 19
+    lockfile_age_days: 20
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 4
-    build_details: '{"total_duration": "1 minutes 59 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 3 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 43 seconds"}, {"name": "update-pip-graph", "duration":
-        "0 minutes 43 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        22 seconds"}, {"name": "tests (ubuntu-latest, 3.12, py)", "duration": "0 minutes
-        15 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, py)", "duration":
-        "0 minutes 15 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality)",
-        "duration": "0 minutes 12 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 11 seconds"}]}'
+    branch_count: 8
+    build_details: '{"total_duration": "9253 minutes 12 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 7 seconds"}, {"name": "release", "duration":
+        "1 minutes 3 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
+        43 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes 43 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 22 seconds"}, {"name":
+        "tests (ubuntu-latest, 3.12, py)", "duration": "0 minutes 15 seconds"}, {"name":
+        "run_ci / tests (ubuntu-latest, 3.12, py)", "duration": "0 minutes 15 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 12
+        seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 11 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2022-05-16 18:54:49
     default_branch: main
     default_branch_ci_state: FAILURE
     description: A package that is included during sandboxed codejail operations.
-    disk_usage_kb: 184
+    disk_usage_kb: 198
     first_timer_prs_90d: 0
     fork_count: 8
     good_first_issues_open: 0
@@ -96,15 +97,15 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-05 19:05:50
+    last_push: 2026-10-12 05:17:45
     license: GNU AGPLv3
     median_pr_response_seconds: 601846
     median_pr_time_to_merge_seconds: 1269345
-    oldest_open_pr_days: 1076
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 5
-    prs_open: 2
-    pulls_count: 2
+    oldest_open_pr_days: 1077
+    pr_closure_ratio_90d: 0.5556
+    pr_opened_90d: 9
+    prs_open: 6
+    pulls_count: 6
     release_count_12mo: 2
 github_actions: true
 language_bytes:
