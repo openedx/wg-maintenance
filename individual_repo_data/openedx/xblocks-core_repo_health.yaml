@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-12
+TIMESTAMP: 2026-10-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,37 +61,33 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 71
-    lockfile_age_days: 13
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
-    build_details: '{"total_duration": "2251 minutes 8 seconds", "checks": [{"name":
-        "Analyze (javascript-typescript)", "duration": "2 minutes 28 seconds"}, {"name":
-        "Run JavaScript Tests (24)", "duration": "2 minutes 6 seconds"}, {"name":
-        "Analyze (python)", "duration": "1 minutes 47 seconds"}, {"name": "release",
-        "duration": "1 minutes 14 seconds"}, {"name": "run_tests / django42", "duration":
-        "0 minutes 51 seconds"}, {"name": "django42", "duration": "0 minutes 50 seconds"},
-        {"name": "run_tests / quality", "duration": "0 minutes 50 seconds"}, {"name":
-        "docs", "duration": "0 minutes 46 seconds"}, {"name": "quality", "duration":
-        "0 minutes 43 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes
-        43 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes 43 seconds"},
-        {"name": "update-uv-graph", "duration": "0 minutes 43 seconds"}, {"name":
-        "Analyze (actions)", "duration": "0 minutes 37 seconds"}, {"name": "django52",
-        "duration": "0 minutes 36 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 7
+    build_details: '{"total_duration": "2 minutes 46 seconds", "checks": [{"name":
+        "Run JavaScript Tests (24)", "duration": "2 minutes 11 seconds"}, {"name":
+        "Analyze (javascript-typescript)", "duration": "1 minutes 48 seconds"}, {"name":
+        "release", "duration": "1 minutes 34 seconds"}, {"name": "Analyze (python)",
+        "duration": "1 minutes 19 seconds"}, {"name": "update-uv-graph", "duration":
+        "0 minutes 54 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes
+        51 seconds"}, {"name": "django52", "duration": "0 minutes 47 seconds"}, {"name":
+        "quality", "duration": "0 minutes 47 seconds"}, {"name": "docs", "duration":
+        "0 minutes 46 seconds"}, {"name": "django42", "duration": "0 minutes 46 seconds"},
+        {"name": "run_tests / docs", "duration": "0 minutes 42 seconds"}, {"name":
+        "run_tests / quality", "duration": "0 minutes 39 seconds"}, {"name": "run_tests
+        / django52", "duration": "0 minutes 36 seconds"}, {"name": "Analyze (actions)",
+        "duration": "0 minutes 35 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 15 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2024-06-26 15:14:53
     default_branch: main
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: 'Core Open edX XBlock types: Problem, Text, Video, etc.'
-    disk_usage_kb: 22882
+    disk_usage_kb: 22883
     first_timer_median_first_response_seconds: 620328
     first_timer_prs_90d: 5
     fork_count: 16
@@ -107,17 +103,17 @@ github:
     issues_open: 18
     issues_opened_90d: 6
     issues_stale_open_180d: 2
-    last_push: 2026-10-12 00:11:29
+    last_push: 2026-10-12 06:08:49
     license: GNU AGPLv3
     median_issue_first_response_seconds: 2000210
-    median_pr_response_seconds: 291267
-    median_pr_time_to_merge_seconds: 31858
-    oldest_open_pr_days: 195
-    pr_closure_ratio_90d: 0.6667
-    pr_opened_90d: 27
-    prs_open: 14
-    pulls_count: 14
-    release_count_12mo: 31
+    median_pr_response_seconds: 329770
+    median_pr_time_to_merge_seconds: 28617
+    oldest_open_pr_days: 196
+    pr_closure_ratio_90d: 0.6923
+    pr_opened_90d: 26
+    prs_open: 13
+    pulls_count: 13
+    release_count_12mo: 32
 github_actions: true
 language_bytes:
     css: 389247
@@ -125,7 +121,7 @@ language_bytes:
     html: 1370377
     javascript: 1692139
     makefile: 4389
-    python: 1704157
+    python: 1703990
     shell: 0
 makefile:
     pip-installed: false

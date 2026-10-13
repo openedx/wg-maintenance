@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-12
+TIMESTAMP: 2026-10-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,37 +60,32 @@ exists:
     transifex_config: true
 git:
     absence_factor_365d: 2
-    commits_365d: 25
-    lockfile_age_days: 61
+    commits_365d: 27
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 63
-    build_details: '{"total_duration": "9426 minutes 22 seconds", "checks": [{"name":
-        "tests (py312-django52)", "duration": "1 minutes 42 seconds"}, {"name": "tests
-        (py312-django42)", "duration": "1 minutes 12 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 54 seconds"}, {"name": "quality
-        (quality)", "duration": "0 minutes 43 seconds"}, {"name": "check migration
-        for MySql8 (ubuntu-latest, 3.12)", "duration": "0 minutes 38 seconds"}, {"name":
-        "tests (translations)", "duration": "0 minutes 14 seconds"}, {"name": "quality
-        (pii_check)", "duration": "0 minutes 11 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 53 seconds"}]}'
+    branch_count: 61
+    build_details: '{"total_duration": "1160 minutes 17 seconds", "checks": [{"name":
+        "tests (py312-django52)", "duration": "2 minutes 1 seconds"}, {"name": "tests
+        (py312-django42)", "duration": "1 minutes 46 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 54 seconds"}, {"name": "check migration for MySql8
+        (ubuntu-latest, 3.12)", "duration": "0 minutes 47 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 46 seconds"}, {"name": "quality (quality)", "duration":
+        "0 minutes 45 seconds"}, {"name": "tests (translations)", "duration": "0 minutes
+        14 seconds"}, {"name": "quality (pii_check)", "duration": "0 minutes 13 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 50 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 7
     created_at: 2020-04-07 15:41:12
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Django backend for managing licenses and subscriptions
-    disk_usage_kb: 2968
+    disk_usage_kb: 2971
     first_timer_prs_90d: 0
     fork_count: 41
     good_first_issues_open: 0
@@ -104,15 +99,15 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 1
-    last_push: 2026-10-12 02:33:39
+    last_push: 2026-10-13 01:48:17
     license: GNU AGPLv3
     median_pr_response_seconds: 76930
     median_pr_time_to_merge_seconds: 281031
-    oldest_open_pr_days: 298
-    pr_closure_ratio_90d: 0.8667
-    pr_opened_90d: 15
-    prs_open: 4
-    pulls_count: 4
+    oldest_open_pr_days: 258
+    pr_closure_ratio_90d: 0.9375
+    pr_opened_90d: 16
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -120,8 +115,8 @@ language_bytes:
     dockerfile: 0
     html: 537
     javascript: 525
-    makefile: 6934
-    python: 1190616
+    makefile: 6848
+    python: 1191029
     shell: 2501
 makefile:
     pip-installed: false

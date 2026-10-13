@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-12
+TIMESTAMP: 2026-10-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 40
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 21
+    branch_count: 24
     build_details: '{"total_duration": "6369 minutes 20 seconds", "checks": [{"name":
         "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
         "1 minutes 13 seconds"}, {"name": "release", "duration": "0 minutes 48 seconds"},
@@ -93,7 +93,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Client for making requests to edx-enterprise-subsidy.
-    disk_usage_kb: 443
+    disk_usage_kb: 454
     first_timer_prs_90d: 0
     fork_count: 5
     good_first_issues_open: 0
@@ -107,15 +107,15 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 1
-    last_push: 2026-10-12 02:21:52
+    last_push: 2026-10-12 23:10:23
     license: GNU AGPLv3
     median_pr_response_seconds: 4734
     median_pr_time_to_merge_seconds: 332861
-    oldest_open_pr_days: 0
-    pr_closure_ratio_90d: 0.9333
-    pr_opened_90d: 15
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 1
+    pr_closure_ratio_90d: 0.7778
+    pr_opened_90d: 18
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 8
 github_actions: true
 language_bytes:

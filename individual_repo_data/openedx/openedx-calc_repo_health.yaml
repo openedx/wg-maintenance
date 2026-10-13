@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-12
+TIMESTAMP: 2026-10-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 76
+    lockfile_age_days: 77
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 15
+    branch_count: 18
     build_details: '{"total_duration": "6408 minutes 3 seconds", "checks": [{"name":
         "run_tests / Tests (ubuntu-latest, 3.12, py)", "duration": "2 minutes 21 seconds"},
         {"name": "Dependabot", "duration": "1 minutes 4 seconds"}, {"name": "call-upgrade-python-requirements-workflow
@@ -89,7 +89,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 330
+    disk_usage_kb: 340
     first_timer_prs_90d: 0
     fork_count: 5
     good_first_issues_open: 0
@@ -103,15 +103,15 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-10-12 03:00:38
+    last_push: 2026-10-13 00:37:24
     license: GNU AGPLv3
     median_pr_response_seconds: 3755143
     median_pr_time_to_merge_seconds: 1241298
-    oldest_open_pr_days: 149
-    pr_closure_ratio_90d: 0.8824
-    pr_opened_90d: 17
-    prs_open: 3
-    pulls_count: 3
+    oldest_open_pr_days: 150
+    pr_closure_ratio_90d: 0.75
+    pr_opened_90d: 20
+    prs_open: 6
+    pulls_count: 6
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -144,11 +144,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://docs.openedx.org/projects/: 404'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://docs.openedx.org/projects/openedx-calc: 404'
     - 'https://github.com/openedx/openedx-calc/blob/main/LICENSE.txt: 404'
     getting-help: true
@@ -158,8 +154,12 @@ readme:
     - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
     - https://discuss.openedx.org
     - https://github.com/openedx/openedx-calc/issues
+    - https://openedx.org/getting-help
+    - https://openedx.org/slack
     - https://github.com/openedx/edx-platform
     - https://github.com/openedx/openedx-calc/blob/master/LICENSE
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/openedx-calc
     - https://img.shields.io/pypi/v/openedx-calc.svg
     - https://pypi.python.org/pypi/openedx-calc/
