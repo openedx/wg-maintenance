@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-13
+TIMESTAMP: 2026-10-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,35 +60,40 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 4
-    commits_365d: 123
-    lockfile_age_days: 0
+    commits_365d: 125
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 17
-    build_details: '{"total_duration": "6 minutes 3 seconds", "checks": [{"name":
-        "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration": "4 minutes
-        51 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52, 8)", "duration":
-        "3 minutes 49 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality, 8)",
-        "duration": "1 minutes 34 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
-        3.12, quality, 8)", "duration": "1 minutes 28 seconds"}, {"name": "release",
-        "duration": "1 minutes 8 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
-        3.12, package, 8)", "duration": "0 minutes 57 seconds"}, {"name": "run_tests
-        / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 56 seconds"},
-        {"name": "tests (ubuntu-latest, 3.12, package, 8)", "duration": "0 minutes
-        50 seconds"}, {"name": "tests (ubuntu-latest, 3.12, docs, 8)", "duration":
-        "0 minutes 50 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        0 seconds"}]}'
+    branch_count: 19
+    build_details: '{"total_duration": "330 minutes 49 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.12, django52, 8)", "duration": "4 minutes 50 seconds"},
+        {"name": "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration":
+        "4 minutes 50 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12,
+        quality, 8)", "duration": "2 minutes 8 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, quality, 8)", "duration": "1 minutes 43 seconds"}, {"name": "run_tests
+        / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "1 minutes 1 seconds"},
+        {"name": "release", "duration": "1 minutes 1 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, package, 8)", "duration": "0 minutes 59 seconds"}, {"name": "run_tests
+        / tests (ubuntu-latest, 3.12, package, 8)", "duration": "0 minutes 56 seconds"},
+        {"name": "tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 53
+        seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration": "0
+        minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 55 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 13
+    contributor_count_90d: 14
     created_at: 2021-12-12 17:41:35
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 2845
-    first_timer_median_first_response_seconds: 431742
-    first_timer_prs_90d: 1
+    disk_usage_kb: 2906
+    first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
     has_issues: true
@@ -99,20 +104,20 @@ github:
     is_locked: false
     is_private: false
     issue_closure_ratio_90d: 0.1
-    issues_open: 191
+    issues_open: 192
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-13 03:15:41
+    last_push: 2026-10-14 02:17:46
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 2079892
-    median_pr_response_seconds: 84310
-    median_pr_time_to_merge_seconds: 185087
-    oldest_open_pr_days: 250
-    pr_closure_ratio_90d: 0.7966
-    pr_opened_90d: 59
-    prs_open: 19
-    pulls_count: 19
-    release_count_12mo: 43
+    median_issue_first_response_seconds: 1926159
+    median_pr_response_seconds: 72858
+    median_pr_time_to_merge_seconds: 225333
+    oldest_open_pr_days: 251
+    pr_closure_ratio_90d: 0.7619
+    pr_opened_90d: 63
+    prs_open: 22
+    pulls_count: 22
+    release_count_12mo: 44
 github_actions: true
 language_bytes:
     css: 0
@@ -120,7 +125,7 @@ language_bytes:
     html: 0
     javascript: 0
     makefile: 3037
-    python: 1921791
+    python: 1946771
     shell: 0
 makefile:
     pip-installed: false
@@ -146,6 +151,7 @@ readme:
     - 'https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0049-django-app-patterns.html:
         404'
     - 'https://openedx.slack.com/: 403'
+    - 'https://github.com/openedx/openedx-core/blob/master/LICENSE.txt: 503'
     getting-help: true
     good_links:
     - https://2021.djangocon.us/talks/scaling-django-to-500-apps/
@@ -163,7 +169,6 @@ readme:
     - https://openedx-core.readthedocs.io/en/latest/
     - https://img.shields.io/pypi/pyversions/openedx-core.svg
     - https://img.shields.io/github/license/edx/openedx-core.svg
-    - https://github.com/openedx/openedx-core/blob/master/LICENSE.txt
     irc-missing: true
     mailing-list-missing: true
     security: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-13
+TIMESTAMP: 2026-10-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,7 +68,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 3
-    lockfile_age_days: 382
+    lockfile_age_days: 383
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -102,11 +102,11 @@ github:
     issues_open: 10
     issues_opened_90d: 0
     issues_stale_open_180d: 9
-    last_push: 2026-10-05 19:44:14
+    last_push: 2026-10-13 14:04:59
     license: GNU AGPLv3
     median_pr_response_seconds: 260305
     median_pr_time_to_merge_seconds: 1794236
-    oldest_open_pr_days: 875
+    oldest_open_pr_days: 876
     pr_closure_ratio_90d: 0.75
     pr_opened_90d: 4
     prs_open: 11
@@ -144,7 +144,7 @@ readme:
     bad_links:
     - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 404'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-framework:
         404'
     getting-help: true

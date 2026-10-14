@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-13
+TIMESTAMP: 2026-10-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -100,30 +100,36 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 6
-    commits_365d: 270
-    lockfile_age_days: 1
+    commits_365d: 267
+    lockfile_age_days: 2
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 38
-    build_details: '{"total_duration": "1 minutes 49 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 49 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 41 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 38 seconds"}, {"name": "Dependabot", "duration": "1 minutes 38 seconds"},
-        {"name": "Dependabot", "duration": "1 minutes 34 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 32 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 7 seconds"}]}'
+    build_details: '{"total_duration": "52 minutes 37 seconds", "checks": [{"name":
+        "tests", "duration": "7 minutes 42 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 18 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 5 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "0 minutes 0 seconds"}, {"name": "handle-release-testing / Add release testing
+        issue to the BTR project", "duration": "0 minutes 0 seconds"}, {"name": "handle-release-testing
+        / Add needs triage label for triage", "duration": "0 minutes 0 seconds"},
+        {"name": "add-to-cc-board", "duration": "0 minutes 0 seconds"}, {"name": "add-to-cc-board",
+        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
+        "-1 minutes 54 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 23
     created_at: 2020-05-06 18:34:51
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 55510
+    disk_usage_kb: 53800
     first_timer_median_first_response_seconds: 372352
-    first_timer_prs_90d: 7
-    fork_count: 219
+    first_timer_prs_90d: 8
+    fork_count: 218
     good_first_issues_open: 16
     has_issues: true
     has_wiki: false
@@ -132,20 +138,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.1304
-    issues_open: 266
-    issues_opened_90d: 23
-    issues_stale_open_180d: 12
-    last_push: 2026-10-12 00:36:58
+    issue_closure_ratio_90d: 0.1111
+    issues_open: 270
+    issues_opened_90d: 27
+    issues_stale_open_180d: 9
+    last_push: 2026-10-13 17:50:37
     license: GNU AGPLv3
     median_issue_first_response_seconds: 65749
-    median_pr_response_seconds: 306867
-    median_pr_time_to_merge_seconds: 685258
-    oldest_open_pr_days: 898
-    pr_closure_ratio_90d: 0.74
+    median_pr_response_seconds: 285333
+    median_pr_time_to_merge_seconds: 650388
+    oldest_open_pr_days: 899
+    pr_closure_ratio_90d: 0.72
     pr_opened_90d: 100
-    prs_open: 45
-    pulls_count: 45
+    prs_open: 47
+    pulls_count: 47
     release_count_12mo: 5
 github_actions: true
 language_bytes:

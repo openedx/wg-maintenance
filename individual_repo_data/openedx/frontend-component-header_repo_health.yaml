@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-13
+TIMESTAMP: 2026-10-14
 dependabot:
     exists: false
     has_ecosystem:
@@ -72,18 +72,20 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 9
-    lockfile_age_days: 181
+    lockfile_age_days: 182
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 30
-    build_details: '{"total_duration": "27252 minutes 7 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "34332 minutes 7 seconds", "checks": [{"name":
         "Release", "duration": "3 minutes 10 seconds"}, {"name": "tests", "duration":
         "2 minutes 16 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 4 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
         "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
@@ -96,7 +98,7 @@ github:
     description: ''
     disk_usage_kb: 13324
     first_timer_median_first_response_seconds: 2038
-    first_timer_prs_90d: 4
+    first_timer_prs_90d: 5
     fork_count: 192
     good_first_issues_open: 0
     has_issues: true
@@ -115,9 +117,9 @@ github:
     median_issue_first_response_seconds: 1646499
     median_pr_response_seconds: 87046
     median_pr_time_to_merge_seconds: 1177045
-    oldest_open_pr_days: 1427
+    oldest_open_pr_days: 1428
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 7
+    pr_opened_90d: 8
     prs_open: 15
     pulls_count: 15
     release_count_12mo: 5
