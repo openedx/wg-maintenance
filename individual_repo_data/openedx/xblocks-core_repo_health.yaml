@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-13
+TIMESTAMP: 2026-10-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 71
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -82,7 +82,7 @@ github:
         "duration": "0 minutes 35 seconds"}, {"name": "publish_to_pypi", "duration":
         "0 minutes 15 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 4
     created_at: 2024-06-26 15:14:53
     default_branch: main
     default_branch_ci_state: FAILURE
@@ -106,11 +106,11 @@ github:
     last_push: 2026-10-12 06:08:49
     license: GNU AGPLv3
     median_issue_first_response_seconds: 2000210
-    median_pr_response_seconds: 329770
-    median_pr_time_to_merge_seconds: 28617
-    oldest_open_pr_days: 196
-    pr_closure_ratio_90d: 0.6923
-    pr_opened_90d: 26
+    median_pr_response_seconds: 368273
+    median_pr_time_to_merge_seconds: 28306
+    oldest_open_pr_days: 197
+    pr_closure_ratio_90d: 0.72
+    pr_opened_90d: 25
     prs_open: 13
     pulls_count: 13
     release_count_12mo: 32
