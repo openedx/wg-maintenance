@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-14
+TIMESTAMP: 2026-10-15
 dependabot:
     exists: true
     has_ecosystem:
@@ -89,25 +89,24 @@ exists:
 git:
     absence_factor_365d: 6
     commits_365d: 17
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 218
-    build_details: '{"total_duration": "1 minutes 17 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 17 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 11 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 10 seconds"}, {"name": "Dependabot", "duration": "1 minutes 9 seconds"},
-        {"name": "Dependabot", "duration": "1 minutes 6 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 55 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}]}'
+    branch_count: 217
+    build_details: '{"total_duration": "4 minutes 22 seconds", "checks": [{"name":
+        "tests", "duration": "4 minutes 22 seconds"}, {"name": "build", "duration":
+        "3 minutes 12 seconds"}, {"name": "lint", "duration": "2 minutes 33 seconds"},
+        {"name": "extract_translations", "duration": "1 minutes 53 seconds"}, {"name":
+        "version-check / version-check", "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2018-05-10 13:44:58
     default_branch: master
+    default_branch_ci_state: SUCCESS
     description: edx-portal is a frontend that provides branded learning experiences.
-    disk_usage_kb: 25433
+    disk_usage_kb: 25455
     first_timer_prs_90d: 0
     fork_count: 46
     good_first_issues_open: 1
@@ -121,14 +120,14 @@ github:
     issues_open: 31
     issues_opened_90d: 0
     issues_stale_open_180d: 30
-    last_push: 2026-10-13 20:11:42
+    last_push: 2026-10-14 18:00:28
     license: GNU AGPLv3
-    median_pr_time_to_merge_seconds: 296988
-    oldest_open_pr_days: 1558
-    pr_closure_ratio_90d: 0.4043
+    median_pr_time_to_merge_seconds: 68343
+    oldest_open_pr_days: 1559
+    pr_closure_ratio_90d: 0.4255
     pr_opened_90d: 47
-    prs_open: 74
-    pulls_count: 74
+    prs_open: 73
+    pulls_count: 73
     release_count_12mo: 0
 github_actions: true
 language_bytes:
