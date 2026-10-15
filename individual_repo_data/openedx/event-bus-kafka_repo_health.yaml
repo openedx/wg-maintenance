@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-14
+TIMESTAMP: 2026-10-15
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,19 +61,22 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 25
-    lockfile_age_days: 77
+    lockfile_age_days: 78
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
-    build_details: '{"total_duration": "6604 minutes 30 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 54 seconds"}, {"name": "release", "duration":
-        "0 minutes 49 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes
-        31 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes 29 seconds"},
-        {"name": "run_tests / django42", "duration": "0 minutes 23 seconds"}, {"name":
-        "run_tests / quality", "duration": "0 minutes 23 seconds"}, {"name": "run_tests
-        / pii_check", "duration": "0 minutes 13 seconds"}, {"name": "publish_to_pypi",
+    branch_count: 10
+    build_details: '{"total_duration": "4 minutes 5 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 55 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 34 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes
+        27 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes 26 seconds"},
+        {"name": "run_tests / django42", "duration": "0 minutes 25 seconds"}, {"name":
+        "run_tests / django52", "duration": "0 minutes 23 seconds"}, {"name": "run_tests
+        / pii_check", "duration": "0 minutes 20 seconds"}, {"name": "publish_to_pypi",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
@@ -81,7 +84,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Kafka implementation for Open edX event bus
-    disk_usage_kb: 624
+    disk_usage_kb: 627
     first_timer_prs_90d: 0
     fork_count: 7
     good_first_issues_open: 0
@@ -96,15 +99,15 @@ github:
     issues_open: 10
     issues_opened_90d: 2
     issues_stale_open_180d: 7
-    last_push: 2026-10-12 09:53:49
+    last_push: 2026-10-14 15:20:06
     license: GNU AGPLv3
     median_pr_response_seconds: 3726664
-    median_pr_time_to_merge_seconds: 749902
-    oldest_open_pr_days: 1261
-    pr_closure_ratio_90d: 0.6667
+    median_pr_time_to_merge_seconds: 230079
+    oldest_open_pr_days: 1262
+    pr_closure_ratio_90d: 0.8889
     pr_opened_90d: 9
-    prs_open: 6
-    pulls_count: 6
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 1
 github_actions: true
 language_bytes:
