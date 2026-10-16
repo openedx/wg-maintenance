@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-15
+TIMESTAMP: 2026-10-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -100,7 +100,7 @@ github:
     median_issue_first_response_seconds: 100883
     median_pr_response_seconds: 711986
     median_pr_time_to_merge_seconds: 711996
-    oldest_open_pr_days: 151
+    oldest_open_pr_days: 152
     pr_closure_ratio_90d: 0.8333
     pr_opened_90d: 6
     prs_open: 2
@@ -137,7 +137,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/CGE253B7V: 403'
+    - 'https://openedx.slack.com/archives/CGE253B7V: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/openedx-tutor-plugins:
         404'
     getting-help: true
