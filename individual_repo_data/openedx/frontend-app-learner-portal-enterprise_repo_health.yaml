@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-15
+TIMESTAMP: 2026-10-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -88,23 +88,23 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 11
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 162
-    build_details: '{"total_duration": "723 minutes 22 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "2164 minutes 7 seconds", "checks": [{"name":
         "tests", "duration": "5 minutes 8 seconds"}, {"name": "generate", "duration":
-        "1 minutes 38 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 5 seconds"}]}'
+        "1 minutes 56 seconds"}, {"name": "generate", "duration": "1 minutes 38 seconds"},
+        {"name": "version-check / version-check", "duration": "0 minutes 5 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2019-09-23 14:57:34
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Enterprise Learner Portal
-    disk_usage_kb: 21712
+    disk_usage_kb: 21722
     first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
@@ -118,10 +118,10 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-15 04:21:52
+    last_push: 2026-10-15 08:32:01
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 143960
-    oldest_open_pr_days: 1724
+    oldest_open_pr_days: 1725
     pr_closure_ratio_90d: 0.3962
     pr_opened_90d: 53
     prs_open: 67

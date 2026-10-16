@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-15
+TIMESTAMP: 2026-10-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,8 +60,8 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 71
-    lockfile_age_days: 2
+    commits_365d: 70
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -87,7 +87,7 @@ github:
     default_branch: main
     default_branch_ci_state: FAILURE
     description: 'Core Open edX XBlock types: Problem, Text, Video, etc.'
-    disk_usage_kb: 22883
+    disk_usage_kb: 22525
     first_timer_median_first_response_seconds: 620328
     first_timer_prs_90d: 5
     fork_count: 16
@@ -103,12 +103,12 @@ github:
     issues_open: 18
     issues_opened_90d: 6
     issues_stale_open_180d: 2
-    last_push: 2026-10-12 06:08:49
+    last_push: 2026-10-15 19:06:06
     license: GNU AGPLv3
     median_issue_first_response_seconds: 2000210
     median_pr_response_seconds: 368273
     median_pr_time_to_merge_seconds: 28306
-    oldest_open_pr_days: 198
+    oldest_open_pr_days: 199
     pr_closure_ratio_90d: 0.72
     pr_opened_90d: 25
     prs_open: 13
