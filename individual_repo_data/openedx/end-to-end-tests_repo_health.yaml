@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-16
+TIMESTAMP: 2026-10-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,32 +63,28 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 289
-    lockfile_age_days: 6
+    commits_365d: 290
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
-    build_details: '{"total_duration": "1682 minutes 9 seconds", "checks": [{"name":
-        "main aspects images", "duration": "27 minutes 15 seconds"}, {"name": "main
-        stock images", "duration": "24 minutes 12 seconds"}, {"name": "Docker: last
-        release (verawood) / default 3/4", "duration": "23 minutes 52 seconds"}, {"name":
-        "main aspects images", "duration": "23 minutes 25 seconds"}, {"name": "Docker:
-        main environment / default 1/4", "duration": "22 minutes 38 seconds"}, {"name":
-        "Docker: last release (verawood) / aspects 1/1", "duration": "22 minutes 5
-        seconds"}, {"name": "Docker: last release (verawood) / default 1/4", "duration":
-        "20 minutes 47 seconds"}, {"name": "Docker: last release (verawood) / default
-        4/4", "duration": "19 minutes 21 seconds"}, {"name": "main stock images",
-        "duration": "17 minutes 53 seconds"}, {"name": "Docker: last release (verawood)
-        / default 2/4", "duration": "17 minutes 29 seconds"}, {"name": "Docker: last
-        release (verawood) / extended 1/1", "duration": "9 minutes 7 seconds"}, {"name":
-        "verawood aspects images", "duration": "8 minutes 34 seconds"}, {"name": "verawood
-        aspects images", "duration": "7 minutes 47 seconds"}, {"name": "Dependabot",
-        "duration": "2 minutes 19 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 5 seconds"}, {"name": "Lint, types & unit tests", "duration": "0 minutes
-        31 seconds"}, {"name": "Docker: main environment / plan", "duration": "0 minutes
-        7 seconds"}, {"name": "Docker: last release (verawood) / plan", "duration":
+    branch_count: 14
+    build_details: '{"total_duration": "550 minutes 54 seconds", "checks": [{"name":
+        "main aspects images", "duration": "30 minutes 56 seconds"}, {"name": "main
+        stock images", "duration": "27 minutes 10 seconds"}, {"name": "Docker: last
+        release (verawood) / default 3/4", "duration": "22 minutes 41 seconds"}, {"name":
+        "Docker: last release (verawood) / default 4/4", "duration": "22 minutes 33
+        seconds"}, {"name": "Docker: last release (verawood) / aspects 1/1", "duration":
+        "21 minutes 27 seconds"}, {"name": "Docker: main environment / default 4/4",
+        "duration": "20 minutes 46 seconds"}, {"name": "Docker: last release (verawood)
+        / default 2/4", "duration": "20 minutes 30 seconds"}, {"name": "Docker: last
+        release (verawood) / default 1/4", "duration": "19 minutes 25 seconds"}, {"name":
+        "verawood aspects images", "duration": "18 minutes 17 seconds"}, {"name":
+        "Docker: last release (verawood) / extended 1/1", "duration": "9 minutes 12
+        seconds"}, {"name": "Lint, types & unit tests", "duration": "0 minutes 49
+        seconds"}, {"name": "Docker: main environment / plan", "duration": "0 minutes
+        10 seconds"}, {"name": "Docker: last release (verawood) / plan", "duration":
         "0 minutes 7 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
@@ -96,7 +92,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 2451
+    disk_usage_kb: 2623
     first_timer_prs_90d: 0
     fork_count: 3
     good_first_issues_open: 0
@@ -107,20 +103,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.2785
-    issues_open: 57
-    issues_opened_90d: 79
+    issue_closure_ratio_90d: 0.2706
+    issues_open: 62
+    issues_opened_90d: 85
     issues_stale_open_180d: 0
-    last_push: 2026-10-16 01:45:01
+    last_push: 2026-10-16 18:23:59
     license: Apache License 2.0
     median_issue_first_response_seconds: 252350
-    median_pr_response_seconds: 257519
-    median_pr_time_to_merge_seconds: 533243
-    oldest_open_pr_days: 45
-    pr_closure_ratio_90d: 0.8615
-    pr_opened_90d: 65
-    prs_open: 9
-    pulls_count: 9
+    median_pr_response_seconds: 257007
+    median_pr_time_to_merge_seconds: 531491
+    oldest_open_pr_days: 46
+    pr_closure_ratio_90d: 0.8382
+    pr_opened_90d: 68
+    prs_open: 11
+    pulls_count: 11
     release_count_12mo: 0
 github_actions: true
 language_bytes:

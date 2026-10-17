@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-16
+TIMESTAMP: 2026-10-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -83,12 +83,16 @@ github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 80
-    build_details: '{"total_duration": "22 minutes 3 seconds", "checks": [{"name":
-        "tests", "duration": "4 minutes 5 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "0 minutes 9 seconds"}, {"name": "coverage", "duration": "0 minutes
-        8 seconds"}, {"name": "routeissue / add_label", "duration": "0 minutes 6 seconds"},
-        {"name": "version-check / version-check", "duration": "0 minutes 5 seconds"}]}'
+    branch_count: 71
+    build_details: '{"total_duration": "33 minutes 17 seconds", "checks": [{"name":
+        "tests", "duration": "5 minutes 30 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 53 seconds"}, {"name": "Dependabot", "duration": "0 minutes 52
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 48 seconds"}, {"name":
+        "coverage", "duration": "0 minutes 10 seconds"}, {"name": "version-check /
+        version-check", "duration": "0 minutes 4 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2019-04-30 20:28:43
@@ -96,10 +100,10 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 22063
+    disk_usage_kb: 22027
     first_timer_median_first_response_seconds: 157854
     first_timer_prs_90d: 4
-    fork_count: 337
+    fork_count: 338
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -108,20 +112,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.6977
-    issues_open: 63
-    issues_opened_90d: 86
+    issue_closure_ratio_90d: 0.6897
+    issues_open: 64
+    issues_opened_90d: 87
     issues_stale_open_180d: 7
-    last_push: 2026-10-15 15:55:26
+    last_push: 2026-10-16 16:42:58
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1157504
-    median_pr_response_seconds: 90514
-    median_pr_time_to_merge_seconds: 89002
-    oldest_open_pr_days: 1324
-    pr_closure_ratio_90d: 0.83
+    median_pr_response_seconds: 93078
+    median_pr_time_to_merge_seconds: 86766
+    oldest_open_pr_days: 1325
+    pr_closure_ratio_90d: 0.93
     pr_opened_90d: 100
-    prs_open: 43
-    pulls_count: 43
+    prs_open: 34
+    pulls_count: 34
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -193,7 +197,7 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2026-09-02'
+    last_pr: '2026-10-16'
     oldest_open_pr_date: '2023-03-01'
     total_open_prs: 1
 requires:
