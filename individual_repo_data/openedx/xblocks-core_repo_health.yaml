@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-16
+TIMESTAMP: 2026-10-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 70
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -108,7 +108,7 @@ github:
     median_issue_first_response_seconds: 2000210
     median_pr_response_seconds: 368273
     median_pr_time_to_merge_seconds: 28306
-    oldest_open_pr_days: 199
+    oldest_open_pr_days: 200
     pr_closure_ratio_90d: 0.72
     pr_opened_90d: 25
     prs_open: 13
@@ -144,10 +144,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: HTTPSConnectionPool(host=''www.gnu.org'',
-        port=443): Max retries exceeded with url: /software/gettext/manual/html_node/PO-Files.html
-        (Caused by NewConnectionError("HTTPSConnection(host=''www.gnu.org'', port=443):
-        Failed to establish a new connection: [Errno 101] Network is unreachable"))'
+    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: 403'
     getting-help: false
     good_links:
     - https://github.com/openedx/xblocks-extra

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-16
+TIMESTAMP: 2026-10-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -43,18 +43,18 @@ dependencies:
             "^6.0.1", "@semantic-release/git": "^10.0.1", "@testing-library/jest-dom":
             "^6.6", "@testing-library/react": "^16.1", "@testing-library/user-event":
             "^14.5", "@types/jest": "^29.5.10", "@types/react": "^18", "@types/react-dom":
-            "^18", "@types/react-responsive": "^9.0.0", "@types/react-table": "^7.7.19",
-            "@types/react-test-renderer": "^18.0.0", "@types/uuid": "^9.0.0", "@typescript-eslint/eslint-plugin":
+            "^18", "@types/react-table": "^7.7.19", "@types/react-test-renderer":
+            "^18.0.0", "@types/uuid": "^9.0.0", "@typescript-eslint/eslint-plugin":
             "^5.22.0", "@typescript-eslint/parser": "^5.22.0", "axios-mock-adapter":
             "^2.0.0", "babel-jest": "^29.7.0", "babel-loader": "^8.2.4", "commander":
             "^9.3.0", "eslint": "8.57.1", "eslint-config-airbnb": "19.0.4", "eslint-config-airbnb-typescript":
             "^17.0.0", "eslint-plugin-import": "2.32.0", "eslint-plugin-jsonc": "^2.18.1",
             "eslint-plugin-jsx-a11y": "6.10.2", "identity-obj-proxy": "^3.0.0", "jest":
             "^29.7.0", "jest-cli": "^29.7.0", "jest-environment-jsdom": "^29.7.0",
-            "markdown-loader-jest": "^0.1.1", "react": "^18", "react-intl": "^10.1.20",
-            "react-test-renderer": "^18", "regenerator-runtime": "^0.14.0", "semantic-release":
-            "^25.0.0", "stylelint": "^15.11.0", "ts-jest": "^29.1.2", "typescript":
-            "^4.7.4"}'
+            "markdown-loader-jest": "^0.1.1", "nodemon": "^3.1.14", "react": "^18",
+            "react-intl": "^10.1.20", "react-test-renderer": "^18", "regenerator-runtime":
+            "^0.14.0", "semantic-release": "^25.0.0", "stylelint": "^15.11.0", "ts-jest":
+            "^29.1.2", "typescript": "^4.7.4"}'
     pypi:
         count: 0
         list: ''
@@ -95,34 +95,34 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 34
-    lockfile_age_days: 4
+    commits_365d: 35
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 174
-    build_details: '{"total_duration": "13 minutes 54 seconds", "checks": [{"name":
-        "tests", "duration": "13 minutes 50 seconds"}, {"name": "Release", "duration":
-        "11 minutes 4 seconds"}, {"name": "Pages changed - paragon-openedx-v23", "duration":
-        "1 minutes 44 seconds"}, {"name": "Header rules - paragon-openedx-v23", "duration":
-        "1 minutes 44 seconds"}, {"name": "Redirect rules - paragon-openedx-v23",
-        "duration": "1 minutes 44 seconds"}, {"name": "Pages changed - paragon-openedx",
-        "duration": "1 minutes 20 seconds"}, {"name": "Header rules - paragon-openedx",
-        "duration": "1 minutes 20 seconds"}, {"name": "Redirect rules - paragon-openedx",
-        "duration": "1 minutes 20 seconds"}, {"name": "commitlint / commitlint", "duration":
-        "0 minutes 18 seconds"}, {"name": "Syncing branches", "duration": "0 minutes
-        13 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        7 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        6 seconds"}]}'
+    build_details: '{"total_duration": "19 minutes 58 seconds", "checks": [{"name":
+        "Release", "duration": "19 minutes 57 seconds"}, {"name": "tests", "duration":
+        "10 minutes 54 seconds"}, {"name": "Pages changed - paragon-openedx-v23",
+        "duration": "1 minutes 37 seconds"}, {"name": "Header rules - paragon-openedx-v23",
+        "duration": "1 minutes 37 seconds"}, {"name": "Redirect rules - paragon-openedx-v23",
+        "duration": "1 minutes 37 seconds"}, {"name": "Pages changed - paragon-openedx",
+        "duration": "1 minutes 31 seconds"}, {"name": "Header rules - paragon-openedx",
+        "duration": "1 minutes 31 seconds"}, {"name": "Redirect rules - paragon-openedx",
+        "duration": "1 minutes 31 seconds"}, {"name": "commitlint / commitlint", "duration":
+        "0 minutes 20 seconds"}, {"name": "Syncing branches", "duration": "0 minutes
+        11 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        5 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        5 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 7
     created_at: 2017-04-27 18:57:22
     default_branch: release-23.x
     default_branch_ci_state: SUCCESS
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 354252
+    disk_usage_kb: 354420
     first_timer_prs_90d: 1
     fork_count: 101
     good_first_issues_open: 6
@@ -133,27 +133,27 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.0
+    issue_closure_ratio_90d: 0.0833
     issues_open: 180
-    issues_opened_90d: 11
-    issues_stale_open_180d: 53
-    last_push: 2026-10-15 14:33:29
+    issues_opened_90d: 12
+    issues_stale_open_180d: 52
+    last_push: 2026-10-16 19:23:35
     license: Apache License 2.0
     median_pr_response_seconds: 175433
     median_pr_time_to_merge_seconds: 975
-    oldest_open_pr_days: 1543
-    pr_closure_ratio_90d: 0.96
+    oldest_open_pr_days: 1544
+    pr_closure_ratio_90d: 0.97
     pr_opened_90d: 100
-    prs_open: 54
-    pulls_count: 54
-    release_count_12mo: 26
+    prs_open: 53
+    pulls_count: 53
+    release_count_12mo: 27
 github_actions: true
 language_bytes:
     css: 271597
     dockerfile: 0
     html: 237
-    javascript: 4364199
-    makefile: 2202
+    javascript: 4364565
+    makefile: 2924
     python: 0
     shell: 2709
 makefile:
@@ -241,7 +241,7 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2026-04-22'
+    last_pr: '2026-10-16'
     oldest_open_pr_date: '2025-10-10'
     total_open_prs: 7
 requires:
