@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-17
+TIMESTAMP: 2026-10-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,19 +61,23 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 18
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 15
-    build_details: '{"total_duration": "1 minutes 33 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 46 seconds"}, {"name": "run_tests / tests
-        (3.12, django42)", "duration": "0 minutes 42 seconds"}, {"name": "run_tests
-        / tests (3.12, quality)", "duration": "0 minutes 32 seconds"}, {"name": "run_tests
-        / tests (3.12, django52)", "duration": "0 minutes 27 seconds"}, {"name": "run_tests
-        / tests (3.12, docs)", "duration": "0 minutes 26 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 16
+    build_details: '{"total_duration": "1796 minutes 50 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "0 minutes 55 seconds"}, {"name": "release", "duration": "0 minutes 46 seconds"},
+        {"name": "run_tests / tests (3.12, django42)", "duration": "0 minutes 42 seconds"},
+        {"name": "run_tests / tests (3.12, quality)", "duration": "0 minutes 32 seconds"},
+        {"name": "run_tests / tests (3.12, django52)", "duration": "0 minutes 27 seconds"},
+        {"name": "run_tests / tests (3.12, docs)", "duration": "0 minutes 26 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2013-03-11 18:35:36
@@ -81,7 +85,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Framework for building custom learning components that run in the
         Open edX LMS!
-    disk_usage_kb: 4868
+    disk_usage_kb: 4974
     first_timer_median_first_response_seconds: 269328
     first_timer_prs_90d: 1
     fork_count: 231
@@ -96,15 +100,15 @@ github:
     issues_open: 33
     issues_opened_90d: 0
     issues_stale_open_180d: 32
-    last_push: 2026-10-16 18:22:46
+    last_push: 2026-10-18 00:19:16
     license: Apache License 2.0
     median_pr_response_seconds: 269328
     median_pr_time_to_merge_seconds: 114220
-    oldest_open_pr_days: 858
-    pr_closure_ratio_90d: 0.9545
-    pr_opened_90d: 22
-    prs_open: 4
-    pulls_count: 4
+    oldest_open_pr_days: 859
+    pr_closure_ratio_90d: 0.913
+    pr_opened_90d: 23
+    prs_open: 5
+    pulls_count: 5
     release_count_12mo: 9
 github_actions: true
 language_bytes:
@@ -137,12 +141,8 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'http://scorm.com/scorm-explained/: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
     - 'https://github.com/openedx/XBlock/blob/master/LICENSE.txt: 404'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - http://www.lon-capa.org/
@@ -153,6 +153,10 @@ readme:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/index.html
     - https://discuss.openedx.org
     - https://github.com/openedx/XBlock/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock
     - https://img.shields.io/pypi/v/XBlock.svg
     - https://pypi.python.org/pypi/XBlock/

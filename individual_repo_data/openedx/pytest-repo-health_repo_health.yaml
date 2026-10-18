@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-17
+TIMESTAMP: 2026-10-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -26,38 +26,38 @@ dependencies:
         list: ''
     pypi:
         count: 21
-        list: '["frozenlist==1.8.0", "multidict==6.7.1", "aiohttp==3.14.1", "aiosignal==1.4.0",
-            "propcache==0.5.2", "typing-extensions==4.16.0", "pyyaml==6.0.3", "packaging==26.2",
-            "pygments==2.20.0", "pytest-aiohttp==1.1.1", "gitpython==3.1.50", "idna==3.18",
-            "pytest==9.1.1", "aiohappyeyeballs==2.7.1", "pytest-asyncio==1.4.0", "smmap==5.0.3",
-            "iniconfig==2.3.0", "pluggy==1.6.0", "gitdb==4.0.12", "yarl==1.24.2",
-            "attrs==26.1.0"]'
+        list: '["yarl==1.24.2", "packaging==26.2", "attrs==26.1.0", "gitpython==3.1.50",
+            "smmap==5.0.3", "pytest==9.1.1", "aiosignal==1.4.0", "multidict==6.7.1",
+            "idna==3.18", "propcache==0.5.2", "pluggy==1.6.0", "aiohappyeyeballs==2.7.1",
+            "frozenlist==1.8.0", "iniconfig==2.3.0", "pytest-asyncio==1.4.0", "gitdb==4.0.12",
+            "pyyaml==6.0.3", "aiohttp==3.14.1", "pytest-aiohttp==1.1.1", "typing-extensions==4.16.0",
+            "pygments==2.20.0"]'
     pypi_all:
         count: 88
-        list: '["pylint-celery==0.3", "pyyaml==6.0.3", "pygments==2.20.0", "pycodestyle==2.14.0",
-            "idna==3.18", "readme-renderer==45.0", "python-discovery==1.4.3", "code-annotations==3.0.0",
-            "jinja2==3.1.6", "pylint-django==2.7.0", "accessible-pygments==0.0.5",
-            "imagesize==2.0.0", "doc8==2.0.0", "pydata-sphinx-theme==0.16.1", "coverage[toml]==7.15.0",
-            "text-unidecode==1.3", "beautifulsoup4==4.15.0", "sphinxcontrib-htmlhelp==2.1.0",
-            "build==1.5.0", "cachetools==7.1.4", "nh3==0.3.6", "pydocstyle==6.3.0",
-            "sphinx-book-theme==1.2.0", "edx-lint==6.1.0", "charset-normalizer==3.4.9",
-            "frozenlist==1.8.0", "multidict==6.7.1", "aiohttp==3.14.1", "propcache==0.5.2",
-            "platformdirs==4.10.0", "typing-extensions==4.16.0", "packaging==26.2",
-            "click-log==0.4.0", "sphinxcontrib-applehelp==2.0.0", "pip==26.1.2", "click==8.4.2",
-            "requests==2.34.2", "diff-cover==10.3.0", "chardet==7.4.3", "pyproject-hooks==1.2.0",
-            "pytest-asyncio==1.4.0", "pylint==4.0.6", "astroid==4.0.4", "pluggy==1.6.0",
-            "sphinxcontrib-jsmath==1.0.1", "pytest-cov==7.1.0", "setuptools==83.0.0",
-            "isort==8.0.1", "roman-numerals==4.1.0", "yarl==1.24.2", "dill==0.4.1",
-            "pylint-plugin-utils==0.9.0", "pytest-aiohttp==1.1.1", "gitpython==3.1.50",
-            "pyproject-api==1.10.1", "wheel==0.47.0", "colorama==0.4.6", "stevedore==5.9.0",
-            "alabaster==1.0.0", "sphinxcontrib-qthelp==2.0.0", "aiohappyeyeballs==2.7.1",
-            "tox==4.56.2", "sphinx==9.1.0", "iniconfig==2.3.0", "pip-tools==7.5.3",
-            "soupsieve==2.8.4", "snowballstemmer==3.1.1", "gitdb==4.0.12", "python-slugify==8.0.4",
-            "docutils==0.21.2", "virtualenv==21.6.0", "markupsafe==3.0.3", "aiosignal==1.4.0",
-            "six==1.17.0", "tomli-w==1.2.0", "pytest==9.1.1", "certifi==2026.6.17",
-            "restructuredtext-lint==2.0.2", "filelock==3.29.7", "tomlkit==0.15.0",
-            "smmap==5.0.3", "sphinxcontrib-devhelp==2.0.0", "distlib==0.4.3", "sphinxcontrib-serializinghtml==2.0.0",
-            "babel==2.18.0", "mccabe==0.7.0", "urllib3==2.7.0", "attrs==26.1.0"]'
+        list: '["click-log==0.4.0", "pytest-cov==7.1.0", "python-slugify==8.0.4",
+            "beautifulsoup4==4.15.0", "packaging==26.2", "sphinx==9.1.0", "click==8.4.2",
+            "imagesize==2.0.0", "aiosignal==1.4.0", "multidict==6.7.1", "accessible-pygments==0.0.5",
+            "code-annotations==3.0.0", "aiohappyeyeballs==2.7.1", "tox==4.56.2", "markupsafe==3.0.3",
+            "doc8==2.0.0", "pytest-asyncio==1.4.0", "pylint-celery==0.3", "coverage[toml]==7.15.0",
+            "colorama==0.4.6", "sphinxcontrib-applehelp==2.0.0", "pydocstyle==6.3.0",
+            "readme-renderer==45.0", "sphinxcontrib-jsmath==1.0.1", "pyproject-api==1.10.1",
+            "yarl==1.24.2", "attrs==26.1.0", "jinja2==3.1.6", "certifi==2026.6.17",
+            "smmap==5.0.3", "sphinxcontrib-serializinghtml==2.0.0", "urllib3==2.7.0",
+            "pytest==9.1.1", "virtualenv==21.6.0", "astroid==4.0.4", "iniconfig==2.3.0",
+            "pip-tools==7.5.3", "pyproject-hooks==1.2.0", "gitdb==4.0.12", "edx-lint==6.1.0",
+            "sphinxcontrib-devhelp==2.0.0", "sphinxcontrib-htmlhelp==2.1.0", "pygments==2.20.0",
+            "restructuredtext-lint==2.0.2", "filelock==3.29.7", "platformdirs==4.10.0",
+            "pip==26.1.2", "setuptools==83.0.0", "gitpython==3.1.50", "pylint-django==2.7.0",
+            "pluggy==1.6.0", "pydata-sphinx-theme==0.16.1", "frozenlist==1.8.0", "tomlkit==0.15.0",
+            "pylint==4.0.6", "cachetools==7.1.4", "pyyaml==6.0.3", "aiohttp==3.14.1",
+            "isort==8.0.1", "nh3==0.3.6", "chardet==7.4.3", "alabaster==1.0.0", "text-unidecode==1.3",
+            "wheel==0.47.0", "typing-extensions==4.16.0", "propcache==0.5.2", "stevedore==5.9.0",
+            "diff-cover==10.3.0", "dill==0.4.1", "charset-normalizer==3.4.9", "babel==2.18.0",
+            "roman-numerals==4.1.0", "build==1.5.0", "soupsieve==2.8.4", "docutils==0.21.2",
+            "idna==3.18", "snowballstemmer==3.1.1", "pylint-plugin-utils==0.9.0",
+            "six==1.17.0", "sphinx-book-theme==1.2.0", "tomli-w==1.2.0", "sphinxcontrib-qthelp==2.0.0",
+            "mccabe==0.7.0", "pycodestyle==2.14.0", "python-discovery==1.4.3", "pytest-aiohttp==1.1.1",
+            "requests==2.34.2", "distlib==0.4.3"]'
 django_packages:
     django_42:
         count: 2
@@ -93,7 +93,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 10
-    lockfile_age_days: 100
+    lockfile_age_days: 101
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -134,7 +134,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 193630
     median_pr_time_to_merge_seconds: 1738816
-    oldest_open_pr_days: 319
+    oldest_open_pr_days: 320
     pr_closure_ratio_90d: 0.6
     pr_opened_90d: 5
     prs_open: 4
