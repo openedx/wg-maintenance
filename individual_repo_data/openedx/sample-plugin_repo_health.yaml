@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-17
+TIMESTAMP: 2026-10-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,7 +60,7 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 117
+    commits_365d: 116
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -103,7 +103,7 @@ github:
     last_push: 2026-10-14 16:21:37
     license: null
     median_pr_time_to_merge_seconds: 21841
-    oldest_open_pr_days: 155
+    oldest_open_pr_days: 156
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 22
     prs_open: 2
