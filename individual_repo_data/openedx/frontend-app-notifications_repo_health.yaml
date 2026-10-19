@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-18
+TIMESTAMP: 2026-10-19
 dependabot:
     exists: false
     has_ecosystem:
@@ -69,7 +69,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 42
-    lockfile_age_days: 6
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -82,7 +82,7 @@ github:
     default_branch: main
     description: A collection of components meant to integrate Notifications into
         the platform UI. They are presently used in the HeaderNotificationsSlot.
-    disk_usage_kb: 1490
+    disk_usage_kb: 1492
     first_timer_median_first_response_seconds: 107143
     first_timer_prs_90d: 4
     fork_count: 10
@@ -98,13 +98,13 @@ github:
     issues_open: 4
     issues_opened_90d: 2
     issues_stale_open_180d: 3
-    last_push: 2026-10-12 00:29:01
+    last_push: 2026-10-19 00:24:45
     license: GNU AGPLv3
     median_pr_response_seconds: 107143
-    median_pr_time_to_merge_seconds: 242
-    oldest_open_pr_days: 498
-    pr_closure_ratio_90d: 0.9231
-    pr_opened_90d: 13
+    median_pr_time_to_merge_seconds: 62
+    oldest_open_pr_days: 499
+    pr_closure_ratio_90d: 0.9286
+    pr_opened_90d: 14
     prs_open: 2
     pulls_count: 2
     release_count_12mo: 16

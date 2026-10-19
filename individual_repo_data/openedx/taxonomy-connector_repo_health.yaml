@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-18
+TIMESTAMP: 2026-10-19
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,22 +61,23 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 16
-    lockfile_age_days: 9
+    lockfile_age_days: 10
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 32
-    build_details: '{"total_duration": "2 minutes 5 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "3453 minutes 27 seconds", "checks": [{"name":
         "run_ci / Tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes 11
         seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django52)", "duration": "0
         minutes 59 seconds"}, {"name": "release", "duration": "0 minutes 52 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 37
-        seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 36 seconds"}, {"name": "check migrations (ubuntu-latest, 3.12)",
-        "duration": "0 minutes 33 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
-        3.12, docs)", "duration": "0 minutes 31 seconds"}, {"name": "Tests (ubuntu-latest,
-        3.12, docs)", "duration": "0 minutes 23 seconds"}, {"name": "Tests (ubuntu-latest,
+        {"name": "Dependabot", "duration": "0 minutes 40 seconds"}, {"name": "Tests
+        (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 37 seconds"}, {"name":
+        "run_ci / Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 36
+        seconds"}, {"name": "check migrations (ubuntu-latest, 3.12)", "duration":
+        "0 minutes 33 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, docs)",
+        "duration": "0 minutes 31 seconds"}, {"name": "Tests (ubuntu-latest, 3.12,
+        docs)", "duration": "0 minutes 23 seconds"}, {"name": "Tests (ubuntu-latest,
         3.12, pii-annotations)", "duration": "0 minutes 19 seconds"}, {"name": "run_ci
         / Tests (ubuntu-latest, 3.12, pii-annotations)", "duration": "0 minutes 18
         seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes 59 seconds"}]}'
@@ -104,7 +105,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 185446
     median_pr_time_to_merge_seconds: 365731
-    oldest_open_pr_days: 2095
+    oldest_open_pr_days: 2096
     pr_closure_ratio_90d: 0.9444
     pr_opened_90d: 18
     prs_open: 11
