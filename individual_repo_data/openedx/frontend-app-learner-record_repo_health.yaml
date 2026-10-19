@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-18
+TIMESTAMP: 2026-10-19
 dependabot:
     exists: true
     has_ecosystem:
@@ -75,22 +75,20 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 8
-    lockfile_age_days: 6
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 16
-    build_details: '{"total_duration": "2 minutes 42 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 41 seconds"}, {"name": "version-check / version-check",
-        "duration": "0 minutes 4 seconds"}]}'
+    build_details: '{"total_duration": "0 minutes 20 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 20 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2021-07-19 19:30:14
     default_branch: master
-    default_branch_ci_state: SUCCESS
     description: Open edX micro-frontend application for viewing learner records
-    disk_usage_kb: 9406
+    disk_usage_kb: 8510
     first_timer_prs_90d: 0
     fork_count: 26
     good_first_issues_open: 2
@@ -104,12 +102,12 @@ github:
     issues_open: 7
     issues_opened_90d: 0
     issues_stale_open_180d: 6
-    last_push: 2026-10-14 15:21:58
+    last_push: 2026-10-19 00:45:01
     license: GNU AGPLv3
-    median_pr_time_to_merge_seconds: 211605
-    oldest_open_pr_days: 720
+    median_pr_time_to_merge_seconds: 128846
+    oldest_open_pr_days: 721
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 7
+    pr_opened_90d: 8
     prs_open: 6
     pulls_count: 6
     release_count_12mo: 5

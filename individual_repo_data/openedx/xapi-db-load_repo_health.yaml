@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-18
+TIMESTAMP: 2026-10-19
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,23 +61,25 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 22
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
-    build_details: '{"total_duration": "1368 minutes 44 seconds", "checks": [{"name":
-        "py", "duration": "0 minutes 51 seconds"}, {"name": "quality", "duration":
-        "0 minutes 41 seconds"}, {"name": "docs", "duration": "0 minutes 20 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+    branch_count: 10
+    build_details: '{"total_duration": "6306 minutes 17 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "0 minutes 57 seconds"}, {"name": "py", "duration": "0 minutes 51 seconds"},
+        {"name": "quality", "duration": "0 minutes 41 seconds"}, {"name": "docs",
+        "duration": "0 minutes 20 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
@@ -86,7 +88,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 7513
+    disk_usage_kb: 7722
     first_timer_prs_90d: 0
     fork_count: 7
     good_first_issues_open: 0
@@ -100,15 +102,15 @@ github:
     issues_open: 4
     issues_opened_90d: 0
     issues_stale_open_180d: 4
-    last_push: 2026-10-16 15:10:25
+    last_push: 2026-10-19 00:16:32
     license: GNU AGPLv3
     median_pr_response_seconds: 263435
-    median_pr_time_to_merge_seconds: 18618
-    oldest_open_pr_days: 8
-    pr_closure_ratio_90d: 0.9583
-    pr_opened_90d: 24
-    prs_open: 1
-    pulls_count: 1
+    median_pr_time_to_merge_seconds: 19662
+    oldest_open_pr_days: 9
+    pr_closure_ratio_90d: 0.913
+    pr_opened_90d: 23
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 3
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-18
+TIMESTAMP: 2026-10-19
 dependabot:
     exists: true
     has_ecosystem:
@@ -78,7 +78,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 101
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -112,16 +112,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.6897
-    issues_open: 64
-    issues_opened_90d: 87
-    issues_stale_open_180d: 8
+    issue_closure_ratio_90d: 0.6742
+    issues_open: 66
+    issues_opened_90d: 89
+    issues_stale_open_180d: 6
     last_push: 2026-10-16 16:42:58
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1157504
     median_pr_response_seconds: 93078
     median_pr_time_to_merge_seconds: 86766
-    oldest_open_pr_days: 1326
+    oldest_open_pr_days: 1327
     pr_closure_ratio_90d: 0.93
     pr_opened_90d: 100
     prs_open: 34
@@ -162,8 +162,12 @@ readme:
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://support.edx.org/hc/en-us/articles/360000038428-Entering-math-expressions-in-assignments-or-the-calculator:
         404'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/community/connect: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: false
     good_links:
     - https://codecov.io/gh/edx/frontend-app-learning/branch/master/graph/badge.svg?token=3z7XvuzTq3
@@ -182,12 +186,8 @@ readme:
     - https://support.edx.org/hc/en-us/articles/206502008-What-is-a-verified-certificate
     - https://twitter.com/openedx
     - https://github.com/openedx/frontend-app-learning/issues
-    - https://openedx.org/slack
-    - https://openedx.org/community/connect
     - https://discuss.openedx.org
-    - https://openedx.org/r/how-to-contribute
     - https://github.com/openedx/.github/blob/master/AI_POLICY.md
-    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

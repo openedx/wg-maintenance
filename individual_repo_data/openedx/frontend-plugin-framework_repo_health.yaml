@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-18
+TIMESTAMP: 2026-10-19
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,13 +68,14 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 3
-    lockfile_age_days: 387
+    lockfile_age_days: 388
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 19
-    build_details: '{"total_duration": "2 minutes 0 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "6319 minutes 57 seconds", "checks": [{"name":
+        "update-browserslist / update-dep", "duration": "2 minutes 8 seconds"}, {"name":
         "Release", "duration": "1 minutes 59 seconds"}, {"name": "test", "duration":
         "1 minutes 53 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 6 seconds"}]}'
@@ -103,9 +104,9 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 260305
     median_pr_time_to_merge_seconds: 1182468
-    oldest_open_pr_days: 880
-    pr_closure_ratio_90d: 0.8
-    pr_opened_90d: 5
+    oldest_open_pr_days: 881
+    pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 3
     prs_open: 11
     pulls_count: 11
     release_count_12mo: 2
@@ -141,7 +142,7 @@ readme:
     bad_links:
     - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 404'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-framework:
         404'
     getting-help: true
