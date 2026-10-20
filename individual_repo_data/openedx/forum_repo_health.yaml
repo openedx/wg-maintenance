@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-19
+TIMESTAMP: 2026-10-20
 dependabot:
     exists: false
     has_ecosystem:
@@ -60,31 +60,31 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 36
-    lockfile_age_days: 69
+    commits_365d: 37
+    lockfile_age_days: 70
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 17
-    build_details: '{"total_duration": "4 minutes 7 seconds", "checks": [{"name":
-        "run_ci / e2e", "duration": "2 minutes 42 seconds"}, {"name": "release", "duration":
-        "1 minutes 2 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
-        51 seconds"}, {"name": "run_ci / django42", "duration": "0 minutes 40 seconds"},
-        {"name": "run_ci / py", "duration": "0 minutes 40 seconds"}, {"name": "run_ci
-        / django52", "duration": "0 minutes 36 seconds"}, {"name": "run_ci / docs",
-        "duration": "0 minutes 30 seconds"}, {"name": "run_ci / package", "duration":
-        "0 minutes 25 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        17 seconds"}]}'
+    build_details: '{"total_duration": "3 minutes 24 seconds", "checks": [{"name":
+        "run_ci / e2e", "duration": "2 minutes 0 seconds"}, {"name": "release", "duration":
+        "1 minutes 1 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
+        46 seconds"}, {"name": "run_ci / py", "duration": "0 minutes 42 seconds"},
+        {"name": "run_ci / django42", "duration": "0 minutes 41 seconds"}, {"name":
+        "run_ci / django52", "duration": "0 minutes 40 seconds"}, {"name": "run_ci
+        / docs", "duration": "0 minutes 33 seconds"}, {"name": "run_ci / package",
+        "duration": "0 minutes 24 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 18 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 6
+    contributor_count_90d: 7
     created_at: 2024-07-25 08:43:29
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Python rewrite of the legacy Open edX Ruby forum
-    disk_usage_kb: 1047
-    first_timer_median_first_response_seconds: 837477
-    first_timer_prs_90d: 4
+    disk_usage_kb: 1081
+    first_timer_median_first_response_seconds: 627885
+    first_timer_prs_90d: 2
     fork_count: 28
     good_first_issues_open: 0
     has_issues: true
@@ -98,16 +98,16 @@ github:
     issues_open: 10
     issues_opened_90d: 1
     issues_stale_open_180d: 9
-    last_push: 2026-10-14 15:27:11
+    last_push: 2026-10-19 06:23:30
     license: GNU AGPLv3
     median_pr_response_seconds: 54000
-    median_pr_time_to_merge_seconds: 81095
-    oldest_open_pr_days: 133
-    pr_closure_ratio_90d: 0.7647
+    median_pr_time_to_merge_seconds: 87708
+    oldest_open_pr_days: 134
+    pr_closure_ratio_90d: 0.8235
     pr_opened_90d: 17
-    prs_open: 5
-    pulls_count: 5
-    release_count_12mo: 18
+    prs_open: 4
+    pulls_count: 4
+    release_count_12mo: 19
 github_actions: true
 language_bytes:
     css: 0
@@ -115,7 +115,7 @@ language_bytes:
     html: 873
     javascript: 0
     makefile: 4811
-    python: 717299
+    python: 821455
     shell: 0
 makefile:
     pip-installed: false

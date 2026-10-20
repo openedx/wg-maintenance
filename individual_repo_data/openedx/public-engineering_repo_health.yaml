@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-19
+TIMESTAMP: 2026-10-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -99,9 +99,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.381
-    issues_open: 170
-    issues_opened_90d: 21
+    issue_closure_ratio_90d: 0.3636
+    issues_open: 171
+    issues_opened_90d: 22
     issues_stale_open_180d: 4
     last_push: 2025-03-05 16:20:54
     license: null

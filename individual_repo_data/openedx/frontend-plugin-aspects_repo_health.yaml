@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-19
+TIMESTAMP: 2026-10-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -73,24 +73,18 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
-    build_details: '{"total_duration": "7 minutes 8 seconds", "checks": [{"name":
-        "Dependabot", "duration": "2 minutes 19 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 43 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 34 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 54 seconds"}]}'
+    branch_count: 6
+    build_details: '{"total_duration": "3 minutes 47 seconds", "checks": [{"name":
+        "Dependabot", "duration": "3 minutes 47 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2025-03-21 15:08:32
     default_branch: main
     description: Frontend plugins for Aspects
-    disk_usage_kb: 2617
+    disk_usage_kb: 2616
     first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0
@@ -104,15 +98,15 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-19 00:51:19
+    last_push: 2026-10-19 14:02:32
     license: GNU AGPLv3
     median_pr_response_seconds: 409
-    median_pr_time_to_merge_seconds: 601
-    oldest_open_pr_days: 34
-    pr_closure_ratio_90d: 0.8919
-    pr_opened_90d: 37
-    prs_open: 4
-    pulls_count: 4
+    median_pr_time_to_merge_seconds: 1298
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.9762
+    pr_opened_90d: 42
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -175,9 +169,9 @@ readthedocs_config:
     version: ''
 renovate:
     configured: true
-    last_pr: '2026-10-05'
-    oldest_open_pr_date: '2026-09-14'
-    total_open_prs: 2
+    last_pr: '2026-10-19'
+    oldest_open_pr_date: '2026-10-19'
+    total_open_prs: 1
 requires:
     django: false
     pytest: false
