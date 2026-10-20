@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-19
+TIMESTAMP: 2026-10-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,31 +66,26 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 83
-    lockfile_age_days: 21
+    lockfile_age_days: 22
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 20
-    build_details: '{"total_duration": "2503 minutes 45 seconds", "checks": [{"name":
-        "test", "duration": "1 minutes 57 seconds"}, {"name": "Release", "duration":
-        "0 minutes 33 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 5 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "0
-        minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration": "0
-        minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "routeissue / add_and_notify", "duration": "0 minutes
-        0 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes 59
-        seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1 minutes
-        54 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes 54
-        seconds"}]}'
+    branch_count: 22
+    build_details: '{"total_duration": "2 minutes 2 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 2 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "1 minutes 0 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 46 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 42 seconds"}, {"name": "Release", "duration": "0 minutes
+        34 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        4 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 9
+    contributor_count_90d: 8
     created_at: 2025-09-23 11:32:49
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Administrator console for the Open edX application
-    disk_usage_kb: 1818
+    disk_usage_kb: 1899
     first_timer_prs_90d: 0
     fork_count: 13
     good_first_issues_open: 0
@@ -105,16 +100,16 @@ github:
     issues_open: 15
     issues_opened_90d: 20
     issues_stale_open_180d: 3
-    last_push: 2026-10-19 00:22:01
+    last_push: 2026-10-19 12:34:46
     license: GNU AGPLv3
     median_issue_first_response_seconds: 729086
-    median_pr_response_seconds: 29008
-    median_pr_time_to_merge_seconds: 131225
-    oldest_open_pr_days: 202
-    pr_closure_ratio_90d: 0.7273
-    pr_opened_90d: 66
-    prs_open: 19
-    pulls_count: 19
+    median_pr_response_seconds: 29122
+    median_pr_time_to_merge_seconds: 152689
+    oldest_open_pr_days: 203
+    pr_closure_ratio_90d: 0.6875
+    pr_opened_90d: 64
+    prs_open: 21
+    pulls_count: 21
     release_count_12mo: 14
 github_actions: true
 language_bytes:

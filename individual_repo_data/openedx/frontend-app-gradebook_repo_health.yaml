@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-19
+TIMESTAMP: 2026-10-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,16 +68,20 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 20
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 74
-    build_details: '{"total_duration": "0 minutes 0 seconds", "checks": [{"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 51 seconds"}]}'
+    build_details: '{"total_duration": "701 minutes 21 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 36 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2018-10-17 15:49:15
@@ -103,12 +107,12 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 60404
     median_pr_time_to_merge_seconds: 42767
-    oldest_open_pr_days: 1271
+    oldest_open_pr_days: 1272
     pr_closure_ratio_90d: 0.6364
     pr_opened_90d: 55
     prs_open: 32
     pulls_count: 32
-    release_count_12mo: 13
+    release_count_12mo: 9
 github_actions: true
 language_bytes:
     css: 0

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-19
+TIMESTAMP: 2026-10-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -37,90 +37,89 @@ dependencies:
             "^4.0.2"}'
     pypi:
         count: 66
-        list: '["fs==2.4.16", "path==16.16.0", "lazy==2.0", "pycparser==3.0", "fastavro==1.12.2",
-            "bleach==6.4.0", "edx-django-release-util==1.5.0", "jinja2==3.1.6", "path-py==12.5.0",
-            "defusedxml==0.7.1", "idna==3.20", "text-unidecode==1.3", "sqlparse==0.6.0",
-            "polib==1.2.0", "s3transfer==0.19.2", "urllib3==2.8.0", "jmespath==1.1.0",
-            "edx-ccx-keys==2.0.2", "edx-toggles==6.0.0", "python-dateutil==2.9.0.post0",
-            "python-slugify==9.1.2", "code-annotations==3.0.0", "edx-i18n-tools==2.0.0",
-            "asgiref==3.12.1", "click==8.5.0", "mako==1.4.3", "webencodings==0.6.1",
-            "botocore==1.43.105", "certifi==2026.7.22", "pytz==2026.4", "django-simple-history==3.13.0",
-            "six==1.17.0", "boto3==1.43.105", "djangorestframework==3.18.1", "lxml-html-clean==0.4.5",
-            "edx-opaque-keys[django]==4.0.0", "pynacl==1.6.2", "appdirs==1.4.4", "django==5.2.17",
-            "simplejson==4.1.2", "lxml[html-clean]==6.1.3", "django-crum==0.7.9",
-            "charset-normalizer==3.5.1", "psutil==7.2.2", "typing-extensions==4.16.0",
-            "jsonfield==3.2.0", "requests==2.34.2", "setuptools==84.0.0", "attrs==26.1.0",
-            "django-model-utils==5.0.0", "cffi==2.1.1", "openedx-filters==3.14.0",
-            "openedx-events==11.2.0", "pyyaml==6.0.3", "edx-django-utils==8.0.2",
-            "stevedore==5.9.1", "webob==1.8.11", "edx-submissions==4.0.2", "markupsafe==3.0.3",
-            "pymongo==4.18.2", "python-swiftclient==4.11.0", "dnspython==2.8.0", "xblock==6.3.3",
-            "voluptuous==0.16.0", "django-waffle==5.0.0", "html5lib==1.1"]'
+        list: '["pymongo==4.18.2", "edx-i18n-tools==2.0.0", "dnspython==2.8.0", "django-model-utils==5.0.0",
+            "edx-submissions==4.0.2", "psutil==7.2.2", "fs==2.4.16", "edx-opaque-keys[django]==4.0.0",
+            "path==16.16.0", "pycparser==3.0", "jsonfield==3.2.0", "django-simple-history==3.13.0",
+            "djangorestframework==3.18.1", "edx-toggles==6.0.0", "jmespath==1.1.0",
+            "lxml-html-clean==0.4.5", "pynacl==1.6.2", "sqlparse==0.6.0", "idna==3.20",
+            "lazy==2.0", "bleach==6.4.0", "django-crum==0.7.9", "xblock==6.3.3", "attrs==26.1.0",
+            "python-slugify==9.1.2", "cffi==2.1.1", "asgiref==3.12.1", "openedx-events==11.2.0",
+            "requests==2.34.2", "text-unidecode==1.3", "markupsafe==3.0.3", "typing-extensions==4.16.0",
+            "code-annotations==3.0.0", "edx-django-utils==8.0.2", "urllib3==2.8.0",
+            "pyyaml==6.0.3", "voluptuous==0.16.0", "edx-django-release-util==1.5.0",
+            "fastavro==1.12.2", "edx-ccx-keys==2.0.2", "pytz==2026.4", "s3transfer==0.19.2",
+            "certifi==2026.7.22", "click==8.5.0", "webob==1.8.11", "html5lib==1.1",
+            "boto3==1.43.105", "appdirs==1.4.4", "openedx-filters==3.14.0", "python-swiftclient==4.11.0",
+            "python-dateutil==2.9.0.post0", "botocore==1.43.105", "charset-normalizer==3.5.1",
+            "defusedxml==0.7.1", "stevedore==5.9.1", "django-waffle==5.0.0", "path-py==12.5.0",
+            "polib==1.2.0", "webencodings==0.6.1", "six==1.17.0", "django==5.2.17",
+            "setuptools==84.0.0", "simplejson==4.1.2", "jinja2==3.1.6", "mako==1.4.3",
+            "lxml[html-clean]==6.1.3"]'
     pypi_all:
         count: 169
-        list: '["fs==2.4.16", "path==16.16.0", "factory-boy==3.3.3", "web-fragments==4.0.0",
-            "pycparser==3.0", "mccabe==0.7.0", "filelock==4.0.7", "bleach==6.4.0",
-            "jinja2==3.1.6", "astroid==3.3.11", "prompt-toolkit==3.0.53", "jmespath==1.1.0",
-            "edx-ccx-keys==2.0.2", "pyinstrument==5.1.3", "h11==0.16.0", "edx-i18n-tools==2.0.0",
-            "cookiecutter==2.7.1", "celery==5.6.3", "packaging==26.3", "mako==1.4.3",
-            "sphinx-autobuild==2025.8.25", "coveralls==4.1.0", "pip-tools==7.6.1",
-            "billiard==4.3.0", "snowballstemmer==3.1.1", "djangorestframework==3.18.1",
-            "markdown-it-py==4.2.0", "edx-opaque-keys[django]==4.0.0", "pluggy==1.6.0",
-            "tzdata==2026.4", "click-plugins==1.1.1.2", "pygments==2.21.0", "binaryornot==0.6.0",
-            "coverage[toml]==7.16.2", "jsonfield==3.2.0", "sphinx-book-theme==1.4.0",
-            "django-model-utils==5.0.0", "wcwidth==0.9.1", "sphinx==9.1.0", "xblock[django]==6.3.3",
-            "openedx-django-pyfs==4.0.0", "edx-submissions==4.0.2", "tox==4.64.5",
-            "python-discovery==1.6.1", "python-swiftclient==4.11.0", "sphinxcontrib-qthelp==2.0.0",
-            "pytest-django==4.14.0", "xblock==6.3.3", "voluptuous==0.16.0", "sphinxcontrib-applehelp==2.0.0",
-            "click-repl==0.4.0", "annotated-doc==0.0.5", "lazy==2.0", "pip==26.2",
-            "path-py==12.5.0", "idna==3.20", "sqlparse==0.6.0", "accessible-pygments==0.0.5",
-            "s3transfer==0.19.2", "ddt==1.0.0", "pypng==0.20220715.0", "python-dateutil==2.9.0.post0",
-            "iniconfig==2.3.0", "click==8.5.0", "isort==6.1.0", "sphinx-copybutton==0.5.2",
-            "boto3==1.43.105", "pyproject-hooks==1.3.3", "pynacl==1.6.2", "appdirs==1.4.4",
-            "typer==0.27.2", "alabaster==1.0.0", "simplejson==4.1.2", "moto==4.2.14",
-            "werkzeug==3.1.9", "platformdirs==4.12.2", "typing-extensions==4.16.0",
-            "starlette==1.7.0", "edx-lint==6.2.0", "edx-django-utils==8.0.2", "sphinxcontrib-jsmath==1.0.1",
-            "tzlocal==5.4.4", "dill==0.4.1", "rich==15.0.0", "pylint==3.3.9", "colorama==0.4.6",
-            "websockets==17.1", "pycodestyle==2.15.0", "babel==2.18.0", "cryptography==50.0.1",
-            "cachetools==7.2.0", "edx-django-release-util==1.5.0", "text-unidecode==1.3",
-            "defusedxml==0.7.1", "distlib==0.4.3", "polib==1.2.0", "urllib3==2.8.0",
-            "wheel==0.48.0", "xblock-sdk==0.15.2", "edx-toggles==6.0.0", "responses==0.26.3",
-            "anyio==4.15.1", "botocore==1.43.105", "pytz==2026.4", "six==1.17.0",
-            "xmltodict==1.0.4", "uvicorn==0.54.0", "django==5.2.17", "lxml[html-clean]==6.1.3",
-            "tomlkit==0.15.1", "psutil==7.2.2", "charset-normalizer==3.5.1", "requests==2.34.2",
-            "sphinxcontrib-mermaid==2.1.1", "pylint-plugin-utils==0.9.0", "webob==1.8.11",
-            "pytest-cov==7.1.0", "pymongo==4.18.2", "imagesize==2.0.1", "pyproject-api==1.11.2",
-            "vine==5.1.0", "django-waffle==5.0.0", "mdurl==0.1.2", "fastavro==1.12.2",
-            "pytest==9.1.1", "click-log==0.4.0", "freezegun==0.3.14", "python-slugify==9.1.2",
-            "roman-numerals==4.1.0", "code-annotations==3.0.0", "sphinxcontrib-serializinghtml==2.0.0",
-            "virtualenv==21.14.1", "asgiref==3.12.1", "click-didyoumean==0.3.1", "webencodings==0.6.1",
-            "beautifulsoup4==4.15.0", "faker==40.40.0", "certifi==2026.7.22", "django-simple-history==3.13.0",
-            "kombu==5.6.2", "docutils==0.22.4", "tomli-w==1.2.0", "sphinxcontrib-devhelp==2.0.0",
-            "lxml-html-clean==0.4.5", "fs-s3fs==1.1.1", "soupsieve==2.10", "testfixtures==12.3.0",
-            "more-itertools==11.1.0", "watchfiles==1.3.0", "django-crum==0.7.9", "setuptools==84.0.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "attrs==26.1.0", "build==1.6.1", "cffi==2.1.1",
-            "openedx-filters==3.14.0", "mock==5.2.0", "openedx-events==11.2.0", "pyyaml==6.0.3",
-            "pydata-sphinx-theme==0.20.0", "stevedore==5.9.1", "pylint-django==2.5.5",
-            "markupsafe==3.0.3", "pylint-celery==0.3", "dnspython==2.8.0", "arrow==1.4.0",
-            "shellingham==1.5.4", "amqp==5.4.0", "html5lib==1.1"]'
+        list: '["pymongo==4.18.2", "more-itertools==11.1.0", "click-log==0.4.0", "django-model-utils==5.0.0",
+            "testfixtures==12.3.0", "psutil==7.2.2", "isort==6.1.0", "fs==2.4.16",
+            "pycparser==3.0", "roman-numerals==4.1.0", "pluggy==1.6.0", "django-simple-history==3.13.0",
+            "djangorestframework==3.18.1", "edx-lint==6.2.0", "lxml-html-clean==0.4.5",
+            "tzdata==2026.4", "coveralls==4.1.0", "cffi==2.1.1", "openedx-events==11.2.0",
+            "pyproject-api==1.11.2", "fastavro==1.12.2", "cryptography==50.0.1", "cachetools==7.2.0",
+            "openedx-django-pyfs==4.0.0", "appdirs==1.4.4", "sphinx-autobuild==2025.8.25",
+            "python-swiftclient==4.11.0", "click-repl==0.4.0", "django-waffle==5.0.0",
+            "path-py==12.5.0", "webencodings==0.6.1", "vine==5.1.0", "prompt-toolkit==3.0.53",
+            "edx-i18n-tools==2.0.0", "ddt==1.0.0", "alabaster==1.0.0", "factory-boy==3.3.3",
+            "pyproject-hooks==1.3.3", "freezegun==0.3.14", "sphinx==9.1.0", "pytest==9.1.1",
+            "colorama==0.4.6", "jmespath==1.1.0", "soupsieve==2.10", "pynacl==1.6.2",
+            "mccabe==0.7.0", "moto==4.2.14", "lazy==2.0", "django-crum==0.7.9", "wheel==0.48.0",
+            "xblock==6.3.3", "attrs==26.1.0", "cookiecutter==2.7.1", "arrow==1.4.0",
+            "web-fragments==4.0.0", "docutils==0.22.4", "markupsafe==3.0.3", "code-annotations==3.0.0",
+            "edx-django-utils==8.0.2", "pydata-sphinx-theme==0.20.0", "pyyaml==6.0.3",
+            "h11==0.16.0", "tomlkit==0.15.1", "websockets==17.1", "webob==1.8.11",
+            "pylint-plugin-utils==0.9.0", "iniconfig==2.3.0", "starlette==1.7.0",
+            "faker==40.40.0", "platformdirs==4.12.2", "uvicorn==0.54.0", "botocore==1.43.105",
+            "defusedxml==0.7.1", "beautifulsoup4==4.15.0", "imagesize==2.0.1", "astroid==3.3.11",
+            "pytest-cov==7.1.0", "six==1.17.0", "jinja2==3.1.6", "mako==1.4.3", "lxml[html-clean]==6.1.3",
+            "filelock==4.0.7", "mdurl==0.1.2", "pygments==2.21.0", "tomli-w==1.2.0",
+            "virtualenv==21.14.1", "annotated-doc==0.0.5", "celery==5.6.3", "coverage[toml]==7.16.2",
+            "sqlparse==0.6.0", "idna==3.20", "bleach==6.4.0", "fs-s3fs==1.1.1", "rich==15.0.0",
+            "asgiref==3.12.1", "typing-extensions==4.16.0", "requests==2.34.2", "text-unidecode==1.3",
+            "urllib3==2.8.0", "voluptuous==0.16.0", "responses==0.26.3", "accessible-pygments==0.0.5",
+            "snowballstemmer==3.1.1", "edx-ccx-keys==2.0.2", "pytz==2026.4", "typer==0.27.2",
+            "click==8.5.0", "sphinxcontrib-htmlhelp==2.1.0", "html5lib==1.1", "sphinxcontrib-qthelp==2.0.0",
+            "amqp==5.4.0", "boto3==1.43.105", "python-discovery==1.6.1", "babel==2.18.0",
+            "xblock[django]==6.3.3", "pip==26.2", "python-dateutil==2.9.0.post0",
+            "pip-tools==7.6.1", "charset-normalizer==3.5.1", "stevedore==5.9.1", "watchfiles==1.3.0",
+            "xblock-sdk==0.15.2", "kombu==5.6.2", "setuptools==84.0.0", "pylint-django==2.5.5",
+            "sphinxcontrib-devhelp==2.0.0", "binaryornot==0.6.0", "dnspython==2.8.0",
+            "packaging==26.3", "shellingham==1.5.4", "pypng==0.20220715.0", "sphinxcontrib-applehelp==2.0.0",
+            "edx-submissions==4.0.2", "edx-opaque-keys[django]==4.0.0", "path==16.16.0",
+            "jsonfield==3.2.0", "sphinxcontrib-mermaid==2.1.1", "edx-toggles==6.0.0",
+            "tzlocal==5.4.4", "pytest-django==4.14.0", "pycodestyle==2.15.0", "sphinx-copybutton==0.5.2",
+            "build==1.6.1", "distlib==0.4.3", "pyinstrument==5.1.3", "python-slugify==9.1.2",
+            "pylint==3.3.9", "werkzeug==3.1.9", "sphinxcontrib-serializinghtml==2.0.0",
+            "wcwidth==0.9.1", "billiard==4.3.0", "edx-django-release-util==1.5.0",
+            "tox==4.64.5", "dill==0.4.1", "click-didyoumean==0.3.1", "certifi==2026.7.22",
+            "s3transfer==0.19.2", "sphinxcontrib-jsmath==1.0.1", "markdown-it-py==4.2.0",
+            "anyio==4.15.1", "sphinx-book-theme==1.4.0", "openedx-filters==3.14.0",
+            "pylint-celery==0.3", "xmltodict==1.0.4", "polib==1.2.0", "click-plugins==1.1.1.2",
+            "mock==5.2.0", "django==5.2.17", "simplejson==4.1.2"]'
 django_packages:
     django_42:
         count: 14
-        list: '["code-annotations", "factory-boy", "xblock", "edx-django-release-util",
-            "edx-submissions", "django-waffle", "djangorestframework", "xblock-sdk",
-            "edx-i18n-tools", "pytest-django", "edx-toggles", "edx-django-utils",
-            "web-fragments", "pylint-django"]'
+        list: '["pylint-django", "edx-submissions", "factory-boy", "edx-django-release-util",
+            "edx-toggles", "xblock-sdk", "xblock", "djangorestframework", "web-fragments",
+            "pytest-django", "edx-i18n-tools", "edx-django-utils", "django-waffle",
+            "code-annotations"]'
     total:
         count: 18
-        list: '["code-annotations", "django-simple-history", "factory-boy", "jsonfield",
-            "xblock", "edx-django-release-util", "edx-submissions", "django-waffle",
-            "django-crum", "djangorestframework", "xblock-sdk", "edx-i18n-tools",
-            "pytest-django", "edx-toggles", "edx-django-utils", "django-model-utils",
-            "web-fragments", "pylint-django"]'
+        list: '["pylint-django", "edx-submissions", "django-simple-history", "django-model-utils",
+            "factory-boy", "edx-django-release-util", "edx-toggles", "xblock-sdk",
+            "xblock", "djangorestframework", "django-crum", "web-fragments", "pytest-django",
+            "edx-i18n-tools", "edx-django-utils", "jsonfield", "django-waffle", "code-annotations"]'
     upgraded:
         count: 10
-        list: '["code-annotations", "xblock", "edx-django-release-util", "edx-submissions",
-            "django-waffle", "xblock-sdk", "edx-i18n-tools", "edx-toggles", "edx-django-utils",
-            "web-fragments"]'
+        list: '["edx-submissions", "edx-django-release-util", "edx-toggles", "xblock-sdk",
+            "xblock", "web-fragments", "edx-i18n-tools", "edx-django-utils", "django-waffle",
+            "code-annotations"]'
 docs:
     build_badge: false
     python_version: null
@@ -146,7 +145,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 28
-    lockfile_age_days: 19
+    lockfile_age_days: 20
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -191,9 +190,9 @@ github:
     median_issue_first_response_seconds: 1114623
     median_pr_response_seconds: 1545473
     median_pr_time_to_merge_seconds: 2400137
-    oldest_open_pr_days: 1895
-    pr_closure_ratio_90d: 0.4
-    pr_opened_90d: 35
+    oldest_open_pr_days: 1896
+    pr_closure_ratio_90d: 0.4118
+    pr_opened_90d: 34
     prs_open: 74
     pulls_count: 74
     release_count_12mo: 5
