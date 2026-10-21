@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-20
+TIMESTAMP: 2026-10-21
 dependabot:
     exists: false
     has_ecosystem:
@@ -60,14 +60,14 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 37
-    lockfile_age_days: 70
+    commits_365d: 36
+    lockfile_age_days: 71
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 17
-    build_details: '{"total_duration": "3 minutes 24 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "1486 minutes 29 seconds", "checks": [{"name":
         "run_ci / e2e", "duration": "2 minutes 0 seconds"}, {"name": "release", "duration":
         "1 minutes 1 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
         46 seconds"}, {"name": "run_ci / py", "duration": "0 minutes 42 seconds"},
@@ -75,7 +75,10 @@ github:
         "run_ci / django52", "duration": "0 minutes 40 seconds"}, {"name": "run_ci
         / docs", "duration": "0 minutes 33 seconds"}, {"name": "run_ci / package",
         "duration": "0 minutes 24 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 18 seconds"}]}'
+        "0 minutes 18 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2024-07-25 08:43:29
@@ -102,12 +105,12 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 54000
     median_pr_time_to_merge_seconds: 87708
-    oldest_open_pr_days: 134
+    oldest_open_pr_days: 135
     pr_closure_ratio_90d: 0.8235
     pr_opened_90d: 17
     prs_open: 4
     pulls_count: 4
-    release_count_12mo: 19
+    release_count_12mo: 18
 github_actions: true
 language_bytes:
     css: 0

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-20
+TIMESTAMP: 2026-10-21
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,28 +61,24 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 22
-    lockfile_age_days: 7
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "9497 minutes 51 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 53 seconds"}, {"name": "release", "duration": "0 minutes 48 seconds"},
-        {"name": "run_tests / django52", "duration": "0 minutes 35 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 35 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    build_details: '{"total_duration": "590 minutes 16 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 10 seconds"}, {"name": "release", "duration":
+        "0 minutes 57 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
+        44 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes 35 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2013-09-16 17:57:22
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: a system for tracking events
-    disk_usage_kb: 1499
+    disk_usage_kb: 1686
     first_timer_prs_90d: 0
     fork_count: 39
     good_first_issues_open: 0
@@ -97,14 +93,14 @@ github:
     issues_open: 1
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-10-20 03:30:31
+    last_push: 2026-10-20 23:47:11
     license: GNU AGPLv3
     median_issue_first_response_seconds: 14658
     median_pr_response_seconds: 6328
-    median_pr_time_to_merge_seconds: 32769
+    median_pr_time_to_merge_seconds: 33034
     oldest_open_pr_days: 0
-    pr_closure_ratio_90d: 0.9706
-    pr_opened_90d: 34
+    pr_closure_ratio_90d: 0.9714
+    pr_opened_90d: 35
     prs_open: 1
     pulls_count: 1
     release_count_12mo: 9
