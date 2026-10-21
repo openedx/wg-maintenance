@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-20
+TIMESTAMP: 2026-10-21
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,24 +61,31 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 5
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 1
-    build_details: '{"total_duration": "1 minutes 2 seconds", "checks": [{"name":
-        "quality", "duration": "1 minutes 2 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 40 seconds"}, {"name": "Tests (ubuntu-latest, 3.12)",
-        "duration": "0 minutes 23 seconds"}, {"name": "docs", "duration": "0 minutes
-        15 seconds"}]}'
+    branch_count: 3
+    build_details: '{"total_duration": "2159 minutes 36 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 9 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 5 seconds"}, {"name": "quality", "duration": "1 minutes 2 seconds"},
+        {"name": "update-uv-graph", "duration": "0 minutes 40 seconds"}, {"name":
+        "Tests (ubuntu-latest, 3.12)", "duration": "0 minutes 23 seconds"}, {"name":
+        "docs", "duration": "0 minutes 15 seconds"}, {"name": "add_remove_labels /
+        remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 4
     created_at: 2014-07-09 17:08:56
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Webhooks for the Open edX GitHub and JIRA
-    disk_usage_kb: 2142
+    disk_usage_kb: 2371
     first_timer_prs_90d: 0
     fork_count: 22
     good_first_issues_open: 0
@@ -92,14 +99,15 @@ github:
     issues_open: 13
     issues_opened_90d: 0
     issues_stale_open_180d: 13
-    last_push: 2026-10-19 12:59:05
+    last_push: 2026-10-21 00:57:45
     license: Apache License 2.0
     median_pr_response_seconds: 946516
-    median_pr_time_to_merge_seconds: 132162
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 20
-    prs_open: 0
-    pulls_count: 0
+    median_pr_time_to_merge_seconds: 117909
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.9091
+    pr_opened_90d: 22
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 0
 github_actions: true
 language_bytes:
@@ -135,7 +143,6 @@ readme:
     - 'https://git.heroku.com/openedx-webhooks-staging.git: 405'
     - 'https://github.com/organizations/: 404'
     - 'https://openedx-webhooks.herokuapp.com/github/hook-receiver: 405'
-    - 'https://openedx.org/cla: 403'
     getting-help: false
     good_links:
     - https://dashboard.heroku.com/apps/openedx-webhooks-staging/resources
@@ -146,6 +153,7 @@ readme:
     - https://github.com/openedx/openedx-webhooks/issues/280
     - https://github.com/openedx/openedx-webhooks/issues/227
     - https://github.com/openedx/repo-tools/tree/master/edx_repo_tools/repo_checks
+    - https://openedx.org/cla
     - http://openedx.org
     - http://heroku.com
     - https://devcenter.heroku.com/articles/heroku-command-line
