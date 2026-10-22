@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,29 +61,29 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 18
-    lockfile_age_days: 1
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "2459 minutes 6 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 52 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 47 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 47 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42 seconds"},
-        {"name": "run_tests / tests (3.12, django42)", "duration": "0 minutes 35 seconds"},
-        {"name": "run_tests / tests (3.12, django52)", "duration": "0 minutes 29 seconds"},
-        {"name": "run_tests / tests (3.12, quality)", "duration": "0 minutes 28 seconds"},
-        {"name": "run_tests / tests (3.12, docs)", "duration": "0 minutes 26 seconds"},
-        {"name": "publish_to_pypi", "duration": "-1 minutes 59 seconds"}]}'
+    build_details: '{"total_duration": "2 minutes 44 seconds", "checks": [{"name":
+        "update-uv-graph", "duration": "1 minutes 1 seconds"}, {"name": "release",
+        "duration": "0 minutes 49 seconds"}, {"name": "run_tests / tests (3.12, django42)",
+        "duration": "0 minutes 37 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 36 seconds"}, {"name": "run_tests / tests (3.12, quality)", "duration":
+        "0 minutes 34 seconds"}, {"name": "run_tests / tests (3.12, django52)", "duration":
+        "0 minutes 30 seconds"}, {"name": "run_tests / tests (3.12, docs)", "duration":
+        "0 minutes 26 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
+        59 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 6
+    contributor_count_90d: 7
     created_at: 2013-03-11 18:35:36
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Framework for building custom learning components that run in the
         Open edX LMS!
-    disk_usage_kb: 4974
+    disk_usage_kb: 5081
     first_timer_median_first_response_seconds: 269328
     first_timer_prs_90d: 1
     fork_count: 231
@@ -98,13 +98,13 @@ github:
     issues_open: 33
     issues_opened_90d: 0
     issues_stale_open_180d: 32
-    last_push: 2026-10-19 06:26:02
+    last_push: 2026-10-21 18:23:56
     license: Apache License 2.0
     median_pr_response_seconds: 269328
-    median_pr_time_to_merge_seconds: 111795
-    oldest_open_pr_days: 862
-    pr_closure_ratio_90d: 0.9545
-    pr_opened_90d: 22
+    median_pr_time_to_merge_seconds: 109941
+    oldest_open_pr_days: 863
+    pr_closure_ratio_90d: 0.9565
+    pr_opened_90d: 23
     prs_open: 4
     pulls_count: 4
     release_count_12mo: 9
@@ -139,8 +139,12 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'http://scorm.com/scorm-explained/: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.org/getting-help: 403'
     - 'https://github.com/openedx/XBlock/blob/master/LICENSE.txt: 404'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - http://www.lon-capa.org/
@@ -151,10 +155,6 @@ readme:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/index.html
     - https://discuss.openedx.org
     - https://github.com/openedx/XBlock/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock
     - https://img.shields.io/pypi/v/XBlock.svg
     - https://pypi.python.org/pypi/XBlock/

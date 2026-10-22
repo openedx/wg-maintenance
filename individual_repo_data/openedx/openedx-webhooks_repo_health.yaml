@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 5
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -103,7 +103,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 946516
     median_pr_time_to_merge_seconds: 117909
-    oldest_open_pr_days: 0
+    oldest_open_pr_days: 1
     pr_closure_ratio_90d: 0.9091
     pr_opened_90d: 22
     prs_open: 2
@@ -143,6 +143,7 @@ readme:
     - 'https://git.heroku.com/openedx-webhooks-staging.git: 405'
     - 'https://github.com/organizations/: 404'
     - 'https://openedx-webhooks.herokuapp.com/github/hook-receiver: 405'
+    - 'https://openedx.org/cla: 403'
     getting-help: false
     good_links:
     - https://dashboard.heroku.com/apps/openedx-webhooks-staging/resources
@@ -153,7 +154,6 @@ readme:
     - https://github.com/openedx/openedx-webhooks/issues/280
     - https://github.com/openedx/openedx-webhooks/issues/227
     - https://github.com/openedx/repo-tools/tree/master/edx_repo_tools/repo_checks
-    - https://openedx.org/cla
     - http://openedx.org
     - http://heroku.com
     - https://devcenter.heroku.com/articles/heroku-command-line

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,7 +7,7 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 26
+    count: 29
     github:
         count: 0
         list: ''
@@ -24,11 +24,13 @@ dependencies:
         count: 0
         list: '{}'
     js.dev:
-        count: 11
-        list: '{"@edx/browserslist-config": "^1.5.0", "@testing-library/react": "^16.3.0",
-            "@types/jest": "^29.5.14", "babel-plugin-formatjs": "10.5.38", "eslint-plugin-import":
-            "2.31.0", "jest": "^29.7.0", "nodemon": "^3.1.14", "react-test-renderer":
-            "^18.3.1", "ts-jest": "^29.4.0", "tsc-alias": "^1.8.16", "turbo": "^2.8.16"}'
+        count: 14
+        list: '{"@edx/browserslist-config": "^1.5.0", "@openedx/frontend-base": "^2.0.0-alpha.15
+            || 0.0.0-dev", "@openedx/paragon": "^23 || 0.0.0-dev", "@testing-library/react":
+            "^16.3.0", "@types/jest": "^29.5.14", "babel-plugin-formatjs": "10.5.38",
+            "eslint-plugin-import": "2.31.0", "jest": "^29.7.0", "nodemon": "^3.1.14",
+            "react-test-renderer": "^18.3.1", "ts-jest": "^29.4.0", "tsc-alias": "^1.8.16",
+            "turbo": "^2.8.16", "typescript": "^5.9.3"}'
     pypi:
         count: 0
         list: ''
@@ -69,18 +71,22 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 77
-    lockfile_age_days: 28
+    commits_365d: 80
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 41
-    build_details: '{"total_duration": "6484 minutes 6 seconds", "checks": [{"name":
-        "tests", "duration": "1 minutes 59 seconds"}, {"name": "Release", "duration":
-        "0 minutes 48 seconds"}, {"name": "Dependabot", "duration": "0 minutes 32
-        seconds"}, {"name": "autoupdate", "duration": "0 minutes 19 seconds"}, {"name":
-        "version-check / version-check", "duration": "0 minutes 6 seconds"}]}'
+    build_details: '{"total_duration": "2 minutes 9 seconds", "checks": [{"name":
+        "tests", "duration": "2 minutes 9 seconds"}, {"name": "Release", "duration":
+        "1 minutes 7 seconds"}, {"name": "autoupdate", "duration": "0 minutes 27 seconds"},
+        {"name": "version-check / version-check", "duration": "0 minutes 3 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2020-09-28 13:08:13
@@ -88,7 +94,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Open edX micro-frontend application for new login and registration
         experience.
-    disk_usage_kb: 18292
+    disk_usage_kb: 18508
     first_timer_prs_90d: 1
     fork_count: 266
     good_first_issues_open: 0
@@ -99,20 +105,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.4286
+    issue_closure_ratio_90d: 0.5
     issues_open: 16
-    issues_opened_90d: 7
+    issues_opened_90d: 6
     issues_stale_open_180d: 10
-    last_push: 2026-10-14 15:20:23
+    last_push: 2026-10-21 20:00:29
     license: GNU AGPLv3
-    median_pr_response_seconds: 347841
-    median_pr_time_to_merge_seconds: 118063
-    oldest_open_pr_days: 1617
-    pr_closure_ratio_90d: 0.7778
+    median_pr_response_seconds: 2279595
+    median_pr_time_to_merge_seconds: 196076
+    oldest_open_pr_days: 1618
+    pr_closure_ratio_90d: 0.8889
     pr_opened_90d: 9
-    prs_open: 10
-    pulls_count: 10
-    release_count_12mo: 18
+    prs_open: 9
+    pulls_count: 9
+    release_count_12mo: 19
 github_actions: true
 language_bytes:
     css: 0
@@ -146,8 +152,12 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/frontend-base
@@ -162,10 +172,6 @@ readme:
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-authn/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/frontend-app-authn
     - https://img.shields.io/github/license/openedx/frontend-app-authn.svg
     - https://github.com/openedx/frontend-app-authn/blob/master/LICENSE

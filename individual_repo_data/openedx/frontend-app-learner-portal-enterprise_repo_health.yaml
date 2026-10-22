@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -88,7 +88,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 11
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
@@ -109,7 +109,7 @@ github:
     created_at: 2019-09-23 14:57:34
     default_branch: master
     description: Enterprise Learner Portal
-    disk_usage_kb: 21714
+    disk_usage_kb: 21724
     first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
@@ -126,7 +126,7 @@ github:
     last_push: 2026-10-21 04:23:25
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 84920
-    oldest_open_pr_days: 1730
+    oldest_open_pr_days: 1731
     pr_closure_ratio_90d: 0.3725
     pr_opened_90d: 51
     prs_open: 67
@@ -167,8 +167,12 @@ readme:
         Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''localhostl8734'',
         port=80): Failed to resolve ''localhostl8734'' ([Errno -3] Temporary failure
         in name resolution)"))'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/community/connect: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: false
     good_links:
     - https://github.com/openedx/frontend-app-learner-portal-enterprise/actions/workflows/ci.yml/badge.svg
@@ -179,12 +183,8 @@ readme:
     - https://go.microsoft.com/fwlink/?linkid=830387
     - https://openedx.atlassian.net/wiki/spaces/SOL/pages/997654609/Hitchhiker+s+Engineer+s+Guide+to+the+Enterprise+Ecosystem
     - https://reactjs.org/
-    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-learner-portal-enterprise/issues
-    - https://openedx.org/slack
-    - https://openedx.org/community/connect
-    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true
