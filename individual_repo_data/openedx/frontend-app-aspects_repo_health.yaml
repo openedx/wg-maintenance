@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,7 +7,7 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 14
+    count: 17
     github:
         count: 0
         list: ''
@@ -19,12 +19,13 @@ dependencies:
         count: 0
         list: '{}'
     js.dev:
-        count: 11
-        list: '{"@edx/browserslist-config": "^1.5.0", "@testing-library/jest-dom":
+        count: 14
+        list: '{"@edx/browserslist-config": "^1.5.0", "@openedx/frontend-base": "^2.0.0-alpha.11
+            || 0.0.0-dev", "@openedx/paragon": "^23 || 0.0.0-dev", "@testing-library/jest-dom":
             "^6.9.1", "@testing-library/react": "^16.3.0", "@testing-library/user-event":
             "^14.6.1", "@types/jest": "^29.5.14", "@types/react": "^18", "@types/react-dom":
             "^18", "jest": "^29", "nodemon": "^3.1.14", "tsc-alias": "^1.8.16", "turbo":
-            "^2.9.2"}'
+            "^2.9.2", "typescript": "^5.9.3"}'
     pypi:
         count: 0
         list: ''
@@ -64,24 +65,24 @@ exists:
     tox.ini: false
     transifex_config: false
 git:
-    absence_factor_365d: 1
-    commits_365d: 29
-    lockfile_age_days: 1
+    absence_factor_365d: 2
+    commits_365d: 31
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "1 minutes 25 seconds", "checks": [{"name":
-        "test", "duration": "1 minutes 25 seconds"}, {"name": "Release", "duration":
-        "0 minutes 49 seconds"}]}'
+    build_details: '{"total_duration": "1 minutes 26 seconds", "checks": [{"name":
+        "test", "duration": "1 minutes 26 seconds"}, {"name": "Release", "duration":
+        "0 minutes 46 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2026-05-28 13:40:16
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 2212
+    disk_usage_kb: 2421
     first_timer_prs_90d: 0
     fork_count: 4
     good_first_issues_open: 0
@@ -96,15 +97,14 @@ github:
     issues_open: 0
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-10-19 13:51:02
+    last_push: 2026-10-21 17:53:38
     license: GNU AGPLv3
-    median_pr_response_seconds: 635
-    median_pr_time_to_merge_seconds: 24192
-    oldest_open_pr_days: 48
-    pr_closure_ratio_90d: 0.9524
+    median_pr_response_seconds: 1053
+    median_pr_time_to_merge_seconds: 41803
+    pr_closure_ratio_90d: 1.0
     pr_opened_90d: 21
-    prs_open: 1
-    pulls_count: 1
+    prs_open: 0
+    pulls_count: 0
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -136,7 +136,11 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-aspects:
         404'
     getting-help: true
@@ -149,10 +153,6 @@ readme:
     - https://github.com/openedx/frontend-base
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-app-aspects.svg
     - https://github.com/openedx/frontend-app-aspects/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen

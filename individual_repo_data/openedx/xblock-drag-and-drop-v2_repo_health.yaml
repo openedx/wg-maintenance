@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,31 +61,29 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 13
-    lockfile_age_days: 1
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 30
-    build_details: '{"total_duration": "1974 minutes 7 seconds", "checks": [{"name":
-        "run_ci / translations", "duration": "1 minutes 42 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 2 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 0 seconds"}, {"name": "Dependabot", "duration": "0 minutes 59 seconds"},
-        {"name": "update-uv-graph", "duration": "0 minutes 58 seconds"}, {"name":
-        "release", "duration": "0 minutes 47 seconds"}, {"name": "translations", "duration":
-        "0 minutes 47 seconds"}, {"name": "run_ci / django42", "duration": "0 minutes
-        32 seconds"}, {"name": "quality", "duration": "0 minutes 26 seconds"}, {"name":
-        "django52", "duration": "0 minutes 24 seconds"}, {"name": "run_ci / quality",
-        "duration": "0 minutes 23 seconds"}, {"name": "run_ci / django52", "duration":
-        "0 minutes 19 seconds"}, {"name": "django42", "duration": "0 minutes 18 seconds"},
-        {"name": "publish_to_pypi", "duration": "-24 minutes 16 seconds"}]}'
+    branch_count: 28
+    build_details: '{"total_duration": "1 minutes 46 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 53 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 39 seconds"}, {"name": "translations", "duration":
+        "0 minutes 25 seconds"}, {"name": "run_ci / translations", "duration": "0
+        minutes 25 seconds"}, {"name": "quality", "duration": "0 minutes 23 seconds"},
+        {"name": "run_ci / quality", "duration": "0 minutes 20 seconds"}, {"name":
+        "django42", "duration": "0 minutes 16 seconds"}, {"name": "django52", "duration":
+        "0 minutes 15 seconds"}, {"name": "run_ci / django52", "duration": "0 minutes
+        14 seconds"}, {"name": "run_ci / django42", "duration": "0 minutes 14 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2014-06-30 15:30:30
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 4363
+    disk_usage_kb: 3735
     first_timer_prs_90d: 0
     fork_count: 75
     good_first_issues_open: 0
@@ -100,16 +98,15 @@ github:
     issues_open: 0
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-10-21 00:57:38
+    last_push: 2026-10-21 12:13:49
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1870213
     median_pr_response_seconds: 591288
-    median_pr_time_to_merge_seconds: 56367
-    oldest_open_pr_days: 0
-    pr_closure_ratio_90d: 0.8667
+    median_pr_time_to_merge_seconds: 55919
+    pr_closure_ratio_90d: 1.0
     pr_opened_90d: 15
-    prs_open: 2
-    pulls_count: 2
+    prs_open: 0
+    pulls_count: 0
     release_count_12mo: 6
 github_actions: true
 language_bytes:

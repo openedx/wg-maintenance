@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,21 +61,20 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 21
-    lockfile_age_days: 1
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "73 minutes 35 seconds", "checks": [{"name":
-        "update-uv-graph", "duration": "0 minutes 43 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 29 seconds"}]}'
+    build_details: '{"total_duration": "0 minutes 47 seconds", "checks": [{"name":
+        "update-uv-graph", "duration": "0 minutes 47 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2023-01-05 19:08:37
     default_branch: main
     description: Aspects - Analytics for Open edX
-    disk_usage_kb: 6460
+    disk_usage_kb: 6482
     first_timer_prs_90d: 0
     fork_count: 12
     good_first_issues_open: 0
@@ -90,13 +89,13 @@ github:
     issues_open: 49
     issues_opened_90d: 36
     issues_stale_open_180d: 3
-    last_push: 2026-10-19 13:59:47
+    last_push: 2026-10-21 19:08:00
     license: Apache License 2.0
     median_issue_first_response_seconds: 2933576
     median_pr_response_seconds: 4899
-    median_pr_time_to_merge_seconds: 50033
+    median_pr_time_to_merge_seconds: 49728
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 14
+    pr_opened_90d: 15
     prs_open: 0
     pulls_count: 0
     release_count_12mo: 5

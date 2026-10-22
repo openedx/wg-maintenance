@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,7 +7,7 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 16
+    count: 19
     github:
         count: 0
         list: ''
@@ -19,12 +19,14 @@ dependencies:
         count: 0
         list: '{}'
     js.dev:
-        count: 12
-        list: '{"@edx/browserslist-config": "^1.1.1", "@testing-library/dom": "^10.4.1",
-            "@testing-library/jest-dom": "^6.6.4", "@testing-library/react": "^16.3.0",
-            "@testing-library/user-event": "^14.6.1", "@types/jest": "^29.5.14", "@types/react":
-            "^18", "@types/react-dom": "^18", "@types/react-helmet": "^6.1.11", "nodemon":
-            "^3.1.14", "tsc-alias": "^1.9.1", "turbo": "^2.10.11"}'
+        count: 15
+        list: '{"@edx/browserslist-config": "^1.1.1", "@openedx/frontend-base": "^2.0.0-alpha.2
+            || 0.0.0-dev", "@openedx/paragon": "^23 || 0.0.0-dev", "@testing-library/dom":
+            "^10.4.1", "@testing-library/jest-dom": "^6.6.4", "@testing-library/react":
+            "^16.3.0", "@testing-library/user-event": "^14.6.1", "@types/jest": "^29.5.14",
+            "@types/react": "^18", "@types/react-dom": "^18", "@types/react-helmet":
+            "^6.1.11", "nodemon": "^3.1.14", "tsc-alias": "^1.9.1", "turbo": "^2.10.11",
+            "typescript": "^5.9.3"}'
     pypi:
         count: 0
         list: ''
@@ -66,26 +68,27 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 83
-    lockfile_age_days: 23
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 22
-    build_details: '{"total_duration": "2 minutes 2 seconds", "checks": [{"name":
-        "test", "duration": "2 minutes 2 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "1 minutes 0 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 46 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 42 seconds"}, {"name": "Release", "duration": "0 minutes
-        34 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        4 seconds"}]}'
+    branch_count: 21
+    build_details: '{"total_duration": "3 minutes 59 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 0 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 55 seconds"}, {"name": "Release", "duration": "0 minutes 48 seconds"},
+        {"name": "version-check / version-check", "duration": "0 minutes 3 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
+        minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2025-09-23 11:32:49
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Administrator console for the Open edX application
-    disk_usage_kb: 1899
+    disk_usage_kb: 3011
     first_timer_prs_90d: 0
     fork_count: 13
     good_first_issues_open: 0
@@ -96,21 +99,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.5
-    issues_open: 15
+    issue_closure_ratio_90d: 0.55
+    issues_open: 14
     issues_opened_90d: 20
     issues_stale_open_180d: 3
-    last_push: 2026-10-19 12:34:46
+    last_push: 2026-10-22 04:32:09
     license: GNU AGPLv3
     median_issue_first_response_seconds: 729086
-    median_pr_response_seconds: 34157
-    median_pr_time_to_merge_seconds: 273761
-    oldest_open_pr_days: 204
-    pr_closure_ratio_90d: 0.661
-    pr_opened_90d: 59
-    prs_open: 21
-    pulls_count: 21
-    release_count_12mo: 14
+    median_pr_response_seconds: 27763
+    median_pr_time_to_merge_seconds: 273797
+    oldest_open_pr_days: 205
+    pr_closure_ratio_90d: 0.7049
+    pr_opened_90d: 61
+    prs_open: 19
+    pulls_count: 19
+    release_count_12mo: 16
 github_actions: true
 language_bytes:
     css: 0
@@ -144,8 +147,12 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-admin-console:
         404'
     getting-help: true
@@ -168,10 +175,6 @@ readme:
     - https://openedx.atlassian.net/wiki/x/AgAwMQE
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-admin-console/issues
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-21
+TIMESTAMP: 2026-10-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -104,7 +104,7 @@ github:
     last_push: 2026-10-14 16:21:37
     license: null
     median_pr_time_to_merge_seconds: 21841
-    oldest_open_pr_days: 159
+    oldest_open_pr_days: 160
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 22
     prs_open: 2
@@ -139,7 +139,8 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://openedx.org/slack: 403'
     getting-help: false
     good_links:
     - https://docs.openedx.org/projects/edx-django-utils/en/latest/plugins/how_tos/how_to_create_a_plugin_app.html
@@ -152,7 +153,6 @@ readme:
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-paragon
     - https://cdn.jsdelivr.net/gh/openedx/sample-plugin@main/brand-sample/dist/light.min.css
-    - https://openedx.org/slack
     - https://discuss.openedx.org
     - https://github.com/openedx/sample-plugin/issues
     irc-missing: true
