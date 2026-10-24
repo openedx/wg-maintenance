@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,7 +60,7 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 19
+    commits_365d: 18
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -104,12 +104,12 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 152594
     median_pr_time_to_merge_seconds: 567046
-    oldest_open_pr_days: 747
+    oldest_open_pr_days: 749
     pr_closure_ratio_90d: 0.5806
     pr_opened_90d: 31
     prs_open: 15
     pulls_count: 15
-    release_count_12mo: 7
+    release_count_12mo: 1
 github_actions: true
 language_bytes:
     css: 0

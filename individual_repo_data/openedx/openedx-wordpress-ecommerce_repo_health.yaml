@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -25,20 +25,19 @@ dependencies:
         list: '[]'
     pypi_all:
         count: 46
-        list: '["pyproject-hooks==1.2.0", "accessible-pygments==0.0.5", "packaging==26.0",
-            "snowballstemmer==3.0.1", "idna==3.11", "certifi==2026.2.25", "sphinx-autobuild==2025.8.25",
-            "typing-extensions==4.15.0", "sphinxcontrib-jsmath==1.0.1", "sphinx-book-theme==1.2.0",
-            "wheel==0.46.3", "sphinxcontrib-serializinghtml==2.0.0", "uvicorn==0.44.0",
-            "markupsafe==3.0.3", "pydata-sphinx-theme==0.16.1", "docutils==0.22.4",
-            "sphinxcontrib-htmlhelp==2.1.0", "beautifulsoup4==4.14.3", "h11==0.16.0",
-            "requests==2.33.1", "charset-normalizer==3.4.7", "websockets==16.0", "pip-tools==7.5.3",
-            "sphinxcontrib-applehelp==2.0.0", "babel==2.18.0", "imagesize==2.0.0",
-            "pip==26.0.1", "soupsieve==2.8.3", "pygments==2.20.0", "click==8.3.2",
-            "sphinxcontrib-mermaid==2.0.1", "sphinx-copybutton==0.5.2", "sphinxcontrib-qthelp==2.0.0",
-            "pyyaml==6.0.3", "sphinxcontrib-devhelp==2.0.0", "build==1.4.2", "setuptools==82.0.1",
-            "watchfiles==1.1.1", "jinja2==3.1.6", "urllib3==2.6.3", "alabaster==1.0.0",
-            "starlette==1.0.0", "anyio==4.13.0", "sphinx==9.1.0", "roman-numerals==4.1.0",
-            "colorama==0.4.6"]'
+        list: '["click==8.3.2", "sphinxcontrib-serializinghtml==2.0.0", "h11==0.16.0",
+            "jinja2==3.1.6", "sphinxcontrib-devhelp==2.0.0", "sphinx-autobuild==2025.8.25",
+            "idna==3.11", "imagesize==2.0.0", "colorama==0.4.6", "soupsieve==2.8.3",
+            "pip-tools==7.6.2", "watchfiles==1.1.1", "pyyaml==6.0.3", "certifi==2026.10.19",
+            "sphinxcontrib-mermaid==2.0.1", "sphinxcontrib-htmlhelp==2.1.0", "uvicorn==0.44.0",
+            "beautifulsoup4==4.14.3", "urllib3==2.6.3", "docutils==0.22.4", "pydata-sphinx-theme==0.16.1",
+            "roman-numerals==4.1.0", "markupsafe==3.0.3", "requests==2.33.1", "sphinxcontrib-applehelp==2.0.0",
+            "accessible-pygments==0.0.5", "alabaster==1.0.0", "typing-extensions==4.15.0",
+            "websockets==16.0", "snowballstemmer==3.0.1", "pip==26.2.2", "charset-normalizer==3.4.7",
+            "babel==2.18.0", "build==1.4.2", "sphinx-copybutton==0.5.2", "sphinx-book-theme==1.2.0",
+            "sphinxcontrib-qthelp==2.0.0", "starlette==1.0.0", "anyio==4.13.0", "pygments==2.20.0",
+            "sphinx==9.1.0", "packaging==26.0", "wheel==0.46.3", "setuptools==82.0.1",
+            "pyproject-hooks==1.2.0", "sphinxcontrib-jsmath==1.0.1"]'
 django_packages:
     django_42:
         count: 0
@@ -73,31 +72,27 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 4
-    lockfile_age_days: 194
+    commits_365d: 6
+    lockfile_age_days: 1
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 16
-    build_details: '{"total_duration": "49719 minutes 55 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 43 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 42 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 39 seconds"}, {"name": "Dependabot", "duration": "0 minutes 36 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 33 seconds"}, {"name": "build-test",
-        "duration": "0 minutes 11 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 15
+    build_details: '{"total_duration": "1326 minutes 2 seconds", "checks": [{"name":
+        "update-pip-graph", "duration": "0 minutes 41 seconds"}, {"name": "build-test",
+        "duration": "0 minutes 12 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 2
     created_at: 2023-06-05 21:25:23
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: You can sell your Open edX courses with WooCommerce using this free
         and open-source WordPress plugin.
-    disk_usage_kb: 2185
+    disk_usage_kb: 2189
     first_timer_prs_90d: 0
     fork_count: 13
     good_first_issues_open: 1
@@ -111,14 +106,15 @@ github:
     issues_open: 5
     issues_opened_90d: 0
     issues_stale_open_180d: 5
-    last_push: 2026-10-22 04:45:26
+    last_push: 2026-10-23 16:03:45
     license: GNU GPLv2
-    median_pr_time_to_merge_seconds: 1797860
-    oldest_open_pr_days: 439
-    pr_closure_ratio_90d: 0.0
-    pr_opened_90d: 3
-    prs_open: 4
-    pulls_count: 4
+    median_pr_response_seconds: 5088
+    median_pr_time_to_merge_seconds: 22042
+    oldest_open_pr_days: 441
+    pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 6
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -149,13 +145,13 @@ ownership:
     release: main
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://openedx.org/terms-of-use/: 403'
-    - 'https://wordpress.org/plugins/woocommerce: 429'
+    bad_links: []
     getting-help: false
     good_links:
     - https://github.com/openedx/edx-platform
     - https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/decisions/0002-api-connection.html
+    - https://openedx.org/terms-of-use/
+    - https://wordpress.org/plugins/woocommerce
     - https://github.com/openedx/openedx-wordpress-ecommerce/releases
     - https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/plugin_quickstart.html
     - https://github.com/openedx/openedx-wordpress-ecommerce/issues

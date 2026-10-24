@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,34 +61,28 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 5
-    lockfile_age_days: 16
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "19367 minutes 23 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 0 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 47 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 46 seconds"}, {"name": "update-pip-graph",
-        "duration": "0 minutes 45 seconds"}, {"name": "update-uv-graph", "duration":
-        "0 minutes 44 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        28 seconds"}, {"name": "run_tests / Tests (3.12, quality)", "duration": "0
-        minutes 14 seconds"}, {"name": "run_tests / Tests (3.12, unittest)", "duration":
-        "0 minutes 13 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+    build_details: '{"total_duration": "629 minutes 3 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 51 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 44 seconds"}, {"name": "run_tests / Tests (3.12, unittest)",
+        "duration": "0 minutes 14 seconds"}, {"name": "run_tests / Tests (3.12, quality)",
+        "duration": "0 minutes 10 seconds"}, {"name": "publish_to_pypi", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 2
+    contributor_count_90d: 3
     created_at: 2015-07-17 21:04:14
     default_branch: master
-    default_branch_ci_state: FAILURE
+    default_branch_ci_state: SUCCESS
     description: Opaque key implementation for the Custom Courses for EdX feature.
-    disk_usage_kb: 294
+    disk_usage_kb: 332
     first_timer_median_first_response_seconds: 4371216
     first_timer_prs_90d: 1
     fork_count: 8
@@ -104,15 +98,15 @@ github:
     issues_open: 1
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-10-19 00:37:18
+    last_push: 2026-10-22 07:38:05
     license: GNU AGPLv3
     median_pr_response_seconds: 4371216
-    median_pr_time_to_merge_seconds: 6047110
-    oldest_open_pr_days: 1812
-    pr_closure_ratio_90d: 0.6
-    pr_opened_90d: 5
-    prs_open: 9
-    pulls_count: 9
+    median_pr_time_to_merge_seconds: 3023893
+    oldest_open_pr_days: 1814
+    pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 6
+    prs_open: 8
+    pulls_count: 8
     release_count_12mo: 1
 github_actions: true
 language_bytes:

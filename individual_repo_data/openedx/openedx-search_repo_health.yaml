@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-24
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,19 +61,20 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 2
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 3
+    branch_count: 4
     build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2026-09-02 13:48:15
     default_branch: main
     description: This is intended to be a long-term successor to edx-search.
-    disk_usage_kb: 265
+    disk_usage_kb: 366
+    first_timer_median_first_response_seconds: 76883
     first_timer_prs_90d: 4
     fork_count: 3
     good_first_issues_open: 0
@@ -88,13 +89,13 @@ github:
     issues_open: 14
     issues_opened_90d: 14
     issues_stale_open_180d: 0
-    last_push: 2026-10-22 04:28:36
+    last_push: 2026-10-22 17:59:40
     license: GNU AGPLv3
-    median_pr_response_seconds: 1076101
-    median_pr_time_to_merge_seconds: 626748
-    oldest_open_pr_days: 25
-    pr_closure_ratio_90d: 0.4286
-    pr_opened_90d: 7
+    median_pr_response_seconds: 76883
+    median_pr_time_to_merge_seconds: 37735
+    oldest_open_pr_days: 27
+    pr_closure_ratio_90d: 0.5
+    pr_opened_90d: 8
     prs_open: 4
     pulls_count: 4
     release_count_12mo: 0

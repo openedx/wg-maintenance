@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 40
-    lockfile_age_days: 0
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -138,11 +138,7 @@ readme:
     - 'https://docs.openedx.org/projects/edx-enterprise-subsidy-client/how-tos/how-to-deploy-this-component.html:
         404'
     - 'https://docs.openedx.org/projects/edx-enterprise-subsidy-client: 404'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/edx-enterprise-subsidy-client:
         404'
     - 'https://edx-enterprise-subsidy-client.readthedocs.io/en/latest/: 404'
@@ -152,6 +148,10 @@ readme:
     - https://openedx.atlassian.net/wiki/spaces/DOC/pages/21627535/Publish+Documentation+on+Read+the+Docs
     - https://discuss.openedx.org
     - https://github.com/openedx/edx-enterprise-subsidy-client/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/pypi/v/edx-enterprise-subsidy-client.svg
     - https://pypi.python.org/pypi/edx-enterprise-subsidy-client/
     - https://github.com/openedx/edx-enterprise-subsidy-client/workflows/Python%20CI/badge.svg?branch=main
