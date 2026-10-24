@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,18 +61,20 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 26
-    lockfile_age_days: 0
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 14
-    build_details: '{"total_duration": "1 minutes 49 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "1452 minutes 44 seconds", "checks": [{"name":
         "run_ci / py", "duration": "0 minutes 57 seconds"}, {"name": "release", "duration":
         "0 minutes 47 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
         46 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes 30 seconds"},
         {"name": "run_ci / docs", "duration": "0 minutes 26 seconds"}, {"name": "run_ci
-        / pii_check", "duration": "0 minutes 20 seconds"}, {"name": "publish_to_pypi",
+        / pii_check", "duration": "0 minutes 20 seconds"}, {"name": "Run tests & display
+        coverage", "duration": "0 minutes 16 seconds"}, {"name": "Run tests & display
+        coverage", "duration": "0 minutes 12 seconds"}, {"name": "publish_to_pypi",
         "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 9
@@ -80,7 +82,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Aspects plugins for the Open edX LMS and Studio
-    disk_usage_kb: 5262
+    disk_usage_kb: 5266
     first_timer_prs_90d: 0
     fork_count: 14
     good_first_issues_open: 0
@@ -94,12 +96,12 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 1
-    last_push: 2026-10-21 19:06:33
+    last_push: 2026-10-22 22:13:47
     license: Apache License 2.0
-    median_pr_response_seconds: 30554
-    median_pr_time_to_merge_seconds: 50322
+    median_pr_response_seconds: 10793
+    median_pr_time_to_merge_seconds: 49335
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 26
+    pr_opened_90d: 28
     prs_open: 0
     pulls_count: 0
     release_count_12mo: 14
@@ -133,11 +135,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://www.npmjs.com/package/@superset-ui/embedded-sdk: 403'
     getting-help: true
     good_links:
@@ -145,6 +143,10 @@ readme:
     - https://docs.openedx.org/projects/platform-plugin-aspects
     - https://discuss.openedx.org
     - https://github.com/openedx/platform-plugin-aspects/issues
+    - https://openedx.org/getting-help
+    - https://openedx.org/slack
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/platform-plugin-aspects
     - https://github.com/openedx/openedx-events
     - https://github.com/openedx/edx-platform

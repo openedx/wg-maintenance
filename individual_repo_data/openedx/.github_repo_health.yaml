@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,7 +66,7 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 8
-    build_details: '{"total_duration": "3157 minutes 49 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "3908 minutes 56 seconds", "checks": [{"name":
         "bulk_update (course-discovery)", "duration": "2 minutes 6 seconds"}, {"name":
         "bulk_update (edx-enterprise)", "duration": "1 minutes 13 seconds"}, {"name":
         "Dependabot", "duration": "1 minutes 12 seconds"}, {"name": "bulk_update (edx-val)",
@@ -78,22 +78,32 @@ github:
         "0 minutes 58 seconds"}, {"name": "bulk_update (edx-django-sites-extensions)",
         "duration": "0 minutes 54 seconds"}, {"name": "bulk_update (codejail-service)",
         "duration": "0 minutes 53 seconds"}, {"name": "bulk_update (edx-ace)", "duration":
-        "0 minutes 49 seconds"}, {"name": "bulk_update (XBlock)", "duration": "0 minutes
-        47 seconds"}, {"name": "bulk_update (openedx-search)", "duration": "0 minutes
-        44 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42 seconds"},
+        "0 minutes 49 seconds"}, {"name": "bulk_update (enterprise-subsidy)", "duration":
+        "0 minutes 48 seconds"}, {"name": "bulk_update (XBlock)", "duration": "0 minutes
+        47 seconds"}, {"name": "bulk_update (license-manager)", "duration": "0 minutes
+        46 seconds"}, {"name": "bulk_update (ccx-keys)", "duration": "0 minutes 45
+        seconds"}, {"name": "bulk_update (openedx-core)", "duration": "0 minutes 45
+        seconds"}, {"name": "bulk_update (event-bus-redis)", "duration": "0 minutes
+        45 seconds"}, {"name": "bulk_update (openedx-search)", "duration": "0 minutes
+        44 seconds"}, {"name": "bulk_update (credentials-themes)", "duration": "0
+        minutes 44 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42 seconds"},
         {"name": "bulk_update (enterprise-catalog)", "duration": "0 minutes 42 seconds"},
         {"name": "bulk_update (openedx-filters)", "duration": "0 minutes 42 seconds"},
         {"name": "bulk_update (event-bus-kafka)", "duration": "0 minutes 42 seconds"},
         {"name": "bulk_update (enterprise-integrated-channels)", "duration": "0 minutes
-        41 seconds"}, {"name": "bulk_update (django-pyfs)", "duration": "0 minutes
-        34 seconds"}, {"name": "bulk_update (forum)", "duration": "0 minutes 30 seconds"},
-        {"name": "bulk_update (codejail-includes)", "duration": "0 minutes 27 seconds"},
-        {"name": "bulk_update (course-discovery)", "duration": "0 minutes 17 seconds"},
-        {"name": "bulk_update (docs.openedx.org)", "duration": "0 minutes 17 seconds"},
-        {"name": "bulk_update (edx-val)", "duration": "0 minutes 16 seconds"}, {"name":
-        "Get list of PRs", "duration": "0 minutes 8 seconds"}, {"name": "Get list
-        of PRs", "duration": "0 minutes 7 seconds"}, {"name": "repos_list", "duration":
-        "0 minutes 4 seconds"}, {"name": "repos_list", "duration": "0 minutes 3 seconds"},
+        41 seconds"}, {"name": "bulk_update (enterprise-catalog)", "duration": "0
+        minutes 39 seconds"}, {"name": "bulk_update (enmerkar-underscore)", "duration":
+        "0 minutes 36 seconds"}, {"name": "bulk_update (django-pyfs)", "duration":
+        "0 minutes 34 seconds"}, {"name": "bulk_update (forum)", "duration": "0 minutes
+        30 seconds"}, {"name": "bulk_update (codejail-includes)", "duration": "0 minutes
+        30 seconds"}, {"name": "bulk_update (codejail-includes)", "duration": "0 minutes
+        27 seconds"}, {"name": "bulk_update (course-discovery)", "duration": "0 minutes
+        17 seconds"}, {"name": "bulk_update (docs.openedx.org)", "duration": "0 minutes
+        17 seconds"}, {"name": "bulk_update (edx-val)", "duration": "0 minutes 16
+        seconds"}, {"name": "Get list of PRs", "duration": "0 minutes 8 seconds"},
+        {"name": "Get list of PRs", "duration": "0 minutes 7 seconds"}, {"name": "repos_list",
+        "duration": "0 minutes 4 seconds"}, {"name": "repos_list", "duration": "0
+        minutes 4 seconds"}, {"name": "repos_list", "duration": "0 minutes 3 seconds"},
         {"name": "repos_list", "duration": "0 minutes 3 seconds"}, {"name": "repos_list",
         "duration": "0 minutes 2 seconds"}, {"name": "merge_pr", "duration": "-1 minutes
         59 seconds"}, {"name": "merge_pr", "duration": "-1 minutes 59 seconds"}]}'

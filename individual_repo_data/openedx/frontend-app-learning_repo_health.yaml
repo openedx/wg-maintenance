@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -78,12 +78,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 100
-    lockfile_age_days: 0
+    lockfile_age_days: 2
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 72
+    branch_count: 74
     build_details: '{"total_duration": "142 minutes 52 seconds", "checks": [{"name":
         "tests", "duration": "3 minutes 15 seconds"}, {"name": "coverage", "duration":
         "0 minutes 7 seconds"}, {"name": "version-check / version-check", "duration":
@@ -102,10 +102,10 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 22527
+    disk_usage_kb: 22508
     first_timer_median_first_response_seconds: 157854
     first_timer_prs_90d: 6
-    fork_count: 338
+    fork_count: 339
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -114,19 +114,19 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.5
-    issues_open: 88
+    issue_closure_ratio_90d: 0.46
+    issues_open: 92
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-22 03:58:39
+    last_push: 2026-10-22 18:54:22
     license: GNU AGPLv3
     median_pr_response_seconds: 105033
-    median_pr_time_to_merge_seconds: 98309
-    oldest_open_pr_days: 1330
-    pr_closure_ratio_90d: 0.9
+    median_pr_time_to_merge_seconds: 102072
+    oldest_open_pr_days: 1332
+    pr_closure_ratio_90d: 0.88
     pr_opened_90d: 100
-    prs_open: 36
-    pulls_count: 36
+    prs_open: 38
+    pulls_count: 38
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -163,12 +163,8 @@ readme:
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://support.edx.org/hc/en-us/articles/360000038428-Entering-math-expressions-in-assignments-or-the-calculator:
         404'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/community/connect: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: false
     good_links:
     - https://codecov.io/gh/edx/frontend-app-learning/branch/master/graph/badge.svg?token=3z7XvuzTq3
@@ -187,8 +183,12 @@ readme:
     - https://support.edx.org/hc/en-us/articles/206502008-What-is-a-verified-certificate
     - https://twitter.com/openedx
     - https://github.com/openedx/frontend-app-learning/issues
+    - https://openedx.org/slack
+    - https://openedx.org/community/connect
     - https://discuss.openedx.org
+    - https://openedx.org/r/how-to-contribute
     - https://github.com/openedx/.github/blob/master/AI_POLICY.md
+    - https://openedx.org/code-of-conduct/
     irc-missing: true
     mailing-list-missing: true
     security: true
