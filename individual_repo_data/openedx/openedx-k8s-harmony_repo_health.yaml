@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,23 +60,25 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 23
+    commits_365d: 24
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 10
-    build_details: '{"total_duration": "6669 minutes 52 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 43 seconds"}, {"name": "release", "duration":
-        "0 minutes 10 seconds"}]}'
+    build_details: '{"total_duration": "1494 minutes 40 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 8 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 7
+    contributor_count_90d: 8
     created_at: 2022-11-25 18:03:47
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A Prototype Helm Chart for deploying multiple Open edX instances
         (via Tutor) onto a cluster.
-    disk_usage_kb: 1841
+    disk_usage_kb: 1827
     first_timer_prs_90d: 0
     fork_count: 19
     good_first_issues_open: 0
@@ -91,13 +93,13 @@ github:
     issues_open: 5
     issues_opened_90d: 1
     issues_stale_open_180d: 4
-    last_push: 2026-10-21 10:52:51
+    last_push: 2026-10-23 20:18:12
     license: GNU AGPLv3
     median_pr_response_seconds: 729141
-    median_pr_time_to_merge_seconds: 673056
-    oldest_open_pr_days: 187
-    pr_closure_ratio_90d: 0.8571
-    pr_opened_90d: 14
+    median_pr_time_to_merge_seconds: 921923
+    oldest_open_pr_days: 190
+    pr_closure_ratio_90d: 0.8667
+    pr_opened_90d: 15
     prs_open: 3
     pulls_count: 3
     release_count_12mo: 7

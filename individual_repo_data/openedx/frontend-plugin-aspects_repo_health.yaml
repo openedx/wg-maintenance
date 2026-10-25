@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,31 +67,26 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 17
-    lockfile_age_days: 2
+    commits_365d: 12
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 7
-    build_details: '{"total_duration": "2859 minutes 16 seconds", "checks": [{"name":
-        "Dependabot", "duration": "4 minutes 6 seconds"}, {"name": "Dependabot", "duration":
-        "3 minutes 47 seconds"}, {"name": "Dependabot", "duration": "3 minutes 45
-        seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration": "0
-        minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+    build_details: '{"total_duration": "104 minutes 4 seconds", "checks": [{"name":
+        "Dependabot", "duration": "3 minutes 47 seconds"}, {"name": "Dependabot",
+        "duration": "2 minutes 38 seconds"}, {"name": "Dependabot", "duration": "2
+        minutes 8 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 51 seconds"}]}'
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2025-03-21 15:08:32
     default_branch: main
     description: Frontend plugins for Aspects
-    disk_usage_kb: 2864
+    disk_usage_kb: 3112
     first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0
@@ -105,16 +100,16 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-21 13:37:36
+    last_push: 2026-10-23 17:23:51
     license: GNU AGPLv3
     median_pr_response_seconds: 409
-    median_pr_time_to_merge_seconds: 1298
-    oldest_open_pr_days: 2
-    pr_closure_ratio_90d: 0.9535
-    pr_opened_90d: 43
+    median_pr_time_to_merge_seconds: 15598
+    oldest_open_pr_days: 5
+    pr_closure_ratio_90d: 0.9524
+    pr_opened_90d: 42
     prs_open: 2
     pulls_count: 2
-    release_count_12mo: 5
+    release_count_12mo: 3
 github_actions: true
 language_bytes:
     css: 118
@@ -147,7 +142,7 @@ readme:
     bad_links:
     - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
     - 'https://openedx.org/getting-help: 403'
     - 'https://openedx.org/r/how-to-contribute: 403'
     - 'https://openedx.org/code-of-conduct/: 403'

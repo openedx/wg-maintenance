@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -95,8 +95,8 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 35
-    lockfile_age_days: 3
+    commits_365d: 34
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -119,7 +119,7 @@ github:
     default_branch: release-23.x
     description: "\U0001F48E An accessible, theme-ready design system built for learning\
         \ applications and Open edX."
-    disk_usage_kb: 355144
+    disk_usage_kb: 355302
     first_timer_prs_90d: 1
     fork_count: 101
     good_first_issues_open: 6
@@ -134,16 +134,16 @@ github:
     issues_open: 180
     issues_opened_90d: 12
     issues_stale_open_180d: 53
-    last_push: 2026-10-21 14:37:02
+    last_push: 2026-10-24 14:29:41
     license: Apache License 2.0
     median_pr_response_seconds: 175433
     median_pr_time_to_merge_seconds: 975
-    oldest_open_pr_days: 1549
+    oldest_open_pr_days: 1552
     pr_closure_ratio_90d: 0.97
     pr_opened_90d: 100
     prs_open: 53
     pulls_count: 53
-    release_count_12mo: 27
+    release_count_12mo: 26
 github_actions: true
 language_bytes:
     css: 271597
