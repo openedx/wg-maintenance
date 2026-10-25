@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-22
+TIMESTAMP: 2026-10-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,37 +61,40 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 8
-    lockfile_age_days: 20
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 32
-    build_details: '{"total_duration": "2189 minutes 13 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 3 seconds"}, {"name": "release", "duration":
-        "0 minutes 52 seconds"}, {"name": "python-tests (ubuntu-latest, 3.12, django52)",
-        "duration": "0 minutes 41 seconds"}, {"name": "python-tests (ubuntu-latest,
-        3.12, django42)", "duration": "0 minutes 33 seconds"}, {"name": "run_ci /
-        python-tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 33 seconds"},
-        {"name": "python-tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes
-        29 seconds"}, {"name": "run_ci / python-tests (ubuntu-latest, 3.12, django52)",
-        "duration": "0 minutes 29 seconds"}, {"name": "run_ci / python-tests (ubuntu-latest,
+    branch_count: 33
+    build_details: '{"total_duration": "649 minutes 39 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 58 seconds"}, {"name": "release", "duration":
+        "0 minutes 52 seconds"}, {"name": "run_ci / python-tests (ubuntu-latest, 3.12,
+        django42)", "duration": "0 minutes 47 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 43 seconds"}, {"name": "run_ci / python-tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 38 seconds"}, {"name": "python-tests
+        (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 35 seconds"}, {"name":
+        "python-tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 28
+        seconds"}, {"name": "run_ci / python-tests (ubuntu-latest, 3.12, quality)",
+        "duration": "0 minutes 25 seconds"}, {"name": "python-tests (ubuntu-latest,
         3.12, quality)", "duration": "0 minutes 24 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi",
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2014-06-03 21:09:08
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Tools to help with internationalization and localization of Open
         edX projects
-    disk_usage_kb: 545
+    disk_usage_kb: 601
     first_timer_prs_90d: 0
     fork_count: 36
     good_first_issues_open: 0
@@ -102,16 +105,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issues_open: 14
-    issues_opened_90d: 0
+    issue_closure_ratio_90d: 0.0
+    issues_open: 15
+    issues_opened_90d: 1
     issues_stale_open_180d: 14
-    last_push: 2026-10-21 00:57:53
+    last_push: 2026-10-24 20:12:53
     license: Apache License 2.0
     median_pr_response_seconds: 575403
-    median_pr_time_to_merge_seconds: 331229
-    oldest_open_pr_days: 281
-    pr_closure_ratio_90d: 0.7273
-    pr_opened_90d: 22
+    median_pr_time_to_merge_seconds: 331206
+    oldest_open_pr_days: 284
+    pr_closure_ratio_90d: 0.7143
+    pr_opened_90d: 21
     prs_open: 13
     pulls_count: 13
     release_count_12mo: 2
