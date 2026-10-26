@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-25
+TIMESTAMP: 2026-10-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,27 +61,28 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 25
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
-    build_details: '{"total_duration": "1 minutes 11 seconds", "checks": [{"name":
-        "update-uv-graph", "duration": "0 minutes 46 seconds"}, {"name": "release",
-        "duration": "0 minutes 45 seconds"}, {"name": "run_tests / quality", "duration":
-        "0 minutes 24 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes
-        22 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes 22 seconds"},
-        {"name": "run_tests / django42", "duration": "0 minutes 19 seconds"}, {"name":
-        "run_tests / pii_check", "duration": "0 minutes 15 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "5534 minutes 21 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 57 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 46 seconds"}, {"name": "release", "duration": "0 minutes
+        45 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes 24 seconds"},
+        {"name": "run_tests / django52", "duration": "0 minutes 22 seconds"}, {"name":
+        "run_tests / docs", "duration": "0 minutes 22 seconds"}, {"name": "run_tests
+        / django42", "duration": "0 minutes 19 seconds"}, {"name": "run_tests / pii_check",
+        "duration": "0 minutes 15 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2022-06-11 18:50:06
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Kafka implementation for Open edX event bus
-    disk_usage_kb: 598
+    disk_usage_kb: 605
     first_timer_prs_90d: 0
     fork_count: 7
     good_first_issues_open: 0
@@ -96,15 +97,15 @@ github:
     issues_open: 10
     issues_opened_90d: 2
     issues_stale_open_180d: 7
-    last_push: 2026-10-22 07:38:49
+    last_push: 2026-10-26 03:53:12
     license: GNU AGPLv3
     median_pr_response_seconds: 3726664
     median_pr_time_to_merge_seconds: 229988
-    oldest_open_pr_days: 1272
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 9
-    prs_open: 3
-    pulls_count: 3
+    oldest_open_pr_days: 1273
+    pr_closure_ratio_90d: 0.8182
+    pr_opened_90d: 11
+    prs_open: 5
+    pulls_count: 5
     release_count_12mo: 1
 github_actions: true
 language_bytes:
@@ -138,7 +139,6 @@ readme:
     bad_links:
     - 'https://openedx-slack-invite.herokuapp.com/: 404'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
     - 'https://edx-event-bus-kafka.readthedocs.io/en/latest/: 404'
     getting-help: true
     good_links:
@@ -148,6 +148,7 @@ readme:
     - https://docs.astral.sh/uv/getting-started/installation/
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://discuss.openedx.org
+    - https://openedx.org/getting-help
     - https://img.shields.io/pypi/v/edx-event-bus-kafka.svg
     - https://pypi.python.org/pypi/edx-event-bus-kafka/
     - https://github.com/openedx/event-bus-kafka/workflows/Python%20CI/badge.svg?branch=main

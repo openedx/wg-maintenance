@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-25
+TIMESTAMP: 2026-10-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,24 +61,33 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 5
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 2
-    build_details: '{"total_duration": "2 minutes 23 seconds", "checks": [{"name":
+    branch_count: 4
+    build_details: '{"total_duration": "5326 minutes 56 seconds", "checks": [{"name":
         "quality", "duration": "1 minutes 20 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 1 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
-        44 seconds"}, {"name": "Tests (ubuntu-latest, 3.12)", "duration": "0 minutes
-        20 seconds"}, {"name": "docs", "duration": "0 minutes 15 seconds"}]}'
+        "1 minutes 1 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 58 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 44 seconds"}, {"name": "Tests (ubuntu-latest, 3.12)",
+        "duration": "0 minutes 20 seconds"}, {"name": "docs", "duration": "0 minutes
+        15 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2014-07-09 17:08:56
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Webhooks for the Open edX GitHub and JIRA
-    disk_usage_kb: 2372
+    disk_usage_kb: 2487
     first_timer_prs_90d: 0
     fork_count: 22
     good_first_issues_open: 0
@@ -92,14 +101,14 @@ github:
     issues_open: 13
     issues_opened_90d: 0
     issues_stale_open_180d: 13
-    last_push: 2026-10-22 07:34:03
+    last_push: 2026-10-26 04:04:23
     license: Apache License 2.0
     median_pr_time_to_merge_seconds: 110029
-    oldest_open_pr_days: 4
-    pr_closure_ratio_90d: 0.95
-    pr_opened_90d: 20
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 5
+    pr_closure_ratio_90d: 0.8571
+    pr_opened_90d: 21
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 0
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-25
+TIMESTAMP: 2026-10-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,17 +67,18 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 31
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 4
-    build_details: '{"total_duration": "168 minutes 19 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "3379 minutes 6 seconds", "checks": [{"name":
         "Dependabot", "duration": "2 minutes 4 seconds"}, {"name": "Dependabot", "duration":
         "1 minutes 50 seconds"}, {"name": "Dependabot", "duration": "1 minutes 41
         seconds"}, {"name": "test", "duration": "1 minutes 16 seconds"}, {"name":
-        "Release", "duration": "0 minutes 48 seconds"}, {"name": "self_assign_by_comment
+        "Release", "duration": "0 minutes 48 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "0 minutes 29 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
         / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
         / remove_label", "duration": "-1 minutes 51 seconds"}]}'
@@ -106,7 +107,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 1053
     median_pr_time_to_merge_seconds: 62176
-    oldest_open_pr_days: 1
+    oldest_open_pr_days: 2
     pr_closure_ratio_90d: 0.9565
     pr_opened_90d: 23
     prs_open: 1
@@ -142,11 +143,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-aspects:
         404'
     getting-help: true
@@ -159,6 +156,10 @@ readme:
     - https://github.com/openedx/frontend-base
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-app-aspects.svg
     - https://github.com/openedx/frontend-app-aspects/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
