@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-25
+TIMESTAMP: 2026-10-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -99,9 +99,9 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 227351
     median_pr_time_to_merge_seconds: 169498
-    oldest_open_pr_days: 24
-    pr_closure_ratio_90d: 0.9091
-    pr_opened_90d: 11
+    oldest_open_pr_days: 25
+    pr_closure_ratio_90d: 0.9
+    pr_opened_90d: 10
     prs_open: 1
     pulls_count: 1
     release_count_12mo: 2
@@ -136,7 +136,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://www.npmjs.com/package/@edx/openedx-atlas: 403'
-    - 'https://open.edx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://pypi.org/project/openedx-atlas/
@@ -150,6 +149,7 @@ readme:
     - https://github.com/semantic-release/semantic-release/
     - https://open-edx-proposals.readthedocs.io/en/latest/oep-0051-bp-conventional-commits.html
     - https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
+    - https://open.edx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: false

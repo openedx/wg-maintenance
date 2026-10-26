@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-25
+TIMESTAMP: 2026-10-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,28 +61,36 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 66
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 6
-    build_details: '{"total_duration": "1 minutes 5 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 41 seconds"}, {"name": "run_ci / django42",
-        "duration": "0 minutes 21 seconds"}, {"name": "django42", "duration": "0 minutes
-        21 seconds"}, {"name": "run_ci / django52", "duration": "0 minutes 20 seconds"},
-        {"name": "run_ci / docs", "duration": "0 minutes 18 seconds"}, {"name": "django52",
+    branch_count: 8
+    build_details: '{"total_duration": "5371 minutes 27 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 52 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 47 seconds"}, {"name": "release",
+        "duration": "0 minutes 41 seconds"}, {"name": "run_ci / django42", "duration":
+        "0 minutes 21 seconds"}, {"name": "django42", "duration": "0 minutes 21 seconds"},
+        {"name": "run_ci / django52", "duration": "0 minutes 20 seconds"}, {"name":
+        "run_ci / docs", "duration": "0 minutes 18 seconds"}, {"name": "django52",
         "duration": "0 minutes 18 seconds"}, {"name": "lint", "duration": "0 minutes
         15 seconds"}, {"name": "docs", "duration": "0 minutes 15 seconds"}, {"name":
         "run_ci / lint", "duration": "0 minutes 13 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 0 seconds"}]}'
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2025-04-17 17:54:17
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1036
+    disk_usage_kb: 1025
     first_timer_prs_90d: 0
     fork_count: 5
     good_first_issues_open: 0
@@ -97,16 +105,16 @@ github:
     issues_open: 3
     issues_opened_90d: 1
     issues_stale_open_180d: 2
-    last_push: 2026-10-22 07:14:08
+    last_push: 2026-10-26 00:44:52
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1020412
     median_pr_response_seconds: 259
     median_pr_time_to_merge_seconds: 45547
-    oldest_open_pr_days: 57
-    pr_closure_ratio_90d: 0.9583
-    pr_opened_90d: 24
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 58
+    pr_closure_ratio_90d: 0.8846
+    pr_opened_90d: 26
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 20
 github_actions: true
 language_bytes:
@@ -137,8 +145,7 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://openedx.org/contributor-guidelines: 403'
+    bad_links: []
     getting-help: false
     good_links:
     - https://github.com/openedx-unsupported/AudioXBlock
@@ -151,6 +158,7 @@ readme:
     - https://github.com/openedx/xblocks-extra.git
     - https://docs.openedx.org/en/latest/developers/concepts/oep58.html
     - https://github.com/openedx/openedx-translations
+    - https://openedx.org/contributor-guidelines
     irc-missing: true
     mailing-list-missing: true
     security: false

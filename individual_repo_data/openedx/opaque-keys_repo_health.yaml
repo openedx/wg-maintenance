@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-25
+TIMESTAMP: 2026-10-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,32 +61,41 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 11
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 13
-    build_details: '{"total_duration": "3 minutes 30 seconds", "checks": [{"name":
+    branch_count: 14
+    build_details: '{"total_duration": "5321 minutes 48 seconds", "checks": [{"name":
         "Tests (ubuntu-latest, 3.12, django42)", "duration": "2 minutes 37 seconds"},
         {"name": "run_tests / Tests (ubuntu-latest, 3.12, django42)", "duration":
         "2 minutes 36 seconds"}, {"name": "run_tests / Tests (ubuntu-latest, 3.12,
         without-django)", "duration": "1 minutes 53 seconds"}, {"name": "Tests (ubuntu-latest,
-        3.12, without-django)", "duration": "1 minutes 36 seconds"}, {"name": "release",
+        3.12, without-django)", "duration": "1 minutes 36 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 5 seconds"}, {"name": "release",
         "duration": "0 minutes 50 seconds"}, {"name": "update-uv-graph", "duration":
         "0 minutes 43 seconds"}, {"name": "run_tests / Tests (ubuntu-latest, 3.12,
         quality)", "duration": "0 minutes 27 seconds"}, {"name": "Tests (ubuntu-latest,
         3.12, quality)", "duration": "0 minutes 25 seconds"}, {"name": "run_tests
         / Tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 15 seconds"},
         {"name": "Tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 13 seconds"},
-        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
+        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2014-05-23 17:24:54
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1348
+    disk_usage_kb: 1452
     first_timer_prs_90d: 0
     fork_count: 21
     good_first_issues_open: 0
@@ -101,15 +110,14 @@ github:
     issues_open: 3
     issues_opened_90d: 1
     issues_stale_open_180d: 2
-    last_push: 2026-10-22 07:29:00
+    last_push: 2026-10-26 00:08:40
     license: GNU AGPLv3
-    median_pr_response_seconds: 2011511
-    median_pr_time_to_merge_seconds: 43066
-    oldest_open_pr_days: 228
-    pr_closure_ratio_90d: 0.9167
+    median_pr_time_to_merge_seconds: 51350
+    oldest_open_pr_days: 229
+    pr_closure_ratio_90d: 0.875
     pr_opened_90d: 24
-    prs_open: 3
-    pulls_count: 3
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 4
 github_actions: true
 language_bytes:

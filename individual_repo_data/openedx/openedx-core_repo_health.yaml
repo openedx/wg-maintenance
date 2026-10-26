@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-25
+TIMESTAMP: 2026-10-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 129
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 22
+    branch_count: 23
     build_details: '{"total_duration": "507 minutes 11 seconds", "checks": [{"name":
         "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration": "5 minutes
         9 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52, 8)", "duration":
@@ -97,7 +97,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 3234
+    disk_usage_kb: 3179
     first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
@@ -112,16 +112,16 @@ github:
     issues_open: 194
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-23 17:04:31
+    last_push: 2026-10-26 00:43:34
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1926159
-    median_pr_response_seconds: 79885
-    median_pr_time_to_merge_seconds: 185087
-    oldest_open_pr_days: 262
-    pr_closure_ratio_90d: 0.7375
-    pr_opened_90d: 80
-    prs_open: 28
-    pulls_count: 28
+    median_pr_response_seconds: 75460
+    median_pr_time_to_merge_seconds: 186076
+    oldest_open_pr_days: 263
+    pr_closure_ratio_90d: 0.7215
+    pr_opened_90d: 79
+    prs_open: 29
+    pulls_count: 29
     release_count_12mo: 48
 github_actions: true
 language_bytes:
@@ -155,14 +155,14 @@ readme:
     bad_links:
     - 'https://open-edx-proposals.readthedocs.io/en/latest/architectural-decisions/oep-0049-django-app-patterns.html:
         404'
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://2021.djangocon.us/talks/scaling-django-to-500-apps/
     - https://www.youtube.com/watch?v=yG3ZdxBb1oo
     - https://discuss.openedx.org
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
     - https://img.shields.io/pypi/v/openedx-core.svg
     - https://pypi.python.org/pypi/openedx-core/
     - https://github.com/openedx/openedx-core/workflows/Python%20CI/badge.svg?branch=master
