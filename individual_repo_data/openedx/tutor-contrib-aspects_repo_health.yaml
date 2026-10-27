@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-26
+TIMESTAMP: 2026-10-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,36 +61,28 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 116
-    lockfile_age_days: 3
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
-    build_details: '{"total_duration": "1062 minutes 1 seconds", "checks": [{"name":
-        "mysql (ralph)", "duration": "23 minutes 0 seconds"}, {"name": "mysql (vector)",
-        "duration": "18 minutes 59 seconds"}, {"name": "mysql (ralph)", "duration":
-        "16 minutes 40 seconds"}, {"name": "mysql (vector)", "duration": "15 minutes
-        31 seconds"}, {"name": "images", "duration": "6 minutes 56 seconds"}, {"name":
-        "images", "duration": "5 minutes 37 seconds"}, {"name": "release", "duration":
-        "0 minutes 57 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
-        52 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes 51 seconds"},
-        {"name": "test / tests", "duration": "0 minutes 30 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 0 seconds"}, {"name": "trigger_image_push", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-2 minutes 50 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-7 minutes 58 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-7 minutes 5 seconds"}]}'
+    branch_count: 26
+    build_details: '{"total_duration": "726 minutes 38 seconds", "checks": [{"name":
+        "images", "duration": "29 minutes 15 seconds"}, {"name": "mysql (vector)",
+        "duration": "23 minutes 16 seconds"}, {"name": "mysql (vector)", "duration":
+        "22 minutes 57 seconds"}, {"name": "mysql (ralph)", "duration": "22 minutes
+        26 seconds"}, {"name": "mysql (ralph)", "duration": "17 minutes 59 seconds"},
+        {"name": "images", "duration": "7 minutes 1 seconds"}, {"name": "release",
+        "duration": "0 minutes 51 seconds"}, {"name": "test / tests", "duration":
+        "0 minutes 28 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
+        59 seconds"}, {"name": "trigger_image_push", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 17
     created_at: 2023-02-07 05:22:39
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: The Open Analytics Reference System - Tutor plugin
-    disk_usage_kb: 4326
+    disk_usage_kb: 4374
     first_timer_prs_90d: 0
     fork_count: 32
     good_first_issues_open: 1
@@ -105,16 +97,15 @@ github:
     issues_open: 21
     issues_opened_90d: 2
     issues_stale_open_180d: 14
-    last_push: 2026-10-26 00:42:01
+    last_push: 2026-10-26 16:00:09
     license: Apache License 2.0
     median_issue_first_response_seconds: 257
     median_pr_response_seconds: 65742
-    median_pr_time_to_merge_seconds: 72155
-    oldest_open_pr_days: 0
-    pr_closure_ratio_90d: 0.9851
-    pr_opened_90d: 67
-    prs_open: 1
-    pulls_count: 1
+    median_pr_time_to_merge_seconds: 59807
+    pr_closure_ratio_90d: 1.0
+    pr_opened_90d: 72
+    prs_open: 0
+    pulls_count: 0
     release_count_12mo: 13
 github_actions: true
 language_bytes:

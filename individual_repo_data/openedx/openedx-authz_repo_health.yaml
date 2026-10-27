@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-26
+TIMESTAMP: 2026-10-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,33 +60,23 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 114
-    lockfile_age_days: 3
+    commits_365d: 115
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 26
-    build_details: '{"total_duration": "1227 minutes 21 seconds", "checks": [{"name":
-        "run_tests / tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes
-        22 seconds"}, {"name": "release", "duration": "1 minutes 11 seconds"}, {"name":
-        "run_tests / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes
-        43 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12, docs)", "duration":
-        "0 minutes 31 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        22 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12, pii_check)",
-        "duration": "0 minutes 11 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 28
+    build_details: '{"total_duration": "28 minutes 11 seconds", "checks": [{"name":
+        "run_tests / tests (ubuntu-latest, 3.12, django52)", "duration": "2 minutes
+        1 seconds"}, {"name": "release", "duration": "1 minutes 8 seconds"}, {"name":
+        "Dependabot", "duration": "1 minutes 0 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 45 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 38 seconds"}, {"name": "run_tests
+        / tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 37 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 35 seconds"}, {"name":
+        "run_tests / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes
+        14 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 13
     created_at: 2025-05-20 17:33:52
@@ -95,7 +85,7 @@ github:
     description: Specifications for the authorization model, policy data structures,
         and enforcement APIs that define how access control is evaluated and managed
         across the Open edX ecosystem.
-    disk_usage_kb: 1930
+    disk_usage_kb: 2112
     first_timer_prs_90d: 0
     fork_count: 10
     good_first_issues_open: 0
@@ -106,29 +96,29 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.49
-    issues_open: 94
+    issue_closure_ratio_90d: 0.5
+    issues_open: 93
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-26 00:12:32
+    last_push: 2026-10-26 22:34:22
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1599114
-    median_pr_response_seconds: 164942
-    median_pr_time_to_merge_seconds: 903400
-    oldest_open_pr_days: 402
-    pr_closure_ratio_90d: 0.8286
-    pr_opened_90d: 70
-    prs_open: 13
-    pulls_count: 13
-    release_count_12mo: 68
+    median_pr_response_seconds: 178627
+    median_pr_time_to_merge_seconds: 1026686
+    oldest_open_pr_days: 403
+    pr_closure_ratio_90d: 0.8194
+    pr_opened_90d: 72
+    prs_open: 14
+    pulls_count: 14
+    release_count_12mo: 69
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 873
     javascript: 0
-    makefile: 4295
-    python: 1655336
+    makefile: 4341
+    python: 1688052
     shell: 0
 makefile:
     pip-installed: false

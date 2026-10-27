@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-26
+TIMESTAMP: 2026-10-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -76,23 +76,24 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 39
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 171
-    build_details: '{"total_duration": "66 minutes 7 seconds", "checks": [{"name":
+    branch_count: 176
+    build_details: '{"total_duration": "4441 minutes 23 seconds", "checks": [{"name":
         "js", "duration": "5 minutes 57 seconds"}, {"name": "run_ci / js", "duration":
         "5 minutes 53 seconds"}, {"name": "django52", "duration": "3 minutes 45 seconds"},
         {"name": "run_ci / django52", "duration": "3 minutes 32 seconds"}, {"name":
         "run_ci / quality", "duration": "2 minutes 22 seconds"}, {"name": "quality",
         "duration": "2 minutes 4 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 17 seconds"}, {"name": "release", "duration": "1 minutes 1 seconds"},
-        {"name": "docs", "duration": "0 minutes 52 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 52 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 49 seconds"}, {"name": "Dependabot", "duration": "0 minutes 48 seconds"},
-        {"name": "run_ci / docs", "duration": "0 minutes 28 seconds"}, {"name": "publish_to_pypi",
+        minutes 18 seconds"}, {"name": "Dependabot", "duration": "1 minutes 17 seconds"},
+        {"name": "release", "duration": "1 minutes 1 seconds"}, {"name": "docs", "duration":
+        "0 minutes 52 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
+        52 seconds"}, {"name": "Dependabot", "duration": "0 minutes 49 seconds"},
+        {"name": "Dependabot", "duration": "0 minutes 48 seconds"}, {"name": "run_ci
+        / docs", "duration": "0 minutes 28 seconds"}, {"name": "publish_to_pypi",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -103,7 +104,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Open Response Assessment Suite
-    disk_usage_kb: 163968
+    disk_usage_kb: 163645
     first_timer_median_first_response_seconds: 1545473
     first_timer_prs_90d: 2
     fork_count: 218
@@ -119,16 +120,16 @@ github:
     issues_open: 67
     issues_opened_90d: 3
     issues_stale_open_180d: 63
-    last_push: 2026-10-23 16:46:21
+    last_push: 2026-10-26 19:17:24
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1114623
     median_pr_response_seconds: 1545473
     median_pr_time_to_merge_seconds: 1200807
-    oldest_open_pr_days: 1902
-    pr_closure_ratio_90d: 0.5143
-    pr_opened_90d: 35
-    prs_open: 73
-    pulls_count: 73
+    oldest_open_pr_days: 1903
+    pr_closure_ratio_90d: 0.4615
+    pr_opened_90d: 39
+    prs_open: 78
+    pulls_count: 78
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -160,7 +161,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://open.edx.org/getting-help: 403'
     - 'https://coveralls.io/r/edx/edx-ora2?branch=master: 403'
     getting-help: true
     good_links:
@@ -168,6 +168,7 @@ readme:
     - https://docs.openedx.org/en/latest/educators/concepts/exercise_tools/about_OpenResponseAssessments.html
     - https://openedx.atlassian.net/wiki/spaces/EDUCATOR/pages/9765004/ORA+Developer+Guide
     - https://github.com/openedx/devstack
+    - https://open.edx.org/getting-help
     - https://github.com/openedx/edx-ora2/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/edx-ora2/actions?query=workflow%3A%22Python+CI%22
     - https://coveralls.io/repos/edx/edx-ora2/badge.png?branch=master

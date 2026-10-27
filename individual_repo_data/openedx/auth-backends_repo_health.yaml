@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-26
+TIMESTAMP: 2026-10-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 7
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -88,7 +88,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Custom authentication backends and views for edX services
-    disk_usage_kb: 893
+    disk_usage_kb: 957
     first_timer_prs_90d: 0
     fork_count: 23
     good_first_issues_open: 0
@@ -105,7 +105,7 @@ github:
     last_push: 2026-10-26 04:04:51
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 472804
-    oldest_open_pr_days: 292
+    oldest_open_pr_days: 293
     pr_closure_ratio_90d: 0.5833
     pr_opened_90d: 24
     prs_open: 12

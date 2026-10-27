@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-26
+TIMESTAMP: 2026-10-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,7 +65,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
+    branch_count: 11
     build_details: '{"total_duration": "3908 minutes 56 seconds", "checks": [{"name":
         "bulk_update (course-discovery)", "duration": "2 minutes 6 seconds"}, {"name":
         "bulk_update (edx-enterprise)", "duration": "1 minutes 13 seconds"}, {"name":
@@ -113,7 +113,7 @@ github:
     default_branch: master
     description: Centralized openedx repository workflows, community health files,
         etc.
-    disk_usage_kb: 410
+    disk_usage_kb: 432
     first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
@@ -127,13 +127,14 @@ github:
     issues_open: 12
     issues_opened_90d: 0
     issues_stale_open_180d: 12
-    last_push: 2026-10-19 12:27:45
+    last_push: 2026-10-26 14:23:41
     license: Apache License 2.0
     median_pr_time_to_merge_seconds: 784234
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 8
-    prs_open: 0
-    pulls_count: 0
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.7273
+    pr_opened_90d: 11
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 0
 github_actions: true
 language_bytes:
