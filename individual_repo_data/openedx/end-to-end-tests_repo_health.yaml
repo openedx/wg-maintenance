@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-26
+TIMESTAMP: 2026-10-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -64,34 +64,39 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 291
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 11
-    build_details: '{"total_duration": "3750 minutes 34 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "4125 minutes 5 seconds", "checks": [{"name":
         "main aspects images", "duration": "40 minutes 24 seconds"}, {"name": "main
         stock images", "duration": "39 minutes 59 seconds"}, {"name": "Docker: main
         environment / default 3/4", "duration": "26 minutes 8 seconds"}, {"name":
-        "Docker: main environment / aspects 1/1", "duration": "23 minutes 15 seconds"},
-        {"name": "Docker: main environment / default 2/4", "duration": "20 minutes
-        36 seconds"}, {"name": "Docker: last release (verawood) / aspects 1/1", "duration":
-        "19 minutes 18 seconds"}, {"name": "main aspects images", "duration": "18
-        minutes 46 seconds"}, {"name": "Docker: main environment / default 1/4", "duration":
-        "18 minutes 6 seconds"}, {"name": "Docker: main environment / default 4/4",
-        "duration": "17 minutes 44 seconds"}, {"name": "main stock images", "duration":
-        "12 minutes 31 seconds"}, {"name": "Docker: main environment / extended 1/1",
-        "duration": "9 minutes 43 seconds"}, {"name": "main aspects images", "duration":
-        "9 minutes 28 seconds"}, {"name": "verawood aspects images", "duration": "8
-        minutes 58 seconds"}, {"name": "verawood aspects images", "duration": "8 minutes
-        32 seconds"}, {"name": "verawood aspects images", "duration": "8 minutes 29
-        seconds"}, {"name": "main stock images", "duration": "6 minutes 43 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 52 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 50 seconds"}, {"name": "Lint, types & unit tests",
-        "duration": "0 minutes 40 seconds"}, {"name": "Docker: last release (verawood)
-        / plan", "duration": "0 minutes 10 seconds"}, {"name": "Docker: main environment
-        / plan", "duration": "0 minutes 7 seconds"}, {"name": "add_remove_labels /
+        "default 4/4", "duration": "26 minutes 7 seconds"}, {"name": "Docker: main
+        environment / aspects 1/1", "duration": "23 minutes 15 seconds"}, {"name":
+        "default 2/4", "duration": "21 minutes 39 seconds"}, {"name": "default 1/4",
+        "duration": "21 minutes 18 seconds"}, {"name": "default 3/4", "duration":
+        "20 minutes 41 seconds"}, {"name": "Docker: main environment / default 2/4",
+        "duration": "20 minutes 36 seconds"}, {"name": "Docker: last release (verawood)
+        / aspects 1/1", "duration": "19 minutes 18 seconds"}, {"name": "main aspects
+        images", "duration": "18 minutes 46 seconds"}, {"name": "Docker: main environment
+        / default 1/4", "duration": "18 minutes 6 seconds"}, {"name": "Docker: main
+        environment / default 4/4", "duration": "17 minutes 44 seconds"}, {"name":
+        "main stock images", "duration": "12 minutes 31 seconds"}, {"name": "Docker:
+        main environment / extended 1/1", "duration": "9 minutes 43 seconds"}, {"name":
+        "main aspects images", "duration": "9 minutes 28 seconds"}, {"name": "verawood
+        aspects images", "duration": "8 minutes 58 seconds"}, {"name": "verawood aspects
+        images", "duration": "8 minutes 32 seconds"}, {"name": "verawood aspects images",
+        "duration": "8 minutes 29 seconds"}, {"name": "main stock images", "duration":
+        "6 minutes 43 seconds"}, {"name": "Dependabot", "duration": "0 minutes 52
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 50 seconds"}, {"name":
+        "Lint, types & unit tests", "duration": "0 minutes 40 seconds"}, {"name":
+        "Merge reports", "duration": "0 minutes 25 seconds"}, {"name": "Docker: last
+        release (verawood) / plan", "duration": "0 minutes 10 seconds"}, {"name":
+        "Docker: main environment / plan", "duration": "0 minutes 7 seconds"}, {"name":
+        "plan", "duration": "0 minutes 6 seconds"}, {"name": "add_remove_labels /
         add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
         / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "0 minutes 0 seconds"}]}'
@@ -101,9 +106,9 @@ github:
     default_branch: main
     default_branch_ci_state: FAILURE
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 2799
+    disk_usage_kb: 2814
     first_timer_prs_90d: 0
-    fork_count: 3
+    fork_count: 4
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -116,12 +121,12 @@ github:
     issues_open: 62
     issues_opened_90d: 85
     issues_stale_open_180d: 0
-    last_push: 2026-10-23 14:07:56
+    last_push: 2026-10-26 17:31:26
     license: Apache License 2.0
     median_issue_first_response_seconds: 252350
     median_pr_response_seconds: 257519
     median_pr_time_to_merge_seconds: 411388
-    oldest_open_pr_days: 55
+    oldest_open_pr_days: 56
     pr_closure_ratio_90d: 0.8904
     pr_opened_90d: 73
     prs_open: 8

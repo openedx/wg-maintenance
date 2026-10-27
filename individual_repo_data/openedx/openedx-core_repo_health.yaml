@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-26
+TIMESTAMP: 2026-10-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,44 +60,35 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 4
-    commits_365d: 129
-    lockfile_age_days: 3
+    commits_365d: 130
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 23
-    build_details: '{"total_duration": "507 minutes 11 seconds", "checks": [{"name":
-        "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration": "5 minutes
-        9 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52, 8)", "duration":
-        "4 minutes 56 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality, 8)",
-        "duration": "1 minutes 41 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
+    branch_count: 22
+    build_details: '{"total_duration": "132 minutes 13 seconds", "checks": [{"name":
+        "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration": "4 minutes
+        52 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52, 8)", "duration":
+        "4 minutes 34 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality, 8)",
+        "duration": "1 minutes 42 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
         3.12, quality, 8)", "duration": "1 minutes 36 seconds"}, {"name": "release",
-        "duration": "1 minutes 10 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
-        3.12, package, 8)", "duration": "0 minutes 57 seconds"}, {"name": "tests (ubuntu-latest,
+        "duration": "1 minutes 4 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
+        3.12, package, 8)", "duration": "0 minutes 55 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, package, 8)", "duration": "0 minutes 53 seconds"}, {"name": "tests (ubuntu-latest,
         3.12, docs, 8)", "duration": "0 minutes 52 seconds"}, {"name": "run_tests
-        / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 50 seconds"},
-        {"name": "tests (ubuntu-latest, 3.12, package, 8)", "duration": "0 minutes
-        47 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 25 seconds"},
-        {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 48 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 33 seconds"}, {"name":
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "routeissue / add_label", "duration": "-1 minutes 59 seconds"}, {"name":
-        "routeissue / add_and_notify", "duration": "-1 minutes 59 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"}, {"name":
-        "routeissue / add_label", "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 53 seconds"}, {"name": "routeissue
-        / add_and_notify", "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 51 seconds"}, {"name": "routeissue
-        / add_and_notify", "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 50 seconds"}]}'
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 15
     created_at: 2021-12-12 17:41:35
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 3179
+    disk_usage_kb: 3195
     first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
@@ -108,21 +99,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.18
-    issues_open: 194
+    issue_closure_ratio_90d: 0.2
+    issues_open: 193
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-26 00:43:34
+    last_push: 2026-10-26 18:55:11
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 1926159
-    median_pr_response_seconds: 75460
-    median_pr_time_to_merge_seconds: 186076
-    oldest_open_pr_days: 263
-    pr_closure_ratio_90d: 0.7215
-    pr_opened_90d: 79
-    prs_open: 29
-    pulls_count: 29
-    release_count_12mo: 48
+    median_issue_first_response_seconds: 1914801
+    median_pr_response_seconds: 79885
+    median_pr_time_to_merge_seconds: 184084
+    oldest_open_pr_days: 264
+    pr_closure_ratio_90d: 0.7531
+    pr_opened_90d: 81
+    prs_open: 27
+    pulls_count: 27
+    release_count_12mo: 49
 github_actions: true
 language_bytes:
     css: 0
@@ -130,7 +121,7 @@ language_bytes:
     html: 0
     javascript: 0
     makefile: 3037
-    python: 2166088
+    python: 2224916
     shell: 0
 makefile:
     pip-installed: false
