@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-27
+TIMESTAMP: 2026-10-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,35 +60,33 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 4
-    commits_365d: 130
-    lockfile_age_days: 0
+    commits_365d: 131
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 22
-    build_details: '{"total_duration": "132 minutes 13 seconds", "checks": [{"name":
-        "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration": "4 minutes
-        52 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52, 8)", "duration":
-        "4 minutes 34 seconds"}, {"name": "tests (ubuntu-latest, 3.12, quality, 8)",
-        "duration": "1 minutes 42 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
-        3.12, quality, 8)", "duration": "1 minutes 36 seconds"}, {"name": "release",
-        "duration": "1 minutes 4 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
-        3.12, package, 8)", "duration": "0 minutes 55 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, package, 8)", "duration": "0 minutes 53 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, docs, 8)", "duration": "0 minutes 52 seconds"}, {"name": "run_tests
-        / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 48 seconds"},
-        {"name": "publish_to_pypi", "duration": "0 minutes 33 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 54 seconds"}]}'
+    build_details: '{"total_duration": "4 minutes 53 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.12, django52, 8)", "duration": "4 minutes 43 seconds"},
+        {"name": "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration":
+        "3 minutes 27 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12,
+        quality, 8)", "duration": "1 minutes 32 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, quality, 8)", "duration": "1 minutes 13 seconds"}, {"name": "release",
+        "duration": "1 minutes 1 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
+        package, 8)", "duration": "0 minutes 52 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, docs, 8)", "duration": "0 minutes 51 seconds"}, {"name": "run_tests
+        / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 51 seconds"},
+        {"name": "run_tests / tests (ubuntu-latest, 3.12, package, 8)", "duration":
+        "0 minutes 50 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        17 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 15
     created_at: 2021-12-12 17:41:35
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 3195
+    disk_usage_kb: 3207
     first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
@@ -99,21 +97,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.2
-    issues_open: 193
+    issue_closure_ratio_90d: 0.21
+    issues_open: 191
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-26 18:55:11
+    last_push: 2026-10-27 23:32:25
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1914801
-    median_pr_response_seconds: 79885
-    median_pr_time_to_merge_seconds: 184084
-    oldest_open_pr_days: 264
-    pr_closure_ratio_90d: 0.7531
-    pr_opened_90d: 81
+    median_pr_response_seconds: 84310
+    median_pr_time_to_merge_seconds: 184091
+    oldest_open_pr_days: 265
+    pr_closure_ratio_90d: 0.7561
+    pr_opened_90d: 82
     prs_open: 27
     pulls_count: 27
-    release_count_12mo: 49
+    release_count_12mo: 50
 github_actions: true
 language_bytes:
     css: 0
@@ -121,7 +119,7 @@ language_bytes:
     html: 0
     javascript: 0
     makefile: 3037
-    python: 2224916
+    python: 2256273
     shell: 0
 makefile:
     pip-installed: false
