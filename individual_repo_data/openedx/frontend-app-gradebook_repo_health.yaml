@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-27
+TIMESTAMP: 2026-10-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -69,7 +69,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 23
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -85,7 +85,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Instructor grade book tool
-    disk_usage_kb: 12318
+    disk_usage_kb: 12330
     first_timer_median_first_response_seconds: 532713
     first_timer_prs_90d: 2
     fork_count: 123
@@ -101,15 +101,15 @@ github:
     issues_open: 14
     issues_opened_90d: 3
     issues_stale_open_180d: 13
-    last_push: 2026-10-26 14:16:18
+    last_push: 2026-10-27 13:32:23
     license: GNU AGPLv3
     median_pr_response_seconds: 37345
-    median_pr_time_to_merge_seconds: 11050
-    oldest_open_pr_days: 1279
-    pr_closure_ratio_90d: 0.7447
+    median_pr_time_to_merge_seconds: 15760
+    oldest_open_pr_days: 1280
+    pr_closure_ratio_90d: 0.766
     pr_opened_90d: 47
-    prs_open: 32
-    pulls_count: 32
+    prs_open: 31
+    pulls_count: 31
     release_count_12mo: 10
 github_actions: true
 language_bytes:
