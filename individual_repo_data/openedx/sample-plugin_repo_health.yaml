@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-28
+TIMESTAMP: 2026-10-29
 dependabot:
     exists: true
     has_ecosystem:
@@ -105,7 +105,7 @@ github:
     license: null
     median_pr_response_seconds: 107814
     median_pr_time_to_merge_seconds: 21826
-    oldest_open_pr_days: 166
+    oldest_open_pr_days: 167
     pr_closure_ratio_90d: 0.9615
     pr_opened_90d: 26
     prs_open: 3
