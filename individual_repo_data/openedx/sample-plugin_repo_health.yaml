@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-29
+TIMESTAMP: 2026-10-30
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,34 +60,33 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 111
+    commits_365d: 115
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "2 minutes 17 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 15 seconds"}, {"name": "run_ci / backend
-        / tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 35 seconds"},
-        {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 32 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
-        3.12, docs)", "duration": "0 minutes 31 seconds"}, {"name": "run_ci / backend
-        / tests (ubuntu-latest, 3.12, django60)", "duration": "0 minutes 30 seconds"},
+    build_details: '{"total_duration": "2 minutes 11 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 3 seconds"}, {"name": "run_ci / frontend
+        / build", "duration": "0 minutes 58 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 43 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
+        3.12, django60)", "duration": "0 minutes 38 seconds"}, {"name": "run_ci /
+        backend / tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 38
+        seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, quality)",
+        "duration": "0 minutes 33 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
+        3.12, docs)", "duration": "0 minutes 29 seconds"}, {"name": "run_ci / backend
+        / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes 27 seconds"},
         {"name": "run_ci / tutor / build", "duration": "0 minutes 22 seconds"}, {"name":
-        "run_ci / frontend / build", "duration": "0 minutes 21 seconds"}, {"name":
-        "run_ci / backend / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0
-        minutes 15 seconds"}, {"name": "run_ci / brand / build", "duration": "0 minutes
-        13 seconds"}, {"name": "run_ci / all required checks passed", "duration":
-        "0 minutes 3 seconds"}]}'
+        "run_ci / brand / build", "duration": "0 minutes 16 seconds"}, {"name": "run_ci
+        / all required checks passed", "duration": "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 2
+    contributor_count_90d: 3
     created_at: 2025-03-21 17:45:40
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1013
-    first_timer_median_first_response_seconds: 107814
-    first_timer_prs_90d: 1
+    disk_usage_kb: 1022
+    first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0
     has_issues: true
@@ -101,16 +100,16 @@ github:
     issues_open: 9
     issues_opened_90d: 1
     issues_stale_open_180d: 4
-    last_push: 2026-10-26 14:41:02
+    last_push: 2026-10-29 18:16:31
     license: null
     median_pr_response_seconds: 107814
-    median_pr_time_to_merge_seconds: 21826
-    oldest_open_pr_days: 167
-    pr_closure_ratio_90d: 0.9615
+    median_pr_time_to_merge_seconds: 21841
+    oldest_open_pr_days: 168
+    pr_closure_ratio_90d: 1.0
     pr_opened_90d: 26
-    prs_open: 3
-    pulls_count: 3
-    release_count_12mo: 38
+    prs_open: 2
+    pulls_count: 2
+    release_count_12mo: 39
 github_actions: true
 language_bytes:
     css: 0
@@ -153,6 +152,7 @@ readme:
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/openedx-tutor-plugins/tree/main/plugins/tutor-contrib-paragon
     - https://cdn.jsdelivr.net/gh/openedx/sample-plugin@main/brand-sample/dist/light.min.css
+    - https://python-semantic-release.readthedocs.io/en/latest/concepts/multibranch_releases.html
     - https://openedx.org/slack
     - https://discuss.openedx.org
     - https://github.com/openedx/sample-plugin/issues

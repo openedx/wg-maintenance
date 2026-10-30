@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-29
+TIMESTAMP: 2026-10-30
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,7 +66,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 16
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -105,7 +105,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 1706
     median_pr_time_to_merge_seconds: 252841
-    oldest_open_pr_days: 1162
+    oldest_open_pr_days: 1163
     pr_closure_ratio_90d: 0.4286
     pr_opened_90d: 28
     prs_open: 37
@@ -145,7 +145,7 @@ readme:
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application:
         404'
     getting-help: true

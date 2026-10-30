@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-29
+TIMESTAMP: 2026-10-30
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,13 +61,13 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 99
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 11
-    build_details: '{"total_duration": "1653 minutes 20 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "11724 minutes 28 seconds", "checks": [{"name":
         "run_ci / tests (ubuntu-latest, 3.11, django52)", "duration": "3 minutes 41
         seconds"}, {"name": "tests (ubuntu-latest, 3.11, django52)", "duration": "3
         minutes 35 seconds"}, {"name": "tests (ubuntu-latest, 3.11, django42)", "duration":
@@ -75,6 +75,7 @@ github:
         "duration": "3 minutes 12 seconds"}, {"name": "tests (ubuntu-latest, 3.11,
         quality)", "duration": "1 minutes 14 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
         3.11, quality)", "duration": "1 minutes 13 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 10 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "1 minutes 2 seconds"}, {"name": "update-uv-graph",
         "duration": "0 minutes 46 seconds"}, {"name": "release", "duration": "0 minutes
         41 seconds"}, {"name": "tests (ubuntu-latest, 3.11, pii_check)", "duration":
@@ -109,11 +110,11 @@ github:
     issues_open: 1
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-10-23 00:39:39
+    last_push: 2026-10-30 00:30:51
     license: GNU AGPLv3
     median_pr_response_seconds: 26329
-    median_pr_time_to_merge_seconds: 652118
-    oldest_open_pr_days: 345
+    median_pr_time_to_merge_seconds: 651123
+    oldest_open_pr_days: 346
     pr_closure_ratio_90d: 0.875
     pr_opened_90d: 32
     prs_open: 12
