@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-29
+TIMESTAMP: 2026-10-30
 dependabot:
     exists: false
     has_ecosystem:
@@ -76,7 +76,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 40
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -112,7 +112,7 @@ github:
     median_issue_first_response_seconds: 1683647
     median_pr_response_seconds: 515435
     median_pr_time_to_merge_seconds: 465281
-    oldest_open_pr_days: 1844
+    oldest_open_pr_days: 1845
     pr_closure_ratio_90d: 0.8889
     pr_opened_90d: 18
     prs_open: 20
@@ -152,7 +152,7 @@ readme:
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/frontend-base

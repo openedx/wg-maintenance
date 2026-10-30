@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-29
+TIMESTAMP: 2026-10-30
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 50
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -85,7 +85,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Tools for repo maintenance, etc.
-    disk_usage_kb: 2871
+    disk_usage_kb: 2874
     first_timer_prs_90d: 0
     fork_count: 47
     good_first_issues_open: 0
@@ -103,11 +103,11 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 65053
     median_pr_time_to_merge_seconds: 202254
-    oldest_open_pr_days: 1174
-    pr_closure_ratio_90d: 0.7297
+    oldest_open_pr_days: 1175
+    pr_closure_ratio_90d: 0.7568
     pr_opened_90d: 37
-    prs_open: 26
-    pulls_count: 26
+    prs_open: 25
+    pulls_count: 25
     release_count_12mo: 8
 github_actions: true
 language_bytes:
