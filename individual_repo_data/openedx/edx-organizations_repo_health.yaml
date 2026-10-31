@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-30
+TIMESTAMP: 2026-10-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 10
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -107,7 +107,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 543218
     median_pr_time_to_merge_seconds: 53899
-    oldest_open_pr_days: 4
+    oldest_open_pr_days: 5
     pr_closure_ratio_90d: 0.9286
     pr_opened_90d: 28
     prs_open: 2

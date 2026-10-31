@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-30
+TIMESTAMP: 2026-10-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 20
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -86,7 +86,7 @@ github:
     created_at: 2023-01-05 19:08:37
     default_branch: main
     description: Aspects - Analytics for Open edX
-    disk_usage_kb: 6276
+    disk_usage_kb: 6277
     first_timer_prs_90d: 0
     fork_count: 12
     good_first_issues_open: 0
@@ -98,10 +98,10 @@ github:
     is_locked: false
     is_private: false
     issue_closure_ratio_90d: 0.0
-    issues_open: 50
-    issues_opened_90d: 37
+    issues_open: 52
+    issues_opened_90d: 39
     issues_stale_open_180d: 3
-    last_push: 2026-10-26 15:11:15
+    last_push: 2026-10-30 06:23:58
     license: Apache License 2.0
     median_issue_first_response_seconds: 2937907
     median_pr_response_seconds: 6720
@@ -110,7 +110,7 @@ github:
     pr_opened_90d: 17
     prs_open: 0
     pulls_count: 0
-    release_count_12mo: 1
+    release_count_12mo: 2
 github_actions: true
 language_bytes:
     css: 0

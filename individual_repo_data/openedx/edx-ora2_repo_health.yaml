@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-30
+TIMESTAMP: 2026-10-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -76,7 +76,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 44
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -121,7 +121,7 @@ github:
     median_issue_first_response_seconds: 1114623
     median_pr_response_seconds: 2266846
     median_pr_time_to_merge_seconds: 292741
-    oldest_open_pr_days: 1906
+    oldest_open_pr_days: 1907
     pr_closure_ratio_90d: 0.5952
     pr_opened_90d: 42
     prs_open: 73
@@ -157,7 +157,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://open.edx.org/getting-help: 403'
     - 'https://coveralls.io/r/edx/edx-ora2?branch=master: 403'
     getting-help: true
     good_links:
@@ -165,6 +164,7 @@ readme:
     - https://docs.openedx.org/en/latest/educators/concepts/exercise_tools/about_OpenResponseAssessments.html
     - https://openedx.atlassian.net/wiki/spaces/EDUCATOR/pages/9765004/ORA+Developer+Guide
     - https://github.com/openedx/devstack
+    - https://open.edx.org/getting-help
     - https://github.com/openedx/edx-ora2/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/edx-ora2/actions?query=workflow%3A%22Python+CI%22
     - https://coveralls.io/repos/edx/edx-ora2/badge.png?branch=master

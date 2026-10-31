@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-30
+TIMESTAMP: 2026-10-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,32 +60,33 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 4
-    commits_365d: 136
-    lockfile_age_days: 3
+    commits_365d: 138
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 21
-    build_details: '{"total_duration": "6 minutes 32 seconds", "checks": [{"name":
-        "tests (ubuntu-latest, 3.12, django52, 8)", "duration": "5 minutes 51 seconds"},
-        {"name": "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration":
-        "5 minutes 36 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12,
-        quality, 8)", "duration": "1 minutes 26 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, quality, 8)", "duration": "1 minutes 25 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, package, 8)", "duration": "0 minutes 54 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, docs, 8)", "duration": "0 minutes 53 seconds"}, {"name": "release",
-        "duration": "0 minutes 52 seconds"}, {"name": "run_tests / tests (ubuntu-latest,
-        3.12, package, 8)", "duration": "0 minutes 50 seconds"}, {"name": "run_tests
-        / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 47 seconds"},
-        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 20
+    build_details: '{"total_duration": "6 minutes 53 seconds", "checks": [{"name":
+        "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration": "5 minutes
+        58 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52, 8)", "duration":
+        "4 minutes 49 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12,
+        quality, 8)", "duration": "1 minutes 39 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, quality, 8)", "duration": "1 minutes 36 seconds"}, {"name": "run_tests
+        / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 53 seconds"},
+        {"name": "run_tests / tests (ubuntu-latest, 3.12, package, 8)", "duration":
+        "0 minutes 51 seconds"}, {"name": "tests (ubuntu-latest, 3.12, docs, 8)",
+        "duration": "0 minutes 51 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
+        package, 8)", "duration": "0 minutes 48 seconds"}, {"name": "release", "duration":
+        "0 minutes 46 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 16
     created_at: 2021-12-12 17:41:35
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 3299
+    disk_usage_kb: 3000
     first_timer_prs_90d: 0
     fork_count: 34
     good_first_issues_open: 0
@@ -97,20 +98,20 @@ github:
     is_locked: false
     is_private: false
     issue_closure_ratio_90d: 0.23
-    issues_open: 192
+    issues_open: 191
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-30 02:24:16
+    last_push: 2026-10-30 22:21:42
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 1914801
+    median_issue_first_response_seconds: 1868349
     median_pr_response_seconds: 74159
     median_pr_time_to_merge_seconds: 184091
-    oldest_open_pr_days: 267
-    pr_closure_ratio_90d: 0.7614
+    oldest_open_pr_days: 268
+    pr_closure_ratio_90d: 0.7841
     pr_opened_90d: 88
-    prs_open: 27
-    pulls_count: 27
-    release_count_12mo: 53
+    prs_open: 25
+    pulls_count: 25
+    release_count_12mo: 54
 github_actions: true
 language_bytes:
     css: 0
@@ -118,7 +119,7 @@ language_bytes:
     html: 0
     javascript: 0
     makefile: 3037
-    python: 2341993
+    python: 2381356
     shell: 0
 makefile:
     pip-installed: false
