@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-30
+TIMESTAMP: 2026-10-31
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
+    branch_count: 11
     build_details: '{"total_duration": "4 minutes 16 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 13 seconds"}, {"name": "release", "duration":
         "1 minutes 6 seconds"}, {"name": "Dependabot", "duration": "1 minutes 5 seconds"},
@@ -89,7 +89,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: A Django application for managing user-triggered asynchronous tasks.
-    disk_usage_kb: 963
+    disk_usage_kb: 970
     first_timer_prs_90d: 0
     fork_count: 22
     good_first_issues_open: 0
@@ -103,15 +103,15 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-10-29 19:49:20
+    last_push: 2026-10-30 14:23:01
     license: Apache License 2.0
     median_pr_response_seconds: 545585
     median_pr_time_to_merge_seconds: 259750
-    oldest_open_pr_days: 325
-    pr_closure_ratio_90d: 0.625
-    pr_opened_90d: 8
-    prs_open: 5
-    pulls_count: 5
+    oldest_open_pr_days: 326
+    pr_closure_ratio_90d: 0.5
+    pr_opened_90d: 10
+    prs_open: 7
+    pulls_count: 7
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -144,7 +144,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://open-edx-proposals.readthedocs.io/en/latest/oeps/oep-0003.html: 404'
-    - 'https://open.edx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/django-user-tasks.svg
@@ -163,6 +162,7 @@ readme:
     - http://docs.celeryproject.org/en/latest/userguide/signals.html
     - https://django-user-tasks.readthedocs.org
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://open.edx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true
