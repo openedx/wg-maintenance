@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-31
+TIMESTAMP: 2026-11-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -88,7 +88,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 12
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
@@ -107,7 +107,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Enterprise Learner Portal
-    disk_usage_kb: 21742
+    disk_usage_kb: 21719
     first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
@@ -124,7 +124,7 @@ github:
     last_push: 2026-10-31 04:13:41
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 25880
-    oldest_open_pr_days: 1740
+    oldest_open_pr_days: 1741
     pr_closure_ratio_90d: 0.4
     pr_opened_90d: 35
     prs_open: 66
