@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-31
+TIMESTAMP: 2026-11-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 9
-    lockfile_age_days: 9
+    lockfile_age_days: 10
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -101,7 +101,7 @@ github:
     last_push: 2026-10-26 14:23:01
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 40564
-    oldest_open_pr_days: 5
+    oldest_open_pr_days: 6
     pr_closure_ratio_90d: 0.8667
     pr_opened_90d: 15
     prs_open: 2
@@ -138,12 +138,19 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack: 404'
+    - 'https://travis-ci.org/edx-solutions/xblock-google-drive.svg?branch=master:
+        HTTPSConnectionPool(host=''app.travis-ci.com'', port=443): Max retries exceeded
+        with url: /edx-solutions/xblock-google-drive.svg?branch=master (Caused by
+        SSLError(SSLCertVerificationError(1, ''[SSL: CERTIFICATE_VERIFY_FAILED] certificate
+        verify failed: certificate has expired (_ssl.c:1010)'')))'
+    - 'https://travis-ci.org/edx-solutions/xblock-google-drive: HTTPSConnectionPool(host=''app.travis-ci.com'',
+        port=443): Max retries exceeded with url: /edx-solutions/xblock-google-drive
+        (Caused by SSLError(SSLCertVerificationError(1, ''[SSL: CERTIFICATE_VERIFY_FAILED]
+        certificate verify failed: certificate has expired (_ssl.c:1010)'')))'
     getting-help: false
     good_links:
     - https://docs.openedx.org/en/latest/developers/references/developer_guide/internationalization/i18n.html
     - https://xblock-tutorial.readthedocs.io/en/latest/
-    - https://travis-ci.org/edx-solutions/xblock-google-drive.svg?branch=master
-    - https://travis-ci.org/edx-solutions/xblock-google-drive
     irc-missing: true
     mailing-list-missing: true
     security: false

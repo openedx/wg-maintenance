@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-10-31
+TIMESTAMP: 2026-11-01
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 23
-    lockfile_age_days: 8
+    lockfile_age_days: 9
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -95,7 +95,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 72079
     median_pr_time_to_merge_seconds: 47829
-    oldest_open_pr_days: 2076
+    oldest_open_pr_days: 2077
     pr_closure_ratio_90d: 0.9091
     pr_opened_90d: 22
     prs_open: 17
@@ -131,11 +131,14 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://travis-ci.com/edx/enterprise-catalog.svg?branch=master: HTTPSConnectionPool(host=''app.travis-ci.com'',
+        port=443): Max retries exceeded with url: /edx/enterprise-catalog.svg?branch=master
+        (Caused by SSLError(SSLCertVerificationError(1, ''[SSL: CERTIFICATE_VERIFY_FAILED]
+        certificate verify failed: certificate has expired (_ssl.c:1010)'')))'
     - 'https://travis-ci.com/edx/enterprise-catalog: 404'
     - 'https://openedx.slack.com/messages/general/: 403'
     getting-help: false
     good_links:
-    - https://travis-ci.com/edx/enterprise-catalog.svg?branch=master
     - http://codecov.io/github/edx/enterprise-catalog/coverage.svg?branch=master
     - http://codecov.io/github/edx/enterprise-catalog?branch=master
     - https://github.com/openedx/enterprise-catalog/blob/master/LICENSE
