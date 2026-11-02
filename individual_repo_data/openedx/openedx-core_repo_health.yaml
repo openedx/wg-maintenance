@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-01
+TIMESTAMP: 2026-11-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,32 +61,39 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 138
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 20
-    build_details: '{"total_duration": "6 minutes 53 seconds", "checks": [{"name":
+    branch_count: 21
+    build_details: '{"total_duration": "3008 minutes 8 seconds", "checks": [{"name":
         "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration": "5 minutes
         58 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52, 8)", "duration":
         "4 minutes 49 seconds"}, {"name": "run_tests / tests (ubuntu-latest, 3.12,
         quality, 8)", "duration": "1 minutes 39 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, quality, 8)", "duration": "1 minutes 36 seconds"}, {"name": "run_tests
+        3.12, quality, 8)", "duration": "1 minutes 36 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 4 seconds"}, {"name": "run_tests
         / tests (ubuntu-latest, 3.12, docs, 8)", "duration": "0 minutes 53 seconds"},
         {"name": "run_tests / tests (ubuntu-latest, 3.12, package, 8)", "duration":
         "0 minutes 51 seconds"}, {"name": "tests (ubuntu-latest, 3.12, docs, 8)",
         "duration": "0 minutes 51 seconds"}, {"name": "tests (ubuntu-latest, 3.12,
         package, 8)", "duration": "0 minutes 48 seconds"}, {"name": "release", "duration":
         "0 minutes 46 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        0 seconds"}]}'
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 16
     created_at: 2021-12-12 17:41:35
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 3000
+    disk_usage_kb: 3173
     first_timer_prs_90d: 0
     fork_count: 34
     good_first_issues_open: 0
@@ -101,16 +108,16 @@ github:
     issues_open: 191
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-10-30 22:21:42
+    last_push: 2026-11-02 00:29:29
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1868349
     median_pr_response_seconds: 74159
     median_pr_time_to_merge_seconds: 184091
-    oldest_open_pr_days: 269
-    pr_closure_ratio_90d: 0.7841
-    pr_opened_90d: 88
-    prs_open: 25
-    pulls_count: 25
+    oldest_open_pr_days: 270
+    pr_closure_ratio_90d: 0.7753
+    pr_opened_90d: 89
+    prs_open: 26
+    pulls_count: 26
     release_count_12mo: 54
 github_actions: true
 language_bytes:

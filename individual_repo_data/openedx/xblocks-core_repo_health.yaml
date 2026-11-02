@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-01
+TIMESTAMP: 2026-11-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,24 +61,28 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 76
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 7
-    build_details: '{"total_duration": "427 minutes 43 seconds", "checks": [{"name":
+    branch_count: 8
+    build_details: '{"total_duration": "4724 minutes 41 seconds", "checks": [{"name":
         "Analyze (javascript-typescript)", "duration": "2 minutes 43 seconds"}, {"name":
         "Run JavaScript Tests (24)", "duration": "2 minutes 17 seconds"}, {"name":
+        "Analyze (javascript-typescript)", "duration": "2 minutes 3 seconds"}, {"name":
         "release", "duration": "1 minutes 33 seconds"}, {"name": "Analyze (python)",
-        "duration": "1 minutes 12 seconds"}, {"name": "django42", "duration": "0 minutes
-        53 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes 50 seconds"},
-        {"name": "Analyze (actions)", "duration": "0 minutes 45 seconds"}, {"name":
-        "run_tests / django52", "duration": "0 minutes 45 seconds"}, {"name": "run_tests
-        / docs", "duration": "0 minutes 45 seconds"}, {"name": "quality", "duration":
-        "0 minutes 45 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes
-        41 seconds"}, {"name": "django52", "duration": "0 minutes 41 seconds"}, {"name":
-        "docs", "duration": "0 minutes 38 seconds"}, {"name": "publish_to_pypi", "duration":
+        "duration": "1 minutes 12 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 59 seconds"}, {"name": "django42",
+        "duration": "0 minutes 53 seconds"}, {"name": "Analyze (python)", "duration":
+        "0 minutes 53 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes
+        50 seconds"}, {"name": "Analyze (actions)", "duration": "0 minutes 45 seconds"},
+        {"name": "run_tests / django52", "duration": "0 minutes 45 seconds"}, {"name":
+        "run_tests / docs", "duration": "0 minutes 45 seconds"}, {"name": "quality",
+        "duration": "0 minutes 45 seconds"}, {"name": "run_tests / quality", "duration":
+        "0 minutes 41 seconds"}, {"name": "django52", "duration": "0 minutes 41 seconds"},
+        {"name": "docs", "duration": "0 minutes 38 seconds"}, {"name": "Analyze (actions)",
+        "duration": "0 minutes 37 seconds"}, {"name": "publish_to_pypi", "duration":
         "0 minutes 21 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
@@ -89,7 +93,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: 'Core Open edX XBlock types: Problem, Text, Video, etc.'
-    disk_usage_kb: 23261
+    disk_usage_kb: 23436
     first_timer_median_first_response_seconds: 291267
     first_timer_prs_90d: 6
     fork_count: 16
@@ -105,16 +109,16 @@ github:
     issues_open: 18
     issues_opened_90d: 5
     issues_stale_open_180d: 5
-    last_push: 2026-10-29 17:24:02
+    last_push: 2026-11-02 00:06:03
     license: GNU AGPLv3
     median_issue_first_response_seconds: 2000210
     median_pr_response_seconds: 368273
     median_pr_time_to_merge_seconds: 23406
-    oldest_open_pr_days: 215
-    pr_closure_ratio_90d: 0.6923
-    pr_opened_90d: 26
-    prs_open: 13
-    pulls_count: 13
+    oldest_open_pr_days: 216
+    pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 27
+    prs_open: 14
+    pulls_count: 14
     release_count_12mo: 33
 github_actions: true
 language_bytes:
