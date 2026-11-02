@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-01
+TIMESTAMP: 2026-11-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,26 +61,30 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 24
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 60
-    build_details: '{"total_duration": "1 minutes 27 seconds", "checks": [{"name":
+    branch_count: 61
+    build_details: '{"total_duration": "9626 minutes 5 seconds", "checks": [{"name":
         "tests (py312-django42)", "duration": "1 minutes 26 seconds"}, {"name": "tests
-        (py312-django52)", "duration": "1 minutes 26 seconds"}, {"name": "quality
+        (py312-django52)", "duration": "1 minutes 26 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 54 seconds"}, {"name": "quality
         (quality)", "duration": "0 minutes 43 seconds"}, {"name": "check migration
         for MySql8 (ubuntu-latest, 3.12)", "duration": "0 minutes 42 seconds"}, {"name":
         "quality (pii_check)", "duration": "0 minutes 14 seconds"}, {"name": "tests
-        (translations)", "duration": "0 minutes 8 seconds"}]}'
+        (translations)", "duration": "0 minutes 8 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2020-04-07 15:41:12
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Django backend for managing licenses and subscriptions
-    disk_usage_kb: 3030
+    disk_usage_kb: 3203
     first_timer_prs_90d: 0
     fork_count: 41
     good_first_issues_open: 0
@@ -94,15 +98,15 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 1
-    last_push: 2026-10-30 06:23:42
+    last_push: 2026-11-02 02:11:30
     license: GNU AGPLv3
     median_pr_response_seconds: 76930
     median_pr_time_to_merge_seconds: 26022
-    oldest_open_pr_days: 277
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 18
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 278
+    pr_closure_ratio_90d: 0.9474
+    pr_opened_90d: 19
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 3
 github_actions: true
 language_bytes:

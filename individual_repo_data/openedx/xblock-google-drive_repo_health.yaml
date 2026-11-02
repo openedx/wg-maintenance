@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-01
+TIMESTAMP: 2026-11-02
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,23 +61,30 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 9
-    lockfile_age_days: 10
+    lockfile_age_days: 11
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 4
-    build_details: '{"total_duration": "6 minutes 37 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "9221 minutes 24 seconds", "checks": [{"name":
         "django52", "duration": "1 minutes 31 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 10 seconds"}, {"name": "release", "duration": "0 minutes 57 seconds"},
-        {"name": "django42", "duration": "0 minutes 55 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 51 seconds"}, {"name": "package", "duration": "0 minutes
-        38 seconds"}, {"name": "quality", "duration": "0 minutes 28 seconds"}, {"name":
-        "run_ci / package", "duration": "0 minutes 28 seconds"}, {"name": "run_ci
-        / quality", "duration": "0 minutes 23 seconds"}, {"name": "run_ci / django42",
-        "duration": "0 minutes 22 seconds"}, {"name": "run_ci / django52", "duration":
-        "0 minutes 21 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        0 seconds"}]}'
+        "1 minutes 10 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 58 seconds"}, {"name": "release",
+        "duration": "0 minutes 57 seconds"}, {"name": "django42", "duration": "0 minutes
+        55 seconds"}, {"name": "Dependabot", "duration": "0 minutes 51 seconds"},
+        {"name": "package", "duration": "0 minutes 38 seconds"}, {"name": "quality",
+        "duration": "0 minutes 28 seconds"}, {"name": "run_ci / package", "duration":
+        "0 minutes 28 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
+        23 seconds"}, {"name": "run_ci / django42", "duration": "0 minutes 22 seconds"},
+        {"name": "run_ci / django52", "duration": "0 minutes 21 seconds"}, {"name":
+        "publish_to_pypi", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2014-11-10 13:34:07
@@ -98,12 +105,12 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-26 14:23:01
+    last_push: 2026-11-02 00:01:30
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 40564
     oldest_open_pr_days: 6
-    pr_closure_ratio_90d: 0.8667
-    pr_opened_90d: 15
+    pr_closure_ratio_90d: 0.875
+    pr_opened_90d: 16
     prs_open: 2
     pulls_count: 2
     release_count_12mo: 1
