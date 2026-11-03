@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-02
+TIMESTAMP: 2026-11-03
 dependabot:
     exists: false
     has_ecosystem:
@@ -60,41 +60,32 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 4
-    commits_365d: 98
-    lockfile_age_days: 11
+    commits_365d: 99
+    lockfile_age_days: 12
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 11
-    build_details: '{"total_duration": "11724 minutes 28 seconds", "checks": [{"name":
-        "run_ci / tests (ubuntu-latest, 3.11, django52)", "duration": "3 minutes 41
-        seconds"}, {"name": "tests (ubuntu-latest, 3.11, django52)", "duration": "3
-        minutes 35 seconds"}, {"name": "tests (ubuntu-latest, 3.11, django42)", "duration":
-        "3 minutes 27 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.11, django42)",
-        "duration": "3 minutes 12 seconds"}, {"name": "tests (ubuntu-latest, 3.11,
-        quality)", "duration": "1 minutes 14 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.11, quality)", "duration": "1 minutes 13 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "1 minutes 10 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "1 minutes 2 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 46 seconds"}, {"name": "release", "duration": "0 minutes
-        41 seconds"}, {"name": "tests (ubuntu-latest, 3.11, pii_check)", "duration":
-        "0 minutes 15 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.11, pii_check)",
-        "duration": "0 minutes 14 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+    build_details: '{"total_duration": "5 minutes 18 seconds", "checks": [{"name":
+        "tests (ubuntu-latest, 3.11, django52)", "duration": "3 minutes 36 seconds"},
+        {"name": "tests (ubuntu-latest, 3.11, django42)", "duration": "3 minutes 25
+        seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.11, django52)", "duration":
+        "3 minutes 18 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.11, django42)",
+        "duration": "2 minutes 59 seconds"}, {"name": "tests (ubuntu-latest, 3.11,
+        quality)", "duration": "1 minutes 18 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
+        3.11, quality)", "duration": "1 minutes 8 seconds"}, {"name": "release", "duration":
+        "1 minutes 3 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        42 seconds"}, {"name": "tests (ubuntu-latest, 3.11, pii_check)", "duration":
+        "0 minutes 17 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.11, pii_check)",
+        "duration": "0 minutes 17 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 12
     created_at: 2024-10-29 13:52:13
     default_branch: main
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: ''
-    disk_usage_kb: 1597
+    disk_usage_kb: 1627
     first_timer_median_first_response_seconds: 19670
     first_timer_prs_90d: 1
     fork_count: 21
@@ -110,24 +101,24 @@ github:
     issues_open: 1
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-10-30 00:30:51
+    last_push: 2026-11-02 13:24:36
     license: GNU AGPLv3
-    median_pr_response_seconds: 26329
-    median_pr_time_to_merge_seconds: 651123
-    oldest_open_pr_days: 349
-    pr_closure_ratio_90d: 0.8438
-    pr_opened_90d: 32
-    prs_open: 13
-    pulls_count: 13
-    release_count_12mo: 51
+    median_pr_response_seconds: 32644
+    median_pr_time_to_merge_seconds: 652118
+    oldest_open_pr_days: 350
+    pr_closure_ratio_90d: 0.8966
+    pr_opened_90d: 29
+    prs_open: 12
+    pulls_count: 12
+    release_count_12mo: 52
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 39984
-    javascript: 898
+    javascript: 1123
     makefile: 4064
-    python: 2534306
+    python: 2542771
     shell: 0
 makefile:
     pip-installed: false

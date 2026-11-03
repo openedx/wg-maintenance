@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-02
+TIMESTAMP: 2026-11-03
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,20 +66,18 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "4688 minutes 25 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 3 seconds"}, {"name": "run_ci / frontend
-        / build", "duration": "0 minutes 58 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 43 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
-        3.12, django60)", "duration": "0 minutes 38 seconds"}, {"name": "run_ci /
-        backend / tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 38
-        seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, quality)",
-        "duration": "0 minutes 33 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
-        3.12, docs)", "duration": "0 minutes 29 seconds"}, {"name": "run_ci / backend
-        / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes 27 seconds"},
-        {"name": "run_ci / tutor / build", "duration": "0 minutes 22 seconds"}, {"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+    build_details: '{"total_duration": "17 minutes 59 seconds", "checks": [{"name":
+        "run_ci / frontend / build", "duration": "1 minutes 31 seconds"}, {"name":
+        "release", "duration": "1 minutes 6 seconds"}, {"name": "run_ci / backend
+        / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 32 seconds"},
+        {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, docs)", "duration":
+        "0 minutes 31 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 31 seconds"}, {"name": "run_ci /
+        backend / tests (ubuntu-latest, 3.12, django60)", "duration": "0 minutes 30
+        seconds"}, {"name": "run_ci / tutor / build", "duration": "0 minutes 19 seconds"},
+        {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, pii_check)", "duration":
         "0 minutes 19 seconds"}, {"name": "run_ci / brand / build", "duration": "0
-        minutes 16 seconds"}, {"name": "run_ci / all required checks passed", "duration":
+        minutes 18 seconds"}, {"name": "run_ci / all required checks passed", "duration":
         "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
@@ -87,7 +85,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1022
+    disk_usage_kb: 1027
     first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0
@@ -102,16 +100,16 @@ github:
     issues_open: 9
     issues_opened_90d: 1
     issues_stale_open_180d: 5
-    last_push: 2026-10-29 18:16:31
+    last_push: 2026-11-02 14:55:09
     license: null
     median_pr_response_seconds: 107814
-    median_pr_time_to_merge_seconds: 21841
-    oldest_open_pr_days: 171
+    median_pr_time_to_merge_seconds: 22090
+    oldest_open_pr_days: 172
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 26
     prs_open: 2
     pulls_count: 2
-    release_count_12mo: 39
+    release_count_12mo: 40
 github_actions: true
 language_bytes:
     css: 0
