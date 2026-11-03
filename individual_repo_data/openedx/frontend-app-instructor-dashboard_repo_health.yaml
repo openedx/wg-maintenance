@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-02
+TIMESTAMP: 2026-11-03
 dependabot:
     exists: false
     has_ecosystem:
@@ -67,13 +67,16 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 124
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 5
-    build_details: '{"total_duration": "", "checks": []}'
+    build_details: '{"total_duration": "0 minutes 0 seconds", "checks": [{"name":
+        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2025-08-21 12:52:46
@@ -99,7 +102,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 80772
     median_pr_time_to_merge_seconds: 42785
-    oldest_open_pr_days: 26
+    oldest_open_pr_days: 27
     pr_closure_ratio_90d: 0.9032
     pr_opened_90d: 31
     prs_open: 3
@@ -139,7 +142,7 @@ readme:
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-instructor-dashboard:
         404'
     getting-help: true

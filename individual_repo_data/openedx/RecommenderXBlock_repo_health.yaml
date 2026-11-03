@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-02
+TIMESTAMP: 2026-11-03
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,19 +61,17 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 15
-    lockfile_age_days: 66
+    lockfile_age_days: 67
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: false
-    branch_count: 27
-    build_details: '{"total_duration": "9300 minutes 14 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 2 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 53 seconds"}, {"name": "Dependabot", "duration": "0 minutes 46
-        seconds"}, {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
-        "duration": "0 minutes 31 seconds"}, {"name": "run_tests / quality (3.12)",
-        "duration": "0 minutes 23 seconds"}, {"name": "publish_to_pypi", "duration":
-        "-1 minutes 59 seconds"}]}'
+    branch_count: 26
+    build_details: '{"total_duration": "15 minutes 0 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 54 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 48 seconds"}, {"name": "run_tests / quality (3.12)", "duration":
+        "0 minutes 14 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
+        59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2017-07-07 15:37:29
@@ -81,7 +79,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: 'edX: An XBlock to recommend resources to other students, written
         by Daniel Li, under my supervision'
-    disk_usage_kb: 1567
+    disk_usage_kb: 1568
     first_timer_prs_90d: 0
     fork_count: 15
     good_first_issues_open: 0
@@ -96,14 +94,14 @@ github:
     issues_open: 1
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-11-02 01:23:17
+    last_push: 2026-11-02 14:39:08
     license: GNU AGPLv3
-    median_pr_time_to_merge_seconds: 485195
-    oldest_open_pr_days: 27
-    pr_closure_ratio_90d: 0.8182
+    median_pr_time_to_merge_seconds: 308808
+    oldest_open_pr_days: 28
+    pr_closure_ratio_90d: 0.9091
     pr_opened_90d: 11
-    prs_open: 2
-    pulls_count: 2
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 3
 github_actions: true
 language_bytes:

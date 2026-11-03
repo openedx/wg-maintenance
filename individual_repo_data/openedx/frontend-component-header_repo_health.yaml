@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-02
+TIMESTAMP: 2026-11-03
 dependabot:
     exists: false
     has_ecosystem:
@@ -72,7 +72,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 7
-    lockfile_age_days: 201
+    lockfile_age_days: 202
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -115,13 +115,13 @@ github:
     last_push: 2026-09-19 09:03:50
     license: GNU AGPLv3
     median_issue_first_response_seconds: 2024263
-    median_pr_response_seconds: 164398
+    median_pr_response_seconds: 112259
     median_pr_time_to_merge_seconds: 1177045
-    oldest_open_pr_days: 1447
-    pr_closure_ratio_90d: 1.0
+    oldest_open_pr_days: 1448
+    pr_closure_ratio_90d: 0.8
     pr_opened_90d: 5
-    prs_open: 15
-    pulls_count: 15
+    prs_open: 16
+    pulls_count: 16
     release_count_12mo: 4
 github_actions: true
 language_bytes:
@@ -159,10 +159,7 @@ readme:
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://api.travis-ci.com/edx/frontend-component-header.svg?branch=master:
-        HTTPSConnectionPool(host=''api.travis-ci.com'', port=443): Max retries exceeded
-        with url: /edx/frontend-component-header.svg?branch=master (Caused by SSLError(SSLCertVerificationError(1,
-        ''[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate
-        has expired (_ssl.c:1010)'')))'
+        404'
     - 'https://travis-ci.com/edx/frontend-component-header: 404'
     getting-help: false
     good_links:

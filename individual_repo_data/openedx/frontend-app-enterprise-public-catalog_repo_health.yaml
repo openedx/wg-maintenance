@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-02
+TIMESTAMP: 2026-11-03
 dependabot:
     exists: false
     has_ecosystem:
@@ -78,7 +78,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 5
-    lockfile_age_days: 401
+    lockfile_age_days: 402
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -99,7 +99,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: A site for public browsing of enterprise catalogs, also called the
         Explore Catalog
-    disk_usage_kb: 12698
+    disk_usage_kb: 12659
     first_timer_prs_90d: 0
     fork_count: 19
     good_first_issues_open: 0
@@ -113,9 +113,9 @@ github:
     issues_open: 4
     issues_opened_90d: 0
     issues_stale_open_180d: 3
-    last_push: 2026-10-28 00:09:56
+    last_push: 2026-11-02 23:21:45
     license: GNU AGPLv3
-    oldest_open_pr_days: 1612
+    oldest_open_pr_days: 1613
     pr_opened_90d: 0
     prs_open: 9
     pulls_count: 9
@@ -153,16 +153,12 @@ readme:
     - 'https://edx.github.io/frontend-platform/module-Internationalization.html: 404'
     - 'https://github.com/openedx/frontend-i18n/blob/master/docs/how_tos/i18n.rst:
         404'
-    - 'https://api.travis-ci.com/edx/frontend-app-enterprise-public-catalog.svg?branch=master:
-        HTTPSConnectionPool(host=''api.travis-ci.com'', port=443): Max retries exceeded
-        with url: /edx/frontend-app-enterprise-public-catalog.svg?branch=master (Caused
-        by SSLError(SSLCertVerificationError(1, ''[SSL: CERTIFICATE_VERIFY_FAILED]
-        certificate verify failed: certificate has expired (_ssl.c:1010)'')))'
     - 'https://travis-ci.com/edx/frontend-app-enterprise-public-catalog: 404'
     getting-help: false
     good_links:
     - https://explore-catalog.stage.edx.org/
     - https://github.com/openedx/frontend-app-enterprise-public-catalog/blob/master/docs/decisions/0002-feature-based-application-organization.rst
+    - https://api.travis-ci.com/edx/frontend-app-enterprise-public-catalog.svg?branch=master
     - https://codecov.io/gh/edx/frontend-app-enterprise-public-catalog/branch/master/graph/badge.svg
     - https://codecov.io/gh/edx/frontend-app-enterprise-public-catalog
     - https://img.shields.io/npm/l/@edx/frontend-app-enterprise-public-catalog.svg

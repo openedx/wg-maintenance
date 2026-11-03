@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-02
+TIMESTAMP: 2026-11-03
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,13 +66,16 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "220099 minutes 28 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "224168 minutes 49 seconds", "checks": [{"name":
         "Tests (ubuntu-latest, 3.11, django42)", "duration": "1 minutes 3 seconds"},
         {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 0
         seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
         0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 53 seconds"}]}'
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 0
     created_at: 2022-09-07 14:36:46
@@ -98,7 +101,7 @@ github:
     last_push: 2026-05-30 14:54:07
     license: Apache License 2.0
     median_pr_response_seconds: 159207
-    oldest_open_pr_days: 4
+    oldest_open_pr_days: 5
     pr_closure_ratio_90d: 0.0
     pr_opened_90d: 1
     prs_open: 1
