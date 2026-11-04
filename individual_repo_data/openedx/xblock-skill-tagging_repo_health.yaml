@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-03
+TIMESTAMP: 2026-11-04
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,10 +7,10 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 133
+    count: 0
     github:
         count: 0
-        list: '[]'
+        list: ''
     js:
         count: 0
         list: ''
@@ -21,73 +21,26 @@ dependencies:
         count: 0
         list: ''
     pypi:
-        count: 34
-        list: '["django-crum==0.7.9", "pymongo==4.16.0", "fs==2.4.16", "edx-django-utils==8.0.1",
-            "django-model-utils==5.0.0", "pycparser==3.0", "botocore==1.42.63", "typing-extensions==4.15.0",
-            "jmespath==1.1.0", "appdirs==1.4.4", "s3transfer==0.16.0", "asgiref==3.11.1",
-            "fastavro==1.12.1", "six==1.17.0", "dnspython==2.8.0", "click==8.3.1",
-            "edx-ccx-keys==2.0.2", "openedx-events==10.5.0", "openedx-filters==2.1.0",
-            "sqlparse==0.5.5", "urllib3==2.6.3", "boto3==1.42.63", "django==5.2.12",
-            "stevedore==5.7.0", "pynacl==1.6.2", "fs-s3fs==1.1.1", "attrs==25.4.0",
-            "openedx-django-pyfs==3.8.0", "edx-opaque-keys[django]==3.1.0", "django-waffle==5.0.0",
-            "python-dateutil==2.9.0.post0", "psutil==7.2.2", "cffi==2.0.0", "lazy==1.6"]'
+        count: 0
+        list: ''
     pypi_all:
-        count: 133
-        list: '["django-crum==0.7.9", "pymongo==4.16.0", "tox-battery==0.6.2", "rich==14.3.3",
-            "roman-numerals==4.1.0", "mccabe==0.7.0", "idna==3.11", "edx-django-utils==8.0.1",
-            "sphinxcontrib-jsmath==1.0.1", "sphinx==9.1.0", "pycparser==3.0", "jaraco-context==6.1.1",
-            "code-annotations==2.3.2", "mock==5.2.0", "appdirs==1.4.4", "iniconfig==2.3.0",
-            "restructuredtext-lint==2.0.2", "dill==0.4.1", "dnspython==2.8.0", "mdurl==0.1.2",
-            "polib==1.2.0", "urllib3==2.6.3", "web-fragments==3.1.0", "text-unidecode==1.3",
-            "openedx-django-pyfs==3.8.0", "filelock==3.25.0", "pytest==9.0.2", "django-waffle==5.0.0",
-            "astroid==4.0.4", "pylint-celery==0.3", "wheel==0.46.3", "py==1.11.0",
-            "cookiecutter==2.7.1", "lazy==1.6", "setuptools==82.0.0", "requests==2.32.5",
-            "cryptography==46.0.5", "tox==3.28.0", "python-slugify==8.0.4", "pip-tools==7.6.2",
-            "djangorestframework==3.16.1", "sphinxcontrib-serializinghtml==2.0.0",
-            "coverage[toml]==7.13.4", "doc8==2.0.0", "keyring==25.7.0", "django-model-utils==5.0.0",
-            "pyproject-hooks==1.2.0", "jinja2==3.1.6", "docutils==0.21.2", "imagesize==2.0.0",
-            "chardet==7.0.1", "simplejson==3.20.2", "mako==1.3.10", "markupsafe==3.0.3",
-            "isort==8.0.1", "more-itertools==10.8.0", "boto3==1.42.63", "django==5.2.12",
-            "stevedore==5.7.0", "distlib==0.4.0", "pynacl==1.6.2", "packaging==26.0",
-            "babel==2.18.0", "alabaster==1.0.0", "edx-i18n-tools==1.9.0", "pylint-django==2.7.0",
-            "xblock==5.3.0", "python-dateutil==2.9.0.post0", "jaraco-classes==3.4.0",
-            "pluggy==1.6.0", "edx-lint==5.6.0", "python-discovery==1.1.1", "pytz==2026.1.post1",
-            "pydocstyle==6.3.0", "sphinxcontrib-devhelp==2.0.0", "pycodestyle==2.14.0",
-            "pylint-plugin-utils==0.9.0", "jaraco-functools==4.4.0", "pytest-cov==7.0.0",
-            "diff-cover==10.2.0", "pylint==4.0.5", "lxml-html-clean==0.4.4", "typing-extensions==4.15.0",
-            "botocore==1.42.63", "lxml==6.0.2", "jmespath==1.1.0", "secretstorage==3.5.0",
-            "arrow==1.4.0", "s3transfer==0.16.0", "pygments==2.19.2", "path==16.16.0",
-            "click==8.3.1", "openedx-filters==2.1.0", "openedx-events==10.5.0", "click-log==0.4.0",
-            "sqlparse==0.5.5", "markdown-it-py==4.0.0", "pypng==0.20220715.0", "snowballstemmer==3.0.1",
-            "platformdirs==4.9.4", "build==1.4.0", "twine==6.2.0", "attrs==25.4.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "virtualenv==21.1.0", "edx-opaque-keys[django]==3.1.0",
-            "sphinxcontrib-qthelp==2.0.0", "pyyaml==6.0.3", "nh3==0.3.3", "psutil==7.2.2",
-            "webob==1.8.9", "id==1.6.1", "cffi==2.0.0", "pip==26.2.2", "rfc3986==2.0.0",
-            "tzdata==2025.3", "binaryornot==0.5.0", "tomlkit==0.14.0", "lxml[html-clean]==6.0.2",
-            "fs==2.4.16", "certifi==2026.10.19", "asgiref==3.11.1", "fastavro==1.12.1",
-            "six==1.17.0", "xblock-sdk==0.13.0", "edx-ccx-keys==2.0.2", "readme-renderer==44.0",
-            "requests-toolbelt==1.0.0", "fs-s3fs==1.1.1", "pytest-django==4.12.0",
-            "jeepney==0.9.0", "sphinxcontrib-applehelp==2.0.0", "charset-normalizer==3.4.5"]'
+        count: 0
+        list: ''
 django_packages:
     django_42:
-        count: 10
-        list: '["django-waffle", "web-fragments", "djangorestframework", "xblock-sdk",
-            "xblock", "edx-i18n-tools", "edx-django-utils", "pylint-django", "pytest-django",
-            "code-annotations"]'
+        count: 0
+        list: '[]'
     total:
-        count: 12
-        list: '["django-waffle", "django-crum", "web-fragments", "djangorestframework",
-            "xblock-sdk", "xblock", "edx-i18n-tools", "edx-django-utils", "pylint-django",
-            "pytest-django", "django-model-utils", "code-annotations"]'
+        count: 0
+        list: '[]'
     upgraded:
-        count: 7
-        list: '["django-waffle", "web-fragments", "xblock-sdk", "xblock", "edx-i18n-tools",
-            "edx-django-utils", "code-annotations"]'
+        count: 0
+        list: '[]'
 docs:
     build_badge: true
     python_version: null
 exists:
-    .coveragerc: true
+    .coveragerc: false
     .editorconfig: true
     .gitignore: true
     .pii_annotations.yml: true
@@ -99,33 +52,37 @@ exists:
     openedx.yaml: false
     package.json: false
     pylintrc: true
-    pyproject.toml: false
-    requirements: true
-    setup.cfg: true
-    setup.py: true
+    pyproject.toml: true
+    requirements: false
+    setup.cfg: false
+    setup.py: false
     tox.ini: true
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 5
-    lockfile_age_days: 11
+    commits_365d: 6
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 18
-    build_details: '{"total_duration": "2 minutes 49 seconds", "checks": [{"name":
-        "tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 45 seconds"},
-        {"name": "tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 38
-        seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)", "duration": "0
-        minutes 33 seconds"}]}'
+    build_details: '{"total_duration": "2 minutes 15 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 21 seconds"}, {"name": "update-uv-graph",
+        "duration": "0 minutes 50 seconds"}, {"name": "update-pip-graph", "duration":
+        "0 minutes 40 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes
+        28 seconds"}, {"name": "django42", "duration": "0 minutes 26 seconds"}, {"name":
+        "run_tests / quality", "duration": "0 minutes 25 seconds"}, {"name": "quality",
+        "duration": "0 minutes 23 seconds"}, {"name": "django52", "duration": "0 minutes
+        22 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes 22 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 21 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2022-12-09 18:15:47
     default_branch: main
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: ''
-    disk_usage_kb: 203
+    disk_usage_kb: 301
     first_timer_prs_90d: 0
     fork_count: 16
     good_first_issues_open: 0
@@ -139,27 +96,27 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-02 14:40:26
+    last_push: 2026-11-03 21:15:25
     license: GNU AGPLv3
     median_pr_response_seconds: 172193
-    median_pr_time_to_merge_seconds: 304784
-    oldest_open_pr_days: 1102
+    median_pr_time_to_merge_seconds: 304991
+    oldest_open_pr_days: 1103
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 7
-    prs_open: 4
-    pulls_count: 4
-    release_count_12mo: 5
+    prs_open: 3
+    pulls_count: 3
+    release_count_12mo: 6
 github_actions: true
 language_bytes:
     css: 4841
     dockerfile: 0
     html: 3009
     javascript: 4882
-    makefile: 4660
-    python: 33180
+    makefile: 3517
+    python: 26451
     shell: 0
 makefile:
-    pip-installed: true
+    pip-installed: false
     quality: true
     quality-js: false
     quality-python: false
@@ -195,10 +152,13 @@ readme:
     - https://github.com/openedx/edx-platform
     - https://github.com/openedx/taxonomy-connector
     - https://github.com/openedx/course-discovery
-    - https://github.com/openedx/xblock-skill-tagging/blob/main/skill_tagging/handlers.py
+    - https://github.com/openedx/xblock-skill-tagging/blob/main/src/skill_tagging/handlers.py
     - https://github.com/openedx/event-bus-kafka
     - https://github.com/openedx/event-bus-redis
     - https://openedx.atlassian.net/wiki/spaces/AC/pages/3508699151/How+to+start+using+the+Event+Bus
+    - https://docs.astral.sh/uv/
+    - https://python-semantic-release.readthedocs.io/
+    - https://www.conventionalcommits.org/
     - https://discuss.openedx.org
     - https://github.com/openedx/xblock-skill-tagging/issues
     - https://openedx.org/slack
@@ -232,15 +192,11 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    django: true
-    pytest: true
+    django: false
+    pytest: false
 setup_py:
-    py312_classifiers: true
-    pypi_name: skill_tagging
-    python_versions:
-    - '3'
-    - '3.12'
-    repo_url: https://github.com/openedx/xblock-skill-tagging
+    py312_classifiers: false
+    python_versions: []
 tox_ini:
     has_section:
         testenv: true

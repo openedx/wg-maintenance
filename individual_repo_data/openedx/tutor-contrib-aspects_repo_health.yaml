@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-03
+TIMESTAMP: 2026-11-04
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,13 +61,13 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 117
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 30
-    build_details: '{"total_duration": "633 minutes 4 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "1641 minutes 54 seconds", "checks": [{"name":
         "mysql (vector)", "duration": "24 minutes 54 seconds"}, {"name": "mysql (vector)",
         "duration": "21 minutes 19 seconds"}, {"name": "mysql (ralph)", "duration":
         "19 minutes 47 seconds"}, {"name": "mysql (ralph)", "duration": "18 minutes
@@ -75,9 +75,19 @@ github:
         "images", "duration": "6 minutes 37 seconds"}, {"name": "release", "duration":
         "0 minutes 46 seconds"}, {"name": "test / tests", "duration": "0 minutes 29
         seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"},
-        {"name": "trigger_image_push", "duration": "0 minutes 0 seconds"}]}'
+        {"name": "trigger_image_push", "duration": "0 minutes 0 seconds"}, {"name":
+        "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 59 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
+        minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 18
+    contributor_count_90d: 17
     created_at: 2023-02-07 05:22:39
     default_branch: main
     default_branch_ci_state: SUCCESS
@@ -100,11 +110,11 @@ github:
     last_push: 2026-11-02 17:07:47
     license: Apache License 2.0
     median_issue_first_response_seconds: 13686
-    median_pr_response_seconds: 65742
-    median_pr_time_to_merge_seconds: 57005
-    oldest_open_pr_days: 6
-    pr_closure_ratio_90d: 0.9487
-    pr_opened_90d: 78
+    median_pr_response_seconds: 65953
+    median_pr_time_to_merge_seconds: 59953
+    oldest_open_pr_days: 7
+    pr_closure_ratio_90d: 0.9474
+    pr_opened_90d: 76
     prs_open: 4
     pulls_count: 4
     release_count_12mo: 14
