@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-03
+TIMESTAMP: 2026-11-04
 dependabot:
     exists: false
     has_ecosystem:
@@ -7,24 +7,24 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 39
+    count: 38
     github:
         count: 0
         list: ''
     js:
-        count: 29
+        count: 28
         list: '{"@edx/brand": "npm:@openedx/brand-openedx@^1.2.3", "@edx/frontend-component-footer":
             "^14.6.0", "@edx/frontend-component-header": "^6.6.1", "@edx/frontend-platform":
             "^8.7.0", "@edx/openedx-atlas": "^0.6.0", "@edx/tinymce-language-selector":
             "1.1.0", "@fortawesome/fontawesome-svg-core": "1.2.36", "@fortawesome/free-brands-svg-icons":
             "5.15.4", "@fortawesome/free-regular-svg-icons": "5.15.4", "@fortawesome/free-solid-svg-icons":
             "5.15.4", "@fortawesome/react-fontawesome": "0.2.0", "@openedx/frontend-plugin-framework":
-            "^1.6.0", "@openedx/paragon": "^23.3.0", "@tinymce/tinymce-react": "3.14.0",
-            "axios": "0.27.2", "classnames": "2.3.2", "core-js": "3.26.1", "jquery":
-            "3.6.1", "popper.js": "1.16.1", "prop-types": "15.8.1", "react": "^18.3.1",
-            "react-dom": "^18.3.1", "react-helmet": "^6.1.0", "react-redux": "7.2.9",
-            "react-router": "6.15.0", "react-router-dom": "6.15.0", "redux": "4.2.0",
-            "regenerator-runtime": "0.13.11", "tinymce": "5.10.7"}'
+            "^1.6.0", "@openedx/paragon": "^23.3.0", "@tanstack/react-query": "^5.104.1",
+            "@tinymce/tinymce-react": "3.14.0", "axios": "0.27.2", "classnames": "2.3.2",
+            "core-js": "3.26.1", "jquery": "3.6.1", "popper.js": "1.16.1", "prop-types":
+            "15.8.1", "react": "^18.3.1", "react-dom": "^18.3.1", "react-helmet":
+            "^6.1.0", "react-router": "6.15.0", "react-router-dom": "6.15.0", "regenerator-runtime":
+            "0.13.11", "tinymce": "5.10.7"}'
     js.all:
         count: 0
         list: '{}'
@@ -74,33 +74,33 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 9
-    lockfile_age_days: 187
+    commits_365d: 10
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 21
-    build_details: '{"total_duration": "19108 minutes 49 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 42 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "1 minutes 17 seconds"}, {"name": "update-browserslist
-        / update-dep", "duration": "1 minutes 13 seconds"}, {"name": "version-check
-        / version-check", "duration": "0 minutes 7 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 54 seconds"}]}'
+    build_details: '{"total_duration": "260 minutes 56 seconds", "checks": [{"name":
+        "tests", "duration": "2 minutes 52 seconds"}, {"name": "version-check / version-check",
+        "duration": "0 minutes 5 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 2
     created_at: 2021-12-03 16:33:28
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Frontend to manage instructor-learner communications
-    disk_usage_kb: 5222
-    first_timer_median_first_response_seconds: 78838
-    first_timer_prs_90d: 1
+    disk_usage_kb: 5235
+    first_timer_prs_90d: 0
     fork_count: 63
     good_first_issues_open: 0
     has_issues: true
@@ -110,17 +110,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.0
-    issues_open: 6
+    issue_closure_ratio_90d: 0.25
+    issues_open: 5
     issues_opened_90d: 4
     issues_stale_open_180d: 1
-    last_push: 2026-11-02 00:10:39
+    last_push: 2026-11-03 16:48:24
     license: GNU AGPLv3
-    median_pr_response_seconds: 213346
-    median_pr_time_to_merge_seconds: 347925
-    oldest_open_pr_days: 1064
-    pr_closure_ratio_90d: 0.5
-    pr_opened_90d: 2
+    median_pr_response_seconds: 78838
+    median_pr_time_to_merge_seconds: 771898
+    oldest_open_pr_days: 1065
+    pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 3
     prs_open: 4
     pulls_count: 4
     release_count_12mo: 2
@@ -129,7 +129,7 @@ language_bytes:
     css: 0
     dockerfile: 0
     html: 386
-    javascript: 152177
+    javascript: 164616
     makefile: 1716
     python: 0
     shell: 0

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-03
+TIMESTAMP: 2026-11-04
 dependabot:
     exists: true
     has_ecosystem:
@@ -7,10 +7,10 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 92
+    count: 0
     github:
         count: 0
-        list: '[]'
+        list: ''
     js:
         count: 0
         list: ''
@@ -21,50 +21,26 @@ dependencies:
         count: 0
         list: ''
     pypi:
-        count: 3
-        list: '["asgiref==3.12.1", "sqlparse==0.5.5", "django==5.2.16"]'
+        count: 0
+        list: ''
     pypi_all:
-        count: 92
-        list: '["pygments==2.20.0", "asgiref==3.12.1", "coverage[toml]==7.15.2", "secretstorage==3.5.0",
-            "django==5.2.0", "edx-lint==6.1.0", "astroid==4.0.4", "build==1.5.0",
-            "tox==4.58.0", "pip-tools==7.6.2", "cffi==2.1.0", "sphinx-rtd-theme==3.1.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "pylint==4.0.6", "sphinxcontrib-serializinghtml==2.0.0",
-            "mdurl==0.1.2", "pip==26.2.2", "charset-normalizer==3.4.9", "urllib3==2.7.0",
-            "markupsafe==3.0.3", "docutils==0.22.4", "sphinxcontrib-applehelp==2.0.0",
-            "colorama==0.4.6", "cachetools==7.1.6", "filelock==3.32.0", "certifi==2026.10.19",
-            "pytest-django==4.12.0", "tomlkit==0.15.1", "sphinxcontrib-devhelp==2.0.0",
-            "pytest-cov==7.1.0", "docutils==0.23", "pytest==9.1.1", "alabaster==1.0.0",
-            "code-annotations==3.0.0", "pylint-django==2.8.0", "requests==2.34.2",
-            "pylint-plugin-utils==0.9.0", "django==5.2.16", "six==1.17.0", "sqlparse==0.5.5",
-            "pyproject-hooks==1.2.0", "snowballstemmer==3.1.1", "id==1.6.1", "jeepney==0.9.0",
-            "iniconfig==2.3.0", "imagesize==2.0.0", "mock==5.2.0", "pyyaml==6.0.3",
-            "sphinx==9.1.0", "wheel==0.47.0", "pyproject-api==1.11.0", "cryptography==49.0.0",
-            "tomli-w==1.2.0", "django-dynamic-fixture==4.0.1", "markdown-it-py==4.2.0",
-            "dill==0.4.1", "babel==2.18.0", "readme-renderer==45.0", "rich==15.0.0",
-            "jinja2==3.1.6", "pycparser==3.0", "pluggy==1.6.0", "sphinxcontrib-qthelp==2.0.0",
-            "rfc3986==2.0.0", "sphinxcontrib-jsmath==1.0.1", "nh3==0.3.6", "stevedore==5.9.0",
-            "virtualenv==21.7.0", "click==8.4.2", "jaraco-classes==3.4.0", "platformdirs==4.11.0",
-            "more-itertools==11.1.0", "text-unidecode==1.3", "python-discovery==1.5.0",
-            "asgiref==3.8.1", "click-log==0.4.0", "jaraco-context==6.1.2", "pylint-celery==0.3",
-            "roman-numerals==4.1.0", "jaraco-functools==4.6.0", "pycodestyle==2.14.0",
-            "distlib==0.4.3", "isort==8.0.1", "python-slugify==8.0.4", "twine==6.2.0",
-            "packaging==26.2", "sphinxcontrib-jquery==4.1", "setuptools==83.0.0",
-            "mccabe==0.7.0", "keyring==25.7.0", "idna==3.18", "requests-toolbelt==1.0.0"]'
+        count: 0
+        list: ''
 django_packages:
     django_42:
-        count: 3
-        list: '["pytest-django", "code-annotations", "pylint-django"]'
+        count: 0
+        list: '[]'
     total:
-        count: 4
-        list: '["pytest-django", "code-annotations", "pylint-django", "django-dynamic-fixture"]'
+        count: 0
+        list: '[]'
     upgraded:
-        count: 1
-        list: '["code-annotations"]'
+        count: 0
+        list: '[]'
 docs:
     build_badge: false
     python_version: null
 exists:
-    .coveragerc: true
+    .coveragerc: false
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
@@ -73,46 +49,41 @@ exists:
     README: true
     commitlint.yml: true
     dependabot.yml: true
-    openedx.yaml: true
+    openedx.yaml: false
     package.json: false
     pylintrc: true
-    pyproject.toml: false
-    requirements: true
+    pyproject.toml: true
+    requirements: false
     setup.cfg: false
-    setup.py: true
+    setup.py: false
     tox.ini: true
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 9
-    lockfile_age_days: 11
+    commits_365d: 10
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 7
-    build_details: '{"total_duration": "6319 minutes 58 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 11 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 37 seconds"}, {"name":
-        "tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 35 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 8
+    build_details: '{"total_duration": "3 minutes 16 seconds", "checks": [{"name":
+        "Dependabot", "duration": "1 minutes 1 seconds"}, {"name": "release", "duration":
+        "0 minutes 58 seconds"}, {"name": "update-uv-graph", "duration": "0 minutes
+        45 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes 38 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 24 seconds"}, {"name":
+        "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 17
+        seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, py)", "duration":
+        "0 minutes 15 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, docs)",
+        "duration": "0 minutes 13 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2016-03-18 13:46:22
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 238
-    first_timer_median_first_response_seconds: 546246
-    first_timer_prs_90d: 1
+    disk_usage_kb: 393
+    first_timer_prs_90d: 0
     fork_count: 15
     good_first_issues_open: 0
     has_issues: true
@@ -125,24 +96,24 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-02 00:01:55
+    last_push: 2026-11-03 13:50:20
     license: GNU AGPLv3
     median_pr_response_seconds: 546246
-    median_pr_time_to_merge_seconds: 2592
-    oldest_open_pr_days: 23
-    pr_closure_ratio_90d: 0.7143
-    pr_opened_90d: 7
+    median_pr_time_to_merge_seconds: 2657
+    oldest_open_pr_days: 2
+    pr_closure_ratio_90d: 0.75
+    pr_opened_90d: 8
     prs_open: 2
     pulls_count: 2
-    release_count_12mo: 1
+    release_count_12mo: 2
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
     javascript: 0
-    makefile: 1991
-    python: 22335
+    makefile: 953
+    python: 16204
     shell: 0
 makefile:
     pip-installed: false
@@ -162,7 +133,7 @@ ownership:
     owner_kind: user
     owner_name: angonz
     release: ''
-pinned_python_dependencies: 1
+pinned_python_dependencies: 0
 readme:
     bad_links: []
     getting-help: false
@@ -189,14 +160,11 @@ renovate:
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    django: true
-    pytest: true
+    django: false
+    pytest: false
 setup_py:
-    py312_classifiers: true
-    pypi_name: edx-django-sites-extensions
-    python_versions:
-    - '3.12'
-    repo_url: https://github.com/openedx/edx-django-sites-extensions
+    py312_classifiers: false
+    python_versions: []
 tox_ini:
     has_section:
         testenv: true

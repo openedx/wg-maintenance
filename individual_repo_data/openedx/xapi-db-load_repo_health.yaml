@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-03
+TIMESTAMP: 2026-11-04
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,15 +61,22 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 33
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 8
-    build_details: '{"total_duration": "1 minutes 2 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "1430 minutes 8 seconds", "checks": [{"name":
         "py", "duration": "1 minutes 1 seconds"}, {"name": "quality", "duration":
-        "0 minutes 41 seconds"}, {"name": "docs", "duration": "0 minutes 25 seconds"}]}'
+        "0 minutes 41 seconds"}, {"name": "docs", "duration": "0 minutes 25 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 50 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2022-11-21 15:37:46
@@ -78,7 +85,7 @@ github:
     description: ''
     disk_usage_kb: 6899
     first_timer_prs_90d: 0
-    fork_count: 7
+    fork_count: 8
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -94,10 +101,11 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 426544
     median_pr_time_to_merge_seconds: 18618
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 26
-    prs_open: 0
-    pulls_count: 0
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.963
+    pr_opened_90d: 27
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 4
 github_actions: true
 language_bytes:
