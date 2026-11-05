@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-04
+TIMESTAMP: 2026-11-05
 dependabot:
     exists: false
     has_ecosystem:
@@ -60,20 +60,24 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 514
+    commits_365d: 513
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "14 minutes 10 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "42826 minutes 50 seconds", "checks": [{"name":
         "Live LLM Integration Tests", "duration": "14 minutes 10 seconds"}, {"name":
         "Backend Tests (ubuntu-latest, 3.12, django42)", "duration": "2 minutes 23
         seconds"}, {"name": "Frontend Tests (ubuntu-latest, 20)", "duration": "2 minutes
         0 seconds"}, {"name": "Backend Tests (ubuntu-latest, 3.12, quality)", "duration":
         "1 minutes 22 seconds"}, {"name": "Plugin / Docs Tests (ubuntu-latest, 3.12)",
         "duration": "1 minutes 1 seconds"}, {"name": "Backend Tests (ubuntu-latest,
-        3.12, pii_check)", "duration": "1 minutes 1 seconds"}]}'
+        3.12, pii_check)", "duration": "1 minutes 1 seconds"}, {"name": "trigger",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2025-07-29 15:04:02
@@ -101,11 +105,11 @@ github:
     median_issue_first_response_seconds: 1193
     median_pr_response_seconds: 35300
     median_pr_time_to_merge_seconds: 10916
-    oldest_open_pr_days: 182
+    oldest_open_pr_days: 147
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 7
-    prs_open: 3
-    pulls_count: 3
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 19
 github_actions: true
 language_bytes:

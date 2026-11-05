@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-04
+TIMESTAMP: 2026-11-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 41
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
@@ -88,9 +88,9 @@ github:
     default_branch_ci_state: FAILURE
     description: ''
     disk_usage_kb: 2496
-    first_timer_median_first_response_seconds: 672112
+    first_timer_median_first_response_seconds: 371169
     first_timer_prs_90d: 5
-    fork_count: 100
+    fork_count: 99
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -99,16 +99,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.0769
-    issues_open: 37
-    issues_opened_90d: 26
+    issue_closure_ratio_90d: 0.0741
+    issues_open: 38
+    issues_opened_90d: 27
     issues_stale_open_180d: 8
     last_push: 2026-11-03 15:17:12
     license: GNU AGPLv3
     median_issue_first_response_seconds: 414831
-    median_pr_response_seconds: 685277
+    median_pr_response_seconds: 618289
     median_pr_time_to_merge_seconds: 1270443
-    oldest_open_pr_days: 230
+    oldest_open_pr_days: 231
     pr_closure_ratio_90d: 0.4615
     pr_opened_90d: 26
     prs_open: 17
@@ -144,11 +144,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - https://docs.tutor.edly.io/configuration.html
@@ -169,6 +165,10 @@ readme:
     - https://github.com/open-craft/openedx-ltistore
     - https://discuss.openedx.org
     - https://github.com/openedx/xblock-lti-consumer/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock-lti-consumer
     - https://github.com/openedx/xblock-lti-consumer/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/xblock-lti-consumer/actions?query=workflow%3A%22Python+CI%22
