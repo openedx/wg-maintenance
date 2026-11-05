@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-04
+TIMESTAMP: 2026-11-05
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 4
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -82,7 +82,7 @@ github:
     description: 'A wiki system with complex functionality for simple integration
         and a superb interface. Store your knowledge with style: Use django models.'
     disk_usage_kb: 4420
-    first_timer_median_first_response_seconds: 1149692
+    first_timer_median_first_response_seconds: 606584
     first_timer_prs_90d: 2
     fork_count: 30
     good_first_issues_open: 0
@@ -98,9 +98,9 @@ github:
     issues_stale_open_180d: 0
     last_push: 2026-10-28 14:58:54
     license: null
-    median_pr_response_seconds: 579337
+    median_pr_response_seconds: 63476
     median_pr_time_to_merge_seconds: 8997
-    oldest_open_pr_days: 379
+    oldest_open_pr_days: 380
     pr_closure_ratio_90d: 0.75
     pr_opened_90d: 4
     prs_open: 2
@@ -140,6 +140,7 @@ readme:
     - 'http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/: 403'
     - 'https://upload.wikimedia.org/wikipedia/commons/8/88/MediaWiki_database_schema_1-19_%28r102798%29.png:
         403'
+    - 'http://code.google.com/p/django-simple-wiki/: 500'
     - 'http://www.edxonline.org/: HTTPConnectionPool(host=''www.edxonline.org'', port=80):
         Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''www.edxonline.org'',
         port=80): Failed to resolve ''www.edxonline.org'' ([Errno -2] Name or service
@@ -147,7 +148,6 @@ readme:
     getting-help: false
     good_links:
     - http://wiki.overtag.dk
-    - http://code.google.com/p/django-simple-wiki/
     - http://www.djangoproject.com
     - http://south.aeracode.org/
     - https://github.com/waylan/Python-Markdown
