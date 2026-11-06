@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-05
+TIMESTAMP: 2026-11-06
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,37 +66,31 @@ exists:
     transifex_config: true
 git:
     absence_factor_365d: 2
-    commits_365d: 19
-    lockfile_age_days: 1
+    commits_365d: 20
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 40
-    build_details: '{"total_duration": "8 minutes 54 seconds", "checks": [{"name":
-        "release", "duration": "2 minutes 14 seconds"}, {"name": "run_ci / django42-drflatest",
-        "duration": "1 minutes 7 seconds"}, {"name": "run_ci / django52-drflatest",
-        "duration": "1 minutes 6 seconds"}, {"name": "run_ci / translations-django52",
-        "duration": "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "1
-        minutes 2 seconds"}, {"name": "update-uv-graph", "duration": "1 minutes 1
-        seconds"}, {"name": "Dependabot", "duration": "0 minutes 57 seconds"}, {"name":
-        "run_ci / translations-django42", "duration": "0 minutes 52 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 51 seconds"}, {"name": "run_ci / js_tests",
-        "duration": "0 minutes 49 seconds"}, {"name": "run_ci / js_lint", "duration":
-        "0 minutes 49 seconds"}, {"name": "Dependabot", "duration": "0 minutes 49
-        seconds"}, {"name": "update-pip-graph", "duration": "0 minutes 47 seconds"},
-        {"name": "run_ci / quality", "duration": "0 minutes 42 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 37 seconds"}, {"name": "publish_to_npm",
-        "duration": "0 minutes 29 seconds"}, {"name": "run_ci / rst_validation", "duration":
-        "0 minutes 22 seconds"}, {"name": "Test (ubuntu-latest, 3.12)", "duration":
-        "0 minutes 15 seconds"}]}'
+    build_details: '{"total_duration": "2 minutes 12 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 7 seconds"}, {"name": "run_ci / django42-drflatest",
+        "duration": "1 minutes 3 seconds"}, {"name": "run_ci / django52-drflatest",
+        "duration": "1 minutes 0 seconds"}, {"name": "run_ci / translations-django52",
+        "duration": "0 minutes 57 seconds"}, {"name": "run_ci / quality", "duration":
+        "0 minutes 42 seconds"}, {"name": "run_ci / translations-django42", "duration":
+        "0 minutes 41 seconds"}, {"name": "run_ci / js_lint", "duration": "0 minutes
+        35 seconds"}, {"name": "run_ci / js_tests", "duration": "0 minutes 31 seconds"},
+        {"name": "run_ci / rst_validation", "duration": "0 minutes 24 seconds"}, {"name":
+        "run_ci / pii_check", "duration": "0 minutes 19 seconds"}, {"name": "Test
+        (ubuntu-latest, 3.12)", "duration": "0 minutes 16 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2015-06-08 13:38:04
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 12347
+    disk_usage_kb: 12349
     first_timer_prs_90d: 1
     fork_count: 97
     good_first_issues_open: 0
@@ -111,16 +105,16 @@ github:
     issues_open: 10
     issues_opened_90d: 1
     issues_stale_open_180d: 9
-    last_push: 2026-11-04 15:06:30
+    last_push: 2026-11-05 21:12:02
     license: GNU AGPLv3
     median_pr_response_seconds: 314338
-    median_pr_time_to_merge_seconds: 307627
-    oldest_open_pr_days: 1822
-    pr_closure_ratio_90d: 0.8
+    median_pr_time_to_merge_seconds: 432884
+    oldest_open_pr_days: 1823
+    pr_closure_ratio_90d: 0.84
     pr_opened_90d: 25
-    prs_open: 12
-    pulls_count: 12
-    release_count_12mo: 7
+    prs_open: 11
+    pulls_count: 11
+    release_count_12mo: 8
 github_actions: true
 language_bytes:
     css: 0
@@ -128,7 +122,7 @@ language_bytes:
     html: 56727
     javascript: 235767
     makefile: 3615
-    python: 1136581
+    python: 1138274
     shell: 0
 makefile:
     pip-installed: false
@@ -151,7 +145,6 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://open.edx.org/getting-help: 403'
     - 'https://docs.openedx.org/en/latest/educators/concepts/proctored_exams/proctored_exams_overview.html:
         404'
     getting-help: true
@@ -167,6 +160,7 @@ readme:
     - https://github.com/openedx/edx-proctoring/blob/master/LICENSE.txt
     - https://docs.astral.sh/uv/
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://open.edx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true
