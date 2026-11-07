@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-06
+TIMESTAMP: 2026-11-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,32 +60,26 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 5
-    lockfile_age_days: 2
+    commits_365d: 6
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "803 minutes 21 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 7 seconds"}, {"name": "update-pip-graph",
-        "duration": "0 minutes 39 seconds"}, {"name": "update-uv-graph", "duration":
-        "0 minutes 36 seconds"}, {"name": "run_ci / django52", "duration": "0 minutes
-        32 seconds"}, {"name": "run_ci / django42", "duration": "0 minutes 26 seconds"},
-        {"name": "publish_to_pypi", "duration": "0 minutes 22 seconds"}, {"name":
-        "run_ci / quality", "duration": "0 minutes 21 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}]}'
+    build_details: '{"total_duration": "1 minutes 28 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 55 seconds"}, {"name": "run_ci / django52",
+        "duration": "0 minutes 29 seconds"}, {"name": "run_ci / django42", "duration":
+        "0 minutes 27 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
+        15 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 5
     created_at: 2014-11-24 16:56:50
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 361
-    first_timer_median_first_response_seconds: 63283
-    first_timer_prs_90d: 1
+    disk_usage_kb: 362
+    first_timer_prs_90d: 0
     fork_count: 16
     good_first_issues_open: 0
     has_issues: true
@@ -98,15 +92,14 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-03 13:47:52
+    last_push: 2026-11-06 18:04:39
     license: GNU AGPLv3
     median_pr_response_seconds: 865927
-    median_pr_time_to_merge_seconds: 1178877
-    oldest_open_pr_days: 2
-    pr_closure_ratio_90d: 0.8
+    median_pr_time_to_merge_seconds: 567125
+    pr_closure_ratio_90d: 1.0
     pr_opened_90d: 5
-    prs_open: 1
-    pulls_count: 1
+    prs_open: 0
+    pulls_count: 0
     release_count_12mo: 2
 github_actions: true
 language_bytes:
@@ -131,9 +124,9 @@ org_name: openedx
 ownership:
     component_type: service
     lifecycle: production
-    owner: 2U-aperture
-    owner_kind: unknown
-    owner_name: 2U-aperture
+    owner: group:openedx-unmaintained
+    owner_kind: group
+    owner_name: openedx-unmaintained
     release: ''
 pinned_python_dependencies: 0
 readme:

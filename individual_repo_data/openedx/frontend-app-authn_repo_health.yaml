@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-06
+TIMESTAMP: 2026-11-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -71,32 +71,28 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 79
-    lockfile_age_days: 15
+    commits_365d: 80
+    lockfile_age_days: 16
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 41
-    build_details: '{"total_duration": "2 minutes 9 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 9 seconds"}, {"name": "Release", "duration":
-        "1 minutes 7 seconds"}, {"name": "autoupdate", "duration": "0 minutes 27 seconds"},
-        {"name": "version-check / version-check", "duration": "0 minutes 3 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 53 seconds"}]}'
+    build_details: '{"total_duration": "8 minutes 34 seconds", "checks": [{"name":
+        "tests", "duration": "1 minutes 55 seconds"}, {"name": "Release", "duration":
+        "1 minutes 14 seconds"}, {"name": "autoupdate", "duration": "0 minutes 13
+        seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        6 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 3
+    contributor_count_90d: 4
     created_at: 2020-09-28 13:08:13
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Open edX micro-frontend application for new login and registration
         experience.
-    disk_usage_kb: 18367
-    first_timer_median_first_response_seconds: 1438475
-    first_timer_prs_90d: 2
+    disk_usage_kb: 18369
+    first_timer_median_first_response_seconds: 2813552
+    first_timer_prs_90d: 1
     fork_count: 268
     good_first_issues_open: 0
     has_issues: true
@@ -110,15 +106,15 @@ github:
     issues_open: 16
     issues_opened_90d: 5
     issues_stale_open_180d: 10
-    last_push: 2026-10-30 06:23:46
+    last_push: 2026-11-06 18:18:37
     license: GNU AGPLv3
     median_pr_response_seconds: 2813552
-    median_pr_time_to_merge_seconds: 196076
-    oldest_open_pr_days: 1633
-    pr_closure_ratio_90d: 0.75
+    median_pr_time_to_merge_seconds: 211696
+    oldest_open_pr_days: 1634
+    pr_closure_ratio_90d: 0.875
     pr_opened_90d: 8
-    prs_open: 9
-    pulls_count: 9
+    prs_open: 8
+    pulls_count: 8
     release_count_12mo: 16
 github_actions: true
 language_bytes:
@@ -143,9 +139,9 @@ org_name: openedx
 ownership:
     component_type: service
     lifecycle: production
-    owner: group:2u-infinity
+    owner: group:openedx-unmaintained
     owner_kind: group
-    owner_name: 2u-infinity
+    owner_name: openedx-unmaintained
     release: legacy-mfe
 pinned_python_dependencies: 0
 readme:

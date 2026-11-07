@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-06
+TIMESTAMP: 2026-11-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -64,38 +64,34 @@ exists:
     transifex_config: true
 git:
     absence_factor_365d: 4
-    commits_365d: 114
-    lockfile_age_days: 2
+    commits_365d: 115
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 338
-    build_details: '{"total_duration": "1870 minutes 15 seconds", "checks": [{"name":
-        "run_ci / run_tests (3.12, django52)", "duration": "14 minutes 4 seconds"},
-        {"name": "run_ci / run_tests (3.12, quality)", "duration": "2 minutes 28 seconds"},
+    branch_count: 341
+    build_details: '{"total_duration": "11 minutes 8 seconds", "checks": [{"name":
+        "run_ci / run_tests (3.12, django52)", "duration": "8 minutes 12 seconds"},
+        {"name": "run_ci / run_tests (3.12, quality)", "duration": "2 minutes 42 seconds"},
         {"name": "check migrations (ubuntu-latest, 3.12)", "duration": "1 minutes
-        22 seconds"}, {"name": "run_ci / run_tests (3.12, docs)", "duration": "1 minutes
-        19 seconds"}, {"name": "Dependabot", "duration": "1 minutes 0 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 59 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 58 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 58 seconds"}, {"name": "release", "duration": "0 minutes 52 seconds"},
-        {"name": "run_ci / run_tests (3.12, pii_check)", "duration": "0 minutes 23
-        seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        6 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        51 seconds"}]}'
+        26 seconds"}, {"name": "run_ci / run_tests (3.12, docs)", "duration": "1 minutes
+        12 seconds"}, {"name": "Dependabot", "duration": "0 minutes 55 seconds"},
+        {"name": "release", "duration": "0 minutes 50 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 30 seconds"}, {"name": "run_ci / run_tests (3.12, pii_check)",
+        "duration": "0 minutes 26 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 26 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
+        59 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 12
+    contributor_count_90d: 14
     created_at: 2016-10-12 13:48:42
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 16839
-    first_timer_median_first_response_seconds: 93221
-    first_timer_prs_90d: 2
+    disk_usage_kb: 16852
+    first_timer_median_first_response_seconds: 123096
+    first_timer_prs_90d: 1
     fork_count: 75
     good_first_issues_open: 0
     has_issues: true
@@ -108,15 +104,15 @@ github:
     issues_open: 9
     issues_opened_90d: 0
     issues_stale_open_180d: 9
-    last_push: 2026-11-04 17:28:39
+    last_push: 2026-11-06 18:36:30
     license: GNU AGPLv3
     median_pr_response_seconds: 115057
-    median_pr_time_to_merge_seconds: 413803
-    oldest_open_pr_days: 2381
-    pr_closure_ratio_90d: 0.7833
-    pr_opened_90d: 60
-    prs_open: 71
-    pulls_count: 71
+    median_pr_time_to_merge_seconds: 405795
+    oldest_open_pr_days: 2382
+    pr_closure_ratio_90d: 0.7619
+    pr_opened_90d: 63
+    prs_open: 73
+    pulls_count: 73
     release_count_12mo: 74
 github_actions: true
 language_bytes:
@@ -141,9 +137,9 @@ org_name: openedx
 ownership:
     component_type: library
     lifecycle: production
-    owner: group:2u-enterprise
+    owner: group:openedx-unmaintained
     owner_kind: group
-    owner_name: 2u-enterprise
+    owner_name: openedx-unmaintained
     release: ''
 pinned_python_dependencies: 0
 readme:
