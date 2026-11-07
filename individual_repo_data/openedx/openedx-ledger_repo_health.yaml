@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-06
+TIMESTAMP: 2026-11-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -59,43 +59,33 @@ exists:
     tox.ini: true
     transifex_config: false
 git:
-    absence_factor_365d: 2
-    commits_365d: 11
-    lockfile_age_days: 2
+    absence_factor_365d: 3
+    commits_365d: 13
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 29
-    build_details: '{"total_duration": "476 minutes 24 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 12 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 57 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 46 seconds"}, {"name": "tests
-        (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 28 seconds"}, {"name":
-        "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 28
-        seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, django52)", "duration":
-        "0 minutes 26 seconds"}, {"name": "tests (ubuntu-latest, 3.12, django52)",
-        "duration": "0 minutes 25 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.12, pii_check)", "duration": "0 minutes 21 seconds"}, {"name": "tests (ubuntu-latest,
-        3.12, pii_check)", "duration": "0 minutes 15 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 55 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 50 seconds"}]}'
+    build_details: '{"total_duration": "2 minutes 20 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 2 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 27 seconds"}, {"name": "tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 22 seconds"}, {"name": "run_ci / tests
+        (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 22 seconds"}, {"name":
+        "tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 18 seconds"},
+        {"name": "run_ci / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0
+        minutes 17 seconds"}, {"name": "tests (ubuntu-latest, 3.12, pii_check)", "duration":
+        "0 minutes 12 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 6
+    contributor_count_90d: 7
     created_at: 2022-12-21 21:16:19
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A library that records transactions against a ledger, denominated
         in units of value.
-    disk_usage_kb: 676
-    first_timer_median_first_response_seconds: 63090
-    first_timer_prs_90d: 1
+    disk_usage_kb: 679
+    first_timer_prs_90d: 0
     fork_count: 9
     good_first_issues_open: 0
     has_issues: true
@@ -109,16 +99,16 @@ github:
     issues_open: 2
     issues_opened_90d: 1
     issues_stale_open_180d: 1
-    last_push: 2026-11-06 02:09:05
+    last_push: 2026-11-06 18:10:06
     license: GNU AGPLv3
     median_issue_first_response_seconds: 10860
     median_pr_response_seconds: 63090
-    median_pr_time_to_merge_seconds: 252726
-    oldest_open_pr_days: 121
-    pr_closure_ratio_90d: 0.84
-    pr_opened_90d: 25
-    prs_open: 5
-    pulls_count: 5
+    median_pr_time_to_merge_seconds: 217471
+    oldest_open_pr_days: 122
+    pr_closure_ratio_90d: 0.8846
+    pr_opened_90d: 26
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 7
 github_actions: true
 language_bytes:
@@ -143,9 +133,9 @@ org_name: openedx
 ownership:
     component_type: library
     lifecycle: experimental
-    owner: group:2u-enterprise
+    owner: group:openedx-unmaintained
     owner_kind: group
-    owner_name: 2u-enterprise
+    owner_name: openedx-unmaintained
     release: ''
 pinned_python_dependencies: 0
 readme:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-06
+TIMESTAMP: 2026-11-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,28 +22,29 @@ dependencies:
         list: ''
     pypi:
         count: 11
-        list: '["urllib3==2.6.3", "asgiref==3.11.1", "django==5.2.13", "idna==3.11",
-            "youtube-dl==2021.12.17", "attrs==26.1.0", "certifi==2026.10.19", "requests==2.33.1",
-            "charset-normalizer==3.4.7", "sqlparse==0.5.5", "lxml==6.0.2"]'
+        list: '["youtube-dl==2021.12.17", "urllib3==2.6.3", "django==5.2.13", "idna==3.11",
+            "charset-normalizer==3.4.7", "asgiref==3.11.1", "sqlparse==0.5.5", "lxml==6.0.2",
+            "attrs==26.1.0", "requests==2.33.1", "certifi==2026.10.19"]'
     pypi_all:
         count: 67
-        list: '["platformdirs==4.9.4", "mdurl==0.1.2", "setuptools==82.0.1", "filelock==3.25.2",
-            "pytest-mock==3.15.1", "asgiref==3.11.1", "idna==3.11", "django==5.2.13",
-            "mypy-extensions==1.1.0", "attrs==26.1.0", "pytest==9.0.2", "cffi==2.0.0",
-            "jaraco-functools==4.4.0", "certifi==2026.10.19", "pyflakes==3.4.0", "coverage[toml]==7.13.5",
-            "tomli-w==1.2.0", "distlib==0.4.0", "pytest-cov==7.1.0", "pycparser==3.0",
-            "packaging==26.0", "mccabe==0.7.0", "id==1.6.1", "pathspec==1.0.4", "lxml==6.0.2",
-            "pip-tools==7.6.2", "jaraco-context==6.1.2", "rfc3986==2.0.0", "python-discovery==1.2.1",
-            "youtube-dl==2021.12.17", "docutils==0.22.4", "rich==14.3.3", "pip==26.2.2",
-            "twine==6.2.0", "secretstorage==3.5.0", "nh3==0.3.4", "bump2version==1.0.1",
-            "cryptography==46.0.6", "iniconfig==2.3.0", "build==1.4.2", "pytokens==0.4.1",
-            "cachetools==7.0.5", "more-itertools==11.0.1", "black==26.3.1", "tox==4.52.0",
-            "sqlparse==0.5.5", "wheel==0.46.3", "jaraco-classes==3.4.0", "urllib3==2.6.3",
-            "pyproject-hooks==1.2.0", "pygments==2.20.0", "xmlformatter==0.2.8", "flake8==7.3.0",
-            "pycodestyle==2.14.0", "pluggy==1.6.0", "markdown-it-py==4.0.0", "requests-toolbelt==1.0.0",
-            "pyproject-api==1.10.0", "pytest-django==4.12.0", "readme-renderer==44.0",
-            "virtualenv==21.2.0", "requests==2.33.1", "charset-normalizer==3.4.7",
-            "colorama==0.4.6", "keyring==25.7.0", "jeepney==0.9.0", "click==8.3.2"]'
+        list: '["pytokens==0.4.1", "packaging==26.0", "colorama==0.4.6", "id==1.6.1",
+            "keyring==25.7.0", "jaraco-classes==3.4.0", "pytest==9.0.2", "django==5.2.13",
+            "mccabe==0.7.0", "filelock==3.25.2", "wheel==0.46.3", "asgiref==3.11.1",
+            "mypy-extensions==1.1.0", "pyproject-hooks==1.2.0", "jeepney==0.9.0",
+            "requests==2.33.1", "iniconfig==2.3.0", "xmlformatter==0.2.8", "rich==14.3.3",
+            "pathspec==1.0.4", "youtube-dl==2021.12.17", "urllib3==2.6.3", "jaraco-context==6.1.2",
+            "rfc3986==2.0.0", "cachetools==7.0.5", "tomli-w==1.2.0", "pyflakes==3.4.0",
+            "pyproject-api==1.10.0", "pytest-django==4.12.0", "platformdirs==4.9.4",
+            "nh3==0.3.4", "distlib==0.4.0", "pycodestyle==2.14.0", "pytest-cov==7.1.0",
+            "lxml==6.0.2", "sqlparse==0.5.5", "docutils==0.22.4", "certifi==2026.10.19",
+            "pygments==2.20.0", "coverage[toml]==7.13.5", "pytest-mock==3.15.1", "tox==4.52.0",
+            "twine==6.2.0", "requests-toolbelt==1.0.0", "click==8.3.2", "build==1.4.2",
+            "pycparser==3.0", "virtualenv==21.2.0", "idna==3.11", "pluggy==1.6.0",
+            "pip==26.2.2", "pip-tools==7.6.2", "python-discovery==1.2.1", "markdown-it-py==4.0.0",
+            "cryptography==46.0.6", "bump2version==1.0.1", "mdurl==0.1.2", "jaraco-functools==4.4.0",
+            "setuptools==82.0.1", "black==26.3.1", "charset-normalizer==3.4.7", "flake8==7.3.0",
+            "readme-renderer==44.0", "attrs==26.1.0", "more-itertools==11.0.1", "cffi==2.0.0",
+            "secretstorage==3.5.0"]'
 django_packages:
     django_42:
         count: 1
@@ -79,7 +80,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 2
-    lockfile_age_days: 14
+    lockfile_age_days: 15
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -123,7 +124,7 @@ github:
     last_push: 2026-11-03 15:17:14
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 293500
-    oldest_open_pr_days: 1822
+    oldest_open_pr_days: 1823
     pr_closure_ratio_90d: 0.8333
     pr_opened_90d: 6
     prs_open: 3

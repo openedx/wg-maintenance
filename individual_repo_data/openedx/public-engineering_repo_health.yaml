@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-06
+TIMESTAMP: 2026-11-07
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,23 +65,21 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "3291 minutes 50 seconds", "checks": [{"name":
-        "routeissue / add_and_notify", "duration": "0 minutes 8 seconds"}, {"name":
-        "routeissue / add_label", "duration": "0 minutes 5 seconds"}, {"name": "self_assign_by_comment
+    build_details: '{"total_duration": "11186 minutes 12 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 29 seconds"}, {"name": "routeissue /
+        add_and_notify", "duration": "0 minutes 7 seconds"}, {"name": "routeissue
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
         / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 0
