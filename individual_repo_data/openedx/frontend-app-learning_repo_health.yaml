@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-07
+TIMESTAMP: 2026-11-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -78,7 +78,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 100
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -119,7 +119,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 207755
     median_pr_time_to_merge_seconds: 124515
-    oldest_open_pr_days: 1346
+    oldest_open_pr_days: 1347
     pr_closure_ratio_90d: 0.8
     pr_opened_90d: 100
     prs_open: 46
@@ -159,9 +159,13 @@ readme:
         Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
     - 'https://support.edx.org/hc/en-us/articles/360000038428-Entering-math-expressions-in-assignments-or-the-calculator:
-        404'
+        403'
+    - 'https://support.edx.org/hc/en-us/articles/206503858-How-do-I-verify-my-identity:
+        403'
+    - 'https://support.edx.org/hc/en-us/articles/206502008-What-is-a-verified-certificate:
+        403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     getting-help: false
     good_links:
     - https://codecov.io/gh/edx/frontend-app-learning/branch/master/graph/badge.svg?token=3z7XvuzTq3
@@ -176,8 +180,6 @@ readme:
     - https://openedx.github.io/frontend-platform/
     - https://github.com/openedx/frontend-plugin-framework
     - https://openedx.atlassian.net/browse/TNL-8678
-    - https://support.edx.org/hc/en-us/articles/206503858-How-do-I-verify-my-identity
-    - https://support.edx.org/hc/en-us/articles/206502008-What-is-a-verified-certificate
     - https://twitter.com/openedx
     - https://github.com/openedx/frontend-app-learning/issues
     - https://openedx.org/slack

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-07
+TIMESTAMP: 2026-11-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -134,7 +134,9 @@ readme:
     - 'https://coveralls.io/r/edx/edx-milestones?branch=master: 403'
     - 'https://github.com/openedx/edx-platform/blob/master/requirements/edx/base.in:
         404'
+    - 'https://openedx.org/slack: 403'
     - 'http://openedx.slack.com/: 403'
+    - 'https://openedx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/edx-milestones/workflows/Python%20CI/badge.svg?branch=master
@@ -145,8 +147,6 @@ readme:
     - https://docs.openedx.org/en/latest/educators/references/controlling_content_visibility.html
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://discuss.openedx.org
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true
