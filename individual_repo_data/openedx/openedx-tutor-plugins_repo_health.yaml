@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-07
+TIMESTAMP: 2026-11-08
 dependabot:
     exists: true
     has_ecosystem:
@@ -88,13 +88,13 @@ github:
     issue_closure_ratio_90d: 0.5
     issues_open: 3
     issues_opened_90d: 2
-    issues_stale_open_180d: 0
+    issues_stale_open_180d: 1
     last_push: 2026-10-26 14:20:20
     license: GNU AGPLv3
     median_issue_first_response_seconds: 100883
     median_pr_response_seconds: 711986
     median_pr_time_to_merge_seconds: 711996
-    oldest_open_pr_days: 174
+    oldest_open_pr_days: 175
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 4
     prs_open: 1
