@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,46 +63,36 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 335
-    lockfile_age_days: 8
+    commits_365d: 341
+    lockfile_age_days: 9
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 11
-    build_details: '{"total_duration": "134 minutes 31 seconds", "checks": [{"name":
-        "Docker: last release (verawood) / default 1/4", "duration": "27 minutes 46
-        seconds"}, {"name": "Docker: main environment / default 1/4", "duration":
-        "26 minutes 13 seconds"}, {"name": "Docker: last release (verawood) / aspects
-        1/1", "duration": "22 minutes 16 seconds"}, {"name": "Docker: last release
-        (verawood) / default 2/4", "duration": "19 minutes 58 seconds"}, {"name":
-        "Docker: last release (verawood) / default 3/4", "duration": "18 minutes 58
-        seconds"}, {"name": "Docker: last release (verawood) / default 4/4", "duration":
-        "16 minutes 29 seconds"}, {"name": "Docker: last release (verawood) / extended
-        1/1", "duration": "7 minutes 25 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 16 seconds"}, {"name": "Lint, types & unit tests", "duration":
-        "1 minutes 0 seconds"}, {"name": "Dependabot", "duration": "0 minutes 32 seconds"},
-        {"name": "Docker: last release (verawood) / plan", "duration": "0 minutes
-        8 seconds"}, {"name": "Docker: main environment / plan", "duration": "0 minutes
-        8 seconds"}, {"name": "routeissue / add_and_notify", "duration": "0 minutes
-        0 seconds"}, {"name": "routeissue / add_and_notify", "duration": "0 minutes
-        0 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes 59
-        seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1 minutes
-        59 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes 59
-        seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1 minutes
-        59 seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1 minutes
-        59 seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1 minutes
-        54 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes 51
-        seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes 51 seconds"},
-        {"name": "routeissue / add_label", "duration": "-1 minutes 50 seconds"}, {"name":
-        "routeissue / add_label", "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 12
+    build_details: '{"total_duration": "531 minutes 13 seconds", "checks": [{"name":
+        "Docker: main environment / default 3/4", "duration": "23 minutes 10 seconds"},
+        {"name": "Docker: last release (verawood) / default 3/4", "duration": "21
+        minutes 39 seconds"}, {"name": "Docker: last release (verawood) / default
+        4/4", "duration": "20 minutes 55 seconds"}, {"name": "Docker: last release
+        (verawood) / aspects 1/1", "duration": "20 minutes 19 seconds"}, {"name":
+        "Docker: last release (verawood) / default 1/4", "duration": "15 minutes 38
+        seconds"}, {"name": "main aspects images", "duration": "14 minutes 20 seconds"},
+        {"name": "main stock images", "duration": "13 minutes 37 seconds"}, {"name":
+        "Docker: last release (verawood) / default 2/4", "duration": "12 minutes 38
+        seconds"}, {"name": "Docker: last release (verawood) / extended 1/1", "duration":
+        "9 minutes 25 seconds"}, {"name": "verawood aspects images", "duration": "5
+        minutes 11 seconds"}, {"name": "Lint, types & unit tests", "duration": "1
+        minutes 32 seconds"}, {"name": "Docker: main environment / plan", "duration":
+        "0 minutes 7 seconds"}, {"name": "Docker: last release (verawood) / plan",
+        "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2026-06-18 19:35:55
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 3234
+    disk_usage_kb: 3105
     first_timer_median_first_response_seconds: 28057
     first_timer_prs_90d: 1
     fork_count: 6
@@ -118,14 +108,14 @@ github:
     issues_open: 70
     issues_opened_90d: 93
     issues_stale_open_180d: 0
-    last_push: 2026-11-06 01:44:45
+    last_push: 2026-11-08 21:18:32
     license: Apache License 2.0
     median_issue_first_response_seconds: 252350
     median_pr_response_seconds: 244440
-    median_pr_time_to_merge_seconds: 407981
-    oldest_open_pr_days: 68
-    pr_closure_ratio_90d: 0.9213
-    pr_opened_90d: 89
+    median_pr_time_to_merge_seconds: 411388
+    oldest_open_pr_days: 69
+    pr_closure_ratio_90d: 0.9222
+    pr_opened_90d: 90
     prs_open: 7
     pulls_count: 7
     release_count_12mo: 0
