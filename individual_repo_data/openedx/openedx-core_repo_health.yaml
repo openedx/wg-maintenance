@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 137
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 20
+    branch_count: 21
     build_details: '{"total_duration": "1236 minutes 24 seconds", "checks": [{"name":
         "tests (ubuntu-latest, 3.12, django52, 8)", "duration": "6 minutes 27 seconds"},
         {"name": "run_tests / tests (ubuntu-latest, 3.12, django52, 8)", "duration":
@@ -98,7 +98,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Foundational Django models and APIs for a teaching and learning platform.
-    disk_usage_kb: 3187
+    disk_usage_kb: 3356
     first_timer_median_first_response_seconds: 20653
     first_timer_prs_90d: 1
     fork_count: 35
@@ -114,16 +114,16 @@ github:
     issues_open: 194
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-11-02 14:35:14
+    last_push: 2026-11-09 00:29:33
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1868349
     median_pr_response_seconds: 75460
-    median_pr_time_to_merge_seconds: 178621
-    oldest_open_pr_days: 276
-    pr_closure_ratio_90d: 0.7609
-    pr_opened_90d: 92
-    prs_open: 28
-    pulls_count: 28
+    median_pr_time_to_merge_seconds: 165611
+    oldest_open_pr_days: 277
+    pr_closure_ratio_90d: 0.7527
+    pr_opened_90d: 93
+    prs_open: 29
+    pulls_count: 29
     release_count_12mo: 54
 github_actions: true
 language_bytes:

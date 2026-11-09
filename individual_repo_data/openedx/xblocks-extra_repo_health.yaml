@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,20 +61,22 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 66
-    lockfile_age_days: 17
+    lockfile_age_days: 18
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 6
-    build_details: '{"total_duration": "8 minutes 31 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 44 seconds"}, {"name": "docs", "duration":
-        "0 minutes 25 seconds"}, {"name": "django42", "duration": "0 minutes 23 seconds"},
-        {"name": "run_ci / django42", "duration": "0 minutes 22 seconds"}, {"name":
-        "django52", "duration": "0 minutes 20 seconds"}, {"name": "run_ci / docs",
-        "duration": "0 minutes 19 seconds"}, {"name": "run_ci / django52", "duration":
-        "0 minutes 18 seconds"}, {"name": "lint", "duration": "0 minutes 16 seconds"},
-        {"name": "run_ci / lint", "duration": "0 minutes 16 seconds"}, {"name": "publish_to_pypi",
+    build_details: '{"total_duration": "9237 minutes 53 seconds", "checks": [{"name":
+        "release", "duration": "0 minutes 44 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 41 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 31 seconds"}, {"name": "docs", "duration": "0 minutes
+        25 seconds"}, {"name": "django42", "duration": "0 minutes 23 seconds"}, {"name":
+        "run_ci / django42", "duration": "0 minutes 22 seconds"}, {"name": "django52",
+        "duration": "0 minutes 20 seconds"}, {"name": "run_ci / docs", "duration":
+        "0 minutes 19 seconds"}, {"name": "run_ci / django52", "duration": "0 minutes
+        18 seconds"}, {"name": "lint", "duration": "0 minutes 16 seconds"}, {"name":
+        "run_ci / lint", "duration": "0 minutes 16 seconds"}, {"name": "publish_to_pypi",
         "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
@@ -101,8 +103,8 @@ github:
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1020412
     median_pr_response_seconds: 259
-    median_pr_time_to_merge_seconds: 47050
-    oldest_open_pr_days: 71
+    median_pr_time_to_merge_seconds: 45560
+    oldest_open_pr_days: 72
     pr_closure_ratio_90d: 0.963
     pr_opened_90d: 27
     prs_open: 1
@@ -137,16 +139,16 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://github.com/openedx-unsupported/AudioXBlock: 504'
+    - 'https://github.com/openedx/FeedbackXBlock: 504'
+    - 'https://github.com/openedx/xblock-free-text-response: 504'
+    - 'https://github.com/openedx-unsupported/xblock-image-modal: 504'
+    - 'https://github.com/openedx-unsupported/xblock-qualtrics-survey: 504'
+    - 'https://github.com/openedx/xblock-sql-grader: 504'
+    - 'https://github.com/openedx-unsupported/xblock-submit-and-compare: 504'
     getting-help: false
     good_links:
-    - https://github.com/openedx-unsupported/AudioXBlock
-    - https://github.com/openedx/FeedbackXBlock
-    - https://github.com/openedx/xblock-free-text-response
-    - https://github.com/openedx-unsupported/xblock-image-modal
-    - https://github.com/openedx-unsupported/xblock-qualtrics-survey
-    - https://github.com/openedx/xblock-sql-grader
-    - https://github.com/openedx-unsupported/xblock-submit-and-compare
     - https://github.com/openedx/xblocks-extra.git
     - https://docs.openedx.org/en/latest/developers/concepts/oep58.html
     - https://github.com/openedx/openedx-translations

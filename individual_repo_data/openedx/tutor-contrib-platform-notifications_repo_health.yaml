@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -99,16 +99,12 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 1.0
     issues_open: 5
-    issues_opened_90d: 1
+    issues_opened_90d: 0
     issues_stale_open_180d: 4
     last_push: 2026-05-31 19:03:12
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 191486
-    median_pr_response_seconds: 707127
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 1
+    pr_opened_90d: 0
     prs_open: 0
     pulls_count: 0
     release_count_12mo: 2
@@ -141,12 +137,12 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://github.com/openedx/tutor-contrib-notifications: 504'
     getting-help: false
     good_links:
     - https://docs.tutor.edly.io
     - https://docs.openedx.org/en/latest/learners/sfd_notifications/index.html
-    - https://github.com/openedx/tutor-contrib-notifications
     irc-missing: true
     mailing-list-missing: true
     security: false

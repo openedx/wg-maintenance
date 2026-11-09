@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -70,7 +70,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 43
-    lockfile_age_days: 17
+    lockfile_age_days: 18
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -143,6 +143,10 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://github.com/semantic-release/semantic-release: 504'
+    - 'https://github.com/openedx/frontend-base/blob/master/docs/how_tos/i18n.rst:
+        504'
+    - 'https://github.com/openedx/openedx-translations: 504'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-site:
         404'
     getting-help: false
@@ -151,10 +155,7 @@ readme:
     - https://bindfs.org/
     - https://docs.npmjs.com/cli/using-npm/workspaces
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md
-    - https://github.com/semantic-release/semantic-release
     - https://turbo.build/
-    - https://github.com/openedx/frontend-base/blob/master/docs/how_tos/i18n.rst
-    - https://github.com/openedx/openedx-translations
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-template-application.svg

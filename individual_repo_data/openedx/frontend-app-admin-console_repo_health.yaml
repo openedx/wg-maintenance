@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,17 +68,19 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 72
-    lockfile_age_days: 17
+    lockfile_age_days: 18
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 21
-    build_details: '{"total_duration": "59 minutes 5 seconds", "checks": [{"name":
-        "test", "duration": "2 minutes 12 seconds"}, {"name": "Release", "duration":
+    build_details: '{"total_duration": "3675 minutes 21 seconds", "checks": [{"name":
+        "test", "duration": "2 minutes 12 seconds"}, {"name": "update-browserslist
+        / update-dep", "duration": "1 minutes 18 seconds"}, {"name": "Release", "duration":
         "1 minutes 9 seconds"}, {"name": "version-check / version-check", "duration":
         "0 minutes 4 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
@@ -87,7 +89,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Administrator console for the Open edX application
-    disk_usage_kb: 3079
+    disk_usage_kb: 1268
     first_timer_prs_90d: 0
     fork_count: 13
     good_first_issues_open: 0
@@ -102,12 +104,12 @@ github:
     issues_open: 13
     issues_opened_90d: 20
     issues_stale_open_180d: 3
-    last_push: 2026-11-06 15:21:14
+    last_push: 2026-11-09 03:06:40
     license: GNU AGPLv3
     median_issue_first_response_seconds: 926308
     median_pr_response_seconds: 224435
-    median_pr_time_to_merge_seconds: 251861
-    oldest_open_pr_days: 222
+    median_pr_time_to_merge_seconds: 191650
+    oldest_open_pr_days: 223
     pr_closure_ratio_90d: 0.7037
     pr_opened_90d: 54
     prs_open: 17
@@ -143,9 +145,17 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://github.com/openedx/frontend-app-admin-console/blob/master/LICENSE:
+        504'
+    - 'https://github.com/openedx/frontend-app-admin-console/tree/legacy-mfe: 504'
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://github.com/openedx/openedx-authz: 504'
+    - 'https://github.com/openedx/frontend-base: 504'
+    - 'https://github.com/openedx/frontend-base/blob/main/docs/decisions/0009-slot-naming-and-lifecycle.rst:
+        504'
+    - 'https://github.com/openedx/frontend-app-admin-console/issues: 504'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-admin-console:
@@ -153,7 +163,6 @@ readme:
     getting-help: true
     good_links:
     - https://img.shields.io/github/license/openedx/frontend-app-admin-console.svg
-    - https://github.com/openedx/frontend-app-admin-console/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-admin-console/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-admin-console/actions/workflows/ci.yml
@@ -161,15 +170,10 @@ readme:
     - https://codecov.io/github/openedx/frontend-app-admin-console?branch=master
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
-    - https://github.com/openedx/frontend-app-admin-console/tree/legacy-mfe
     - https://github.com/overhangio/tutor
-    - https://github.com/openedx/openedx-authz
-    - https://github.com/openedx/frontend-base
-    - https://github.com/openedx/frontend-base/blob/main/docs/decisions/0009-slot-naming-and-lifecycle.rst
     - https://openedx.atlassian.net/wiki/x/M4B4MgE
     - https://openedx.atlassian.net/wiki/x/AgAwMQE
     - https://discuss.openedx.org
-    - https://github.com/openedx/frontend-app-admin-console/issues
     - https://openedx.org/slack
     - https://openedx.org/getting-help
     - https://openedx.org/r/how-to-contribute

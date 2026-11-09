@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -129,16 +129,16 @@ ownership:
     release: main
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://spruceid.dev/docs/didkit/: 504'
+    - 'https://github.com/GlugovGrGlib/didkit-python: 504'
+    - 'https://github.com/spruceid/didkit-python: 504'
     getting-help: false
     good_links:
     - https://badge.fury.io/py/openedx-didkit.svg
     - https://badge.fury.io/py/openedx-didkit
-    - https://spruceid.dev/docs/didkit/
     - https://github.com/spruceid/ssi
     - https://pypi.org/project/openedx-didkit/
-    - https://github.com/GlugovGrGlib/didkit-python
-    - https://github.com/spruceid/didkit-python
     irc-missing: true
     mailing-list-missing: true
     security: false

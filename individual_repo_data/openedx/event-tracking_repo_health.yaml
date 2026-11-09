@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,17 +61,17 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 22
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 14
-    build_details: '{"total_duration": "1 minutes 56 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "7513 minutes 22 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 13 seconds"}, {"name": "update-uv-graph",
         "duration": "0 minutes 59 seconds"}, {"name": "run_tests / django52", "duration":
-        "0 minutes 40 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
-        59 seconds"}]}'
+        "0 minutes 40 seconds"}, {"name": "Dependabot", "duration": "0 minutes 28
+        seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2013-09-16 17:57:22

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -98,14 +98,13 @@ github:
     is_private: false
     issue_closure_ratio_90d: 0.0
     issues_open: 27
-    issues_opened_90d: 3
+    issues_opened_90d: 2
     issues_stale_open_180d: 20
     last_push: 2026-10-05 22:40:41
     license: GNU AGPLv3
-    median_issue_first_response_seconds: 1193
     median_pr_response_seconds: 35300
     median_pr_time_to_merge_seconds: 10916
-    oldest_open_pr_days: 150
+    oldest_open_pr_days: 151
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 7
     prs_open: 2
@@ -141,8 +140,10 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://github.com/openedx/openedx-ai-extensions.git: 504'
     - 'https://docs.openedx.org/en/latest/developers/references/plugin_reference.html:
         404'
+    - 'https://github.com/openedx/openedx-ai-extensions/issues: 504'
     - 'https://edunext.co: 403'
     - 'https://ceibal.edu.uy/: 403'
     getting-help: false
@@ -151,13 +152,11 @@ readme:
     - https://img.shields.io/badge/License-AGPL%20v3-blue
     - https://img.shields.io/badge/Documentation-green
     - https://docs.openedx.org/projects/openedx-ai-extensions/en/latest/index.html
-    - https://github.com/openedx/openedx-ai-extensions.git
     - https://docs.openedx.org/en/latest/developers/quickstarts/so_you_want_to_contribute.html
     - https://discuss.openedx.org
     - https://www.canva.com/design/DAGqjcS2mT4/nTHQIDIeZ89wqsBvh9GWKA/view
     - https://docs.litellm.ai/
     - https://drive.google.com/file/d/1sUj2xoldYFAvPoDuxqwG0XbIundGD0u2/view
-    - https://github.com/openedx/openedx-ai-extensions/issues
     - https://openedx.org
     irc-missing: true
     mailing-list-missing: true

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 41
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
-    branch_count: 69
+    branch_count: 74
     build_details: '{"total_duration": "6 minutes 33 seconds", "checks": [{"name":
         "django52", "duration": "4 minutes 59 seconds"}, {"name": "run_tests / django52",
         "duration": "4 minutes 49 seconds"}, {"name": "release", "duration": "1 minutes
@@ -87,7 +87,7 @@ github:
     default_branch: master
     default_branch_ci_state: FAILURE
     description: ''
-    disk_usage_kb: 2496
+    disk_usage_kb: 2291
     first_timer_median_first_response_seconds: 371169
     first_timer_prs_90d: 6
     fork_count: 99
@@ -103,16 +103,16 @@ github:
     issues_open: 38
     issues_opened_90d: 27
     issues_stale_open_180d: 8
-    last_push: 2026-11-06 18:36:44
+    last_push: 2026-11-09 03:17:47
     license: GNU AGPLv3
     median_issue_first_response_seconds: 414831
     median_pr_response_seconds: 618289
-    median_pr_time_to_merge_seconds: 1270443
-    oldest_open_pr_days: 234
-    pr_closure_ratio_90d: 0.5185
-    pr_opened_90d: 27
-    prs_open: 17
-    pulls_count: 17
+    median_pr_time_to_merge_seconds: 1838157
+    oldest_open_pr_days: 235
+    pr_closure_ratio_90d: 0.4375
+    pr_opened_90d: 32
+    prs_open: 22
+    pulls_count: 22
     release_count_12mo: 17
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-08
+TIMESTAMP: 2026-11-09
 dependabot:
     exists: false
     has_ecosystem:
@@ -91,7 +91,7 @@ github:
     issues_stale_open_180d: 0
     last_push: 2026-08-03 14:34:02
     license: GNU AGPLv3
-    oldest_open_pr_days: 96
+    oldest_open_pr_days: 97
     pr_opened_90d: 0
     prs_open: 1
     pulls_count: 1
@@ -125,11 +125,11 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://github.com/saraburns1/tutor-contrib-aspects-sample: 504'
     getting-help: false
     good_links:
     - https://docs.tutor.edly.io
-    - https://github.com/saraburns1/tutor-contrib-aspects-sample
     - https://superset.apache.org/docs
     - https://www.getdbt.com/docs/
     - https://clickhouse.com/docs
