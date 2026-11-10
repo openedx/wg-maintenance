@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -76,7 +76,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 44
-    lockfile_age_days: 16
+    lockfile_age_days: 17
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -109,8 +109,8 @@ github:
     description: Open Response Assessment Suite
     disk_usage_kb: 164754
     first_timer_median_first_response_seconds: 882930
-    first_timer_prs_90d: 3
-    fork_count: 219
+    first_timer_prs_90d: 4
+    fork_count: 220
     good_first_issues_open: 2
     has_issues: true
     has_wiki: false
@@ -128,11 +128,11 @@ github:
     median_issue_first_response_seconds: 1114623
     median_pr_response_seconds: 1545473
     median_pr_time_to_merge_seconds: 160590
-    oldest_open_pr_days: 1916
-    pr_closure_ratio_90d: 0.5641
-    pr_opened_90d: 39
-    prs_open: 76
-    pulls_count: 76
+    oldest_open_pr_days: 1917
+    pr_closure_ratio_90d: 0.55
+    pr_opened_90d: 40
+    prs_open: 77
+    pulls_count: 77
     release_count_12mo: 6
 github_actions: true
 language_bytes:

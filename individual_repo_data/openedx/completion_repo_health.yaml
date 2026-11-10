@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 22
+    branch_count: 24
     build_details: '{"total_duration": "2 minutes 30 seconds", "checks": [{"name":
         "Dependabot", "duration": "1 minutes 9 seconds"}, {"name": "Dependabot", "duration":
         "1 minutes 8 seconds"}, {"name": "release", "duration": "0 minutes 58 seconds"},
@@ -89,7 +89,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: A library for tracking completion of blocks by learners in edX courses.
-    disk_usage_kb: 1110
+    disk_usage_kb: 1118
     first_timer_prs_90d: 0
     fork_count: 26
     good_first_issues_open: 1
@@ -104,15 +104,15 @@ github:
     issues_open: 2
     issues_opened_90d: 1
     issues_stale_open_180d: 1
-    last_push: 2026-11-06 21:37:02
+    last_push: 2026-11-09 22:13:20
     license: GNU AGPLv3
     median_pr_response_seconds: 431610
     median_pr_time_to_merge_seconds: 359091
-    oldest_open_pr_days: 137
-    pr_closure_ratio_90d: 0.7778
-    pr_opened_90d: 18
-    prs_open: 6
-    pulls_count: 6
+    oldest_open_pr_days: 138
+    pr_closure_ratio_90d: 0.7
+    pr_opened_90d: 20
+    prs_open: 8
+    pulls_count: 8
     release_count_12mo: 2
 github_actions: true
 language_bytes:

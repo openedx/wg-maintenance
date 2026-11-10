@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: false
     has_ecosystem:
@@ -65,23 +65,23 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 1
-    build_details: '{"total_duration": "175782 minutes 46 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "14367 minutes 40 seconds", "checks": [{"name":
         "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
-        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify",
-        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+        / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "routeissue
+        / add_and_notify", "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 0
     created_at: 2022-11-15 22:03:32

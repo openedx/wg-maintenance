@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: false
     has_ecosystem:
@@ -137,12 +137,12 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://github.com/openedx/tutor-contrib-notifications: 504'
+    bad_links: []
     getting-help: false
     good_links:
     - https://docs.tutor.edly.io
     - https://docs.openedx.org/en/latest/learners/sfd_notifications/index.html
+    - https://github.com/openedx/tutor-contrib-notifications
     irc-missing: true
     mailing-list-missing: true
     security: false

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,34 +60,22 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 50
-    lockfile_age_days: 18
+    commits_365d: 51
+    lockfile_age_days: 19
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 59
-    build_details: '{"total_duration": "6679 minutes 29 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 54 seconds"}, {"name": "Dependabot", "duration": "0 minutes 33
-        seconds"}, {"name": "build (ubuntu-latest, 3.12)", "duration": "0 minutes
-        28 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    branch_count: 58
+    build_details: '{"total_duration": "0 minutes 28 seconds", "checks": [{"name":
+        "build (ubuntu-latest, 3.12)", "duration": "0 minutes 28 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2013-10-16 22:30:05
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Tools for repo maintenance, etc.
-    disk_usage_kb: 2879
+    disk_usage_kb: 2880
     first_timer_prs_90d: 0
     fork_count: 48
     good_first_issues_open: 0
@@ -101,15 +89,15 @@ github:
     issues_open: 16
     issues_opened_90d: 0
     issues_stale_open_180d: 15
-    last_push: 2026-11-06 19:23:52
+    last_push: 2026-11-09 08:28:48
     license: Apache License 2.0
-    median_pr_response_seconds: 65053
-    median_pr_time_to_merge_seconds: 196009
-    oldest_open_pr_days: 1185
-    pr_closure_ratio_90d: 0.7222
+    median_pr_response_seconds: 80132
+    median_pr_time_to_merge_seconds: 197641
+    oldest_open_pr_days: 1186
+    pr_closure_ratio_90d: 0.75
     pr_opened_90d: 36
-    prs_open: 26
-    pulls_count: 26
+    prs_open: 25
+    pulls_count: 25
     release_count_12mo: 8
 github_actions: true
 language_bytes:
@@ -118,7 +106,7 @@ language_bytes:
     html: 0
     javascript: 0
     makefile: 1205
-    python: 443898
+    python: 444268
     shell: 3941
 makefile:
     pip-installed: false
