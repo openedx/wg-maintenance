@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 16
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 25
+    branch_count: 29
     build_details: '{"total_duration": "7850 minutes 38 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 7 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "1 minutes 1 seconds"}, {"name": "update-pip-graph",
@@ -92,7 +92,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Open edX events from the Hooks Extensions Framework
-    disk_usage_kb: 1639
+    disk_usage_kb: 1655
     first_timer_median_first_response_seconds: 1453469
     first_timer_prs_90d: 1
     fork_count: 33
@@ -107,15 +107,15 @@ github:
     issues_open: 50
     issues_opened_90d: 0
     issues_stale_open_180d: 49
-    last_push: 2026-11-09 00:19:14
+    last_push: 2026-11-09 06:55:15
     license: Apache License 2.0
     median_pr_response_seconds: 4069586
     median_pr_time_to_merge_seconds: 49818
-    oldest_open_pr_days: 1908
-    pr_closure_ratio_90d: 0.8421
-    pr_opened_90d: 19
-    prs_open: 10
-    pulls_count: 10
+    oldest_open_pr_days: 1909
+    pr_closure_ratio_90d: 0.6957
+    pr_opened_90d: 23
+    prs_open: 14
+    pulls_count: 14
     release_count_12mo: 5
 github_actions: true
 language_bytes:

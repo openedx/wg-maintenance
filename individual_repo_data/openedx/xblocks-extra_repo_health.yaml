@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 66
-    lockfile_age_days: 18
+    lockfile_age_days: 19
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -104,7 +104,7 @@ github:
     median_issue_first_response_seconds: 1020412
     median_pr_response_seconds: 259
     median_pr_time_to_merge_seconds: 45560
-    oldest_open_pr_days: 72
+    oldest_open_pr_days: 73
     pr_closure_ratio_90d: 0.963
     pr_opened_90d: 27
     prs_open: 1
@@ -139,16 +139,16 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://github.com/openedx-unsupported/AudioXBlock: 504'
-    - 'https://github.com/openedx/FeedbackXBlock: 504'
-    - 'https://github.com/openedx/xblock-free-text-response: 504'
-    - 'https://github.com/openedx-unsupported/xblock-image-modal: 504'
-    - 'https://github.com/openedx-unsupported/xblock-qualtrics-survey: 504'
-    - 'https://github.com/openedx/xblock-sql-grader: 504'
-    - 'https://github.com/openedx-unsupported/xblock-submit-and-compare: 504'
+    bad_links: []
     getting-help: false
     good_links:
+    - https://github.com/openedx-unsupported/AudioXBlock
+    - https://github.com/openedx/FeedbackXBlock
+    - https://github.com/openedx/xblock-free-text-response
+    - https://github.com/openedx-unsupported/xblock-image-modal
+    - https://github.com/openedx-unsupported/xblock-qualtrics-survey
+    - https://github.com/openedx/xblock-sql-grader
+    - https://github.com/openedx-unsupported/xblock-submit-and-compare
     - https://github.com/openedx/xblocks-extra.git
     - https://docs.openedx.org/en/latest/developers/concepts/oep58.html
     - https://github.com/openedx/openedx-translations

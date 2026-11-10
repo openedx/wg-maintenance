@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,27 +60,30 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 28
-    lockfile_age_days: 3
+    commits_365d: 29
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 48
-    build_details: '{"total_duration": "3294 minutes 55 seconds", "checks": [{"name":
-        "run_ci / Tests (ubuntu-latest, 3.12, reporting-django42)", "duration": "4
-        minutes 26 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, quality)",
-        "duration": "1 minutes 3 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
-        3.12, data-django42)", "duration": "0 minutes 57 seconds"}, {"name": "release",
-        "duration": "0 minutes 48 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 33 seconds"}, {"name": "check migrations (ubuntu-latest, 3.12)", "duration":
-        "0 minutes 29 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
-        59 seconds"}]}'
+    build_details: '{"total_duration": "486 minutes 23 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 33 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
+        3.12, data-django42)", "duration": "1 minutes 2 seconds"}, {"name": "run_ci
+        / Tests (ubuntu-latest, 3.12, reporting-django42)", "duration": "0 minutes
+        49 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 44 seconds"}, {"name": "Dependabot", "duration": "0 minutes 28
+        seconds"}, {"name": "Dependabot", "duration": "0 minutes 27 seconds"}, {"name":
+        "check migrations (ubuntu-latest, 3.12)", "duration": "0 minutes 18 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes 59 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2017-10-04 19:19:49
     default_branch: master
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: The edX Enterprise Data repo is the home to tools and products related
         to providing access to Enterprise related data.
     disk_usage_kb: 1863
@@ -98,13 +101,13 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 1
-    last_push: 2026-11-09 01:04:19
+    last_push: 2026-11-10 04:06:29
     license: GNU AGPLv3
-    median_pr_response_seconds: 34190
-    median_pr_time_to_merge_seconds: 148649
-    oldest_open_pr_days: 417
-    pr_closure_ratio_90d: 0.6818
-    pr_opened_90d: 22
+    median_pr_response_seconds: 63478
+    median_pr_time_to_merge_seconds: 226850
+    oldest_open_pr_days: 418
+    pr_closure_ratio_90d: 0.6957
+    pr_opened_90d: 23
     prs_open: 10
     pulls_count: 10
     release_count_12mo: 20

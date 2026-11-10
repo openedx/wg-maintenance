@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,7 +67,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 31
-    lockfile_age_days: 13
+    lockfile_age_days: 14
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -140,12 +140,12 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://github.com/openedx/frontend-app-aspects.git: 504'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-aspects:
         404'
     getting-help: true
     good_links:
+    - https://github.com/openedx/frontend-app-aspects.git
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-aspects/issues
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html

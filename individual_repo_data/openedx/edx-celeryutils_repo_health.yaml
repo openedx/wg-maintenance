@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 70
+    branch_count: 72
     build_details: '{"total_duration": "2 minutes 15 seconds", "checks": [{"name":
         "release", "duration": "0 minutes 51 seconds"}, {"name": "update-pip-graph",
         "duration": "0 minutes 51 seconds"}, {"name": "update-uv-graph", "duration":
@@ -90,7 +90,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Tools to support working with celery.
-    disk_usage_kb: 769
+    disk_usage_kb: 776
     first_timer_prs_90d: 0
     fork_count: 12
     good_first_issues_open: 0
@@ -104,15 +104,15 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-06 21:40:04
+    last_push: 2026-11-09 17:32:47
     license: Apache License 2.0
     median_pr_response_seconds: 447162
     median_pr_time_to_merge_seconds: 162042
-    oldest_open_pr_days: 299
-    pr_closure_ratio_90d: 0.5294
-    pr_opened_90d: 17
-    prs_open: 17
-    pulls_count: 17
+    oldest_open_pr_days: 300
+    pr_closure_ratio_90d: 0.4737
+    pr_opened_90d: 19
+    prs_open: 19
+    pulls_count: 19
     release_count_12mo: 2
 github_actions: true
 language_bytes:

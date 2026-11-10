@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-09
+TIMESTAMP: 2026-11-10
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,44 +22,43 @@ dependencies:
         list: ''
     pypi:
         count: 7
-        list: '["click==8.5.0", "pyyaml==6.0.3", "stevedore==5.9.1", "jinja2==3.1.6",
-            "text-unidecode==1.3", "markupsafe==3.0.4", "python-slugify==9.1.3"]'
+        list: '["python-slugify==9.1.3", "pyyaml==6.0.3", "markupsafe==3.0.4", "text-unidecode==1.3",
+            "jinja2==3.1.6", "click==8.5.0", "stevedore==5.9.1"]'
     pypi_all:
         count: 97
-        list: '["sqlparse==0.6.1", "python-discovery==1.9.0", "pytest==9.2.0", "rich==15.0.0",
-            "imagesize==2.0.1", "mock==5.2.0", "python-slugify==9.1.3", "tox==4.67.5",
-            "sphinxcontrib-htmlhelp==2.1.0", "distlib==0.4.4", "packaging==26.3",
-            "beautifulsoup4==4.15.0", "markdown-it-py==4.2.0", "twine==7.0.0", "coverage[toml]==7.17.0",
-            "roman-numerals==4.1.0", "markupsafe==3.0.4", "jaraco-functools==4.6.0",
-            "mccabe==0.7.0", "soupsieve==3.0.4", "idna==3.20", "pycodestyle==2.15.0",
-            "sphinxcontrib-jsmath==2.0.0", "urllib3==2.8.0", "secretstorage==3.5.0",
-            "pylint-celery==0.3", "edx-lint==6.2.0", "stevedore==5.9.1", "keyring==25.7.0",
-            "six==1.17.0", "id==1.6.1", "pydocstyle==6.3.0", "doc8==2.0.0", "more-itertools==11.2.1",
-            "cachetools==7.2.8", "jaraco-classes==3.4.0", "alabaster==1.0.0", "cffi==2.1.1",
-            "jaraco-context==6.1.2", "asgiref==3.13.0", "sphinxcontrib-devhelp==2.0.0",
-            "chardet==7.7.0", "rfc3986==2.0.0", "requests==2.34.2", "pygments==2.21.0",
-            "sphinx==9.1.1", "docutils==0.21.2", "pylint-plugin-utils==0.9.0", "pyyaml==6.0.3",
-            "sphinxcontrib-serializinghtml==2.0.0", "click-log==0.4.0", "pip-tools==7.6.2",
-            "pluggy==1.7.0", "pyproject-api==1.12.2", "snowballstemmer==3.1.1", "wheel==0.48.0",
-            "accessible-pygments==0.0.5", "dill==0.4.1", "jeepney==0.9.0", "diff-cover==11.0.0",
-            "pylint-django==2.8.0", "code-annotations==3.0.0", "mypy-extensions==1.1.0",
-            "virtualenv==21.15.2", "certifi==2026.10.23", "pytest-cov==7.1.0", "text-unidecode==1.3",
-            "isort==9.0.2", "typing-extensions==4.16.0", "click==8.5.0", "charset-normalizer==3.5.2",
-            "platformdirs==4.14.3", "restructuredtext-lint==2.0.2", "tomli-w==1.2.0",
-            "tomlkit==0.15.2", "readme-renderer==46.0", "cryptography==50.0.2", "colorama==0.4.6",
-            "pydata-sphinx-theme==0.20.0", "babel==2.18.0", "pylint==4.1.3", "pip==26.2.2",
-            "requests-toolbelt==1.0.0", "sphinx-book-theme==1.4.0", "sphinxcontrib-applehelp==2.0.0",
-            "build==1.6.1", "setuptools==84.2.1", "pycparser==3.12", "mdurl==0.1.2",
-            "sphinxcontrib-qthelp==2.0.0", "pyproject-hooks==1.3.3", "jinja2==3.1.6",
-            "nh3==0.3.7", "filelock==4.2.6", "iniconfig==2.3.1", "astroid==4.3.4",
-            "django==5.2.18"]'
+        list: '["charset-normalizer==3.5.2", "more-itertools==11.2.1", "tox==4.67.5",
+            "babel==2.18.0", "coverage[toml]==7.17.0", "tomlkit==0.15.2", "code-annotations==3.0.0",
+            "restructuredtext-lint==2.0.2", "python-slugify==9.1.3", "pip-tools==7.6.2",
+            "pluggy==1.7.0", "id==1.6.1", "secretstorage==3.5.0", "pylint==4.1.3",
+            "requests==2.34.2", "diff-cover==11.0.0", "mock==5.2.0", "certifi==2026.10.23",
+            "pytest-cov==7.1.0", "pytest==9.2.0", "markdown-it-py==4.2.0", "jaraco-context==6.1.2",
+            "jeepney==0.9.0", "snowballstemmer==3.1.1", "soupsieve==3.0.4", "mccabe==0.7.0",
+            "idna==3.20", "click==8.5.0", "sphinxcontrib-jsmath==2.0.0", "wheel==0.48.0",
+            "django==5.2.18", "pyproject-hooks==1.3.3", "urllib3==2.8.0", "pip==26.2.2",
+            "doc8==2.0.0", "tomli-w==1.2.0", "cryptography==50.0.2", "sqlparse==0.6.1",
+            "mdurl==0.1.2", "mypy-extensions==1.1.0", "setuptools==84.2.1", "text-unidecode==1.3",
+            "astroid==4.3.4", "chardet==7.7.0", "sphinxcontrib-devhelp==2.0.0", "twine==7.0.0",
+            "markupsafe==3.0.4", "accessible-pygments==0.0.5", "requests-toolbelt==1.0.0",
+            "six==1.17.0", "isort==9.0.2", "pylint-plugin-utils==0.9.0", "distlib==0.4.4",
+            "readme-renderer==46.0", "jinja2==3.1.6", "pylint-celery==0.3", "platformdirs==4.14.3",
+            "alabaster==1.0.0", "pylint-django==2.8.0", "cffi==2.1.1", "typing-extensions==4.16.0",
+            "beautifulsoup4==4.15.0", "rich==15.0.0", "sphinxcontrib-htmlhelp==2.1.0",
+            "asgiref==3.13.0", "sphinx-book-theme==1.4.0", "build==1.6.1", "pycodestyle==2.15.0",
+            "pycparser==3.12", "pydata-sphinx-theme==0.20.0", "filelock==4.2.6", "keyring==25.7.0",
+            "roman-numerals==4.1.0", "pydocstyle==6.3.0", "edx-lint==6.2.0", "docutils==0.21.2",
+            "pyyaml==6.0.3", "rfc3986==2.0.0", "pygments==2.21.0", "jaraco-classes==3.4.0",
+            "cachetools==7.2.8", "imagesize==2.0.1", "iniconfig==2.3.1", "python-discovery==1.9.0",
+            "sphinxcontrib-applehelp==2.0.0", "stevedore==5.9.1", "pyproject-api==1.12.2",
+            "sphinxcontrib-qthelp==2.0.0", "packaging==26.3", "jaraco-functools==4.6.0",
+            "click-log==0.4.0", "nh3==0.3.7", "sphinx==9.1.1", "colorama==0.4.6",
+            "sphinxcontrib-serializinghtml==2.0.0", "dill==0.4.1", "virtualenv==21.15.2"]'
 django_packages:
     django_42:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     total:
         count: 2
-        list: '["code-annotations", "pylint-django"]'
+        list: '["pylint-django", "code-annotations"]'
     upgraded:
         count: 1
         list: '["code-annotations"]'
@@ -88,7 +87,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 7
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -133,7 +132,7 @@ github:
     last_push: 2026-11-09 00:12:30
     license: Apache License 2.0
     median_pr_time_to_merge_seconds: 46293
-    oldest_open_pr_days: 94
+    oldest_open_pr_days: 95
     pr_closure_ratio_90d: 0.95
     pr_opened_90d: 20
     prs_open: 2
