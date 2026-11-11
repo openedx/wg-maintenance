@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-10
+TIMESTAMP: 2026-11-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,12 +68,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 72
-    lockfile_age_days: 19
+    lockfile_age_days: 20
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 22
+    branch_count: 23
     build_details: '{"total_duration": "3675 minutes 21 seconds", "checks": [{"name":
         "test", "duration": "2 minutes 12 seconds"}, {"name": "update-browserslist
         / update-dep", "duration": "1 minutes 18 seconds"}, {"name": "Release", "duration":
@@ -89,7 +89,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Administrator console for the Open edX application
-    disk_usage_kb: 1369
+    disk_usage_kb: 1394
     first_timer_prs_90d: 0
     fork_count: 13
     good_first_issues_open: 0
@@ -100,20 +100,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.6
-    issues_open: 12
+    issue_closure_ratio_90d: 0.65
+    issues_open: 11
     issues_opened_90d: 20
     issues_stale_open_180d: 3
-    last_push: 2026-11-10 02:56:28
+    last_push: 2026-11-10 16:08:58
     license: GNU AGPLv3
     median_issue_first_response_seconds: 926308
     median_pr_response_seconds: 224435
     median_pr_time_to_merge_seconds: 191650
-    oldest_open_pr_days: 224
-    pr_closure_ratio_90d: 0.6909
-    pr_opened_90d: 55
-    prs_open: 18
-    pulls_count: 18
+    oldest_open_pr_days: 225
+    pr_closure_ratio_90d: 0.6786
+    pr_opened_90d: 56
+    prs_open: 19
+    pulls_count: 19
     release_count_12mo: 19
 github_actions: true
 language_bytes:

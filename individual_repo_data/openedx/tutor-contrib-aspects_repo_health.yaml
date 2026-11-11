@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-10
+TIMESTAMP: 2026-11-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,38 +61,37 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 117
-    lockfile_age_days: 8
+    lockfile_age_days: 9
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 33
-    build_details: '{"total_duration": "1641 minutes 54 seconds", "checks": [{"name":
-        "mysql (vector)", "duration": "24 minutes 54 seconds"}, {"name": "mysql (vector)",
-        "duration": "21 minutes 19 seconds"}, {"name": "mysql (ralph)", "duration":
-        "19 minutes 47 seconds"}, {"name": "mysql (ralph)", "duration": "18 minutes
-        6 seconds"}, {"name": "images", "duration": "7 minutes 10 seconds"}, {"name":
-        "images", "duration": "6 minutes 37 seconds"}, {"name": "release", "duration":
-        "0 minutes 46 seconds"}, {"name": "test / tests", "duration": "0 minutes 29
+    branch_count: 34
+    build_details: '{"total_duration": "27 minutes 16 seconds", "checks": [{"name":
+        "mysql (vector)", "duration": "22 minutes 24 seconds"}, {"name": "mysql (ralph)",
+        "duration": "18 minutes 58 seconds"}, {"name": "images", "duration": "4 minutes
+        49 seconds"}, {"name": "release", "duration": "1 minutes 36 seconds"}, {"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "0 minutes 53 seconds"}, {"name": "test / tests", "duration": "0 minutes 27
         seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"},
         {"name": "trigger_image_push", "duration": "0 minutes 0 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"}, {"name":
         "self_assign_by_comment / add_assignee", "duration": "-1 minutes 59 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
         {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
         59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+        minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 17
     created_at: 2023-02-07 05:22:39
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: The Open Analytics Reference System - Tutor plugin
-    disk_usage_kb: 4515
+    disk_usage_kb: 4704
     first_timer_prs_90d: 0
     fork_count: 32
     good_first_issues_open: 1
@@ -107,16 +106,16 @@ github:
     issues_open: 28
     issues_opened_90d: 10
     issues_stale_open_180d: 14
-    last_push: 2026-11-09 15:12:38
+    last_push: 2026-11-10 14:53:39
     license: Apache License 2.0
     median_issue_first_response_seconds: 13686
-    median_pr_response_seconds: 66451
-    median_pr_time_to_merge_seconds: 62755
-    oldest_open_pr_days: 13
-    pr_closure_ratio_90d: 0.9103
-    pr_opened_90d: 78
-    prs_open: 7
-    pulls_count: 7
+    median_pr_response_seconds: 65953
+    median_pr_time_to_merge_seconds: 59953
+    oldest_open_pr_days: 14
+    pr_closure_ratio_90d: 0.9012
+    pr_opened_90d: 81
+    prs_open: 8
+    pulls_count: 8
     release_count_12mo: 14
 github_actions: true
 language_bytes:
@@ -124,7 +123,7 @@ language_bytes:
     dockerfile: 2475
     html: 0
     javascript: 0
-    makefile: 2054
+    makefile: 2078
     python: 244753
     shell: 23439
 makefile:

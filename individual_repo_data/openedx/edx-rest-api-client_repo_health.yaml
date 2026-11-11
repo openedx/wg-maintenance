@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-10
+TIMESTAMP: 2026-11-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,25 +61,36 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 18
+    lockfile_age_days: 19
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 24
-    build_details: '{"total_duration": "2 minutes 39 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 43 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 43 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes
-        26 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes 23 seconds"},
-        {"name": "publish_to_pypi", "duration": "0 minutes 20 seconds"}, {"name":
-        "run_tests / django42", "duration": "0 minutes 12 seconds"}]}'
+    build_details: '{"total_duration": "1229 minutes 32 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 43 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 8 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 43 seconds"}, {"name": "run_tests / quality", "duration":
+        "0 minutes 26 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes
+        23 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 20 seconds"},
+        {"name": "run_tests / django42", "duration": "0 minutes 12 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
+        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 2
     created_at: 2015-04-29 18:11:55
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Facilitates interaction with edX REST APIs
-    disk_usage_kb: 552
+    disk_usage_kb: 642
     first_timer_prs_90d: 0
     fork_count: 18
     good_first_issues_open: 0
@@ -93,13 +104,13 @@ github:
     issues_open: 3
     issues_opened_90d: 0
     issues_stale_open_180d: 3
-    last_push: 2026-11-09 08:36:11
+    last_push: 2026-11-10 05:03:21
     license: Apache License 2.0
     median_pr_response_seconds: 3588807
     median_pr_time_to_merge_seconds: 255195
-    oldest_open_pr_days: 307
-    pr_closure_ratio_90d: 0.7429
-    pr_opened_90d: 35
+    oldest_open_pr_days: 308
+    pr_closure_ratio_90d: 0.75
+    pr_opened_90d: 36
     prs_open: 20
     pulls_count: 20
     release_count_12mo: 4

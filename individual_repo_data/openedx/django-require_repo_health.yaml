@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-10
+TIMESTAMP: 2026-11-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -101,7 +101,7 @@ github:
     last_push: 2026-05-30 14:54:07
     license: Apache License 2.0
     median_pr_response_seconds: 159207
-    oldest_open_pr_days: 12
+    oldest_open_pr_days: 13
     pr_closure_ratio_90d: 0.0
     pr_opened_90d: 1
     prs_open: 1

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-10
+TIMESTAMP: 2026-11-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 5
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -110,7 +110,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 159078
     median_pr_time_to_merge_seconds: 280809
-    oldest_open_pr_days: 3
+    oldest_open_pr_days: 4
     pr_closure_ratio_90d: 0.7333
     pr_opened_90d: 15
     prs_open: 4
@@ -146,7 +146,10 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/django-config-models/actions/workflows/release.yml/badge.svg?branch=master
@@ -164,10 +167,7 @@ readme:
     - https://django-config-models.readthedocs.org
     - https://discuss.openedx.org
     - https://github.com/openedx/django-config-models
-    - https://openedx.org/slack
-    - https://openedx.org/getting-help
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/django-config-models
     irc-missing: true
     mailing-list-missing: true
