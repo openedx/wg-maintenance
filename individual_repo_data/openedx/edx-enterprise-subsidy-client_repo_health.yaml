@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-10
+TIMESTAMP: 2026-11-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 42
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -82,7 +82,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Client for making requests to edx-enterprise-subsidy.
-    disk_usage_kb: 785
+    disk_usage_kb: 786
     first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0

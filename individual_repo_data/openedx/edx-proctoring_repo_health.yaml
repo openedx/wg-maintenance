@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-10
+TIMESTAMP: 2026-11-11
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,30 +67,41 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 22
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 40
-    build_details: '{"total_duration": "2 minutes 0 seconds", "checks": [{"name":
-        "run_ci / translations-django52", "duration": "1 minutes 0 seconds"}, {"name":
-        "release", "duration": "0 minutes 58 seconds"}, {"name": "run_ci / translations-django42",
-        "duration": "0 minutes 57 seconds"}, {"name": "run_ci / django42-drflatest",
-        "duration": "0 minutes 55 seconds"}, {"name": "run_ci / django52-drflatest",
-        "duration": "0 minutes 54 seconds"}, {"name": "run_ci / quality", "duration":
-        "0 minutes 47 seconds"}, {"name": "run_ci / js_tests", "duration": "0 minutes
-        40 seconds"}, {"name": "run_ci / js_lint", "duration": "0 minutes 30 seconds"},
-        {"name": "run_ci / pii_check", "duration": "0 minutes 24 seconds"}, {"name":
-        "run_ci / rst_validation", "duration": "0 minutes 22 seconds"}, {"name": "Test
-        (ubuntu-latest, 3.12)", "duration": "0 minutes 15 seconds"}]}'
+    build_details: '{"total_duration": "5541 minutes 41 seconds", "checks": [{"name":
+        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
+        "1 minutes 2 seconds"}, {"name": "run_ci / translations-django52", "duration":
+        "1 minutes 0 seconds"}, {"name": "release", "duration": "0 minutes 58 seconds"},
+        {"name": "run_ci / translations-django42", "duration": "0 minutes 57 seconds"},
+        {"name": "run_ci / django42-drflatest", "duration": "0 minutes 55 seconds"},
+        {"name": "run_ci / django52-drflatest", "duration": "0 minutes 54 seconds"},
+        {"name": "run_ci / quality", "duration": "0 minutes 47 seconds"}, {"name":
+        "run_ci / js_tests", "duration": "0 minutes 40 seconds"}, {"name": "run_ci
+        / js_lint", "duration": "0 minutes 30 seconds"}, {"name": "run_ci / pii_check",
+        "duration": "0 minutes 24 seconds"}, {"name": "run_ci / rst_validation", "duration":
+        "0 minutes 22 seconds"}, {"name": "Test (ubuntu-latest, 3.12)", "duration":
+        "0 minutes 15 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2015-06-08 13:38:04
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 12354
+    disk_usage_kb: 12486
     first_timer_prs_90d: 1
     fork_count: 97
     good_first_issues_open: 0
@@ -105,13 +116,13 @@ github:
     issues_open: 10
     issues_opened_90d: 1
     issues_stale_open_180d: 9
-    last_push: 2026-11-06 18:58:56
+    last_push: 2026-11-10 15:18:24
     license: GNU AGPLv3
     median_pr_response_seconds: 174243
     median_pr_time_to_merge_seconds: 307627
-    oldest_open_pr_days: 1827
-    pr_closure_ratio_90d: 0.8462
-    pr_opened_90d: 26
+    oldest_open_pr_days: 1828
+    pr_closure_ratio_90d: 0.8148
+    pr_opened_90d: 27
     prs_open: 11
     pulls_count: 11
     release_count_12mo: 9
