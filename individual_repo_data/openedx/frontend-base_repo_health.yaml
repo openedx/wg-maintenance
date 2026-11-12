@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-11
+TIMESTAMP: 2026-11-12
 dependabot:
     exists: false
     has_ecosystem:
@@ -98,7 +98,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 127
-    lockfile_age_days: 20
+    lockfile_age_days: 21
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -133,18 +133,18 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.4737
-    issues_open: 40
+    issue_closure_ratio_90d: 0.4474
+    issues_open: 41
     issues_opened_90d: 38
     issues_stale_open_180d: 7
     last_push: 2026-11-02 17:03:20
     license: GNU AGPLv3
     median_issue_first_response_seconds: 15995
-    median_pr_response_seconds: 57721
+    median_pr_response_seconds: 46147
     median_pr_time_to_merge_seconds: 14509
-    oldest_open_pr_days: 564
-    pr_closure_ratio_90d: 0.84
-    pr_opened_90d: 25
+    oldest_open_pr_days: 565
+    pr_closure_ratio_90d: 0.8333
+    pr_opened_90d: 24
     prs_open: 6
     pulls_count: 6
     release_count_12mo: 64

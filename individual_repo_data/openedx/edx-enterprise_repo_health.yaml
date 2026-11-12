@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-11
+TIMESTAMP: 2026-11-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,31 +65,34 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 112
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 341
-    build_details: '{"total_duration": "7 minutes 26 seconds", "checks": [{"name":
+    branch_count: 342
+    build_details: '{"total_duration": "1433 minutes 24 seconds", "checks": [{"name":
         "run_ci / run_tests (3.12, django52)", "duration": "6 minutes 8 seconds"},
         {"name": "run_ci / run_tests (3.12, quality)", "duration": "2 minutes 55 seconds"},
         {"name": "release", "duration": "1 minutes 15 seconds"}, {"name": "check migrations
-        (ubuntu-latest, 3.12)", "duration": "1 minutes 12 seconds"}, {"name": "Dependabot",
+        (ubuntu-latest, 3.12)", "duration": "1 minutes 12 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 6 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 57 seconds"}, {"name": "Dependabot", "duration": "0
         minutes 57 seconds"}, {"name": "run_ci / run_tests (3.12, docs)", "duration":
         "0 minutes 54 seconds"}, {"name": "Dependabot", "duration": "0 minutes 43
         seconds"}, {"name": "update-uv-graph", "duration": "0 minutes 42 seconds"},
         {"name": "run_ci / run_tests (3.12, pii_check)", "duration": "0 minutes 20
         seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
-        5 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
+        5 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 13
     created_at: 2016-10-12 13:48:42
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 16648
+    disk_usage_kb: 16870
     first_timer_median_first_response_seconds: 123096
     first_timer_prs_90d: 1
     fork_count: 75
@@ -104,15 +107,15 @@ github:
     issues_open: 9
     issues_opened_90d: 0
     issues_stale_open_180d: 9
-    last_push: 2026-11-10 05:19:12
+    last_push: 2026-11-11 05:12:21
     license: GNU AGPLv3
-    median_pr_response_seconds: 115057
+    median_pr_response_seconds: 107018
     median_pr_time_to_merge_seconds: 367412
-    oldest_open_pr_days: 2386
-    pr_closure_ratio_90d: 0.7581
-    pr_opened_90d: 62
-    prs_open: 73
-    pulls_count: 73
+    oldest_open_pr_days: 2387
+    pr_closure_ratio_90d: 0.7377
+    pr_opened_90d: 61
+    prs_open: 74
+    pulls_count: 74
     release_count_12mo: 74
 github_actions: true
 language_bytes:
@@ -147,7 +150,6 @@ readme:
     - 'https://github.com/openedx/edx-enterprise/blob/master/LICENSE.txt: 404'
     - 'https://github.com/openedx/edx-enterprise/blob/master/.github/PULL_REQUEST_TEMPLATE_TEMPLATE.md:
         404'
-    - 'https://openedx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/edx-enterprise.svg
@@ -159,6 +161,7 @@ readme:
     - https://img.shields.io/pypi/pyversions/edx-enterprise.svg
     - https://img.shields.io/github/license/edx/edx-enterprise.svg
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://openedx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true

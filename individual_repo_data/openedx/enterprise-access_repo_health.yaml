@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-11
+TIMESTAMP: 2026-11-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 72
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -83,7 +83,7 @@ github:
     description: Service to manage access to content for enterprise users
     disk_usage_kb: 8451
     first_timer_median_first_response_seconds: 899184
-    first_timer_prs_90d: 2
+    first_timer_prs_90d: 3
     fork_count: 21
     good_first_issues_open: 0
     has_issues: true
@@ -100,9 +100,9 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 10678
     median_pr_time_to_merge_seconds: 23105
-    oldest_open_pr_days: 1232
-    pr_closure_ratio_90d: 0.7692
-    pr_opened_90d: 26
+    oldest_open_pr_days: 1233
+    pr_closure_ratio_90d: 0.7778
+    pr_opened_90d: 27
     prs_open: 24
     pulls_count: 24
     release_count_12mo: 3
