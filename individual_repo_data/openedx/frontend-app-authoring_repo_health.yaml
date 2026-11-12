@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-11
+TIMESTAMP: 2026-11-12
 dependabot:
     exists: true
     has_ecosystem:
@@ -101,12 +101,12 @@ exists:
 git:
     absence_factor_365d: 7
     commits_365d: 250
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 28
+    branch_count: 29
     build_details: '{"total_duration": "184 minutes 13 seconds", "checks": [{"name":
         "tests", "duration": "7 minutes 28 seconds"}, {"name": "coverage", "duration":
         "0 minutes 12 seconds"}, {"name": "version-check / version-check", "duration":
@@ -141,16 +141,16 @@ github:
     issues_open: 271
     issues_opened_90d: 26
     issues_stale_open_180d: 25
-    last_push: 2026-11-10 17:58:34
+    last_push: 2026-11-12 04:41:40
     license: GNU AGPLv3
     median_issue_first_response_seconds: 171898
     median_pr_response_seconds: 365550
-    median_pr_time_to_merge_seconds: 406013
-    oldest_open_pr_days: 927
-    pr_closure_ratio_90d: 0.81
+    median_pr_time_to_merge_seconds: 433932
+    oldest_open_pr_days: 928
+    pr_closure_ratio_90d: 0.8
     pr_opened_90d: 100
-    prs_open: 36
-    pulls_count: 36
+    prs_open: 37
+    pulls_count: 37
     release_count_12mo: 7
 github_actions: true
 language_bytes:
