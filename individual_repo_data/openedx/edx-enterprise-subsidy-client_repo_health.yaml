@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 42
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -92,7 +92,7 @@ github:
     description: Client for making requests to edx-enterprise-subsidy.
     disk_usage_kb: 880
     first_timer_prs_90d: 0
-    fork_count: 6
+    fork_count: 5
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -108,7 +108,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 34082
     median_pr_time_to_merge_seconds: 144363
-    oldest_open_pr_days: 0
+    oldest_open_pr_days: 1
     pr_closure_ratio_90d: 0.96
     pr_opened_90d: 25
     prs_open: 1

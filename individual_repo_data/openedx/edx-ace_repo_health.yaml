@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: false
     has_ecosystem:
@@ -7,10 +7,10 @@ dependabot:
         pip: false
 dependabot_alerts: {}
 dependencies:
-    count: 148
+    count: 0
     github:
         count: 0
-        list: '[]'
+        list: ''
     js:
         count: 0
         list: ''
@@ -21,97 +21,26 @@ dependencies:
         count: 0
         list: ''
     pypi:
-        count: 109
-        list: '["simplejson==3.20.1", "mdurl==0.1.2", "pyyaml==6.0.2", "twine==6.1.0",
-            "pylint-celery==0.3", "edx-i18n-tools==1.8.0", "sailthru-client==2.2.3",
-            "google-resumable-media==2.7.2", "pyjwt[crypto]==2.10.1", "jinja2==3.1.6",
-            "click==8.1.8", "pbr==6.1.1", "python-slugify==8.0.4", "platformdirs==4.3.7",
-            "pydocstyle==6.3.0", "django-push-notifications==3.2.1", "chardet==5.2.0",
-            "googleapis-common-protos==1.70.0", "pyparsing==3.2.3", "cachetools==5.5.2",
-            "docutils==0.21.2", "keyring==25.6.0", "astroid==3.3.9", "pylint-plugin-utils==0.8.2",
-            "requests==2.32.3", "firebase-admin==6.8.0", "pip-tools==7.4.1", "sqlparse==0.5.3",
-            "polib==1.2.0", "protobuf==6.30.2", "jaraco-classes==3.4.0", "pylint-django==2.6.1",
-            "pluggy==1.5.0", "pynacl==1.5.0", "nh3==0.2.21", "idna==3.10", "pyasn1-modules==0.4.2",
-            "google-cloud-core==2.4.3", "virtualenv==20.30.0", "tomlkit==0.13.2",
-            "jeepney==0.9.0", "mccabe==0.7.0", "code-annotations==2.3.0", "google-api-core[grpc]==2.24.2",
-            "six==1.17.0", "pycodestyle==2.13.0", "python-dateutil==2.9.0.post0",
-            "google-auth-httplib2==0.2.0", "rsa==4.9.1", "dill==0.4.0", "google-cloud-storage==3.1.0",
-            "more-itertools==10.7.0", "pyasn1==0.6.1", "readme-renderer==44.0", "click-log==0.4.0",
-            "distlib==0.3.9", "cryptography==44.0.2", "attrs==25.3.0", "id==1.5.0",
-            "rfc3986==2.0.0", "requests-toolbelt==1.0.0", "google-cloud-firestore==2.20.2",
-            "pylint==3.3.6", "markdown-it-py==3.0.0", "rich==14.0.0", "httplib2==0.22.0",
-            "text-unidecode==1.3", "edx-lint==5.6.0", "tox==4.25.0", "stevedore==5.4.1",
-            "cffi==1.17.1", "cachecontrol==0.14.2", "django==4.2.20", "certifi==2026.10.19",
-            "diff-cover==9.2.4", "asgiref==3.8.1", "isort==6.0.1", "google-auth==2.39.0",
-            "grpcio==1.72.0", "urllib3==2.2.3", "google-crc32c==1.7.1", "jaraco-functools==4.1.0",
-            "edx-django-utils==7.4.0", "pyproject-api==1.9.0", "path==16.16.0", "lxml[html-clean,html_clean]==5.4.0",
-            "markupsafe==3.0.2", "jaraco-context==6.0.1", "filelock==3.18.0", "grpcio-status==1.72.0",
-            "msgpack==1.1.0", "packaging==25.0", "snowballstemmer==2.2.0", "proto-plus==1.26.1",
-            "pycparser==2.22", "pyproject-hooks==1.2.0", "uritemplate==4.1.1", "newrelic==10.10.0",
-            "django-waffle==4.2.0", "google-api-python-client==2.168.0", "secretstorage==3.5.0",
-            "charset-normalizer==3.4.1", "django-crum==0.7.9", "pygments==2.19.1",
-            "colorama==0.4.6", "build==1.2.2.post1", "wheel==0.45.1", "psutil==7.0.0",
-            "lxml-html-clean==0.4.2"]'
+        count: 0
+        list: ''
     pypi_all:
-        count: 148
-        list: '["sphinxcontrib-jsmath==1.0.1", "simplejson==3.20.1", "mdurl==0.1.2",
-            "pyyaml==6.0.2", "twine==6.1.0", "pip==24.2", "pylint-celery==0.3", "alabaster==1.0.0",
-            "edx-i18n-tools==1.8.0", "urwid==2.6.16", "restructuredtext-lint==1.4.0",
-            "jedi==0.19.2", "sailthru-client==2.2.3", "google-resumable-media==2.7.2",
-            "pyjwt[crypto]==2.10.1", "jinja2==3.1.6", "click==8.1.8", "pbr==6.1.1",
-            "python-slugify==8.0.4", "platformdirs==4.3.7", "pydocstyle==6.3.0", "django-push-notifications==3.2.1",
-            "pydata-sphinx-theme==0.15.4", "coverage[toml]==7.8.0", "chardet==5.2.0",
-            "googleapis-common-protos==1.70.0", "pyparsing==3.2.3", "pytz==2025.2",
-            "cachetools==5.5.2", "docutils==0.21.2", "keyring==25.6.0", "astroid==3.3.9",
-            "pytest-cov==6.1.1", "pylint-plugin-utils==0.8.2", "requests==2.32.3",
-            "firebase-admin==6.8.0", "ddt==1.7.2", "pip-tools==7.4.1", "sqlparse==0.5.3",
-            "polib==1.2.0", "protobuf==6.30.2", "jaraco-classes==3.4.0", "pylint-django==2.6.1",
-            "pluggy==1.5.0", "pynacl==1.5.0", "nh3==0.2.21", "idna==3.10", "pyasn1-modules==0.4.2",
-            "google-cloud-core==2.4.3", "virtualenv==20.30.0", "pytest-randomly==3.16.0",
-            "sphinxcontrib-applehelp==2.0.0", "tomlkit==0.13.2", "jeepney==0.9.0",
-            "mock==5.2.0", "mccabe==0.7.0", "code-annotations==2.3.0", "google-api-core[grpc]==2.24.2",
-            "six==1.17.0", "pycodestyle==2.13.0", "python-dateutil==2.9.0.post0",
-            "google-auth-httplib2==0.2.0", "doc8==1.1.2", "rsa==4.9.1", "dill==0.4.0",
-            "sphinxcontrib-devhelp==2.0.0", "google-cloud-storage==3.1.0", "more-itertools==10.7.0",
-            "pyasn1==0.6.1", "readme-renderer==44.0", "pudb==2024.1.3", "click-log==0.4.0",
-            "setuptools==79.0.1", "distlib==0.3.9", "roman-numerals-py==3.1.0", "cryptography==44.0.2",
-            "sphinxcontrib-htmlhelp==2.1.0", "imagesize==1.4.1", "attrs==25.3.0",
-            "id==1.5.0", "rfc3986==2.0.0", "requests-toolbelt==1.0.0", "google-cloud-firestore==2.20.2",
-            "pylint==3.3.6", "markdown-it-py==3.0.0", "rich==14.0.0", "httplib2==0.22.0",
-            "pytest-django==4.11.1", "text-unidecode==1.3", "edx-lint==5.6.0", "tox==4.25.0",
-            "stevedore==5.4.1", "hypothesis[pytz]==6.104.2", "sphinx-book-theme==1.1.4",
-            "cffi==1.17.1", "typing-extensions==4.13.2", "cachecontrol==0.14.2", "django==4.2.20",
-            "certifi==2026.10.19", "sphinxcontrib-serializinghtml==2.0.0", "diff-cover==9.2.4",
-            "asgiref==3.8.1", "isort==6.0.1", "sortedcontainers==2.4.0", "google-auth==2.39.0",
-            "pytest==8.3.5", "grpcio==1.72.0", "urllib3==2.2.3", "sphinx==8.2.3",
-            "google-crc32c==1.7.1", "babel==2.17.0", "jaraco-functools==4.1.0", "edx-django-utils==7.4.0",
-            "pyproject-api==1.9.0", "parso==0.8.4", "path==16.16.0", "lxml[html-clean,html_clean]==5.4.0",
-            "markupsafe==3.0.2", "jaraco-context==6.0.1", "accessible-pygments==0.0.5",
-            "filelock==3.18.0", "grpcio-status==1.72.0", "packaging==25.0", "msgpack==1.1.0",
-            "sphinxcontrib-qthelp==2.0.0", "snowballstemmer==2.2.0", "urwid-readline==0.15.1",
-            "proto-plus==1.26.1", "pycparser==2.22", "hypothesis-pytest==0.19.0",
-            "pyproject-hooks==1.2.0", "uritemplate==4.1.1", "newrelic==10.10.0", "django-waffle==4.2.0",
-            "google-api-python-client==2.168.0", "soupsieve==2.7", "iniconfig==2.1.0",
-            "secretstorage==3.5.0", "charset-normalizer==3.4.1", "django-crum==0.7.9",
-            "pygments==2.19.1", "colorama==0.4.6", "build==1.2.2.post1", "beautifulsoup4==4.13.4",
-            "wheel==0.45.1", "psutil==7.0.0", "lxml-html-clean==0.4.2", "wcwidth==0.2.13"]'
+        count: 0
+        list: ''
 django_packages:
     django_42:
-        count: 6
-        list: '["code-annotations", "edx-django-utils", "pylint-django", "django-waffle",
-            "pytest-django", "edx-i18n-tools"]'
+        count: 0
+        list: '[]'
     total:
-        count: 8
-        list: '["code-annotations", "edx-django-utils", "django-crum", "pylint-django",
-            "django-waffle", "pytest-django", "newrelic", "edx-i18n-tools"]'
+        count: 0
+        list: '[]'
     upgraded:
-        count: 4
-        list: '["code-annotations", "edx-i18n-tools", "edx-django-utils", "django-waffle"]'
+        count: 0
+        list: '[]'
 docs:
     build_badge: true
     python_version: null
 exists:
-    .coveragerc: true
+    .coveragerc: false
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
@@ -120,47 +49,46 @@ exists:
     README: true
     commitlint.yml: true
     dependabot.yml: false
-    openedx.yaml: true
+    openedx.yaml: false
     package.json: false
     pylintrc: true
-    pyproject.toml: false
-    requirements: true
-    setup.cfg: true
-    setup.py: true
+    pyproject.toml: true
+    requirements: false
+    setup.cfg: false
+    setup.py: false
     tox.ini: true
     transifex_config: true
 git:
     absence_factor_365d: 2
-    commits_365d: 5
-    lockfile_age_days: 20
+    commits_365d: 6
+    lockfile_age_days: 0
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
-    build_details: '{"total_duration": "12856 minutes 27 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.12, django52)", "duration": "1 minutes 4 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, docs)", "duration": "1 minutes 1 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 52
-        seconds"}, {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration": "0
-        minutes 49 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
-        47 seconds"}, {"name": "Dependabot", "duration": "0 minutes 41 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 40 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 38 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 35 seconds"}, {"name": "Dependabot", "duration": "0 minutes 32 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 52 seconds"}]}'
+    branch_count: 14
+    build_details: '{"total_duration": "30 minutes 53 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 24 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 13 seconds"}, {"name": "Dependabot", "duration": "1 minutes 12
+        seconds"}, {"name": "Dependabot", "duration": "1 minutes 6 seconds"}, {"name":
+        "Dependabot", "duration": "1 minutes 5 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "0 minutes 56 seconds"},
+        {"name": "update-pip-graph", "duration": "0 minutes 43 seconds"}, {"name":
+        "update-uv-graph", "duration": "0 minutes 41 seconds"}, {"name": "run_ci /
+        Tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 24 seconds"},
+        {"name": "run_ci / Tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes
+        24 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 24 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, django52)",
+        "duration": "0 minutes 23 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 20 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 1
+    contributor_count_90d: 2
     created_at: 2017-08-08 18:12:33
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: edX's Automated Communication Engine
-    disk_usage_kb: 595
-    first_timer_median_first_response_seconds: 90536
-    first_timer_prs_90d: 1
+    disk_usage_kb: 1135
+    first_timer_prs_90d: 0
     fork_count: 27
     good_first_issues_open: 0
     has_issues: true
@@ -173,27 +101,27 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-10-22 17:44:31
+    last_push: 2026-11-12 21:15:40
     license: GNU AGPLv3
     median_pr_response_seconds: 49833
-    median_pr_time_to_merge_seconds: 9142
-    oldest_open_pr_days: 1751
-    pr_closure_ratio_90d: 0.5
-    pr_opened_90d: 2
-    prs_open: 4
-    pulls_count: 4
-    release_count_12mo: 0
+    median_pr_time_to_merge_seconds: 628572
+    oldest_open_pr_days: 1752
+    pr_closure_ratio_90d: 0.25
+    pr_opened_90d: 8
+    prs_open: 9
+    pulls_count: 9
+    release_count_12mo: 1
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 194
     html: 665
     javascript: 0
-    makefile: 4491
-    python: 132551
+    makefile: 3710
+    python: 125226
     shell: 0
 makefile:
-    pip-installed: true
+    pip-installed: false
     quality: true
     quality-js: false
     quality-python: false
@@ -217,8 +145,8 @@ readme:
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/edx-ace:
         404'
     - 'https://travis-ci.com/edx/edx-ace: 404'
-    - 'https://www.gnu.org/licenses/agpl-3.0: 403'
-    - 'https://github.com/openedx/edx-ace/actions/workflows/pypi-release.yml: 404'
+    - 'https://www.gnu.org/licenses/agpl-3.0: (''Connection aborted.'', ConnectionResetError(104,
+        ''Connection reset by peer''))'
     getting-help: true
     good_links:
     - https://edx-ace.readthedocs.io/en/latest/
@@ -242,32 +170,27 @@ readme:
     - https://img.shields.io/github/license/edx/edx-ace.svg
     - https://github.com/openedx/edx-ace/blob/master/LICENSE.txt
     - https://img.shields.io/badge/License-AGPL_v3-blue.svg
-    - https://github.com/openedx/edx-ace/actions/workflows/ci.yml/badge.svg
-    - https://github.com/openedx/edx-ace/actions/workflows/ci.yml
-    - https://github.com/openedx/edx-ace/actions/workflows/pypi-publish.yml/badge.svg
+    - https://github.com/openedx/edx-ace/actions/workflows/release.yml/badge.svg?branch=master
+    - https://github.com/openedx/edx-ace/actions/workflows/release.yml
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     irc-missing: true
     mailing-list-missing: true
     security: true
 readthedocs_config:
-    exists: false
-    file_name: ''
-    version: ''
+    exists: true
+    file_name: .readthedocs.yaml
+    version: 2
 renovate:
     configured: false
     last_pr: null
     oldest_open_pr_date: null
     total_open_prs: null
 requires:
-    django: true
-    pytest: true
+    django: false
+    pytest: false
 setup_py:
-    py312_classifiers: true
-    pypi_name: edx-ace
-    python_versions:
-    - '3'
-    - '3.12'
-    repo_url: https://github.com/openedx/edx-ace
+    py312_classifiers: false
+    python_versions: []
 tox_ini:
     has_section:
         testenv: true
