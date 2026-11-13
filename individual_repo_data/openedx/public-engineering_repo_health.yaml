@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,23 +65,23 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "5908 minutes 0 seconds", "checks": [{"name":
-        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
-        {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "routeissue / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name":
+    build_details: '{"total_duration": "5967 minutes 26 seconds", "checks": [{"name":
         "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
         "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
         {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}]}'
+        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 55 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 0
     created_at: 2021-11-22 21:15:52
@@ -98,9 +98,9 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.4706
-    issues_open: 167
-    issues_opened_90d: 17
+    issue_closure_ratio_90d: 0.4444
+    issues_open: 168
+    issues_opened_90d: 18
     issues_stale_open_180d: 5
     last_push: 2025-03-05 16:20:54
     license: null

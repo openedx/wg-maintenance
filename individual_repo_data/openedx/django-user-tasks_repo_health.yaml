@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 13
+    lockfile_age_days: 14
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -111,7 +111,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 545585
     median_pr_time_to_merge_seconds: 259750
-    oldest_open_pr_days: 338
+    oldest_open_pr_days: 339
     pr_closure_ratio_90d: 0.6154
     pr_opened_90d: 13
     prs_open: 6
@@ -148,6 +148,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://open-edx-proposals.readthedocs.io/en/latest/oeps/oep-0003.html: 404'
+    - 'https://open.edx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/django-user-tasks.svg
@@ -166,7 +167,6 @@ readme:
     - http://docs.celeryproject.org/en/latest/userguide/signals.html
     - https://django-user-tasks.readthedocs.org
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
-    - https://open.edx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true

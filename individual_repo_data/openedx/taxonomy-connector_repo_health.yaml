@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 16
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -96,7 +96,7 @@ github:
     description: A python package that communicates with 3rd party taxonomy vendors
     disk_usage_kb: 1625
     first_timer_prs_90d: 0
-    fork_count: 19
+    fork_count: 18
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -112,7 +112,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 189287
     median_pr_time_to_merge_seconds: 227936
-    oldest_open_pr_days: 2120
+    oldest_open_pr_days: 2121
     pr_closure_ratio_90d: 0.9259
     pr_opened_90d: 27
     prs_open: 10

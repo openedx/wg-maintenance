@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: false
     has_ecosystem:
@@ -89,10 +89,11 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-08-03 14:34:02
+    last_push: 2026-11-12 17:19:42
     license: GNU AGPLv3
-    oldest_open_pr_days: 100
-    pr_opened_90d: 0
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.5
+    pr_opened_90d: 2
     prs_open: 1
     pulls_count: 1
     release_count_12mo: 0

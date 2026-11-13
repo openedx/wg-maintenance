@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 9
-    lockfile_age_days: 8
+    lockfile_age_days: 9
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 19
+    branch_count: 20
     build_details: '{"total_duration": "2 minutes 22 seconds", "checks": [{"name":
         "run_ci / django52-drflatest", "duration": "0 minutes 59 seconds"}, {"name":
         "release", "duration": "0 minutes 58 seconds"}, {"name": "update-uv-graph",
@@ -90,10 +90,10 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: API for creating submissions and scores
-    disk_usage_kb: 742
+    disk_usage_kb: 851
     first_timer_median_first_response_seconds: 1211126
     first_timer_prs_90d: 1
-    fork_count: 39
+    fork_count: 40
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -102,18 +102,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issues_open: 2
-    issues_opened_90d: 0
+    issue_closure_ratio_90d: 0.0
+    issues_open: 3
+    issues_opened_90d: 1
     issues_stale_open_180d: 2
-    last_push: 2026-11-09 09:55:52
+    last_push: 2026-11-12 20:40:54
     license: GNU AGPLv3
+    median_issue_first_response_seconds: 8458
     median_pr_response_seconds: 1439565
     median_pr_time_to_merge_seconds: 395809
-    oldest_open_pr_days: 16
-    pr_closure_ratio_90d: 0.7647
-    pr_opened_90d: 17
-    prs_open: 4
-    pulls_count: 4
+    oldest_open_pr_days: 9
+    pr_closure_ratio_90d: 0.7368
+    pr_opened_90d: 19
+    prs_open: 5
+    pulls_count: 5
     release_count_12mo: 5
 github_actions: true
 language_bytes:
@@ -146,16 +148,16 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://docs.openedx.org/projects/edx-submissions: 404'
+    - 'https://openedx.org/getting-help: 403'
+    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
+    - 'https://openedx.org/r/how-to-contribute: 403'
+    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - https://docs.astral.sh/uv/
     - https://discuss.openedx.org
     - https://github.com/openedx/edx-submissions/issues
-    - https://openedx.org/getting-help
-    - https://openedx.org/slack
-    - https://openedx.org/r/how-to-contribute
-    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/edx-submissions
     - https://img.shields.io/pypi/v/edx-submissions.svg
     - https://pypi.python.org/pypi/edx-submissions/

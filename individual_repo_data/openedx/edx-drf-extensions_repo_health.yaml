@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,27 +60,30 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 15
-    lockfile_age_days: 12
+    commits_365d: 14
+    lockfile_age_days: 13
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 42
-    build_details: '{"total_duration": "5228 minutes 11 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "10519 minutes 41 seconds", "checks": [{"name":
         "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
         "1 minutes 19 seconds"}, {"name": "release", "duration": "1 minutes 16 seconds"},
         {"name": "run_ci / tests (ubuntu-latest, 3.12, django52-drflatest)", "duration":
-        "1 minutes 3 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, django42-drflatest)",
-        "duration": "0 minutes 32 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 26 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes 23
-        seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration":
-        "0 minutes 21 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, docs)",
-        "duration": "0 minutes 14 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "1 minutes 3 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 59 seconds"}, {"name": "run_ci
+        / tests (ubuntu-latest, 3.12, django42-drflatest)", "duration": "0 minutes
+        32 seconds"}, {"name": "Dependabot", "duration": "0 minutes 26 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 23 seconds"}, {"name":
+        "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 21
+        seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, docs)", "duration":
+        "0 minutes 14 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
@@ -103,13 +106,13 @@ github:
     issues_open: 12
     issues_opened_90d: 0
     issues_stale_open_180d: 11
-    last_push: 2026-11-06 04:15:32
+    last_push: 2026-11-13 04:14:47
     license: Apache License 2.0
     median_pr_response_seconds: 393072
     median_pr_time_to_merge_seconds: 53404
-    oldest_open_pr_days: 485
-    pr_closure_ratio_90d: 0.9
-    pr_opened_90d: 30
+    oldest_open_pr_days: 486
+    pr_closure_ratio_90d: 0.9032
+    pr_opened_90d: 31
     prs_open: 10
     pulls_count: 10
     release_count_12mo: 5

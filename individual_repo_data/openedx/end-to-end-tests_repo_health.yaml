@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -64,12 +64,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 346
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 11
+    branch_count: 15
     build_details: '{"total_duration": "899 minutes 29 seconds", "checks": [{"name":
         "Docker: last release (verawood) / default 2/4", "duration": "19 minutes 42
         seconds"}, {"name": "Docker: last release (verawood) / default 3/4", "duration":
@@ -103,10 +103,10 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 3313
+    disk_usage_kb: 3284
     first_timer_median_first_response_seconds: 56618
     first_timer_prs_90d: 2
-    fork_count: 6
+    fork_count: 7
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -119,16 +119,16 @@ github:
     issues_open: 70
     issues_opened_90d: 94
     issues_stale_open_180d: 0
-    last_push: 2026-11-10 19:50:27
+    last_push: 2026-11-13 01:44:22
     license: Apache License 2.0
     median_issue_first_response_seconds: 252350
     median_pr_response_seconds: 174584
-    median_pr_time_to_merge_seconds: 407670
-    oldest_open_pr_days: 72
-    pr_closure_ratio_90d: 0.9167
-    pr_opened_90d: 96
-    prs_open: 8
-    pulls_count: 8
+    median_pr_time_to_merge_seconds: 406122
+    oldest_open_pr_days: 73
+    pr_closure_ratio_90d: 0.88
+    pr_opened_90d: 100
+    prs_open: 12
+    pulls_count: 12
     release_count_12mo: 0
 github_actions: true
 language_bytes:

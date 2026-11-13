@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-12
+TIMESTAMP: 2026-11-13
 dependabot:
     exists: true
     has_ecosystem:
@@ -40,50 +40,46 @@ docs:
     build_badge: false
     python_version: null
 exists:
-    .coveragerc: true
+    .coveragerc: false
     .editorconfig: false
     .gitignore: true
     .pii_annotations.yml: false
     CHANGELOG.rst: false
-    Makefile: false
+    Makefile: true
     README: true
     commitlint.yml: true
     dependabot.yml: true
     openedx.yaml: false
     package.json: false
     pylintrc: false
-    pyproject.toml: false
+    pyproject.toml: true
     requirements: false
     setup.cfg: false
-    setup.py: true
+    setup.py: false
     tox.ini: true
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 3
+    commits_365d: 4
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "224168 minutes 49 seconds", "checks": [{"name":
-        "Tests (ubuntu-latest, 3.11, django42)", "duration": "1 minutes 3 seconds"},
-        {"name": "Tests (ubuntu-latest, 3.12, django42)", "duration": "1 minutes 0
-        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 53 seconds"}]}'
+    build_details: '{"total_duration": "3 minutes 21 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 48 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
+        3.11, django42)", "duration": "0 minutes 59 seconds"}, {"name": "run_ci /
+        Tests (ubuntu-latest, 3.12, django42)", "duration": "0 minutes 51 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 29 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 0
+    contributor_count_90d: 1
     created_at: 2022-09-07 14:36:46
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Legacy fork of a Django staticfiles post-processor for optimizing
         with RequireJS.
-    disk_usage_kb: 37199
+    disk_usage_kb: 37223
     first_timer_median_first_response_seconds: 159207
     first_timer_prs_90d: 1
     fork_count: 5
@@ -98,33 +94,33 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-05-30 14:54:07
+    last_push: 2026-11-12 20:48:47
     license: Apache License 2.0
     median_pr_response_seconds: 159207
-    oldest_open_pr_days: 14
-    pr_closure_ratio_90d: 0.0
+    median_pr_time_to_merge_seconds: 1316749
+    pr_closure_ratio_90d: 1.0
     pr_opened_90d: 1
-    prs_open: 1
-    pulls_count: 1
-    release_count_12mo: 0
+    prs_open: 0
+    pulls_count: 0
+    release_count_12mo: 1
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 0
     javascript: 1307550
-    makefile: 0
-    python: 31119
+    makefile: 403
+    python: 29925
     shell: 0
 makefile:
     pip-installed: false
     quality: false
     quality-js: false
     quality-python: false
-    test: false
+    test: true
     test-js: false
     test-python: false
-    upgrade: false
+    upgrade: true
 npm_package: ''
 org_name: openedx
 ownership:
@@ -143,8 +139,8 @@ readme:
     good_links:
     - https://img.shields.io/pypi/v/openedx-django-require.svg
     - https://pypi.python.org/project/openedx-django-require/
-    - https://github.com/openedx/django-require/workflows/Python%20CI/badge.svg?branch=main
-    - https://github.com/openedx/django-require/actions
+    - https://github.com/openedx/django-require/actions/workflows/release.yml/badge.svg?branch=master
+    - https://github.com/openedx/django-require/actions/workflows/release.yml
     - https://codecov.io/github/openedx/django-require/coverage.svg?branch=main
     - https://codecov.io/github/openedx/django-require?branch=main
     - http://requirejs.org/
@@ -179,12 +175,8 @@ requires:
     django: false
     pytest: false
 setup_py:
-    py312_classifiers: true
-    pypi_name: openedx-django-require
-    python_versions:
-    - '3.11'
-    - '3.12'
-    repo_url: https://github.com/etianen/django-require
+    py312_classifiers: false
+    python_versions: []
 tox_ini:
     has_section:
         testenv: true
