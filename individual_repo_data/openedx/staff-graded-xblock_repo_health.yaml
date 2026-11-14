@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-13
+TIMESTAMP: 2026-11-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 7
-    lockfile_age_days: 14
+    lockfile_age_days: 15
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -108,7 +108,7 @@ github:
     last_push: 2026-11-09 00:14:36
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 40880
-    oldest_open_pr_days: 556
+    oldest_open_pr_days: 557
     pr_closure_ratio_90d: 0.697
     pr_opened_90d: 33
     prs_open: 18
@@ -145,8 +145,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://django-statici18n.readthedocs.io/en/latest/: 404'
-    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: (''Connection
-        aborted.'', ConnectionResetError(104, ''Connection reset by peer''))'
+    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: 403'
     getting-help: false
     good_links:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/edx_platform/edx_lms.html

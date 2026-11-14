@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-13
+TIMESTAMP: 2026-11-14
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 6
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 14
+    branch_count: 15
     build_details: '{"total_duration": "30 minutes 53 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 24 seconds"}, {"name": "Dependabot", "duration":
         "1 minutes 13 seconds"}, {"name": "Dependabot", "duration": "1 minutes 12
@@ -87,7 +87,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: edX's Automated Communication Engine
-    disk_usage_kb: 1135
+    disk_usage_kb: 1211
     first_timer_prs_90d: 0
     fork_count: 27
     good_first_issues_open: 0
@@ -101,15 +101,15 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-12 21:15:40
+    last_push: 2026-11-13 12:32:41
     license: GNU AGPLv3
     median_pr_response_seconds: 49833
     median_pr_time_to_merge_seconds: 628572
-    oldest_open_pr_days: 1752
-    pr_closure_ratio_90d: 0.25
-    pr_opened_90d: 8
-    prs_open: 9
-    pulls_count: 9
+    oldest_open_pr_days: 1753
+    pr_closure_ratio_90d: 0.2222
+    pr_opened_90d: 9
+    prs_open: 10
+    pulls_count: 10
     release_count_12mo: 1
 github_actions: true
 language_bytes:
@@ -145,8 +145,7 @@ readme:
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/edx-ace:
         404'
     - 'https://travis-ci.com/edx/edx-ace: 404'
-    - 'https://www.gnu.org/licenses/agpl-3.0: (''Connection aborted.'', ConnectionResetError(104,
-        ''Connection reset by peer''))'
+    - 'https://www.gnu.org/licenses/agpl-3.0: 403'
     getting-help: true
     good_links:
     - https://edx-ace.readthedocs.io/en/latest/

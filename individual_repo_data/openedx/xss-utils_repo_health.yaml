@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-13
+TIMESTAMP: 2026-11-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,21 +61,18 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 21
+    lockfile_age_days: 22
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 31
-    build_details: '{"total_duration": "17580 minutes 24 seconds", "checks": [{"name":
-        "Dependabot", "duration": "1 minutes 7 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 6 seconds"}, {"name": "Dependabot", "duration": "0 minutes 54 seconds"},
-        {"name": "release", "duration": "0 minutes 42 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 33 seconds"}, {"name": "run_tests / docs", "duration":
-        "0 minutes 30 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes
-        19 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes 16 seconds"},
-        {"name": "run_tests / quality", "duration": "0 minutes 13 seconds"}, {"name":
-        "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
+    build_details: '{"total_duration": "1 minutes 37 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 13 seconds"}, {"name": "run_tests / docs",
+        "duration": "0 minutes 21 seconds"}, {"name": "run_tests / django42", "duration":
+        "0 minutes 15 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes
+        15 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes 14 seconds"},
+        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2018-08-13 14:00:47
@@ -83,7 +80,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: ' This repo contains utility functions for Django and Mako templates
         to remove potential XSS attacks in templates.'
-    disk_usage_kb: 1004
+    disk_usage_kb: 1081
     first_timer_prs_90d: 0
     fork_count: 10
     good_first_issues_open: 0
@@ -97,14 +94,14 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-02 19:32:56
+    last_push: 2026-11-13 18:03:09
     license: GNU AGPLv3
-    median_pr_time_to_merge_seconds: 154743
-    oldest_open_pr_days: 177
-    pr_closure_ratio_90d: 0.6471
-    pr_opened_90d: 17
-    prs_open: 7
-    pulls_count: 7
+    median_pr_time_to_merge_seconds: 154748
+    oldest_open_pr_days: 45
+    pr_closure_ratio_90d: 0.6667
+    pr_opened_90d: 18
+    prs_open: 6
+    pulls_count: 6
     release_count_12mo: 2
 github_actions: true
 language_bytes:

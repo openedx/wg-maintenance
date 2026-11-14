@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-13
+TIMESTAMP: 2026-11-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,19 +61,20 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
-    build_details: '{"total_duration": "378 minutes 47 seconds", "checks": [{"name":
+    branch_count: 13
+    build_details: '{"total_duration": "978 minutes 55 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 39 seconds"}, {"name": "Dependabot", "duration":
         "1 minutes 5 seconds"}, {"name": "Dependabot", "duration": "1 minutes 3 seconds"},
-        {"name": "Dependabot", "duration": "1 minutes 3 seconds"}, {"name": "update-uv-graph",
-        "duration": "0 minutes 42 seconds"}, {"name": "update-pip-graph", "duration":
-        "0 minutes 35 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, docs)",
-        "duration": "0 minutes 22 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        {"name": "Dependabot", "duration": "1 minutes 3 seconds"}, {"name": "Dependabot",
+        "duration": "1 minutes 1 seconds"}, {"name": "update-uv-graph", "duration":
+        "0 minutes 42 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
+        35 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, docs)", "duration":
+        "0 minutes 22 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 18 seconds"}, {"name": "run_ci
         / Tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 17 seconds"},
         {"name": "publish_to_pypi", "duration": "0 minutes 17 seconds"}, {"name":
@@ -87,7 +88,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Library and utilities for feature toggles
-    disk_usage_kb: 1127
+    disk_usage_kb: 1217
     first_timer_prs_90d: 0
     fork_count: 17
     good_first_issues_open: 1
@@ -101,15 +102,15 @@ github:
     issues_open: 12
     issues_opened_90d: 0
     issues_stale_open_180d: 12
-    last_push: 2026-11-12 21:14:30
+    last_push: 2026-11-13 13:03:01
     license: GNU AGPLv3
     median_pr_response_seconds: 159146
     median_pr_time_to_merge_seconds: 192676
-    oldest_open_pr_days: 7
-    pr_closure_ratio_90d: 0.6364
-    pr_opened_90d: 11
-    prs_open: 4
-    pulls_count: 4
+    oldest_open_pr_days: 8
+    pr_closure_ratio_90d: 0.5833
+    pr_opened_90d: 12
+    prs_open: 5
+    pulls_count: 5
     release_count_12mo: 2
 github_actions: true
 language_bytes:

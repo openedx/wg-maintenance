@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-13
+TIMESTAMP: 2026-11-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,39 +61,27 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 14
+    lockfile_age_days: 15
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 10
-    build_details: '{"total_duration": "9219 minutes 2 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 58 seconds"}, {"name": "release", "duration": "0 minutes 48 seconds"},
-        {"name": "Dependabot", "duration": "0 minutes 42 seconds"}, {"name": "run_ci
-        / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 36 seconds"},
-        {"name": "run_ci / tests (ubuntu-latest, 3.12, django52-celery54-drflatest)",
-        "duration": "0 minutes 27 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.12, docs)", "duration": "0 minutes 27 seconds"}, {"name": "run_ci / tests
-        (ubuntu-latest, 3.12, django42-celery53-drflatest)", "duration": "0 minutes
-        20 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0
-        minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / add_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+    build_details: '{"total_duration": "1 minutes 52 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 19 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
+        3.12, django52-celery54-drflatest)", "duration": "0 minutes 28 seconds"},
+        {"name": "run_ci / tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes
+        26 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 26 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, django42-celery53-drflatest)",
+        "duration": "0 minutes 20 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 4
     created_at: 2016-08-09 20:52:58
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: A Django application for managing user-triggered asynchronous tasks.
-    disk_usage_kb: 1100
+    disk_usage_kb: 1193
     first_timer_prs_90d: 0
     fork_count: 22
     good_first_issues_open: 0
@@ -107,13 +95,13 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-11-09 00:19:22
+    last_push: 2026-11-13 18:01:15
     license: Apache License 2.0
     median_pr_response_seconds: 545585
-    median_pr_time_to_merge_seconds: 259750
-    oldest_open_pr_days: 339
-    pr_closure_ratio_90d: 0.6154
-    pr_opened_90d: 13
+    median_pr_time_to_merge_seconds: 259980
+    oldest_open_pr_days: 340
+    pr_closure_ratio_90d: 0.6429
+    pr_opened_90d: 14
     prs_open: 6
     pulls_count: 6
     release_count_12mo: 3
@@ -148,7 +136,6 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://open-edx-proposals.readthedocs.io/en/latest/oeps/oep-0003.html: 404'
-    - 'https://open.edx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/django-user-tasks.svg
@@ -167,6 +154,7 @@ readme:
     - http://docs.celeryproject.org/en/latest/userguide/signals.html
     - https://django-user-tasks.readthedocs.org
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://open.edx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true
