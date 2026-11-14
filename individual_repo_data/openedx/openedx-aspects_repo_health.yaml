@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-13
+TIMESTAMP: 2026-11-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,17 +61,23 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 20
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "726 minutes 45 seconds", "checks": [{"name":
-        "update-uv-graph", "duration": "0 minutes 37 seconds"}, {"name": "self_assign_by_comment
+    build_details: '{"total_duration": "4822 minutes 10 seconds", "checks": [{"name":
+        "update-uv-graph", "duration": "0 minutes 37 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
         / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}]}'
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2023-01-05 19:08:37
@@ -88,8 +94,8 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.0
-    issues_open: 52
+    issue_closure_ratio_90d: 0.0286
+    issues_open: 51
     issues_opened_90d: 35
     issues_stale_open_180d: 3
     last_push: 2026-11-10 13:33:16

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-13
+TIMESTAMP: 2026-11-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,41 +60,39 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 3
-    commits_365d: 73
-    lockfile_age_days: 2
+    commits_365d: 74
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
-    build_details: '{"total_duration": "1904 minutes 3 seconds", "checks": [{"name":
-        "Run JavaScript Tests (24)", "duration": "2 minutes 1 seconds"}, {"name":
-        "release", "duration": "1 minutes 54 seconds"}, {"name": "Analyze (javascript-typescript)",
-        "duration": "1 minutes 48 seconds"}, {"name": "Analyze (python)", "duration":
-        "1 minutes 18 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes
-        49 seconds"}, {"name": "Analyze (actions)", "duration": "0 minutes 41 seconds"},
-        {"name": "update-uv-graph", "duration": "0 minutes 41 seconds"}, {"name":
-        "django52", "duration": "0 minutes 40 seconds"}, {"name": "run_tests / docs",
-        "duration": "0 minutes 40 seconds"}, {"name": "docs", "duration": "0 minutes
-        38 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes 38 seconds"},
-        {"name": "django42", "duration": "0 minutes 37 seconds"}, {"name": "quality",
-        "duration": "0 minutes 37 seconds"}, {"name": "run_tests / quality", "duration":
-        "0 minutes 36 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}]}'
+    branch_count: 9
+    build_details: '{"total_duration": "825 minutes 11 seconds", "checks": [{"name":
+        "Analyze (javascript-typescript)", "duration": "2 minutes 31 seconds"}, {"name":
+        "Run JavaScript Tests (24)", "duration": "2 minutes 30 seconds"}, {"name":
+        "release", "duration": "1 minutes 45 seconds"}, {"name": "Analyze (python)",
+        "duration": "1 minutes 18 seconds"}, {"name": "run_tests / django42", "duration":
+        "0 minutes 46 seconds"}, {"name": "quality", "duration": "0 minutes 43 seconds"},
+        {"name": "run_tests / quality", "duration": "0 minutes 43 seconds"}, {"name":
+        "django42", "duration": "0 minutes 41 seconds"}, {"name": "run_tests / docs",
+        "duration": "0 minutes 40 seconds"}, {"name": "django52", "duration": "0 minutes
+        39 seconds"}, {"name": "docs", "duration": "0 minutes 36 seconds"}, {"name":
+        "Analyze (actions)", "duration": "0 minutes 36 seconds"}, {"name": "run_tests
+        / django52", "duration": "0 minutes 35 seconds"}, {"name": "publish_to_pypi",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 54 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 6
+    contributor_count_90d: 7
     created_at: 2024-06-26 15:14:53
     default_branch: main
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: 'Core Open edX XBlock types: Problem, Text, Video, etc.'
-    disk_usage_kb: 22683
+    disk_usage_kb: 22688
     first_timer_median_first_response_seconds: 291267
     first_timer_prs_90d: 7
-    fork_count: 19
+    fork_count: 20
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -107,11 +105,11 @@ github:
     issues_open: 15
     issues_opened_90d: 6
     issues_stale_open_180d: 3
-    last_push: 2026-11-12 20:44:29
+    last_push: 2026-11-13 19:50:39
     license: GNU AGPLv3
-    median_pr_response_seconds: 329770
-    median_pr_time_to_merge_seconds: 23406
-    oldest_open_pr_days: 227
+    median_pr_response_seconds: 291267
+    median_pr_time_to_merge_seconds: 24168
+    oldest_open_pr_days: 228
     pr_closure_ratio_90d: 0.5625
     pr_opened_90d: 32
     prs_open: 19

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-13
+TIMESTAMP: 2026-11-14
 dependabot:
     exists: true
     has_ecosystem:
@@ -22,32 +22,30 @@ dependencies:
         list: ''
     pypi:
         count: 30
-        list: '["sphinxcontrib-serializinghtml==2.0.0", "sphinxext-rediraffe==0.3.0",
-            "jinja2==3.1.6", "sphinx-book-theme==1.4.0", "pygments==2.21.0", "packaging==26.3",
-            "urllib3==2.8.0", "certifi==2026.10.19", "sphinxcontrib-devhelp==2.0.0",
-            "sphinx==9.1.0", "alabaster==1.0.0", "sphinxcontrib-htmlhelp==2.1.0",
-            "imagesize==2.0.1", "idna==3.20", "sphinxcontrib-jsmath==1.0.1", "pydata-sphinx-theme==0.20.0",
-            "soupsieve==3.0.3", "roman-numerals==4.1.0", "accessible-pygments==0.0.5",
-            "snowballstemmer==3.1.1", "beautifulsoup4==4.15.0", "babel==2.18.0", "sphinxcontrib-qthelp==2.0.0",
-            "markupsafe==3.0.4", "charset-normalizer==3.5.2", "requests==2.34.2",
-            "sphinxcontrib-applehelp==2.0.0", "typing-extensions==4.16.0", "sphinx-copybutton==0.5.2",
-            "docutils==0.22.4"]'
+        list: '["roman-numerals==4.1.0", "alabaster==1.0.0", "jinja2==3.1.6", "imagesize==2.0.1",
+            "requests==2.34.2", "beautifulsoup4==4.15.0", "urllib3==2.8.0", "idna==3.20",
+            "sphinx-book-theme==1.4.0", "sphinxcontrib-jsmath==1.0.1", "sphinxcontrib-htmlhelp==2.1.0",
+            "accessible-pygments==0.0.5", "babel==2.18.0", "sphinx==9.1.0", "sphinxcontrib-devhelp==2.0.0",
+            "typing-extensions==4.16.0", "pygments==2.21.0", "sphinxcontrib-applehelp==2.0.0",
+            "docutils==0.22.4", "charset-normalizer==3.5.2", "sphinxext-rediraffe==0.3.0",
+            "snowballstemmer==3.1.1", "markupsafe==3.0.4", "soupsieve==3.0.3", "sphinxcontrib-qthelp==2.0.0",
+            "sphinxcontrib-serializinghtml==2.0.0", "pydata-sphinx-theme==0.20.0",
+            "packaging==26.3", "sphinx-copybutton==0.5.2", "certifi==2026.10.19"]'
     pypi_all:
         count: 45
-        list: '["colorama==0.4.6", "sphinxcontrib-serializinghtml==2.0.0", "sphinxext-rediraffe==0.3.0",
-            "anyio==4.15.1", "jinja2==3.1.6", "sphinx-book-theme==1.4.0", "pygments==2.21.0",
-            "uvicorn==0.54.0", "packaging==26.3", "urllib3==2.8.0", "certifi==2026.10.19",
-            "wheel==0.48.0", "pip==26.2.2", "sphinxcontrib-devhelp==2.0.0", "starlette==1.7.0",
-            "sphinx==9.1.0", "alabaster==1.0.0", "sphinxcontrib-htmlhelp==2.1.0",
-            "imagesize==2.0.1", "click==8.5.0", "idna==3.20", "sphinx-autobuild==2025.8.25",
-            "sphinxcontrib-jsmath==1.0.1", "pydata-sphinx-theme==0.20.0", "h11==0.16.0",
-            "soupsieve==3.0.3", "pyproject-hooks==1.3.3", "websockets==17.2", "roman-numerals==4.1.0",
-            "accessible-pygments==0.0.5", "snowballstemmer==3.1.1", "beautifulsoup4==4.15.0",
-            "babel==2.18.0", "setuptools==84.0.0", "sphinxcontrib-qthelp==2.0.0",
-            "markupsafe==3.0.4", "charset-normalizer==3.5.2", "requests==2.34.2",
-            "sphinxcontrib-applehelp==2.0.0", "build==1.6.1", "watchfiles==1.3.0",
-            "typing-extensions==4.16.0", "sphinx-copybutton==0.5.2", "docutils==0.22.4",
-            "pip-tools==7.6.2"]'
+        list: '["anyio==4.15.1", "roman-numerals==4.1.0", "alabaster==1.0.0", "setuptools==84.0.0",
+            "watchfiles==1.3.0", "jinja2==3.1.6", "imagesize==2.0.1", "colorama==0.4.6",
+            "beautifulsoup4==4.15.0", "requests==2.34.2", "idna==3.20", "sphinx-autobuild==2025.8.25",
+            "urllib3==2.8.0", "pyproject-hooks==1.3.3", "sphinx-book-theme==1.4.0",
+            "sphinxcontrib-jsmath==1.0.1", "sphinxcontrib-htmlhelp==2.1.0", "accessible-pygments==0.0.5",
+            "babel==2.18.0", "sphinx==9.1.0", "pip==26.2.2", "uvicorn==0.54.0", "sphinxcontrib-devhelp==2.0.0",
+            "typing-extensions==4.16.0", "pygments==2.21.0", "starlette==1.7.0", "click==8.5.0",
+            "sphinxcontrib-applehelp==2.0.0", "docutils==0.22.4", "charset-normalizer==3.5.2",
+            "sphinxext-rediraffe==0.3.0", "snowballstemmer==3.1.1", "h11==0.16.0",
+            "markupsafe==3.0.4", "pip-tools==7.6.2", "websockets==17.2", "build==1.6.1",
+            "soupsieve==3.0.3", "sphinxcontrib-qthelp==2.0.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "pydata-sphinx-theme==0.20.0", "packaging==26.3", "sphinx-copybutton==0.5.2",
+            "wheel==0.48.0", "certifi==2026.10.19"]'
 django_packages:
     django_42:
         count: 0
@@ -83,32 +81,24 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 29
-    lockfile_age_days: 21
+    lockfile_age_days: 22
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 33
-    build_details: '{"total_duration": "6464 minutes 35 seconds", "checks": [{"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "1 minutes 10 seconds"}, {"name": "update-pip-graph", "duration": "0 minutes
-        56 seconds"}, {"name": "Dependabot", "duration": "0 minutes 37 seconds"},
-        {"name": "check_for_moved_files (ubuntu-latest, 3.12)", "duration": "0 minutes
-        13 seconds"}, {"name": "Dependabot", "duration": "0 minutes 4 seconds"}, {"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
-        minutes 54 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 50 seconds"}]}'
+    build_details: '{"total_duration": "233 minutes 25 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 47 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 46 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 41 seconds"}, {"name": "check_for_moved_files (ubuntu-latest, 3.12)",
+        "duration": "0 minutes 17 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 4
+    contributor_count_90d: 5
     created_at: 2016-03-31 15:36:33
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: 'Proposals for Open edX architecture, best practices and processes '
-    disk_usage_kb: 10495
+    disk_usage_kb: 10499
     first_timer_prs_90d: 0
     fork_count: 47
     good_first_issues_open: 2
@@ -123,14 +113,14 @@ github:
     issues_open: 13
     issues_opened_90d: 1
     issues_stale_open_180d: 13
-    last_push: 2026-11-10 03:09:15
+    last_push: 2026-11-13 18:03:17
     license: Other
     median_issue_first_response_seconds: 637079
     median_pr_response_seconds: 57339
-    median_pr_time_to_merge_seconds: 97350
-    oldest_open_pr_days: 856
-    pr_closure_ratio_90d: 0.75
-    pr_opened_90d: 16
+    median_pr_time_to_merge_seconds: 136873
+    oldest_open_pr_days: 857
+    pr_closure_ratio_90d: 0.7647
+    pr_opened_90d: 17
     prs_open: 7
     pulls_count: 7
     release_count_12mo: 0
@@ -164,18 +154,18 @@ ownership:
 pinned_python_dependencies: 5
 readme:
     bad_links:
-    - 'https://openedx.org/r/how-to-contribute: 403'
     - 'https://openedx.slack.com/archives/C1L370YTZ: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     - 'https://github.com/openedx/openedx-proposals/blob/main/LICENSE.txt: 404'
     getting-help: false
     good_links:
     - https://docs.openedx.org/projects/openedx-proposals/
+    - https://openedx.org/r/how-to-contribute
     - https://discuss.openedx.org/c/announcements/17
     - https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
     - https://docs.openedx.org/en/latest/developers/quickstarts/first_openedx_pr.html
     - http://graphviz.org/
     - https://discuss.openedx.org/
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/openedx-proposals
     - https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg
     - https://readthedocs.org/projects/openedx-proposals/badge/?version=latest
