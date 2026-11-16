@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-15
+TIMESTAMP: 2026-11-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 117
-    lockfile_age_days: 13
+    lockfile_age_days: 14
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -91,7 +91,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: The Open Analytics Reference System - Tutor plugin
-    disk_usage_kb: 4704
+    disk_usage_kb: 4158
     first_timer_prs_90d: 0
     fork_count: 32
     good_first_issues_open: 1
@@ -106,14 +106,14 @@ github:
     issues_open: 29
     issues_opened_90d: 11
     issues_stale_open_180d: 14
-    last_push: 2026-11-10 14:53:39
+    last_push: 2026-11-16 00:31:13
     license: Apache License 2.0
     median_issue_first_response_seconds: 13686
     median_pr_response_seconds: 65953
     median_pr_time_to_merge_seconds: 57005
-    oldest_open_pr_days: 18
-    pr_closure_ratio_90d: 0.9
-    pr_opened_90d: 80
+    oldest_open_pr_days: 19
+    pr_closure_ratio_90d: 0.9012
+    pr_opened_90d: 81
     prs_open: 8
     pulls_count: 8
     release_count_12mo: 14

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-15
+TIMESTAMP: 2026-11-16
 dependabot:
     exists: false
     has_ecosystem:
@@ -67,30 +67,19 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 127
-    lockfile_age_days: 4
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 5
-    build_details: '{"total_duration": "288 minutes 43 seconds", "checks": [{"name":
-        "test", "duration": "3 minutes 9 seconds"}, {"name": "Release", "duration":
-        "0 minutes 53 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 6 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 55 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 52 seconds"}]}'
+    build_details: '{"total_duration": "", "checks": []}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2025-08-21 12:52:46
     default_branch: main
-    default_branch_ci_state: SUCCESS
     description: Instructor Dashboard pages in MFE-land
-    disk_usage_kb: 2266
+    disk_usage_kb: 1803
     first_timer_prs_90d: 0
     fork_count: 22
     good_first_issues_open: 0
@@ -105,11 +94,11 @@ github:
     issues_open: 11
     issues_opened_90d: 9
     issues_stale_open_180d: 2
-    last_push: 2026-11-11 16:58:10
+    last_push: 2026-11-16 00:22:23
     license: GNU AGPLv3
-    median_pr_response_seconds: 79193
-    median_pr_time_to_merge_seconds: 79709
-    oldest_open_pr_days: 3
+    median_pr_response_seconds: 52306
+    median_pr_time_to_merge_seconds: 68929
+    oldest_open_pr_days: 4
     pr_closure_ratio_90d: 0.9697
     pr_opened_90d: 33
     prs_open: 1

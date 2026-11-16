@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-15
+TIMESTAMP: 2026-11-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,7 +65,7 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "9408 minutes 2 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "8648 minutes 51 seconds", "checks": [{"name":
         "routeissue / add_and_notify", "duration": "0 minutes 0 seconds"}, {"name":
         "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
         / add_label", "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label",
@@ -74,10 +74,9 @@ github:
         "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration": "0
         minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration": "0
         minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1
-        minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify",
         "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
         "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
@@ -101,10 +100,10 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.4211
+    issue_closure_ratio_90d: 0.4444
     issues_open: 169
-    issues_opened_90d: 19
-    issues_stale_open_180d: 5
+    issues_opened_90d: 18
+    issues_stale_open_180d: 10
     last_push: 2025-03-05 16:20:54
     license: null
     median_issue_first_response_seconds: 28926
