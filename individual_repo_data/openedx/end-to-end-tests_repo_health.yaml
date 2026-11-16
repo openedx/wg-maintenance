@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-15
+TIMESTAMP: 2026-11-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -64,20 +64,23 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 346
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 13
-    build_details: '{"total_duration": "1889 minutes 45 seconds", "checks": [{"name":
-        "Docker: main environment / default 1/4", "duration": "23 minutes 42 seconds"},
-        {"name": "Docker: last release (verawood) / default 3/4", "duration": "21
-        minutes 26 seconds"}, {"name": "Docker: last release (verawood) / aspects
-        1/1", "duration": "20 minutes 35 seconds"}, {"name": "main aspects images",
-        "duration": "18 minutes 12 seconds"}, {"name": "Docker: last release (verawood)
-        / default 4/4", "duration": "16 minutes 42 seconds"}, {"name": "Docker: last
-        release (verawood) / default 1/4", "duration": "16 minutes 11 seconds"}, {"name":
+    build_details: '{"total_duration": "3346 minutes 51 seconds", "checks": [{"name":
+        "main stock images", "duration": "29 minutes 55 seconds"}, {"name": "main
+        aspects images", "duration": "27 minutes 46 seconds"}, {"name": "Docker: main
+        environment / default 1/4", "duration": "23 minutes 42 seconds"}, {"name":
+        "Docker: last release (verawood) / default 3/4", "duration": "21 minutes 26
+        seconds"}, {"name": "Docker: last release (verawood) / aspects 1/1", "duration":
+        "20 minutes 35 seconds"}, {"name": "verawood aspects images", "duration":
+        "18 minutes 51 seconds"}, {"name": "main aspects images", "duration": "18
+        minutes 12 seconds"}, {"name": "Docker: last release (verawood) / default
+        4/4", "duration": "16 minutes 42 seconds"}, {"name": "Docker: last release
+        (verawood) / default 1/4", "duration": "16 minutes 11 seconds"}, {"name":
         "Docker: last release (verawood) / default 2/4", "duration": "14 minutes 42
         seconds"}, {"name": "main stock images", "duration": "14 minutes 5 seconds"},
         {"name": "main stock images", "duration": "13 minutes 6 seconds"}, {"name":
@@ -113,16 +116,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.2553
+    issue_closure_ratio_90d: 0.2135
     issues_open: 70
-    issues_opened_90d: 94
+    issues_opened_90d: 89
     issues_stale_open_180d: 0
     last_push: 2026-11-13 20:01:13
     license: Apache License 2.0
-    median_issue_first_response_seconds: 252350
+    median_issue_first_response_seconds: 437829
     median_pr_response_seconds: 203228
     median_pr_time_to_merge_seconds: 403483
-    oldest_open_pr_days: 75
+    oldest_open_pr_days: 76
     pr_closure_ratio_90d: 0.9
     pr_opened_90d: 100
     prs_open: 10

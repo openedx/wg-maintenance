@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-15
+TIMESTAMP: 2026-11-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,23 +61,33 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 3
-    lockfile_age_days: 6
+    lockfile_age_days: 7
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 6
-    build_details: '{"total_duration": "631 minutes 17 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 35 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 42 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, django52)",
-        "duration": "0 minutes 28 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.12, pii_check)", "duration": "0 minutes 23 seconds"}, {"name": "run_ci /
-        tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 20 seconds"}, {"name":
-        "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 18
-        seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, django60)", "duration":
-        "0 minutes 16 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
-        9 seconds"}, {"name": "run_ci / all required checks passed", "duration": "0
-        minutes 3 seconds"}]}'
+    build_details: '{"total_duration": "3203 minutes 43 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 35 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 16 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 42 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
+        3.12, django52)", "duration": "0 minutes 28 seconds"}, {"name": "run_ci /
+        tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes 23 seconds"},
+        {"name": "run_ci / tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes
+        20 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration":
+        "0 minutes 18 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, django60)",
+        "duration": "0 minutes 16 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 9 seconds"}, {"name": "run_ci / all required checks passed", "duration":
+        "0 minutes 3 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2026-09-02 13:48:15
@@ -100,13 +110,13 @@ github:
     issues_open: 14
     issues_opened_90d: 14
     issues_stale_open_180d: 0
-    last_push: 2026-11-14 05:33:09
+    last_push: 2026-11-16 00:25:22
     license: GNU AGPLv3
     median_pr_response_seconds: 76883
     median_pr_time_to_merge_seconds: 425371
-    oldest_open_pr_days: 42
-    pr_closure_ratio_90d: 0.6667
-    pr_opened_90d: 15
+    oldest_open_pr_days: 43
+    pr_closure_ratio_90d: 0.6875
+    pr_opened_90d: 16
     prs_open: 5
     pulls_count: 5
     release_count_12mo: 5

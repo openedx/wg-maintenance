@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-15
+TIMESTAMP: 2026-11-16
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 16
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -86,7 +86,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Custom tooling for pylint and other repo management tools
-    disk_usage_kb: 2497
+    disk_usage_kb: 2537
     first_timer_prs_90d: 0
     fork_count: 34
     good_first_issues_open: 0
@@ -100,12 +100,12 @@ github:
     issues_open: 6
     issues_opened_90d: 0
     issues_stale_open_180d: 6
-    last_push: 2026-11-13 17:42:48
+    last_push: 2026-11-16 03:08:59
     license: Apache License 2.0
     median_pr_response_seconds: 2244
     median_pr_time_to_merge_seconds: 26955
-    oldest_open_pr_days: 2049
-    pr_closure_ratio_90d: 0.6818
+    oldest_open_pr_days: 2050
+    pr_closure_ratio_90d: 0.7273
     pr_opened_90d: 22
     prs_open: 17
     pulls_count: 17
@@ -139,11 +139,11 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://open.edx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
-    - https://open.edx.org/getting-help
     - https://github.com/openedx/edx-lint/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/edx-lint/actions?query=workflow%3A%22Python+CI%22
     irc-missing: true
