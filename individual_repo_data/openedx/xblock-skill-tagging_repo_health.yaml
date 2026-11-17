@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-16
+TIMESTAMP: 2026-11-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,15 +61,15 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 18
-    build_details: '{"total_duration": "3310 minutes 21 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "3945 minutes 11 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 25 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements (3.8)", "duration": "0 minutes 38 seconds"}, {"name":
+        / upgrade_requirements (3.8)", "duration": "0 minutes 31 seconds"}, {"name":
         "quality", "duration": "0 minutes 27 seconds"}, {"name": "run_tests / quality",
         "duration": "0 minutes 27 seconds"}, {"name": "django42", "duration": "0 minutes
         22 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes 20 seconds"},
@@ -100,7 +100,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 172193
     median_pr_time_to_merge_seconds: 333651
-    oldest_open_pr_days: 1115
+    oldest_open_pr_days: 1116
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 12
     prs_open: 3

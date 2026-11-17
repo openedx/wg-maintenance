@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-16
+TIMESTAMP: 2026-11-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,35 +61,25 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 29
-    lockfile_age_days: 7
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 15
-    build_details: '{"total_duration": "7855 minutes 31 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 30 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "1 minutes 3 seconds"}, {"name": "run_ci
-        / py", "duration": "0 minutes 50 seconds"}, {"name": "update-uv-graph", "duration":
-        "0 minutes 38 seconds"}, {"name": "run_ci / docs", "duration": "0 minutes
-        37 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes 34 seconds"},
-        {"name": "run_ci / pii_check", "duration": "0 minutes 22 seconds"}, {"name":
-        "Run tests & display coverage", "duration": "0 minutes 12 seconds"}, {"name":
-        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
-        "publish_to_pypi", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "Run tests &
-        display coverage", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 14
+    build_details: '{"total_duration": "2 minutes 10 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 24 seconds"}, {"name": "run_ci / py", "duration":
+        "0 minutes 44 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
+        35 seconds"}, {"name": "run_ci / docs", "duration": "0 minutes 33 seconds"},
+        {"name": "run_ci / pii_check", "duration": "0 minutes 29 seconds"}, {"name":
+        "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 10
     created_at: 2024-02-29 19:49:46
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: Aspects plugins for the Open edX LMS and Studio
-    disk_usage_kb: 5259
+    disk_usage_kb: 5542
     first_timer_prs_90d: 0
     fork_count: 15
     good_first_issues_open: 0
@@ -104,15 +94,15 @@ github:
     issues_open: 2
     issues_opened_90d: 1
     issues_stale_open_180d: 1
-    last_push: 2026-11-16 00:26:07
+    last_push: 2026-11-17 00:53:07
     license: Apache License 2.0
     median_pr_response_seconds: 10783
-    median_pr_time_to_merge_seconds: 54951
-    oldest_open_pr_days: 5
-    pr_closure_ratio_90d: 0.9394
-    pr_opened_90d: 33
-    prs_open: 2
-    pulls_count: 2
+    median_pr_time_to_merge_seconds: 52740
+    oldest_open_pr_days: 6
+    pr_closure_ratio_90d: 0.9706
+    pr_opened_90d: 34
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 16
 github_actions: true
 language_bytes:
