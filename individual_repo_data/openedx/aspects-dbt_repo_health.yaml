@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-16
+TIMESTAMP: 2026-11-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,12 +66,13 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 19
-    build_details: '{"total_duration": "22145 minutes 24 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "29622 minutes 1 seconds", "checks": [{"name":
         "Deploy dbt docs to github pages", "duration": "5 minutes 48 seconds"}, {"name":
         "Check coverage & run tests", "duration": "3 minutes 29 seconds"}, {"name":
         "Dependabot", "duration": "0 minutes 34 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 28 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 34 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 28 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -103,7 +104,7 @@ github:
     median_issue_first_response_seconds: 493169
     median_pr_response_seconds: 59746
     median_pr_time_to_merge_seconds: 352879
-    oldest_open_pr_days: 19
+    oldest_open_pr_days: 20
     pr_closure_ratio_90d: 0.625
     pr_opened_90d: 8
     prs_open: 3

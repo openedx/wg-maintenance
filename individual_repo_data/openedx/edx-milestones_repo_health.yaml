@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-16
+TIMESTAMP: 2026-11-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,17 +61,18 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "3 minutes 6 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 17 seconds"}, {"name": "run_ci / django52",
-        "duration": "0 minutes 30 seconds"}, {"name": "run_ci / django42", "duration":
-        "0 minutes 22 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
-        18 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes 59 seconds"}]}'
+    build_details: '{"total_duration": "4676 minutes 12 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 17 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 33 seconds"}, {"name": "run_ci / django52", "duration": "0 minutes
+        30 seconds"}, {"name": "run_ci / django42", "duration": "0 minutes 22 seconds"},
+        {"name": "run_ci / quality", "duration": "0 minutes 18 seconds"}, {"name":
+        "publish_to_pypi", "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2014-11-24 16:56:50
@@ -134,9 +135,7 @@ readme:
     - 'https://coveralls.io/r/edx/edx-milestones?branch=master: 403'
     - 'https://github.com/openedx/edx-platform/blob/master/requirements/edx/base.in:
         404'
-    - 'https://openedx.org/slack: 403'
     - 'http://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://github.com/openedx/edx-milestones/workflows/Python%20CI/badge.svg?branch=master
@@ -147,6 +146,8 @@ readme:
     - https://docs.openedx.org/en/latest/educators/references/controlling_content_visibility.html
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://discuss.openedx.org
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true

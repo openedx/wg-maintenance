@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-16
+TIMESTAMP: 2026-11-17
 dependabot:
     exists: false
     has_ecosystem:
@@ -67,21 +67,28 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 127
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 5
-    build_details: '{"total_duration": "", "checks": []}'
+    build_details: '{"total_duration": "0 minutes 5 seconds", "checks": [{"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
+        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1 minutes
+        52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 7
     created_at: 2025-08-21 12:52:46
     default_branch: main
     description: Instructor Dashboard pages in MFE-land
     disk_usage_kb: 1803
-    first_timer_prs_90d: 0
-    fork_count: 22
+    first_timer_prs_90d: 1
+    fork_count: 23
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -90,19 +97,19 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.3333
+    issue_closure_ratio_90d: 0.375
     issues_open: 11
-    issues_opened_90d: 9
+    issues_opened_90d: 8
     issues_stale_open_180d: 2
     last_push: 2026-11-16 00:22:23
     license: GNU AGPLv3
     median_pr_response_seconds: 52306
-    median_pr_time_to_merge_seconds: 68929
-    oldest_open_pr_days: 4
-    pr_closure_ratio_90d: 0.9697
-    pr_opened_90d: 33
-    prs_open: 1
-    pulls_count: 1
+    median_pr_time_to_merge_seconds: 42785
+    oldest_open_pr_days: 5
+    pr_closure_ratio_90d: 0.9412
+    pr_opened_90d: 34
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 79
 github_actions: true
 language_bytes:

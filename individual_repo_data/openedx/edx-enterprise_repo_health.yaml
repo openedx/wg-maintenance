@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-16
+TIMESTAMP: 2026-11-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -64,34 +64,29 @@ exists:
     transifex_config: true
 git:
     absence_factor_365d: 4
-    commits_365d: 116
-    lockfile_age_days: 2
+    commits_365d: 117
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 341
-    build_details: '{"total_duration": "505 minutes 1 seconds", "checks": [{"name":
-        "run_ci / run_tests (3.12, django52)", "duration": "9 minutes 37 seconds"},
-        {"name": "run_ci / run_tests (3.12, quality)", "duration": "2 minutes 24 seconds"},
-        {"name": "check migrations (ubuntu-latest, 3.12)", "duration": "1 minutes
-        47 seconds"}, {"name": "release", "duration": "1 minutes 26 seconds"}, {"name":
-        "Dependabot", "duration": "1 minutes 21 seconds"}, {"name": "run_ci / run_tests
-        (3.12, docs)", "duration": "1 minutes 11 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "1 minutes 6 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 2 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 56 seconds"}, {"name": "Dependabot", "duration": "0 minutes 51 seconds"},
-        {"name": "update-uv-graph", "duration": "0 minutes 50 seconds"}, {"name":
-        "run_ci / run_tests (3.12, pii_check)", "duration": "0 minutes 32 seconds"},
-        {"name": "version-check / version-check", "duration": "0 minutes 4 seconds"},
-        {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}]}'
+    branch_count: 338
+    build_details: '{"total_duration": "11 minutes 7 seconds", "checks": [{"name":
+        "run_ci / run_tests (3.12, django52)", "duration": "8 minutes 55 seconds"},
+        {"name": "run_ci / run_tests (3.12, quality)", "duration": "3 minutes 1 seconds"},
+        {"name": "release", "duration": "1 minutes 49 seconds"}, {"name": "check migrations
+        (ubuntu-latest, 3.12)", "duration": "1 minutes 47 seconds"}, {"name": "run_ci
+        / run_tests (3.12, docs)", "duration": "1 minutes 11 seconds"}, {"name": "run_ci
+        / run_tests (3.12, pii_check)", "duration": "0 minutes 21 seconds"}, {"name":
+        "publish_to_pypi", "duration": "0 minutes 18 seconds"}, {"name": "version-check
+        / version-check", "duration": "0 minutes 6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 14
     created_at: 2016-10-12 13:48:42
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 16939
+    disk_usage_kb: 16938
     first_timer_median_first_response_seconds: 123096
     first_timer_prs_90d: 1
     fork_count: 74
@@ -106,16 +101,16 @@ github:
     issues_open: 9
     issues_opened_90d: 0
     issues_stale_open_180d: 9
-    last_push: 2026-11-14 05:08:08
+    last_push: 2026-11-16 18:00:25
     license: GNU AGPLv3
-    median_pr_response_seconds: 102631
-    median_pr_time_to_merge_seconds: 386603
-    oldest_open_pr_days: 2391
-    pr_closure_ratio_90d: 0.8226
+    median_pr_response_seconds: 107018
+    median_pr_time_to_merge_seconds: 405795
+    oldest_open_pr_days: 2392
+    pr_closure_ratio_90d: 0.8387
     pr_opened_90d: 62
-    prs_open: 70
-    pulls_count: 70
-    release_count_12mo: 74
+    prs_open: 69
+    pulls_count: 69
+    release_count_12mo: 75
 github_actions: true
 language_bytes:
     css: 0
@@ -123,7 +118,7 @@ language_bytes:
     html: 97247
     javascript: 36451
     makefile: 8445
-    python: 6245271
+    python: 6247089
     shell: 25362
 makefile:
     pip-installed: false

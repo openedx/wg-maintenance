@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-16
+TIMESTAMP: 2026-11-17
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,7 +65,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 11
+    branch_count: 12
     build_details: '{"total_duration": "9133 minutes 53 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 42 seconds"}, {"name": "release", "duration":
         "0 minutes 11 seconds"}, {"name": "add_remove_labels / add_label", "duration":
@@ -85,7 +85,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: A Prototype Helm Chart for deploying multiple Open edX instances
         (via Tutor) onto a cluster.
-    disk_usage_kb: 1836
+    disk_usage_kb: 1839
     first_timer_prs_90d: 0
     fork_count: 19
     good_first_issues_open: 0
@@ -100,16 +100,16 @@ github:
     issues_open: 5
     issues_opened_90d: 1
     issues_stale_open_180d: 4
-    last_push: 2026-11-09 06:47:25
+    last_push: 2026-11-16 06:51:04
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1165204
     median_pr_response_seconds: 160367
     median_pr_time_to_merge_seconds: 217632
-    oldest_open_pr_days: 212
-    pr_closure_ratio_90d: 0.7857
-    pr_opened_90d: 14
-    prs_open: 4
-    pulls_count: 4
+    oldest_open_pr_days: 213
+    pr_closure_ratio_90d: 0.7333
+    pr_opened_90d: 15
+    prs_open: 5
+    pulls_count: 5
     release_count_12mo: 7
 github_actions: true
 language_bytes:
@@ -154,8 +154,9 @@ readme:
         port=443): Failed to resolve ''ms-yourinstanceid.meilisearch.io'' ([Errno
         -2] Name or service not known)"))'
     - 'http://10.1.2.3: HTTPConnectionPool(host=''10.1.2.3'', port=80): Max retries
-        exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''10.1.2.3'',
-        port=80): Failed to establish a new connection: [Errno 113] No route to host"))'
+        exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host=''10.1.2.3'',
+        port=80) at 0x7bdb9822b4a0>, ''Connection to 10.1.2.3 timed out. (connect
+        timeout=None)''))'
     - 'https://meilisearch: HTTPSConnectionPool(host=''meilisearch'', port=443): Max
         retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''meilisearch'',
         port=443): Failed to resolve ''meilisearch'' ([Errno -3] Temporary failure
