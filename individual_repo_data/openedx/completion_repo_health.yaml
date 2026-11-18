@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-17
+TIMESTAMP: 2026-11-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,28 +61,38 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 10
+    lockfile_age_days: 11
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 24
-    build_details: '{"total_duration": "4510 minutes 9 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "5537 minutes 29 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 35 seconds"}, {"name": "Dependabot", "duration":
-        "1 minutes 2 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, quality)",
-        "duration": "0 minutes 36 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
-        3.12, django52-drflatest)", "duration": "0 minutes 32 seconds"}, {"name":
-        "Dependabot", "duration": "0 minutes 30 seconds"}, {"name": "run_ci / Tests
-        (ubuntu-latest, 3.12, django52-drf314)", "duration": "0 minutes 27 seconds"},
-        {"name": "run_ci / Tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes
-        20 seconds"}, {"name": "publish_to_pypi", "duration": "-1 minutes 59 seconds"}]}'
+        "1 minutes 2 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 58 seconds"}, {"name": "run_ci
+        / Tests (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 36 seconds"},
+        {"name": "run_ci / Tests (ubuntu-latest, 3.12, django52-drflatest)", "duration":
+        "0 minutes 32 seconds"}, {"name": "Dependabot", "duration": "0 minutes 30
+        seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, django52-drf314)",
+        "duration": "0 minutes 27 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
+        3.12, docs)", "duration": "0 minutes 20 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
     created_at: 2018-01-26 18:55:49
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: A library for tracking completion of blocks by learners in edX courses.
-    disk_usage_kb: 1530
+    disk_usage_kb: 1533
     first_timer_prs_90d: 0
     fork_count: 26
     good_first_issues_open: 1
@@ -97,13 +107,13 @@ github:
     issues_open: 2
     issues_opened_90d: 1
     issues_stale_open_180d: 1
-    last_push: 2026-11-14 03:16:17
+    last_push: 2026-11-17 15:20:16
     license: GNU AGPLv3
     median_pr_response_seconds: 431610
     median_pr_time_to_merge_seconds: 332208
-    oldest_open_pr_days: 140
-    pr_closure_ratio_90d: 0.7273
-    pr_opened_90d: 22
+    oldest_open_pr_days: 141
+    pr_closure_ratio_90d: 0.7391
+    pr_opened_90d: 23
     prs_open: 7
     pulls_count: 7
     release_count_12mo: 2

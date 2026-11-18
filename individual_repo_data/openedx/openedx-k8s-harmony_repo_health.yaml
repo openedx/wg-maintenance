@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-17
+TIMESTAMP: 2026-11-18
 dependabot:
     exists: true
     has_ecosystem:
@@ -105,7 +105,7 @@ github:
     median_issue_first_response_seconds: 1165204
     median_pr_response_seconds: 160367
     median_pr_time_to_merge_seconds: 217632
-    oldest_open_pr_days: 213
+    oldest_open_pr_days: 214
     pr_closure_ratio_90d: 0.7333
     pr_opened_90d: 15
     prs_open: 5
@@ -154,9 +154,8 @@ readme:
         port=443): Failed to resolve ''ms-yourinstanceid.meilisearch.io'' ([Errno
         -2] Name or service not known)"))'
     - 'http://10.1.2.3: HTTPConnectionPool(host=''10.1.2.3'', port=80): Max retries
-        exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host=''10.1.2.3'',
-        port=80) at 0x7bdb9822b4a0>, ''Connection to 10.1.2.3 timed out. (connect
-        timeout=None)''))'
+        exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''10.1.2.3'',
+        port=80): Failed to establish a new connection: [Errno 113] No route to host"))'
     - 'https://meilisearch: HTTPSConnectionPool(host=''meilisearch'', port=443): Max
         retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''meilisearch'',
         port=443): Failed to resolve ''meilisearch'' ([Errno -3] Temporary failure
