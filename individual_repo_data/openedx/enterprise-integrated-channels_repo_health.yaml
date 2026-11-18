@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-17
+TIMESTAMP: 2026-11-18
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,24 +61,35 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 102
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 11
-    build_details: '{"total_duration": "5 minutes 19 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "2374 minutes 47 seconds", "checks": [{"name":
         "tests (ubuntu-latest, 3.11, django42)", "duration": "3 minutes 26 seconds"},
         {"name": "run_ci / tests (ubuntu-latest, 3.11, django52)", "duration": "3
         minutes 15 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.11, django42)",
         "duration": "3 minutes 7 seconds"}, {"name": "tests (ubuntu-latest, 3.11,
         django52)", "duration": "2 minutes 59 seconds"}, {"name": "release", "duration":
-        "1 minutes 42 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.11, quality)",
-        "duration": "1 minutes 18 seconds"}, {"name": "tests (ubuntu-latest, 3.11,
-        quality)", "duration": "1 minutes 8 seconds"}, {"name": "tests (ubuntu-latest,
-        3.11, pii_check)", "duration": "0 minutes 16 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 16 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.11, pii_check)", "duration": "0 minutes 15 seconds"}]}'
+        "1 minutes 42 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "1 minutes 38 seconds"}, {"name": "run_ci
+        / tests (ubuntu-latest, 3.11, quality)", "duration": "1 minutes 18 seconds"},
+        {"name": "tests (ubuntu-latest, 3.11, quality)", "duration": "1 minutes 8
+        seconds"}, {"name": "tests (ubuntu-latest, 3.11, pii_check)", "duration":
+        "0 minutes 16 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        16 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.11, pii_check)",
+        "duration": "0 minutes 15 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 12
     created_at: 2024-10-29 13:52:13
@@ -100,13 +111,13 @@ github:
     issues_open: 1
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-11-16 13:33:42
+    last_push: 2026-11-18 05:03:13
     license: GNU AGPLv3
     median_pr_response_seconds: 61887
     median_pr_time_to_merge_seconds: 570708
-    oldest_open_pr_days: 364
-    pr_closure_ratio_90d: 0.9375
-    pr_opened_90d: 32
+    oldest_open_pr_days: 365
+    pr_closure_ratio_90d: 0.9394
+    pr_opened_90d: 33
     prs_open: 11
     pulls_count: 11
     release_count_12mo: 53
