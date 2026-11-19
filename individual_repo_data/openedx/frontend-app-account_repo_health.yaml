@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-18
+TIMESTAMP: 2026-11-19
 dependabot:
     exists: false
     has_ecosystem:
@@ -76,7 +76,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 40
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -102,7 +102,7 @@ github:
     description: Open edX micro-frontend application for managing user account information.
     disk_usage_kb: 21338
     first_timer_median_first_response_seconds: 1099806
-    first_timer_prs_90d: 2
+    first_timer_prs_90d: 3
     fork_count: 187
     good_first_issues_open: 2
     has_issues: true
@@ -112,20 +112,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.4286
-    issues_open: 21
-    issues_opened_90d: 7
+    issue_closure_ratio_90d: 0.375
+    issues_open: 22
+    issues_opened_90d: 8
     issues_stale_open_180d: 14
     last_push: 2026-11-16 00:41:11
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1683647
     median_pr_response_seconds: 526875
     median_pr_time_to_merge_seconds: 258428
-    oldest_open_pr_days: 1864
-    pr_closure_ratio_90d: 0.8235
-    pr_opened_90d: 17
-    prs_open: 18
-    pulls_count: 18
+    oldest_open_pr_days: 1865
+    pr_closure_ratio_90d: 0.7778
+    pr_opened_90d: 18
+    prs_open: 19
+    pulls_count: 19
     release_count_12mo: 8
 github_actions: true
 language_bytes:

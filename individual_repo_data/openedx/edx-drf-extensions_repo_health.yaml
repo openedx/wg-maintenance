@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-18
+TIMESTAMP: 2026-11-19
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,13 +61,13 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 14
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 41
-    build_details: '{"total_duration": "4120 minutes 51 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "7153 minutes 4 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 28 seconds"}, {"name": "update-uv-graph",
         "duration": "0 minutes 48 seconds"}, {"name": "Dependabot", "duration": "0
         minutes 48 seconds"}, {"name": "Dependabot", "duration": "0 minutes 45 seconds"},
@@ -78,9 +78,11 @@ github:
         minutes 30 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, quality)",
         "duration": "0 minutes 24 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
         3.12, docs)", "duration": "0 minutes 18 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi",
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 6
@@ -99,16 +101,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issues_open: 12
-    issues_opened_90d: 0
+    issue_closure_ratio_90d: 0.0
+    issues_open: 16
+    issues_opened_90d: 4
     issues_stale_open_180d: 11
     last_push: 2026-11-13 18:04:29
     license: Apache License 2.0
     median_pr_response_seconds: 393072
     median_pr_time_to_merge_seconds: 37187
-    oldest_open_pr_days: 491
-    pr_closure_ratio_90d: 0.9333
-    pr_opened_90d: 30
+    oldest_open_pr_days: 492
+    pr_closure_ratio_90d: 0.931
+    pr_opened_90d: 29
     prs_open: 9
     pulls_count: 9
     release_count_12mo: 5

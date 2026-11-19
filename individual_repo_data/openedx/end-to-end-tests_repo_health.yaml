@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-18
+TIMESTAMP: 2026-11-19
 dependabot:
     exists: true
     has_ecosystem:
@@ -63,38 +63,39 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 367
-    lockfile_age_days: 4
+    commits_365d: 368
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 12
-    build_details: '{"total_duration": "509 minutes 59 seconds", "checks": [{"name":
-        "main aspects images", "duration": "26 minutes 9 seconds"}, {"name": "Docker:
-        main environment / default 3/4", "duration": "24 minutes 9 seconds"}, {"name":
-        "Docker: main environment / default 2/4", "duration": "23 minutes 56 seconds"},
-        {"name": "Docker: main environment / aspects 1/1", "duration": "23 minutes
-        54 seconds"}, {"name": "Docker: main environment / default 4/4", "duration":
-        "22 minutes 48 seconds"}, {"name": "main stock images", "duration": "20 minutes
-        33 seconds"}, {"name": "Docker: main environment / default 1/4", "duration":
-        "19 minutes 29 seconds"}, {"name": "Docker: last release (verawood) / default
-        4/4", "duration": "16 minutes 34 seconds"}, {"name": "Docker: main environment
-        / extended 1/1", "duration": "12 minutes 0 seconds"}, {"name": "verawood aspects
-        images", "duration": "6 minutes 12 seconds"}, {"name": "Lint, types & unit
-        tests", "duration": "1 minutes 9 seconds"}, {"name": "Docker: last release
-        (verawood) / plan", "duration": "0 minutes 19 seconds"}, {"name": "Docker:
-        main environment / plan", "duration": "0 minutes 10 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "796 minutes 32 seconds", "checks": [{"name":
+        "Docker: last release (verawood) / aspects 1/1", "duration": "23 minutes 51
+        seconds"}, {"name": "Docker: last release (verawood) / default 1/4", "duration":
+        "22 minutes 25 seconds"}, {"name": "Docker: last release (verawood) / default
+        3/4", "duration": "20 minutes 59 seconds"}, {"name": "Docker: last release
+        (verawood) / default 4/4", "duration": "20 minutes 28 seconds"}, {"name":
+        "Docker: last release (verawood) / default 2/4", "duration": "17 minutes 54
+        seconds"}, {"name": "main stock images", "duration": "14 minutes 37 seconds"},
+        {"name": "Docker: main environment / extended 1/1", "duration": "14 minutes
+        11 seconds"}, {"name": "Docker: last release (verawood) / extended 1/1", "duration":
+        "13 minutes 15 seconds"}, {"name": "main aspects images", "duration": "12
+        minutes 55 seconds"}, {"name": "verawood aspects images", "duration": "4 minutes
+        53 seconds"}, {"name": "Lint, types & unit tests", "duration": "1 minutes
+        18 seconds"}, {"name": "Docker: main environment / plan", "duration": "0 minutes
+        16 seconds"}, {"name": "Docker: last release (verawood) / plan", "duration":
+        "0 minutes 9 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2026-06-18 19:35:55
     default_branch: main
-    default_branch_ci_state: FAILURE
+    default_branch_ci_state: SUCCESS
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 3449
+    disk_usage_kb: 2887
     first_timer_median_first_response_seconds: 56618
     first_timer_prs_90d: 3
-    fork_count: 7
+    fork_count: 8
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -107,15 +108,15 @@ github:
     issues_open: 67
     issues_opened_90d: 87
     issues_stale_open_180d: 0
-    last_push: 2026-11-17 21:22:11
+    last_push: 2026-11-18 14:01:24
     license: Apache License 2.0
-    median_pr_response_seconds: 203228
-    median_pr_time_to_merge_seconds: 404575
-    oldest_open_pr_days: 78
-    pr_closure_ratio_90d: 0.9
+    median_pr_response_seconds: 174584
+    median_pr_time_to_merge_seconds: 404029
+    oldest_open_pr_days: 79
+    pr_closure_ratio_90d: 0.91
     pr_opened_90d: 100
-    prs_open: 10
-    pulls_count: 10
+    prs_open: 9
+    pulls_count: 9
     release_count_12mo: 0
 github_actions: true
 language_bytes:

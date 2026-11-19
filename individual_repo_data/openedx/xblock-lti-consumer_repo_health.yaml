@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-18
+TIMESTAMP: 2026-11-19
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,18 +61,29 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 41
-    lockfile_age_days: 14
+    lockfile_age_days: 15
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 69
-    build_details: '{"total_duration": "5 minutes 24 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "1801 minutes 30 seconds", "checks": [{"name":
         "django52", "duration": "3 minutes 52 seconds"}, {"name": "run_tests / django52",
         "duration": "3 minutes 23 seconds"}, {"name": "release", "duration": "1 minutes
         38 seconds"}, {"name": "quality", "duration": "0 minutes 50 seconds"}, {"name":
         "run_tests / quality", "duration": "0 minutes 49 seconds"}, {"name": "publish_to_pypi",
-        "duration": "0 minutes 19 seconds"}]}'
+        "duration": "0 minutes 19 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 54 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2015-11-09 15:21:44
@@ -81,7 +92,7 @@ github:
     description: ''
     disk_usage_kb: 2427
     first_timer_median_first_response_seconds: 672112
-    first_timer_prs_90d: 8
+    first_timer_prs_90d: 9
     fork_count: 99
     good_first_issues_open: 0
     has_issues: true
@@ -91,20 +102,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.0714
-    issues_open: 39
-    issues_opened_90d: 28
+    issue_closure_ratio_90d: 0.069
+    issues_open: 40
+    issues_opened_90d: 29
     issues_stale_open_180d: 10
     last_push: 2026-11-17 18:05:31
     license: GNU AGPLv3
     median_issue_first_response_seconds: 414831
     median_pr_response_seconds: 685277
     median_pr_time_to_merge_seconds: 401834
-    oldest_open_pr_days: 244
-    pr_closure_ratio_90d: 0.5366
-    pr_opened_90d: 41
-    prs_open: 24
-    pulls_count: 24
+    oldest_open_pr_days: 245
+    pr_closure_ratio_90d: 0.5238
+    pr_opened_90d: 42
+    prs_open: 25
+    pulls_count: 25
     release_count_12mo: 22
 github_actions: true
 language_bytes:
@@ -136,11 +147,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.org/getting-help: 403'
-    - 'https://openedx.org/r/how-to-contribute: 403'
-    - 'https://openedx.org/code-of-conduct/: 403'
     getting-help: true
     good_links:
     - https://docs.tutor.edly.io/configuration.html
@@ -161,6 +168,10 @@ readme:
     - https://github.com/open-craft/openedx-ltistore
     - https://discuss.openedx.org
     - https://github.com/openedx/xblock-lti-consumer/issues
+    - https://openedx.org/slack
+    - https://openedx.org/getting-help
+    - https://openedx.org/r/how-to-contribute
+    - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/xblock-lti-consumer
     - https://github.com/openedx/xblock-lti-consumer/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/xblock-lti-consumer/actions?query=workflow%3A%22Python+CI%22
