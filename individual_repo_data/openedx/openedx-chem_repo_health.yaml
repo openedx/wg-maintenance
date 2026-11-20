@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-19
+TIMESTAMP: 2026-11-20
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 7
-    lockfile_age_days: 29
+    lockfile_age_days: 30
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 31
+    branch_count: 32
     build_details: '{"total_duration": "11056 minutes 12 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 59 seconds"}, {"name": "run_tests / py",
         "duration": "0 minutes 55 seconds"}, {"name": "Dependabot", "duration": "0
@@ -87,8 +87,8 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 430
-    first_timer_prs_90d: 0
+    disk_usage_kb: 492
+    first_timer_prs_90d: 1
     fork_count: 5
     good_first_issues_open: 0
     has_issues: true
@@ -101,14 +101,14 @@ github:
     issues_open: 3
     issues_opened_90d: 0
     issues_stale_open_180d: 3
-    last_push: 2026-11-16 00:20:47
+    last_push: 2026-11-20 01:35:24
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 2819988
-    oldest_open_pr_days: 1835
-    pr_closure_ratio_90d: 0.4286
-    pr_opened_90d: 7
-    prs_open: 6
-    pulls_count: 6
+    oldest_open_pr_days: 1836
+    pr_closure_ratio_90d: 0.375
+    pr_opened_90d: 8
+    prs_open: 7
+    pulls_count: 7
     release_count_12mo: 1
 github_actions: true
 language_bytes:
