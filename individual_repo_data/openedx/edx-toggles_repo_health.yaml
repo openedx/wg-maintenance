@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-19
+TIMESTAMP: 2026-11-20
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 8
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 8
+    branch_count: 9
     build_details: '{"total_duration": "2 minutes 32 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 33 seconds"}, {"name": "Dependabot", "duration":
         "0 minutes 51 seconds"}, {"name": "Dependabot", "duration": "0 minutes 44
@@ -90,7 +90,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Library and utilities for feature toggles
-    disk_usage_kb: 984
+    disk_usage_kb: 1104
     first_timer_prs_90d: 0
     fork_count: 17
     good_first_issues_open: 1
@@ -104,14 +104,15 @@ github:
     issues_open: 12
     issues_opened_90d: 0
     issues_stale_open_180d: 12
-    last_push: 2026-11-18 13:33:04
+    last_push: 2026-11-20 03:03:54
     license: GNU AGPLv3
     median_pr_response_seconds: 80920
     median_pr_time_to_merge_seconds: 21364
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 14
-    prs_open: 0
-    pulls_count: 0
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.9333
+    pr_opened_90d: 15
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 4
 github_actions: true
 language_bytes:
