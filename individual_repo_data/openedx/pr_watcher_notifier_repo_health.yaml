@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-20
+TIMESTAMP: 2026-11-21
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,12 +66,15 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 7
-    build_details: '{"total_duration": "246211 minutes 18 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "250257 minutes 44 seconds", "checks": [{"name":
         "Run Tests (3.12)", "duration": "0 minutes 27 seconds"}, {"name": "Run Tests
         (3.11)", "duration": "0 minutes 25 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
         / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
         / add_label", "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels
         / remove_label", "duration": "-1 minutes 50 seconds"}]}'
@@ -100,7 +103,7 @@ github:
     last_push: 2026-05-30 15:32:44
     license: GNU AGPLv3
     median_pr_response_seconds: 102205
-    oldest_open_pr_days: 3
+    oldest_open_pr_days: 4
     pr_closure_ratio_90d: 0.0
     pr_opened_90d: 1
     prs_open: 1

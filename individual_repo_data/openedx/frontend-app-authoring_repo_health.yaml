@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-20
+TIMESTAMP: 2026-11-21
 dependabot:
     exists: true
     has_ecosystem:
@@ -101,16 +101,24 @@ exists:
 git:
     absence_factor_365d: 7
     commits_365d: 242
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 30
-    build_details: '{"total_duration": "6 minutes 48 seconds", "checks": [{"name":
-        "tests", "duration": "6 minutes 39 seconds"}, {"name": "coverage", "duration":
-        "0 minutes 7 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 5 seconds"}]}'
+    build_details: '{"total_duration": "671 minutes 39 seconds", "checks": [{"name":
+        "tests", "duration": "10 minutes 1 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 13 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 6 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 21
     created_at: 2020-05-06 18:34:51
@@ -118,7 +126,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 54176
+    disk_usage_kb: 54179
     first_timer_median_first_response_seconds: 183162
     first_timer_prs_90d: 12
     fork_count: 230
@@ -134,16 +142,16 @@ github:
     issues_open: 273
     issues_opened_90d: 27
     issues_stale_open_180d: 23
-    last_push: 2026-11-20 00:11:18
+    last_push: 2026-11-20 11:07:20
     license: GNU AGPLv3
     median_issue_first_response_seconds: 120715
-    median_pr_response_seconds: 135524
-    median_pr_time_to_merge_seconds: 249923
-    oldest_open_pr_days: 936
-    pr_closure_ratio_90d: 0.69
+    median_pr_response_seconds: 164084
+    median_pr_time_to_merge_seconds: 249953
+    oldest_open_pr_days: 937
+    pr_closure_ratio_90d: 0.68
     pr_opened_90d: 100
-    prs_open: 50
-    pulls_count: 50
+    prs_open: 51
+    pulls_count: 51
     release_count_12mo: 7
 github_actions: true
 language_bytes:

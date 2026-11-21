@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-20
+TIMESTAMP: 2026-11-21
 dependabot:
     exists: true
     has_ecosystem:
@@ -20,7 +20,7 @@ dependencies:
     js.dev:
         count: 10
         list: '{"@axe-core/playwright": "^4.13.0", "@eslint/js": "^10.0.1", "@playwright/test":
-            "^1.64.1", "@types/node": "^26.6.4", "eslint": "^10.13.0", "eslint-config-prettier":
+            "^1.65.1", "@types/node": "^26.6.6", "eslint": "^10.13.0", "eslint-config-prettier":
             "^10.1.8", "eslint-plugin-playwright": "^2.12.2", "prettier": "^3.9.10",
             "typescript": "^6.0.3", "typescript-eslint": "^8.72.2"}'
     pypi:
@@ -64,39 +64,36 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 383
-    lockfile_age_days: 6
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 13
-    build_details: '{"total_duration": "362 minutes 41 seconds", "checks": [{"name":
-        "Docker: main environment / default 3/4", "duration": "25 minutes 15 seconds"},
-        {"name": "Docker: main environment / default 2/4", "duration": "23 minutes
-        52 seconds"}, {"name": "Docker: main environment / default 1/4", "duration":
-        "23 minutes 14 seconds"}, {"name": "Docker: main environment / aspects 1/1",
-        "duration": "20 minutes 57 seconds"}, {"name": "Docker: main environment /
-        default 4/4", "duration": "19 minutes 45 seconds"}, {"name": "main aspects
-        images", "duration": "14 minutes 23 seconds"}, {"name": "Docker: main environment
-        / extended 1/1", "duration": "10 minutes 17 seconds"}, {"name": "Docker: last
-        release (verawood) / extended 1/1", "duration": "8 minutes 46 seconds"}, {"name":
-        "main stock images", "duration": "8 minutes 40 seconds"}, {"name": "verawood
-        aspects images", "duration": "6 minutes 0 seconds"}, {"name": "Lint, types
-        & unit tests", "duration": "1 minutes 39 seconds"}, {"name": "Dependabot",
-        "duration": "1 minutes 26 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 46 seconds"}, {"name": "Docker: last release (verawood) / plan", "duration":
-        "0 minutes 18 seconds"}, {"name": "Docker: main environment / plan", "duration":
-        "0 minutes 8 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}]}'
+    branch_count: 11
+    build_details: '{"total_duration": "111 minutes 23 seconds", "checks": [{"name":
+        "Docker: main environment / default 3/4", "duration": "31 minutes 10 seconds"},
+        {"name": "Docker: main environment / default 4/4", "duration": "27 minutes
+        30 seconds"}, {"name": "Docker: main environment / default 2/4", "duration":
+        "25 minutes 13 seconds"}, {"name": "main aspects images", "duration": "24
+        minutes 21 seconds"}, {"name": "main stock images", "duration": "23 minutes
+        3 seconds"}, {"name": "Docker: main environment / aspects 1/1", "duration":
+        "21 minutes 1 seconds"}, {"name": "Docker: main environment / default 1/4",
+        "duration": "20 minutes 20 seconds"}, {"name": "verawood aspects images",
+        "duration": "18 minutes 56 seconds"}, {"name": "Docker: main environment /
+        extended 1/1", "duration": "9 minutes 5 seconds"}, {"name": "Docker: last
+        release (verawood) / extended 1/1", "duration": "8 minutes 25 seconds"}, {"name":
+        "Lint, types & unit tests", "duration": "1 minutes 25 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 48 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 42 seconds"}, {"name": "Docker: last release (verawood)
+        / plan", "duration": "0 minutes 17 seconds"}, {"name": "Docker: main environment
+        / plan", "duration": "0 minutes 8 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 8
     created_at: 2026-06-18 19:35:55
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: A repository of end-to-end Tests for the Open edX Platform
-    disk_usage_kb: 3341
+    disk_usage_kb: 3551
     first_timer_median_first_response_seconds: 56618
     first_timer_prs_90d: 4
     fork_count: 8
@@ -112,15 +109,15 @@ github:
     issues_open: 66
     issues_opened_90d: 87
     issues_stale_open_180d: 0
-    last_push: 2026-11-20 01:45:12
+    last_push: 2026-11-21 01:38:34
     license: Apache License 2.0
     median_pr_response_seconds: 170047
-    median_pr_time_to_merge_seconds: 404029
-    oldest_open_pr_days: 80
-    pr_closure_ratio_90d: 0.93
+    median_pr_time_to_merge_seconds: 403446
+    oldest_open_pr_days: 81
+    pr_closure_ratio_90d: 0.94
     pr_opened_90d: 100
-    prs_open: 8
-    pulls_count: 8
+    prs_open: 7
+    pulls_count: 7
     release_count_12mo: 0
 github_actions: true
 language_bytes:
