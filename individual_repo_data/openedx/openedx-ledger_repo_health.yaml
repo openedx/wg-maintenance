@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-21
+TIMESTAMP: 2026-11-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 13
-    lockfile_age_days: 11
+    lockfile_age_days: 12
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -93,7 +93,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: A library that records transactions against a ledger, denominated
         in units of value.
-    disk_usage_kb: 818
+    disk_usage_kb: 820
     first_timer_prs_90d: 0
     fork_count: 9
     good_first_issues_open: 0
@@ -108,16 +108,16 @@ github:
     issues_open: 2
     issues_opened_90d: 1
     issues_stale_open_180d: 1
-    last_push: 2026-11-18 05:11:47
+    last_push: 2026-11-21 05:10:45
     license: GNU AGPLv3
     median_issue_first_response_seconds: 10860
     median_pr_response_seconds: 63090
     median_pr_time_to_merge_seconds: 207985
-    oldest_open_pr_days: 136
-    pr_closure_ratio_90d: 0.9
-    pr_opened_90d: 30
-    prs_open: 4
-    pulls_count: 4
+    oldest_open_pr_days: 137
+    pr_closure_ratio_90d: 0.9355
+    pr_opened_90d: 31
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 6
 github_actions: true
 language_bytes:
