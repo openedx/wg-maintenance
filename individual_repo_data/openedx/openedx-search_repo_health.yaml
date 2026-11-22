@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-21
+TIMESTAMP: 2026-11-22
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,21 +61,22 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 4
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 6
-    build_details: '{"total_duration": "192 minutes 7 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 37 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
-        3.12, docs)", "duration": "0 minutes 27 seconds"}, {"name": "run_ci / tests
-        (ubuntu-latest, 3.12, quality)", "duration": "0 minutes 20 seconds"}, {"name":
-        "run_ci / tests (ubuntu-latest, 3.12, django60)", "duration": "0 minutes 18
-        seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, pii_check)", "duration":
-        "0 minutes 16 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, django52)",
-        "duration": "0 minutes 16 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 13 seconds"}, {"name": "run_ci / all required checks passed", "duration":
+    build_details: '{"total_duration": "2162 minutes 17 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 37 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 36 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, docs)",
+        "duration": "0 minutes 27 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
+        3.12, quality)", "duration": "0 minutes 20 seconds"}, {"name": "run_ci / tests
+        (ubuntu-latest, 3.12, django60)", "duration": "0 minutes 18 seconds"}, {"name":
+        "run_ci / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes
+        16 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, django52)", "duration":
+        "0 minutes 16 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        13 seconds"}, {"name": "run_ci / all required checks passed", "duration":
         "0 minutes 3 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
@@ -105,7 +106,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 76883
     median_pr_time_to_merge_seconds: 425591
-    oldest_open_pr_days: 48
+    oldest_open_pr_days: 49
     pr_closure_ratio_90d: 0.75
     pr_opened_90d: 16
     prs_open: 4
