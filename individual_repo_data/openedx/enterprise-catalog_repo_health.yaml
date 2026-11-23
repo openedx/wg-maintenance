@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 23
-    lockfile_age_days: 30
+    lockfile_age_days: 31
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 83
+    branch_count: 84
     build_details: '{"total_duration": "5617 minutes 12 seconds", "checks": [{"name":
         "build (3.12, django52)", "duration": "4 minutes 49 seconds"}, {"name": "check
         migration for MySql8 (ubuntu-latest, 3.12)", "duration": "0 minutes 18 seconds"},
@@ -89,7 +89,7 @@ github:
     default_branch_ci_state: FAILURE
     description: A Django-based microservice for handling Enterprise catalogs, associating
         enterprise customers with curated courses from the full course catalog.
-    disk_usage_kb: 48801
+    disk_usage_kb: 48823
     first_timer_prs_90d: 0
     fork_count: 28
     good_first_issues_open: 0
@@ -103,15 +103,15 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-16 02:16:08
+    last_push: 2026-11-23 04:24:03
     license: GNU AGPLv3
     median_pr_response_seconds: 72193
     median_pr_time_to_merge_seconds: 35984
-    oldest_open_pr_days: 2098
-    pr_closure_ratio_90d: 0.9259
-    pr_opened_90d: 27
-    prs_open: 14
-    pulls_count: 14
+    oldest_open_pr_days: 2099
+    pr_closure_ratio_90d: 0.8966
+    pr_opened_90d: 29
+    prs_open: 15
+    pulls_count: 15
     release_count_12mo: 3
 github_actions: true
 language_bytes:

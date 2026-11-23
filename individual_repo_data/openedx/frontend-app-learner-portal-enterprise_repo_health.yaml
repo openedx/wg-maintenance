@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -88,28 +88,23 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 10
-    lockfile_age_days: 6
+    lockfile_age_days: 0
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 163
-    build_details: '{"total_duration": "1682 minutes 31 seconds", "checks": [{"name":
-        "generate", "duration": "1 minutes 9 seconds"}, {"name": "generate", "duration":
-        "0 minutes 58 seconds"}, {"name": "Dependabot", "duration": "0 minutes 34
-        seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration": "0
-        minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 55 seconds"}]}'
+    build_details: '{"total_duration": "246 minutes 59 seconds", "checks": [{"name":
+        "generate", "duration": "1 minutes 8 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2019-09-23 14:57:34
     default_branch: master
     description: Enterprise Learner Portal
-    disk_usage_kb: 22159
+    disk_usage_kb: 22375
     first_timer_prs_90d: 0
     fork_count: 33
     good_first_issues_open: 0
@@ -123,12 +118,12 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-22 04:14:10
+    last_push: 2026-11-23 04:16:03
     license: GNU AGPLv3
-    median_pr_time_to_merge_seconds: 357
-    oldest_open_pr_days: 1762
-    pr_closure_ratio_90d: 0.4118
-    pr_opened_90d: 34
+    median_pr_time_to_merge_seconds: 353
+    oldest_open_pr_days: 1763
+    pr_closure_ratio_90d: 0.4286
+    pr_opened_90d: 35
     prs_open: 67
     pulls_count: 67
     release_count_12mo: 0

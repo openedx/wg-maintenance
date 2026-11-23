@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 13
-    lockfile_age_days: 12
+    lockfile_age_days: 13
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 29
+    branch_count: 30
     build_details: '{"total_duration": "5831 minutes 58 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 34 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 58 seconds"}, {"name": "call-upgrade-python-requirements-workflow
@@ -93,7 +93,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: A library that records transactions against a ledger, denominated
         in units of value.
-    disk_usage_kb: 820
+    disk_usage_kb: 823
     first_timer_prs_90d: 0
     fork_count: 9
     good_first_issues_open: 0
@@ -108,16 +108,16 @@ github:
     issues_open: 2
     issues_opened_90d: 1
     issues_stale_open_180d: 1
-    last_push: 2026-11-21 05:10:45
+    last_push: 2026-11-23 02:33:22
     license: GNU AGPLv3
     median_issue_first_response_seconds: 10860
     median_pr_response_seconds: 63090
     median_pr_time_to_merge_seconds: 207985
-    oldest_open_pr_days: 137
-    pr_closure_ratio_90d: 0.9355
-    pr_opened_90d: 31
-    prs_open: 3
-    pulls_count: 3
+    oldest_open_pr_days: 138
+    pr_closure_ratio_90d: 0.9062
+    pr_opened_90d: 32
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 6
 github_actions: true
 language_bytes:

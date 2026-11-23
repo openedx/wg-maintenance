@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 66
-    lockfile_age_days: 31
+    lockfile_age_days: 32
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 7
+    branch_count: 8
     build_details: '{"total_duration": "24654 minutes 36 seconds", "checks": [{"name":
         "release", "duration": "0 minutes 44 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 41 seconds"}, {"name": "call-upgrade-python-requirements-workflow
@@ -91,7 +91,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1034
+    disk_usage_kb: 1036
     first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0
@@ -105,15 +105,15 @@ github:
     issues_open: 3
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-11-17 05:55:49
+    last_push: 2026-11-23 00:43:01
     license: GNU AGPLv3
     median_pr_response_seconds: 11158
-    median_pr_time_to_merge_seconds: 49101
-    oldest_open_pr_days: 85
-    pr_closure_ratio_90d: 0.8235
-    pr_opened_90d: 17
-    prs_open: 3
-    pulls_count: 3
+    median_pr_time_to_merge_seconds: 49368
+    oldest_open_pr_days: 86
+    pr_closure_ratio_90d: 0.7778
+    pr_opened_90d: 18
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 20
 github_actions: true
 language_bytes:

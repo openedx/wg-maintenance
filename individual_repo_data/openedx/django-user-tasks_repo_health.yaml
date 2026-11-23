@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 23
+    lockfile_age_days: 24
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -94,7 +94,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: A Django application for managing user-triggered asynchronous tasks.
-    disk_usage_kb: 1194
+    disk_usage_kb: 1198
     first_timer_prs_90d: 0
     fork_count: 22
     good_first_issues_open: 0
@@ -108,13 +108,13 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-11-16 00:22:53
+    last_push: 2026-11-23 00:19:07
     license: Apache License 2.0
     median_pr_response_seconds: 545585
     median_pr_time_to_merge_seconds: 259980
-    oldest_open_pr_days: 348
-    pr_closure_ratio_90d: 0.6667
-    pr_opened_90d: 15
+    oldest_open_pr_days: 349
+    pr_closure_ratio_90d: 0.6875
+    pr_opened_90d: 16
     prs_open: 6
     pulls_count: 6
     release_count_12mo: 3

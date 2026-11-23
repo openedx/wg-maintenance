@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 116
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
+    branch_count: 28
     build_details: '{"total_duration": "239 minutes 27 seconds", "checks": [{"name":
         "run_tests / tests (ubuntu-latest, 3.12, django52)", "duration": "2 minutes
         1 seconds"}, {"name": "release", "duration": "1 minutes 45 seconds"}, {"name":
@@ -96,7 +96,7 @@ github:
     description: Specifications for the authorization model, policy data structures,
         and enforcement APIs that define how access control is evaluated and managed
         across the Open edX ecosystem.
-    disk_usage_kb: 2002
+    disk_usage_kb: 2063
     first_timer_prs_90d: 0
     fork_count: 10
     good_first_issues_open: 0
@@ -111,16 +111,16 @@ github:
     issues_open: 118
     issues_opened_90d: 100
     issues_stale_open_180d: 0
-    last_push: 2026-11-19 21:37:20
+    last_push: 2026-11-23 00:08:22
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1780957
     median_pr_response_seconds: 95429
     median_pr_time_to_merge_seconds: 606817
-    oldest_open_pr_days: 429
-    pr_closure_ratio_90d: 0.8925
-    pr_opened_90d: 93
-    prs_open: 11
-    pulls_count: 11
+    oldest_open_pr_days: 430
+    pr_closure_ratio_90d: 0.883
+    pr_opened_90d: 94
+    prs_open: 12
+    pulls_count: 12
     release_count_12mo: 64
 github_actions: true
 language_bytes:

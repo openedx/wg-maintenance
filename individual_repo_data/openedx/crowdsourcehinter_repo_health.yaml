@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 13
-    lockfile_age_days: 32
+    lockfile_age_days: 33
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
@@ -88,7 +88,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Crowdsource hinter xblock
-    disk_usage_kb: 63440
+    disk_usage_kb: 63442
     first_timer_prs_90d: 0
     fork_count: 12
     good_first_issues_open: 0
@@ -102,12 +102,12 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-16 00:31:15
+    last_push: 2026-11-23 00:27:14
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 232528
-    oldest_open_pr_days: 1599
-    pr_closure_ratio_90d: 0.7949
-    pr_opened_90d: 39
+    oldest_open_pr_days: 1600
+    pr_closure_ratio_90d: 0.8
+    pr_opened_90d: 40
     prs_open: 12
     pulls_count: 12
     release_count_12mo: 3
