@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 28
-    lockfile_age_days: 30
+    lockfile_age_days: 31
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -95,7 +95,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: 'Open edX filters from the Hooks Extensions Framework '
-    disk_usage_kb: 868
+    disk_usage_kb: 873
     first_timer_median_first_response_seconds: 694826
     first_timer_prs_90d: 2
     fork_count: 30
@@ -111,12 +111,12 @@ github:
     issues_open: 23
     issues_opened_90d: 1
     issues_stale_open_180d: 22
-    last_push: 2026-11-16 00:31:07
+    last_push: 2026-11-23 00:28:03
     license: GNU AGPLv3
     median_issue_first_response_seconds: 133991
-    median_pr_response_seconds: 122411
+    median_pr_response_seconds: 174964
     median_pr_time_to_merge_seconds: 52136
-    oldest_open_pr_days: 262
+    oldest_open_pr_days: 263
     pr_closure_ratio_90d: 0.9394
     pr_opened_90d: 33
     prs_open: 3

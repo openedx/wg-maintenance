@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 10
-    lockfile_age_days: 18
+    lockfile_age_days: 19
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -90,7 +90,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 307
+    disk_usage_kb: 312
     first_timer_prs_90d: 0
     fork_count: 15
     good_first_issues_open: 0
@@ -104,13 +104,13 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-16 00:01:23
+    last_push: 2026-11-23 00:01:16
     license: GNU AGPLv3
     median_pr_response_seconds: 546246
     median_pr_time_to_merge_seconds: 171409
-    oldest_open_pr_days: 18
-    pr_closure_ratio_90d: 0.8333
-    pr_opened_90d: 12
+    oldest_open_pr_days: 19
+    pr_closure_ratio_90d: 0.8462
+    pr_opened_90d: 13
     prs_open: 2
     pulls_count: 2
     release_count_12mo: 2
@@ -143,13 +143,12 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://github.com/openedx/edx-django-sites-extensions/actions?query=workflow%3A%22Python+CI%22:
-        429'
+    bad_links: []
     getting-help: false
     good_links:
     - http://code.edx.org/
     - https://github.com/openedx/edx-django-sites-extensions/workflows/Python%20CI/badge.svg?branch=master
+    - https://github.com/openedx/edx-django-sites-extensions/actions?query=workflow%3A%22Python+CI%22
     - http://codecov.io/github/edx/edx-django-sites-extensions/coverage.svg?branch=master
     - http://codecov.io/github/edx/edx-django-sites-extensions?branch=master
     - https://docs.djangoproject.com/en/1.9/ref/contrib/sites/

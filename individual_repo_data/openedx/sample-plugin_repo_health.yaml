@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -66,7 +66,7 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 2
-    build_details: '{"total_duration": "19790 minutes 22 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "29385 minutes 46 seconds", "checks": [{"name":
         "run_ci / frontend / build", "duration": "1 minutes 31 seconds"}, {"name":
         "release", "duration": "1 minutes 6 seconds"}, {"name": "Dependabot", "duration":
         "0 minutes 42 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
@@ -81,8 +81,9 @@ github:
         backend / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes
         19 seconds"}, {"name": "run_ci / brand / build", "duration": "0 minutes 18
         seconds"}, {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
-        "duration": "0 minutes 15 seconds"}, {"name": "run_ci / all required checks
-        passed", "duration": "0 minutes 3 seconds"}]}'
+        "duration": "0 minutes 15 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 15 seconds"}, {"name": "run_ci
+        / all required checks passed", "duration": "0 minutes 3 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2025-03-21 17:45:40
@@ -108,7 +109,7 @@ github:
     license: null
     median_pr_response_seconds: 107814
     median_pr_time_to_merge_seconds: 22090
-    oldest_open_pr_days: 191
+    oldest_open_pr_days: 192
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 26
     prs_open: 2

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,14 +61,15 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 30
+    lockfile_age_days: 31
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 32
-    build_details: '{"total_duration": "4409 minutes 41 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "13565 minutes 40 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 13 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 53 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 51 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 42 seconds"}, {"name": "run_tests / docs", "duration":
         "0 minutes 21 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes
@@ -78,11 +79,13 @@ github:
         / add_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
         / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
         / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
+        / remove_label", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 50 seconds"}]}'
+        / add_assignee", "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 5
+    contributor_count_90d: 4
     created_at: 2018-08-13 14:00:47
     default_branch: master
     default_branch_ci_state: SUCCESS
@@ -102,12 +105,12 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-16 04:08:36
+    last_push: 2026-11-23 04:08:37
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 154748
-    oldest_open_pr_days: 53
-    pr_closure_ratio_90d: 0.6316
-    pr_opened_90d: 19
+    oldest_open_pr_days: 54
+    pr_closure_ratio_90d: 0.65
+    pr_opened_90d: 20
     prs_open: 7
     pulls_count: 7
     release_count_12mo: 2

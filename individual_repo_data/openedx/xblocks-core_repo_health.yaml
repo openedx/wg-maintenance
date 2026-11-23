@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 78
-    lockfile_age_days: 5
+    lockfile_age_days: 6
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
+    branch_count: 11
     build_details: '{"total_duration": "848 minutes 34 seconds", "checks": [{"name":
         "Analyze (javascript-typescript)", "duration": "2 minutes 7 seconds"}, {"name":
         "release", "duration": "2 minutes 7 seconds"}, {"name": "Run JavaScript Tests
@@ -92,7 +92,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: 'Core Open edX XBlock types: Problem, Text, Video, etc.'
-    disk_usage_kb: 22645
+    disk_usage_kb: 22821
     first_timer_median_first_response_seconds: 291267
     first_timer_prs_90d: 7
     fork_count: 21
@@ -108,15 +108,15 @@ github:
     issues_open: 18
     issues_opened_90d: 9
     issues_stale_open_180d: 4
-    last_push: 2026-11-20 04:29:51
+    last_push: 2026-11-23 04:42:47
     license: GNU AGPLv3
-    median_pr_response_seconds: 274937
-    median_pr_time_to_merge_seconds: 24168
-    oldest_open_pr_days: 180
-    pr_closure_ratio_90d: 0.4722
-    pr_opened_90d: 36
-    prs_open: 23
-    pulls_count: 23
+    median_pr_response_seconds: 196609
+    median_pr_time_to_merge_seconds: 23918
+    oldest_open_pr_days: 181
+    pr_closure_ratio_90d: 0.4474
+    pr_opened_90d: 38
+    prs_open: 25
+    pulls_count: 25
     release_count_12mo: 36
 github_actions: true
 language_bytes:

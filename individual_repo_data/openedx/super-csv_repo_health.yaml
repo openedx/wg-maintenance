@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,20 +61,21 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 16
+    lockfile_age_days: 17
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 16
-    build_details: '{"total_duration": "8478 minutes 0 seconds", "checks": [{"name":
+    branch_count: 17
+    build_details: '{"total_duration": "13519 minutes 19 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 29 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 54 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 35 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 18 seconds"}, {"name": "run_ci / Tests
-        (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 18 seconds"}, {"name":
-        "run_ci / Tests (ubuntu-latest, 3.12, django52-celery53-drflatest)", "duration":
-        "0 minutes 17 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, pii_check)",
+        "duration": "0 minutes 38 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 35 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, quality)",
+        "duration": "0 minutes 18 seconds"}, {"name": "run_ci / Tests (ubuntu-latest,
+        3.12, docs)", "duration": "0 minutes 18 seconds"}, {"name": "run_ci / Tests
+        (ubuntu-latest, 3.12, django52-celery53-drflatest)", "duration": "0 minutes
+        17 seconds"}, {"name": "run_ci / Tests (ubuntu-latest, 3.12, pii_check)",
         "duration": "0 minutes 14 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi", "duration":
@@ -89,7 +90,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Generic CSV Processor
-    disk_usage_kb: 909
+    disk_usage_kb: 912
     first_timer_prs_90d: 0
     fork_count: 11
     good_first_issues_open: 0
@@ -103,15 +104,15 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-19 15:17:28
+    last_push: 2026-11-23 03:19:05
     license: Apache License 2.0
     median_pr_response_seconds: 519555
     median_pr_time_to_merge_seconds: 54265
-    oldest_open_pr_days: 47
-    pr_closure_ratio_90d: 0.6667
-    pr_opened_90d: 18
-    prs_open: 6
-    pulls_count: 6
+    oldest_open_pr_days: 48
+    pr_closure_ratio_90d: 0.6316
+    pr_opened_90d: 19
+    prs_open: 7
+    pulls_count: 7
     release_count_12mo: 2
 github_actions: true
 language_bytes:

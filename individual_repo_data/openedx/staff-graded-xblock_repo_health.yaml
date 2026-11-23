@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 7
-    lockfile_age_days: 23
+    lockfile_age_days: 24
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 20
+    branch_count: 21
     build_details: '{"total_duration": "9173 minutes 10 seconds", "checks": [{"name":
         "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
         "0 minutes 52 seconds"}, {"name": "release", "duration": "0 minutes 44 seconds"},
@@ -91,7 +91,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Staff Graded Points XBlock
-    disk_usage_kb: 468
+    disk_usage_kb: 482
     first_timer_prs_90d: 0
     fork_count: 17
     good_first_issues_open: 1
@@ -105,14 +105,14 @@ github:
     issues_open: 2
     issues_opened_90d: 0
     issues_stale_open_180d: 2
-    last_push: 2026-11-16 00:17:09
+    last_push: 2026-11-23 03:17:41
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 40880
-    oldest_open_pr_days: 565
-    pr_closure_ratio_90d: 0.7188
-    pr_opened_90d: 32
-    prs_open: 18
-    pulls_count: 18
+    oldest_open_pr_days: 566
+    pr_closure_ratio_90d: 0.7059
+    pr_opened_90d: 34
+    prs_open: 19
+    pulls_count: 19
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -145,7 +145,10 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://django-statici18n.readthedocs.io/en/latest/: 404'
-    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: 403'
+    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: HTTPSConnectionPool(host=''www.gnu.org'',
+        port=443): Max retries exceeded with url: /software/gettext/manual/html_node/PO-Files.html
+        (Caused by NewConnectionError("HTTPSConnection(host=''www.gnu.org'', port=443):
+        Failed to establish a new connection: [Errno 101] Network is unreachable"))'
     getting-help: false
     good_links:
     - https://docs.openedx.org/projects/xblock/en/latest/xblock-tutorial/edx_platform/edx_lms.html

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-22
+TIMESTAMP: 2026-11-23
 dependabot:
     exists: false
     has_ecosystem:
@@ -83,7 +83,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 12
-    lockfile_age_days: 206
+    lockfile_age_days: 207
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -121,7 +121,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 247688
     median_pr_time_to_merge_seconds: 257311
-    oldest_open_pr_days: 799
+    oldest_open_pr_days: 800
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 1
     prs_open: 6
@@ -158,7 +158,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
-    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 429'
+    - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-ora-grading:
         404'
     getting-help: false
