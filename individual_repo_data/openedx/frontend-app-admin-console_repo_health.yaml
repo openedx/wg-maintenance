@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,7 +68,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 77
-    lockfile_age_days: 32
+    lockfile_age_days: 33
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -90,8 +90,8 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Administrator console for the Open edX application
-    disk_usage_kb: 1319
-    first_timer_median_first_response_seconds: 203015
+    disk_usage_kb: 1334
+    first_timer_median_first_response_seconds: 287017
     first_timer_prs_90d: 3
     fork_count: 13
     good_first_issues_open: 0
@@ -102,16 +102,16 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.5882
-    issues_open: 11
-    issues_opened_90d: 17
+    issue_closure_ratio_90d: 0.5556
+    issues_open: 12
+    issues_opened_90d: 18
     issues_stale_open_180d: 3
-    last_push: 2026-11-23 00:14:58
+    last_push: 2026-11-23 20:56:34
     license: GNU AGPLv3
     median_issue_first_response_seconds: 926308
-    median_pr_response_seconds: 499126
-    median_pr_time_to_merge_seconds: 333629
-    oldest_open_pr_days: 237
+    median_pr_response_seconds: 371019
+    median_pr_time_to_merge_seconds: 295395
+    oldest_open_pr_days: 238
     pr_closure_ratio_90d: 0.7679
     pr_opened_90d: 56
     prs_open: 14

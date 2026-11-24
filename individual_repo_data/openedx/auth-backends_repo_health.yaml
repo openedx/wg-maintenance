@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 11
-    lockfile_age_days: 32
+    lockfile_age_days: 33
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -111,7 +111,7 @@ github:
     median_issue_first_response_seconds: 1988
     median_pr_response_seconds: 32305
     median_pr_time_to_merge_seconds: 387418
-    oldest_open_pr_days: 320
+    oldest_open_pr_days: 321
     pr_closure_ratio_90d: 0.7
     pr_opened_90d: 30
     prs_open: 14
@@ -151,6 +151,7 @@ readme:
         Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''edx.devstack.lms'',
         port=80): Failed to resolve ''edx.devstack.lms'' ([Errno -2] Name or service
         not known)"))'
+    - 'https://github.com/openedx/.github/blob/master/CONTRIBUTING.md: 503'
     getting-help: false
     good_links:
     - https://github.com/openedx/auth-backends/workflows/Python%20CI/badge.svg?branch=master
@@ -161,7 +162,6 @@ readme:
     - http://python-social-auth.readthedocs.io/en/latest/strategies.html
     - https://python-semantic-release.readthedocs.io/
     - https://github.com/openedx/auth-backends/releases
-    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://groups.google.com/forum/
     irc-missing: true
     mailing-list-missing: false

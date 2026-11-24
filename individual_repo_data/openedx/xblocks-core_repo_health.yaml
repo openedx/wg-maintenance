@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -59,40 +59,37 @@ exists:
     tox.ini: true
     transifex_config: false
 git:
-    absence_factor_365d: 3
-    commits_365d: 78
-    lockfile_age_days: 6
+    absence_factor_365d: 4
+    commits_365d: 81
+    lockfile_age_days: 0
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 11
-    build_details: '{"total_duration": "848 minutes 34 seconds", "checks": [{"name":
-        "Analyze (javascript-typescript)", "duration": "2 minutes 7 seconds"}, {"name":
-        "release", "duration": "2 minutes 7 seconds"}, {"name": "Run JavaScript Tests
-        (24)", "duration": "2 minutes 1 seconds"}, {"name": "Analyze (python)", "duration":
-        "1 minutes 9 seconds"}, {"name": "django52", "duration": "0 minutes 50 seconds"},
-        {"name": "run_tests / django42", "duration": "0 minutes 47 seconds"}, {"name":
-        "django42", "duration": "0 minutes 47 seconds"}, {"name": "run_tests / quality",
-        "duration": "0 minutes 45 seconds"}, {"name": "run_tests / django52", "duration":
-        "0 minutes 44 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes
-        43 seconds"}, {"name": "docs", "duration": "0 minutes 42 seconds"}, {"name":
-        "quality", "duration": "0 minutes 41 seconds"}, {"name": "Analyze (actions)",
-        "duration": "0 minutes 35 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 21 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 12
+    build_details: '{"total_duration": "541 minutes 53 seconds", "checks": [{"name":
+        "Run JavaScript Tests (24)", "duration": "2 minutes 29 seconds"}, {"name":
+        "Analyze (javascript-typescript)", "duration": "2 minutes 25 seconds"}, {"name":
+        "release", "duration": "1 minutes 35 seconds"}, {"name": "Analyze (python)",
+        "duration": "1 minutes 6 seconds"}, {"name": "Analyze (actions)", "duration":
+        "0 minutes 46 seconds"}, {"name": "django42", "duration": "0 minutes 46 seconds"},
+        {"name": "run_tests / django42", "duration": "0 minutes 45 seconds"}, {"name":
+        "quality", "duration": "0 minutes 41 seconds"}, {"name": "docs", "duration":
+        "0 minutes 41 seconds"}, {"name": "run_tests / quality", "duration": "0 minutes
+        40 seconds"}, {"name": "run_tests / docs", "duration": "0 minutes 39 seconds"},
+        {"name": "run_tests / django52", "duration": "0 minutes 38 seconds"}, {"name":
+        "django52", "duration": "0 minutes 38 seconds"}, {"name": "publish_to_pypi",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 9
     created_at: 2024-06-26 15:14:53
     default_branch: main
-    default_branch_ci_state: SUCCESS
+    default_branch_ci_state: FAILURE
     description: 'Core Open edX XBlock types: Problem, Text, Video, etc.'
-    disk_usage_kb: 22821
+    disk_usage_kb: 22934
     first_timer_median_first_response_seconds: 291267
     first_timer_prs_90d: 7
     fork_count: 21
@@ -104,28 +101,28 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.1111
-    issues_open: 18
+    issue_closure_ratio_90d: 0.2222
+    issues_open: 17
     issues_opened_90d: 9
     issues_stale_open_180d: 4
-    last_push: 2026-11-23 04:42:47
+    last_push: 2026-11-24 00:11:49
     license: GNU AGPLv3
     median_pr_response_seconds: 196609
-    median_pr_time_to_merge_seconds: 23918
-    oldest_open_pr_days: 181
-    pr_closure_ratio_90d: 0.4474
-    pr_opened_90d: 38
-    prs_open: 25
-    pulls_count: 25
-    release_count_12mo: 36
+    median_pr_time_to_merge_seconds: 31000
+    oldest_open_pr_days: 182
+    pr_closure_ratio_90d: 0.55
+    pr_opened_90d: 40
+    prs_open: 22
+    pulls_count: 22
+    release_count_12mo: 38
 github_actions: true
 language_bytes:
     css: 389210
     dockerfile: 0
-    html: 1370368
-    javascript: 1699760
+    html: 1370329
+    javascript: 1705207
     makefile: 2006
-    python: 1676778
+    python: 1690464
     shell: 0
 makefile:
     pip-installed: false
@@ -148,10 +145,7 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: HTTPSConnectionPool(host=''www.gnu.org'',
-        port=443): Max retries exceeded with url: /software/gettext/manual/html_node/PO-Files.html
-        (Caused by NewConnectionError("HTTPSConnection(host=''www.gnu.org'', port=443):
-        Failed to establish a new connection: [Errno 101] Network is unreachable"))'
+    - 'https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html: 403'
     getting-help: false
     good_links:
     - https://github.com/openedx/xblocks-extra

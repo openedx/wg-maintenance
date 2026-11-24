@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -76,12 +76,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 44
-    lockfile_age_days: 30
+    lockfile_age_days: 31
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 174
+    branch_count: 175
     build_details: '{"total_duration": "7036 minutes 5 seconds", "checks": [{"name":
         "js", "duration": "4 minutes 57 seconds"}, {"name": "run_ci / js", "duration":
         "4 minutes 45 seconds"}, {"name": "django52", "duration": "2 minutes 15 seconds"},
@@ -107,7 +107,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Open Response Assessment Suite
-    disk_usage_kb: 165325
+    disk_usage_kb: 162575
     first_timer_median_first_response_seconds: 801777
     first_timer_prs_90d: 4
     fork_count: 221
@@ -123,16 +123,16 @@ github:
     issues_open: 68
     issues_opened_90d: 4
     issues_stale_open_180d: 63
-    last_push: 2026-11-18 15:19:14
+    last_push: 2026-11-23 18:04:05
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1114623
     median_pr_response_seconds: 1173625
     median_pr_time_to_merge_seconds: 160590
-    oldest_open_pr_days: 1930
-    pr_closure_ratio_90d: 0.5227
-    pr_opened_90d: 44
-    prs_open: 79
-    pulls_count: 79
+    oldest_open_pr_days: 1931
+    pr_closure_ratio_90d: 0.5111
+    pr_opened_90d: 45
+    prs_open: 80
+    pulls_count: 80
     release_count_12mo: 6
 github_actions: true
 language_bytes:
