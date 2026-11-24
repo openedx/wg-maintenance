@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 5
-    lockfile_age_days: 19
+    lockfile_age_days: 20
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -90,7 +90,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: An XBlock for testing XBlock Runtimes
-    disk_usage_kb: 278
+    disk_usage_kb: 280
     first_timer_prs_90d: 0
     fork_count: 24
     good_first_issues_open: 0
@@ -104,12 +104,12 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-17 02:31:34
+    last_push: 2026-11-24 02:32:13
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 679764
-    oldest_open_pr_days: 304
-    pr_closure_ratio_90d: 0.7917
-    pr_opened_90d: 24
+    oldest_open_pr_days: 305
+    pr_closure_ratio_90d: 0.8
+    pr_opened_90d: 25
     prs_open: 10
     pulls_count: 10
     release_count_12mo: 1

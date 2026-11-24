@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,24 +61,21 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 7
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "6305 minutes 37 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 41 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 52 seconds"}, {"name": "Dependabot", "duration": "0 minutes 51
-        seconds"}, {"name": "update-uv-graph", "duration": "0 minutes 48 seconds"},
-        {"name": "update-pip-graph", "duration": "0 minutes 37 seconds"}, {"name":
-        "call-upgrade-python-requirements-workflow / upgrade_requirements", "duration":
-        "0 minutes 35 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
-        27 seconds"}, {"name": "run_ci / build", "duration": "0 minutes 23 seconds"},
-        {"name": "run_ci / django42", "duration": "0 minutes 21 seconds"}, {"name":
-        "publish_to_pypi", "duration": "0 minutes 17 seconds"}, {"name": "run_ci /
-        docs", "duration": "0 minutes 16 seconds"}, {"name": "run_ci / django52",
-        "duration": "0 minutes 16 seconds"}]}'
+    build_details: '{"total_duration": "2 minutes 6 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 40 seconds"}, {"name": "Dependabot", "duration":
+        "0 minutes 47 seconds"}, {"name": "Dependabot", "duration": "0 minutes 45
+        seconds"}, {"name": "run_ci / quality", "duration": "0 minutes 21 seconds"},
+        {"name": "run_ci / build", "duration": "0 minutes 18 seconds"}, {"name": "run_ci
+        / django42", "duration": "0 minutes 18 seconds"}, {"name": "run_ci / django52",
+        "duration": "0 minutes 17 seconds"}, {"name": "run_ci / docs", "duration":
+        "0 minutes 16 seconds"}, {"name": "publish_to_pypi", "duration": "0 minutes
+        0 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2018-11-16 20:22:19
@@ -86,7 +83,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Extensible tools for parsing annotations in codebases, powers edx
         PII checker.
-    disk_usage_kb: 773
+    disk_usage_kb: 777
     first_timer_prs_90d: 0
     fork_count: 13
     good_first_issues_open: 0
@@ -100,11 +97,11 @@ github:
     issues_open: 3
     issues_opened_90d: 0
     issues_stale_open_180d: 3
-    last_push: 2026-11-18 15:08:52
+    last_push: 2026-11-23 15:03:49
     license: Apache License 2.0
-    median_pr_time_to_merge_seconds: 47288
+    median_pr_time_to_merge_seconds: 46790
     pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 18
+    pr_opened_90d: 19
     prs_open: 0
     pulls_count: 0
     release_count_12mo: 4

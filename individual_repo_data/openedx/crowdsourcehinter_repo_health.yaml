@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 13
-    lockfile_age_days: 33
+    lockfile_age_days: 34
 github:
     allows_merge_commit: true
     allows_rebase_merge: false
     allows_squash_merge: false
-    branch_count: 29
+    branch_count: 30
     build_details: '{"total_duration": "3268 minutes 24 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 53 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "1 minutes 11 seconds"}, {"name": "Dependabot",
@@ -88,7 +88,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Crowdsource hinter xblock
-    disk_usage_kb: 63442
+    disk_usage_kb: 63445
     first_timer_prs_90d: 0
     fork_count: 12
     good_first_issues_open: 0
@@ -102,14 +102,14 @@ github:
     issues_open: 0
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-23 00:27:14
+    last_push: 2026-11-23 22:32:53
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 232528
-    oldest_open_pr_days: 1600
-    pr_closure_ratio_90d: 0.8
-    pr_opened_90d: 40
-    prs_open: 12
-    pulls_count: 12
+    oldest_open_pr_days: 1601
+    pr_closure_ratio_90d: 0.7805
+    pr_opened_90d: 41
+    prs_open: 13
+    pulls_count: 13
     release_count_12mo: 3
 github_actions: true
 language_bytes:

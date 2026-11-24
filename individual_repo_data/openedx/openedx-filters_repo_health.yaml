@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 28
-    lockfile_age_days: 31
+    lockfile_age_days: 32
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 10
+    branch_count: 11
     build_details: '{"total_duration": "9229 minutes 18 seconds", "checks": [{"name":
         "copilot-pull-request-reviewer", "duration": "2 minutes 51 seconds"}, {"name":
         "copilot-pull-request-reviewer", "duration": "1 minutes 57 seconds"}, {"name":
@@ -95,7 +95,7 @@ github:
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: 'Open edX filters from the Hooks Extensions Framework '
-    disk_usage_kb: 873
+    disk_usage_kb: 876
     first_timer_median_first_response_seconds: 694826
     first_timer_prs_90d: 2
     fork_count: 30
@@ -111,16 +111,16 @@ github:
     issues_open: 23
     issues_opened_90d: 1
     issues_stale_open_180d: 22
-    last_push: 2026-11-23 00:28:03
+    last_push: 2026-11-23 07:52:48
     license: GNU AGPLv3
     median_issue_first_response_seconds: 133991
     median_pr_response_seconds: 174964
-    median_pr_time_to_merge_seconds: 52136
-    oldest_open_pr_days: 263
-    pr_closure_ratio_90d: 0.9394
-    pr_opened_90d: 33
-    prs_open: 3
-    pulls_count: 3
+    median_pr_time_to_merge_seconds: 48863
+    oldest_open_pr_days: 264
+    pr_closure_ratio_90d: 0.9118
+    pr_opened_90d: 34
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 17
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,32 +65,35 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 2
-    build_details: '{"total_duration": "29385 minutes 46 seconds", "checks": [{"name":
+    branch_count: 3
+    build_details: '{"total_duration": "29872 minutes 52 seconds", "checks": [{"name":
         "run_ci / frontend / build", "duration": "1 minutes 31 seconds"}, {"name":
         "release", "duration": "1 minutes 6 seconds"}, {"name": "Dependabot", "duration":
-        "0 minutes 42 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
-        3.12, quality)", "duration": "0 minutes 32 seconds"}, {"name": "run_ci / backend
-        / tests (ubuntu-latest, 3.12, docs)", "duration": "0 minutes 31 seconds"},
-        {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, django52)", "duration":
-        "0 minutes 31 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
-        3.12, django60)", "duration": "0 minutes 30 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 29 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 22 seconds"}, {"name": "run_ci
-        / tutor / build", "duration": "0 minutes 19 seconds"}, {"name": "run_ci /
-        backend / tests (ubuntu-latest, 3.12, pii_check)", "duration": "0 minutes
-        19 seconds"}, {"name": "run_ci / brand / build", "duration": "0 minutes 18
+        "0 minutes 44 seconds"}, {"name": "Dependabot", "duration": "0 minutes 42
+        seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, quality)",
+        "duration": "0 minutes 32 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
+        3.12, docs)", "duration": "0 minutes 31 seconds"}, {"name": "run_ci / backend
+        / tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 31 seconds"},
+        {"name": "run_ci / backend / tests (ubuntu-latest, 3.12, django60)", "duration":
+        "0 minutes 30 seconds"}, {"name": "Dependabot", "duration": "0 minutes 29
         seconds"}, {"name": "call-upgrade-python-requirements-workflow / upgrade_requirements",
-        "duration": "0 minutes 15 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        "duration": "0 minutes 22 seconds"}, {"name": "run_ci / tutor / build", "duration":
+        "0 minutes 19 seconds"}, {"name": "run_ci / backend / tests (ubuntu-latest,
+        3.12, pii_check)", "duration": "0 minutes 19 seconds"}, {"name": "run_ci /
+        brand / build", "duration": "0 minutes 18 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 15 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 15 seconds"}, {"name": "run_ci
-        / all required checks passed", "duration": "0 minutes 3 seconds"}]}'
+        / all required checks passed", "duration": "0 minutes 3 seconds"}, {"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "-1 minutes 53 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2025-03-21 17:45:40
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1027
+    disk_usage_kb: 1031
     first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0
@@ -105,15 +108,15 @@ github:
     issues_open: 9
     issues_opened_90d: 1
     issues_stale_open_180d: 8
-    last_push: 2026-11-02 14:55:09
+    last_push: 2026-11-23 08:28:38
     license: null
     median_pr_response_seconds: 107814
-    median_pr_time_to_merge_seconds: 22090
-    oldest_open_pr_days: 192
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 26
-    prs_open: 2
-    pulls_count: 2
+    median_pr_time_to_merge_seconds: 22128
+    oldest_open_pr_days: 193
+    pr_closure_ratio_90d: 0.96
+    pr_opened_90d: 25
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 40
 github_actions: true
 language_bytes:

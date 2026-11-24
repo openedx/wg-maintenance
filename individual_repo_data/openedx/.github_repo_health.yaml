@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,7 +65,7 @@ github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 9
+    branch_count: 10
     build_details: '{"total_duration": "8642 minutes 0 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 46 seconds"}, {"name": "Dependabot",
         "duration": "0 minutes 33 seconds"}, {"name": "Get list of PRs", "duration":
@@ -86,7 +86,7 @@ github:
     default_branch: master
     description: Centralized openedx repository workflows, community health files,
         etc.
-    disk_usage_kb: 481
+    disk_usage_kb: 486
     first_timer_prs_90d: 1
     fork_count: 33
     good_first_issues_open: 0
@@ -100,14 +100,14 @@ github:
     issues_open: 12
     issues_opened_90d: 0
     issues_stale_open_180d: 12
-    last_push: 2026-11-16 14:25:55
+    last_push: 2026-11-23 14:25:15
     license: Apache License 2.0
     median_pr_time_to_merge_seconds: 217911
-    oldest_open_pr_days: 6
-    pr_closure_ratio_90d: 0.875
-    pr_opened_90d: 16
-    prs_open: 2
-    pulls_count: 2
+    oldest_open_pr_days: 7
+    pr_closure_ratio_90d: 0.8235
+    pr_opened_90d: 17
+    prs_open: 3
+    pulls_count: 3
     release_count_12mo: 0
 github_actions: true
 language_bytes:

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -88,17 +88,19 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 10
-    lockfile_age_days: 0
+    lockfile_age_days: 1
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 163
-    build_details: '{"total_duration": "246 minutes 59 seconds", "checks": [{"name":
-        "generate", "duration": "1 minutes 8 seconds"}, {"name": "add_remove_labels
-        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment
-        / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
-        / remove_label", "duration": "-1 minutes 52 seconds"}]}'
+    build_details: '{"total_duration": "1685 minutes 39 seconds", "checks": [{"name":
+        "generate", "duration": "1 minutes 8 seconds"}, {"name": "generate", "duration":
+        "1 minutes 3 seconds"}, {"name": "Dependabot", "duration": "0 minutes 32 seconds"},
+        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
+        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
+        59 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "-1
+        minutes 52 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2019-09-23 14:57:34
@@ -118,10 +120,10 @@ github:
     issues_open: 1
     issues_opened_90d: 0
     issues_stale_open_180d: 0
-    last_push: 2026-11-23 04:16:03
+    last_push: 2026-11-24 04:14:46
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 353
-    oldest_open_pr_days: 1763
+    oldest_open_pr_days: 1764
     pr_closure_ratio_90d: 0.4286
     pr_opened_90d: 35
     prs_open: 67

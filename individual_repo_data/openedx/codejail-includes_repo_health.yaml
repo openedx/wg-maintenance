@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 13
-    lockfile_age_days: 31
+    lockfile_age_days: 32
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -101,7 +101,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 305283
     median_pr_time_to_merge_seconds: 127033
-    oldest_open_pr_days: 1118
+    oldest_open_pr_days: 1119
     pr_closure_ratio_90d: 0.9091
     pr_opened_90d: 11
     prs_open: 3
@@ -141,6 +141,7 @@ readme:
     - 'https://openedx.slack.com/: 403'
     - 'https://github.com/openedx/sandboxcodejail-includes/workflows/Python%20CI/badge.svg?branch=main:
         404'
+    - 'https://github.com/openedx/codejail-includes/blob/main/LICENSE: 503'
     getting-help: true
     good_links:
     - https://openedx.atlassian.net/browse/BOM-2579
@@ -152,7 +153,6 @@ readme:
     - https://pypi.python.org/pypi/codejail-includes/
     - https://github.com/openedx/codejail-includes/actions
     - https://img.shields.io/github/license/openedx/sandbox-packages.svg
-    - https://github.com/openedx/codejail-includes/blob/main/LICENSE
     irc-missing: true
     mailing-list-missing: true
     security: true

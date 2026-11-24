@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 7
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -104,14 +104,14 @@ github:
     issues_open: 1
     issues_opened_90d: 1
     issues_stale_open_180d: 0
-    last_push: 2026-11-18 13:26:12
+    last_push: 2026-11-23 05:11:15
     license: GNU AGPLv3
     median_issue_first_response_seconds: 86329
     median_pr_response_seconds: 9131
     median_pr_time_to_merge_seconds: 22997
-    oldest_open_pr_days: 1762
-    pr_closure_ratio_90d: 0.2727
-    pr_opened_90d: 11
+    oldest_open_pr_days: 1763
+    pr_closure_ratio_90d: 0.3333
+    pr_opened_90d: 12
     prs_open: 10
     pulls_count: 10
     release_count_12mo: 2
@@ -149,9 +149,7 @@ readme:
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/edx-ace:
         404'
     - 'https://travis-ci.com/edx/edx-ace: 404'
-    - 'https://www.gnu.org/licenses/agpl-3.0: HTTPSConnectionPool(host=''www.gnu.org'',
-        port=443): Max retries exceeded with url: /licenses/agpl-3.0 (Caused by NewConnectionError("HTTPSConnection(host=''www.gnu.org'',
-        port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'
+    - 'https://www.gnu.org/licenses/agpl-3.0: 403'
     getting-help: true
     good_links:
     - https://edx-ace.readthedocs.io/en/latest/

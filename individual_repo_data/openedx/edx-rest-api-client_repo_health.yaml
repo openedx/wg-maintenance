@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-23
+TIMESTAMP: 2026-11-24
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 31
+    lockfile_age_days: 32
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -107,9 +107,9 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 3588807
     median_pr_time_to_merge_seconds: 256682
-    oldest_open_pr_days: 320
-    pr_closure_ratio_90d: 0.8
-    pr_opened_90d: 35
+    oldest_open_pr_days: 321
+    pr_closure_ratio_90d: 0.7941
+    pr_opened_90d: 34
     prs_open: 19
     pulls_count: 19
     release_count_12mo: 4
@@ -152,12 +152,13 @@ readme:
         port=443): Failed to resolve ''some.url'' ([Errno -2] Name or service not
         known)"))'
     - 'https://github.com/openedx/edx-django-utils/blob/master/edx_django_utils/cache/README.rst:
-        404'
+        503'
     - 'https://openedx.org/r/how-to-contribute: 403'
     - 'https://openedx.org/slack: 403'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.org/getting-help: 403'
     - 'https://openedx.org/code-of-conduct/: 403'
+    - 'https://github.com/openedx/edx-rest-api-client/blob/master/LICENSE: 503'
     getting-help: true
     good_links:
     - https://requests.readthedocs.io/en/master/user/advanced/
@@ -169,7 +170,6 @@ readme:
     - https://codecov.io/github/openedx/edx-rest-api-client?branch=master
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://img.shields.io/github/license/openedx/edx-rest-api-client.svg
-    - https://github.com/openedx/edx-rest-api-client/blob/master/LICENSE
     - https://img.shields.io/pypi/v/edx-rest-api-client.svg
     - https://pypi.python.org/pypi/edx-rest-api-client/
     irc-missing: true
