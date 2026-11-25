@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-24
+TIMESTAMP: 2026-11-25
 dependabot:
     exists: false
     has_ecosystem:
@@ -94,7 +94,7 @@ github:
     issues_stale_open_180d: 0
     last_push: 2026-10-30 06:24:16
     license: Apache License 2.0
-    oldest_open_pr_days: 0
+    oldest_open_pr_days: 1
     pr_closure_ratio_90d: 0.0
     pr_opened_90d: 1
     prs_open: 1

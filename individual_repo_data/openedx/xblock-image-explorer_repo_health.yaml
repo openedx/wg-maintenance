@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-24
+TIMESTAMP: 2026-11-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -59,9 +59,9 @@ exists:
     tox.ini: true
     transifex_config: false
 git:
-    absence_factor_365d: 2
-    commits_365d: 7
-    lockfile_age_days: 0
+    absence_factor_365d: 1
+    commits_365d: 6
+    lockfile_age_days: 1
 github:
     allows_merge_commit: true
     allows_rebase_merge: true

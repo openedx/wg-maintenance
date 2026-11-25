@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-24
+TIMESTAMP: 2026-11-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -64,8 +64,8 @@ exists:
     transifex_config: true
 git:
     absence_factor_365d: 4
-    commits_365d: 118
-    lockfile_age_days: 10
+    commits_365d: 117
+    lockfile_age_days: 11
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -113,13 +113,13 @@ github:
     last_push: 2026-11-21 05:08:34
     license: GNU AGPLv3
     median_pr_response_seconds: 107018
-    median_pr_time_to_merge_seconds: 413803
-    oldest_open_pr_days: 2399
+    median_pr_time_to_merge_seconds: 421811
+    oldest_open_pr_days: 2400
     pr_closure_ratio_90d: 0.8571
     pr_opened_90d: 63
     prs_open: 68
     pulls_count: 68
-    release_count_12mo: 78
+    release_count_12mo: 77
 github_actions: true
 language_bytes:
     css: 0
@@ -153,7 +153,6 @@ readme:
     - 'https://github.com/openedx/edx-enterprise/blob/master/LICENSE.txt: 404'
     - 'https://github.com/openedx/edx-enterprise/blob/master/.github/PULL_REQUEST_TEMPLATE_TEMPLATE.md:
         404'
-    - 'https://openedx.org/getting-help: 403'
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/edx-enterprise.svg
@@ -165,6 +164,7 @@ readme:
     - https://img.shields.io/pypi/pyversions/edx-enterprise.svg
     - https://img.shields.io/github/license/edx/edx-enterprise.svg
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://openedx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
     security: true
