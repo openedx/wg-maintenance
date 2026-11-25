@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-24
+TIMESTAMP: 2026-11-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -78,12 +78,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 98
-    lockfile_age_days: 1
+    lockfile_age_days: 2
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 77
+    branch_count: 74
     build_details: '{"total_duration": "499 minutes 51 seconds", "checks": [{"name":
         "Dependabot", "duration": "0 minutes 37 seconds"}, {"name": "add_remove_labels
         / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
@@ -101,7 +101,7 @@ github:
     default_branch: master
     description: Front-end for the Open edX course experience, implemented using React
         and Paragon.
-    disk_usage_kb: 22947
+    disk_usage_kb: 22952
     first_timer_median_first_response_seconds: 737269
     first_timer_prs_90d: 11
     fork_count: 342
@@ -113,20 +113,20 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.3889
-    issues_open: 95
+    issue_closure_ratio_90d: 0.4
+    issues_open: 94
     issues_opened_90d: 90
     issues_stale_open_180d: 0
-    last_push: 2026-11-23 00:41:49
+    last_push: 2026-11-24 15:44:09
     license: GNU AGPLv3
     median_issue_first_response_seconds: 2581121
-    median_pr_response_seconds: 116989
-    median_pr_time_to_merge_seconds: 89070
-    oldest_open_pr_days: 1363
-    pr_closure_ratio_90d: 0.79
+    median_pr_response_seconds: 171677
+    median_pr_time_to_merge_seconds: 98309
+    oldest_open_pr_days: 1364
+    pr_closure_ratio_90d: 0.82
     pr_opened_90d: 100
-    prs_open: 46
-    pulls_count: 46
+    prs_open: 43
+    pulls_count: 43
     release_count_12mo: 2
 github_actions: true
 language_bytes:

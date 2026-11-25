@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-24
+TIMESTAMP: 2026-11-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 51
-    lockfile_age_days: 33
+    lockfile_age_days: 34
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -82,7 +82,7 @@ github:
         "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 7
+    contributor_count_90d: 6
     created_at: 2013-10-16 22:30:05
     default_branch: master
     default_branch_ci_state: SUCCESS
@@ -103,11 +103,11 @@ github:
     issues_stale_open_180d: 15
     last_push: 2026-11-19 04:00:59
     license: Apache License 2.0
-    median_pr_response_seconds: 65053
+    median_pr_response_seconds: 95212
     median_pr_time_to_merge_seconds: 196009
-    oldest_open_pr_days: 1200
-    pr_closure_ratio_90d: 0.7143
-    pr_opened_90d: 35
+    oldest_open_pr_days: 1201
+    pr_closure_ratio_90d: 0.7059
+    pr_opened_90d: 34
     prs_open: 26
     pulls_count: 26
     release_count_12mo: 8

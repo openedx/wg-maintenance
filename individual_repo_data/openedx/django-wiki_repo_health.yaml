@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-24
+TIMESTAMP: 2026-11-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 6
-    lockfile_age_days: 26
+    lockfile_age_days: 27
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -110,7 +110,7 @@ github:
     license: null
     median_pr_response_seconds: 56427
     median_pr_time_to_merge_seconds: 49392
-    oldest_open_pr_days: 0
+    oldest_open_pr_days: 1
     pr_closure_ratio_90d: 0.8571
     pr_opened_90d: 7
     prs_open: 1
@@ -150,6 +150,7 @@ readme:
     - 'http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/: 403'
     - 'https://upload.wikimedia.org/wikipedia/commons/8/88/MediaWiki_database_schema_1-19_%28r102798%29.png:
         403'
+    - 'http://code.google.com/p/django-simple-wiki/: 500'
     - 'http://www.edxonline.org/: HTTPConnectionPool(host=''www.edxonline.org'', port=80):
         Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''www.edxonline.org'',
         port=80): Failed to resolve ''www.edxonline.org'' ([Errno -2] Name or service
@@ -157,7 +158,6 @@ readme:
     getting-help: false
     good_links:
     - http://wiki.overtag.dk
-    - http://code.google.com/p/django-simple-wiki/
     - http://www.djangoproject.com
     - http://south.aeracode.org/
     - https://github.com/waylan/Python-Markdown

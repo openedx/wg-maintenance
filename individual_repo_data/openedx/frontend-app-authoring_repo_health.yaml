@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-24
+TIMESTAMP: 2026-11-25
 dependabot:
     exists: true
     has_ecosystem:
@@ -100,35 +100,35 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 7
-    commits_365d: 245
-    lockfile_age_days: 0
+    commits_365d: 248
+    lockfile_age_days: 1
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 30
-    build_details: '{"total_duration": "235 minutes 6 seconds", "checks": [{"name":
-        "tests", "duration": "8 minutes 25 seconds"}, {"name": "coverage", "duration":
-        "0 minutes 11 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 5 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+    build_details: '{"total_duration": "120 minutes 45 seconds", "checks": [{"name":
+        "tests", "duration": "10 minutes 35 seconds"}, {"name": "coverage", "duration":
+        "0 minutes 9 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 7 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 52 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 23
+    contributor_count_90d: 24
     created_at: 2020-05-06 18:34:51
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 55242
-    first_timer_median_first_response_seconds: 60226
-    first_timer_prs_90d: 12
-    fork_count: 230
+    disk_usage_kb: 54294
+    first_timer_median_first_response_seconds: 60084
+    first_timer_prs_90d: 14
+    fork_count: 231
     good_first_issues_open: 15
     has_issues: true
     has_wiki: false
@@ -141,16 +141,16 @@ github:
     issues_open: 271
     issues_opened_90d: 27
     issues_stale_open_180d: 23
-    last_push: 2026-11-24 00:36:03
+    last_push: 2026-11-25 01:59:30
     license: GNU AGPLv3
     median_issue_first_response_seconds: 120715
-    median_pr_response_seconds: 336852
-    median_pr_time_to_merge_seconds: 250018
-    oldest_open_pr_days: 940
-    pr_closure_ratio_90d: 0.69
+    median_pr_response_seconds: 164084
+    median_pr_time_to_merge_seconds: 249953
+    oldest_open_pr_days: 941
+    pr_closure_ratio_90d: 0.68
     pr_opened_90d: 100
-    prs_open: 50
-    pulls_count: 50
+    prs_open: 51
+    pulls_count: 51
     release_count_12mo: 7
 github_actions: true
 language_bytes:
