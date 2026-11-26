@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-25
+TIMESTAMP: 2026-11-26
 dependabot:
     exists: false
     has_ecosystem:
@@ -66,26 +66,34 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 128
-    lockfile_age_days: 2
+    commits_365d: 130
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 5
-    build_details: '{"total_duration": "-1 minutes 59 seconds", "checks": [{"name":
-        "add_remove_labels / remove_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "add_remove_labels / add_label", "duration": "-1 minutes 59 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "-1 minutes
-        59 seconds"}]}'
+    build_details: '{"total_duration": "210 minutes 10 seconds", "checks": [{"name":
+        "test", "duration": "3 minutes 6 seconds"}, {"name": "Release", "duration":
+        "0 minutes 57 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 7 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 51 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 7
+    contributor_count_90d: 8
     created_at: 2025-08-21 12:52:46
     default_branch: main
+    default_branch_ci_state: SUCCESS
     description: Instructor Dashboard pages in MFE-land
-    disk_usage_kb: 2046
+    disk_usage_kb: 2064
     first_timer_prs_90d: 1
-    fork_count: 23
+    fork_count: 24
     good_first_issues_open: 0
     has_issues: true
     has_wiki: false
@@ -98,16 +106,16 @@ github:
     issues_open: 11
     issues_opened_90d: 8
     issues_stale_open_180d: 2
-    last_push: 2026-11-23 00:21:11
+    last_push: 2026-11-25 15:30:50
     license: GNU AGPLv3
-    median_pr_response_seconds: 88212
-    median_pr_time_to_merge_seconds: 42785
-    oldest_open_pr_days: 8
-    pr_closure_ratio_90d: 0.8649
+    median_pr_response_seconds: 159333
+    median_pr_time_to_merge_seconds: 68929
+    oldest_open_pr_days: 9
+    pr_closure_ratio_90d: 0.9189
     pr_opened_90d: 37
-    prs_open: 5
-    pulls_count: 5
-    release_count_12mo: 80
+    prs_open: 3
+    pulls_count: 3
+    release_count_12mo: 82
 github_actions: true
 language_bytes:
     css: 0

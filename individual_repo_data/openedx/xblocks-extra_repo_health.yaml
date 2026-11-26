@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-25
+TIMESTAMP: 2026-11-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,38 +60,40 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 2
-    commits_365d: 66
-    lockfile_age_days: 34
+    commits_365d: 68
+    lockfile_age_days: 35
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 8
-    build_details: '{"total_duration": "24654 minutes 36 seconds", "checks": [{"name":
-        "release", "duration": "0 minutes 44 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 41 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 35 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 35 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 31 seconds"}, {"name": "docs", "duration": "0 minutes 25 seconds"},
-        {"name": "django42", "duration": "0 minutes 23 seconds"}, {"name": "run_ci
-        / django42", "duration": "0 minutes 22 seconds"}, {"name": "django52", "duration":
-        "0 minutes 20 seconds"}, {"name": "run_ci / docs", "duration": "0 minutes
-        19 seconds"}, {"name": "run_ci / django52", "duration": "0 minutes 18 seconds"},
-        {"name": "lint", "duration": "0 minutes 16 seconds"}, {"name": "run_ci / lint",
-        "duration": "0 minutes 16 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "0 minutes 0 seconds"}, {"name": "publish_to_pypi", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 53 seconds"}]}'
+    build_details: '{"total_duration": "442 minutes 43 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 46 seconds"}, {"name": "publish_to_pypi",
+        "duration": "0 minutes 31 seconds"}, {"name": "run_ci / django52", "duration":
+        "0 minutes 23 seconds"}, {"name": "django42", "duration": "0 minutes 21 seconds"},
+        {"name": "run_ci / django42", "duration": "0 minutes 21 seconds"}, {"name":
+        "run_ci / docs", "duration": "0 minutes 20 seconds"}, {"name": "django52",
+        "duration": "0 minutes 18 seconds"}, {"name": "docs", "duration": "0 minutes
+        16 seconds"}, {"name": "run_ci / lint", "duration": "0 minutes 12 seconds"},
+        {"name": "lint", "duration": "0 minutes 11 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "0 minutes 0 seconds"}, {"name": "routeissue
+        / add_and_notify", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 59 seconds"}, {"name": "routeissue /
+        add_label", "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels
+        / add_label", "duration": "-1 minutes 52 seconds"}, {"name": "self_assign_by_comment
+        / add_assignee", "duration": "-1 minutes 51 seconds"}, {"name": "add_remove_labels
+        / remove_label", "duration": "-1 minutes 49 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 6
+    contributor_count_90d: 7
     created_at: 2025-04-17 17:54:17
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 1036
+    disk_usage_kb: 1048
     first_timer_prs_90d: 0
     fork_count: 6
     good_first_issues_open: 0
@@ -102,27 +104,28 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issues_open: 3
-    issues_opened_90d: 0
+    issue_closure_ratio_90d: 0.0
+    issues_open: 4
+    issues_opened_90d: 1
     issues_stale_open_180d: 2
-    last_push: 2026-11-23 00:43:01
+    last_push: 2026-11-25 07:30:13
     license: GNU AGPLv3
-    median_pr_response_seconds: 31868
-    median_pr_time_to_merge_seconds: 49368
-    oldest_open_pr_days: 88
-    pr_closure_ratio_90d: 0.7
-    pr_opened_90d: 20
+    median_pr_response_seconds: 52579
+    median_pr_time_to_merge_seconds: 49853
+    oldest_open_pr_days: 89
+    pr_closure_ratio_90d: 0.7273
+    pr_opened_90d: 22
     prs_open: 6
     pulls_count: 6
-    release_count_12mo: 20
+    release_count_12mo: 22
 github_actions: true
 language_bytes:
     css: 9625
     dockerfile: 0
     html: 25496
-    javascript: 26607
+    javascript: 28483
     makefile: 2090
-    python: 206562
+    python: 218119
     shell: 0
 makefile:
     pip-installed: false
