@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-25
+TIMESTAMP: 2026-11-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,20 +61,21 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 18
+    lockfile_age_days: 19
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 72
-    build_details: '{"total_duration": "14375 minutes 4 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "17830 minutes 38 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 23 seconds"}, {"name": "Dependabot", "duration":
         "0 minutes 45 seconds"}, {"name": "Dependabot", "duration": "0 minutes 43
         seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, quality)", "duration":
         "0 minutes 21 seconds"}, {"name": "run_ci / tests (ubuntu-latest, 3.12, docs)",
         "duration": "0 minutes 19 seconds"}, {"name": "run_ci / tests (ubuntu-latest,
         3.12, django42)", "duration": "0 minutes 19 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 17 seconds"}, {"name": "run_ci
+        / upgrade_requirements", "duration": "0 minutes 17 seconds"}, {"name": "call-upgrade-python-requirements-workflow
+        / upgrade_requirements", "duration": "0 minutes 15 seconds"}, {"name": "run_ci
         / tests (ubuntu-latest, 3.12, django52)", "duration": "0 minutes 12 seconds"},
         {"name": "publish_to_pypi", "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment
         / add_assignee", "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels
@@ -104,7 +105,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 268248
     median_pr_time_to_merge_seconds: 347091
-    oldest_open_pr_days: 315
+    oldest_open_pr_days: 316
     pr_closure_ratio_90d: 0.5
     pr_opened_90d: 20
     prs_open: 20

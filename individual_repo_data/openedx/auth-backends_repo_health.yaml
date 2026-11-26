@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-25
+TIMESTAMP: 2026-11-26
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 11
-    lockfile_age_days: 34
+    lockfile_age_days: 35
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 27
+    branch_count: 28
     build_details: '{"total_duration": "5477 minutes 2 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 4 seconds"}, {"name": "Dependabot", "duration":
         "0 minutes 54 seconds"}, {"name": "run_tests / django52", "duration": "0 minutes
@@ -91,7 +91,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Custom authentication backends and views for edX services
-    disk_usage_kb: 648
+    disk_usage_kb: 653
     first_timer_prs_90d: 0
     fork_count: 24
     good_first_issues_open: 0
@@ -106,16 +106,16 @@ github:
     issues_open: 3
     issues_opened_90d: 2
     issues_stale_open_180d: 2
-    last_push: 2026-11-19 02:14:17
+    last_push: 2026-11-26 03:03:16
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1988
     median_pr_response_seconds: 32305
     median_pr_time_to_merge_seconds: 387418
-    oldest_open_pr_days: 322
-    pr_closure_ratio_90d: 0.7
-    pr_opened_90d: 30
-    prs_open: 14
-    pulls_count: 14
+    oldest_open_pr_days: 323
+    pr_closure_ratio_90d: 0.6875
+    pr_opened_90d: 32
+    prs_open: 15
+    pulls_count: 15
     release_count_12mo: 3
 github_actions: true
 language_bytes:

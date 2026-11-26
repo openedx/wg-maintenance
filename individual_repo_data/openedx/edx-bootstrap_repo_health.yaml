@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-25
+TIMESTAMP: 2026-11-26
 dependabot:
     exists: false
     has_ecosystem:
@@ -67,7 +67,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 8
-    lockfile_age_days: 232
+    lockfile_age_days: 233
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -99,7 +99,7 @@ github:
     issues_stale_open_180d: 2
     last_push: 2026-11-17 19:45:31
     license: Apache License 2.0
-    oldest_open_pr_days: 1289
+    oldest_open_pr_days: 1290
     pr_opened_90d: 0
     prs_open: 7
     pulls_count: 7

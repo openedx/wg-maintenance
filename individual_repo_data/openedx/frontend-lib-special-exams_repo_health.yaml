@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-25
+TIMESTAMP: 2026-11-26
 dependabot:
     exists: false
     has_ecosystem:
@@ -75,15 +75,21 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 7
-    lockfile_age_days: 42
+    lockfile_age_days: 43
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 12
-    build_details: '{"total_duration": "2 minutes 43 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "27395 minutes 42 seconds", "checks": [{"name":
         "tests", "duration": "0 minutes 58 seconds"}, {"name": "Release", "duration":
-        "0 minutes 56 seconds"}]}'
+        "0 minutes 56 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1
+        minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes
+        59 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes 54
+        seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1 minutes
+        50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
     created_at: 2021-04-07 21:02:17
@@ -102,15 +108,15 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 1.0
-    issues_open: 1
-    issues_opened_90d: 2
+    issue_closure_ratio_90d: 0.4
+    issues_open: 4
+    issues_opened_90d: 5
     issues_stale_open_180d: 1
     last_push: 2026-11-06 18:15:36
     license: null
     median_pr_response_seconds: 35966
     median_pr_time_to_merge_seconds: 8662
-    oldest_open_pr_days: 1470
+    oldest_open_pr_days: 1471
     pr_closure_ratio_90d: 1.0
     pr_opened_90d: 5
     prs_open: 3
