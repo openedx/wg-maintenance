@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: false
     has_ecosystem:
@@ -97,33 +97,33 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 1
-    commits_365d: 128
-    lockfile_age_days: 35
+    commits_365d: 129
+    lockfile_age_days: 36
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 5
-    build_details: '{"total_duration": "8442 minutes 55 seconds", "checks": [{"name":
-        "tests", "duration": "2 minutes 37 seconds"}, {"name": "Release", "duration":
-        "1 minutes 37 seconds"}, {"name": "version-check / mismatch-check", "duration":
-        "0 minutes 13 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 5 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+    build_details: '{"total_duration": "3 minutes 55 seconds", "checks": [{"name":
+        "tests", "duration": "3 minutes 55 seconds"}, {"name": "Release", "duration":
+        "1 minutes 47 seconds"}, {"name": "version-check / mismatch-check", "duration":
+        "0 minutes 10 seconds"}, {"name": "version-check / version-check", "duration":
+        "0 minutes 4 seconds"}, {"name": "add_remove_labels / add_label", "duration":
         "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}]}'
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
+        "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 5
     created_at: 2024-06-26 19:45:23
     default_branch: main
     default_branch_ci_state: SUCCESS
     description: The Open edX frontend framework
-    disk_usage_kb: 51518
+    disk_usage_kb: 51521
     first_timer_prs_90d: 1
     fork_count: 13
     good_first_issues_open: 0
@@ -134,21 +134,21 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.3333
-    issues_open: 45
-    issues_opened_90d: 39
+    issue_closure_ratio_90d: 0.2927
+    issues_open: 48
+    issues_opened_90d: 41
     issues_stale_open_180d: 5
-    last_push: 2026-11-12 17:57:27
+    last_push: 2026-11-26 16:22:06
     license: GNU AGPLv3
     median_issue_first_response_seconds: 244221
-    median_pr_response_seconds: 141183
-    median_pr_time_to_merge_seconds: 2434
-    oldest_open_pr_days: 579
-    pr_closure_ratio_90d: 0.75
-    pr_opened_90d: 24
-    prs_open: 9
-    pulls_count: 9
-    release_count_12mo: 64
+    median_pr_response_seconds: 224646
+    median_pr_time_to_merge_seconds: 1298
+    oldest_open_pr_days: 580
+    pr_closure_ratio_90d: 0.72
+    pr_opened_90d: 25
+    prs_open: 10
+    pulls_count: 10
+    release_count_12mo: 65
 github_actions: true
 language_bytes:
     css: 0

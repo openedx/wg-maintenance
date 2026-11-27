@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 11
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 16
+    branch_count: 17
     build_details: '{"total_duration": "6835 minutes 18 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 24 seconds"}, {"name": "check migrations
         (ubuntu-latest, 3.12, 8)", "duration": "1 minutes 17 seconds"}, {"name": "Dependabot",
@@ -91,7 +91,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: API for creating submissions and scores
-    disk_usage_kb: 888
+    disk_usage_kb: 1009
     first_timer_median_first_response_seconds: 1211126
     first_timer_prs_90d: 1
     fork_count: 40
@@ -107,16 +107,16 @@ github:
     issues_open: 4
     issues_opened_90d: 3
     issues_stale_open_180d: 2
-    last_push: 2026-11-23 09:58:44
+    last_push: 2026-11-26 16:21:44
     license: GNU AGPLv3
     median_issue_first_response_seconds: 8458
     median_pr_response_seconds: 419174
     median_pr_time_to_merge_seconds: 378623
-    oldest_open_pr_days: 2
-    pr_closure_ratio_90d: 0.9583
-    pr_opened_90d: 24
-    prs_open: 1
-    pulls_count: 1
+    oldest_open_pr_days: 3
+    pr_closure_ratio_90d: 0.92
+    pr_opened_90d: 25
+    prs_open: 2
+    pulls_count: 2
     release_count_12mo: 6
 github_actions: true
 language_bytes:

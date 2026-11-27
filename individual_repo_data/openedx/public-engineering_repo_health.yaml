@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,21 +65,21 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "1975 minutes 45 seconds", "checks": [{"name":
-        "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"}, {"name":
+    build_details: '{"total_duration": "203 minutes 56 seconds", "checks": [{"name":
+        "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"}, {"name":
+        "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
+        {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"}, {"name":
         "self_assign_by_comment / add_assignee", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
         {"name": "add_remove_labels / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "add_remove_labels / remove_label", "duration": "0 minutes 0 seconds"},
         {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "routeissue / add_label", "duration": "0 minutes 0 seconds"},
-        {"name": "self_assign_by_comment / add_assignee", "duration": "0 minutes 0
-        seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration": "-1
-        minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        seconds"}, {"name": "add_remove_labels / add_label", "duration": "0 minutes
+        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
+        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
         "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 53 seconds"}, {"name": "add_remove_labels / add_label",
+        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 53 seconds"}, {"name": "routeissue / add_and_notify",
         "duration": "-1 minutes 50 seconds"}]}'
     code_of_conduct: Other
@@ -98,13 +98,13 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.1667
+    issue_closure_ratio_90d: 0.1176
     issues_open: 169
-    issues_opened_90d: 18
+    issues_opened_90d: 17
     issues_stale_open_180d: 8
     last_push: 2025-03-05 16:20:54
     license: null
-    median_issue_first_response_seconds: 21332
+    median_issue_first_response_seconds: 13738
     pr_opened_90d: 0
     prs_open: 0
     pulls_count: 0

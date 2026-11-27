@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: false
     has_ecosystem:
@@ -75,20 +75,23 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 7
-    lockfile_age_days: 43
+    lockfile_age_days: 44
 github:
     allows_merge_commit: false
     allows_rebase_merge: false
     allows_squash_merge: true
     branch_count: 12
-    build_details: '{"total_duration": "27395 minutes 42 seconds", "checks": [{"name":
+    build_details: '{"total_duration": "28564 minutes 45 seconds", "checks": [{"name":
         "tests", "duration": "0 minutes 58 seconds"}, {"name": "Release", "duration":
         "0 minutes 56 seconds"}, {"name": "routeissue / add_and_notify", "duration":
-        "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
+        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "routeissue / add_and_notify",
+        "duration": "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration":
         "-1 minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1
         minutes 59 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes
-        59 seconds"}, {"name": "routeissue / add_label", "duration": "-1 minutes 54
-        seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1 minutes
+        54 seconds"}, {"name": "routeissue / add_and_notify", "duration": "-1 minutes
         50 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 3
@@ -116,11 +119,11 @@ github:
     license: null
     median_pr_response_seconds: 35966
     median_pr_time_to_merge_seconds: 8662
-    oldest_open_pr_days: 1471
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 5
-    prs_open: 3
-    pulls_count: 3
+    oldest_open_pr_days: 1472
+    pr_closure_ratio_90d: 0.8333
+    pr_opened_90d: 6
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 3
 github_actions: true
 language_bytes:

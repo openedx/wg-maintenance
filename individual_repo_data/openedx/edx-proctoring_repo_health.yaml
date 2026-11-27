@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -67,41 +67,36 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 26
-    lockfile_age_days: 22
+    lockfile_age_days: 23
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 41
-    build_details: '{"total_duration": "7680 minutes 48 seconds", "checks": [{"name":
-        "release", "duration": "1 minutes 20 seconds"}, {"name": "call-upgrade-python-requirements-workflow
-        / upgrade_requirements", "duration": "0 minutes 58 seconds"}, {"name": "run_ci
-        / django42-drflatest", "duration": "0 minutes 53 seconds"}, {"name": "run_ci
-        / django52-drflatest", "duration": "0 minutes 53 seconds"}, {"name": "run_ci
-        / quality", "duration": "0 minutes 45 seconds"}, {"name": "run_ci / js_lint",
-        "duration": "0 minutes 42 seconds"}, {"name": "run_ci / js_tests", "duration":
-        "0 minutes 37 seconds"}, {"name": "run_ci / translations-django42", "duration":
-        "0 minutes 37 seconds"}, {"name": "run_ci / translations-django52", "duration":
-        "0 minutes 37 seconds"}, {"name": "run_ci / pii_check", "duration": "0 minutes
-        24 seconds"}, {"name": "run_ci / rst_validation", "duration": "0 minutes 22
-        seconds"}, {"name": "Test (ubuntu-latest, 3.12)", "duration": "0 minutes 16
-        seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "add_remove_labels / remove_label", "duration": "0 minutes
-        0 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label", "duration":
-        "-1 minutes 53 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 50 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+    branch_count: 45
+    build_details: '{"total_duration": "27 minutes 43 seconds", "checks": [{"name":
+        "release", "duration": "1 minutes 28 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 13 seconds"}, {"name": "Dependabot", "duration": "1 minutes 8 seconds"},
+        {"name": "Dependabot", "duration": "1 minutes 7 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 58 seconds"}, {"name": "Dependabot", "duration": "0
+        minutes 55 seconds"}, {"name": "run_ci / django42-drflatest", "duration":
+        "0 minutes 52 seconds"}, {"name": "run_ci / translations-django42", "duration":
+        "0 minutes 50 seconds"}, {"name": "run_ci / quality", "duration": "0 minutes
+        50 seconds"}, {"name": "run_ci / django52-drflatest", "duration": "0 minutes
+        46 seconds"}, {"name": "run_ci / translations-django52", "duration": "0 minutes
+        44 seconds"}, {"name": "Dependabot", "duration": "0 minutes 43 seconds"},
+        {"name": "run_ci / js_lint", "duration": "0 minutes 36 seconds"}, {"name":
+        "run_ci / js_tests", "duration": "0 minutes 35 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 29 seconds"}, {"name": "run_ci / rst_validation", "duration":
+        "0 minutes 25 seconds"}, {"name": "Test (ubuntu-latest, 3.12)", "duration":
+        "0 minutes 20 seconds"}, {"name": "run_ci / pii_check", "duration": "0 minutes
+        20 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 9
     created_at: 2015-06-08 13:38:04
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 12629
+    disk_usage_kb: 13260
     first_timer_prs_90d: 1
     fork_count: 97
     good_first_issues_open: 0
@@ -116,15 +111,15 @@ github:
     issues_open: 9
     issues_opened_90d: 1
     issues_stale_open_180d: 8
-    last_push: 2026-11-25 15:07:40
+    last_push: 2026-11-26 10:15:07
     license: GNU AGPLv3
     median_pr_response_seconds: 174243
-    median_pr_time_to_merge_seconds: 307627
-    oldest_open_pr_days: 1843
-    pr_closure_ratio_90d: 0.8065
-    pr_opened_90d: 31
-    prs_open: 11
-    pulls_count: 11
+    median_pr_time_to_merge_seconds: 182370
+    oldest_open_pr_days: 1844
+    pr_closure_ratio_90d: 0.7222
+    pr_opened_90d: 36
+    prs_open: 15
+    pulls_count: 15
     release_count_12mo: 10
 github_actions: true
 language_bytes:

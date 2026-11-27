@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -76,7 +76,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 44
-    lockfile_age_days: 33
+    lockfile_age_days: 34
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -102,14 +102,14 @@ github:
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
         "duration": "-1 minutes 53 seconds"}]}'
     code_of_conduct: Other
-    contributor_count_90d: 7
+    contributor_count_90d: 6
     created_at: 2013-12-23 20:54:54
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Open Response Assessment Suite
     disk_usage_kb: 162575
-    first_timer_median_first_response_seconds: 801777
-    first_timer_prs_90d: 4
+    first_timer_median_first_response_seconds: 511082
+    first_timer_prs_90d: 3
     fork_count: 222
     good_first_issues_open: 2
     has_issues: true
@@ -126,11 +126,11 @@ github:
     last_push: 2026-11-23 18:04:05
     license: GNU AGPLv3
     median_issue_first_response_seconds: 1114623
-    median_pr_response_seconds: 1173625
+    median_pr_response_seconds: 801777
     median_pr_time_to_merge_seconds: 160590
-    oldest_open_pr_days: 1933
-    pr_closure_ratio_90d: 0.5
-    pr_opened_90d: 44
+    oldest_open_pr_days: 1934
+    pr_closure_ratio_90d: 0.5116
+    pr_opened_90d: 43
     prs_open: 80
     pulls_count: 80
     release_count_12mo: 6

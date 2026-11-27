@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: false
     has_ecosystem:
@@ -83,7 +83,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 1
-    lockfile_age_days: 426
+    lockfile_age_days: 427
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -119,7 +119,7 @@ github:
     issues_stale_open_180d: 3
     last_push: 2026-05-20 13:21:13
     license: GNU AGPLv3
-    oldest_open_pr_days: 1164
+    oldest_open_pr_days: 1165
     pr_opened_90d: 0
     prs_open: 2
     pulls_count: 2
@@ -156,8 +156,10 @@ readme:
     bad_links:
     - 'https://www.npmjs.com/package/@edx/frontend-component-cookie-policy-banner:
         403'
+    - 'https://img.shields.io/npm/l/@edx/frontend-component-cookie-policy-banner.svg:
+        408'
     - 'https://github.com/openedx/frontend-component-cookie-policy-banner.svg/blob/master/LICENSE:
-        404'
+        503'
     - 'https://imgur.com/mZct2v5.png: 429'
     getting-help: false
     good_links:
@@ -165,7 +167,6 @@ readme:
     - https://greenkeeper.io/
     - https://img.shields.io/npm/v/@edx/frontend-component-cookie-policy-banner.svg
     - https://img.shields.io/npm/dt/@edx/frontend-component-cookie-policy-banner.svg
-    - https://img.shields.io/npm/l/@edx/frontend-component-cookie-policy-banner.svg
     - https://github.com/semantic-release/semantic-release
     - https://github.com/openedx/frontend-component-cookie-policy-banner
     - https://github.com/storybooks/storybook

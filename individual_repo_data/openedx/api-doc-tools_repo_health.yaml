@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 12
-    lockfile_age_days: 7
+    lockfile_age_days: 8
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -86,7 +86,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Tools for writing and generating API documentation for edX REST APIs
-    disk_usage_kb: 723
+    disk_usage_kb: 725
     first_timer_prs_90d: 0
     fork_count: 18
     good_first_issues_open: 0
@@ -103,7 +103,7 @@ github:
     last_push: 2026-11-26 04:20:56
     license: Apache License 2.0
     median_pr_time_to_merge_seconds: 49827
-    oldest_open_pr_days: 1043
+    oldest_open_pr_days: 1044
     pr_closure_ratio_90d: 0.7097
     pr_opened_90d: 31
     prs_open: 15

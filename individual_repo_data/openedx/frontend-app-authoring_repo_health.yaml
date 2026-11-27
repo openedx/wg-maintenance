@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -33,7 +33,7 @@ dependencies:
             "file:plugins/course-apps/wiki", "@openedx-plugins/course-app-xpert_unit_summary":
             "file:plugins/course-apps/xpert_unit_summary", "@openedx/frontend-build":
             "^14.6.17", "@openedx/frontend-plugin-framework": "^1.8.0", "@openedx/paragon":
-            "^23.5.0", "@redux-devtools/extension": "^3.3.0", "@reduxjs/toolkit":
+            "^23.23.3", "@redux-devtools/extension": "^3.3.0", "@reduxjs/toolkit":
             "2.11.2", "@tanstack/react-query": "5.95.2", "@tanstack/react-table":
             "^8.21.3", "@tinymce/tinymce-react": "^6.0.0", "classnames": "2.5.1",
             "codemirror": "^6.0.0", "email-validator": "2.0.4", "fast-xml-parser":
@@ -100,25 +100,21 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 7
-    commits_365d: 248
-    lockfile_age_days: 2
+    commits_365d: 246
+    lockfile_age_days: 0
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 30
-    build_details: '{"total_duration": "131 minutes 19 seconds", "checks": [{"name":
-        "tests", "duration": "10 minutes 11 seconds"}, {"name": "coverage", "duration":
-        "0 minutes 8 seconds"}, {"name": "version-check / version-check", "duration":
-        "0 minutes 5 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label", "duration":
-        "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 54 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 52 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 50 seconds"}]}'
+    build_details: '{"total_duration": "6 minutes 31 seconds", "checks": [{"name":
+        "tests", "duration": "6 minutes 19 seconds"}, {"name": "Dependabot", "duration":
+        "1 minutes 20 seconds"}, {"name": "Dependabot", "duration": "1 minutes 15
+        seconds"}, {"name": "Dependabot", "duration": "1 minutes 3 seconds"}, {"name":
+        "Dependabot", "duration": "0 minutes 54 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 47 seconds"}, {"name": "coverage", "duration": "0 minutes
+        10 seconds"}, {"name": "version-check / version-check", "duration": "0 minutes
+        6 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 24
     created_at: 2020-05-06 18:34:51
@@ -126,7 +122,7 @@ github:
     default_branch_ci_state: SUCCESS
     description: Front-end for the Open edX Studio experience, implemented in React
         and Paragon.
-    disk_usage_kb: 54414
+    disk_usage_kb: 54453
     first_timer_median_first_response_seconds: 60084
     first_timer_prs_90d: 14
     fork_count: 231
@@ -142,23 +138,23 @@ github:
     issues_open: 271
     issues_opened_90d: 27
     issues_stale_open_180d: 23
-    last_push: 2026-11-25 16:54:27
+    last_push: 2026-11-26 16:55:16
     license: GNU AGPLv3
     median_issue_first_response_seconds: 120715
     median_pr_response_seconds: 106997
-    median_pr_time_to_merge_seconds: 249923
-    oldest_open_pr_days: 942
-    pr_closure_ratio_90d: 0.69
+    median_pr_time_to_merge_seconds: 249821
+    oldest_open_pr_days: 943
+    pr_closure_ratio_90d: 0.7
     pr_opened_90d: 100
-    prs_open: 51
-    pulls_count: 51
+    prs_open: 50
+    pulls_count: 50
     release_count_12mo: 7
 github_actions: true
 language_bytes:
     css: 0
     dockerfile: 0
     html: 388
-    javascript: 2696306
+    javascript: 2696655
     makefile: 1967
     python: 0
     shell: 0
@@ -197,10 +193,15 @@ readme:
         port=443): Failed to resolve ''cdn.example.com'' ([Errno -5] No address associated
         with hostname)"))'
     - 'https://travis-ci.com/edx/frontend-app-course-authoring: 404'
+    - 'https://github.com/openedx/frontend-platform/blob/master/docs/how_tos/i18n.rst:
+        503'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
+    - 'https://github.com/openedx/.github/blob/master/AI_POLICY.md: 503'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-course-authoring:
         404'
+    - 'https://github.com/openedx/frontend-app-course-authoring/blob/master/LICENSE:
+        503'
     getting-help: false
     good_links:
     - https://github.com/openedx/edx-platform/tree/master/cms
@@ -221,16 +222,13 @@ readme:
     - https://codecov.io/gh/edx/frontend-app-course-authoring/branch/master/graph/badge.svg
     - https://codecov.io/gh/edx/frontend-app-course-authoring
     - https://img.shields.io/npm/l/@edx/frontend-app-authoring.svg
-    - https://github.com/openedx/frontend-platform/blob/master/docs/how_tos/i18n.rst
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-app-course-authoring/issues
     - https://openedx.org/slack
     - https://openedx.org/community/connect
     - https://openedx.org/r/how-to-contribute
-    - https://github.com/openedx/.github/blob/master/AI_POLICY.md
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-app-course-authoring.svg
-    - https://github.com/openedx/frontend-app-course-authoring/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://codecov.io/github/openedx/frontend-app-course-authoring/coverage.svg?branch=master
     - https://codecov.io/github/openedx/frontend-app-course-authoring?branch=master

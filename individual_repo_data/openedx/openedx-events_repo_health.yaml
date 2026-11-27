@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 16
-    lockfile_age_days: 22
+    lockfile_age_days: 23
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -111,7 +111,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 1453469
     median_pr_time_to_merge_seconds: 51860
-    oldest_open_pr_days: 1925
+    oldest_open_pr_days: 1926
     pr_closure_ratio_90d: 0.8696
     pr_opened_90d: 23
     prs_open: 10
@@ -148,6 +148,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://openedx.slack.com/: 403'
+    - 'https://img.shields.io/pypi/v/openedx-events.svg: 408'
     getting-help: true
     good_links:
     - https://open-edx-proposals.readthedocs.io/en/latest/oep-0050-hooks-extension-framework.html
@@ -160,7 +161,6 @@ readme:
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://backstage.openedx.org/catalog/default/component/openedx-events
-    - https://img.shields.io/pypi/v/openedx-events.svg
     - https://pypi.python.org/pypi/openedx-events/
     - https://github.com/openedx/openedx-events/actions/workflows/ci.yml/badge.svg?branch=main
     - https://github.com/openedx/openedx-events/actions/workflows/ci.yml

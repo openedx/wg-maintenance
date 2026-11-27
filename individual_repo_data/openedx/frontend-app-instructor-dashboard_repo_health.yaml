@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: false
     has_ecosystem:
@@ -67,7 +67,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 130
-    lockfile_age_days: 3
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -102,17 +102,17 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.375
+    issue_closure_ratio_90d: 0.2857
     issues_open: 11
-    issues_opened_90d: 8
+    issues_opened_90d: 7
     issues_stale_open_180d: 2
     last_push: 2026-11-25 15:30:50
     license: GNU AGPLv3
-    median_pr_response_seconds: 159333
+    median_pr_response_seconds: 84492
     median_pr_time_to_merge_seconds: 68929
-    oldest_open_pr_days: 9
-    pr_closure_ratio_90d: 0.9189
-    pr_opened_90d: 37
+    oldest_open_pr_days: 10
+    pr_closure_ratio_90d: 0.9143
+    pr_opened_90d: 35
     prs_open: 3
     pulls_count: 3
     release_count_12mo: 82
@@ -149,6 +149,8 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/docs/decisions/0002-feature-based-application-organization.rst:
+        503'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-instructor-dashboard:
@@ -159,7 +161,6 @@ readme:
     - https://github.com/overhangio/tutor-mfe
     - https://github.com/openedx/frontend-app-instructor-dashboard.git
     - https://github.com/nvm-sh/nvm
-    - https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/docs/decisions/0002-feature-based-application-organization.rst
     - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/i18n.rst
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0002-frontend-stable-branches.html
     - https://docs.openedx.org/projects/openedx-proposals/en/latest/processes/oep-0010/decisions/0003-frontend-release-strategy.html
