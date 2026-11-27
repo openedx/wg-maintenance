@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: false
     has_ecosystem:
@@ -70,7 +70,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 43
-    lockfile_age_days: 35
+    lockfile_age_days: 36
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -97,18 +97,19 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.75
+    issue_closure_ratio_90d: 0.6667
     issues_open: 1
-    issues_opened_90d: 4
+    issues_opened_90d: 3
     issues_stale_open_180d: 0
     last_push: 2026-10-30 06:06:07
     license: GNU AGPLv3
     median_pr_response_seconds: 2106372
-    median_pr_time_to_merge_seconds: 4646
-    pr_closure_ratio_90d: 1.0
-    pr_opened_90d: 10
-    prs_open: 0
-    pulls_count: 0
+    median_pr_time_to_merge_seconds: 3179
+    oldest_open_pr_days: 0
+    pr_closure_ratio_90d: 0.9091
+    pr_opened_90d: 11
+    prs_open: 1
+    pulls_count: 1
     release_count_12mo: 2
 github_actions: true
 language_bytes:
@@ -143,14 +144,17 @@ readme:
     - 'http://apps.local.openedx.io: HTTPConnectionPool(host=''apps.local.openedx.io'',
         port=80): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''apps.local.openedx.io'',
         port=80): Failed to establish a new connection: [Errno 111] Connection refused"))'
+    - 'https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md:
+        503'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-site:
         404'
+    - 'https://github.com/openedx/frontend-template-application/blob/main/LICENSE:
+        503'
     getting-help: false
     good_links:
     - https://github.com/nvm-sh/nvm
     - https://bindfs.org/
     - https://docs.npmjs.com/cli/using-npm/workspaces
-    - https://github.com/openedx/frontend-base/blob/main/docs/how_tos/migrate-frontend-app.md
     - https://github.com/semantic-release/semantic-release
     - https://turbo.build/
     - https://github.com/openedx/frontend-base/blob/master/docs/how_tos/i18n.rst
@@ -158,7 +162,6 @@ readme:
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-template-application.svg
-    - https://github.com/openedx/frontend-template-application/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml

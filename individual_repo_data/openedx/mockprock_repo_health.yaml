@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: false
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 5
-    lockfile_age_days: 125
+    lockfile_age_days: 126
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -100,7 +100,7 @@ github:
     last_push: 2026-10-22 15:12:25
     license: Apache License 2.0
     median_pr_time_to_merge_seconds: 1584174
-    oldest_open_pr_days: 321
+    oldest_open_pr_days: 322
     pr_closure_ratio_90d: 0.0
     pr_opened_90d: 1
     prs_open: 4
@@ -135,11 +135,12 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links: []
+    bad_links:
+    - 'https://github.com/openedx/edx-proctoring/blob/master/docs/developing.rst:
+        503'
     getting-help: false
     good_links:
     - https://github.com/openedx/edx-proctoring/
-    - https://github.com/openedx/edx-proctoring/blob/master/docs/developing.rst
     irc-missing: true
     mailing-list-missing: true
     security: false

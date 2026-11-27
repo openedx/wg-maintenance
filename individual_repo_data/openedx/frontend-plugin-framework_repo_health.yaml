@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -68,7 +68,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 3
-    lockfile_age_days: 426
+    lockfile_age_days: 427
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -107,7 +107,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 260305
     median_pr_time_to_merge_seconds: 298014
-    oldest_open_pr_days: 919
+    oldest_open_pr_days: 920
     pr_closure_ratio_90d: 0.6667
     pr_opened_90d: 3
     prs_open: 11
@@ -143,7 +143,12 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 404'
+    - 'https://github.com/openedx/frontend-plugin-framework/blob/master/LICENSE: 503'
+    - 'https://github.com/openedx/frontend-platform/blob/master/src/config.js: 503'
+    - 'https://github.com/openedx/frontend-platform/blob/master/docs/decisions/0007-javascript-file-configuration.rst:
+        503'
+    - 'https://github.com/openedx/frontend-platform/blob/master/src/react/ErrorBoundary.jsx:
+        503'
     - 'https://openedx.slack.com/: 403'
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-plugin-framework:
@@ -151,14 +156,11 @@ readme:
     getting-help: true
     good_links:
     - https://img.shields.io/github/license/openedx/frontend-plugin-framework.svg
-    - https://github.com/openedx/frontend-plugin-framework/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-plugin-framework/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-plugin-framework/actions/workflows/ci.yml
     - https://codecov.io/github/openedx/frontend-plugin-framework/coverage.svg?branch=master
     - https://codecov.io/github/openedx/frontend-plugin-framework?branch=master
-    - https://github.com/openedx/frontend-platform/blob/master/docs/decisions/0007-javascript-file-configuration.rst
-    - https://github.com/openedx/frontend-platform/blob/master/src/react/ErrorBoundary.jsx
     - https://discuss.openedx.org
     - https://github.com/openedx/frontend-plugin-framework/issues
     - https://openedx.org/slack

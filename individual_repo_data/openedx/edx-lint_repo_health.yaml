@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-26
+TIMESTAMP: 2026-11-27
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 3
     commits_365d: 18
-    lockfile_age_days: 2
+    lockfile_age_days: 3
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -100,7 +100,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 329
     median_pr_time_to_merge_seconds: 14624
-    oldest_open_pr_days: 2060
+    oldest_open_pr_days: 2061
     pr_closure_ratio_90d: 0.7917
     pr_opened_90d: 24
     prs_open: 16
@@ -135,11 +135,11 @@ ownership:
     release: ''
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://open.edx.org/getting-help: 403'
+    bad_links: []
     getting-help: true
     good_links:
     - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://open.edx.org/getting-help
     - https://github.com/openedx/edx-lint/workflows/Python%20CI/badge.svg?branch=master
     - https://github.com/openedx/edx-lint/actions?query=workflow%3A%22Python+CI%22
     irc-missing: true
