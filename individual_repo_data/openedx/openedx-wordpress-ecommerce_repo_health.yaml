@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -25,20 +25,19 @@ dependencies:
         list: '[]'
     pypi_all:
         count: 46
-        list: '["wheel==0.46.3", "requests==2.33.1", "websockets==16.0", "babel==2.18.0",
-            "sphinxcontrib-htmlhelp==2.1.0", "packaging==26.0", "certifi==2026.10.19",
-            "anyio==4.13.0", "accessible-pygments==0.0.5", "h11==0.16.0", "urllib3==2.6.3",
-            "pydata-sphinx-theme==0.16.1", "soupsieve==2.8.3", "markupsafe==3.0.3",
-            "docutils==0.22.4", "sphinxcontrib-devhelp==2.0.0", "setuptools==82.0.1",
-            "sphinxcontrib-serializinghtml==2.0.0", "pip==26.2.2", "beautifulsoup4==4.14.3",
-            "colorama==0.4.6", "snowballstemmer==3.0.1", "pyyaml==6.0.3", "sphinxcontrib-qthelp==2.0.0",
-            "build==1.4.2", "watchfiles==1.1.1", "roman-numerals==4.1.0", "pip-tools==7.6.2",
-            "charset-normalizer==3.4.7", "idna==3.11", "sphinx-autobuild==2025.8.25",
-            "jinja2==3.1.6", "sphinx-copybutton==0.5.2", "sphinxcontrib-mermaid==2.0.1",
-            "click==8.3.2", "starlette==1.0.0", "uvicorn==0.44.0", "typing-extensions==4.15.0",
-            "alabaster==1.0.0", "imagesize==2.0.0", "pyproject-hooks==1.2.0", "pygments==2.20.0",
-            "sphinxcontrib-applehelp==2.0.0", "sphinx==9.1.0", "sphinxcontrib-jsmath==1.0.1",
-            "sphinx-book-theme==1.2.0"]'
+        list: '["urllib3==2.6.3", "charset-normalizer==3.4.7", "setuptools==82.0.1",
+            "soupsieve==2.8.3", "sphinx==9.1.0", "click==8.3.2", "pip-tools==7.6.2",
+            "alabaster==1.0.0", "imagesize==2.0.0", "sphinxcontrib-applehelp==2.0.0",
+            "sphinxcontrib-jsmath==1.0.1", "idna==3.11", "websockets==16.0", "sphinxcontrib-serializinghtml==2.0.0",
+            "markupsafe==3.0.3", "wheel==0.46.3", "accessible-pygments==0.0.5", "sphinx-book-theme==1.2.0",
+            "pip==26.2.2", "sphinxcontrib-qthelp==2.0.0", "packaging==26.0", "h11==0.16.0",
+            "snowballstemmer==3.0.1", "jinja2==3.1.6", "requests==2.33.1", "sphinxcontrib-htmlhelp==2.1.0",
+            "sphinxcontrib-mermaid==2.0.1", "docutils==0.22.4", "pydata-sphinx-theme==0.16.1",
+            "sphinx-copybutton==0.5.2", "typing-extensions==4.15.0", "pygments==2.20.0",
+            "certifi==2026.10.19", "roman-numerals==4.1.0", "pyproject-hooks==1.2.0",
+            "beautifulsoup4==4.14.3", "watchfiles==1.1.1", "babel==2.18.0", "pyyaml==6.0.3",
+            "sphinxcontrib-devhelp==2.0.0", "uvicorn==0.44.0", "build==1.4.2", "starlette==1.0.0",
+            "anyio==4.13.0", "sphinx-autobuild==2025.8.25", "colorama==0.4.6"]'
 django_packages:
     django_42:
         count: 0
@@ -74,7 +73,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 6
-    lockfile_age_days: 35
+    lockfile_age_days: 36
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -116,7 +115,7 @@ github:
     license: GNU GPLv2
     median_pr_response_seconds: 5088
     median_pr_time_to_merge_seconds: 5157
-    oldest_open_pr_days: 475
+    oldest_open_pr_days: 476
     pr_closure_ratio_90d: 0.8
     pr_opened_90d: 5
     prs_open: 3
@@ -151,13 +150,13 @@ ownership:
     release: main
 pinned_python_dependencies: 0
 readme:
-    bad_links:
-    - 'https://wordpress.org/plugins/woocommerce: 429'
+    bad_links: []
     getting-help: false
     good_links:
     - https://github.com/openedx/edx-platform
     - https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/decisions/0002-api-connection.html
     - https://openedx.org/terms-of-use/
+    - https://wordpress.org/plugins/woocommerce
     - https://github.com/openedx/openedx-wordpress-ecommerce/releases
     - https://docs.openedx.org/projects/wordpress-ecommerce-plugin/en/latest/plugin_quickstart.html
     - https://github.com/openedx/openedx-wordpress-ecommerce/issues

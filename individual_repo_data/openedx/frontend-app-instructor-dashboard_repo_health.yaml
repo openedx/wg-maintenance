@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -67,7 +67,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 130
-    lockfile_age_days: 4
+    lockfile_age_days: 5
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -102,19 +102,19 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.2857
-    issues_open: 11
-    issues_opened_90d: 7
+    issue_closure_ratio_90d: 0.25
+    issues_open: 12
+    issues_opened_90d: 8
     issues_stale_open_180d: 2
     last_push: 2026-11-25 15:30:50
     license: GNU AGPLv3
-    median_pr_response_seconds: 84492
-    median_pr_time_to_merge_seconds: 68929
-    oldest_open_pr_days: 10
-    pr_closure_ratio_90d: 0.9143
+    median_pr_response_seconds: 80772
+    median_pr_time_to_merge_seconds: 82053
+    oldest_open_pr_days: 11
+    pr_closure_ratio_90d: 0.8857
     pr_opened_90d: 35
-    prs_open: 3
-    pulls_count: 3
+    prs_open: 4
+    pulls_count: 4
     release_count_12mo: 82
 github_actions: true
 language_bytes:
@@ -155,6 +155,8 @@ readme:
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-instructor-dashboard:
         404'
+    - 'https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/LICENSE:
+        503'
     getting-help: true
     good_links:
     - https://github.com/overhangio/tutor
@@ -171,7 +173,6 @@ readme:
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-app-instructor-dashboard.svg
-    - https://github.com/openedx/frontend-app-instructor-dashboard/blob/main/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-instructor-dashboard/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-instructor-dashboard/actions/workflows/ci.yml

@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 27
-    lockfile_age_days: 35
+    lockfile_age_days: 36
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -108,7 +108,7 @@ github:
     last_push: 2026-11-23 19:32:46
     license: GNU AGPLv3
     median_pr_time_to_merge_seconds: 154748
-    oldest_open_pr_days: 58
+    oldest_open_pr_days: 59
     pr_closure_ratio_90d: 0.619
     pr_opened_90d: 21
     prs_open: 8
@@ -145,16 +145,14 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://xss-utils.readthedocs.org: 404'
-    - 'https://github.com/openedx/.github/blob/master/CONTRIBUTING.md: 503'
-    - 'https://github.com/openedx/xss-utils/blob/master/.github/PULL_REQUEST_TEMPLATE.md:
-        503'
-    - 'https://github.com/openedx/xss-utils/blob/master/.github/ISSUE_TEMPLATE.md:
-        503'
     - 'http://xss-utils.readthedocs.io/en/latest/: 404'
-    - 'https://github.com/openedx/xss-utils/blob/master/LICENSE.txt: 503'
+    - 'https://github.com/openedx/xss-utils/blob/master/LICENSE.txt: 404'
     getting-help: true
     good_links:
     - https://docs.openedx.org/en/latest/developers/references/developer_guide/preventing_xss/index.html
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
+    - https://github.com/openedx/xss-utils/blob/master/.github/PULL_REQUEST_TEMPLATE.md
+    - https://github.com/openedx/xss-utils/blob/master/.github/ISSUE_TEMPLATE.md
     - https://open.edx.org/getting-help
     - https://img.shields.io/pypi/v/xss-utils.svg
     - https://pypi.python.org/pypi/xss-utils/

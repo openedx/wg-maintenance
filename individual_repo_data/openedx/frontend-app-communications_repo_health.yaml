@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: false
     has_ecosystem:
@@ -75,7 +75,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 10
-    lockfile_age_days: 23
+    lockfile_age_days: 24
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -118,7 +118,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 42666
     median_pr_time_to_merge_seconds: 1195871
-    oldest_open_pr_days: 1088
+    oldest_open_pr_days: 1089
     pr_closure_ratio_90d: 0.5
     pr_opened_90d: 2
     prs_open: 4
@@ -158,6 +158,8 @@ readme:
     - 'https://openedx.slack.com/archives/C04BM6YC7A6: 403'
     - 'https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-communications:
         404'
+    - 'https://github.com/openedx/frontend-app-communications/blob/master/LICENSE:
+        503'
     getting-help: false
     good_links:
     - https://github.com/overhangio/tutor
@@ -173,7 +175,6 @@ readme:
     - https://openedx.org/r/how-to-contribute
     - https://openedx.org/code-of-conduct/
     - https://img.shields.io/github/license/openedx/frontend-app-communications.svg
-    - https://github.com/openedx/frontend-app-communications/blob/master/LICENSE
     - https://img.shields.io/badge/Status-Maintained-brightgreen
     - https://github.com/openedx/frontend-app-communications/actions/workflows/ci.yml/badge.svg
     - https://github.com/openedx/frontend-app-communications/actions/workflows/ci.yml

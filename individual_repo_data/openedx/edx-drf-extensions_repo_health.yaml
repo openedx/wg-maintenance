@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 14
-    lockfile_age_days: 13
+    lockfile_age_days: 14
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
@@ -90,7 +90,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: edX extensions for Django REST Framework
-    disk_usage_kb: 1165
+    disk_usage_kb: 1167
     first_timer_prs_90d: 1
     fork_count: 26
     good_first_issues_open: 1
@@ -109,7 +109,7 @@ github:
     license: Apache License 2.0
     median_pr_response_seconds: 273266
     median_pr_time_to_merge_seconds: 40088
-    oldest_open_pr_days: 500
+    oldest_open_pr_days: 501
     pr_closure_ratio_90d: 0.9
     pr_opened_90d: 30
     prs_open: 10

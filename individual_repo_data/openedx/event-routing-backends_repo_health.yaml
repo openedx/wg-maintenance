@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 17
-    lockfile_age_days: 31
+    lockfile_age_days: 32
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -114,7 +114,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 1698219
     median_pr_time_to_merge_seconds: 101686
-    oldest_open_pr_days: 55
+    oldest_open_pr_days: 56
     pr_closure_ratio_90d: 0.7812
     pr_opened_90d: 32
     prs_open: 7
@@ -150,15 +150,13 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://github.com/openedx/.github/blob/master/CONTRIBUTING.md: 503'
     - 'https://openedx.slack.com/: 403'
-    - 'https://github.com/openedx/event-routing-backends/blob/master/LICENSE.txt:
-        503'
     getting-help: true
     good_links:
     - https://github.com/openedx/event-tracking
     - https://open-edx-proposals.readthedocs.io/en/latest/oep-0026-arch-realtime-events.html
     - https://event-routing-backends.readthedocs.io/en/latest/
+    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://discuss.openedx.org
     - https://openedx.org/getting-help
     - https://openedx.org/slack
@@ -171,6 +169,7 @@ readme:
     - https://readthedocs.org/projects/event-routing-backends/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/event-routing-backends.svg
     - https://img.shields.io/github/license/edx/event-routing-backends.svg
+    - https://github.com/openedx/event-routing-backends/blob/master/LICENSE.txt
     irc-missing: true
     mailing-list-missing: true
     security: true

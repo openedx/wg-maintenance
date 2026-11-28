@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,12 +65,12 @@ exists:
 git:
     absence_factor_365d: 4
     commits_365d: 117
-    lockfile_age_days: 13
+    lockfile_age_days: 14
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 338
+    branch_count: 339
     build_details: '{"total_duration": "708 minutes 49 seconds", "checks": [{"name":
         "run_ci / run_tests (3.12, django52)", "duration": "7 minutes 6 seconds"},
         {"name": "run_ci / run_tests (3.12, quality)", "duration": "2 minutes 28 seconds"},
@@ -96,7 +96,8 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: ''
-    disk_usage_kb: 17029
+    disk_usage_kb: 17035
+    first_timer_median_first_response_seconds: 102138
     first_timer_prs_90d: 1
     fork_count: 75
     good_first_issues_open: 0
@@ -110,15 +111,15 @@ github:
     issues_open: 9
     issues_opened_90d: 0
     issues_stale_open_180d: 9
-    last_push: 2026-11-25 05:08:48
+    last_push: 2026-11-27 06:23:07
     license: GNU AGPLv3
-    median_pr_response_seconds: 115057
+    median_pr_response_seconds: 107018
     median_pr_time_to_merge_seconds: 460958
-    oldest_open_pr_days: 2402
-    pr_closure_ratio_90d: 0.8254
-    pr_opened_90d: 63
-    prs_open: 71
-    pulls_count: 71
+    oldest_open_pr_days: 2403
+    pr_closure_ratio_90d: 0.8125
+    pr_opened_90d: 64
+    prs_open: 72
+    pulls_count: 72
     release_count_12mo: 76
 github_actions: true
 language_bytes:
@@ -150,20 +151,20 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
-    - 'https://img.shields.io/pypi/v/edx-enterprise.svg: 408'
-    - 'https://img.shields.io/pypi/pyversions/edx-enterprise.svg: 408'
-    - 'https://github.com/openedx/edx-enterprise/blob/master/LICENSE.txt: 404'
+    - 'https://github.com/openedx/edx-enterprise/blob/master/LICENSE.txt: 503'
+    - 'https://github.com/openedx/.github/blob/master/CONTRIBUTING.md: 503'
     - 'https://github.com/openedx/edx-enterprise/blob/master/.github/PULL_REQUEST_TEMPLATE_TEMPLATE.md:
-        404'
+        503'
     getting-help: true
     good_links:
+    - https://img.shields.io/pypi/v/edx-enterprise.svg
     - https://pypi.python.org/pypi/edx-enterprise/
     - http://codecov.io/github/edx/edx-enterprise/coverage.svg?branch=master
     - http://codecov.io/github/edx/edx-enterprise?branch=master
     - https://readthedocs.org/projects/open-edx-enterprise-service-documentation/badge/?version=latest
     - http://open-edx-enterprise-service-documentation.readthedocs.io/en/latest/
+    - https://img.shields.io/pypi/pyversions/edx-enterprise.svg
     - https://img.shields.io/github/license/edx/edx-enterprise.svg
-    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://openedx.org/getting-help
     irc-missing: true
     mailing-list-missing: true

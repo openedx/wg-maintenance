@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -65,13 +65,13 @@ github:
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 3
-    build_details: '{"total_duration": "14303 minutes 18 seconds", "checks": [{"name":
-        "Dependabot", "duration": "0 minutes 26 seconds"}, {"name": "Dependabot",
-        "duration": "0 minutes 23 seconds"}, {"name": "Dependabot", "duration": "0
-        minutes 23 seconds"}, {"name": "self_assign_by_comment / add_assignee", "duration":
-        "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+    build_details: '{"total_duration": "18841 minutes 32 seconds", "checks": [{"name":
+        "Dependabot", "duration": "0 minutes 23 seconds"}, {"name": "Dependabot",
+        "duration": "0 minutes 20 seconds"}, {"name": "self_assign_by_comment / add_assignee",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / add_label",
+        "duration": "0 minutes 0 seconds"}, {"name": "self_assign_by_comment / add_assignee",
         "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
         "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
