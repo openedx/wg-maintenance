@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -105,11 +105,11 @@ github:
     median_issue_first_response_seconds: 1165204
     median_pr_response_seconds: 160367
     median_pr_time_to_merge_seconds: 92056
-    oldest_open_pr_days: 223
-    pr_closure_ratio_90d: 0.7333
-    pr_opened_90d: 15
-    prs_open: 5
-    pulls_count: 5
+    oldest_open_pr_days: 224
+    pr_closure_ratio_90d: 0.6875
+    pr_opened_90d: 16
+    prs_open: 6
+    pulls_count: 6
     release_count_12mo: 7
 github_actions: true
 language_bytes:
@@ -142,7 +142,7 @@ pinned_python_dependencies: 0
 readme:
     bad_links:
     - 'https://github.com/aws/karpenter/blob/main/website/content/en/docs/upgrade-guide.md:
-        503'
+        404'
     - 'https://XYZ.eks.amazonaws.com: HTTPSConnectionPool(host=''xyz.eks.amazonaws.com'',
         port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''xyz.eks.amazonaws.com'',
         port=443): Failed to resolve ''xyz.eks.amazonaws.com'' ([Errno -2] Name or
@@ -154,8 +154,9 @@ readme:
         port=443): Failed to resolve ''ms-yourinstanceid.meilisearch.io'' ([Errno
         -2] Name or service not known)"))'
     - 'http://10.1.2.3: HTTPConnectionPool(host=''10.1.2.3'', port=80): Max retries
-        exceeded with url: / (Caused by NewConnectionError("HTTPConnection(host=''10.1.2.3'',
-        port=80): Failed to establish a new connection: [Errno 113] No route to host"))'
+        exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host=''10.1.2.3'',
+        port=80) at 0x75b4804f24b0>, ''Connection to 10.1.2.3 timed out. (connect
+        timeout=None)''))'
     - 'https://meilisearch: HTTPSConnectionPool(host=''meilisearch'', port=443): Max
         retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''meilisearch'',
         port=443): Failed to resolve ''meilisearch'' ([Errno -3] Temporary failure

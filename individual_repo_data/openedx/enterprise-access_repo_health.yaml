@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 2
     commits_365d: 45
-    lockfile_age_days: 28
+    lockfile_age_days: 29
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -107,7 +107,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 51283
     median_pr_time_to_merge_seconds: 24002
-    oldest_open_pr_days: 1248
+    oldest_open_pr_days: 1249
     pr_closure_ratio_90d: 0.8148
     pr_opened_90d: 27
     prs_open: 23
@@ -148,7 +148,6 @@ readme:
     - 'https://github.com/edx/enterprise-access/workflows/Python%20CI/badge.svg?branch=main:
         404'
     - 'https://enterprise-access.readthedocs.io/en/latest/: 404'
-    - 'https://github.com/edx/enterprise-access/blob/main/LICENSE.txt: 503'
     getting-help: true
     good_links:
     - https://github.com/edx/devstack
@@ -164,6 +163,7 @@ readme:
     - https://readthedocs.org/projects/enterprise-access/badge/?version=latest
     - https://img.shields.io/pypi/pyversions/enterprise-access.svg
     - https://img.shields.io/github/license/edx/enterprise-access.svg
+    - https://github.com/edx/enterprise-access/blob/main/LICENSE.txt
     irc-missing: true
     mailing-list-missing: true
     security: true

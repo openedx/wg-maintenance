@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,7 +61,7 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 23
+    lockfile_age_days: 24
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
@@ -106,7 +106,7 @@ github:
     license: GNU AGPLv3
     median_pr_response_seconds: 172193
     median_pr_time_to_merge_seconds: 333651
-    oldest_open_pr_days: 1126
+    oldest_open_pr_days: 1127
     pr_closure_ratio_90d: 0.9286
     pr_opened_90d: 14
     prs_open: 4
@@ -144,6 +144,8 @@ readme:
     bad_links:
     - 'https://github.com/openedx/taxonomy-connector/blob/master/docs/decisions/0001-xblock-skill-tagging-design.rst:
         503'
+    - 'https://github.com/openedx/xblock-skill-tagging/blob/main/src/skill_tagging/handlers.py:
+        503'
     - 'http://edx.devstack.discovery: HTTPConnectionPool(host=''edx.devstack.discovery'',
         port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host=''edx.devstack.discovery'',
         port=80): Failed to resolve ''edx.devstack.discovery'' ([Errno -2] Name or
@@ -159,7 +161,6 @@ readme:
     - https://github.com/openedx/edx-platform
     - https://github.com/openedx/taxonomy-connector
     - https://github.com/openedx/course-discovery
-    - https://github.com/openedx/xblock-skill-tagging/blob/main/src/skill_tagging/handlers.py
     - https://github.com/openedx/event-bus-kafka
     - https://github.com/openedx/event-bus-redis
     - https://openedx.atlassian.net/wiki/spaces/AC/pages/3508699151/How+to+start+using+the+Event+Bus

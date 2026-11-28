@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 35
+    lockfile_age_days: 36
 github:
     allows_merge_commit: false
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 23
+    branch_count: 24
     build_details: '{"total_duration": "9961 minutes 38 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 27 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "0 minutes 56 seconds"}, {"name": "Dependabot",
@@ -89,7 +89,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: Facilitates interaction with edX REST APIs
-    disk_usage_kb: 647
+    disk_usage_kb: 650
     first_timer_prs_90d: 0
     fork_count: 18
     good_first_issues_open: 0
@@ -104,15 +104,15 @@ github:
     issues_open: 4
     issues_opened_90d: 1
     issues_stale_open_180d: 3
-    last_push: 2026-11-24 05:02:54
+    last_push: 2026-11-27 16:02:47
     license: Apache License 2.0
     median_pr_response_seconds: 3588807
     median_pr_time_to_merge_seconds: 256682
-    oldest_open_pr_days: 324
-    pr_closure_ratio_90d: 0.8
-    pr_opened_90d: 35
-    prs_open: 19
-    pulls_count: 19
+    oldest_open_pr_days: 325
+    pr_closure_ratio_90d: 0.7778
+    pr_opened_90d: 36
+    prs_open: 20
+    pulls_count: 20
     release_count_12mo: 4
 github_actions: true
 language_bytes:

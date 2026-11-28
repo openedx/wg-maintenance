@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -60,39 +60,33 @@ exists:
     transifex_config: false
 git:
     absence_factor_365d: 4
-    commits_365d: 84
-    lockfile_age_days: 3
+    commits_365d: 86
+    lockfile_age_days: 4
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
     branch_count: 15
-    build_details: '{"total_duration": "1481 minutes 12 seconds", "checks": [{"name":
-        "release", "duration": "2 minutes 5 seconds"}, {"name": "Run JavaScript Tests
-        (24)", "duration": "1 minutes 41 seconds"}, {"name": "Analyze (javascript-typescript)",
-        "duration": "1 minutes 40 seconds"}, {"name": "Analyze (python)", "duration":
-        "1 minutes 20 seconds"}, {"name": "Analyze (actions)", "duration": "1 minutes
-        7 seconds"}, {"name": "django52", "duration": "0 minutes 40 seconds"}, {"name":
-        "run_tests / quality", "duration": "0 minutes 39 seconds"}, {"name": "quality",
-        "duration": "0 minutes 38 seconds"}, {"name": "run_tests / django52", "duration":
-        "0 minutes 38 seconds"}, {"name": "run_tests / django42", "duration": "0 minutes
-        33 seconds"}, {"name": "django42", "duration": "0 minutes 32 seconds"}, {"name":
-        "docs", "duration": "0 minutes 31 seconds"}, {"name": "run_tests / docs",
-        "duration": "0 minutes 31 seconds"}, {"name": "publish_to_pypi", "duration":
-        "0 minutes 17 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "0 minutes 0 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "self_assign_by_comment / add_assignee",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / remove_label",
-        "duration": "-1 minutes 59 seconds"}, {"name": "add_remove_labels / add_label",
-        "duration": "-1 minutes 51 seconds"}]}'
+    build_details: '{"total_duration": "2 minutes 47 seconds", "checks": [{"name":
+        "Run JavaScript Tests (24)", "duration": "1 minutes 55 seconds"}, {"name":
+        "release", "duration": "1 minutes 49 seconds"}, {"name": "Analyze (javascript-typescript)",
+        "duration": "1 minutes 46 seconds"}, {"name": "Analyze (python)", "duration":
+        "0 minutes 57 seconds"}, {"name": "quality", "duration": "0 minutes 55 seconds"},
+        {"name": "django42", "duration": "0 minutes 46 seconds"}, {"name": "Analyze
+        (actions)", "duration": "0 minutes 41 seconds"}, {"name": "run_tests / django52",
+        "duration": "0 minutes 39 seconds"}, {"name": "run_tests / quality", "duration":
+        "0 minutes 38 seconds"}, {"name": "docs", "duration": "0 minutes 38 seconds"},
+        {"name": "django52", "duration": "0 minutes 36 seconds"}, {"name": "run_tests
+        / docs", "duration": "0 minutes 35 seconds"}, {"name": "run_tests / django42",
+        "duration": "0 minutes 34 seconds"}, {"name": "publish_to_pypi", "duration":
+        "0 minutes 14 seconds"}]}'
     code_of_conduct: Other
     contributor_count_90d: 10
     created_at: 2024-06-26 15:14:53
     default_branch: main
-    default_branch_ci_state: FAILURE
+    default_branch_ci_state: SUCCESS
     description: 'Core Open edX XBlock types: Problem, Text, Video, etc.'
-    disk_usage_kb: 23023
+    disk_usage_kb: 23029
     first_timer_median_first_response_seconds: 312074
     first_timer_prs_90d: 7
     fork_count: 21
@@ -104,28 +98,28 @@ github:
     is_fork: false
     is_locked: false
     is_private: false
-    issue_closure_ratio_90d: 0.1667
-    issues_open: 20
-    issues_opened_90d: 12
+    issue_closure_ratio_90d: 0.1538
+    issues_open: 21
+    issues_opened_90d: 13
     issues_stale_open_180d: 4
-    last_push: 2026-11-25 16:37:59
+    last_push: 2026-11-27 11:34:24
     license: GNU AGPLv3
-    median_pr_response_seconds: 196609
-    median_pr_time_to_merge_seconds: 34005
-    oldest_open_pr_days: 185
-    pr_closure_ratio_90d: 0.5909
-    pr_opened_90d: 44
-    prs_open: 22
-    pulls_count: 22
-    release_count_12mo: 41
+    median_pr_response_seconds: 118281
+    median_pr_time_to_merge_seconds: 31000
+    oldest_open_pr_days: 186
+    pr_closure_ratio_90d: 0.6222
+    pr_opened_90d: 45
+    prs_open: 21
+    pulls_count: 21
+    release_count_12mo: 43
 github_actions: true
 language_bytes:
     css: 389210
     dockerfile: 0
     html: 1364120
-    javascript: 1705225
+    javascript: 1705506
     makefile: 2006
-    python: 1659165
+    python: 1661399
     shell: 0
 makefile:
     pip-installed: false

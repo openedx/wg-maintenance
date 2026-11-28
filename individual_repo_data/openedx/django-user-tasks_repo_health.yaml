@@ -1,4 +1,4 @@
-TIMESTAMP: 2026-11-27
+TIMESTAMP: 2026-11-28
 dependabot:
     exists: true
     has_ecosystem:
@@ -61,12 +61,12 @@ exists:
 git:
     absence_factor_365d: 1
     commits_365d: 6
-    lockfile_age_days: 28
+    lockfile_age_days: 29
 github:
     allows_merge_commit: true
     allows_rebase_merge: true
     allows_squash_merge: true
-    branch_count: 10
+    branch_count: 11
     build_details: '{"total_duration": "3262 minutes 30 seconds", "checks": [{"name":
         "release", "duration": "1 minutes 19 seconds"}, {"name": "call-upgrade-python-requirements-workflow
         / upgrade_requirements", "duration": "1 minutes 15 seconds"}, {"name": "run_ci
@@ -94,7 +94,7 @@ github:
     default_branch: master
     default_branch_ci_state: SUCCESS
     description: A Django application for managing user-triggered asynchronous tasks.
-    disk_usage_kb: 1198
+    disk_usage_kb: 1201
     first_timer_prs_90d: 0
     fork_count: 22
     good_first_issues_open: 0
@@ -109,15 +109,15 @@ github:
     issues_open: 3
     issues_opened_90d: 1
     issues_stale_open_180d: 2
-    last_push: 2026-11-23 00:19:07
+    last_push: 2026-11-27 14:22:40
     license: Apache License 2.0
     median_pr_response_seconds: 545585
     median_pr_time_to_merge_seconds: 259980
-    oldest_open_pr_days: 353
-    pr_closure_ratio_90d: 0.6875
-    pr_opened_90d: 16
-    prs_open: 6
-    pulls_count: 6
+    oldest_open_pr_days: 354
+    pr_closure_ratio_90d: 0.6471
+    pr_opened_90d: 17
+    prs_open: 7
+    pulls_count: 7
     release_count_12mo: 3
 github_actions: true
 language_bytes:
@@ -149,7 +149,9 @@ ownership:
 pinned_python_dependencies: 0
 readme:
     bad_links:
+    - 'https://github.com/openedx/django-user-tasks/blob/master/LICENSE.txt: 503'
     - 'https://open-edx-proposals.readthedocs.io/en/latest/oeps/oep-0003.html: 404'
+    - 'https://github.com/openedx/.github/blob/master/CONTRIBUTING.md: 503'
     getting-help: true
     good_links:
     - https://img.shields.io/pypi/v/django-user-tasks.svg
@@ -162,12 +164,10 @@ readme:
     - http://django-user-tasks.readthedocs.io/en/latest/
     - https://img.shields.io/pypi/pyversions/django-user-tasks.svg
     - https://img.shields.io/github/license/edx/django-user-tasks.svg
-    - https://github.com/openedx/django-user-tasks/blob/master/LICENSE.txt
     - http://www.celeryproject.org/
     - https://channels.readthedocs.io/en/latest/
     - http://docs.celeryproject.org/en/latest/userguide/signals.html
     - https://django-user-tasks.readthedocs.org
-    - https://github.com/openedx/.github/blob/master/CONTRIBUTING.md
     - https://open.edx.org/getting-help
     irc-missing: true
     mailing-list-missing: true
